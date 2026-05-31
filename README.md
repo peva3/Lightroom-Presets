@@ -1,6 +1,6 @@
 # Free Lightroom Presets — Film Simulation, Vintage, and Analog Film Looks
 
-A curated collection of 30 free Lightroom presets for Adobe Lightroom Classic and CC, inspired by classic film stocks, iconic camera profiles, and trending social media aesthetics. Each Lightroom film preset was reverse-engineered from real photography shared on Reddit and Instagram, then carefully dialed in against reference photos to match the original emulsion as closely as possible. Whether you're after the warm, flattering skin tones of Kodak Portra 400, the muted documentary feel of Fujifilm Classic Chrome, or the gritty high-contrast punch of Ricoh monochrome, you'll find a preset here that fits your workflow.
+A curated collection of free Lightroom presets for Adobe Lightroom Classic and CC, inspired by classic film stocks, iconic camera profiles, and trending social media aesthetics. Each Lightroom film preset was reverse-engineered from real photography shared on Reddit and Instagram, then carefully dialed in against reference photos to match the original emulsion as closely as possible. Whether you're after the warm, flattering skin tones of Kodak Portra 400, the muted documentary feel of Fujifilm Classic Chrome, or the gritty high-contrast punch of Ricoh monochrome, you'll find a preset here that fits your workflow.
 
 ## Contents
 
