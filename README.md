@@ -2,10 +2,57 @@
 
 A collection of 30 hand-tuned Lightroom presets inspired by classic film stocks, iconic camera profiles, and trending social media aesthetics. Each preset was reverse-engineered from real photography shared on Reddit and Instagram, then dialed in against reference photos to match the original emulsion or style as closely as possible.
 
+## Contents
+
+- [Installation](#installation)
+- [Usage Tips](#usage-tips)
+- Classic Color Negative Film
+  - [Fujifilm Classic Chrome](#fujifilm-classic-chrome)
+  - [Kodak Portra 400](#kodak-portra-400)
+  - [Kodak Portra 160](#kodak-portra-160)
+  - [Kodak Gold 200](#kodak-gold-200)
+  - [Fuji Superia X-TRA 400](#fuji-superia-x-tra-400)
+  - [Fujifilm Pro 400H](#fujifilm-pro-400h)
+  - [Agfa Vista 200](#agfa-vista-200)
+  - [Kodak Ektar 100](#kodak-ektar-100)
+  - [Fuji Astia 100F](#fuji-astia-100f)
+  - [Kodak Ektachrome E100](#kodak-ektachrome-e100)
+- Classic Slide Film & Vintage
+  - [Kodachrome 64](#kodachrome-64)
+  - [Fuji Velvia 50](#fuji-velvia-50)
+  - [Faded Summer / Expired Film](#faded-summer--expired-film)
+- Black & White Film
+  - [Ricoh High-Contrast Monochrome](#ricoh-high-contrast-monochrome)
+  - [Ilford HP5 Plus](#ilford-hp5-plus)
+  - [Kodak Tri-X 400](#kodak-tri-x-400)
+  - [Ilford Delta 3200](#ilford-delta-3200)
+- Night & Specialty Film
+  - [Cinestill 800T](#cinestill-800t)
+- Creative & Trending Looks
+  - [Moody PNW](#moody-pnw)
+  - [Cinematic Teal and Orange](#cinematic-teal-and-orange)
+  - [Y2K Flash Digicam](#y2k-flash-digicam)
+  - [Polaroid SX-70](#polaroid-sx-70)
+  - [Cyberpunk Neon City](#cyberpunk-neon-city)
+  - [Light and Airy Fine Art](#light-and-airy-fine-art)
+  - [Bleach Bypass](#bleach-bypass)
+  - [Lomography Cross-Processed](#lomography-cross-processed)
+  - [Pastel Anime Aethereal](#pastel-anime-aethereal)
+  - [Cinematic Dream / Pro-Mist Look](#cinematic-dream--pro-mist-look)
+  - [Matte Fade](#matte-fade)
+  - [Faux Infrared](#faux-infrared)
+- [Preset Quick Reference](#preset-quick-reference)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Installation
 
-1. Download the `.xmp` files from the `Presets/` folder in this repo.
-2. Copy them into your Lightroom Develop Presets folder:
+1. Download the `.xmp` files from the `Presets/` folder in this repo. Presets are organized into subfolders by category:
+   - `Presets/Color-Negative/` — Film stock emulations
+   - `Presets/Black-White/` — Monochrome film looks
+   - `Presets/Slide/` — Slide/transparency film
+   - `Presets/Creative/` — Trending, experimental, and non-film looks
+2. Copy the `.xmp` files into your Lightroom Develop Presets folder:
    - **macOS:** `~/Library/Application Support/Adobe/Lightroom/Develop Presets/`
    - **Windows:** `%APPDATA%\Adobe\Lightroom\Develop Presets\`
 3. Restart Lightroom. Presets will appear under the **Film Simulations** group in the Develop module.
@@ -512,38 +559,38 @@ Reproduces the surreal look of infrared photography. Greenery and foliage (green
 
 ## Preset Quick Reference
 
-| # | Preset | Type | Key Vibe |
-|---|---|---|---|
-| 01 | Fujifilm Classic Chrome | Color Neg | Muted, documentary, punchy shadows |
-| 02 | Kodak Portra 400 | Color Neg | Warm skin, soft contrast, lifted blacks |
-| 03 | Ricoh High-Contrast Monochrome | B&W | Aggressive, gritty, Moriyama-style |
-| 04 | Kodachrome 64 | Slide | Rich reds, warm nostalgic cast |
-| 05 | Fujifilm Pro 400H | Color Neg | Airy, pastel, minty greens |
-| 06 | Ilford HP5 Plus | B&W | Classic mid-tone contrast, versatile |
-| 07 | Cinestill 800T | Specialty | Tungsten night, red halation glow |
-| 08 | Kodak Portra 160 | Color Neg | Ultra-soft, matte pastel skin |
-| 09 | Kodak Gold 200 | Color Neg | 90s nostalgia, warm golden cast |
-| 10 | Fuji Superia X-TRA 400 | Color Neg | Gritty street, green shadows |
-| 11 | Kodak Tri-X 400 | B&W | Photojournalism, crisp grain |
-| 12 | Agfa Vista 200 | Color Neg | Retro color pop, cheap film charm |
-| 13 | Fuji Velvia 50 | Slide | Hyper-saturated landscapes |
-| 14 | Kodak Ektar 100 | Color Neg | Clean, modern, fine grain |
-| 15 | Fuji Astia 100F | Slide | Soft fashion, muted saturation |
-| 16 | Cinematic Dream / Pro-Mist | Creative | Bloomed highlights, milky haze |
-| 17 | Ilford Delta 3200 | B&W | Extreme grain, concert nights |
-| 18 | Faded Summer / Expired Film | Creative | Sun-bleached, heat-damaged film |
-| 19 | Moody PNW | Creative | Dark forests, atmospheric gloom |
-| 20 | Cinematic Teal and Orange | Creative | Blockbuster color grading |
-| 21 | Y2K Flash Digicam | Creative | Early-2000s direct flash |
-| 22 | Polaroid SX-70 | Creative | Soft instant film, heavy vignette |
-| 23 | Cyberpunk Neon City | Creative | Neon magenta/pink, Blade Runner |
-| 24 | Light and Airy Fine Art | Creative | High-key, dreamy, bright |
-| 25 | Bleach Bypass | Creative | Ultra-contrast, stripped color |
-| 26 | Lomography Cross-Processed | Creative | Wild color shifts, heavy vignette |
-| 27 | Pastel Anime Aethereal | Creative | Dreamy pastel, cyan skies |
-| 28 | Kodak Ektachrome E100 | Slide | Clean slide, cool blues |
-| 29 | Matte Fade | Creative | Low contrast, warm black lift |
-| 30 | Faux Infrared | B&W/Creative | Glowing white foliage, dark skies |
+| Category | Preset | Type | Key Vibe |
+|---|---|---|---|---|
+| Color-Negative | Fujifilm Classic Chrome | Color Neg | Muted, documentary, punchy shadows |
+| Color-Negative | Kodak Portra 400 | Color Neg | Warm skin, soft contrast, lifted blacks |
+| Color-Negative | Kodak Portra 160 | Color Neg | Ultra-soft, matte pastel skin |
+| Color-Negative | Kodak Gold 200 | Color Neg | 90s nostalgia, warm golden cast |
+| Color-Negative | Fuji Superia X-TRA 400 | Color Neg | Gritty street, green shadows |
+| Color-Negative | Fujifilm Pro 400H | Color Neg | Airy, pastel, minty greens |
+| Color-Negative | Agfa Vista 200 | Color Neg | Retro color pop, cheap film charm |
+| Color-Negative | Kodak Ektar 100 | Color Neg | Clean, modern, fine grain |
+| Black-White | Ricoh High-Contrast Monochrome | B&W | Aggressive, gritty, Moriyama-style |
+| Black-White | Ilford HP5 Plus | B&W | Classic mid-tone contrast, versatile |
+| Black-White | Kodak Tri-X 400 | B&W | Photojournalism, crisp grain |
+| Black-White | Ilford Delta 3200 | B&W | Extreme grain, concert nights |
+| Slide | Kodachrome 64 | Slide | Rich reds, warm nostalgic cast |
+| Slide | Fuji Velvia 50 | Slide | Hyper-saturated landscapes |
+| Slide | Fuji Astia 100F | Slide | Soft fashion, muted saturation |
+| Slide | Kodak Ektachrome E100 | Slide | Clean slide, cool blues |
+| Creative | Cinestill 800T | Specialty | Tungsten night, red halation glow |
+| Creative | Cinematic Dream / Pro-Mist | Creative | Bloomed highlights, milky haze |
+| Creative | Faded Summer / Expired Film | Creative | Sun-bleached, heat-damaged film |
+| Creative | Moody PNW | Creative | Dark forests, atmospheric gloom |
+| Creative | Cinematic Teal and Orange | Creative | Blockbuster color grading |
+| Creative | Y2K Flash Digicam | Creative | Early-2000s direct flash |
+| Creative | Polaroid SX-70 | Creative | Soft instant film, heavy vignette |
+| Creative | Cyberpunk Neon City | Creative | Neon magenta/pink, Blade Runner |
+| Creative | Light and Airy Fine Art | Creative | High-key, dreamy, bright |
+| Creative | Bleach Bypass | Creative | Ultra-contrast, stripped color |
+| Creative | Lomography Cross-Processed | Creative | Wild color shifts, heavy vignette |
+| Creative | Pastel Anime Aethereal | Creative | Dreamy pastel, cyan skies |
+| Creative | Matte Fade | Creative | Low contrast, warm black lift |
+| Creative | Faux Infrared | B&W/Creative | Glowing white foliage, dark skies |
 
 ---
 

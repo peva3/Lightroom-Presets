@@ -9,7 +9,11 @@ Thanks for helping grow this preset collection. The goal is to keep things simpl
 3. **Match the naming convention.** Use a descriptive name that conveys the film stock or look:
    - `Film Stock Name.xmp` — e.g., `Kodak Portra 400.xmp`
    - `Descriptive Look Name.xmp` — e.g., `Cinematic Teal and Orange.xmp`
-4. **Place the file in the `Presets/` folder.** All presets live in the `Presets/` directory at the repo root.
+4. **Place the file in the correct category folder under `Presets/`.**
+   - `Presets/Color-Negative/` — Film stock emulations
+   - `Presets/Black-White/` — Monochrome film looks
+   - `Presets/Slide/` — Slide/transparency film
+   - `Presets/Creative/` — Trending, experimental, and non-film looks
 
 ## Editing an Existing Preset
 
