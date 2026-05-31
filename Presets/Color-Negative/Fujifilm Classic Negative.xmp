@@ -1,0 +1,56 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+    crs:PresetType="Normal"
+    crs:Cluster=""
+    crs:UUID="278E5C735820435B873307D2B4CBB7DB"
+    crs:SupportsAmount="False"
+    crs:SupportsColor="True"
+    crs:SupportsMonochrome="True"
+    crs:SupportsHighDynamicRange="True"
+    crs:SupportsNormalDynamicRange="True"
+    crs:SupportsSceneReferred="True"
+    crs:SupportsOutputReferred="True"
+    crs:RequiresRenditionBehavior="True"
+    crs:Name="Fujifilm Classic Negative"
+    crs:HasSettings="True"
+    crs:Contrast2012="+20"
+    crs:Highlights2012="-25"
+    crs:Shadows2012="+15"
+    crs:Blacks2012="-10"
+    crs:Saturation="-20"
+    crs:Clarity2012="-15"
+    crs:Dehaze="-5"
+    crs:HueAdjustmentRed="+20"
+    crs:SaturationAdjustmentRed="-25"
+    crs:SaturationAdjustmentOrange="-10"
+    crs:SaturationAdjustmentYellow="-30"
+    crs:HueAdjustmentGreen="+15"
+    crs:SaturationAdjustmentGreen="-15"
+    crs:LuminanceAdjustmentGreen="-10"
+    crs:HueAdjustmentAqua="+10"
+    crs:SaturationAdjustmentAqua="-15"
+    crs:HueAdjustmentBlue="-15"
+    crs:SaturationAdjustmentBlue="-10"
+    crs:SplitToningShadowHue="160"
+    crs:SplitToningShadowSaturation="15"
+    crs:SplitToningHighlightHue="330"
+    crs:SplitToningHighlightSaturation="8"
+    crs:SplitToningBalance="-15"
+    crs:GrainAmount="35"
+    crs:GrainSize="40"
+    crs:GrainFrequency="60">
+   <crs:Name>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Fujifilm Classic Negative</rdf:li>
+    </rdf:Alt>
+   </crs:Name>
+   <crs:Group>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Color Negative</rdf:li>
+    </rdf:Alt>
+   </crs:Group>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.0] — 2026-05-31
+
+### Added
+- **5 new presets** based on Reddit community research across r/Lightroom, r/analog, r/postprocessing, and r/cinematography:
+  - **Color Negative** — Kodak Portra 800 (high-speed film), Kodak Ultramax 400 (punchy consumer film), Fujifilm Classic Negative (muted documentary sim)
+  - **Creative** — 1980s VHS Synthwave (retro analog video), Wong Kar-Wai 80s Hong Kong (fluorescent cinema)
+- Research documentation in `research/` folder with datasheets, community recipes, and reference pack analysis for each preset
+- `new-presets.md` — tracking pipeline for upcoming Tier 2 and Tier 3 presets
+
 ## [1.0.0] — 2026-05-31
 
 ### Added

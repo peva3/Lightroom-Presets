@@ -1,0 +1,80 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+    crs:PresetType="Normal"
+    crs:Cluster=""
+    crs:UUID="E8B7A3F2C9D04156B8E7F2A3C9D5B1E0"
+    crs:SupportsAmount="False"
+    crs:SupportsColor="True"
+    crs:SupportsMonochrome="True"
+    crs:SupportsHighDynamicRange="True"
+    crs:SupportsNormalDynamicRange="True"
+    crs:SupportsSceneReferred="True"
+    crs:SupportsOutputReferred="True"
+    crs:RequiresRenditionBehavior="True"
+    crs:Name="Wong Kar-Wai 80s Hong Kong"
+    crs:HasSettings="True"
+    crs:Exposure2012="-0.40"
+    crs:Contrast2012="+25"
+    crs:Highlights2012="-50"
+    crs:Shadows2012="+20"
+    crs:Whites2012="-15"
+    crs:Blacks2012="-40"
+    crs:Saturation="0"
+    crs:Vibrance="+10"
+    crs:Texture="-10"
+    crs:Clarity2012="-10"
+    crs:Dehaze="+5"
+    crs:HueAdjustmentRed="+15"
+    crs:HueAdjustmentOrange="-5"
+    crs:HueAdjustmentYellow="-15"
+    crs:HueAdjustmentGreen="-50"
+    crs:HueAdjustmentAqua="-15"
+    crs:HueAdjustmentBlue="+10"
+    crs:HueAdjustmentPurple="+5"
+    crs:HueAdjustmentMagenta="+15"
+    crs:SaturationAdjustmentRed="+20"
+    crs:SaturationAdjustmentOrange="-12"
+    crs:SaturationAdjustmentYellow="+15"
+    crs:SaturationAdjustmentGreen="+35"
+    crs:SaturationAdjustmentAqua="+30"
+    crs:SaturationAdjustmentBlue="+25"
+    crs:SaturationAdjustmentPurple="+15"
+    crs:SaturationAdjustmentMagenta="+35"
+    crs:LuminanceAdjustmentRed="+10"
+    crs:LuminanceAdjustmentOrange="+8"
+    crs:LuminanceAdjustmentYellow="+15"
+    crs:LuminanceAdjustmentGreen="-20"
+    crs:LuminanceAdjustmentAqua="-10"
+    crs:LuminanceAdjustmentBlue="-15"
+    crs:LuminanceAdjustmentPurple="+5"
+    crs:LuminanceAdjustmentMagenta="+15"
+    crs:SplitToningShadowHue="170"
+    crs:SplitToningShadowSaturation="20"
+    crs:SplitToningHighlightHue="190"
+    crs:SplitToningHighlightSaturation="12"
+    crs:SplitToningBalance="-15"
+    crs:GrainAmount="40"
+    crs:GrainSize="40"
+    crs:GrainFrequency="60"
+    crs:ShadowTint="0"
+    crs:RedHue="-15"
+    crs:RedSaturation="+20"
+    crs:GreenHue="-40"
+    crs:GreenSaturation="+30"
+    crs:BlueHue="+15"
+    crs:BlueSaturation="+15">
+   <crs:Name>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Wong Kar-Wai 80s Hong Kong</rdf:li>
+    </rdf:Alt>
+   </crs:Name>
+   <crs:Group>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Creative</rdf:li>
+    </rdf:Alt>
+   </crs:Group>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

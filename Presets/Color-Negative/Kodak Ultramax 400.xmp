@@ -1,0 +1,72 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+    crs:PresetType="Normal"
+    crs:Cluster=""
+    crs:UUID="88E4F42B446A44A2801C78539FDD94A5"
+    crs:SupportsAmount="False"
+    crs:SupportsColor="True"
+    crs:SupportsMonochrome="True"
+    crs:SupportsHighDynamicRange="True"
+    crs:SupportsNormalDynamicRange="True"
+    crs:SupportsSceneReferred="True"
+    crs:SupportsOutputReferred="True"
+    crs:RequiresRenditionBehavior="True"
+    crs:Name="Kodak Ultramax 400"
+    crs:HasSettings="True"
+    crs:Contrast2012="+20"
+    crs:Highlights2012="-25"
+    crs:Shadows2012="+15"
+    crs:Whites2012="+10"
+    crs:Blacks2012="-15"
+    crs:Saturation="-3"
+    crs:Vibrance="+15"
+    crs:Texture="-10"
+    crs:Clarity2012="-5"
+    crs:Dehaze="+5"
+    crs:HueAdjustmentRed="+5"
+    crs:SaturationAdjustmentRed="+18"
+    crs:LuminanceAdjustmentRed="-5"
+    crs:HueAdjustmentOrange="-5"
+    crs:SaturationAdjustmentOrange="+22"
+    crs:LuminanceAdjustmentOrange="-3"
+    crs:HueAdjustmentYellow="-10"
+    crs:SaturationAdjustmentYellow="+12"
+    crs:LuminanceAdjustmentYellow="-8"
+    crs:HueAdjustmentGreen="-18"
+    crs:SaturationAdjustmentGreen="-8"
+    crs:LuminanceAdjustmentGreen="-12"
+    crs:HueAdjustmentAqua="-8"
+    crs:SaturationAdjustmentAqua="-10"
+    crs:LuminanceAdjustmentAqua="+5"
+    crs:HueAdjustmentBlue="+3"
+    crs:SaturationAdjustmentBlue="-8"
+    crs:LuminanceAdjustmentBlue="-12"
+    crs:HueAdjustmentPurple="+5"
+    crs:SaturationAdjustmentPurple="-12"
+    crs:LuminanceAdjustmentPurple="+5"
+    crs:HueAdjustmentMagenta="+5"
+    crs:SaturationAdjustmentMagenta="-5"
+    crs:LuminanceAdjustmentMagenta="0"
+    crs:SplitToningShadowHue="205"
+    crs:SplitToningShadowSaturation="12"
+    crs:SplitToningHighlightHue="42"
+    crs:SplitToningHighlightSaturation="18"
+    crs:SplitToningBalance="+20"
+    crs:GrainAmount="32"
+    crs:GrainSize="30"
+    crs:GrainFrequency="55">
+   <crs:Name>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Kodak Ultramax 400</rdf:li>
+    </rdf:Alt>
+   </crs:Name>
+   <crs:Group>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Color Negative</rdf:li>
+    </rdf:Alt>
+   </crs:Group>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

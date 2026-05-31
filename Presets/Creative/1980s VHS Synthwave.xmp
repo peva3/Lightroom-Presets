@@ -1,0 +1,82 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+    crs:PresetType="Normal"
+    crs:Cluster=""
+    crs:UUID="10266C01A199423D80D8EF1D437CEA44"
+    crs:SupportsAmount="False"
+    crs:SupportsColor="True"
+    crs:SupportsMonochrome="True"
+    crs:SupportsHighDynamicRange="True"
+    crs:SupportsNormalDynamicRange="True"
+    crs:SupportsSceneReferred="True"
+    crs:SupportsOutputReferred="True"
+    crs:RequiresRenditionBehavior="True"
+    crs:Name="1980s VHS Synthwave"
+    crs:HasSettings="True"
+    crs:Exposure2012="+0.25"
+    crs:Contrast2012="+35"
+    crs:Highlights2012="-100"
+    crs:Shadows2012="+55"
+    crs:Whites2012="+40"
+    crs:Blacks2012="-45"
+    crs:Saturation="-8"
+    crs:Vibrance="+25"
+    crs:HueAdjustmentRed="+20"
+    crs:HueAdjustmentOrange="-10"
+    crs:HueAdjustmentYellow="-5"
+    crs:HueAdjustmentGreen="-50"
+    crs:HueAdjustmentAqua="+12"
+    crs:HueAdjustmentBlue="-18"
+    crs:HueAdjustmentPurple="+25"
+    crs:HueAdjustmentMagenta="+10"
+    crs:SaturationAdjustmentRed="+20"
+    crs:SaturationAdjustmentOrange="+15"
+    crs:SaturationAdjustmentYellow="-15"
+    crs:SaturationAdjustmentGreen="-70"
+    crs:SaturationAdjustmentAqua="+30"
+    crs:SaturationAdjustmentBlue="-10"
+    crs:SaturationAdjustmentPurple="+30"
+    crs:SaturationAdjustmentMagenta="+40"
+    crs:LuminanceAdjustmentRed="-5"
+    crs:LuminanceAdjustmentYellow="+10"
+    crs:LuminanceAdjustmentGreen="-15"
+    crs:LuminanceAdjustmentAqua="+15"
+    crs:LuminanceAdjustmentBlue="-15"
+    crs:LuminanceAdjustmentPurple="-5"
+    crs:LuminanceAdjustmentMagenta="+10"
+    crs:SplitToningHighlightHue="310"
+    crs:SplitToningHighlightSaturation="38"
+    crs:SplitToningShadowHue="195"
+    crs:SplitToningShadowSaturation="28"
+    crs:SplitToningBalance="+35"
+    crs:ShadowTint="+15"
+    crs:RedHue="+45"
+    crs:RedSaturation="+18"
+    crs:GreenHue="-45"
+    crs:GreenSaturation="-35"
+    crs:BlueHue="-20"
+    crs:BlueSaturation="+15"
+    crs:Texture="-20"
+    crs:Clarity2012="-35"
+    crs:Dehaze="-20"
+    crs:GrainAmount="55"
+    crs:GrainSize="45"
+    crs:GrainFrequency="75"
+    crs:PostCropVignetteAmount="-20"
+    crs:PostCropVignetteMidpoint="40"
+    crs:PostCropVignetteFeather="60">
+   <crs:Name>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">1980s VHS Synthwave</rdf:li>
+    </rdf:Alt>
+   </crs:Name>
+   <crs:Group>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Creative</rdf:li>
+    </rdf:Alt>
+   </crs:Group>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

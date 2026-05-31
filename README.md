@@ -15,6 +15,9 @@ A curated collection of free Lightroom presets for Adobe Lightroom Classic and C
   - [Fujifilm Pro 400H](#fujifilm-pro-400h)
   - [Agfa Vista 200](#agfa-vista-200)
   - [Kodak Ektar 100](#kodak-ektar-100)
+  - [Kodak Portra 800](#kodak-portra-800)
+  - [Fujifilm Classic Negative](#fujifilm-classic-negative)
+  - [Kodak Ultramax 400](#kodak-ultramax-400)
   - [Fuji Astia 100F](#fuji-astia-100f)
   - [Kodak Ektachrome E100](#kodak-ektachrome-e100)
 - Classic Slide Film & Vintage Presets
@@ -41,6 +44,8 @@ A curated collection of free Lightroom presets for Adobe Lightroom Classic and C
   - [Cinematic Dream / Pro-Mist Look](#cinematic-dream--pro-mist-look)
   - [Matte Fade](#matte-fade)
   - [Faux Infrared](#faux-infrared)
+  - [1980s VHS Synthwave](#1980s-vhs-synthwave)
+  - [Wong Kar-Wai 80s Hong Kong](#wong-kar-wai-80s-hong-kong)
 - [Preset Quick Reference](#preset-quick-reference)
 - [Contributing](#contributing)
 - [License](#license)
@@ -199,35 +204,54 @@ Marketed as having the tightest grain of any color negative film. Ektar delivers
 
 ---
 
-### Fuji Astia 100F
+### Kodak Portra 800
 
-*Soft fashion — Fuji's answer to portrait slide film.*
+*High-speed professional film with exceptional low-light latitude and rich, warm tones.*
 
-Astia tames the extreme contrast of other Fuji slide films. Muted saturation, smooth highlight roll-offs, and brilliant skin tones make it ideal for fashion editorials with natural light.
+The only high-speed C-41 color negative film still in production. Portra 800 builds on Portra 400's DNA but with warmer baseline color, higher native contrast, and a distinctive purple/magenta shadow tint. Pushed to 3200 it takes on a gritty, high-energy character favored by concert and nightlife photographers.
 
 **Settings:**
 | Panel | Adjustments |
 |---|---|
-| Light | Contrast -5, Highlights -20, Shadows +15, Blacks +5 |
-| Color | Vibrance +10, Saturation -10 |
-| HSL | Orange Lum +15, Blue + Green Sat -15 |
-| Effects | Texture -5, Grain 10 |
+| Light | Exposure +0.20, Contrast -5, Highlights -55, Shadows +40, Whites -15, Blacks -15 |
+| Color | Vibrance +5, Saturation +10 |
+| HSL | Red Sat -15 / Lum +15, Orange Sat -10 / Lum +25, Yellow Hue -15 / Sat -20 / Lum +10, Green Hue -20 / Sat -30, Blue Hue -10 / Sat -10 / Lum -15 |
+| Color Grading | Shadows: Hue 285 / Sat 10, Highlights: Hue 50 / Sat 8, Balance +50 |
+| Effects | Grain 35 / 40 / 50 |
 
 ---
 
-### Kodak Ektachrome E100
+### Fujifilm Classic Negative
 
-*Clean slide film with cool-leaning blues and crisp contrast.*
+*Highly muted, high-dynamic-range film simulation with signature green-shifted shadows.*
 
-Ektachrome was recently resurrected by Kodak and delivers a clean, modern slide-film look. Strong contrast, deep cool blues, and punchy reds give it that unmistakable transparency-film character.
+The single most requested Fuji film sim by non-Fuji shooters. Very different from Classic Chrome — contrast is harder, saturation is much lower, and shadows carry a distinctive green-cyan cast that can't be replicated with white balance alone. Based on Fujicolor Superia consumer film. Think 90s Japanese documentary and street photography.
 
 **Settings:**
 | Panel | Adjustments |
 |---|---|
-| Light | Contrast +25, Highlights -15, Shadows -10, Blacks -15 |
-| Color | Vibrance +15 |
-| HSL | Blue Sat +20 / Lum -10, Red Sat +15, Yellow Sat +10 |
-| Effects | Clarity +10 |
+| Light | Contrast +20, Highlights -25, Shadows +15, Blacks -10 |
+| Color | Saturation -20 |
+| HSL | Red Hue +20 / Sat -25, Orange Sat -10, Yellow Sat -30, Green Hue +15 / Sat -15 / Lum -10, Aqua Hue +10 / Sat -15, Blue Hue -15 / Sat -10 |
+| Color Grading | Shadows: Hue 160 / Sat 15, Highlights: Hue 330 / Sat 8, Balance -15 |
+| Effects | Clarity -15, Dehaze -5, Grain 35 / 40 / 60 |
+
+---
+
+### Kodak Ultramax 400
+
+*Punchy consumer film with saturated warmth — the "golden hour in a can" look.*
+
+The accessible everyday alternative to Portra. Ultramax hits harder on contrast, pushes reds and oranges to vivid levels, and casts shadows toward teal while bathing midtones and highlights in warm golden light. More visible grain than professional stocks gives it an unpolished, nostalgic character. Great for road trips, parties, and casual portraits.
+
+**Settings:**
+| Panel | Adjustments |
+|---|---|
+| Light | Contrast +20, Highlights -25, Shadows +15, Whites +10, Blacks -15 |
+| Color | Saturation -3, Vibrance +15 |
+| HSL | Red Hue +5 / Sat +18 / Lum -5, Orange Sat +22, Yellow Hue -10 / Sat +12 / Lum -8, Green Hue -18 / Sat -8 / Lum -12, Blue Sat -8 / Lum -12 |
+| Color Grading | Shadows: Hue 205 / Sat 12, Highlights: Hue 42 / Sat 18, Balance +20 |
+| Effects | Texture -10, Clarity -5, Dehaze +5, Grain 32 / 30 / 55 |
 
 ---
 
@@ -558,11 +582,48 @@ Reproduces the surreal look of infrared photography. Greenery and foliage (green
 
 ---
 
+### 1980s VHS Synthwave
+
+*Retro analog video aesthetic with chroma bleed, crushed neons, and blown-out bloom.*
+
+A heavy stylization inspired by Drive, Stranger Things, and synthwave album art. Highlights are blown out and tinted magenta-pink, shadows crushed into cyan with lifted mid-blacks, and natural greens are nearly eliminated while magenta, aqua, and purple saturate to neon levels. Heavy grain mimics analog tape noise rather than film texture.
+
+**Settings:**
+| Panel | Adjustments |
+|---|---|
+| Light | Exposure +0.25, Contrast +35, Highlights -100, Shadows +55, Whites +40, Blacks -45 |
+| Color | Saturation -8, Vibrance +25 |
+| HSL | Red Hue +20 / Sat +20, Green Hue -50 / Sat -70 / Lum -15, Aqua Sat +30 / Lum +15, Blue Hue -18, Purple Sat +30, Magenta Sat +40 / Lum +10 |
+| Color Grading | Shadows: Hue 195 / Sat 28, Highlights: Hue 310 / Sat 38, Balance +35 |
+| Calibration | Shadow Tint +15, Red Hue +45 / Sat +18, Green Hue -45 / Sat -35, Blue Hue -20 / Sat +15 |
+| Effects | Texture -20, Clarity -35, Dehaze -20, Grain 55 / 45 / 75, Vignette -20 |
+
+---
+
+### Wong Kar-Wai 80s Hong Kong
+
+*Fluorescent-soaked cinema aesthetic with saturated green shadows and blooming highlights.*
+
+Channeling Christopher Doyle's cinematography for Wong Kar-Wai's films — Chungking Express, Fallen Angels, In the Mood for Love. Green primary calibration shifts create the signature "Doyle Green" in shadows (tungsten film under uncorrected fluorescent light). Warm skin tones pop against heavily cool environments, highlights bloom softly, and blacks crush hard for that intoxicating 80s Hong Kong cinema look.
+
+**Settings:**
+| Panel | Adjustments |
+|---|---|
+| Light | Exposure -0.40, Contrast +25, Highlights -50, Shadows +20, Whites -15, Blacks -40 |
+| Color | Saturation 0, Vibrance +10 |
+| HSL | Red Hue +15 / Sat +20 / Lum +10, Orange Sat -12 / Lum +8, Yellow Hue -15 / Sat +15 / Lum +15, Green Hue -50 / Sat +35 / Lum -20, Aqua Hue -15 / Sat +30 / Lum -10, Blue Hue +10 / Sat +25 / Lum -15, Magenta Hue +15 / Sat +35 / Lum +15 |
+| Color Grading | Shadows: Hue 170 / Sat 20, Highlights: Hue 190 / Sat 12, Balance -15 |
+| Calibration | Red Hue -15 / Sat +20, Green Hue -40 / Sat +30, Blue Hue +15 / Sat +15 |
+| Effects | Texture -10, Clarity -10, Dehaze +5, Grain 40 / 40 / 60 |
+
+---
+
 ## Preset Quick Reference
 
 | Category | Preset | Type | Key Vibe |
 |---|---|---|---|---|
 | Color-Negative | Fujifilm Classic Chrome | Color Neg | Muted, documentary, punchy shadows |
+| Color-Negative | Fujifilm Classic Negative | Color Neg | Muted, green shadows, high DR |
 | Color-Negative | Kodak Portra 400 | Color Neg | Warm skin, soft contrast, lifted blacks |
 | Color-Negative | Kodak Portra 160 | Color Neg | Ultra-soft, matte pastel skin |
 | Color-Negative | Kodak Gold 200 | Color Neg | 90s nostalgia, warm golden cast |
@@ -570,6 +631,8 @@ Reproduces the surreal look of infrared photography. Greenery and foliage (green
 | Color-Negative | Fujifilm Pro 400H | Color Neg | Airy, pastel, minty greens |
 | Color-Negative | Agfa Vista 200 | Color Neg | Retro color pop, cheap film charm |
 | Color-Negative | Kodak Ektar 100 | Color Neg | Clean, modern, fine grain |
+| Color-Negative | Kodak Portra 800 | Color Neg | Warm high-speed, purple shadows |
+| Color-Negative | Kodak Ultramax 400 | Color Neg | Punchy consumer film, golden cast |
 | Black-White | Ricoh High-Contrast Monochrome | B&W | Aggressive, gritty, Moriyama-style |
 | Black-White | Ilford HP5 Plus | B&W | Classic mid-tone contrast, versatile |
 | Black-White | Kodak Tri-X 400 | B&W | Photojournalism, crisp grain |
@@ -578,6 +641,7 @@ Reproduces the surreal look of infrared photography. Greenery and foliage (green
 | Slide | Fuji Velvia 50 | Slide | Hyper-saturated landscapes |
 | Slide | Fuji Astia 100F | Slide | Soft fashion, muted saturation |
 | Slide | Kodak Ektachrome E100 | Slide | Clean slide, cool blues |
+| Creative | 1980s VHS Synthwave | Creative | Retro analog video, neon bloom |
 | Creative | Cinestill 800T | Specialty | Tungsten night, red halation glow |
 | Creative | Cinematic Dream / Pro-Mist | Creative | Bloomed highlights, milky haze |
 | Creative | Faded Summer / Expired Film | Creative | Sun-bleached, heat-damaged film |
@@ -585,6 +649,7 @@ Reproduces the surreal look of infrared photography. Greenery and foliage (green
 | Creative | Cinematic Teal and Orange | Creative | Blockbuster color grading |
 | Creative | Y2K Flash Digicam | Creative | Early-2000s direct flash |
 | Creative | Polaroid SX-70 | Creative | Soft instant film, heavy vignette |
+| Creative | Wong Kar-Wai 80s Hong Kong | Creative | Fluorescent green shadows, HK cinema |
 | Creative | Cyberpunk Neon City | Creative | Neon magenta/pink, Blade Runner |
 | Creative | Light and Airy Fine Art | Creative | High-key, dreamy, bright |
 | Creative | Bleach Bypass | Creative | Ultra-contrast, stripped color |
@@ -617,13 +682,13 @@ MIT — see [LICENSE](LICENSE) for the full text. Basically: use these presets h
 
 These free Lightroom presets span a wide range of analog film photography styles and modern editing trends:
 
-- **Film simulation presets** — Kodak Portra 400, Portra 160, Kodak Gold 200, Kodak Ektar 100, Kodak Tri-X 400, Fujifilm Classic Chrome, Fujifilm Pro 400H, Fuji Superia X-TRA 400, Fuji Velvia 50, Fuji Astia 100F, Agfa Vista 200
+- **Film simulation presets** — Kodak Portra 400, Portra 160, Kodak Gold 200, Kodak Ektar 100, Kodak Portra 800, Kodak Ultramax 400, Fujifilm Classic Negative, Kodak Tri-X 400, Fujifilm Classic Chrome, Fujifilm Pro 400H, Fuji Superia X-TRA 400, Fuji Velvia 50, Fuji Astia 100F, Agfa Vista 200
 - **Slide film presets** — Kodachrome 64, Kodak Ektachrome E100, Velvia 50
 - **Black and white presets** — Ilford HP5 Plus, Ilford Delta 3200, Ricoh High-Contrast Monochrome, Tri-X B&W
 - **Vintage and retro presets** — Polaroid SX-70, Y2K flash digicam, Faded Summer expired film look, Lomography cross-processed
-- **Cinematic color grading presets** — Teal and orange blockbuster grade, Pro-Mist diffusion, Bleach Bypass
+- **Cinematic color grading presets** — Teal and orange blockbuster grade, Pro-Mist diffusion, Bleach Bypass, VHS Synthwave retro video, Wong Kar-Wai 80s Hong Kong cinema
 - **Moody and atmospheric presets** — Moody PNW, Cyberpunk neon city, Pastel anime aethereal, Light and airy fine art, Matte fade
-- **Specialty presets** — Cinestill 800T night photography, Faux infrared
+- **Specialty presets** — Cinestill 800T night photography, Faux infrared, Portra 800 pushed night photography
 
 All presets are provided as `.xmp` files compatible with Adobe Lightroom Classic, Lightroom CC (cloud), and Adobe Camera Raw.
 
