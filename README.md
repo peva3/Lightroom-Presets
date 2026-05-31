@@ -4,7 +4,7 @@ A collection of 30 hand-tuned Lightroom presets inspired by classic film stocks,
 
 ## Installation
 
-1. Download the `.xmp` files from this repo.
+1. Download the `.xmp` files from the `Presets/` folder in this repo.
 2. Copy them into your Lightroom Develop Presets folder:
    - **macOS:** `~/Library/Application Support/Adobe/Lightroom/Develop Presets/`
    - **Windows:** `%APPDATA%\Adobe\Lightroom\Develop Presets\`
