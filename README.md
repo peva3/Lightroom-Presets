@@ -17,6 +17,11 @@ A curated collection of free Lightroom presets for Adobe Lightroom Classic and C
   - [Kodak Ektar 100](#kodak-ektar-100)
   - [Kodak Portra 800](#kodak-portra-800)
   - [Fujifilm Classic Negative](#fujifilm-classic-negative)
+  - [Fuji Natura 1600](#fuji-natura-1600)
+  - [Fuji Reala 100](#fuji-reala-100)
+  - [Fuji Superia 1600](#fuji-superia-1600)
+  - [Kodak Vision3 250D](#kodak-vision3-250d)
+  - [Lomochrome Purple](#lomochrome-purple)
   - [Kodak Ultramax 400](#kodak-ultramax-400)
   - [Fuji Astia 100F](#fuji-astia-100f)
   - [Kodak Ektachrome E100](#kodak-ektachrome-e100)
@@ -29,6 +34,8 @@ A curated collection of free Lightroom presets for Adobe Lightroom Classic and C
   - [Ilford HP5 Plus](#ilford-hp5-plus)
   - [Kodak Tri-X 400](#kodak-tri-x-400)
   - [Ilford Delta 3200](#ilford-delta-3200)
+  - [Fujifilm Acros](#fujifilm-acros)
+  - [Kodak T-Max 3200](#kodak-t-max-3200)
 - Night & Specialty Film Presets
   - [Cinestill 800T](#cinestill-800t)
 - Creative & Trending Lightroom Looks
@@ -46,6 +53,12 @@ A curated collection of free Lightroom presets for Adobe Lightroom Classic and C
   - [Faux Infrared](#faux-infrared)
   - [1980s VHS Synthwave](#1980s-vhs-synthwave)
   - [Wong Kar-Wai 80s Hong Kong](#wong-kar-wai-80s-hong-kong)
+  - [Canon Color Science](#canon-color-science)
+  - [Cross-Processed Velvia](#cross-processed-velvia)
+  - [Disposable Camera Flash](#disposable-camera-flash)
+  - [Kodak Aerochrome](#kodak-aerochrome)
+  - [Super 8 Home Movie](#super-8-home-movie)
+  - [Wes Anderson Pastel](#wes-anderson-pastel)
 - [Preset Quick Reference](#preset-quick-reference)
 - [Contributing](#contributing)
 - [License](#license)
@@ -255,6 +268,92 @@ The accessible everyday alternative to Portra. Ultramax hits harder on contrast,
 
 ---
 
+### Fuji Natura 1600
+
+*Cool-balanced high-speed film with cinematic grain and natural skin under mixed light.*
+
+The ultimate lost low-light stock — ISO 1600 with genuinely usable grain, discontinued with no replacement. Natura 1600 renders colors cool-to-neutral, never warm like Portra 800. Shadows are slightly lifted, highlights roll off gracefully, and the grain is surprisingly fine for its speed. Perfect for night portrait, concert, and urban low-light photography.
+
+**Settings:**
+| Panel | Adjustments |
+|---|---|
+| Light | Exposure +0.20, Contrast -15, Highlights -40, Shadows +40, Blacks -15 |
+| Color | Saturation 0, Vibrance +5 |
+| HSL | Green Hue +15 / Sat -20 / Lum +5, Blue Hue -5 / Sat -10 / Lum -10, Orange Sat -10 / Lum +15 |
+| Color Grading | Shadows: Hue 215 / Sat 8, Highlights: Hue 30 / Sat 6, Balance -10 |
+| Effects | Grain 30 / 30 / 55 |
+
+---
+
+### Fuji Reala 100
+
+*Neutral-accurate color negative with the legendary 4th cyan-sensitive layer.*
+
+Reala was Fuji's color-accurate masterpiece — a 4th color layer gave it unmatched color separation, especially under fluorescent light. Unlike Portra's warm bias, Reala stays neutral. Skin tones are rendered cleanly, foliage is natural, and the overall impression is of accurate-but-pleasing color. Discontinued and irreplaceable.
+
+**Settings:**
+| Panel | Adjustments |
+|---|---|
+| Light | Contrast -10, Highlights -25, Shadows +20, Blacks +5 |
+| Color | Saturation -5, Vibrance +5 |
+| HSL | Red Sat -5, Green Sat -10 / Lum +10, Blue Sat -5 |
+| Color Grading | Shadows: Hue 210 / Sat 5, Highlights: Hue 40 / Sat 8 |
+| Effects | Grain 15 / 20 / 25 |
+
+---
+
+### Fuji Superia 1600
+
+*Punchy high-speed consumer film with a cool cyan cast and painterly grain.*
+
+The last high-speed consumer color film before Natura took the crown. Superia 1600 (Press 1600) delivers surprising saturation at speed with a distinctive cool cyan/blue cast. Greens and blues pop, skin stays natural, and the grain is organic and "painterly." Shadows shift toward teal; highlights stay warm enough to avoid a clinical look.
+
+**Settings:**
+| Panel | Adjustments |
+|---|---|
+| Light | Contrast +25, Highlights -35, Shadows +20, Blacks -18 |
+| Color | Saturation +5, Vibrance +10 |
+| HSL | Green Hue +15 / Sat +20, Blue Sat +15, Orange Sat +10 / Lum +10, Red Sat +15 |
+| Color Grading | Shadows: Hue 210 / Sat 12, Highlights: Hue 40 / Sat 6, Balance -10 |
+| Effects | Grain 40 / 40 / 60 |
+
+---
+
+### Kodak Vision3 250D
+
+*Cinematic daylight film — warm highlights, cool shadows, rich S-curve contrast.*
+
+Kodak's motion picture 250D (5207) daylight stock, the foundation of countless feature films. It combines fine grain, rich contrast, and a distinctive warm-cool tension: highlights glow golden, shadows stay blue-teal. Skin takes on a pink-gold quality. The S-curve is aggressive but never harsh — designed to compress a 13-stop scene into a printable range.
+
+**Settings:**
+| Panel | Adjustments |
+|---|---|
+| Light | Exposure +0.20, Contrast +30, Highlights -50, Shadows +22, Whites -18, Blacks -20 |
+| Color | Saturation 0, Vibrance +5 |
+| HSL | Green Hue +15 / Sat -18 / Lum -5, Orange Hue +10 / Sat -8 / Lum -10 |
+| Color Grading | Shadows: Hue 210 / Sat 8, Highlights: Hue 45 / Sat 10 |
+| Effects | Texture -10, Clarity -5, Grain 20 / 30 / 50 |
+
+---
+
+### Lomochrome Purple
+
+*The original formula's green-to-purple channel swap — surreal foliage, not a magic tint.*
+
+Lomography's most famous film renders green foliage as deep purple/magenta, blues toward cyan/teal, and yellows toward pink — while warm tones (skin, earth) stay natural. This preset targets the original 2013 formula, which had more dramatic color shifts than later batches.
+
+**Settings:**
+| Panel | Adjustments |
+|---|---|
+| Light | Contrast +20, Highlights -15, Shadows -10, Blacks -20 |
+| Color | Saturation +15, Vibrance +10 |
+| HSL | Green Hue +100 / Sat +35 / Lum -15, Blue Hue -100 / Sat -45 / Lum +15, Yellow Hue +35 / Sat +18, Red Sat -5, Orange Sat -5 |
+| Color Grading | Shadows: Hue 270 / Sat 20, Highlights: Hue 300 / Sat 15 |
+| Calibration | Shadow Tint +15, Red Hue +25 / Sat +10, Green Hue +100 / Sat +20, Blue Hue -100 / Sat -15 |
+| Effects | Grain 45 / 30 / 60 |
+
+---
+
 ## Classic Slide Film & Vintage Presets
 
 ### Kodachrome 64
@@ -368,6 +467,38 @@ Shot at ISO 3200 in dark clubs and alleys. Low contrast, soft textures, lifted b
 |---|---|
 | Light | Contrast -10, Highlights -30, Shadows +25, Whites -10, Blacks +20 |
 | Effects | Texture -10, Clarity -15, Grain 75 / 60 / 75 |
+| Profile | Adobe Monochrome |
+
+---
+
+### Fujifilm Acros
+
+*Fine-grained B&W with rich midtones and exceptional shadow detail.*
+
+Fuji's celebrated B&W film and in-camera simulation. Acros captures extended shadow detail with fine, tight grain and a neutral-to-warm tonal scale. Extended red sensitivity gives it unique rendering of skin and landscapes. This preset targets the classic Acros 100 look.
+
+**Settings:**
+| Panel | Adjustments |
+|---|---|
+| Light | Contrast 0, Highlights -35, Shadows +35, Whites +15, Blacks -30 |
+| B&W Mixer | Red +20, Orange +10, Green +10, Yellow +5, Blue -15, Aqua -10 |
+| Effects | Texture +10, Clarity +15, Grain 20 / 25 / 50 |
+| Profile | Adobe Monochrome |
+
+---
+
+### Kodak T-Max 3200
+
+*Ultra-high-speed T-grain B&W with crushed shadows and structured grain.*
+
+T-Max 3200 (true ISO ~800-1000, rated at 3200) uses Kodak's T-grain technology for sharp, tabular grain that's distinct from Delta 3200's softer epitaxial grain. The look is high-contrast, shadow-crushed, with extended red sensitivity. Pushable to 12800+ for genuine low-light performance.
+
+**Settings:**
+| Panel | Adjustments |
+|---|---|
+| Light | Contrast +30, Highlights -20, Shadows -25, Whites +20, Blacks -30 |
+| B&W Mixer | Red +20, Orange +15, Yellow +15, Green +5, Blue -25, Aqua -15 |
+| Effects | Texture +10, Clarity +15, Grain 55 / 40 / 70 |
 | Profile | Adobe Monochrome |
 
 ---
@@ -618,6 +749,110 @@ Channeling Christopher Doyle's cinematography for Wong Kar-Wai's films — Chung
 
 ---
 
+### Super 8 Home Movie
+
+*Warm, soft, grainy — the look of old family reels on Kodachrome 64T.*
+
+A nostalgic aesthetic dominating wedding and lifestyle photography. Super 8 renders with soft, blooming highlights, lifted matte shadows, warm golden tones, and heavy grain. Low contrast and negative clarity create the characteristic "home movie" diffusion.
+
+**Settings:**
+| Panel | Adjustments |
+|---|---|
+| Light | Exposure +0.20, Contrast -20, Highlights -50, Shadows +30, Whites -20, Blacks +18 |
+| Color | Saturation -15, Vibrance -10 |
+| HSL | Orange Hue +8 / Sat -10 / Lum +10, Yellow Hue -8 / Sat -15, Green Hue +15 / Sat -28 / Lum -18, Blue Hue +10 / Sat -22 / Lum -10 |
+| Color Grading | Shadows: Hue 220 / Sat 8, Highlights: Hue 48 / Sat 12, Balance +22 |
+| Calibration | Shadow Tint +6, Red Hue +20 / Sat -10, Green Hue -15 / Sat -20, Blue Hue -18 / Sat -28 |
+| Effects | Texture -18, Clarity -25, Dehaze -15, Grain 50 / 32 / 70, Vignette -22 |
+
+---
+
+### Disposable Camera Flash
+
+*Harsh direct flash on cheap consumer film — plastic lens, lifted blacks, warm bloom.*
+
+The analog cousin of Y2K digicam. A Fuji QuickSnap or Kodak FunSaver look — plastic lens softness, warm golden cast from ISO 800 consumer film, lifted blacks from cheap scanning, and heavy vignette from the simple lens. Negative clarity and texture create the soft, blooming flash highlights.
+
+**Settings:**
+| Panel | Adjustments |
+|---|---|
+| Light | Exposure +0.10, Contrast -25, Highlights -45, Shadows +35, Whites +10, Blacks +35 |
+| Color | Saturation -5, Vibrance +15 |
+| HSL | Red Hue +8 / Sat +12, Orange Sat +18, Yellow Hue -5 / Sat +10, Green Hue -12 / Sat -15, Aqua Sat -10, Blue Sat -10 |
+| Color Grading | Shadows: Hue 35 / Sat 12, Highlights: Hue 45 / Sat 18 |
+| Effects | Texture -20, Clarity -40, Dehaze -15, Grain 50 / 30 / 60, Vignette -25 |
+
+---
+
+### Cross-Processed Velvia
+
+*Velvia 50 developed in C-41 chemistry — green-emerald shadows, magenta highlights, extreme contrast.*
+
+Cross-processing E-6 slide film in C-41 chemistry creates wild, unpredictable color shifts. This preset targets Velvia 50's signature behavior: extreme contrast, green-emerald shadows, magenta-purple highlights. Different from every other cross-processed look — Velvia goes the most "unhinged" of all slide films in C-41.
+
+**Settings:**
+| Panel | Adjustments |
+|---|---|
+| Light | Exposure -0.30, Contrast +35, Highlights -15, Shadows -20, Whites +10, Blacks -30 |
+| Color | Saturation +20, Vibrance +15 |
+| HSL | Green Hue -45 / Sat +35, Blue Hue +10 / Sat +20, Magenta Hue -20 / Sat +30 |
+| Color Grading | Shadows: Hue 130 / Sat 30, Highlights: Hue 320 / Sat 25, Balance -10 |
+| Calibration | Shadow Tint +10, Red Hue +5 / Sat +20, Green Hue -50 / Sat +40, Blue Hue +15 / Sat +25 |
+| Effects | Grain 35 / 30 / 50 |
+
+---
+
+### Kodak Aerochrome
+
+*False-color infrared — magenta foliage, cyan skies, surreal landscapes.*
+
+Originally an aerial surveillance film, Aerochrome renders healthy vegetation as hot pink/magenta, skies as cyan/turquoise, and non-vegetative surfaces as white/cream. This digital recreation uses aggressive HSL channel shifts to map greenery toward magenta and blues toward cyan, preserving the dreamlike false-color IR aesthetic.
+
+**Settings:**
+| Panel | Adjustments |
+|---|---|
+| Light | Contrast +25, Highlights -20, Shadows -10, Blacks -15 |
+| Color | Vibrance +25, Saturation +10 |
+| HSL | Green Hue +120 / Sat +40 / Lum -15, Yellow Hue +35 / Sat +20, Blue Hue -35 / Sat +30, Aqua Hue -20 / Sat +25, Red Sat +20 |
+| Color Grading | Shadows: Hue 290 / Sat 15, Highlights: Hue 60 / Sat 20 |
+| Calibration | Shadow Tint -10, Red Hue -10 / Sat +25, Green Hue +90 / Sat +35, Blue Hue +20 / Sat +20 |
+| Effects | Texture +10, Clarity +10, Grain 30 / 25 / 40 |
+
+---
+
+### Wes Anderson Pastel
+
+*Compressed tonal range, pastel orange-teal split, and a toy-like illustrated palette.*
+
+Channeling the color philosophy of The Grand Budapest Hotel, Moonrise Kingdom, and Asteroid City. Contrast is flattened, highlights compressed, and colors shifted toward pastel versions of the classic teal/orange split. The result is a warm, soft, "pop-up book" aesthetic with whimsical charm.
+
+**Settings:**
+| Panel | Adjustments |
+|---|---|
+| Light | Exposure +0.20, Contrast -25, Highlights -35, Shadows +30, Whites +10, Blacks +20 |
+| Color | Saturation -10, Vibrance +15 |
+| HSL | Red Hue +10 / Sat -10, Orange Hue -10 / Sat -15, Yellow Hue -10 / Sat -20, Green Hue +20 / Sat -15, Blue Hue +10 / Sat -10, Magenta Hue +10 / Sat -5 |
+| Color Grading | Shadows: Hue 200 / Sat 10, Highlights: Hue 45 / Sat 15, Balance +5 |
+| Effects | Texture -10, Clarity -20, Grain 20 / 30 / 50 |
+
+---
+
+### Canon Color Science
+
+*Warm skin tones and magenta-leaning reds — Canon's color signature for Sony and other RAWs.*
+
+The most-requested camera-to-camera cross-grade. Canon's color science renders skin with a subtle warmth and reds with a distinctive magenta bias, while Sony's default profile can look green/cool by comparison. This preset uses calibration panel shifts to nudge Sony/Nikon/Leica RAW files toward Canon's beloved color rendering.
+
+**Settings:**
+| Panel | Adjustments |
+|---|---|
+| Color | WB slightly warm, Tint +5 Magenta, Vibrance +10 |
+| Calibration | Shadow Tint +5, Red Hue -8 / Sat +15, Green Hue -10 / Sat -22, Blue Hue +5 / Sat +6 |
+| HSL | Red Hue +5 / Sat -5, Orange Sat -5 / Lum +5, Yellow Sat -10, Green Hue -5 / Sat -8 |
+| Effects | Texture +5, Clarity +5 |
+
+---
+
 ## Preset Quick Reference
 
 | Category | Preset | Type | Key Vibe |
@@ -633,10 +868,17 @@ Channeling Christopher Doyle's cinematography for Wong Kar-Wai's films — Chung
 | Color-Negative | Kodak Ektar 100 | Color Neg | Clean, modern, fine grain |
 | Color-Negative | Kodak Portra 800 | Color Neg | Warm high-speed, purple shadows |
 | Color-Negative | Kodak Ultramax 400 | Color Neg | Punchy consumer film, golden cast |
+| Color-Negative | Fuji Natura 1600 | Color Neg | Cool-balanced high-speed, cinematic grain |
+| Color-Negative | Fuji Reala 100 | Color Neg | Neutral-accurate, 4th cyan layer |
+| Color-Negative | Fuji Superia 1600 | Color Neg | Punchy high-speed, cool cyan cast |
+| Color-Negative | Kodak Vision3 250D | Color Neg | Cinematic daylight, S-curve contrast |
+| Color-Negative | Lomochrome Purple | Color Neg | Green-to-purple channel swap |
 | Black-White | Ricoh High-Contrast Monochrome | B&W | Aggressive, gritty, Moriyama-style |
 | Black-White | Ilford HP5 Plus | B&W | Classic mid-tone contrast, versatile |
 | Black-White | Kodak Tri-X 400 | B&W | Photojournalism, crisp grain |
 | Black-White | Ilford Delta 3200 | B&W | Extreme grain, concert nights |
+| Black-White | Fujifilm Acros | B&W | Fine-grained, rich midtones |
+| Black-White | Kodak T-Max 3200 | B&W | Ultra-high-speed, crushed shadows |
 | Slide | Kodachrome 64 | Slide | Rich reds, warm nostalgic cast |
 | Slide | Fuji Velvia 50 | Slide | Hyper-saturated landscapes |
 | Slide | Fuji Astia 100F | Slide | Soft fashion, muted saturation |
@@ -657,6 +899,12 @@ Channeling Christopher Doyle's cinematography for Wong Kar-Wai's films — Chung
 | Creative | Pastel Anime Aethereal | Creative | Dreamy pastel, cyan skies |
 | Creative | Matte Fade | Creative | Low contrast, warm black lift |
 | Creative | Faux Infrared | B&W/Creative | Glowing white foliage, dark skies |
+| Creative | Canon Color Science | Creative | Warm skin, magenta-leaning reds |
+| Creative | Cross-Processed Velvia | Creative | Extreme contrast, green-magenta shifts |
+| Creative | Disposable Camera Flash | Creative | Harsh flash, plastic lens softness |
+| Creative | Kodak Aerochrome | Creative | False-color IR, magenta foliage |
+| Creative | Super 8 Home Movie | Creative | Warm, soft, grainy home movie |
+| Creative | Wes Anderson Pastel | Creative | Pastel teal-orange, toy palette |
 
 ---
 
@@ -682,11 +930,11 @@ MIT — see [LICENSE](LICENSE) for the full text. Basically: use these presets h
 
 These free Lightroom presets span a wide range of analog film photography styles and modern editing trends:
 
-- **Film simulation presets** — Kodak Portra 400, Portra 160, Kodak Gold 200, Kodak Ektar 100, Kodak Portra 800, Kodak Ultramax 400, Fujifilm Classic Negative, Kodak Tri-X 400, Fujifilm Classic Chrome, Fujifilm Pro 400H, Fuji Superia X-TRA 400, Fuji Velvia 50, Fuji Astia 100F, Agfa Vista 200
+- **Film simulation presets** — Kodak Portra 400, Portra 160, Kodak Gold 200, Kodak Ektar 100, Kodak Portra 800, Kodak Ultramax 400, Fujifilm Classic Negative, Fuji Natura 1600, Fuji Reala 100, Fuji Superia 1600, Kodak Vision3 250D, Lomochrome Purple, Kodak Tri-X 400, Fujifilm Classic Chrome, Fujifilm Pro 400H, Fuji Superia X-TRA 400, Fuji Velvia 50, Fuji Astia 100F, Agfa Vista 200
 - **Slide film presets** — Kodachrome 64, Kodak Ektachrome E100, Velvia 50
-- **Black and white presets** — Ilford HP5 Plus, Ilford Delta 3200, Ricoh High-Contrast Monochrome, Tri-X B&W
+- **Black and white presets** — Ilford HP5 Plus, Ilford Delta 3200, Kodak T-Max 3200, Ricoh High-Contrast Monochrome, Tri-X B&W, Fujifilm Acros
 - **Vintage and retro presets** — Polaroid SX-70, Y2K flash digicam, Faded Summer expired film look, Lomography cross-processed
-- **Cinematic color grading presets** — Teal and orange blockbuster grade, Pro-Mist diffusion, Bleach Bypass, VHS Synthwave retro video, Wong Kar-Wai 80s Hong Kong cinema
+- **Cinematic and creative color grading presets** — Teal and orange blockbuster grade, Pro-Mist diffusion, Bleach Bypass, VHS Synthwave retro video, Wong Kar-Wai 80s Hong Kong cinema, Super 8 home movie, Disposable camera flash, Cross-processed Velvia, Kodak Aerochrome, Wes Anderson pastel, Canon color science
 - **Moody and atmospheric presets** — Moody PNW, Cyberpunk neon city, Pastel anime aethereal, Light and airy fine art, Matte fade
 - **Specialty presets** — Cinestill 800T night photography, Faux infrared, Portra 800 pushed night photography
 

@@ -1,0 +1,72 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+    crs:PresetType="Normal"
+    crs:Cluster=""
+    crs:UUID="A7E3B8F1D2C04659A7E3B8F1D2C5A9E0"
+    crs:SupportsAmount="False"
+    crs:SupportsColor="True"
+    crs:SupportsMonochrome="True"
+    crs:SupportsHighDynamicRange="True"
+    crs:SupportsNormalDynamicRange="True"
+    crs:SupportsSceneReferred="True"
+    crs:SupportsOutputReferred="True"
+    crs:RequiresRenditionBehavior="True"
+    crs:Name="Kodak Aerochrome"
+    crs:HasSettings="True"
+    crs:Contrast2012="+18"
+    crs:Highlights2012="-45"
+    crs:Shadows2012="+15"
+    crs:Whites2012="+10"
+    crs:Blacks2012="-20"
+    crs:Saturation="+8"
+    crs:Vibrance="+15"
+    crs:HueAdjustmentRed="+50"
+    crs:HueAdjustmentOrange="+25"
+    crs:HueAdjustmentYellow="-90"
+    crs:HueAdjustmentGreen="-100"
+    crs:HueAdjustmentAqua="+20"
+    crs:HueAdjustmentBlue="-50"
+    crs:HueAdjustmentPurple="+50"
+    crs:HueAdjustmentMagenta="-10"
+    crs:SaturationAdjustmentRed="+35"
+    crs:SaturationAdjustmentOrange="+15"
+    crs:SaturationAdjustmentYellow="-50"
+    crs:SaturationAdjustmentGreen="-70"
+    crs:SaturationAdjustmentAqua="+35"
+    crs:SaturationAdjustmentBlue="+50"
+    crs:SaturationAdjustmentPurple="+35"
+    crs:SaturationAdjustmentMagenta="+25"
+    crs:LuminanceAdjustmentRed="+15"
+    crs:LuminanceAdjustmentYellow="-15"
+    crs:LuminanceAdjustmentGreen="-30"
+    crs:LuminanceAdjustmentBlue="-30"
+    crs:SplitToningShadowHue="210"
+    crs:SplitToningShadowSaturation="10"
+    crs:SplitToningHighlightHue="320"
+    crs:SplitToningHighlightSaturation="12"
+    crs:SplitToningBalance="-10"
+    crs:RedHue="+50"
+    crs:RedSaturation="+25"
+    crs:GreenHue="-60"
+    crs:GreenSaturation="+30"
+    crs:BlueHue="-50"
+    crs:BlueSaturation="+35"
+    crs:ShadowTint="0"
+    crs:GrainAmount="30"
+    crs:GrainSize="40"
+    crs:GrainFrequency="50">
+   <crs:Name>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Kodak Aerochrome</rdf:li>
+    </rdf:Alt>
+   </crs:Name>
+   <crs:Group>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Creative</rdf:li>
+    </rdf:Alt>
+   </crs:Group>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

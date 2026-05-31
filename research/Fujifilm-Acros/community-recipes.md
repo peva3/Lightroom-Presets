@@ -1,0 +1,259 @@
+# Community Recipes — Acros Emulation in Lightroom
+
+## The Problem
+
+Fujifilm's Acros simulation is available **only on Fuji X/GFX cameras** as an in-camera JPEG engine. Non-Fuji shooters (Sony, Canon, Nikon, Leica, Panasonic, etc.) and Fuji shooters who work with RAW files in Lightroom have no native access to the Acros tone curve and grain algorithm. As a result, there is significant community demand for Lightroom recipes/presets that emulate the Acros look.
+
+## Key Source: Fuji X Weekly Community
+
+The largest repository of Acros-based recipes is the [Fuji X Weekly](https://fujixweekly.com/recipes/) website and mobile app (iOS/Android), curated by **Ritchie Roesch**. These are primarily *in-camera JPEG recipes* for Fuji cameras, but they provide the exact tonal parameters that can be translated to Lightroom.
+
+### How to Translate Fuji Recipes to Lightroom
+
+Fuji in-camera JPEG parameters map to Lightroom as follows:
+
+| Fuji In-Camera | Lightroom Equivalent |
+|----------------|---------------------|
+| Highlight Tone (-2 to +4) | Highlights slider (-50 to +100, roughly 25 per step) |
+| Shadow Tone (-2 to +4) | Shadows slider (-50 to +100, roughly 25 per step) |
+| Sharpness (-4 to +4) | Sharpening amount (+/- total) |
+| Grain Effect (Off/Weak/Strong) | Grain Amount (0/25/50) |
+| Grain Size (Small/Large) | Grain Size (25/50) |
+| Clarity (-5 to +5) | Clarity/Texture (-50 to +50) |
+| Dynamic Range (DR200/DR400) | Exposure compensation + tone curve flattening |
+| Monochromatic Color | Split Toning (very subtle warm/cool cast) |
+| Noise Reduction (-4 to +4) | Noise Reduction slider |
+
+The key missing piece in Lightroom vs. the in-camera simulation is the **Acros-specific tone curve** that Fuji bakes into their JPEG engine. This cannot be perfectly replicated with basic sliders — it requires a custom **tone curve** adjustment.
+
+## Most Popular Acros-Based Lightroom Approaches
+
+### 1. Fuji X Weekly "Acros" Recipe (Translated to Lightroom)
+
+Original recipe (Fuji X Weekly, 2017): *One of the first Film Simulation Recipes published. For X-Trans III; can be adapted.*
+
+**Fuji in-camera settings:**
+```
+Acros/Acros+R/Acros+G
+Dynamic Range: DR200
+Highlight: +2
+Shadows: +2
+Noise Reduction: -2
+Sharpening: +2
+Grain Effect: Off
+ISO: Auto up to 12800
+Exposure Compensation: +1 (typically)
+```
+
+**Lightroom translation (approximate):**
+```
+Treatment: Black & White
+Highlights: -40 (dial back from clipping; film-like roll-off)
+Shadows: +40 (open up shadows)
+Whites: +15
+Blacks: -30
+Clarity: +15
+Texture: +10
+Sharpening: +60
+Noise Reduction: 0
+Grain (Effects): Amount 20, Size 25, Roughness 50
+Tone Curve (Point): 
+  - Lift shadows slightly (~+10 at quarter-tone)
+  - Compress highlights gently (~-10 at three-quarter)
+  - Deepen blacks (~-20 at shadow end)
+```
+
+### 2. Kodak Tri-X 400 Emulation (Most Popular B&W Recipe)
+
+Source: Fuji X Weekly (2020), by Anders Lindborg and Ritchie Roesch. This is the #1 most-viewed B&W recipe. Uses Acros as its base, emulating Kodak's classic press film.
+
+**Fuji in-camera (X-Trans IV/V):**
+```
+Film Simulation: Acros
+Monochromatic Color: WC 0, MG 0
+Grain Effect: Strong, Large
+Color Chrome Effect: Off
+Color Chrome FX Blue: Weak
+White Balance: Auto, 0 Red & 0 Blue
+Dynamic Range: DR400
+Highlight: +1
+Shadow: +1
+Sharpness: -2
+High ISO NR: -4
+Clarity: +3
+ISO: Auto, up to 12800
+Exposure Compensation: +1/3 to +2/3 (typically)
+```
+
+**Lightroom translation:**
+```
+Treatment: Black & White
+Profile: Adobe Monochrome (or custom)
+WB: As shot
+Exposure: as needed (typically +0.33 to +0.66)
+Highlights: -25 (Tri-X has strong highlight compression)
+Shadows: +35 (Tri-X has open shadows)
+Whites: 0
+Blacks: -45 (deep, punchy black point)
+Clarity: +35 (adds midtone punch characteristic of Tri-X)
+Texture: +15
+Sharpening: +40, Radius 1.0, Detail 25
+Noise Reduction: 0
+Grain (Effects): Amount 50, Size 50, Roughness 60 (strong, large grain)
+Tone Curve:
+  - Strong S-curve: lift shadows at 25% input, crush slightly at 75% input
+  - Shadow end: pull down for deep blacks
+  - Highlight end: slight pull down for highlight compression
+```
+
+### 3. Kodak T-Max P3200 (High-Contrast, Heavy Grain)
+
+Source: Fuji X Weekly (2023), by John (RIP) and Anders Lindborg. #2 most popular B&W recipe.
+
+**Fuji in-camera (X-Trans IV/V):**
+```
+Film Simulation: Acros
+Monochromatic Color: WC 0, MG 0
+Grain Effect: Strong, Large
+Color Chrome Effect: Strong
+Color Chrome FX Blue: Off
+White Balance: Auto, 0 Red & 0 Blue
+Dynamic Range: DR400
+Highlight: +1.5 (note: this is a half-stop, set in-camera via custom curves)
+Shadow: +2
+Sharpness: -2
+High ISO NR: -4
+Clarity: +3
+ISO: 3200 recommended (recipe designed for this)
+Exposure Compensation: +2/3 (typically)
+```
+
+**Lightroom translation:**
+```
+Treatment: Black & White
+Highlights: -60 (very aggressive highlight compression)
+Shadows: +50
+Whites: -20
+Blacks: -60
+Clarity: +40
+Texture: +20
+Sharpening: +30
+Grain (Effects): Amount 65, Size 60, Roughness 70
+Tone Curve: Very strong S-curve
+  - Deep crush at blacks
+  - Aggressive highlight roll-off
+  - Steep midtone slope (high contrast)
+Vignette: Post-crop, -10 to -15
+```
+
+### 4. "Pushed Tri-X" Look (Community Variant)
+
+A common request on r/fujifilm and r/Lightroom: "How do I get pushed Tri-X look in Lightroom?" Many Fuji shooters use Acros as the base for this.
+
+**Lightroom approach:**
+```
+Treatment: Black & White
+Exposure: +0.5 to +1 (slight overexposure then pull back)
+Highlights: -30
+Shadows: +60
+Whites: -10
+Blacks: -55
+Clarity: +45
+Dehaze: +10 (adds grit)
+Grain: Amount 60, Size 45, Roughness 65
+Point Curve: Custom S-curve with deep blacks and compressed highlights
+Split Toning: Subtle warm cast in highlights (Hue 45, Sat 5), 
+             subtle cool in shadows (Hue 220, Sat 5) 
+             — emulates selenium toning look common with Tri-X prints
+```
+
+### 5. Agfa Scala (Reversal Film Look)
+
+Source: Fuji X Weekly (2018). Ritchie Roesch's former favorite B&W recipe before Tri-X 400.
+
+**Fuji in-camera (X-Trans III):**
+```
+Film Simulation: Acros+R (or Acros)
+Dynamic Range: DR200
+Highlight: +3 (high contrast — watch for clipping)
+Shadow: +3
+Sharpness: +2
+Grain: Off
+Noise Reduction: -2
+ISO: Auto up to 6400
+Exposure Compensation: -2/3 typically (meter for highlights)
+```
+
+**Lightroom translation (high-contrast reversal look):**
+```
+Treatment: Black & White
+Contrast: +60
+Highlights: -20 (protect highlights)
+Shadows: +70
+Whites: +30
+Blacks: -70 (very deep blacks)
+Clarity: +30
+Texture: +25
+Sharpening: +55
+Grain: Amount 25, Size 30, Roughness 45
+Tone Curve: Extreme S-curve
+  - Near-vertical midtone slope
+  - Deep crushed blacks
+  - Sharp highlight shoulder
+Split Toning: Optional cool blue cast in shadows (Hue 225, Sat 8)
+```
+
+## Community Reddit Discussions & Approaches
+
+### r/fujifilm — Popular Threads on Acros Emulation
+
+Common themes from r/fujifilm discussions (synthesized from search and community knowledge):
+
+1. **"Acros in Lightroom is impossible to match exactly"** — Frequently stated. The in-camera Acros tone curve and grain algorithm are unique. The best you can do is an approximation.
+
+2. **RAW + JPEG workflow**: Many Fuji shooters shoot RAW+JPEG and use the Acros JPEG as a reference for processing in Lightroom.
+
+3. **Cobalt Image profiles**: Frequently recommended on r/fujifilm as the best way to get authentic Acros in Lightroom, because Cobalt profiles are created from actual camera measurements rather than slider presets.
+
+4. **Capture One**: Some Fuji shooters report that Capture One's interpretation of Fuji RAF files is notably closer to the in-camera look than Lightroom.
+
+### r/Lightroom — Discussions
+
+1. **"Best B&W Lightroom presets for that Acros look?"** — Frequently asked. Common answers:
+   - RNI All Films 5 (Acros profile included)
+   - Cobalt Image Fuji pack
+   - Mastin Labs Ilford pack (not Acros, but similar fine-grain B&W look)
+   - Manual: use the Fuji X Weekly Tri-X 400 recipe translated to Lightroom sliders
+
+2. **X-Trans demosaicing concerns**: Some users note that Lightroom's X-Trans demosaicing produces slightly different fine detail rendering than the in-camera JPEG engine, which may affect the B&W "feel."
+
+### r/analog — Film Community
+
+1. **"Acros 100 II vs. Original Acros"** — Active discussion. General consensus: Acros II is very similar but not identical. It behaves more like Harman-manufactured film (unsurprisingly). Original Acros had better reciprocity characteristics.
+
+2. **Developing recipes for Acros 100/II** — Popular combinations:
+   - **Rodinal 1+50, 14 min** — Classic, pronounced grain, high acutance
+   - **Rodinal 1+100 stand** — Maximum sharpness, manageable contrast, very pronounced grain (used in the 35mmc comparison)
+   - **D-76 stock, 9.5 min** — Smooth, balanced, classic look
+   - **HC-110 Dilution B, 6 min** — Fine grain, moderate contrast
+   - **Xtol 1+1** — Very fine grain, full shadow detail, excellent for scanning
+
+## Free Community Lightroom Presets (Where to Find)
+
+1. **Fuji X Weekly** — Recipes can be translated to Lightroom using the mapping table above. Not downloadable presets, but precise parameter guides.
+
+2. **Reddit r/Lightroom & r/fujifilm** — Users occasionally share `.xmp` preset files. Search for "Acros Lightroom preset .xmp."
+
+3. **GitHub** — Some photographers have published Lightroom preset collections; search for "Fuji Acros Lightroom" on GitHub.
+
+4. **YouTube tutorials** — Several photographers have published step-by-step Acros emulation workflows for Lightroom (search "Acros Lightroom tutorial").
+
+## Summary: Best Path to Acros in Lightroom
+
+| Method | Accuracy | Effort | Cost |
+|--------|----------|--------|------|
+| Cobalt Image profiles | Highest | Low | ~$40–70 |
+| RNI All Films 5 | Very High | Low | ~$100–150 |
+| Manual recipe translation (this guide) | Good | Medium-High | Free |
+| Shoot Fuji JPEG + use as reference | Situational | Medium | Free (need Fuji) |
+| Generic B&W preset packs | Low-Medium | Low | Varies |

@@ -1,0 +1,42 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+    crs:PresetType="Normal"
+    crs:Cluster=""
+    crs:UUID="8A3B2C1D4E5F67890ABCDEF123456789"
+    crs:SupportsAmount="False"
+    crs:SupportsColor="True"
+    crs:SupportsMonochrome="True"
+    crs:SupportsHighDynamicRange="True"
+    crs:SupportsNormalDynamicRange="True"
+    crs:SupportsSceneReferred="True"
+    crs:SupportsOutputReferred="True"
+    crs:RequiresRenditionBehavior="True"
+    crs:Name="Kodak T-Max 3200"
+    crs:HasSettings="True"
+    crs:ConvertToGrayscale="True"
+    crs:Exposure2012="+0.10"
+    crs:Contrast2012="+30"
+    crs:Highlights2012="-20"
+    crs:Shadows2012="-25"
+    crs:Whites2012="+15"
+    crs:Blacks2012="-30"
+    crs:Texture="+10"
+    crs:Clarity2012="+15"
+    crs:GrayMixerRed="+20"
+    crs:GrayMixerOrange="+15"
+    crs:GrayMixerYellow="+15"
+    crs:GrayMixerGreen="-5"
+    crs:GrayMixerAqua="-15"
+    crs:GrayMixerBlue="-25"
+    crs:GrayMixerPurple="-10"
+    crs:GrayMixerMagenta="+5"
+    crs:GrainAmount="55"
+    crs:GrainSize="40"
+    crs:GrainFrequency="70">
+   <crs:Name><rdf:Alt><rdf:li xml:lang="x-default">Kodak T-Max 3200</rdf:li></rdf:Alt></crs:Name>
+   <crs:Group><rdf:Alt><rdf:li xml:lang="x-default">Black White</rdf:li></rdf:Alt></crs:Group>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

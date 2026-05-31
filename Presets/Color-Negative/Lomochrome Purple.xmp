@@ -1,0 +1,77 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+    crs:PresetType="Normal"
+    crs:Cluster=""
+    crs:UUID="8A3F2C7E1B464A929D5E0F8C3B7A1D6F"
+    crs:SupportsAmount="False"
+    crs:SupportsColor="True"
+    crs:SupportsMonochrome="True"
+    crs:SupportsHighDynamicRange="True"
+    crs:SupportsNormalDynamicRange="True"
+    crs:SupportsSceneReferred="True"
+    crs:SupportsOutputReferred="True"
+    crs:RequiresRenditionBehavior="True"
+    crs:Name="Lomochrome Purple"
+    crs:HasSettings="True"
+    crs:Exposure2012="+0.10"
+    crs:Contrast2012="+18"
+    crs:Highlights2012="-15"
+    crs:Shadows2012="+15"
+    crs:Whites2012="+5"
+    crs:Blacks2012="+10"
+    crs:Saturation="+5"
+    crs:Vibrance="+15"
+    crs:HueAdjustmentRed="+5"
+    crs:SaturationAdjustmentRed="-5"
+    crs:LuminanceAdjustmentRed="0"
+    crs:HueAdjustmentOrange="-5"
+    crs:SaturationAdjustmentOrange="-5"
+    crs:LuminanceAdjustmentOrange="0"
+    crs:HueAdjustmentYellow="+35"
+    crs:SaturationAdjustmentYellow="+18"
+    crs:LuminanceAdjustmentYellow="+10"
+    crs:HueAdjustmentGreen="+100"
+    crs:SaturationAdjustmentGreen="+35"
+    crs:LuminanceAdjustmentGreen="-15"
+    crs:HueAdjustmentAqua="-45"
+    crs:SaturationAdjustmentAqua="+12"
+    crs:LuminanceAdjustmentAqua="-5"
+    crs:HueAdjustmentBlue="-100"
+    crs:SaturationAdjustmentBlue="-45"
+    crs:LuminanceAdjustmentBlue="+15"
+    crs:HueAdjustmentPurple="+35"
+    crs:SaturationAdjustmentPurple="+35"
+    crs:LuminanceAdjustmentPurple="-5"
+    crs:HueAdjustmentMagenta="+20"
+    crs:SaturationAdjustmentMagenta="+45"
+    crs:LuminanceAdjustmentMagenta="0"
+    crs:SplitToningHighlightHue="300"
+    crs:SplitToningHighlightSaturation="20"
+    crs:SplitToningShadowHue="210"
+    crs:SplitToningShadowSaturation="10"
+    crs:SplitToningBalance="+15"
+    crs:GrainAmount="45"
+    crs:GrainSize="30"
+    crs:GrainFrequency="60"
+    crs:ShadowTint="+15"
+    crs:RedHue="+25"
+    crs:RedSaturation="+10"
+    crs:GreenHue="+100"
+    crs:GreenSaturation="+20"
+    crs:BlueHue="-100"
+    crs:BlueSaturation="-15">
+   <crs:Name>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Lomochrome Purple</rdf:li>
+    </rdf:Alt>
+   </crs:Name>
+   <crs:Group>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Color Negative</rdf:li>
+    </rdf:Alt>
+   </crs:Group>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

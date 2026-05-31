@@ -9,6 +9,15 @@
 - Research documentation in `research/` folder with datasheets, community recipes, and reference pack analysis for each preset
 - `new-presets.md` — tracking pipeline for upcoming Tier 2 and Tier 3 presets
 
+## [1.2.0] — 2026-05-31
+
+### Added
+- **13 new presets** completing Tier 2 and Tier 3 of the pipeline:
+  - **Color Negative (5)** — Fuji Natura 1600 (cool high-speed), Fuji Reala 100 (4th-layer color), Fuji Superia 1600 (punchy consumer), Kodak Vision3 250D (cinematic daylight), Lomochrome Purple (original formula)
+  - **Black & White (2)** — Fujifilm Acros (rich midtones), Kodak T-Max 3200 (T-grain high-speed)
+  - **Creative (6)** — Super 8 Home Movie (warm nostalgic), Disposable Camera Flash (plastic lens), Cross-Processed Velvia (E6→C41), Kodak Aerochrome (false-color IR), Wes Anderson Pastel (compressed tonal palette), Canon Color Science (warm skin profile)
+- Research documentation for all 13 presets in `research/` folder
+
 ## [1.0.0] — 2026-05-31
 
 ### Added

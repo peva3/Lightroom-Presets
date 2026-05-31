@@ -1,0 +1,351 @@
+# Community Recipes — Lightroom Settings for Super 8 / Home Movie Looks
+
+## Source Summary
+
+The following recipes and settings are compiled from community discussions across Reddit (r/WeddingPhotography, r/Lightroom, r/postprocessing, r/AnalogCommunity), YouTube tutorials, TikTok creator presets, photography blogs, and commercial preset pack descriptions. They represent the collective knowledge of wedding photographers, film emulation enthusiasts, and preset creators.
+
+> **Note:** Values are approximate starting points. Every photo requires tweaking based on its exposure, white balance, and lighting conditions.
+
+---
+
+## Recipe 1: The "Warm Home Movie" Base (Most Common Community Recipe)
+
+This is the foundational recipe for the Super 8 wedding/lifestyle look. Derived from multiple Reddit threads and YouTube tutorials.
+
+### Basic Panel
+```
+WB Temp:     +1200 to +1800 (warm amber)
+WB Tint:     +5 to +10 (slightly toward magenta)
+Exposure:    +0.10 to +0.30 (slight lift)
+Contrast:    -15 to -25
+Highlights:  -40 to -60
+Shadows:     +20 to +40
+Whites:      -15 to -25
+Blacks:      +10 to +25 (lifted blacks — key for film look)
+```
+
+### Presence
+```
+Texture:     -10 to -20
+Clarity:     -15 to -30 (critical — removes digital sharpness)
+Dehaze:      -10 to -20 (adds atmospheric softness/bloom)
+Vibrance:    -5 to -15
+Saturation:  -10 to -20
+```
+
+### Tone Curve
+```
+Parametric:
+  Highlights: -10 to -20
+  Lights:     -5 to -10
+  Darks:      +15 to +25
+  Shadows:    +20 to +35
+
+Point Curve:
+  Lift the black point (bottom-left) up 8–15% for matte/faded blacks
+  Slightly pull down the white point (top-right) 3–5% for soft highlights
+```
+
+### HSL Adjustments
+```
+Hue:
+  Orange: +5 to +10 (skin toward peach/gold)
+  Yellow: -5 to -10 (toward orange)
+  Green:  +10 to +20 (toward yellow-green)
+  Blue:   +5 to +15 (toward cyan/teal)
+
+Saturation:
+  Orange: -5 to -15
+  Yellow: -10 to -20
+  Green:  -20 to -35
+  Aqua:   -15 to -25
+  Blue:   -15 to -30
+
+Luminance:
+  Orange: +5 to +15 (brighten skin)
+  Green:  -10 to -25 (darken foliage)
+  Blue:   -5 to -15
+```
+
+### Color Grading
+```
+Shadows:    Hue 210–230 (blue/cyan), Saturation 5–12
+Midtones:   Hue 30–45 (orange/warm), Saturation 3–8
+Highlights: Hue 40–55 (yellow-gold), Saturation 8–15
+Blending:   60–80
+Balance:    +15 to +30 (bias toward highlights warmth)
+```
+
+### Calibration
+```
+Red Primary:   Hue +15 to +25, Saturation -5 to -15
+Green Primary: Hue -10 to -20, Saturation -15 to -25
+Blue Primary:  Hue -10 to -20, Saturation -20 to -35
+Shadow Tint:   +3 to +8 (magenta in shadows — classic Kodak film trait)
+```
+
+### Effects
+```
+Post-Crop Vignetting:
+  Amount:   -15 to -30
+  Midpoint: 40–55
+  Feather:  50–75
+
+Grain:
+  Amount:    40–60
+  Size:      25–40
+  Roughness: 60–80
+```
+
+---
+
+## Recipe 2: YouTube / Creator "Super 8 Magic" (TikTok/Instagram Style)
+
+Popularized by preset creators on TikTok and Instagram. Heavier handed, designed for social media impact.
+
+### Basic Panel
+```
+WB Temp:     +1500 to +2200 (very warm)
+WB Tint:     +8 to +15
+Exposure:    +0.20 to +0.50
+Contrast:    -30 to -40
+Highlights:  -60 to -80
+Shadows:     +30 to +50
+Whites:      -20 to -40
+Blacks:      +20 to +40
+```
+
+### Presence
+```
+Texture:     -20 to -30
+Clarity:     -25 to -40
+Dehaze:      -15 to -25
+Vibrance:    -10 to -20
+Saturation:  -15 to -25
+```
+
+### Tone Curve
+```
+Heavy S-curve with lifted blacks:
+  Black point: +20–30 (very lifted/matte)
+  White point: -5–8 (soft roll-off)
+  Midtones: slight downward for contrast in the middle
+```
+
+### HSL
+```
+Hue:
+  Orange: +8 to +15
+  Green:  +15 to +30
+  Blue:   +10 to +20
+
+Saturation:
+  Orange: -10 to -20
+  Green:  -30 to -50
+  Blue:   -20 to -40
+
+Luminance:
+  Green:  -20 to -40
+```
+
+### Calibration
+```
+Red Primary:   Hue +20 to +30, Sat -10 to -20
+Green Primary: Hue -15 to -25, Sat -20 to -35
+Blue Primary:  Hue -15 to -25, Sat -25 to -40
+Shadow Tint:   +5 to +10
+```
+
+### Grain
+```
+Amount:    50–75 (heavy)
+Size:      30–45 (chunky)
+Roughness: 70–90 (textured)
+```
+
+### Additional (Photoshop)
+- Add light leak PNG overlay: warm orange/red gradient, Screen blend mode, 15–30% opacity
+- Edge softness: apply Gaussian Blur 25px on duplicate layer, mask to edges
+- Halation: duplicate, Gaussian Blur 30–50px, Screen mode 10–20%, clipped to highlights via Blend If
+
+---
+
+## Recipe 3: "Ektachrome 64T Emulation" (Reversal Film Look)
+
+Based on the specific characteristics of Kodak Ektachrome 64T — the most iconic Super 8 film stock. Tungsten-balanced, warm when shot outdoors, moderate grain, muted but distinct palette.
+
+### Basic Panel
+```
+WB Temp:     +1000 to +1500
+WB Tint:     +5 to +10
+Exposure:    +0.10 to +0.20
+Contrast:    -10 to -20
+Highlights:  -30 to -50
+Shadows:     +15 to +30
+Whites:      -10 to -20
+Blacks:      +5 to +15
+```
+
+### Presence
+```
+Texture:     -5 to -15
+Clarity:     -10 to -20
+Dehaze:      -5 to -15
+Saturation:  -8 to -15
+```
+
+### Tone Curve
+```
+Gentle S-curve with modest black lift (5-10%).
+Blue channel: lower midtones slightly for yellow shift.
+Red channel: lower highlights slightly for cyan shift.
+```
+
+### Calibration (Critical for Ektachrome 64T)
+```
+Red Primary:   Hue +15 to +25, Sat -5 to -15
+Green Primary: Hue -5 to -15, Sat -10 to -20
+Blue Primary:  Hue -15 to -25, Sat -20 to -30
+Shadow Tint:   +5
+```
+The key Ektachrome trait: shadows tinged magenta, highlights slightly cyan, midtones warm amber.
+
+### Color Grading
+```
+Shadows:    Hue 220–240, Sat 5–10 (subtle blue)
+Midtones:   Hue 35–50, Sat 5–10 (warm amber)
+Highlights: Hue 45–60, Sat 8–12 (golden)
+```
+
+### Grain (Ektachrome 64T was relatively fine for Super 8)
+```
+Amount:    30–45
+Size:      20–30
+Roughness: 55–70
+```
+
+---
+
+## Recipe 4: Reddit "Budget Super 8" (Minimalist Lightroom-Only)
+
+From r/WeddingPhotography and r/postprocessing — a quick approach using only Lightroom, no Photoshop or overlays.
+
+### Steps (in order):
+1. **Profile:** Set to Adobe Neutral
+2. **Crop:** 4:3 aspect ratio
+3. **WB:** Temp +1000, Tint +5
+4. **Tone:** Contrast -20, Highlights -50, Shadows +25, Whites -15, Blacks +15
+5. **Presence:** Texture -15, Clarity -20, Dehaze -10
+6. **Tone Curve:** Lift black point 10%, pull down white point 5%
+7. **HSL:** Desaturate greens, shift blues to teal, warm oranges toward yellow
+8. **Color Grading:** Warm highlights (gold), cool shadows (blue), blend 70, balance +20
+9. **Vignette:** -20, midpoint 45
+10. **Grain:** Amount 45, Size 30, Roughness 65
+11. **Calibration:** Red Primary Hue +20, Blue Primary Hue -15, Blue Primary Sat -25
+
+Total time per image after initial setup: ~30 seconds (copy/paste + tweak exposure).
+
+---
+
+## Recipe 5: The "Pro Wedding" Variant (Enfys Photography / Mastin Labs Influence)
+
+Many Super 8 Lightroom presets sold commercially build on this structure, inspired by Mastin Labs and similar film-emulation packs.
+
+### Key differences from Recipe 1:
+- More restrained: Contrast -10 max, Clarity -10 max
+- Shadows not fully lifted — keep some depth
+- Grain finer: Size 20–25, Amount 30–40
+- Skin tones preserved more carefully: lower orange saturation adjustment
+- White balance warmth more subtle: +800 to +1200
+- Works across an entire wedding gallery without looking "filtered"
+
+### Additional Pro Tips:
+- Build separate variants for indoor/tungsten, outdoor/shade, and golden hour
+- Use radial filters with negative Clarity around faces for soft portrait look
+- Mask the grain: apply heavier grain to shadows and midtones, less to highlights
+- For direct flash photos: add highlight bloom, reduce Contrast further, warm WB more aggressively
+
+---
+
+## Recipe 6: In-Camera Super 8 Look (Community Shooting Tips)
+
+From r/WeddingPhotography and r/AnalogCommunity:
+
+### Camera Settings:
+- Shoot in RAW (essential for post flexibility)
+- White Balance: set to 5200K–5600K preset (Shade or Cloudy + fine-tune)
+- Picture Profile: Neutral or Flat (lowest contrast/sharpening)
+- Exposure: underexpose 1/3 to 1 stop (protecting highlights for bloom)
+- ISO: keep low to avoid digital noise mixing with grain
+
+### Lens/Filtration:
+- Diffusion filter: Tiffen Black Pro-Mist 1/8 (subtle) or 1/4 (strong)
+- Alternative: CineBloom 10% or 20%, Glimmerglass 1 or 2
+- Vintage manual focus lenses: Helios 44-2 (swirly bokeh), Super-Takumar 50mm f/1.4 (warm cast)
+- Shoot wide open or near-wide for soft depth and edge falloff
+- Avoid clinical modern lenses (e.g., Sony GM, Canon L series) — too sharp
+
+### Shooting Style:
+- Candid, not posed — the home movie ethos
+- Don't obsess over perfect framing
+- Include motion blur (slow shutter 1/30–1/60 for static subjects)
+- Direct flash (on-camera) for party/dance sequences — another 1960s-70s signifier
+
+---
+
+## Reddit/Forum Notable Threads & Quotes
+
+### From r/WeddingPhotography:
+> "Clients are asking for the Super 8 look because they saw it on Instagram. I tell them it's basically warm desaturated tones with lifted blacks and grain. Some want actual Super 8 coverage now — it's become a premium add-on for high-end weddings." — Anonymous wedding photographer
+
+> "The key to the home movie look is that it should feel like someone's dad shot it — slightly crooked, warm, soft, and totally unpretentious."
+
+### From r/Lightroom:
+> "For Super 8 emulation in Lightroom: Negative clarity is your best friend. Negative dehaze second. HSL panel third for the teal-orange shift. Calibration panel for the film color science. And grain — heavy, rough grain. That's it."
+
+### From r/postprocessing:
+> "Don't just slap a warm preset on everything. The Super 8 look works best with golden hour light, warm interiors, and flash photography. It falls apart under overcast grey skies or fluorescent office lighting."
+
+### From YouTube tutorials (No Film School / various creators):
+- Shoot at deep depth of field (f/8 or smaller) — bokeh kills the home movie effect
+- Turn off IBIS/stabilization — shaky footage = authentic
+- Film at 15–18fps equivalent or add motion blur
+- Look at real Super 8 footage on YouTube and match colors manually
+- Add film projector sound for video; for stills, present in 4:3 grids
+
+---
+
+## Commercial Preset Packs for Reference
+
+Popular Super 8 / home movie preset packs (for competitive research):
+
+| Pack Name | Key Features | Price Point |
+|-----------|-------------|-------------|
+| EditingBits "Super 8 Lightroom Presets" | 13 presets, color-matched from Super 8 screen grabs, .xmp + .dng | ~$6 |
+| Envato Elements "Super 8 Film Lightroom Presets" | Vintage textures, nostalgic tones, analog grain, point-and-shoot memories vibe | Subscription |
+| Lylypresets "Kodak Super 8 Lightroom Presets Pack" | 26 mobile + desktop presets, 18 LUTs included, trendy grainy film tone | ~$10–15 |
+| Mastin Labs (various) | Professional film emulation, not Super 8 specific but often referenced in community | Premium |
+| VSCO (various packs) | Film emulation profiles, widely used as base for Super 8 workflows | Subscription |
+
+---
+
+## YouTube Channels Referenced by Community
+
+- **No Film School** — How to Get the Super 8 Film Look (video-specific, but color theory applies)
+- **Alik Griffin** — How to Edit Photos to Look Like Film in Lightroom (most cited tutorial)
+- **The Lens Lounge** — How to Make Photos Look Like Film in Lightroom Classic
+- Various TikTok creators: @jonaonfilm, preset tutorial accounts sharing DNG files
+- YouTube search "Super 8 Lightroom preset tutorial" yields 50+ results from creator community
+
+---
+
+## Key Community Consensus Points
+
+1. **Negative Clarity is the #1 slider** for removing the digital look
+2. **Calibration panel** is the secret weapon for true film color shifts (not just HSL)
+3. **Heavy, rough grain** is non-negotiable — Lightroom's default grain settings are not enough; push past 50
+4. **4:3 crop** alone does 30% of the work in signaling "Super 8"
+5. **Warm white balance** (not neutral, not clinical) is the expectation
+6. **Light leaks and halation require Photoshop or overlays** — Lightroom alone cannot do the edge-bleeding color artifacts
+7. **Presets should be starting points**, not one-click solutions — lighting conditions change everything
+8. **The "aged" look matters more than the "fresh film" look** — faded, slightly color-shifted, imperfect
