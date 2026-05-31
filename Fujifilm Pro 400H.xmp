@@ -1,0 +1,41 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+    crs:PresetType="Normal"
+    crs:Cluster=""
+    crs:UUID="4C4A206CCAC645D4A6390B0C31F40D62"
+    crs:SupportsAmount="False"
+    crs:SupportsColor="True"
+    crs:SupportsMonochrome="True"
+    crs:SupportsHighDynamicRange="True"
+    crs:SupportsNormalDynamicRange="True"
+    crs:SupportsSceneReferred="True"
+    crs:SupportsOutputReferred="True"
+    crs:RequiresRenditionBehavior="True"
+    crs:Name="05 Fujifilm Pro 400H"
+    crs:HasSettings="True"
+    crs:Exposure2012="+0.40"
+    crs:Contrast2012="-15"
+    crs:Highlights2012="-30"
+    crs:Shadows2012="+30"
+    crs:Blacks2012="+10"
+    crs:HueAdjustmentGreen="+25"
+    crs:SaturationAdjustmentGreen="-20"
+    crs:HueAdjustmentBlue="-15"
+    crs:SaturationAdjustmentBlue="-10"
+    crs:Clarity2012="-5"
+    crs:GrainAmount="20">
+   <crs:Name>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">05 Fujifilm Pro 400H</rdf:li>
+    </rdf:Alt>
+   </crs:Name>
+   <crs:Group>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Film Simulations</rdf:li>
+    </rdf:Alt>
+   </crs:Group>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

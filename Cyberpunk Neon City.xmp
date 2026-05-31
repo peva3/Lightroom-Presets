@@ -1,0 +1,42 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+    crs:PresetType="Normal"
+    crs:Cluster=""
+    crs:UUID="2DD3E197105945ABA901E0C61F631D15"
+    crs:SupportsAmount="False"
+    crs:SupportsColor="True"
+    crs:SupportsMonochrome="True"
+    crs:SupportsHighDynamicRange="True"
+    crs:SupportsNormalDynamicRange="True"
+    crs:SupportsSceneReferred="True"
+    crs:SupportsOutputReferred="True"
+    crs:RequiresRenditionBehavior="True"
+    crs:Name="05 Cyberpunk Neon City"
+    crs:HasSettings="True"
+    crs:Contrast2012="+25"
+    crs:Highlights2012="-20"
+    crs:Shadows2012="+15"
+    crs:Blacks2012="-25"
+    crs:SaturationAdjustmentRed="+40"
+    crs:SaturationAdjustmentMagenta="+40"
+    crs:HueAdjustmentBlue="-25"
+    crs:SaturationAdjustmentBlue="+30"
+    crs:SaturationAdjustmentYellow="-80"
+    crs:SaturationAdjustmentGreen="-80"
+    crs:Clarity2012="+20"
+    crs:Dehaze="+15">
+   <crs:Name>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">05 Cyberpunk Neon City</rdf:li>
+    </rdf:Alt>
+   </crs:Name>
+   <crs:Group>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Film Simulations</rdf:li>
+    </rdf:Alt>
+   </crs:Group>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

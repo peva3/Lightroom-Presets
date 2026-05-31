@@ -1,0 +1,44 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+    crs:PresetType="Normal"
+    crs:Cluster=""
+    crs:UUID="8DBB5E10A882424DBF3AEDEC104E5DA6"
+    crs:SupportsAmount="False"
+    crs:SupportsColor="True"
+    crs:SupportsMonochrome="True"
+    crs:SupportsHighDynamicRange="True"
+    crs:SupportsNormalDynamicRange="True"
+    crs:SupportsSceneReferred="True"
+    crs:SupportsOutputReferred="True"
+    crs:RequiresRenditionBehavior="True"
+    crs:Name="04 Kodachrome 64"
+    crs:HasSettings="True"
+    crs:Exposure2012="+0.10"
+    crs:Contrast2012="+20"
+    crs:Highlights2012="-10"
+    crs:Shadows2012="-5"
+    crs:Vibrance="+15"
+    crs:Saturation="-5"
+    crs:SaturationAdjustmentRed="+20"
+    crs:LuminanceAdjustmentRed="-10"
+    crs:SaturationAdjustmentYellow="+15"
+    crs:HueAdjustmentBlue="-10"
+    crs:SplitToningShadowHue="40"
+    crs:SplitToningShadowSaturation="10"
+    crs:Clarity2012="+10"
+    crs:GrainAmount="15">
+   <crs:Name>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">04 Kodachrome 64</rdf:li>
+    </rdf:Alt>
+   </crs:Name>
+   <crs:Group>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Film Simulations</rdf:li>
+    </rdf:Alt>
+   </crs:Group>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

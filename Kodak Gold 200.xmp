@@ -1,0 +1,42 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+    crs:PresetType="Normal"
+    crs:Cluster=""
+    crs:UUID="9E65C5AF44D64D249AC39879507D1C67"
+    crs:SupportsAmount="False"
+    crs:SupportsColor="True"
+    crs:SupportsMonochrome="True"
+    crs:SupportsHighDynamicRange="True"
+    crs:SupportsNormalDynamicRange="True"
+    crs:SupportsSceneReferred="True"
+    crs:SupportsOutputReferred="True"
+    crs:RequiresRenditionBehavior="True"
+    crs:Name="03 Kodak Gold 200"
+    crs:HasSettings="True"
+    crs:Contrast2012="+5"
+    crs:Highlights2012="-15"
+    crs:Shadows2012="+15"
+    crs:Blacks2012="+10"
+    crs:Saturation="+5"
+    crs:SaturationAdjustmentYellow="+15"
+    crs:SaturationAdjustmentOrange="+15"
+    crs:SaturationAdjustmentBlue="-10"
+    crs:SplitToningShadowHue="45"
+    crs:SplitToningShadowSaturation="10"
+    crs:GrainAmount="25"
+    crs:GrainFrequency="40">
+   <crs:Name>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">03 Kodak Gold 200</rdf:li>
+    </rdf:Alt>
+   </crs:Name>
+   <crs:Group>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Film Simulations</rdf:li>
+    </rdf:Alt>
+   </crs:Group>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

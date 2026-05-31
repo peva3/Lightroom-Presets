@@ -1,0 +1,44 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+    crs:PresetType="Normal"
+    crs:Cluster=""
+    crs:UUID="A8B509C348184D0E93B4005BFF7EE752"
+    crs:SupportsAmount="False"
+    crs:SupportsColor="True"
+    crs:SupportsMonochrome="True"
+    crs:SupportsHighDynamicRange="True"
+    crs:SupportsNormalDynamicRange="True"
+    crs:SupportsSceneReferred="True"
+    crs:SupportsOutputReferred="True"
+    crs:RequiresRenditionBehavior="True"
+    crs:Name="02 Cinematic Teal and Orange"
+    crs:HasSettings="True"
+    crs:Contrast2012="+15"
+    crs:Highlights2012="-20"
+    crs:Shadows2012="+10"
+    crs:Whites2012="+10"
+    crs:Blacks2012="-10"
+    crs:SaturationAdjustmentOrange="+10"
+    crs:LuminanceAdjustmentOrange="+10"
+    crs:HueAdjustmentBlue="-15"
+    crs:SaturationAdjustmentBlue="+20"
+    crs:SplitToningShadowHue="220"
+    crs:SplitToningShadowSaturation="25"
+    crs:SplitToningHighlightHue="35"
+    crs:SplitToningHighlightSaturation="15"
+    crs:Clarity2012="+10">
+   <crs:Name>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">02 Cinematic Teal and Orange</rdf:li>
+    </rdf:Alt>
+   </crs:Name>
+   <crs:Group>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Film Simulations</rdf:li>
+    </rdf:Alt>
+   </crs:Group>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>
