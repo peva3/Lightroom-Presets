@@ -547,9 +547,21 @@ Reproduces the surreal look of infrared photography. Greenery and foliage (green
 
 ---
 
+## Contributing
+
+New presets, tweaks to existing settings, and documentation improvements are welcome. The full guide — including how to export `.xmp` files, naming conventions, and PR guidelines — is in [CONTRIBUTING.md](CONTRIBUTING.md).
+
+Quick overview:
+
+1. **Fork** this repo and create a branch.
+2. **Add or edit** an `.xmp` preset file and update the README.
+3. **Open a pull request** with a description of the look and your reference photo.
+
+---
+
 ## License
 
-Feel free to use, share, and modify these presets. If you repost them, a link back to this repo is appreciated but not required.
+MIT — see [LICENSE](LICENSE) for the full text. Basically: use these presets however you want, just keep the copyright notice intact.
 
 ---
 
