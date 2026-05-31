@@ -1,12 +1,12 @@
-# Lightroom Presets — Film Simulations & Creative Looks
+# Free Lightroom Presets — Film Simulation, Vintage, and Analog Film Looks
 
-A collection of 30 hand-tuned Lightroom presets inspired by classic film stocks, iconic camera profiles, and trending social media aesthetics. Each preset was reverse-engineered from real photography shared on Reddit and Instagram, then dialed in against reference photos to match the original emulsion or style as closely as possible.
+A curated collection of 30 free Lightroom presets for Adobe Lightroom Classic and CC, inspired by classic film stocks, iconic camera profiles, and trending social media aesthetics. Each Lightroom film preset was reverse-engineered from real photography shared on Reddit and Instagram, then carefully dialed in against reference photos to match the original emulsion as closely as possible. Whether you're after the warm, flattering skin tones of Kodak Portra 400, the muted documentary feel of Fujifilm Classic Chrome, or the gritty high-contrast punch of Ricoh monochrome, you'll find a preset here that fits your workflow.
 
 ## Contents
 
 - [Installation](#installation)
 - [Usage Tips](#usage-tips)
-- Classic Color Negative Film
+- Classic Color Negative Film Presets
   - [Fujifilm Classic Chrome](#fujifilm-classic-chrome)
   - [Kodak Portra 400](#kodak-portra-400)
   - [Kodak Portra 160](#kodak-portra-160)
@@ -17,18 +17,18 @@ A collection of 30 hand-tuned Lightroom presets inspired by classic film stocks,
   - [Kodak Ektar 100](#kodak-ektar-100)
   - [Fuji Astia 100F](#fuji-astia-100f)
   - [Kodak Ektachrome E100](#kodak-ektachrome-e100)
-- Classic Slide Film & Vintage
+- Classic Slide Film & Vintage Presets
   - [Kodachrome 64](#kodachrome-64)
   - [Fuji Velvia 50](#fuji-velvia-50)
   - [Faded Summer / Expired Film](#faded-summer--expired-film)
-- Black & White Film
+- Black & White Film Presets
   - [Ricoh High-Contrast Monochrome](#ricoh-high-contrast-monochrome)
   - [Ilford HP5 Plus](#ilford-hp5-plus)
   - [Kodak Tri-X 400](#kodak-tri-x-400)
   - [Ilford Delta 3200](#ilford-delta-3200)
-- Night & Specialty Film
+- Night & Specialty Film Presets
   - [Cinestill 800T](#cinestill-800t)
-- Creative & Trending Looks
+- Creative & Trending Lightroom Looks
   - [Moody PNW](#moody-pnw)
   - [Cinematic Teal and Orange](#cinematic-teal-and-orange)
   - [Y2K Flash Digicam](#y2k-flash-digicam)
@@ -44,6 +44,7 @@ A collection of 30 hand-tuned Lightroom presets inspired by classic film stocks,
 - [Preset Quick Reference](#preset-quick-reference)
 - [Contributing](#contributing)
 - [License](#license)
+- [What's Covered](#whats-covered)
 
 ## Installation
 
@@ -66,7 +67,7 @@ A collection of 30 hand-tuned Lightroom presets inspired by classic film stocks,
 
 ---
 
-## Classic Color Negative Film
+## Classic Color Negative Film Presets
 
 ### Fujifilm Classic Chrome
 
@@ -230,7 +231,7 @@ Ektachrome was recently resurrected by Kodak and delivers a clean, modern slide-
 
 ---
 
-## Classic Slide Film & Vintage
+## Classic Slide Film & Vintage Presets
 
 ### Kodachrome 64
 
@@ -282,7 +283,7 @@ Washed out, extremely warm, with muddy shadows and greens that turn to yellow-br
 
 ---
 
-## Black & White Film
+## Black & White Film Presets
 
 ### Ricoh High-Contrast Monochrome
 
@@ -347,7 +348,7 @@ Shot at ISO 3200 in dark clubs and alleys. Low contrast, soft textures, lifted b
 
 ---
 
-## Night & Specialty Film
+## Night & Specialty Film Presets
 
 ### Cinestill 800T
 
@@ -366,7 +367,7 @@ Repurposed motion picture stock — a Reddit night-photography favorite. The coo
 
 ---
 
-## Creative & Trending Looks
+## Creative & Trending Lightroom Looks
 
 ### Moody PNW
 
@@ -609,6 +610,22 @@ Quick overview:
 ## License
 
 MIT — see [LICENSE](LICENSE) for the full text. Basically: use these presets however you want, just keep the copyright notice intact.
+
+---
+
+## What's Covered
+
+These free Lightroom presets span a wide range of analog film photography styles and modern editing trends:
+
+- **Film simulation presets** — Kodak Portra 400, Portra 160, Kodak Gold 200, Kodak Ektar 100, Kodak Tri-X 400, Fujifilm Classic Chrome, Fujifilm Pro 400H, Fuji Superia X-TRA 400, Fuji Velvia 50, Fuji Astia 100F, Agfa Vista 200
+- **Slide film presets** — Kodachrome 64, Kodak Ektachrome E100, Velvia 50
+- **Black and white presets** — Ilford HP5 Plus, Ilford Delta 3200, Ricoh High-Contrast Monochrome, Tri-X B&W
+- **Vintage and retro presets** — Polaroid SX-70, Y2K flash digicam, Faded Summer expired film look, Lomography cross-processed
+- **Cinematic color grading presets** — Teal and orange blockbuster grade, Pro-Mist diffusion, Bleach Bypass
+- **Moody and atmospheric presets** — Moody PNW, Cyberpunk neon city, Pastel anime aethereal, Light and airy fine art, Matte fade
+- **Specialty presets** — Cinestill 800T night photography, Faux infrared
+
+All presets are provided as `.xmp` files compatible with Adobe Lightroom Classic, Lightroom CC (cloud), and Adobe Camera Raw.
 
 ---
 
