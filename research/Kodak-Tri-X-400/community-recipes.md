@@ -341,3 +341,16 @@ Final consensus values from cross-referencing community recipes. Applied to `Pre
 | Frequency | 72.5 | 65-80 | High roughness = salt-and-pepper |
 
 **Key sources:** r/Lightroom, r/analog, r/postprocessing, FredMiranda forums, Photrio (APUG), VSCO Film 01 reference, YouTube tutorials.
+
+## STYLEGUIDE v2.1 Alignment
+
+Applied 2026-06-01 to `Presets/Black-White/Kodak Tri-X 400.xmp`:
+
+| Parameter | Before | After | Rule |
+|-----------|--------|-------|------|
+| Blacks2012 | -32.5 | -30 | Blacks floor -30 |
+| GrainAmount | 60 | 55 | STYLEGUIDE Tri-X grain table: Amount 40-55 |
+| GrainSize | 40 | 35 | STYLEGUIDE Tri-X grain table: Size 25-35 |
+| GrainFrequency | 72.5 | 65 | STYLEGUIDE Tri-X grain table: Roughness 50-65 |
+
+No other violations. Clarity=0, Texture=0, Dehaze=0 already compliant. Sharpness=10, calibration ban, B&W curve neutral all pass.

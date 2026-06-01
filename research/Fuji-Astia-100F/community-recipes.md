@@ -161,3 +161,15 @@ Applied 2026-06-01 to `Presets/Slide/Fuji Astia 100F.xmp`:
 | BlueSaturation (Calibration) | -5 | removed | Bug-fix: no calibration panel |
 
 All other attributes were already within 5% of community validated values.
+
+## STYLEGUIDE v2.1 Alignment
+
+Applied 2026-06-01 to `Presets/Slide/Fuji Astia 100F.xmp`:
+
+| Parameter | Before | After | Rule |
+|-----------|--------|-------|------|
+| Clarity2012 | -7.5 | 0 | Grain protection: GrainAmount>0 → Clarity=0 |
+| Texture | -5 | 0 | Grain protection: GrainAmount>0 → Texture=0 |
+| Saturation | -7.5 | -5 | Slide S-curve cap: keep Saturation ≤ ±5 |
+
+No other violations. Boilerplate, tone curves, color grading, calibration ban, and Blacks floor all pass.

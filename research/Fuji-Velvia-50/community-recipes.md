@@ -361,6 +361,19 @@ Applied 2026-06-01 to `Presets/Slide/Fuji Velvia 50.xmp`:
 
 All other attributes were already within 5% of community validated values.
 
+## STYLEGUIDE v2.1 Alignment
+
+Applied 2026-06-01 to `Presets/Slide/Fuji Velvia 50.xmp`:
+
+| Parameter | Before | After | Rule |
+|-----------|--------|-------|------|
+| Blacks2012 | -40 | -30 | Blacks floor -30 |
+| Clarity2012 | +22.5 | 0 | Grain protection: GrainAmount>0 → Clarity=0 |
+| Texture | -5 | 0 | Grain protection: GrainAmount>0 → Texture=0 |
+| Dehaze | +11.3 | removed (0) | Grain protection: GrainAmount>0 → Dehaze=0 |
+
+No other violations. Saturation=-5 within Slide S-curve cap (±5). Boilerplate, calibration ban, HSL caps all pass.
+
 ## References
 
 - r/Lightroom search: "velvia emulation preset" (reddit.com)

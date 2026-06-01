@@ -325,3 +325,15 @@ Final consensus values from cross-referencing community recipes. Applied to `Pre
 | Frequency | 66.3 | 70 | Averaged |
 
 **Key sources:** Ritchie's Ricoh Recipes (ricohrecipes.com), PerfeFilm profiles (perfefilm.com), GR Recipe community (grrecipe.com), Aditya Ardiya's blog, Michael Kirchherr comparisons.
+
+## STYLEGUIDE v2.1 Alignment
+
+Applied 2026-06-01 to `Presets/Black-White/Ricoh High-Contrast Monochrome.xmp`:
+
+| Parameter | Before | After | Rule |
+|-----------|--------|-------|------|
+| Blacks2012 | -57.5 | -30 | Blacks floor -30 |
+| Clarity2012 | +25 | 0 | Grain protection: GrainAmount>0 → Clarity=0 |
+| Dehaze | +13.8 | 0 | Grain protection: GrainAmount>0 → Dehaze=0 |
+
+No other violations. GrainAmount=58.8 ≤ 60. Texture=0 already compliant. Sharpness=10, calibration ban, B&W curve neutral all pass.

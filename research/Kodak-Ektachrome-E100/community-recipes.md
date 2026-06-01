@@ -267,3 +267,15 @@ Applied 2026-06-01 to `Presets/Slide/Kodak Ektachrome E100.xmp`:
 | BlueSaturation (Calibration) | +7.5 | removed | Bug-fix: no calibration panel |
 
 All other attributes were already within 5% of community validated values.
+
+## STYLEGUIDE v2.1 Alignment
+
+Applied 2026-06-01 to `Presets/Slide/Kodak Ektachrome E100.xmp`:
+
+| Parameter | Before | After | Rule |
+|-----------|--------|-------|------|
+| Blacks2012 | -40 | -30 | Blacks floor -30 |
+| Clarity2012 | +13.8 | 0 | Grain protection: GrainAmount>0 → Clarity=0 |
+| Saturation | +7.5 | +5 | Slide S-curve cap: keep Saturation ≤ ±5 |
+
+No other violations. Vibrance +2.5, Saturation +5 → |diff|=2.5 ≤ 5. Boilerplate, calibration ban, HSL caps all pass.

@@ -426,3 +426,15 @@ Final consensus values from cross-referencing community recipes. Applied to `Pre
 | Frequency | 46.3 | 50 | Averaged (cleaner than Tri-X) |
 
 **Key sources:** r/analog Recipe 1 ("British Journalist"), YouTube (Jamie Windsor, Kyle McDougall, Matt Day), r/Darkroom, Negative Lab Pro community, Flickr HP5 group.
+
+## STYLEGUIDE v2.1 Alignment
+
+Applied 2026-06-01 to `Presets/Black-White/Ilford HP5 Plus.xmp`:
+
+| Parameter | Before | After | Rule |
+|-----------|--------|-------|------|
+| Clarity2012 | +11.3 | 0 | Grain protection: GrainAmount>0 → Clarity=0 |
+| Texture | +10 | 0 | Grain protection: GrainAmount>0 → Texture=0 |
+| GrainFrequency | 46.3 | 50 | STYLEGUIDE HP5 grain table: Roughness 50-60 |
+
+No other violations. GrainAmount=36.3 within 30-45 range, Size=27.5 within 20-30 range. Sharpness=10, calibration ban, B&W curve neutral all pass.

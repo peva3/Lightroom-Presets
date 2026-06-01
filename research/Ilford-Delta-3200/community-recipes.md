@@ -308,4 +308,18 @@ Final consensus values from cross-referencing community recipes. Applied to `Pre
 | Frequency | 71.3 | 55-70 | Pronounced texture |
 
 **Key sources:** r/analog, r/Lightroom, r/Darkroom, Photrio, 35mmc, VSCO Film 02 reference, Mastin Labs Ilford Pack reference.
+
+## STYLEGUIDE v2.1 Alignment
+
+Applied 2026-06-01 to `Presets/Black-White/Ilford Delta 3200.xmp`:
+
+| Parameter | Before | After | Rule |
+|-----------|--------|-------|------|
+| GrainAmount | 71.3 | 60 | Grain Amount ≤ 60 hard cap; STYLEGUIDE Delta 3200 table: 50-70 |
+| GrainSize | 57.5 | 55 | STYLEGUIDE Delta 3200 grain table: Size 40-55 |
+| Clarity2012 | -10 | 0 | Grain protection: GrainAmount>0 → Clarity=0 |
+| Texture | -11.3 | 0 | Grain protection: GrainAmount>0 → Texture=0 |
+| Dehaze | -10 | removed (0) | Grain protection: GrainAmount>0 → Dehaze=0 |
+
+No other violations. GrainFrequency=71.3 within 60-80 range. Sharpness=10, calibration ban, B&W curve neutral all pass.
 ```

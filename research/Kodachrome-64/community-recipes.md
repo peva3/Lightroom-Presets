@@ -251,3 +251,14 @@ Applied 2026-06-01 to `Presets/Slide/Kodachrome 64.xmp`:
 | BlueSaturation (Calibration) | +17.5 | removed | Bug-fix: no calibration panel |
 
 All other attributes were already within 5% of community validated values.
+
+## STYLEGUIDE v2.1 Alignment
+
+Applied 2026-06-01 to `Presets/Slide/Kodachrome 64.xmp`:
+
+| Parameter | Before | After | Rule |
+|-----------|--------|-------|------|
+| Clarity2012 | -5 | 0 | Grain protection: GrainAmount>0 → Clarity=0 |
+| Dehaze | +10 | removed (0) | Grain protection: GrainAmount>0 → Dehaze=0 |
+
+No other violations. Boilerplate, tone curves, color grading, HSL caps, calibration ban, and Blacks floor all pass.
