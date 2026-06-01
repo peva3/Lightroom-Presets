@@ -2,8 +2,42 @@
  <rdf:RDF>
  
  <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="447A8C35165B4481A500E1CB438E9C77" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:Name="03 Ricoh High-Contrast Monochrome" crs:Treatment="Monochrome" crs:ProcessVersion="15.4"
+        crs:HasSettings="True"
+        crs:Sharpness="10"
         crs:LuminanceSmoothing="0"
-        crs:Sharpness="10" crs:HasSettings="True" crs:Blacks2012="-30" crs:Clarity2012="0" crs:Contrast2012="+80" crs:ConvertToGrayscale="True" crs:Dehaze="0" crs:GrainAmount="58.8" crs:GrainFrequency="66.3" crs:GrainSize="30" crs:GrayMixerAqua="-40" crs:GrayMixerBlue="-60" crs:GrayMixerGreen="-30" crs:GrayMixerMagenta="0" crs:GrayMixerOrange="+20" crs:GrayMixerPurple="-30" crs:GrayMixerRed="+40" crs:GrayMixerYellow="0" crs:Highlights2012="-60" crs:Shadows2012="-46.3" crs:Texture="0" crs:Whites2012="+25" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="0" crs:ColorGradeHighlightSat="0" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="0" crs:ColorGradeShadowSat="0" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="50" crs:ColorGradeBalance="0">
+        crs:Blacks2012="-30"
+        crs:Clarity2012="0"
+        crs:Contrast2012="+80"
+        crs:ConvertToGrayscale="True"
+        crs:GrainAmount="58.8"
+        crs:GrainFrequency="66.3"
+        crs:GrainSize="30"
+        crs:GrayMixerRed="+40"
+        crs:GrayMixerOrange="+20"
+        crs:GrayMixerYellow="0"
+        crs:GrayMixerGreen="-30"
+        crs:GrayMixerAqua="-40"
+        crs:GrayMixerBlue="-60"
+        crs:GrayMixerPurple="-30"
+        crs:GrayMixerMagenta="0"
+        crs:Highlights2012="-60"
+        crs:Shadows2012="-46.3"
+        crs:Texture="0"
+        crs:Whites2012="+25"
+        crs:ColorGradeMidtoneHue="0"
+        crs:ColorGradeMidtoneSat="0"
+        crs:ColorGradeMidtoneLum="0"
+        crs:ColorGradeHighlightHue="0"
+        crs:ColorGradeHighlightSat="0"
+        crs:ColorGradeHighlightLum="0"
+        crs:ColorGradeShadowHue="0"
+        crs:ColorGradeShadowSat="0"
+        crs:ColorGradeShadowLum="0"
+        crs:ColorGradeGlobalHue="0"
+        crs:ColorGradeGlobalSat="0"
+        crs:ColorGradeGlobalLum="0"
+        crs:ColorGradeBlending="50"
+        crs:ColorGradeBalance="0">
  <crs:Name>
  <rdf:Alt>
  <rdf:li xml:lang="x-default">03 Ricoh High-Contrast Monochrome</rdf:li>
