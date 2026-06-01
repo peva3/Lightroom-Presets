@@ -1,0 +1,124 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+   crs:PresetType="Normal"
+   crs:Cluster=""
+   crs:UUID="48CF4FC7B6084E7AB45E15B5B8EF09B3"
+   crs:SupportsAmount="False"
+   crs:SupportsColor="True"
+   crs:SupportsMonochrome="True"
+   crs:SupportsHighDynamicRange="True"
+   crs:SupportsNormalDynamicRange="True"
+   crs:SupportsSceneReferred="True"
+   crs:SupportsOutputReferred="True"
+   crs:CameraModelRestriction=""
+   crs:Copyright=""
+   crs:ContactInfo=""
+   crs:Version="11.0"
+   crs:ProcessVersion="10.0"
+   crs:Saturation="-5"
+   crs:Sharpness="25"
+   crs:ShadowTint="-5"
+   crs:RedHue="+15"
+   crs:RedSaturation="+20"
+   crs:GreenHue="+15"
+   crs:GreenSaturation="+10"
+   crs:BlueHue="-5"
+   crs:BlueSaturation="-5"
+   crs:Vibrance="+2"
+   crs:HueAdjustmentRed="+10"
+   crs:HueAdjustmentOrange="-5"
+   crs:HueAdjustmentYellow="+10"
+   crs:HueAdjustmentGreen="+40"
+   crs:HueAdjustmentAqua="+10"
+   crs:HueAdjustmentBlue="-10"
+   crs:HueAdjustmentPurple="-5"
+   crs:HueAdjustmentMagenta="0"
+   crs:SaturationAdjustmentRed="-20"
+   crs:SaturationAdjustmentOrange="-15"
+   crs:SaturationAdjustmentYellow="-25"
+   crs:SaturationAdjustmentGreen="-40"
+   crs:SaturationAdjustmentAqua="-5"
+   crs:SaturationAdjustmentBlue="-20"
+   crs:SaturationAdjustmentPurple="-60"
+   crs:SaturationAdjustmentMagenta="-15"
+   crs:LuminanceAdjustmentRed="-5"
+   crs:LuminanceAdjustmentOrange="+15"
+   crs:LuminanceAdjustmentYellow="+24"
+   crs:LuminanceAdjustmentGreen="-7"
+   crs:LuminanceAdjustmentAqua="-6"
+   crs:LuminanceAdjustmentBlue="-25"
+   crs:LuminanceAdjustmentPurple="-10"
+   crs:LuminanceAdjustmentMagenta="-10"
+   crs:ParametricShadows="0"
+   crs:ParametricDarks="0"
+   crs:ParametricLights="0"
+   crs:ParametricHighlights="0"
+   crs:ParametricShadowSplit="25"
+   crs:ParametricMidtoneSplit="50"
+   crs:ParametricHighlightSplit="75"
+   crs:SharpenRadius="+1.0"
+   crs:SharpenDetail="25"
+   crs:SharpenEdgeMasking="0"
+   crs:Contrast2012="+80"
+   crs:Clarity2012="0"
+   crs:Dehaze="0"
+   crs:ToneCurveName2012="Custom"
+   crs:HasSettings="True">
+   <crs:Name>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">2.1.6 Kodak Portra 800</rdf:li>
+    </rdf:Alt>
+   </crs:Name>
+   <crs:ShortName>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default"/>
+    </rdf:Alt>
+   </crs:ShortName>
+   <crs:SortName>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default"/>
+    </rdf:Alt>
+   </crs:SortName>
+   <crs:Group>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">OpenFilmStocks</rdf:li>
+    </rdf:Alt>
+   </crs:Group>
+   <crs:Description>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default"/>
+    </rdf:Alt>
+   </crs:Description>
+   <crs:ToneCurvePV2012>
+    <rdf:Seq>
+     <rdf:li>0, 0</rdf:li>
+     <rdf:li>26, 14</rdf:li>
+     <rdf:li>41, 28</rdf:li>
+     <rdf:li>72, 63</rdf:li>
+     <rdf:li>129, 130</rdf:li>
+     <rdf:li>255, 250</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012>
+   <crs:ToneCurvePV2012Red>
+    <rdf:Seq>
+     <rdf:li>0, 0</rdf:li>
+     <rdf:li>255, 255</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012Red>
+   <crs:ToneCurvePV2012Green>
+    <rdf:Seq>
+     <rdf:li>0, 0</rdf:li>
+     <rdf:li>255, 255</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012Green>
+   <crs:ToneCurvePV2012Blue>
+    <rdf:Seq>
+     <rdf:li>0, 0</rdf:li>
+     <rdf:li>255, 255</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012Blue>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

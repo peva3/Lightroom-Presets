@@ -1,47 +1,8 @@
 <x:xmpmeta xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00">
  <rdf:RDF>
  
- <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="AB4C653286D245CC8C2F0DF6D93A73CF" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:Name="08 Kodak Ektar 100" crs:Treatment="Color" crs:ProcessVersion="15.4"
-        crs:HasSettings="True"
-        crs:Blacks2012="-19"
-        crs:Clarity2012="0"
-        crs:Contrast2012="+32"
-        crs:Dehaze="0"
-        crs:Exposure2012="+0.15"
-        crs:Highlights2012="-30"
-        crs:Shadows2012="+22"
-        crs:Whites2012="+8"
-        crs:Saturation="+5"
-        crs:HueAdjustmentRed="+10"
-        crs:HueAdjustmentOrange="-2.5"
-        crs:HueAdjustmentGreen="+17.5"
-        crs:HueAdjustmentAqua="+5"
-        crs:HueAdjustmentPurple="+5"
-        crs:HueAdjustmentMagenta="+5"
-        crs:SaturationAdjustmentRed="+21"
-        crs:SaturationAdjustmentOrange="+17.5"
-        crs:SaturationAdjustmentYellow="+16"
-        crs:SaturationAdjustmentGreen="+25"
-        crs:SaturationAdjustmentAqua="+15"
-        crs:SaturationAdjustmentBlue="+17.5"
-        crs:SaturationAdjustmentPurple="+7.5"
-        crs:SaturationAdjustmentMagenta="+7.5"
-        crs:LuminanceAdjustmentRed="-10"
-        crs:LuminanceAdjustmentOrange="-5"
-        crs:LuminanceAdjustmentYellow="+10"
-        crs:LuminanceAdjustmentGreen="-15"
-        crs:LuminanceAdjustmentBlue="-15"
-        crs:ColorGradeHighlightHue="45"
-        crs:ColorGradeHighlightSat="5"
-        crs:ColorGradeShadowHue="210"
-        crs:ColorGradeShadowSat="9"
-        crs:ColorGradeBlending="50"
-        crs:GrainAmount="5"
-        crs:GrainSize="10"
-        crs:GrainFrequency="50"
-        crs:Sharpness="10"
-        crs:LuminanceSmoothing="0"
-        crs:Texture="0">
+ 
+ <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="AB4C653286D245CC8C2F0DF6D93A73CF" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:Name="08 Kodak Ektar 100" crs:Treatment="Color" crs:ProcessVersion="15.4" crs:HasSettings="True" crs:Blacks2012="-19" crs:Clarity2012="0" crs:Contrast2012="+32" crs:Dehaze="0" crs:Exposure2012="+0.15" crs:Highlights2012="-30" crs:Shadows2012="+22" crs:Whites2012="+8" crs:Saturation="+5" crs:HueAdjustmentRed="+10" crs:HueAdjustmentOrange="-2.5" crs:HueAdjustmentGreen="+17.5" crs:HueAdjustmentAqua="+5" crs:HueAdjustmentPurple="+5" crs:HueAdjustmentMagenta="+5" crs:SaturationAdjustmentRed="+21" crs:SaturationAdjustmentOrange="+17.5" crs:SaturationAdjustmentYellow="+16" crs:SaturationAdjustmentGreen="+25" crs:SaturationAdjustmentAqua="+15" crs:SaturationAdjustmentBlue="+17.5" crs:SaturationAdjustmentPurple="+7.5" crs:SaturationAdjustmentMagenta="+7.5" crs:LuminanceAdjustmentRed="-10" crs:LuminanceAdjustmentOrange="-5" crs:LuminanceAdjustmentYellow="+10" crs:LuminanceAdjustmentGreen="-15" crs:LuminanceAdjustmentBlue="-15" crs:GrainAmount="5" crs:GrainSize="10" crs:GrainFrequency="50" crs:Sharpness="10" crs:LuminanceSmoothing="0" crs:Texture="0" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="45" crs:ColorGradeHighlightSat="5" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="210" crs:ColorGradeShadowSat="9" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="50" crs:ColorGradeBalance="0">
  <crs:Name>
  <rdf:Alt>
  <rdf:li xml:lang="x-default">08 Kodak Ektar 100</rdf:li>
@@ -54,6 +15,7 @@
  </crs:Group>
  <crs:Look>
  
+ 
  <rdf:Description crs:Name="Adobe Color" crs:Amount="1.000000" crs:UUID="B952C21111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="False" crs:SupportsOutputReferred="True">
  <crs:Group>
  <rdf:Alt>
@@ -62,6 +24,6 @@
  </crs:Group>
  </rdf:Description>
  </crs:Look>
-<crs:ToneCurvePV2012><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012><crs:ToneCurvePV2012Red><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012Red><crs:ToneCurvePV2012Green><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012Green><crs:ToneCurvePV2012Blue><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012Blue></rdf:Description>
+ <crs:ToneCurvePV2012><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012><crs:ToneCurvePV2012Red><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012Red><crs:ToneCurvePV2012Green><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012Green><crs:ToneCurvePV2012Blue><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012Blue></rdf:Description>
  </rdf:RDF>
 </x:xmpmeta>

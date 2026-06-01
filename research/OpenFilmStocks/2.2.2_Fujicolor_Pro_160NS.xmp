@@ -1,0 +1,134 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+   crs:PresetType="Normal"
+   crs:Cluster=""
+   crs:UUID="268650CD927643BF81FD07B6DEDB500E"
+   crs:SupportsAmount="False"
+   crs:SupportsColor="True"
+   crs:SupportsMonochrome="True"
+   crs:SupportsHighDynamicRange="True"
+   crs:SupportsNormalDynamicRange="True"
+   crs:SupportsSceneReferred="True"
+   crs:SupportsOutputReferred="True"
+   crs:CameraModelRestriction=""
+   crs:Copyright=""
+   crs:ContactInfo=""
+   crs:Version="12.2.1"
+   crs:ProcessVersion="11.0"
+   crs:Saturation="-4"
+   crs:ShadowTint="-5"
+   crs:RedHue="-10"
+   crs:RedSaturation="0"
+   crs:GreenHue="0"
+   crs:GreenSaturation="0"
+   crs:BlueHue="-15"
+   crs:BlueSaturation="+10"
+   crs:Vibrance="-9"
+   crs:HueAdjustmentRed="+10"
+   crs:HueAdjustmentOrange="+5"
+   crs:HueAdjustmentYellow="+12"
+   crs:HueAdjustmentGreen="+33"
+   crs:HueAdjustmentAqua="+2"
+   crs:HueAdjustmentBlue="+2"
+   crs:HueAdjustmentPurple="-4"
+   crs:HueAdjustmentMagenta="+12"
+   crs:SaturationAdjustmentRed="-28"
+   crs:SaturationAdjustmentOrange="-5"
+   crs:SaturationAdjustmentYellow="-15"
+   crs:SaturationAdjustmentGreen="-20"
+   crs:SaturationAdjustmentAqua="-21"
+   crs:SaturationAdjustmentBlue="+5"
+   crs:SaturationAdjustmentPurple="-14"
+   crs:SaturationAdjustmentMagenta="-27"
+   crs:LuminanceAdjustmentRed="-7"
+   crs:LuminanceAdjustmentOrange="+13"
+   crs:LuminanceAdjustmentYellow="+35"
+   crs:LuminanceAdjustmentGreen="+62"
+   crs:LuminanceAdjustmentAqua="+60"
+   crs:LuminanceAdjustmentBlue="+28"
+   crs:LuminanceAdjustmentPurple="+18"
+   crs:LuminanceAdjustmentMagenta="-14"
+   crs:ParametricShadows="0"
+   crs:ParametricDarks="0"
+   crs:ParametricLights="0"
+   crs:ParametricHighlights="0"
+   crs:ParametricShadowSplit="25"
+   crs:ParametricMidtoneSplit="50"
+   crs:ParametricHighlightSplit="75"
+   crs:Contrast2012="+74"
+   crs:ToneCurveName2012="Custom"
+   crs:HasSettings="True">
+   <crs:Name>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">2.2.2 Fujicolor Pro 160NS</rdf:li>
+    </rdf:Alt>
+   </crs:Name>
+   <crs:ShortName>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default"/>
+    </rdf:Alt>
+   </crs:ShortName>
+   <crs:SortName>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default"/>
+    </rdf:Alt>
+   </crs:SortName>
+   <crs:Group>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">OpenFilmStocks</rdf:li>
+    </rdf:Alt>
+   </crs:Group>
+   <crs:Description>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default"/>
+    </rdf:Alt>
+   </crs:Description>
+   <crs:ToneCurvePV2012>
+    <rdf:Seq>
+     <rdf:li>0, 0</rdf:li>
+     <rdf:li>23, 9</rdf:li>
+     <rdf:li>51, 33</rdf:li>
+     <rdf:li>129, 116</rdf:li>
+     <rdf:li>209, 203</rdf:li>
+     <rdf:li>255, 247</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012>
+   <crs:ToneCurvePV2012Red>
+    <rdf:Seq>
+     <rdf:li>0, 0</rdf:li>
+     <rdf:li>255, 255</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012Red>
+   <crs:ToneCurvePV2012Green>
+    <rdf:Seq>
+     <rdf:li>0, 0</rdf:li>
+     <rdf:li>255, 255</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012Green>
+   <crs:ToneCurvePV2012Blue>
+    <rdf:Seq>
+     <rdf:li>0, 0</rdf:li>
+     <rdf:li>255, 255</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012Blue>
+   <crs:Look>
+    <rdf:Description
+     crs:Name="Adobe Color"
+     crs:Amount="1.000000"
+     crs:UUID="B952C231111CD8E0ECCF14B86BAA7077"
+     crs:SupportsAmount="false"
+     crs:SupportsMonochrome="false"
+     crs:SupportsOutputReferred="false"
+     crs:Stubbed="true">
+    <crs:Group>
+     <rdf:Alt>
+      <rdf:li xml:lang="x-default">Profiles</rdf:li>
+     </rdf:Alt>
+    </crs:Group>
+    </rdf:Description>
+   </crs:Look>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

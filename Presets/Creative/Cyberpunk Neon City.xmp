@@ -1,9 +1,8 @@
 <x:xmpmeta xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00">
  <rdf:RDF>
  
- <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="2DD3E197105945ABA901E0C61F631D15" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:Name="05 Cyberpunk Neon City" crs:Treatment="Color" crs:ProcessVersion="15.4"
-        crs:LuminanceSmoothing="0"
-        crs:Sharpness="10" crs:HasSettings="True" crs:Blacks2012="-40" crs:Clarity2012="+55" crs:Contrast2012="+45" crs:Dehaze="+45" crs:Exposure2012="-0.50" crs:GrainAmount="45" crs:GrainFrequency="65" crs:GrainSize="40" crs:Highlights2012="-65" crs:HueAdjustmentGreen="-90" crs:PostCropVignetteAmount="-22.5" crs:Saturation="-15" crs:SaturationAdjustmentGreen="-60" crs:SaturationAdjustmentMagenta="+55" crs:SaturationAdjustmentYellow="-60" crs:Shadows2012="+40" crs:Whites2012="+30" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="315" crs:ColorGradeHighlightSat="22.5" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="230" crs:ColorGradeShadowSat="22.5" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="70" crs:ColorGradeBalance="+30">
+ 
+ <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="2DD3E197105945ABA901E0C61F631D15" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:Name="05 Cyberpunk Neon City" crs:Treatment="Color" crs:ProcessVersion="15.4" crs:LuminanceSmoothing="0" crs:Sharpness="10" crs:HasSettings="True" crs:Blacks2012="0" crs:Clarity2012="+55" crs:Contrast2012="+45" crs:Dehaze="+45" crs:Exposure2012="-0.50" crs:GrainAmount="45" crs:GrainFrequency="65" crs:GrainSize="40" crs:Highlights2012="-65" crs:HueAdjustmentGreen="-90" crs:PostCropVignetteAmount="-22.5" crs:Saturation="-15" crs:SaturationAdjustmentGreen="-60" crs:SaturationAdjustmentMagenta="+55" crs:SaturationAdjustmentYellow="-60" crs:Shadows2012="+40" crs:Whites2012="+30" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="315" crs:ColorGradeHighlightSat="22.5" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="230" crs:ColorGradeShadowSat="22.5" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="75" crs:ColorGradeBalance="+30">
  <crs:Name>
  <rdf:Alt>
  <rdf:li xml:lang="x-default">05 Cyberpunk Neon City</rdf:li>
@@ -16,6 +15,7 @@
  </crs:Group>
  <crs:Look>
  
+ 
  <rdf:Description crs:Name="Adobe Color" crs:Amount="1.000000" crs:UUID="B952C21111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="False" crs:SupportsOutputReferred="True">
  <crs:Group>
  <rdf:Alt>
@@ -24,6 +24,6 @@
  </crs:Group>
  </rdf:Description>
  </crs:Look>
-<crs:ToneCurvePV2012><rdf:Seq><rdf:li>0, 20</rdf:li><rdf:li>64, 55</rdf:li><rdf:li>128, 128</rdf:li><rdf:li>192, 196</rdf:li><rdf:li>255, 235</rdf:li></rdf:Seq></crs:ToneCurvePV2012><crs:ToneCurvePV2012Red><rdf:Seq><rdf:li>0, 20</rdf:li><rdf:li>64, 55</rdf:li><rdf:li>128, 128</rdf:li><rdf:li>192, 196</rdf:li><rdf:li>255, 235</rdf:li></rdf:Seq></crs:ToneCurvePV2012Red><crs:ToneCurvePV2012Green><rdf:Seq><rdf:li>0, 20</rdf:li><rdf:li>64, 55</rdf:li><rdf:li>128, 128</rdf:li><rdf:li>192, 196</rdf:li><rdf:li>255, 235</rdf:li></rdf:Seq></crs:ToneCurvePV2012Green><crs:ToneCurvePV2012Blue><rdf:Seq><rdf:li>0, 20</rdf:li><rdf:li>64, 55</rdf:li><rdf:li>128, 128</rdf:li><rdf:li>192, 196</rdf:li><rdf:li>255, 235</rdf:li></rdf:Seq></crs:ToneCurvePV2012Blue></rdf:Description>
+ <crs:ToneCurvePV2012><rdf:Seq><rdf:li>0, 20</rdf:li><rdf:li>64, 55</rdf:li><rdf:li>128, 128</rdf:li><rdf:li>192, 196</rdf:li><rdf:li>255, 235</rdf:li></rdf:Seq></crs:ToneCurvePV2012><crs:ToneCurvePV2012Red><rdf:Seq><rdf:li>0, 20</rdf:li><rdf:li>64, 55</rdf:li><rdf:li>128, 128</rdf:li><rdf:li>192, 196</rdf:li><rdf:li>255, 235</rdf:li></rdf:Seq></crs:ToneCurvePV2012Red><crs:ToneCurvePV2012Green><rdf:Seq><rdf:li>0, 20</rdf:li><rdf:li>64, 55</rdf:li><rdf:li>128, 128</rdf:li><rdf:li>192, 196</rdf:li><rdf:li>255, 235</rdf:li></rdf:Seq></crs:ToneCurvePV2012Green><crs:ToneCurvePV2012Blue><rdf:Seq><rdf:li>0, 20</rdf:li><rdf:li>64, 55</rdf:li><rdf:li>128, 128</rdf:li><rdf:li>192, 196</rdf:li><rdf:li>255, 235</rdf:li></rdf:Seq></crs:ToneCurvePV2012Blue></rdf:Description>
  </rdf:RDF>
 </x:xmpmeta>

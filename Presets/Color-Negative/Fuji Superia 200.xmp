@@ -1,0 +1,29 @@
+<x:xmpmeta xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00">
+ <rdf:RDF>
+ 
+ 
+ <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="37069B13083B447F8E64409236373710" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:Name="Fuji Superia 200" crs:Treatment="Color" crs:ProcessVersion="15.4" crs:HasSettings="True" crs:Sharpness="8" crs:Blacks2012="-2" crs:Contrast2012="+12" crs:Exposure2012="+0.40" crs:GrainAmount="23" crs:GrainFrequency="50" crs:GrainSize="22" crs:Highlights2012="-15" crs:Shadows2012="+18" crs:Saturation="+8" crs:Vibrance="+10" crs:SaturationAdjustmentRed="+8" crs:SaturationAdjustmentGreen="+5" crs:SaturationAdjustmentBlue="+3" crs:HueAdjustmentRed="-7" crs:HueAdjustmentBlue="-4" crs:LuminanceSmoothing="0" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="38" crs:ColorGradeHighlightSat="5" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="135" crs:ColorGradeShadowSat="12" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="50" crs:ColorGradeBalance="0">
+ <crs:Name>
+ <rdf:Alt>
+ <rdf:li xml:lang="x-default">Fuji Superia 200</rdf:li>
+ </rdf:Alt>
+ </crs:Name>
+ <crs:Group>
+ <rdf:Alt>
+ <rdf:li xml:lang="x-default">Color Negative</rdf:li>
+ </rdf:Alt>
+ </crs:Group>
+ <crs:Look>
+ 
+ 
+ <rdf:Description crs:Name="Adobe Color" crs:Amount="1.000000" crs:UUID="B952C21111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="False" crs:SupportsOutputReferred="True">
+ <crs:Group>
+ <rdf:Alt>
+ <rdf:li xml:lang="x-default">Profiles</rdf:li>
+ </rdf:Alt>
+ </crs:Group>
+ </rdf:Description>
+ </crs:Look>
+ <crs:ToneCurvePV2012><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012><crs:ToneCurvePV2012Red><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012Red><crs:ToneCurvePV2012Green><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012Green><crs:ToneCurvePV2012Blue><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012Blue></rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

@@ -1,37 +1,8 @@
 <x:xmpmeta xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00">
  <rdf:RDF>
  
- <rdf:Description rdf:about=""
-  crs:PresetType="Normal"
-  crs:Cluster=""
-  crs:UUID="8A3F2C7E1B464A929D5E0F8C3B7A1D6F"
-  crs:SupportsAmount="True"
-  crs:SupportsColor="True"
-  crs:SupportsMonochrome="True"
-  crs:SupportsHighDynamicRange="True"
-  crs:SupportsNormalDynamicRange="True"
-  crs:SupportsSceneReferred="True"
-  crs:SupportsOutputReferred="True"
-  crs:RequiresRenditionBehavior="True"
-  crs:Name="Lomochrome Purple"
-  crs:Treatment="Color"
-  crs:ProcessVersion="15.4"
-  crs:HasSettings="True"
-  crs:Sharpness="10"
-  crs:GrainAmount="49"
-  crs:GrainFrequency="60"
-  crs:GrainSize="30"
-  crs:HueAdjustmentBlue="-93"
-  crs:HueAdjustmentGreen="-60"
-  crs:HueAdjustmentYellow="+33"
-  crs:SaturationAdjustmentBlue="-30"
-  crs:SaturationAdjustmentGreen="+34"
-  crs:SaturationAdjustmentMagenta="+39"
-  crs:ColorGradeBalance="+16"
-  crs:ColorGradeHighlightHue="305"
-  crs:ColorGradeHighlightSat="20"
-  crs:ColorGradeShadowHue="210"
-  crs:ColorGradeShadowSat="11">
+ 
+ <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="8A3F2C7E1B464A929D5E0F8C3B7A1D6F" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:Name="Lomochrome Purple" crs:Treatment="Color" crs:ProcessVersion="15.4" crs:HasSettings="True" crs:Sharpness="10" crs:GrainAmount="49" crs:GrainFrequency="60" crs:GrainSize="30" crs:HueAdjustmentBlue="-93" crs:HueAdjustmentGreen="-60" crs:HueAdjustmentYellow="+33" crs:SaturationAdjustmentBlue="-30" crs:SaturationAdjustmentGreen="+34" crs:SaturationAdjustmentMagenta="+39" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="305" crs:ColorGradeHighlightSat="20" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="210" crs:ColorGradeShadowSat="11" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="50" crs:ColorGradeBalance="+16">
  <crs:Name>
  <rdf:Alt>
  <rdf:li xml:lang="x-default">Lomochrome Purple</rdf:li>
@@ -44,6 +15,7 @@
  </crs:Group>
  <crs:Look>
  
+ 
  <rdf:Description crs:Name="Adobe Color" crs:Amount="1.000000" crs:UUID="B952C21111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="False" crs:SupportsOutputReferred="True">
  <crs:Group>
  <rdf:Alt>
@@ -52,6 +24,6 @@
  </crs:Group>
  </rdf:Description>
  </crs:Look>
-<crs:ToneCurvePV2012><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012><crs:ToneCurvePV2012Red><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012Red><crs:ToneCurvePV2012Green><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012Green><crs:ToneCurvePV2012Blue><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012Blue></rdf:Description>
+ <crs:ToneCurvePV2012><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012><crs:ToneCurvePV2012Red><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012Red><crs:ToneCurvePV2012Green><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012Green><crs:ToneCurvePV2012Blue><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012Blue></rdf:Description>
  </rdf:RDF>
 </x:xmpmeta>
