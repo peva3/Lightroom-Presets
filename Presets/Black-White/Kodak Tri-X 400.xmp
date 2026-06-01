@@ -15,19 +15,25 @@
     crs:RequiresRenditionBehavior="True"
     crs:Name="05 Kodak Tri-X 400"
     crs:HasSettings="True"
+    crs:GrayMixerMagenta="-5"
+    crs:GrayMixerPurple="-10"
+    crs:GrayMixerAqua="+5"
+    crs:GrayMixerOrange="+10"
+    crs:GrayMixerRed="+5"
+    crs:Texture="+15"
     crs:ConvertToGrayscale="True"
-    crs:Contrast2012="+35"
-    crs:Highlights2012="-10"
-    crs:Shadows2012="-15"
-    crs:Whites2012="+20"
-    crs:Blacks2012="-30"
-    crs:GrayMixerYellow="+15"
-    crs:GrayMixerGreen="+20"
-    crs:GrayMixerBlue="-15"
-    crs:Clarity2012="+15"
-    crs:GrainAmount="55"
+    crs:Contrast2012="+45"
+    crs:Highlights2012="-15"
+    crs:Shadows2012="-20"
+    crs:Whites2012="+25"
+    crs:Blacks2012="-40"
+    crs:GrayMixerYellow="+20"
+    crs:GrayMixerGreen="+25"
+    crs:GrayMixerBlue="-20"
+    crs:Clarity2012="+25"
+    crs:GrainAmount="60"
     crs:GrainSize="40"
-    crs:GrainFrequency="50">
+    crs:GrainFrequency="55">
    <crs:Name>
     <rdf:Alt>
      <rdf:li xml:lang="x-default">05 Kodak Tri-X 400</rdf:li>
@@ -35,7 +41,7 @@
    </crs:Name>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Film Simulations</rdf:li>
+     <rdf:li xml:lang="x-default">Black White</rdf:li>
     </rdf:Alt>
    </crs:Group>
   </rdf:Description>

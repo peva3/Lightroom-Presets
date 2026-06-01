@@ -15,17 +15,28 @@
     crs:RequiresRenditionBehavior="True"
     crs:Name="02 Kodak Portra 160"
     crs:HasSettings="True"
-    crs:Contrast2012="-15"
-    crs:Highlights2012="-30"
-    crs:Shadows2012="+25"
-    crs:Whites2012="-10"
-    crs:Blacks2012="+20"
-    crs:Vibrance="+5"
+    crs:GrainFrequency="25"
+    crs:SplitToningBalance="+15"
+    crs:SplitToningHighlightSaturation="10"
+    crs:SplitToningHighlightHue="40"
+    crs:SplitToningShadowSaturation="8"
+    crs:SplitToningShadowHue="200"
+    crs:SaturationAdjustmentBlue="-15"
+    crs:SaturationAdjustmentGreen="-20"
+    crs:HueAdjustmentRed="+10"
+    crs:Clarity2012="-5"
+    crs:Texture="-5"
+    crs:Contrast2012="-20"
+    crs:Highlights2012="-40"
+    crs:Shadows2012="+35"
+    crs:Whites2012="-15"
+    crs:Blacks2012="+25"
+    crs:Vibrance="+10"
     crs:Saturation="-15"
-    crs:SaturationAdjustmentOrange="-5"
-    crs:LuminanceAdjustmentOrange="+15"
-    crs:HueAdjustmentGreen="+10"
-    crs:GrainAmount="15"
+    crs:SaturationAdjustmentOrange="-10"
+    crs:LuminanceAdjustmentOrange="+20"
+    crs:HueAdjustmentGreen="+15"
+    crs:GrainAmount="20"
     crs:GrainSize="20">
    <crs:Name>
     <rdf:Alt>
@@ -34,7 +45,7 @@
    </crs:Name>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Film Simulations</rdf:li>
+     <rdf:li xml:lang="x-default">Color Negative</rdf:li>
     </rdf:Alt>
    </crs:Group>
   </rdf:Description>

@@ -15,17 +15,31 @@
     crs:RequiresRenditionBehavior="True"
     crs:Name="08 Kodak Ektar 100"
     crs:HasSettings="True"
-    crs:Contrast2012="+20"
-    crs:Highlights2012="-25"
+    crs:SplitToningBalance="+30"
+    crs:SplitToningHighlightSaturation="10"
+    crs:SplitToningHighlightHue="40"
+    crs:SplitToningShadowSaturation="8"
+    crs:SplitToningShadowHue="210"
+    crs:LuminanceAdjustmentBlue="-15"
+    crs:LuminanceAdjustmentGreen="-10"
+    crs:SaturationAdjustmentBlue="+10"
+    crs:HueAdjustmentGreen="+5"
+    crs:HueAdjustmentRed="-5"
+    crs:Clarity2012="+10"
+    crs:Texture="+5"
+    crs:Vibrance="+15"
+    crs:Whites2012="+15"
+    crs:Contrast2012="+30"
+    crs:Highlights2012="-30"
     crs:Shadows2012="+10"
-    crs:Blacks2012="-10"
-    crs:Saturation="+15"
-    crs:SaturationAdjustmentRed="+15"
-    crs:SaturationAdjustmentYellow="+10"
+    crs:Blacks2012="-20"
+    crs:Saturation="+25"
+    crs:SaturationAdjustmentRed="+20"
+    crs:SaturationAdjustmentYellow="+15"
     crs:HueAdjustmentBlue="-10"
     crs:GrainAmount="15"
     crs:GrainSize="15"
-    crs:GrainFrequency="15">
+    crs:GrainFrequency="20">
    <crs:Name>
     <rdf:Alt>
      <rdf:li xml:lang="x-default">08 Kodak Ektar 100</rdf:li>
@@ -33,7 +47,7 @@
    </crs:Name>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Film Simulations</rdf:li>
+     <rdf:li xml:lang="x-default">Color Negative</rdf:li>
     </rdf:Alt>
    </crs:Group>
   </rdf:Description>

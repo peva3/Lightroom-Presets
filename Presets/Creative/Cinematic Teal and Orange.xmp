@@ -13,30 +13,65 @@
     crs:SupportsSceneReferred="True"
     crs:SupportsOutputReferred="True"
     crs:RequiresRenditionBehavior="True"
-    crs:Name="02 Cinematic Teal and Orange"
+    crs:Name="Cinematic Teal and Orange"
     crs:HasSettings="True"
-    crs:Contrast2012="+15"
-    crs:Highlights2012="-20"
-    crs:Shadows2012="+10"
-    crs:Whites2012="+10"
-    crs:Blacks2012="-10"
-    crs:SaturationAdjustmentOrange="+10"
-    crs:LuminanceAdjustmentOrange="+10"
-    crs:HueAdjustmentBlue="-15"
-    crs:SaturationAdjustmentBlue="+20"
-    crs:SplitToningShadowHue="220"
-    crs:SplitToningShadowSaturation="25"
-    crs:SplitToningHighlightHue="35"
-    crs:SplitToningHighlightSaturation="15"
-    crs:Clarity2012="+10">
+    crs:Exposure2012="-0.10"
+    crs:Contrast2012="+30"
+    crs:Highlights2012="-35"
+    crs:Shadows2012="+20"
+    crs:Whites2012="+15"
+    crs:Blacks2012="-25"
+    crs:Saturation="-5"
+    crs:Vibrance="+20"
+    crs:Texture="+10"
+    crs:Clarity2012="+20"
+    crs:Dehaze="+10"
+    crs:HueAdjustmentRed="-5"
+    crs:HueAdjustmentOrange="-8"
+    crs:HueAdjustmentYellow="-10"
+    crs:HueAdjustmentGreen="+10"
+    crs:HueAdjustmentAqua="-10"
+    crs:HueAdjustmentBlue="-25"
+    crs:SaturationAdjustmentRed="+10"
+    crs:SaturationAdjustmentOrange="+25"
+    crs:SaturationAdjustmentYellow="-10"
+    crs:SaturationAdjustmentGreen="-20"
+    crs:SaturationAdjustmentAqua="-15"
+    crs:SaturationAdjustmentBlue="+30"
+    crs:SaturationAdjustmentPurple="+10"
+    crs:SaturationAdjustmentMagenta="+10"
+    crs:LuminanceAdjustmentRed="-5"
+    crs:LuminanceAdjustmentOrange="+15"
+    crs:LuminanceAdjustmentYellow="-5"
+    crs:LuminanceAdjustmentGreen="-10"
+    crs:LuminanceAdjustmentAqua="-10"
+    crs:LuminanceAdjustmentBlue="-15"
+    crs:SplitToningShadowHue="195"
+    crs:SplitToningShadowSaturation="35"
+    crs:SplitToningHighlightHue="38"
+    crs:SplitToningHighlightSaturation="25"
+    crs:SplitToningBalance="+15"
+    crs:ShadowTint="+5"
+    crs:RedHue="-5"
+    crs:RedSaturation="+5"
+    crs:GreenHue="+10"
+    crs:GreenSaturation="-10"
+    crs:BlueHue="-20"
+    crs:BlueSaturation="+15"
+    crs:GrainAmount="20"
+    crs:GrainSize="30"
+    crs:GrainFrequency="55"
+    crs:PostCropVignetteAmount="-15"
+    crs:PostCropVignetteMidpoint="45"
+    crs:PostCropVignetteFeather="55">
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">02 Cinematic Teal and Orange</rdf:li>
+     <rdf:li xml:lang="x-default">Cinematic Teal and Orange</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Film Simulations</rdf:li>
+     <rdf:li xml:lang="x-default">Creative</rdf:li>
     </rdf:Alt>
    </crs:Group>
   </rdf:Description>

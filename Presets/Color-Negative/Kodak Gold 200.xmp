@@ -15,18 +15,33 @@
     crs:RequiresRenditionBehavior="True"
     crs:Name="03 Kodak Gold 200"
     crs:HasSettings="True"
-    crs:Contrast2012="+5"
-    crs:Highlights2012="-15"
+    crs:GrainSize="25"
+    crs:SplitToningBalance="+30"
+    crs:SplitToningHighlightSaturation="12"
+    crs:SplitToningHighlightHue="35"
+    crs:LuminanceAdjustmentBlue="-10"
+    crs:LuminanceAdjustmentYellow="+10"
+    crs:SaturationAdjustmentGreen="-15"
+    crs:SaturationAdjustmentRed="+15"
+    crs:HueAdjustmentBlue="-10"
+    crs:HueAdjustmentGreen="+5"
+    crs:HueAdjustmentYellow="-8"
+    crs:HueAdjustmentOrange="+5"
+    crs:HueAdjustmentRed="+5"
+    crs:Vibrance="+15"
+    crs:Whites2012="+10"
+    crs:Contrast2012="+10"
+    crs:Highlights2012="-20"
     crs:Shadows2012="+15"
     crs:Blacks2012="+10"
-    crs:Saturation="+5"
+    crs:Saturation="+8"
     crs:SaturationAdjustmentYellow="+15"
     crs:SaturationAdjustmentOrange="+15"
-    crs:SaturationAdjustmentBlue="-10"
+    crs:SaturationAdjustmentBlue="-15"
     crs:SplitToningShadowHue="45"
-    crs:SplitToningShadowSaturation="10"
-    crs:GrainAmount="25"
-    crs:GrainFrequency="40">
+    crs:SplitToningShadowSaturation="15"
+    crs:GrainAmount="30"
+    crs:GrainFrequency="45">
    <crs:Name>
     <rdf:Alt>
      <rdf:li xml:lang="x-default">03 Kodak Gold 200</rdf:li>
@@ -34,7 +49,7 @@
    </crs:Name>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Film Simulations</rdf:li>
+     <rdf:li xml:lang="x-default">Color Negative</rdf:li>
     </rdf:Alt>
    </crs:Group>
   </rdf:Description>

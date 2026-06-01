@@ -13,31 +13,42 @@
     crs:SupportsSceneReferred="True"
     crs:SupportsOutputReferred="True"
     crs:RequiresRenditionBehavior="True"
-    crs:Name="12 Faux Infrared"
+    crs:Name="Faux Infrared"
     crs:HasSettings="True"
     crs:ConvertToGrayscale="True"
-    crs:Contrast2012="+35"
-    crs:Highlights2012="+20"
-    crs:Shadows2012="-20"
-    crs:Whites2012="+30"
-    crs:Blacks2012="-30"
+    crs:Exposure2012="+0.20"
+    crs:Contrast2012="+50"
+    crs:Highlights2012="+30"
+    crs:Shadows2012="-35"
+    crs:Whites2012="+40"
+    crs:Blacks2012="-45"
+    crs:Texture="+20"
+    crs:Clarity2012="+35"
+    crs:Dehaze="+15"
+    crs:GrayMixerRed="+60"
     crs:GrayMixerGreen="+100"
-    crs:GrayMixerYellow="+80"
+    crs:GrayMixerYellow="+90"
+    crs:GrayMixerCyan="-40"
     crs:GrayMixerBlue="-100"
-    crs:GrayMixerAqua="-80"
-    crs:Clarity2012="+20"
-    crs:GrainAmount="40"
-    crs:GrainFrequency="50">
+    crs:GrayMixerPurple="-30"
+    crs:SplitToningShadowHue="220"
+    crs:SplitToningShadowSaturation="8"
+    crs:GrainAmount="50"
+    crs:GrainSize="45"
+    crs:GrainFrequency="70"
+    crs:PostCropVignetteAmount="-20"
+    crs:PostCropVignetteMidpoint="40"
+    crs:PostCropVignetteFeather="55">
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">12 Faux Infrared</rdf:li>
+     <rdf:li xml:lang="x-default">Faux Infrared</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Film Simulations</rdf:li>
+     <rdf:li xml:lang="x-default">Creative</rdf:li>
     </rdf:Alt>
    </crs:Group>
   </rdf:Description>
  </rdf:RDF>
-</x:xmpmeta>
+</x:xmpeta>

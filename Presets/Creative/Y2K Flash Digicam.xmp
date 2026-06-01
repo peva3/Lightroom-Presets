@@ -13,28 +13,53 @@
     crs:SupportsSceneReferred="True"
     crs:SupportsOutputReferred="True"
     crs:RequiresRenditionBehavior="True"
-    crs:Name="03 Y2K Flash Digicam"
+    crs:Name="Y2K Flash Digicam"
     crs:HasSettings="True"
-    crs:Exposure2012="+0.30"
-    crs:Contrast2012="+25"
-    crs:Highlights2012="+20"
-    crs:Shadows2012="-20"
-    crs:Whites2012="+20"
-    crs:Blacks2012="-15"
-    crs:SaturationAdjustmentRed="+15"
-    crs:SaturationAdjustmentYellow="-15"
-    crs:Clarity2012="+15"
-    crs:Texture="+10">
+    crs:Exposure2012="+0.50"
+    crs:Contrast2012="+40"
+    crs:Highlights2012="+40"
+    crs:Shadows2012="-40"
+    crs:Whites2012="+35"
+    crs:Blacks2012="-30"
+    crs:Saturation="+10"
+    crs:Vibrance="+20"
+    crs:Texture="+15"
+    crs:Clarity2012="+30"
+    crs:Dehaze="+10"
+    crs:HueAdjustmentRed="+10"
+    crs:HueAdjustmentOrange="-10"
+    crs:HueAdjustmentYellow="-15"
+    crs:HueAdjustmentGreen="+15"
+    crs:SaturationAdjustmentRed="+25"
+    crs:SaturationAdjustmentOrange="+10"
+    crs:SaturationAdjustmentYellow="-25"
+    crs:SaturationAdjustmentGreen="-15"
+    crs:SaturationAdjustmentBlue="+15"
+    crs:LuminanceAdjustmentRed="-5"
+    crs:LuminanceAdjustmentOrange="-10"
+    crs:LuminanceAdjustmentYellow="+5"
+    crs:LuminanceAdjustmentBlue="-10"
+    crs:SplitToningShadowHue="180"
+    crs:SplitToningShadowSaturation="10"
+    crs:SplitToningHighlightHue="40"
+    crs:SplitToningHighlightSaturation="15"
+    crs:SplitToningBalance="+15"
+    crs:GrainAmount="20"
+    crs:GrainSize="30"
+    crs:GrainFrequency="60"
+    crs:PostCropVignetteAmount="-15"
+    crs:PostCropVignetteMidpoint="40"
+    crs:PostCropVignetteFeather="50">
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">03 Y2K Flash Digicam</rdf:li>
+     <rdf:li xml:lang="x-default">Y2K Flash Digicam</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Film Simulations</rdf:li>
+     <rdf:li xml:lang="x-default">Creative</rdf:li>
     </rdf:Alt>
    </crs:Group>
   </rdf:Description>
  </rdf:RDF>
-</x:xmpmeta>
+</x:xmpeta>

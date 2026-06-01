@@ -57,7 +57,11 @@
     crs:PostCropVignetteMidpoint="48"
     crs:PostCropVignetteFeather="62">
    <crs:Name><rdf:Alt><rdf:li xml:lang="x-default">Super 8 Home Movie</rdf:li></rdf:Alt></crs:Name>
-   <crs:Group><rdf:Alt><rdf:li xml:lang="x-default">Creative</rdf:li></rdf:Alt></crs:Group>
+   <crs:Group>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Creative</rdf:li>
+    </rdf:Alt>
+   </crs:Group>
   </rdf:Description>
  </rdf:RDF>
 </x:xmpmeta>

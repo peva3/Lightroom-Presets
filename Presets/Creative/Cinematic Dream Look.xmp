@@ -13,29 +13,44 @@
     crs:SupportsSceneReferred="True"
     crs:SupportsOutputReferred="True"
     crs:RequiresRenditionBehavior="True"
-    crs:Name="10 Cinematic Dream Look"
+    crs:Name="Cinematic Dream Look"
     crs:HasSettings="True"
-    crs:Contrast2012="-20"
-    crs:Highlights2012="-40"
-    crs:Shadows2012="+30"
-    crs:Whites2012="-20"
-    crs:Blacks2012="+30"
-    crs:SplitToningShadowHue="210"
-    crs:SplitToningShadowSaturation="15"
-    crs:SplitToningHighlightHue="35"
-    crs:SplitToningHighlightSaturation="15"
-    crs:Texture="-20"
-    crs:Clarity2012="-30"
-    crs:Dehaze="-10"
-    crs:GrainAmount="20">
+    crs:Exposure2012="+0.10"
+    crs:Contrast2012="-35"
+    crs:Highlights2012="-60"
+    crs:Shadows2012="+50"
+    crs:Whites2012="-30"
+    crs:Blacks2012="+45"
+    crs:Saturation="-10"
+    crs:Vibrance="+10"
+    crs:Texture="-30"
+    crs:Clarity2012="-45"
+    crs:Dehaze="-20"
+    crs:HueAdjustmentRed="+5"
+    crs:HueAdjustmentOrange="-5"
+    crs:HueAdjustmentBlue="-10"
+    crs:SaturationAdjustmentRed="-5"
+    crs:SaturationAdjustmentOrange="-10"
+    crs:SaturationAdjustmentBlue="-15"
+    crs:SplitToningShadowHue="200"
+    crs:SplitToningShadowSaturation="20"
+    crs:SplitToningHighlightHue="40"
+    crs:SplitToningHighlightSaturation="18"
+    crs:SplitToningBalance="+10"
+    crs:GrainAmount="30"
+    crs:GrainSize="35"
+    crs:GrainFrequency="50"
+    crs:PostCropVignetteAmount="-15"
+    crs:PostCropVignetteMidpoint="45"
+    crs:PostCropVignetteFeather="65">
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">10 Cinematic Dream Look</rdf:li>
+     <rdf:li xml:lang="x-default">Cinematic Dream Look</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Film Simulations</rdf:li>
+     <rdf:li xml:lang="x-default">Creative</rdf:li>
     </rdf:Alt>
    </crs:Group>
   </rdf:Description>

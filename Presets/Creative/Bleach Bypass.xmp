@@ -4,7 +4,7 @@
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
     crs:PresetType="Normal"
     crs:Cluster=""
-    crs:UUID="1717DAA3445B4B7E9CE307DD2D79FB50"
+    crs:UUID="B8D6F4E2C1A9473580E2D5F7C9B3A6E1"
     crs:SupportsAmount="False"
     crs:SupportsColor="True"
     crs:SupportsMonochrome="True"
@@ -13,28 +13,53 @@
     crs:SupportsSceneReferred="True"
     crs:SupportsOutputReferred="True"
     crs:RequiresRenditionBehavior="True"
-    crs:Name="07 Bleach Bypass"
+    crs:Name="Bleach Bypass"
     crs:HasSettings="True"
-    crs:Contrast2012="+40"
-    crs:Highlights2012="-20"
-    crs:Shadows2012="-25"
-    crs:Whites2012="+20"
-    crs:Blacks2012="-35"
-    crs:Vibrance="-30"
-    crs:Saturation="-25"
-    crs:Texture="+15"
-    crs:Clarity2012="+35"
-    crs:Dehaze="+10"
-    crs:GrainAmount="30"
-    crs:GrainFrequency="50">
+    crs:Exposure2012="-0.20"
+    crs:Contrast2012="+60"
+    crs:Highlights2012="-40"
+    crs:Shadows2012="-40"
+    crs:Whites2012="+30"
+    crs:Blacks2012="-50"
+    crs:Vibrance="-40"
+    crs:Saturation="-35"
+    crs:Texture="+25"
+    crs:Clarity2012="+50"
+    crs:Dehaze="+20"
+    crs:HueAdjustmentGreen="+15"
+    crs:HueAdjustmentBlue="-10"
+    crs:SaturationAdjustmentRed="-20"
+    crs:SaturationAdjustmentOrange="-15"
+    crs:SaturationAdjustmentYellow="-25"
+    crs:SaturationAdjustmentGreen="-30"
+    crs:SaturationAdjustmentAqua="-20"
+    crs:SaturationAdjustmentBlue="-25"
+    crs:SaturationAdjustmentPurple="-15"
+    crs:SaturationAdjustmentMagenta="-20"
+    crs:LuminanceAdjustmentRed="-10"
+    crs:LuminanceAdjustmentOrange="-15"
+    crs:LuminanceAdjustmentYellow="-10"
+    crs:LuminanceAdjustmentGreen="-5"
+    crs:LuminanceAdjustmentBlue="-15"
+    crs:SplitToningShadowHue="210"
+    crs:SplitToningShadowSaturation="8"
+    crs:SplitToningHighlightHue="50"
+    crs:SplitToningHighlightSaturation="5"
+    crs:SplitToningBalance="-30"
+    crs:GrainAmount="45"
+    crs:GrainSize="40"
+    crs:GrainFrequency="70"
+    crs:PostCropVignetteAmount="-15"
+    crs:PostCropVignetteMidpoint="45"
+    crs:PostCropVignetteFeather="50">
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">07 Bleach Bypass</rdf:li>
+     <rdf:li xml:lang="x-default">Bleach Bypass</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Film Simulations</rdf:li>
+     <rdf:li xml:lang="x-default">Creative</rdf:li>
     </rdf:Alt>
    </crs:Group>
   </rdf:Description>

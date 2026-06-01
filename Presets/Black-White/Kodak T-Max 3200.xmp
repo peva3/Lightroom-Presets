@@ -16,27 +16,31 @@
     crs:Name="Kodak T-Max 3200"
     crs:HasSettings="True"
     crs:ConvertToGrayscale="True"
-    crs:Exposure2012="+0.10"
-    crs:Contrast2012="+30"
-    crs:Highlights2012="-20"
-    crs:Shadows2012="-25"
-    crs:Whites2012="+15"
-    crs:Blacks2012="-30"
-    crs:Texture="+10"
-    crs:Clarity2012="+15"
-    crs:GrayMixerRed="+20"
-    crs:GrayMixerOrange="+15"
+    crs:Exposure2012="+0.15"
+    crs:Contrast2012="+35"
+    crs:Highlights2012="-25"
+    crs:Shadows2012="-30"
+    crs:Whites2012="+20"
+    crs:Blacks2012="-35"
+    crs:Texture="+15"
+    crs:Clarity2012="+20"
+    crs:GrayMixerRed="+25"
+    crs:GrayMixerOrange="+20"
     crs:GrayMixerYellow="+15"
     crs:GrayMixerGreen="-5"
-    crs:GrayMixerAqua="-15"
-    crs:GrayMixerBlue="-25"
-    crs:GrayMixerPurple="-10"
+    crs:GrayMixerAqua="-20"
+    crs:GrayMixerBlue="-30"
+    crs:GrayMixerPurple="-15"
     crs:GrayMixerMagenta="+5"
-    crs:GrainAmount="55"
-    crs:GrainSize="40"
+    crs:GrainAmount="60"
+    crs:GrainSize="42"
     crs:GrainFrequency="70">
    <crs:Name><rdf:Alt><rdf:li xml:lang="x-default">Kodak T-Max 3200</rdf:li></rdf:Alt></crs:Name>
-   <crs:Group><rdf:Alt><rdf:li xml:lang="x-default">Black White</rdf:li></rdf:Alt></crs:Group>
+   <crs:Group>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Black White</rdf:li>
+    </rdf:Alt>
+   </crs:Group>
   </rdf:Description>
  </rdf:RDF>
 </x:xmpmeta>

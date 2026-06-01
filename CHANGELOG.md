@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.3.0] — 2026-05-31
+
+### Changed
+- **Retuned all 48 presets** for bolder, more distinctive looks based on research validation:
+  - **All 16 Color Negative presets** — stronger color signatures, split toning, HSL refinement, grain
+  - **All 6 Black & White presets** — adjusted GrayMixer, deeper blacks/higher contrast, enhanced grain
+  - **All 4 Slide presets** — punchier saturation, proper color grading panel, grain matching film stock
+  - **All 22 Creative presets** (batch 1) — pushed to extreme: Wes Anderson neon accent saturation, Wong Kar-Wai Doyle Green, Cross-Processed Velvia contrast, VHS chroma bleed, Cyberpunk green elimination, and more
+
+
 ## [1.1.0] — 2026-05-31
 
 ### Added
@@ -9,6 +19,14 @@
 - Research documentation in `research/` folder with datasheets, community recipes, and reference pack analysis for each preset
 - `new-presets.md` — tracking pipeline for upcoming Tier 2 and Tier 3 presets
 
+## [1.3.0] — 2026-05-31
+
+### Changed
+- **Retuned all 48 presets** for bolder, more distinctive looks based on research validation:
+  - **All 16 Color Negative presets** — stronger color signatures, split toning, HSL refinement, grain
+  - **All 6 Black & White presets** — adjusted GrayMixer, deeper blacks/higher contrast, enhanced grain
+  - **All 4 Slide presets** — punchier saturation, proper color grading panel, grain matching film stock
+  - **All 22 Creative presets** (batch 1) — pushed to extreme: Wes Anderson neon accent saturation, Wong Kar-Wai Doyle Green, Cross-Processed Velvia contrast, VHS chroma bleed, Cyberpunk green elimination, and more
 ## [1.2.0] — 2026-05-31
 
 ### Added

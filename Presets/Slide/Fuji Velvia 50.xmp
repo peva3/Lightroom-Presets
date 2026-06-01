@@ -15,18 +15,32 @@
     crs:RequiresRenditionBehavior="True"
     crs:Name="07 Fuji Velvia 50"
     crs:HasSettings="True"
-    crs:Contrast2012="+25"
-    crs:Highlights2012="-15"
-    crs:Shadows2012="-10"
-    crs:Whites2012="+15"
-    crs:Blacks2012="-15"
-    crs:Vibrance="+30"
-    crs:Saturation="+10"
-    crs:SaturationAdjustmentGreen="+20"
-    crs:SaturationAdjustmentBlue="+20"
-    crs:SaturationAdjustmentOrange="+10"
-    crs:Dehaze="+10"
-    crs:Clarity2012="+10">
+    crs:GrainFrequency="10"
+    crs:GrainSize="5"
+    crs:GrainAmount="5"
+    crs:SplitToningBalance="+20"
+    crs:SplitToningHighlightSaturation="8"
+    crs:SplitToningHighlightHue="50"
+    crs:SplitToningShadowSaturation="10"
+    crs:SplitToningShadowHue="240"
+    crs:LuminanceAdjustmentBlue="-15"
+    crs:LuminanceAdjustmentGreen="-15"
+    crs:SaturationAdjustmentRed="+15"
+    crs:HueAdjustmentBlue="-10"
+    crs:HueAdjustmentGreen="-10"
+    crs:Texture="+10"
+    crs:Contrast2012="+35"
+    crs:Highlights2012="-20"
+    crs:Shadows2012="-15"
+    crs:Whites2012="+20"
+    crs:Blacks2012="-25"
+    crs:Vibrance="+40"
+    crs:Saturation="+15"
+    crs:SaturationAdjustmentGreen="+30"
+    crs:SaturationAdjustmentBlue="+30"
+    crs:SaturationAdjustmentOrange="+15"
+    crs:Dehaze="+15"
+    crs:Clarity2012="+20">
    <crs:Name>
     <rdf:Alt>
      <rdf:li xml:lang="x-default">07 Fuji Velvia 50</rdf:li>
@@ -34,7 +48,7 @@
    </crs:Name>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Film Simulations</rdf:li>
+     <rdf:li xml:lang="x-default">Slide</rdf:li>
     </rdf:Alt>
    </crs:Group>
   </rdf:Description>

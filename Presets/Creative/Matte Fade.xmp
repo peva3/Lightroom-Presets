@@ -13,25 +13,49 @@
     crs:SupportsSceneReferred="True"
     crs:SupportsOutputReferred="True"
     crs:RequiresRenditionBehavior="True"
-    crs:Name="11 Matte Fade"
+    crs:Name="Matte Fade"
     crs:HasSettings="True"
-    crs:Contrast2012="-30"
-    crs:Highlights2012="-20"
-    crs:Shadows2012="+30"
-    crs:Whites2012="-10"
-    crs:Blacks2012="+50"
-    crs:Saturation="-15"
-    crs:SplitToningShadowHue="40"
-    crs:SplitToningShadowSaturation="15"
-    crs:GrainAmount="15">
+    crs:Exposure2012="+0.10"
+    crs:Contrast2012="-45"
+    crs:Highlights2012="-35"
+    crs:Shadows2012="+50"
+    crs:Whites2012="-15"
+    crs:Blacks2012="+70"
+    crs:Saturation="-20"
+    crs:Vibrance="-5"
+    crs:Texture="-10"
+    crs:Clarity2012="-15"
+    crs:HueAdjustmentRed="+5"
+    crs:HueAdjustmentOrange="-5"
+    crs:HueAdjustmentGreen="+10"
+    crs:HueAdjustmentBlue="-5"
+    crs:SaturationAdjustmentRed="-10"
+    crs:SaturationAdjustmentOrange="-10"
+    crs:SaturationAdjustmentGreen="-15"
+    crs:SaturationAdjustmentBlue="-10"
+    crs:LuminanceAdjustmentRed="+10"
+    crs:LuminanceAdjustmentOrange="+10"
+    crs:LuminanceAdjustmentGreen="+5"
+    crs:LuminanceAdjustmentBlue="+5"
+    crs:SplitToningShadowHue="45"
+    crs:SplitToningShadowSaturation="20"
+    crs:SplitToningHighlightHue="50"
+    crs:SplitToningHighlightSaturation="12"
+    crs:SplitToningBalance="+25"
+    crs:GrainAmount="20"
+    crs:GrainSize="30"
+    crs:GrainFrequency="50"
+    crs:PostCropVignetteAmount="-10"
+    crs:PostCropVignetteMidpoint="45"
+    crs:PostCropVignetteFeather="60">
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">11 Matte Fade</rdf:li>
+     <rdf:li xml:lang="x-default">Matte Fade</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Film Simulations</rdf:li>
+     <rdf:li xml:lang="x-default">Creative</rdf:li>
     </rdf:Alt>
    </crs:Group>
   </rdf:Description>

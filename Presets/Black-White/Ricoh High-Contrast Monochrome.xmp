@@ -15,19 +15,26 @@
     crs:RequiresRenditionBehavior="True"
     crs:Name="03 Ricoh High-Contrast Monochrome"
     crs:HasSettings="True"
+    crs:GrayMixerMagenta="-10"
+    crs:GrayMixerPurple="-10"
+    crs:GrayMixerAqua="+5"
+    crs:GrayMixerGreen="+20"
+    crs:GrayMixerYellow="+5"
+    crs:GrayMixerOrange="-5"
+    crs:Texture="+15"
     crs:ConvertToGrayscale="True"
-    crs:Contrast2012="+45"
-    crs:Highlights2012="+30"
-    crs:Shadows2012="-40"
-    crs:Whites2012="+25"
-    crs:Blacks2012="-50"
-    crs:GrayMixerRed="-10"
-    crs:GrayMixerBlue="-20"
-    crs:Clarity2012="+35"
-    crs:Dehaze="+10"
-    crs:GrainAmount="60"
+    crs:Contrast2012="+55"
+    crs:Highlights2012="+35"
+    crs:Shadows2012="-45"
+    crs:Whites2012="+35"
+    crs:Blacks2012="-60"
+    crs:GrayMixerRed="-15"
+    crs:GrayMixerBlue="-25"
+    crs:Clarity2012="+45"
+    crs:Dehaze="+15"
+    crs:GrainAmount="65"
     crs:GrainSize="50"
-    crs:GrainFrequency="60">
+    crs:GrainFrequency="65">
    <crs:Name>
     <rdf:Alt>
      <rdf:li xml:lang="x-default">03 Ricoh High-Contrast Monochrome</rdf:li>
@@ -35,7 +42,7 @@
    </crs:Name>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Film Simulations</rdf:li>
+     <rdf:li xml:lang="x-default">Black White</rdf:li>
     </rdf:Alt>
    </crs:Group>
   </rdf:Description>

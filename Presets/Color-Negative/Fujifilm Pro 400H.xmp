@@ -15,17 +15,31 @@
     crs:RequiresRenditionBehavior="True"
     crs:Name="05 Fujifilm Pro 400H"
     crs:HasSettings="True"
-    crs:Exposure2012="+0.40"
-    crs:Contrast2012="-15"
-    crs:Highlights2012="-30"
-    crs:Shadows2012="+30"
-    crs:Blacks2012="+10"
-    crs:HueAdjustmentGreen="+25"
-    crs:SaturationAdjustmentGreen="-20"
-    crs:HueAdjustmentBlue="-15"
-    crs:SaturationAdjustmentBlue="-10"
-    crs:Clarity2012="-5"
-    crs:GrainAmount="20">
+    crs:GrainFrequency="30"
+    crs:GrainSize="20"
+    crs:SplitToningBalance="+10"
+    crs:SplitToningHighlightSaturation="8"
+    crs:SplitToningHighlightHue="40"
+    crs:SplitToningShadowSaturation="12"
+    crs:SplitToningShadowHue="180"
+    crs:LuminanceAdjustmentOrange="+15"
+    crs:LuminanceAdjustmentGreen="+10"
+    crs:SaturationAdjustmentOrange="-10"
+    crs:HueAdjustmentOrange="+8"
+    crs:Vibrance="+10"
+    crs:Saturation="-5"
+    crs:Whites2012="+5"
+    crs:Exposure2012="+0.50"
+    crs:Contrast2012="-20"
+    crs:Highlights2012="-40"
+    crs:Shadows2012="+40"
+    crs:Blacks2012="+15"
+    crs:HueAdjustmentGreen="+30"
+    crs:SaturationAdjustmentGreen="-25"
+    crs:HueAdjustmentBlue="-20"
+    crs:SaturationAdjustmentBlue="-15"
+    crs:Clarity2012="-10"
+    crs:GrainAmount="22">
    <crs:Name>
     <rdf:Alt>
      <rdf:li xml:lang="x-default">05 Fujifilm Pro 400H</rdf:li>
@@ -33,7 +47,7 @@
    </crs:Name>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Film Simulations</rdf:li>
+     <rdf:li xml:lang="x-default">Color Negative</rdf:li>
     </rdf:Alt>
    </crs:Group>
   </rdf:Description>

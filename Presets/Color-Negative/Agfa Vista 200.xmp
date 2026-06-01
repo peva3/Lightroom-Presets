@@ -15,17 +15,26 @@
     crs:RequiresRenditionBehavior="True"
     crs:Name="06 Agfa Vista 200"
     crs:HasSettings="True"
-    crs:Contrast2012="+10"
-    crs:Highlights2012="-10"
-    crs:Shadows2012="+5"
-    crs:Whites2012="+15"
-    crs:Blacks2012="-5"
-    crs:Vibrance="+20"
-    crs:Saturation="+5"
-    crs:SaturationAdjustmentRed="+25"
-    crs:SaturationAdjustmentBlue="+15"
+    crs:GrainFrequency="35"
+    crs:GrainSize="25"
+    crs:SplitToningShadowSaturation="10"
+    crs:SplitToningShadowHue="50"
+    crs:LuminanceAdjustmentBlue="-10"
+    crs:SaturationAdjustmentOrange="+15"
+    crs:SaturationAdjustmentGreen="-15"
+    crs:HueAdjustmentGreen="-10"
+    crs:HueAdjustmentRed="-5"
+    crs:Contrast2012="+15"
+    crs:Highlights2012="-15"
+    crs:Shadows2012="+10"
+    crs:Whites2012="+20"
+    crs:Blacks2012="-10"
+    crs:Vibrance="+25"
+    crs:Saturation="+10"
+    crs:SaturationAdjustmentRed="+35"
+    crs:SaturationAdjustmentBlue="+20"
     crs:HueAdjustmentYellow="+10"
-    crs:GrainAmount="20">
+    crs:GrainAmount="25">
    <crs:Name>
     <rdf:Alt>
      <rdf:li xml:lang="x-default">06 Agfa Vista 200</rdf:li>
@@ -33,7 +42,7 @@
    </crs:Name>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Film Simulations</rdf:li>
+     <rdf:li xml:lang="x-default">Color Negative</rdf:li>
     </rdf:Alt>
    </crs:Group>
   </rdf:Description>

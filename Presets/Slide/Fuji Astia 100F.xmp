@@ -15,16 +15,28 @@
     crs:RequiresRenditionBehavior="True"
     crs:Name="09 Fuji Astia 100F"
     crs:HasSettings="True"
-    crs:Contrast2012="-5"
-    crs:Highlights2012="-20"
-    crs:Shadows2012="+15"
-    crs:Blacks2012="+5"
-    crs:Vibrance="+10"
-    crs:Saturation="-10"
+    crs:GrainFrequency="15"
+    crs:GrainSize="10"
+    crs:SplitToningBalance="+20"
+    crs:SplitToningHighlightSaturation="8"
+    crs:SplitToningHighlightHue="40"
+    crs:SplitToningShadowSaturation="6"
+    crs:SplitToningShadowHue="200"
+    crs:LuminanceAdjustmentGreen="+10"
+    crs:HueAdjustmentGreen="+10"
+    crs:HueAdjustmentRed="+10"
+    crs:Clarity2012="-5"
+    crs:Whites2012="+5"
+    crs:Contrast2012="-8"
+    crs:Highlights2012="-25"
+    crs:Shadows2012="+20"
+    crs:Blacks2012="+8"
+    crs:Vibrance="+15"
+    crs:Saturation="-12"
     crs:LuminanceAdjustmentOrange="+15"
     crs:SaturationAdjustmentBlue="-15"
-    crs:SaturationAdjustmentGreen="-15"
-    crs:Texture="-5"
+    crs:SaturationAdjustmentGreen="-20"
+    crs:Texture="-8"
     crs:GrainAmount="10">
    <crs:Name>
     <rdf:Alt>
@@ -33,7 +45,7 @@
    </crs:Name>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Film Simulations</rdf:li>
+     <rdf:li xml:lang="x-default">Slide</rdf:li>
     </rdf:Alt>
    </crs:Group>
   </rdf:Description>

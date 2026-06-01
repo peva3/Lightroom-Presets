@@ -13,31 +13,53 @@
     crs:SupportsSceneReferred="True"
     crs:SupportsOutputReferred="True"
     crs:RequiresRenditionBehavior="True"
-    crs:Name="04 Polaroid SX-70"
+    crs:Name="Polaroid SX-70"
     crs:HasSettings="True"
-    crs:Contrast2012="-20"
-    crs:Highlights2012="-10"
-    crs:Shadows2012="+30"
-    crs:Blacks2012="+40"
-    crs:HueAdjustmentGreen="+20"
-    crs:SaturationAdjustmentBlue="-20"
-    crs:SplitToningShadowHue="300"
-    crs:SplitToningShadowSaturation="15"
-    crs:SplitToningHighlightHue="50"
-    crs:SplitToningHighlightSaturation="20"
-    crs:Texture="-15"
-    crs:Clarity2012="-10"
-    crs:GrainAmount="20"
-    crs:PostCropVignetteAmount="-35"
-    crs:PostCropVignetteFeather="80">
+    crs:Exposure2012="+0.20"
+    crs:Contrast2012="-35"
+    crs:Highlights2012="-25"
+    crs:Shadows2012="+50"
+    crs:Whites2012="-10"
+    crs:Blacks2012="+60"
+    crs:Saturation="-15"
+    crs:Vibrance="-5"
+    crs:Texture="-25"
+    crs:Clarity2012="-25"
+    crs:Dehaze="-15"
+    crs:HueAdjustmentRed="+10"
+    crs:HueAdjustmentOrange="+5"
+    crs:HueAdjustmentGreen="+25"
+    crs:HueAdjustmentAqua="+10"
+    crs:HueAdjustmentBlue="-10"
+    crs:SaturationAdjustmentRed="-10"
+    crs:SaturationAdjustmentOrange="-5"
+    crs:SaturationAdjustmentGreen="-15"
+    crs:SaturationAdjustmentAqua="-10"
+    crs:SaturationAdjustmentBlue="-30"
+    crs:SaturationAdjustmentPurple="-10"
+    crs:LuminanceAdjustmentRed="+15"
+    crs:LuminanceAdjustmentOrange="+20"
+    crs:LuminanceAdjustmentGreen="+10"
+    crs:LuminanceAdjustmentBlue="+10"
+    crs:SplitToningShadowHue="280"
+    crs:SplitToningShadowSaturation="20"
+    crs:SplitToningHighlightHue="45"
+    crs:SplitToningHighlightSaturation="25"
+    crs:SplitToningBalance="-10"
+    crs:GrainAmount="35"
+    crs:GrainSize="40"
+    crs:GrainFrequency="60"
+    crs:PostCropVignetteAmount="-45"
+    crs:PostCropVignetteMidpoint="35"
+    crs:PostCropVignetteFeather="85">
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">04 Polaroid SX-70</rdf:li>
+     <rdf:li xml:lang="x-default">Polaroid SX-70</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Film Simulations</rdf:li>
+     <rdf:li xml:lang="x-default">Creative</rdf:li>
     </rdf:Alt>
    </crs:Group>
   </rdf:Description>

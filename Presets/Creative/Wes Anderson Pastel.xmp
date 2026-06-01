@@ -4,7 +4,7 @@
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
     crs:PresetType="Normal"
     crs:Cluster=""
-    crs:UUID="A1B2C3D4E5F6A7B8C9D0E1F2A3B4C5D6"
+    crs:UUID="B7D9E4F2A8C3415690E1F3B5D7A9C2E4"
     crs:SupportsAmount="False"
     crs:SupportsColor="True"
     crs:SupportsMonochrome="True"
@@ -15,38 +15,59 @@
     crs:RequiresRenditionBehavior="True"
     crs:Name="Wes Anderson Pastel"
     crs:HasSettings="True"
-    crs:Exposure2012="+0.20"
-    crs:Contrast2012="-25"
-    crs:Highlights2012="-35"
-    crs:Shadows2012="+30"
-    crs:Whites2012="+10"
-    crs:Blacks2012="+20"
-    crs:Saturation="-10"
-    crs:Vibrance="+15"
-    crs:HueAdjustmentRed="+10"
-    crs:HueAdjustmentOrange="-10"
-    crs:HueAdjustmentYellow="-10"
-    crs:HueAdjustmentGreen="+20"
-    crs:HueAdjustmentBlue="+10"
-    crs:HueAdjustmentMagenta="+10"
-    crs:SaturationAdjustmentRed="-10"
-    crs:SaturationAdjustmentOrange="-15"
-    crs:SaturationAdjustmentYellow="-10"
-    crs:SaturationAdjustmentGreen="-15"
-    crs:SaturationAdjustmentBlue="-10"
-    crs:SaturationAdjustmentMagenta="-5"
-    crs:SplitToningShadowHue="200"
-    crs:SplitToningShadowSaturation="10"
-    crs:SplitToningHighlightHue="45"
-    crs:SplitToningHighlightSaturation="8"
-    crs:SplitToningBalance="+5"
+    crs:Exposure2012="+0.30"
+    crs:Contrast2012="-35"
+    crs:Highlights2012="-80"
+    crs:Shadows2012="+60"
+    crs:Whites2012="+15"
+    crs:Blacks2012="+35"
+    crs:Saturation="-5"
+    crs:Vibrance="+20"
     crs:Texture="-15"
-    crs:Clarity2012="-20"
-    crs:GrainAmount="20"
+    crs:Clarity2012="-35"
+    crs:Dehaze="-15"
+    crs:HueAdjustmentRed="+15"
+    crs:HueAdjustmentOrange="-10"
+    crs:HueAdjustmentYellow="-5"
+    crs:HueAdjustmentGreen="+20"
+    crs:HueAdjustmentAqua="+10"
+    crs:HueAdjustmentBlue="+10"
+    crs:HueAdjustmentPurple="+5"
+    crs:HueAdjustmentMagenta="+15"
+    crs:SaturationAdjustmentRed="+25"
+    crs:SaturationAdjustmentOrange="-10"
+    crs:SaturationAdjustmentYellow="+15"
+    crs:SaturationAdjustmentGreen="-20"
+    crs:SaturationAdjustmentAqua="-15"
+    crs:SaturationAdjustmentBlue="-25"
+    crs:SaturationAdjustmentPurple="+10"
+    crs:SaturationAdjustmentMagenta="+20"
+    crs:LuminanceAdjustmentRed="+5"
+    crs:LuminanceAdjustmentOrange="+10"
+    crs:LuminanceAdjustmentYellow="+10"
+    crs:LuminanceAdjustmentGreen="+15"
+    crs:LuminanceAdjustmentAqua="+5"
+    crs:LuminanceAdjustmentBlue="+10"
+    crs:LuminanceAdjustmentPurple="+5"
+    crs:LuminanceAdjustmentMagenta="+10"
+    crs:SplitToningShadowHue="200"
+    crs:SplitToningShadowSaturation="12"
+    crs:SplitToningHighlightHue="45"
+    crs:SplitToningHighlightSaturation="10"
+    crs:SplitToningBalance="+10"
+    crs:GrainAmount="25"
     crs:GrainSize="30"
-    crs:GrainFrequency="50">
-   <crs:Name><rdf:Alt><rdf:li xml:lang="x-default">Wes Anderson Pastel</rdf:li></rdf:Alt></crs:Name>
-   <crs:Group><rdf:Alt><rdf:li xml:lang="x-default">Creative</rdf:li></rdf:Alt></crs:Group>
+    crs:GrainFrequency="55">
+   <crs:Name>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Wes Anderson Pastel</rdf:li>
+    </rdf:Alt>
+   </crs:Name>
+   <crs:Group>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Creative</rdf:li>
+    </rdf:Alt>
+   </crs:Group>
   </rdf:Description>
  </rdf:RDF>
 </x:xmpmeta>

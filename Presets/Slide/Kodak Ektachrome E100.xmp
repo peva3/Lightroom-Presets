@@ -15,16 +15,30 @@
     crs:RequiresRenditionBehavior="True"
     crs:Name="10 Kodak Ektachrome E100"
     crs:HasSettings="True"
-    crs:Contrast2012="+25"
-    crs:Highlights2012="-15"
-    crs:Shadows2012="-10"
-    crs:Blacks2012="-15"
-    crs:Vibrance="+15"
-    crs:SaturationAdjustmentBlue="+20"
+    crs:GrainFrequency="15"
+    crs:GrainSize="10"
+    crs:GrainAmount="15"
+    crs:SplitToningBalance="+10"
+    crs:SplitToningHighlightSaturation="6"
+    crs:SplitToningHighlightHue="30"
+    crs:SplitToningShadowSaturation="8"
+    crs:SplitToningShadowHue="220"
+    crs:LuminanceAdjustmentGreen="-10"
+    crs:HueAdjustmentGreen="-5"
+    crs:HueAdjustmentBlue="-10"
+    crs:Texture="+10"
+    crs:Saturation="+5"
+    crs:Whites2012="+10"
+    crs:Contrast2012="+35"
+    crs:Highlights2012="-20"
+    crs:Shadows2012="-15"
+    crs:Blacks2012="-25"
+    crs:Vibrance="+20"
+    crs:SaturationAdjustmentBlue="+25"
     crs:LuminanceAdjustmentBlue="-10"
-    crs:SaturationAdjustmentRed="+15"
-    crs:SaturationAdjustmentYellow="+10"
-    crs:Clarity2012="+10">
+    crs:SaturationAdjustmentRed="+20"
+    crs:SaturationAdjustmentYellow="+15"
+    crs:Clarity2012="+15">
    <crs:Name>
     <rdf:Alt>
      <rdf:li xml:lang="x-default">10 Kodak Ektachrome E100</rdf:li>
@@ -32,7 +46,7 @@
    </crs:Name>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Film Simulations</rdf:li>
+     <rdf:li xml:lang="x-default">Slide</rdf:li>
     </rdf:Alt>
    </crs:Group>
   </rdf:Description>

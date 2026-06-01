@@ -15,17 +15,21 @@
     crs:RequiresRenditionBehavior="True"
     crs:Name="11 Ilford Delta 3200"
     crs:HasSettings="True"
+    crs:GrayMixerBlue="-15"
+    crs:GrayMixerGreen="+10"
+    crs:GrayMixerOrange="+5"
+    crs:GrayMixerRed="+10"
     crs:ConvertToGrayscale="True"
-    crs:Contrast2012="-10"
-    crs:Highlights2012="-30"
-    crs:Shadows2012="+25"
-    crs:Whites2012="-10"
-    crs:Blacks2012="+20"
-    crs:Texture="-10"
-    crs:Clarity2012="-15"
-    crs:GrainAmount="75"
+    crs:Contrast2012="-15"
+    crs:Highlights2012="-35"
+    crs:Shadows2012="+30"
+    crs:Whites2012="-15"
+    crs:Blacks2012="+25"
+    crs:Texture="-15"
+    crs:Clarity2012="-20"
+    crs:GrainAmount="80"
     crs:GrainSize="60"
-    crs:GrainFrequency="75">
+    crs:GrainFrequency="80">
    <crs:Name>
     <rdf:Alt>
      <rdf:li xml:lang="x-default">11 Ilford Delta 3200</rdf:li>
@@ -33,7 +37,7 @@
    </crs:Name>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Film Simulations</rdf:li>
+     <rdf:li xml:lang="x-default">Black White</rdf:li>
     </rdf:Alt>
    </crs:Group>
   </rdf:Description>

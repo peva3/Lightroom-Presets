@@ -13,32 +13,60 @@
     crs:SupportsSceneReferred="True"
     crs:SupportsOutputReferred="True"
     crs:RequiresRenditionBehavior="True"
-    crs:Name="06 Light and Airy Fine Art"
+    crs:Name="Light and Airy Fine Art"
     crs:HasSettings="True"
-    crs:Exposure2012="+0.60"
-    crs:Contrast2012="-25"
-    crs:Highlights2012="-40"
-    crs:Shadows2012="+30"
-    crs:Whites2012="-10"
-    crs:Blacks2012="+15"
-    crs:Vibrance="+10"
-    crs:Saturation="-10"
-    crs:LuminanceAdjustmentOrange="+20"
-    crs:HueAdjustmentGreen="+15"
-    crs:SaturationAdjustmentGreen="-30"
-    crs:LuminanceAdjustmentGreen="+20"
-    crs:Texture="-10"
-    crs:Clarity2012="-15">
+    crs:Exposure2012="+0.80"
+    crs:Contrast2012="-40"
+    crs:Highlights2012="-60"
+    crs:Shadows2012="+50"
+    crs:Whites2012="-15"
+    crs:Blacks2012="+35"
+    crs:Saturation="-20"
+    crs:Vibrance="+15"
+    crs:Texture="-20"
+    crs:Clarity2012="-30"
+    crs:Dehaze="-10"
+    crs:HueAdjustmentRed="+5"
+    crs:HueAdjustmentOrange="-5"
+    crs:HueAdjustmentYellow="-5"
+    crs:HueAdjustmentGreen="+20"
+    crs:HueAdjustmentAqua="+5"
+    crs:HueAdjustmentBlue="-10"
+    crs:SaturationAdjustmentRed="-10"
+    crs:SaturationAdjustmentOrange="-15"
+    crs:SaturationAdjustmentYellow="-10"
+    crs:SaturationAdjustmentGreen="-40"
+    crs:SaturationAdjustmentAqua="-10"
+    crs:SaturationAdjustmentBlue="-15"
+    crs:SaturationAdjustmentPurple="-5"
+    crs:SaturationAdjustmentMagenta="-5"
+    crs:LuminanceAdjustmentRed="+20"
+    crs:LuminanceAdjustmentOrange="+30"
+    crs:LuminanceAdjustmentYellow="+15"
+    crs:LuminanceAdjustmentGreen="+35"
+    crs:LuminanceAdjustmentAqua="+15"
+    crs:LuminanceAdjustmentBlue="+10"
+    crs:SplitToningShadowHue="200"
+    crs:SplitToningShadowSaturation="8"
+    crs:SplitToningHighlightHue="45"
+    crs:SplitToningHighlightSaturation="10"
+    crs:SplitToningBalance="+20"
+    crs:GrainAmount="10"
+    crs:GrainSize="20"
+    crs:GrainFrequency="35"
+    crs:PostCropVignetteAmount="-5"
+    crs:PostCropVignetteMidpoint="50"
+    crs:PostCropVignetteFeather="70">
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">06 Light and Airy Fine Art</rdf:li>
+     <rdf:li xml:lang="x-default">Light and Airy Fine Art</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Film Simulations</rdf:li>
+     <rdf:li xml:lang="x-default">Creative</rdf:li>
     </rdf:Alt>
    </crs:Group>
   </rdf:Description>
  </rdf:RDF>
-</x:xmpmeta>
+</x:xmpeta>

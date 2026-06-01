@@ -96,10 +96,11 @@ Mimics Fujifilm's beloved in-camera simulation. Colors feel restrained and journ
 **Settings:**
 | Panel | Adjustments |
 |---|---|
-| Light | Contrast +15, Highlights -15, Shadows +10, Whites +10, Blacks -15 |
-| Color | Vibrance +10, Saturation -15 |
-| HSL | Red Sat +10, Blue Sat -20 / Lum -10, Green Sat -15 |
-| Effects | Clarity +5 |
+| Light | Contrast +25, Highlights -25, Shadows +15, Whites +15, Blacks -25 |
+| Color | Vibrance +15, Saturation -15 |
+| HSL | Red Hue +10 / Sat +10, Orange Hue +8 / Sat -10 / Lum +10, Yellow Hue -5, Green Hue -10 / Sat -20, Blue Hue -5 / Sat -25 / Lum -10 |
+| Color Grading | Shadows: Hue 210 / Sat 8, Highlights: Hue 45 / Sat 5, Balance +20 |
+| Effects | Texture +10, Clarity +15, Grain 25 / 25 / 35 |
 
 ---
 
@@ -112,10 +113,11 @@ The gold standard for portraiture. Portra 400 wraps subjects in a warm glow with
 **Settings:**
 | Panel | Adjustments |
 |---|---|
-| Light | Exposure +0.15, Contrast -10, Highlights -20, Shadows +20, Whites +10, Blacks +15 |
-| Color | WB push warmer (+300K to +500K) |
-| HSL | Orange Lum +10, Green Hue +15 / Sat -20 |
-| Effects | Grain 25 / 25 / 25 |
+| Light | Exposure +0.25, Contrast -15, Highlights -30, Shadows +30, Whites +15, Blacks +20 |
+| Color | Vibrance +10, Saturation -5 |
+| HSL | Orange Hue +5 / Sat -10 / Lum +15, Green Hue +10 / Sat -25, Red Sat -5, Blue Lum -10 |
+| Color Grading | Shadows: Hue 45 / Sat 10, Highlights: Hue 35 / Sat 8, Balance +25 |
+| Effects | Texture +5, Clarity +5, Grain 30 / 25 / 30 |
 
 ---
 
@@ -128,10 +130,11 @@ The softer sibling of Portra 400. It flattens contrast further, pulls highlights
 **Settings:**
 | Panel | Adjustments |
 |---|---|
-| Light | Contrast -15, Highlights -30, Shadows +25, Whites -10, Blacks +20 |
-| Color | WB slightly warm, Vibrance +5, Saturation -15 |
-| HSL | Orange Sat -5 / Lum +15, Green Hue +10 |
-| Effects | Grain 15 / 20 |
+| Light | Contrast -20, Highlights -40, Shadows +35, Whites -15, Blacks +25 |
+| Color | Vibrance +10, Saturation -15 |
+| HSL | Red Hue +10, Orange Sat -10 / Lum +20, Green Hue +15 / Sat -20, Blue Sat -15 |
+| Color Grading | Shadows: Hue 200 / Sat 8, Highlights: Hue 40 / Sat 10, Balance +15 |
+| Effects | Texture -5, Clarity -5, Grain 20 / 20 / 25 |
 
 ---
 
@@ -144,11 +147,11 @@ Gold 200 leans hard into warm, golden hues with a distinct yellow-orange cast on
 **Settings:**
 | Panel | Adjustments |
 |---|---|
-| Light | Contrast +5, Highlights -15, Shadows +15, Blacks +10 |
-| Color | WB warm (+400K to +600K), Tint +5 Magenta, Saturation +5 |
-| HSL | Yellow + Orange Sat +15, Blue Sat -10 |
-| Color Grading | Shadows: Hue 45, Sat 10 |
-| Effects | Grain 25, Roughness 40 |
+| Light | Contrast +10, Highlights -20, Shadows +15, Whites +10, Blacks +10 |
+| Color | Vibrance +15, Saturation +8 |
+| HSL | Red Hue +5 / Sat +15, Orange Hue +5 / Sat +15, Yellow Hue -8 / Sat +15 / Lum +10, Green Hue +5 / Sat -15, Blue Hue -10 / Sat -15 / Lum -10 |
+| Color Grading | Shadows: Hue 45 / Sat 15, Highlights: Hue 35 / Sat 12, Balance +30 |
+| Effects | Grain 30 / 25 / 45 |
 
 ---
 
@@ -161,11 +164,11 @@ Superia was the cheap 4-pack you grabbed at the drugstore before a trip. It rend
 **Settings:**
 | Panel | Adjustments |
 |---|---|
-| Light | Contrast +15, Highlights -20, Shadows +10, Blacks +5 |
-| Color | Tint push Green (-10) |
-| HSL | Red Sat +20 / Hue -10, Green Hue -10 |
-| Color Grading | Shadows: Hue 170, Sat 15 |
-| Effects | Grain 30, Roughness 45 |
+| Light | Contrast +20, Highlights -25, Shadows +10, Whites +10, Blacks +5 |
+| Color | Vibrance +15, Saturation -10 |
+| HSL | Red Hue -10 / Sat +25, Orange Hue -5 / Sat +10, Green Hue -10 / Sat +10 / Lum -10, Blue Hue -5 / Sat +15 / Lum -10 |
+| Color Grading | Shadows: Hue 170 / Sat 20, Balance -20 |
+| Effects | Grain 35 / 30 / 50 |
 
 ---
 
@@ -178,10 +181,11 @@ Pushes greens toward a cooler minty-cyan and lifts overall exposure for that bri
 **Settings:**
 | Panel | Adjustments |
 |---|---|
-| Light | Exposure +0.40, Contrast -15, Highlights -30, Shadows +30, Blacks +10 |
-| Color | WB slightly cooler/blue |
-| HSL | Green Hue +25 / Sat -20, Blue Hue -15 / Sat -10 |
-| Effects | Clarity -5, Grain 20 |
+| Light | Exposure +0.50, Contrast -20, Highlights -40, Shadows +40, Whites +5, Blacks +15 |
+| Color | Vibrance +10, Saturation -5 |
+| HSL | Orange Hue +8 / Sat -10 / Lum +15, Green Hue +30 / Sat -25 / Lum +10, Blue Hue -20 / Sat -15 |
+| Color Grading | Shadows: Hue 180 / Sat 12, Highlights: Hue 40 / Sat 8, Balance +10 |
+| Effects | Clarity -10, Grain 22 / 20 / 30 |
 
 ---
 
@@ -194,10 +198,11 @@ Once sold cheaply in drugstores, Vista 200 is legendary for over-the-top saturat
 **Settings:**
 | Panel | Adjustments |
 |---|---|
-| Light | Contrast +10, Highlights -10, Shadows +5, Whites +15, Blacks -5 |
-| Color | Vibrance +20, Saturation +5 |
-| HSL | Red Sat +25, Blue Sat +15, Yellow Hue +10 |
-| Effects | Grain 20 |
+| Light | Contrast +15, Highlights -15, Shadows +10, Whites +20, Blacks -10 |
+| Color | Vibrance +25, Saturation +10 |
+| HSL | Red Hue -5 / Sat +35, Orange Sat +15, Yellow Hue +10, Green Hue -10 / Sat -15, Blue Sat +20 / Lum -10 |
+| Color Grading | Shadows: Hue 50 / Sat 10 |
+| Effects | Grain 25 / 25 / 35 |
 
 ---
 
@@ -210,10 +215,11 @@ Marketed as having the tightest grain of any color negative film. Ektar delivers
 **Settings:**
 | Panel | Adjustments |
 |---|---|
-| Light | Contrast +20, Highlights -25, Shadows +10, Blacks -10 |
-| Color | WB slightly warm, Saturation +15 |
-| HSL | Red Sat +15, Yellow Sat +10, Blue Hue -10 |
-| Effects | Grain 15 / 15 / 15 |
+| Light | Contrast +30, Highlights -30, Shadows +10, Whites +15, Blacks -20 |
+| Color | Vibrance +15, Saturation +25 |
+| HSL | Red Hue -5 / Sat +20, Yellow Sat +15, Green Hue +5 / Sat +10 / Lum -10, Blue Hue -10 / Sat +10 / Lum -15 |
+| Color Grading | Shadows: Hue 210 / Sat 8, Highlights: Hue 40 / Sat 10, Balance +30 |
+| Effects | Texture +5, Clarity +10, Grain 15 / 15 / 20 |
 
 ---
 
@@ -226,11 +232,11 @@ The only high-speed C-41 color negative film still in production. Portra 800 bui
 **Settings:**
 | Panel | Adjustments |
 |---|---|
-| Light | Exposure +0.20, Contrast -5, Highlights -55, Shadows +40, Whites -15, Blacks -15 |
-| Color | Vibrance +5, Saturation +10 |
-| HSL | Red Sat -15 / Lum +15, Orange Sat -10 / Lum +25, Yellow Hue -15 / Sat -20 / Lum +10, Green Hue -20 / Sat -30, Blue Hue -10 / Sat -10 / Lum -15 |
-| Color Grading | Shadows: Hue 285 / Sat 10, Highlights: Hue 50 / Sat 8, Balance +50 |
-| Effects | Grain 35 / 40 / 50 |
+| Light | Exposure +0.25, Contrast 0, Highlights -60, Shadows +45, Whites -10, Blacks -20 |
+| Color | Vibrance +10, Saturation +15 |
+| HSL | Red Hue +5 / Sat -15 / Lum +15, Orange Sat -10 / Lum +25, Yellow Sat -25, Green Hue -20 / Sat -35, Blue Lum -15, Purple Sat -15, Magenta Sat -15 |
+| Color Grading | Shadows: Hue 285 / Sat 15, Highlights: Hue 50 / Sat 10, Balance +50 |
+| Effects | Texture -5, Clarity +5, Grain 40 / 40 / 55 |
 
 ---
 
@@ -243,11 +249,11 @@ The single most requested Fuji film sim by non-Fuji shooters. Very different fro
 **Settings:**
 | Panel | Adjustments |
 |---|---|
-| Light | Contrast +20, Highlights -25, Shadows +15, Blacks -10 |
-| Color | Saturation -20 |
-| HSL | Red Hue +20 / Sat -25, Orange Sat -10, Yellow Sat -30, Green Hue +15 / Sat -15 / Lum -10, Aqua Hue +10 / Sat -15, Blue Hue -15 / Sat -10 |
-| Color Grading | Shadows: Hue 160 / Sat 15, Highlights: Hue 330 / Sat 8, Balance -15 |
-| Effects | Clarity -15, Dehaze -5, Grain 35 / 40 / 60 |
+| Light | Exposure +0.10, Contrast +25, Highlights -35, Shadows +20, Whites -10, Blacks -15 |
+| Color | Vibrance +5, Saturation -25 |
+| HSL | Red Hue +25 / Sat -30 / Lum +10, Orange Sat -15, Yellow Sat -35, Green Hue +20 / Sat -20 / Lum -15, Aqua Hue +15 / Sat -20, Blue Hue -20 / Sat -15 |
+| Color Grading | Shadows: Hue 160 / Sat 20, Highlights: Hue 330 / Sat 10, Balance -20 |
+| Effects | Texture -10, Clarity -20, Dehaze -10, Grain 40 / 40 / 65 |
 
 ---
 
@@ -260,11 +266,11 @@ The accessible everyday alternative to Portra. Ultramax hits harder on contrast,
 **Settings:**
 | Panel | Adjustments |
 |---|---|
-| Light | Contrast +20, Highlights -25, Shadows +15, Whites +10, Blacks -15 |
-| Color | Saturation -3, Vibrance +15 |
-| HSL | Red Hue +5 / Sat +18 / Lum -5, Orange Sat +22, Yellow Hue -10 / Sat +12 / Lum -8, Green Hue -18 / Sat -8 / Lum -12, Blue Sat -8 / Lum -12 |
-| Color Grading | Shadows: Hue 205 / Sat 12, Highlights: Hue 42 / Sat 18, Balance +20 |
-| Effects | Texture -10, Clarity -5, Dehaze +5, Grain 32 / 30 / 55 |
+| Light | Exposure +0.15, Contrast +25, Highlights -30, Shadows +20, Whites +15, Blacks -20 |
+| Color | Vibrance +20, Saturation 0 |
+| HSL | Red Hue +5 / Sat +22 / Lum -5, Orange Hue -5 / Sat +28 / Lum -5, Yellow Hue -10 / Sat +15 / Lum -10, Green Hue -18 / Sat -10 / Lum -15, Blue Sat -8 / Lum -15 |
+| Color Grading | Shadows: Hue 205 / Sat 15, Highlights: Hue 42 / Sat 22, Balance +25 |
+| Effects | Texture -10, Clarity -5, Dehaze +10, Grain 35 / 32 / 58 |
 
 ---
 
@@ -277,11 +283,11 @@ The ultimate lost low-light stock — ISO 1600 with genuinely usable grain, disc
 **Settings:**
 | Panel | Adjustments |
 |---|---|
-| Light | Exposure +0.20, Contrast -15, Highlights -40, Shadows +40, Blacks -15 |
-| Color | Saturation 0, Vibrance +5 |
-| HSL | Green Hue +15 / Sat -20 / Lum +5, Blue Hue -5 / Sat -10 / Lum -10, Orange Sat -10 / Lum +15 |
-| Color Grading | Shadows: Hue 215 / Sat 8, Highlights: Hue 30 / Sat 6, Balance -10 |
-| Effects | Grain 30 / 30 / 55 |
+| Light | Exposure +0.30, Contrast -10, Highlights -50, Shadows +45, Whites +5, Blacks -20 |
+| Color | Vibrance +10, Saturation -8 |
+| HSL | Orange Sat -10 / Lum +15, Green Hue +20 / Sat -20 / Lum -10, Blue Sat -10 / Lum -10 |
+| Color Grading | Shadows: Hue 215 / Sat 12, Highlights: Hue 40 / Sat 6, Balance -10 |
+| Effects | Texture -10, Clarity -5, Grain 35 / 30 / 55 |
 
 ---
 
@@ -294,11 +300,11 @@ Reala was Fuji's color-accurate masterpiece — a 4th color layer gave it unmatc
 **Settings:**
 | Panel | Adjustments |
 |---|---|
-| Light | Contrast -10, Highlights -25, Shadows +20, Blacks +5 |
-| Color | Saturation -5, Vibrance +5 |
-| HSL | Red Sat -5, Green Sat -10 / Lum +10, Blue Sat -5 |
-| Color Grading | Shadows: Hue 210 / Sat 5, Highlights: Hue 40 / Sat 8 |
-| Effects | Grain 15 / 20 / 25 |
+| Light | Contrast -5, Highlights -25, Shadows +20, Whites +10, Blacks -10 |
+| Color | Vibrance +10, Saturation -5 |
+| HSL | Red Sat -10, Orange Lum +10, Green Hue +10 / Sat -15, Blue Hue -5 / Sat -10 |
+| Color Grading | Shadows: Hue 190 / Sat 6, Highlights: Hue 45 / Sat 6, Balance +10 |
+| Effects | Texture +5, Clarity +5, Grain 15 / 15 / 20 |
 
 ---
 
@@ -311,11 +317,11 @@ The last high-speed consumer color film before Natura took the crown. Superia 16
 **Settings:**
 | Panel | Adjustments |
 |---|---|
-| Light | Contrast +25, Highlights -35, Shadows +20, Blacks -18 |
-| Color | Saturation +5, Vibrance +10 |
-| HSL | Green Hue +15 / Sat +20, Blue Sat +15, Orange Sat +10 / Lum +10, Red Sat +15 |
-| Color Grading | Shadows: Hue 210 / Sat 12, Highlights: Hue 40 / Sat 6, Balance -10 |
-| Effects | Grain 40 / 40 / 60 |
+| Light | Exposure +0.15, Contrast +32, Highlights -40, Shadows +25, Whites +15, Blacks -22 |
+| Color | Vibrance +18, Saturation +8 |
+| HSL | Green Hue +15 / Sat +25 / Lum -10, Blue Hue -8 / Sat +20 / Lum -10, Red Sat +15 |
+| Color Grading | Shadows: Hue 210 / Sat 15, Highlights: Hue 40 / Sat 8, Balance -10 |
+| Effects | Texture -5, Grain 45 / 40 / 60 |
 
 ---
 
@@ -328,11 +334,11 @@ Kodak's motion picture 250D (5207) daylight stock, the foundation of countless f
 **Settings:**
 | Panel | Adjustments |
 |---|---|
-| Light | Exposure +0.20, Contrast +30, Highlights -50, Shadows +22, Whites -18, Blacks -20 |
-| Color | Saturation 0, Vibrance +5 |
-| HSL | Green Hue +15 / Sat -18 / Lum -5, Orange Hue +10 / Sat -8 / Lum -10 |
-| Color Grading | Shadows: Hue 210 / Sat 8, Highlights: Hue 45 / Sat 10 |
-| Effects | Texture -10, Clarity -5, Grain 20 / 30 / 50 |
+| Light | Exposure +0.25, Contrast +35, Highlights -55, Shadows +25, Whites -20, Blacks -25 |
+| Color | Vibrance +8, Saturation -8 |
+| HSL | Red Hue +5, Orange Hue +10 / Sat -10 / Lum -10, Yellow Sat -15, Green Hue +15 / Sat -22 / Lum -10 |
+| Color Grading | Shadows: Hue 210 / Sat 12, Highlights: Hue 45 / Sat 14, Balance +10 |
+| Effects | Texture -10, Clarity -8, Grain 25 / 30 / 50 |
 
 ---
 
@@ -345,12 +351,12 @@ Lomography's most famous film renders green foliage as deep purple/magenta, blue
 **Settings:**
 | Panel | Adjustments |
 |---|---|
-| Light | Contrast +20, Highlights -15, Shadows -10, Blacks -20 |
-| Color | Saturation +15, Vibrance +10 |
-| HSL | Green Hue +100 / Sat +35 / Lum -15, Blue Hue -100 / Sat -45 / Lum +15, Yellow Hue +35 / Sat +18, Red Sat -5, Orange Sat -5 |
-| Color Grading | Shadows: Hue 270 / Sat 20, Highlights: Hue 300 / Sat 15 |
+| Light | Exposure +0.10, Contrast +25, Highlights -25, Shadows +20, Whites +10, Blacks -10 |
+| Color | Vibrance +20, Saturation +10 |
+| HSL | Green Hue +100 / Sat +40 / Lum -15, Yellow Hue +35, Blue Hue -100 / Sat -50, Magenta Sat +30 |
+| Color Grading | Shadows: Hue 290 / Sat 15, Highlights: Hue 300 / Sat 20, Balance +20 |
 | Calibration | Shadow Tint +15, Red Hue +25 / Sat +10, Green Hue +100 / Sat +20, Blue Hue -100 / Sat -15 |
-| Effects | Grain 45 / 30 / 60 |
+| Effects | Texture -5, Grain 50 / 30 / 60 |
 
 ---
 
@@ -365,11 +371,11 @@ The film that defined color photography for decades. Reds are deep and luminous,
 **Settings:**
 | Panel | Adjustments |
 |---|---|
-| Light | Exposure +0.10, Contrast +20, Highlights -10, Shadows -5 |
-| Color | Vibrance +15, Saturation -5 |
-| HSL | Red Sat +20 / Lum -10, Yellow Sat +15, Blue Hue -10 |
-| Color Grading | Shadows: Hue 40, Sat 10 |
-| Effects | Clarity +10, Grain 15 |
+| Light | Exposure +0.15, Contrast +30, Highlights -15, Shadows -10, Whites +15, Blacks -15 |
+| Color | Vibrance +20, Saturation 0 |
+| HSL | Red Hue -5 / Sat +25 / Lum -10, Yellow Hue -5 / Sat +20, Green Sat -15, Blue Hue -10 / Sat -10 / Lum -10 |
+| Color Grading | Shadows: Hue 40 / Sat 15, Highlights: Hue 30 / Sat 8, Balance +30 |
+| Effects | Texture +10, Clarity +15, Grain 20 / 15 / 25 |
 
 ---
 
@@ -382,10 +388,45 @@ The most intense film in this collection. Velvia pushes greens and blues to almo
 **Settings:**
 | Panel | Adjustments |
 |---|---|
-| Light | Contrast +25, Highlights -15, Shadows -10, Whites +15, Blacks -15 |
-| Color | Vibrance +30, Saturation +10 |
-| HSL | Green Sat +20, Blue Sat +20, Orange Sat +10 |
-| Effects | Dehaze +10, Clarity +10, Grain 0 |
+| Light | Contrast +35, Highlights -20, Shadows -15, Whites +20, Blacks -25 |
+| Color | Vibrance +40, Saturation +15 |
+| HSL | Green Hue -10 / Sat +30 / Lum -15, Blue Hue -10 / Sat +30 / Lum -15, Red Sat +15, Orange Sat +15 |
+| Color Grading | Shadows: Hue 240 / Sat 10, Highlights: Hue 50 / Sat 8, Balance +20 |
+| Effects | Texture +10, Clarity +20, Dehaze +15, Grain 5 / 5 / 10 |
+
+---
+
+### Fuji Astia 100F
+
+*Soft fashion and wedding slide film with muted saturation and gentle contrast.*
+
+Astia 100F was Fuji's answer to portrait and fashion shooters who found Velvia too saturated and Provia too neutral. It delivers reduced contrast, softer saturation, and gentle skin tone rendering. Foliage is shifted toward mint-green and shadows take on a subtle cool cast.
+
+**Settings:**
+| Panel | Adjustments |
+|---|---|
+| Light | Contrast -8, Highlights -25, Shadows +20, Whites +5, Blacks +8 |
+| Color | Vibrance +15, Saturation -12 |
+| HSL | Red Hue +10, Orange Lum +15, Green Hue +10 / Sat -20 / Lum +10, Blue Sat -15 |
+| Color Grading | Shadows: Hue 200 / Sat 6, Highlights: Hue 40 / Sat 8, Balance +20 |
+| Effects | Texture -8, Clarity -5, Grain 10 / 10 / 15 |
+
+---
+
+### Kodak Ektachrome E100
+
+*Clean, cool-balanced slide film with vivid color and clinical sharpness.*
+
+Kodak's legendary Ektachrome E100 was the go-to for commercial, nature, and product photographers who needed accurate-but-punchy color without Velvia's extreme saturation. Blues are boosted and shifted slightly cyan, greens stay natural-to-cool, and reds gain a subtle orange warmth. Contrast is high but blacks never crush.
+
+**Settings:**
+| Panel | Adjustments |
+|---|---|
+| Light | Contrast +35, Highlights -20, Shadows -15, Whites +10, Blacks -25 |
+| Color | Vibrance +20, Saturation +5 |
+| HSL | Green Hue -5 / Sat +10 / Lum -10, Yellow Sat +15, Blue Hue -10 / Sat +25 / Lum -10, Red Sat +20 |
+| Color Grading | Shadows: Hue 220 / Sat 8, Highlights: Hue 30 / Sat 6, Balance +10 |
+| Effects | Texture +10, Clarity +15, Grain 15 / 10 / 15 |
 
 ---
 
@@ -417,9 +458,9 @@ Inspired by the Ricoh GR series' legendary JPEG profile and Moriyama's prowling 
 **Settings:**
 | Panel | Adjustments |
 |---|---|
-| Light | Contrast +45, Highlights +30, Shadows -40, Whites +25, Blacks -50 |
-| B&W Mixer | Red -10, Blue -20 |
-| Effects | Clarity +35, Dehaze +10, Grain 60 / 50 / 60 |
+| Light | Contrast +55, Highlights +35, Shadows -45, Whites +35, Blacks -60 |
+| B&W Mixer | Red -15, Orange -5, Yellow +5, Green +20, Aqua +5, Blue -25, Purple -10, Magenta -10 |
+| Effects | Texture +15, Clarity +45, Dehaze +15, Grain 65 / 50 / 65 |
 | Profile | Adobe Monochrome (auto-conversion) |
 
 ---
@@ -433,9 +474,9 @@ The workhorse of black-and-white film. HP5 preserves detail from shadow to highl
 **Settings:**
 | Panel | Adjustments |
 |---|---|
-| Light | Contrast +10, Highlights -20, Shadows +15, Whites +15, Blacks -10 |
-| B&W Mixer | Yellow +15, Green +10, Blue -15 |
-| Effects | Texture +10, Clarity +10, Grain 35 / 30 / 40 |
+| Light | Contrast +15, Highlights -25, Shadows +20, Whites +20, Blacks -15 |
+| B&W Mixer | Red -5, Orange +5, Yellow +15, Green +15, Aqua +5, Blue -20, Purple -5, Magenta -5 |
+| Effects | Texture +15, Clarity +15, Grain 40 / 30 / 45 |
 | Profile | Adobe Monochrome |
 
 ---
@@ -449,9 +490,9 @@ Tri-X defined documentary photography from the 1950s onward. It pushes mid-tone 
 **Settings:**
 | Panel | Adjustments |
 |---|---|
-| Light | Contrast +35, Highlights -10, Shadows -15, Whites +20, Blacks -30 |
-| B&W Mixer | Yellow +15, Green +20, Blue -15 |
-| Effects | Clarity +15, Grain 55 / 40 / 50 |
+| Light | Contrast +45, Highlights -15, Shadows -20, Whites +25, Blacks -40 |
+| B&W Mixer | Red +5, Orange +10, Yellow +20, Green +25, Aqua +5, Blue -20, Purple -10, Magenta -5 |
+| Effects | Texture +15, Clarity +25, Grain 60 / 40 / 55 |
 | Profile | Adobe Monochrome |
 
 ---
@@ -465,8 +506,9 @@ Shot at ISO 3200 in dark clubs and alleys. Low contrast, soft textures, lifted b
 **Settings:**
 | Panel | Adjustments |
 |---|---|
-| Light | Contrast -10, Highlights -30, Shadows +25, Whites -10, Blacks +20 |
-| Effects | Texture -10, Clarity -15, Grain 75 / 60 / 75 |
+| Light | Contrast -15, Highlights -35, Shadows +30, Whites -15, Blacks +25 |
+| B&W Mixer | Red +10, Orange +5, Green +10, Blue -15 |
+| Effects | Texture -15, Clarity -20, Grain 80 / 60 / 80 |
 | Profile | Adobe Monochrome |
 
 ---
@@ -480,9 +522,9 @@ Fuji's celebrated B&W film and in-camera simulation. Acros captures extended sha
 **Settings:**
 | Panel | Adjustments |
 |---|---|
-| Light | Contrast 0, Highlights -35, Shadows +35, Whites +15, Blacks -30 |
-| B&W Mixer | Red +20, Orange +10, Green +10, Yellow +5, Blue -15, Aqua -10 |
-| Effects | Texture +10, Clarity +15, Grain 20 / 25 / 50 |
+| Light | Contrast +5, Highlights -40, Shadows +40, Whites +20, Blacks -35 |
+| B&W Mixer | Red +25, Orange +15, Yellow +10, Green +10, Blue -20, Aqua -10, Magenta -10 |
+| Effects | Texture +10, Clarity +20, Grain 25 / 25 / 50 |
 | Profile | Adobe Monochrome |
 
 ---
@@ -496,9 +538,9 @@ T-Max 3200 (true ISO ~800-1000, rated at 3200) uses Kodak's T-grain technology f
 **Settings:**
 | Panel | Adjustments |
 |---|---|
-| Light | Contrast +30, Highlights -20, Shadows -25, Whites +20, Blacks -30 |
-| B&W Mixer | Red +20, Orange +15, Yellow +15, Green +5, Blue -25, Aqua -15 |
-| Effects | Texture +10, Clarity +15, Grain 55 / 40 / 70 |
+| Light | Exposure +0.15, Contrast +35, Highlights -25, Shadows -30, Whites +20, Blacks -35 |
+| B&W Mixer | Red +25, Orange +20, Yellow +15, Green -5, Blue -30, Aqua -20, Purple -15, Magenta +5 |
+| Effects | Texture +15, Clarity +20, Grain 60 / 42 / 70 |
 | Profile | Adobe Monochrome |
 
 ---
