@@ -1,0 +1,31 @@
+<x:xmpmeta xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00">
+ <rdf:RDF>
+
+
+ 
+ <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="8505931C0738B15ADE754CD32905B632" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:Name="WWII Newsreel" crs:Treatment="Color" crs:ProcessVersion="15.4" crs:HasSettings="True" crs:Exposure2012="-0.20" crs:Contrast2012="+35" crs:Highlights2012="-50" crs:Shadows2012="-10" crs:Whites2012="+5" crs:Blacks2012="-25" crs:Sharpness="10" crs:LuminanceSmoothing="0" crs:GrainAmount="50" crs:GrainSize="35" crs:GrainFrequency="70" crs:Dehaze="+20" crs:Saturation="-15" crs:SaturationAdjustmentRed="-20" crs:SaturationAdjustmentOrange="-20" crs:SaturationAdjustmentYellow="-25" crs:SaturationAdjustmentGreen="-35" crs:SaturationAdjustmentAqua="-25" crs:SaturationAdjustmentBlue="-20" crs:SaturationAdjustmentPurple="-20" crs:SaturationAdjustmentMagenta="-20" crs:PostCropVignetteAmount="-25" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="40" crs:ColorGradeHighlightSat="5" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="220" crs:ColorGradeShadowSat="5" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="70" crs:ColorGradeBalance="0">
+ <crs:Name>
+ <rdf:Alt>
+ <rdf:li xml:lang="x-default">WWII Newsreel</rdf:li>
+ </rdf:Alt>
+ </crs:Name>
+ <crs:Group>
+ <rdf:Alt>
+ <rdf:li xml:lang="x-default">Decade</rdf:li>
+ </rdf:Alt>
+ </crs:Group>
+ <crs:Look>
+
+
+ 
+ <rdf:Description crs:Name="Adobe Color" crs:Amount="1.000000" crs:UUID="B952C21111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="False" crs:SupportsOutputReferred="True">
+ <crs:Group>
+ <rdf:Alt>
+ <rdf:li xml:lang="x-default">Profiles</rdf:li>
+ </rdf:Alt>
+ </crs:Group>
+ </rdf:Description>
+ </crs:Look>
+ <crs:ToneCurvePV2012><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012><crs:ToneCurvePV2012Red><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012Red><crs:ToneCurvePV2012Green><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012Green><crs:ToneCurvePV2012Blue><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012Blue></rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>
