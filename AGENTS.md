@@ -91,3 +91,5 @@ See `test/rebuild_xmps.py` for the exact template.
 6. Research first: check `research/{preset}/` before modifying XMPs
 7. Always verify on a real image before committing
 8. Every XMP must include the structural boilerplate (ProcessVersion 15.4, Treatment, Look block, ToneCurvePV2012) or presets will render incorrectly
+9. **Grain vs Sharpness/Clarity**: Any preset with `GrainAmount > 0` MUST have `Sharpness="10"` (or lower) and `LuminanceSmoothing="0"` to prevent Lightroom's digital sharpening from turning organic grain into jagged digital noise. Keep Clarity, Texture, and Dehaze at 0 for grain-heavy presets — let the tonal curve and grain structure carry the character.
+10. **Auto-commit after changes**: After every batch of XMP changes, commit and push immediately with a descriptive message. Include the scope ("all 48 presets", "Creative only", etc.) and what was changed. Use `git add Presets/` then `git commit -m "..."` then `git push`. Do NOT wait for the user to ask you to commit.
