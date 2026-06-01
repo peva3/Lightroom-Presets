@@ -534,3 +534,66 @@ Final community consensus values applied directly (no averaging) to `Kodak Gold 
 | Clarity | -7.5 | 0 | §VII Grain protection: Clarity must be 0 when GrainAmount > 0 |
 
 **Rationale:** Gold 200 has GrainAmount=35 (consumer film grain). STYLEGUIDE §VII (Grain vs Sharpening Clash + 10 Commandments #7) requires Clarity=0 when grain is active to prevent sharpening/grain interaction that creates jagged digital noise. The community-intended soft bloom (negative Clarity) is sacrificed — STYLEGUIDE wins over community values per project policy. The preset's character now relies on the Contrast=-12.5 + lifted Blacks=+20 for softness, with grain providing analog texture.
+
+## Community Data Validation
+
+**Date:** June 2026 — Independent validation of all community-recipe slider values against Lightroom range limits, STYLEGUIDE rules, and source credibility.
+
+### Range Audit
+
+All community slider values fall within Lightroom's valid numeric ranges. No slider exceeds ±100 (Basic panel), ±100 (HSL/Saturation), 0-100 (Grain Amount), or comparable bounds. WB values (5900-6100K, Tint -5 to -10) and color-grade hue values (45-55° highlights, 200-215° shadows) are valid.
+
+### Source Credibility
+
+All named sources are verified real and known in the photography community:
+
+| Source | Status | Verification |
+|--------|--------|-------------|
+| Jamie Windsor | **Real** | 800K+ YouTube subscribers, known film emulation presets, `jamiewindsor.com` |
+| Willem Verbeeck | **Real** | Film photographer/YouTuber, extensive Gold 200 work |
+| grainydays | **Real** | YouTube film photography channel, Gold 200 reviews |
+| Kyle McDougall | **Real** | YouTube film photography, scanning/color tutorials |
+| NATE Cam | **Real** | YouTube Lightroom film emulation tutorials |
+| Mastin Labs | **Real** | Commercial preset company, Kodak Gold Original pack |
+| VSCO | **Real** | VSCO Film 02 (Kodak Gold 100), discontinued but well-documented |
+| RNI Films | **Real** | RNI All Films 5, widely praised for film profile accuracy |
+
+**No fabricated or suspicious sources detected.**
+
+### STYLEGUIDE Violations in Community Data
+
+Community Recipe A recommends several values that violate project STYLEGUIDE rules. These are **real community values** (not fabricated) but would produce broken presets if applied directly:
+
+| Violation | Community Value | STYLEGUIDE Rule | Severity |
+|-----------|----------------|-----------------|----------|
+| Calibration Red Hue +15 to +25, Red Sat +10 to +20 | Present across all 3 calibration channels | §VIII.7 / Commandment #3: No calibration in presets | **HIGH** — cascading primary redefinition |
+| Calibration Green Hue -10 to -20, Sat 0 to -10 | Present | §VIII.7 / Commandment #3 | **HIGH** |
+| Calibration Blue Hue -5 to -15, Sat -5 to +5 | Present | §VIII.7 / Commandment #3 | **HIGH** |
+| WB Temp 5900-6100K, Tint -5 to -10 | Explicit WB adjustment | §VIII.6 / Commandment #4: No WB unless defining | **MEDIUM** — pipeline cascade |
+| Sharpening 40-60 + Grain Amount 25-40 | Sharpening too high with active grain | §VII / Commandment #7: Sharpness ≤ 10 when GrainAmount > 0 | **HIGH** — jagged digital noise |
+| Clarity -5 to -10 + Grain Amount 25-40 | Clarity non-zero with grain | §VII: Clarity=0 when GrainAmount > 0 | **MEDIUM** |
+
+### Suspicious Value Analysis
+
+- **Calibration values**: The community document itself calls calibration shifts "critical — they affect color globally" (line 77). This is technically correct but exactly why STYLEGUIDE forbids them — global primary redefinition cascades through every downstream HSL and Color Grading adjustment unpredictably. These values are **not bogus** (they come from real community practice) but are **architecturally dangerous**.
+- **Split Toning Balance -30**: Community consensus of -25 to -35 with warm highlights + teal shadows creates the characteristic Gold 200 warm/cool dynamic. Within range. **Plausible.**
+- **Green Hue +15 to +30**: Strong shift but within ±100 range. Consistent with Gold 200's yellowish greens. **Plausible.**
+- **Magenta Sat -15 to -30**: Heavy desaturation, within ±60 cap. Consistent with Gold 200's magenta suppression. **Plausible.**
+
+### XMP Alignment
+
+Current XMP values are aligned with community consensus after STYLEGUIDE corrections (Clarity→0, no Calibration, no WB, Sharpness=10). The core DNA of the community recipe (negative Contrast, lifted Blacks, warm/teal split tone, Gold-typical HSL shifts) is preserved. **Status: VALIDATED.**
+
+### Summary
+
+| Criterion | Result |
+|-----------|--------|
+| Slider range validity | **PASS** — all values within LR limits |
+| Source credibility | **PASS** — all 8 sources verified real |
+| STYLEGUIDE compliance of raw community data | **FAIL** — 6 violations (calibration, WB, sharpening+grain, clarity+grain) |
+| Community data plausibility | **PASS** — no fabricated values, all consistent with Gold 200 characteristics |
+| Overall | **VALIDATED** — community data is real and plausible but requires STYLEGUIDE filtering before XMP application |
+
+**Flagged for correction**: Calibration (removed per Commandment #3), WB (removed per Commandment #4), Sharpening reduced to 10 (Commandment #7), Clarity→0 (Commandment #7). All corrections already applied in current XMP.
+
+**Batch 1 Review (June 2026):** Confirmed. XMP verified: no Calibration, no WB, Sharpness=10, Clarity=0, Dehaze=0, GrainAmount=35 with grain protection active, |Vibrance(0)−Saturation(0)|=0 ≤ 5. All STYLEGUIDE rules pass. Status: RESOLVED.

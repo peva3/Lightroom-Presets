@@ -245,6 +245,43 @@ Date: 2026-06-01
 
 ---
 
+## Community Data Validation
+
+### Status: PASS with significant warnings
+
+### Sources: STRONG
+Excellent sourcing. Specific Reddit communities (r/Lightroom, r/postprocessing, r/WeddingPhotography), named YouTube creators (Peter McKinnon, Mango Street, Jessica Kobeissi), named publications (PetaPixel, SLR Lounge, Fstoppers, Contrastly), and commercial preset analysis (VSCO, Mastin Labs, Tribe Archipelago). The 2016-2019 timeline is well-documented showing the look's evolution from VSCO novelty to mainstream editing style. Peter McKinnon's 2017 tutorial is the most-cited origin point.
+
+### Slider Plausibility
+All values within valid Lightroom ranges. No extreme values.
+
+### Self-Consistency: PASS
+The tonal approach (tone curve black lift to 5-8%, contrast reduction, warm amber shadow split tone) is perfectly coherent for the matte fade aesthetic. Community Wisdom §1 ("Tone curve, not just the blacks slider") and §4 ("Split toning makes or breaks it") are excellent articulations of the look's architecture.
+
+### XMP Alignment: PASS with compromise
+XMP values match consensus except Vibrance: community wants +12, XMP has -5. See flag #1.
+
+### Flagged Items
+
+| # | Issue | Severity | Detail |
+|---|-------|----------|--------|
+| 1 | **SYSTEMIC: Vibrance/Saturation gap in every recipe** | **CRITICAL** | This is the most significant finding across all batch 5 presets. All 5 matte fade recipes want Vibrance ABOVE Saturation: Recipe 1 = Vibrance +10/+15, Sat -5/-10 (diff 15-25); Recipe 2 = Vibrance -5/+5, Sat -10/-15 (diff 5-20); Recipe 3 = Vibrance ?, Sat -5 (diff moderate); Recipe 5 = Vibrance ?, Sat -10/-15. The community consensus is Vibrance +12, Saturation -8 (diff = 20). This **massively violates** STYLEGUIDE §XV.5. The community is consistently, intentionally asking for a large Vibrance > Saturation gap — it IS the look (midtone pop with overall subdued palette). The STYLEGUIDE says this gap creates a selective-color effect. XMP compromises at Vibrance=-5, Sat=-8 (diff=3, compliant) but **fundamentally changes the aesthetic** from "vibrant midtones + muted overall" to "uniformly muted." This is a genuine architectural conflict that should be escalated. |
+| 2 | **Temperature in every recipe** | MEDIUM | Recipes 1-5 all include Temperature +3 to +20 and Tint +3 to +10. Warmth is considered integral to the matte fade (warm amber shadows + warm overall = cohesive). Recipe 5 is the only exception (cool-toned variant). STYLEGUIDE §XV.4 says avoid unless defining. The community treats warmth as defining. |
+| 3 | **Dehaze -8 as "fade controller"** | LOW | Community Wisdom §5 insight is good: negative Dehaze blends with lifted blacks for organic fade. XMP uses -8 which is well within STYLEGUIDE cap (±30). |
+| 4 | **Sharpness=10 with Grain=20** | PASS | Compliant with STYLEGUIDE §XV.7. No issue. |
+
+### Key Sources Quality
+- Peter McKinnon tutorial (2017): Primary origin point, widely cited. Values approximate from video.
+- Mango Street tutorial (2018): Advocated gentler approach. Credible.
+- PetaPixel tutorial (2017): Widely cited written tutorial. Good.
+- r/Lightroom megathreads: High consensus on technique, moderate variation in values.
+- VSCO/Mastin Labs: Commercial benchmarks for the look's market adoption.
+
+### Special Note
+The Vibrance/Saturation conflict is recorded here as **CRITICAL** because it is a structural, repeated pattern across all 5 matte fade recipes. This is not an isolated community error — the community is intentionally asking for a gap that the STYLEGUIDE prohibits. Resolution requires either relaxing the STYLEGUIDE for this preset class or documenting the trade-off explicitly.
+
+---
+
 ## Further Reading / Source Context
 
 - Reddit: r/Lightroom — search "matte look," "faded blacks," "VSCO preset," "film fade" (2015–2020)

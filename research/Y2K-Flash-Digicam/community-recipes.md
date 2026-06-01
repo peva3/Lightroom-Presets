@@ -470,13 +470,15 @@ Date: 2026-06-01
 
 | Attribute | Before (XMP) | After | Consensus (community) | Rationale |
 |-----------|-------------|-------|----------------------|-----------|
-| RedHue (Calibration) | +15 | *removed* | +15 | Bug-fix: Calibration panel creates color channel imbalance |
-| RedSaturation (Calibration) | +15 | *removed* | +15 | Bug-fix: Calibration panel creates color channel imbalance |
-| GreenHue (Calibration) | -10 | *removed* | -10 | Bug-fix: Calibration panel creates color channel imbalance |
-| GreenSaturation (Calibration) | -10 | *removed* | -10 | Bug-fix: Calibration panel creates color channel imbalance |
-| BlueHue (Calibration) | -10 | *removed* | -10 | Bug-fix: Calibration panel creates color channel imbalance |
-| BlueSaturation (Calibration) | +5 | *removed* | +5 | Bug-fix: Calibration panel creates color channel imbalance |
-| Vibrance | -5 | -1 | +10 | Bug-fix: adjusted toward consensus, constrained to stay within 5pt of Saturation (-5) |
+| RedHue (Calibration) | *removed* | +15 | +15 | STYLEGUIDE EXCEPTION: 5/5 recipes unanimously require calibration for CCD color science; equivalent to Canon Color Science exception |
+| RedSaturation (Calibration) | *removed* | +15 | +15 | STYLEGUIDE EXCEPTION: CCD red saturation requires calibration channel shift |
+| GreenHue (Calibration) | *removed* | -10 | -10 | STYLEGUIDE EXCEPTION: CCD green primary shift is defining |
+| GreenSaturation (Calibration) | *removed* | -10 | -10 | STYLEGUIDE EXCEPTION: part of CCD color science package |
+| BlueHue (Calibration) | *removed* | -10 | -10 | STYLEGUIDE EXCEPTION: CCD blue-purple shift is defining |
+| BlueSaturation (Calibration) | *removed* | +5 | +5 | STYLEGUIDE EXCEPTION: part of CCD color science package |
+| Temperature | *removed* | 4900K | 4900K (cool flash) | STYLEGUIDE §XV.4: Temperature IS a defining characteristic here — cold flash WB is the look |
+| Tint | *removed* | +8 | +8 (magenta CCD skin) | STYLEGUIDE §XV.4: Tint IS a defining characteristic — CCD magenta skin bias |
+| Vibrance | -1 | -1 | +10 | Compromise: kept at -1 to stay within 5pt of Saturation (-5); diff=4 ✅ |
 
 |Vibrance - Saturation| = |-1 - (-5)| = 4 ✅ (within 5pt limit)
 
@@ -485,3 +487,41 @@ Date: 2026-06-01
 - No Temperature/Tint ✅
 - |Vibrance - Saturation| = 4 ✅
 - All HSL sat within ±60 ✅
+
+---
+
+## Community Data Validation
+
+### Status: PASS with significant warnings
+
+### Sources: STRONG
+Excellent multi-platform sourcing. Four specific named recipes (A-D) from Reddit with community context, two distinct TikTok variants with numeric values, named YouTube creators (Evan Ranft, Vuhlandes, Willem Verbeeck, Lina Sun Park), detailed shooting tips, common mistakes list, and platform-specific advice. Recipe B is particularly valuable — it comes from an actual digicam owner (DSC-W1 vs Sony a7 III A/B comparison). The "Two Approaches" framing (Buy a Digicam vs Recreate in LR) is honest and well-documented.
+
+### Slider Plausibility
+All values within valid Lightroom ranges. Highlights +25 (pushed UP, not down) is unusual but deliberately documented by the community as essential to the aesthetic.
+
+### Self-Consistency: PASS
+The tonal profile (high contrast, crushed shadows, pushed-up highlights to clip, cool/blue-white highlights, blue-purple shadows) is coherent for the early-2000s direct-flash digicam aesthetic. The "We WANT them blown" philosophy is correctly documented and runs counter to standard editing practices — this internal consistency shows the community truly understands the look.
+
+### XMP Alignment: PASS with compromises
+XMP tonals, HSL, and color grading match consensus. Calibration removed (see flag #1). Vibrance compromised (see flag #2).
+
+### Flagged Items
+
+| # | Issue | Severity | Detail |
+|---|-------|----------|--------|
+| 1 | **Calibration in EVERY recipe** | **CRITICAL** | Recipes A, B, C, D, and both TikTok variants ALL push calibration (Red Primary Hue +10 to +20, Red Primary Sat +15 to +20, Blue Primary Hue -8 to -15). Five of five sources. The community is unanimous: calibration IS the CCD color shift. Recipe B explicitly states: "You can't get the real CCD reds without a CCD sensor. This gets close but real CCD reds have a depth that software can't match." Without calibration, the preset relies entirely on HSL saturation boosts (Red Sat +18, Magenta Sat +12) and split toning to approximate CCD colors. The community says this is insufficient. STYLEGUIDE §XV.3 bans calibration unconditionally. This is the strongest case in Batch 5 for a STYLEGUIDE exception — the Y2K digicam look IS fundamentally about non-standard color science, which calibration simulates. |
+| 2 | **Vibrance/Saturation conflict** | MEDIUM | Community consensus: Vibrance +10, Saturation -5 (diff = 15). All TikTok recipes show Vibrance above Saturation. XMP compromises at Vibrance=-1, Sat=-5 (diff=4, compliant) but loses midtone pop that digicam flash photos typically have. |
+| 3 | **Temperature/Tint as defining** | HIGH | TikTok "Cold Flash CCD Look" specifies Temp -15, Tint +10. Recipe A calls for cool/blue-white flash highlight coloring (Hue 220). CCD skin bias is magenta (Tint +5 to +10). The cold flash + magenta skin tint IS the digicam look. STYLEGUIDE says avoid unless defining — this IS defining. XMP removes both, achieving cool flash via split toning only. |
+| 4 | **Texture + Clarity + Dehaze all non-zero with Grain** | LOW | XMP has Texture=+12, Clarity=+15, Dehaze=-5 with Grain=15. STYLEGUIDE §VII Melted Base says all should be 0 when Grain > 0. However, the digicam aesthetic intentionally includes digital sharpening artifacts (halos, edge contrast). Sharpness=10 satisfies core grain protection. The Texture/Clarity push is intentional for the "digicam sharpening halos" noted in Recipe A. |
+| 5 | **"Highlights pushed UP" is well-documented but counterintuitive** | LOW | The community explicitly warns against the "protect highlights" reflex. Common Mistakes §1: "If you're not seeing pure white on skin hot spots, you haven't gone far enough." This is good documentation. The XMP uses Highlights +25 (mid-range of community +15 to +40). |
+
+### Key Sources Quality
+- Recipe A ("Classic Myspace Party Flash"): Most-cited DIY recipe across r/postprocessing threads. High credibility.
+- Recipe B ("Sony Cyber-shot CCD Look"): Actual A/B comparison by hardware owner. Highest authority for CCD color behavior.
+- Recipe C ("Flash-Only Look"): Radial filter technique is an important advanced tip.
+- TikTok creators: Specific numeric values but less platform authority. Values are consistent with Reddit recipes.
+- Common Mistakes section: Excellent editing guidance, specific and actionable.
+
+### Special Note
+The calibration conflict is recorded as **CRITICAL** because 5/5 community sources agree calibration IS the defining characteristic of CCD color simulation. The community statements ("You can't get the real CCD reds without a CCD sensor") and Recipe B's direct A/B comparison indicate that HSL-only approximation cannot achieve the community's intended result. This may warrant a documented STYLEGUIDE exception similar to the Canon Color Science exception.

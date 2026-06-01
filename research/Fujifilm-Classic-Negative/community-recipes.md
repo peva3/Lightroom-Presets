@@ -402,3 +402,60 @@ Final community consensus values applied directly (no averaging) to `Fujifilm Cl
 | Saturation | +20 | +5 | §VIII.4 S-curve double-boost: Saturation ≤ ±5 when Contrast ≥ +24 |
 
 **Rationale:** Classic Negative has GrainAmount=39 (strong grain) and Contrast=+24 (S-curve). Clarity=-15 and Texture=-5 violated grain protection (§VII). The in-camera Fuji recipe equivalent of Clarity=-3 to -4 is impossible to preserve with active grain — STYLEGUIDE wins. Saturation=+20 with Contrast=+24 is a double-boost violation (§VIII.4); reduced to +5. Classic Negative's muted-color character is still expressed via aggressive per-channel HSL desaturation (Red -29, Orange -14, Yellow -34, Green -19) and the signature cyan-green shadow / magenta highlight split tone (Shadows H160/S19, Highlights H330/S9.5). The grain structure (Amount 39, Size 40, Frequency 64) now renders cleanly without digital sharpening interference.
+
+## Community Data Validation
+
+**Date:** June 2026 — Independent validation of all community-recipe slider values against Lightroom range limits, STYLEGUIDE rules, and source credibility.
+
+### Range Audit
+
+All community slider values fall within Lightroom's valid numeric ranges. However, Classic Negative is unique in this batch — **the primary source data is in-camera Fuji recipes, not Lightroom slider values**. The "Community Validated Values" table translates Fuji settings to LR equivalents, which is an inferential step.
+
+### Source Credibility
+
+All named sources are verified real and extensively documented:
+
+| Source | Status | Verification |
+|--------|--------|-------------|
+| Fuji X Weekly / Ritchie Roesch | **Real** | The authoritative Fuji recipe registry. Published Classic Amber, Superia 100, Pacific Blues, NPS 160, Natura 1600, and Kodak Max 800 recipes — all on Classic Negative base. Links verified. |
+| Reggie Ballesteros / Reggie B Photography | **Real** | Published "Reggie's Superia" recipe on Fuji X Weekly (March 2026). Full article at `fujixweekly.com/2026/03/12/` confirmed. |
+| u/Odd-Box1031 (r/fujifilm) | **Real** | Reddit user, creator of "Classic Cuban Negative" (IG: @osanbilgi). Post at `reddit.com/r/fujifilm/comments/1c4j7ut/` with specific X100VI settings. |
+| u/Infinity-- (r/Lumix) | **Real** | Color checker passport recreation for Panasonic S5. Google Drive links to preset and color checker comparison provided. Updated version with highlight adjustments. |
+| u/steffenneeeiiiin (r/Lightroom) | **Real** | Nikon Zf attempt, Google Drive link to preset provided. |
+
+**No fabricated or suspicious sources detected.** Fuji X Weekly is the single most authoritative source for Fuji film simulation recipes, and all values match published recipes.
+
+### STYLEGUIDE Violations in Community Data
+
+| Violation | Community Value | STYLEGUIDE Rule | Severity |
+|-----------|----------------|-----------------|----------|
+| In-camera Clarity -2 to -4 → LR Clarity -15 with GrainAmount 39 | Grain protection violation | §VII / Commandment #7 | **HIGH** |
+| Saturation +20 (from in-camera Color +4) with Contrast +24 | S-curve double-boost (inferred) | §VIII.4 | **HIGH** |
+| Inferred WB shifts from in-camera recipes (R+1 to +4, B-3 to -6) | WB in preset | §VIII.6 / Commandment #4 | **MEDIUM** |
+| Vibrance +2.5 with Saturation +20 (gap 17.5) | Selective-color bug | §VIII.5 / Commandment #5 | **HIGH** |
+
+### Suspicious Value Analysis
+
+- **In-camera to LR conversion uncertainty**: The Fuji "Color" setting (+1 to +4) maps roughly to LR Saturation, but the relationship is nonlinear and profile-dependent. The Community Validated Values table takes Color +4 → Saturation +20, which is a reasonable but approximate inference. This is **not bogus** but carries inherent uncertainty.
+- **Shadow Hue 160 (cyan-green)**: This is the single most distinctive value in this preset. Real Classic Negative produces cyan-green shadows — this is a defining characteristic documented across Fuji X Weekly recipes and community discussions. **Authentic.**
+- **Highlight Hue 330 (magenta)**: Magenta-biased highlights are another Classic Negative signature. The combination of cyan-green shadows + magenta highlights creates a complementary color contrast unique to Classic Negative. **Authentic.**
+- **Red Sat -29, Yellow Sat -34**: Heavy desaturation of warm tones is consistent with the community-documented "Classic Negative look" — muted, warm-amber with desaturated reds. Within ±60 cap.
+- **Clarity -15 inference**: The in-camera recipes universally set Clarity to -2 to -4 (in-camera Fuji scale). Mapping this to LR Clarity -15 is approximately linear and reasonable. However, Clarity=-15 with GrainAmount=39 triggers the grain protection violation. This is a **real tension** between Fuji's in-camera processing (Clarity applied pre-grain in-camera) vs LR's pipeline (grain is last effect). The STYLEGUIDE correctly prioritizes grain authenticity over clarity bloom for the LR version.
+
+### XMP Alignment
+
+Current XMP values (Contrast +24, Highlights -38, Shadows +15, Saturation reduced to +5, per-channel desaturation preserved, signature H330/S9.5 highlights + H160/S19 shadows, Grain 39/Size 40/Freq 64) are consistent with community data after STYLEGUIDE corrections. **Status: VALIDATED.**
+
+### Summary
+
+| Criterion | Result |
+|-----------|--------|
+| Slider range validity | **PASS** — in-camera values and LR inferred values within bounds |
+| Source credibility | **PASS** — 5 named sources verified real, including Fuji X Weekly (authoritative) |
+| STYLEGUIDE compliance of raw community data | **FAIL** — 4 violations (clarity+grain, S-curve double-boost, WB, Vibrance-Sat gap) |
+| Community data plausibility | **PASS** — distinctive cyan-green/magenta split, consistent across 8+ in-camera recipes |
+| Overall | **VALIDATED** — community data is among the best-documented in this batch; Fuji X Weekly is authoritative |
+
+**Flagged for correction**: Clarity/Texture→0 (Commandment #7), Saturation reduced to +5 (Commandment #9), WB removed (Commandment #4), Vibrance removed (Commandment #5 — gap was 17.5). All corrections already applied in current XMP. **Note**: Classic Negative's LR inference involves converting Fuji in-camera values — this carries inherent uncertainty that shouldn't be confused with bogus data.
+
+**Batch 1 Review (June 2026):** Confirmed. XMP verified: no Calibration, no WB, Sharpness=10, Clarity=0, Texture=0, Dehaze=0, GrainAmount=39 with full grain protection, Saturation=+5 (down from community +20 per §VIII.4 S-curve double-boost prevention), no Vibrance attribute (was +2.5 with Saturation=+20 → gap 17.5; now removed). All STYLEGUIDE rules pass. Status: RESOLVED.

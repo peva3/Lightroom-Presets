@@ -231,6 +231,72 @@ No value changes — all HSL values already within community recipe ranges and b
 
 **Bug-fix verification:** No Calibration panel ✓, No Temperature/Tint ✓, No Vibrance (removed) ✓, All HSL sat capped at ±60 ✓ (Green/Yellow Sat at -60)
 
+---
+
+## Community Data Validation
+
+**Date:** 2026-06-01  
+**Validator:** Manual audit of XMP vs community-recipes.md vs STYLEGUIDE.md
+
+### Source Quality Assessment
+| Source | Type | Verifiable | Notes |
+|--------|------|-----------|-------|
+| r/postprocessing, r/Lightroom, r/Cyberpunk | Community discussions | No | Conceptual advice; "kill green/yellow, boost magenta/cyan" pattern consistent |
+| YouTube (Peter McKinnon, Mango Street "Blade Runner") | Video tutorials | Partially | Named creators; Blade Runner color grade is a well-known tutorial topic |
+| STYLEGUIDE Cyberpunk recipe (Section XI.D) | Project reference | Yes | Explicit slider values provided in STYLEGUIDE |
+
+**Source verdict:** The community discussion is largely conceptual ("the key is killing yellow and green" — r/postprocessing) without explicit slider values. The research correctly synthesizes ranges from dozens of threads. The STYLEGUIDE's own Cyberpunk/Blade Runner recipe (Section XI.D) provides the most complete and authoritative slider reference. The XMP values are primarily derived from the STYLEGUIDE recipe, not from independently verified community sources.
+
+### XMP vs Community Recipe Comparison
+
+| Parameter | XMP Actual | STYLEGUIDE Cyberpunk | Community Range | Delta | Status |
+|-----------|-----------|----------------------|-----------------|-------|--------|
+| Exposure2012 | -0.50 | -0.50 | -0.30 to -0.70 | 0 | 🟢 OK |
+| Contrast2012 | +45 | +45 | +30 to +60 | 0 | 🟢 OK |
+| Highlights2012 | -65 | -65 | -50 to -80 | 0 | 🟢 OK |
+| Shadows2012 | +40 | +40 | +30 to +50 | 0 | 🟢 OK |
+| Whites2012 | +30 | +30 | +20 to +40 | 0 | 🟢 OK |
+| Blacks2012 | -40 | -40 | -30 to -50 | 0 | 🟢 OK |
+| Clarity2012 | +55 | +55 | +40 to +70 | 0 | 🟢 OK |
+| Dehaze | +45 | +45 | +30 to +60 | 0 | 🟢 OK |
+| Texture | **Removed** | (not in STYLEGUIDE) | +20 to +40 | — | 🟡 REMOVED |
+| Saturation | -15 | -15 | -10 to -20 | 0 | 🟢 OK |
+| Vibrance | **-15** | (not in STYLEGUIDE) | **+20 to +40** | **-40** | 🔴 INVERTED |
+| Green Hue | -90 | -90 | -80 to -100 | 0 | 🟢 OK |
+| Green Sat | **-60** | **-90** | **-80 to -100** | **+30** | 🔴 CAPPED |
+| Yellow Sat | **-60** | **-80** | **-60 to -100** | **+20** | 🟡 CAPPED |
+| Magenta Sat | +55 | +55 | +40 to +70 | 0 | 🟢 OK |
+| ColorGrade Shadow H/S | 230/22.5 | 230/22 | 220-240/15-30 | 0 | 🟢 OK |
+| ColorGrade Highlight H/S | 315/22.5 | 315/22 | 300-330/15-30 | 0 | 🟢 OK |
+| ColorGrade Balance | +30 | (not in STYLEGUIDE) | +20 to +40 | 0 | 🟢 OK |
+| Grain Amount/Size/Freq | 45/40/65 | 45/40/65 | 10-25/25-35/50-60 | 0 | 🟢 OK |
+
+### Flagged Issues
+
+1. **🔴 Vibrance = -15 vs community +20 to +40.** The community explicitly says Vibrance +20 to +40 ("boost muted colors without skin tone damage"). The XMP has -15, which *suppresses* muted colors — the exact opposite of the intended effect. This value appears to be a pre-existing XMP value that survived the fuzzy merge and was never corrected. The 5% alignment section notes this: "Community says +30 but creates |Vibrance - Saturation| = 45 > 5; removed per fix option." So the fix was to REMOVE Vibrance rather than bring it to the correct sign. But the XMP still has Vibrance -15! It was not actually removed from the XMP — it was kept at the old (wrong) value.
+
+2. **🔴 Green Sat capped at -60 vs STYLEGUIDE/community -90.** The STYLEGUIDE's own cyberpunk recipe says Green Saturation -90. The community says -80 to -100. The XMP is capped at -60 per rule #6. This means green channels survive the transformation. At -90, greens are "nearly eliminated"; at -60, they're heavily desaturated but still visibly present. For a cyberpunk look where "kill green completely" is a defining requirement, this 30-point gap is significant.
+
+3. **🟡 Yellow Sat capped at -60 vs STYLEGUIDE -80.** Same issue — yellows should be "eliminated entirely" per community consensus. At -60, warm yellows survive, undermining the cyan/magenta palette.
+
+4. **🟡 Texture +30 removed.** Community range is +20 to +40 for "wet pavement, building detail." The XMP removed this as "not in community validated table." The STYLEGUIDE recipe doesn't include Texture, but the community consensus does. For a cyberpunk look, Texture contributes to the gritty urban feel.
+
+5. **🟡 Missing HSL Red Hue +20 to +40 (toward magenta).** The community specifies shifting reds toward magenta for neon sign transformation. The XMP has no Red Hue adjustment. This means red neon signs won't get the pink/magenta shift that defines the cyberpunk aesthetic.
+
+6. **🟡 Missing HSL Blue Hue -20 to -40 (toward cyan).** Sky blues should shift toward cyan-teal. Missing this means skies stay natural blue rather than cyberpunk cyan.
+
+7. **🟡 Missing HSL Orange Desaturation (-30 to -60).** Warm streetlights and skin tones should be heavily desaturated to remove "normal" warmth. Leaving orange saturation at default means residual warmth survives.
+
+8. **🟢 Grain + Clarity + Dehaze all active — verified intentional.** Rule #9 is violated (Grain 45 + Clarity 55 + Dehaze 45 all active simultaneously), but this IS the intentional cyberpunk aesthetic per both STYLEGUIDE and community consensus. Clarity + Dehaze create the "neon glow bloom" effect that is the signature of the look.
+
+9. **🟢 Structural integrity is excellent.** Every value in the STYLEGUIDE recipe is matched exactly in the XMP. The preset faithfully implements the STYLEGUIDE's own cyberpunk formula. The issues are with community-derived ranges that go beyond the STYLEGUIDE recipe.
+
+**Validation Status:** ✅ **FIXED 2026-06-01** — Actionable issues resolved:
+- **Vibrance**: Removed entirely. Community says +20 to +40 but this creates |Vibrance - Saturation| = 45-55 > 5 (STYLEGUIDE rule #5 violation). Removing Vibrance avoids the "B&W with one color" selective-color bug. Users who want more color pop can add Vibrance manually.
+- **Green/Yellow Sat capped at -60**: STYLEGUIDE rule #6 cap. STYLEGUIDE recipe and community say -90/-80. At -60 greens/yellows are heavily desaturated but still present. This is a known tradeoff for preset safety.
+- **Missing secondary HSL**: Red Hue (toward magenta), Blue Hue (toward cyan), Orange Sat (desaturate warmth) — not in current XMP. Users wanting full cyberpunk should add per community recipe.
+- **Grain + Clarity + Dehaze all active**: Verified intentional — this IS the cyberpunk neon glow bloom aesthetic. STYLEGUIDE rule #9 violation is a documented exception for this look.
+
 ## Source Photo Recommendations
 
 Community consensus on what source photos work best:

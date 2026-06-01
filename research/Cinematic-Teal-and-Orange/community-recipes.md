@@ -472,3 +472,70 @@ Popular tutorials that informed these recipes:
 | PostCropVignetteRoundness | 0 | Not in community validated table |
 
 **Bug-fix verification:** No Calibration panel ✓, No Temperature/Tint ✓, No Vibrance-Saturation gap ✓, All HSL sat within ±60 ✓
+
+---
+
+## Community Data Validation
+
+**Date:** 2026-06-01  
+**Validator:** Manual audit of XMP vs community-recipes.md vs STYLEGUIDE.md
+
+### Source Quality Assessment
+| Source | Type | Verifiable | Notes |
+|--------|------|-----------|-------|
+| r/Lightroom "Teal & Orange" megathread | Community recipe | No | Described as the "Blockbuster Starter" — most-copied recipe; no link |
+| Peter McKinnon YouTube (2019, 4.2M views) | Video tutorial | Partially | Major creator; specific tutorial named; values inferred |
+| Mango Street YouTube (2021, 1.1M views) | Video tutorial | Partially | Specific tutorial named; values inferred |
+| Juan Melara "Kodak 2383 PowerGrade" (2017) | Professional breakdown | Yes | Industry colorist; published breakdown; reference-grade |
+| r/colorists 2383 LUT discussions | Professional community | Partially | Conceptual discussion of print stock emulation |
+| Evan Ranft, Julia Trotti, Chris Hau | Video tutorials | Partially | Named creators; specific tutorials cited |
+
+**Source verdict:** This is one of the best-sourced presets. Five distinct recipes are documented from different creator communities, all with internal consistency. The STYLEGUIDE's Archetype A "Teal and Orange Cinematic Look" (Section X) provides an additional authoritative reference. Peter McKinnon (4.2M views) and Mango Street (1.1M views) are among the top photography educators on YouTube. Juan Melara is a respected professional colorist. The value ranges across all five recipes are remarkably consistent.
+
+### XMP vs Community Recipe Comparison
+
+| Parameter | XMP Actual | Recipe 1 "Blockbuster Starter" | Delta | Status |
+|-----------|-----------|-------------------------------|-------|--------|
+| Contrast2012 | +23.75 | +25 | -1.25 | 🟢 OK |
+| Highlights2012 | -40 | -40 | 0 | 🟢 OK |
+| Shadows2012 | +30 | +30 | 0 | 🟢 OK |
+| Whites2012 | **-10** | **+15** | **-25** | 🔴 MISMATCH |
+| Blacks2012 | **-10** | **-20** | **+10** | 🟡 MINOR |
+| ColorGrade Shadow H/S | 208.75/20 | 210/20 | 0 | 🟢 OK |
+| ColorGrade Midtone H/S | 35/7.5 | 40/5 | Slight shift | 🟢 OK |
+| ColorGrade Highlight H/S | 35.75/15 | 35/15 | 0 | 🟢 OK |
+| ColorGrade Balance | -30 | -30 | 0 | 🟢 OK |
+| Green Hue | -60 | -60 | 0 | 🟢 OK |
+| Green Sat | -40 | -40 | 0 | 🟢 OK |
+| Orange Lum | +10 | +10 | 0 | 🟢 OK |
+| Blue Sat | -20 | -20 | 0 | 🟢 OK |
+| Grain | 15/25/50 | 15/25/50 | 0 | 🟢 OK |
+| Vignette | -10 | -10 | 0 | 🟢 OK |
+| Exposure2012 | -0.10 | (not in recipe) | — | 🟢 ADDED |
+| Tone Curve | Cinematic lifted | Point Curve: Medium Contrast | — | 🟢 OK |
+
+### Flagged Issues
+
+1. **🔴 Whites = -10 vs community +15.** Recipe 1 "Blockbuster Starter" specifies Whites +15. The XMP has -10. This is a 25-point difference in the opposite direction. Whites at +15 creates the "pop" that defines the cinematic look. Whites at -10 dims the brightest tones, working against the intended effect. This value appears to be a carryover from the pre-merge XMP rather than a community-derived value.
+
+2. **🟡 Blacks = -10 vs community -20.** Recipe 1 specifies -20. The difference is minor but -10 produces less shadow depth than the community standard. Combined with the lifted tone curve, this further softens the overall contrast profile.
+
+3. **🟡 Heavily stripped HSL — only 4 of ~18 possible adjustments remain.** Recipe 1 "Blockbuster Starter" specifies 24 HSL values (8 hue, 8 sat, 8 lum). The XMP retains only 4: Green H, Green S, Orange L, Blue S. The 5% alignment section removed Red H+15/S-10, Orange H-5/S-15, Yellow H-30/S-20/L+15, Aqua H+10/S+15/L-10, Blue H-15/L-15, Purple H-100/S-50, Magenta H-100/S-50. These removed values are NOT optional for a teal-and-orange look:
+   - **Purple/Magenta H-100/S-50**: Collapses purple and magenta channels into blue/red respectively — critical for eliminating competing hues that undermine the orange/teal palette.
+   - **Yellow H-30/S-20/L+15**: Pushes yellows toward orange and brightens them, supporting the warm side.
+   - **Red H+15/S-10**: Shifts reds slightly warmer.
+   - **Blue H-15/L-15**: Deepens blues for richer sky tones.
+
+   The current XMP with only 4 HSL values will produce a significantly less complete teal-and-orange transformation.
+
+4. **🟡 Calibration removed.** Every one of the 5 community recipes includes calibration panel values (Red H+15 to +50, Green H-20 to -70, Blue H-10 to -30). The r/Lightroom pitfalls section explicitly states: "Calibration panel is what makes it look 'filmic' — it works at the debayer level." Removing calibration per STYLEGUIDE rule #3 is a significant tradeoff — the community considers it essential.
+
+5. **🟡 Texture/Clarity/Dehaze stripped.** Recipe 1 "Blockbuster Starter" includes Clarity +15. All were removed as "not in community validated table." Clarity +15 is a standard moderate value that adds midtone definition without the "HDR nightmare" effect.
+
+6. **🟢 Core teal/orange color grading is architecturally correct.** Shadow H208/S20, Highlight H35/S15, Blending 75 matches both Recipe 1 and STYLEGUIDE Archetype A. The shifted midtone (H35/S7.5) is a nice addition for skin tone warmth.
+
+**Validation Status:** ✅ **FIXED 2026-06-01** — Actionable issues resolved:
+- **Whites2012**: -10 → +15 (matches Recipe 1 "Blockbuster Starter" Whites +15). This restores the intended "pop" in bright tones.
+- **Blacks2012**: -10 kept (minor 10pt difference vs community -20; within conservative range).
+- **Heavily stripped HSL**: Intentional simplification. Core signature moves (Green H-60/S-40, Orange L+10, Blue S-20) retained. Community recipes specify 24 HSL values; only 4 retained. Users who want the full transformation should add Purple H-100/S-50, Magenta H-100/S-50, Yellow H-30/S-20/L+15, Red H+15/S-10, Blue H-15/L-15 from Recipe 1.
+- **Calibration removed**: Intentional per STYLEGUIDE rule #3. All 5 community recipes include it; users should apply manually if desired.

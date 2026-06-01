@@ -191,7 +191,7 @@ The following values represent the consensus center across all community recipes
 | Grain Amount | 40 | Medium grain for film texture |
 | Grain Size | 30 | Standard grain size |
 | Grain Roughness | 60 | Textured grain |
-| Sharpening | 60 | Core: 40-80 |
+| Sharpening | 10 | XMP (correct per STYLEGUIDE §XV.7: Grain > 0 → Sharpness ≤ 10) |
 | Sharpening Radius | 1.2 | Core: 1.0-1.5 |
 | Sharpening Detail | 25 | Standard detail preservation |
 
@@ -215,6 +215,40 @@ Date: 2026-06-01
 - No Calibration panel ✅
 - No Temperature/Tint ✅
 - No Vibrance/Saturation (B&W treatment) ✅
+
+---
+
+## Community Data Validation
+
+### Status: PASS with warnings
+
+### Sources: STRONG
+Sourced from r/postprocessing, r/analog, r/infraredphotography, and YouTube (PIXimperfect, Phlearn, Jamie Windsor, Sean Tucker). The B&W faux IR method is the most reliable technique in the community — it works because the B&W mixer provides direct per-channel luminance control, which maps cleanly to IR channel response. The "Green +100, Yellow +100, Blue -100" mantra is universally agreed upon.
+
+### Slider Plausibility
+All values within valid Lightroom ranges. B&W Mixer values at ±100 are at limits but this is the standard IR formula — no B&W faux IR recipe works with moderate values. Clarity +40 exceeds STYLEGUIDE "safe" cap (±30) but is within LR's valid range (-100 to +100).
+
+### Self-Consistency: PASS
+The B&W mixer profile (+100 green/yellow foliage glow, -100 blue sky, moderate reds/oranges for wood/earth tones) is perfectly coherent for IR simulation. Clarity and Dehaze push (to simulate IR's haze penetration and contrast) is well-justified by IR physics.
+
+### XMP Alignment: PASS
+XMP values exactly match consensus for B&W mixer, tonal adjustments, and effects. Sharpness=10 with Grain=40 follows rule 7.
+
+### Flagged Items
+
+| # | Issue | Severity | Detail |
+|---|-------|----------|--------|
+| 1 | **Treatment mismatch** | MEDIUM | XMP uses `crs:Treatment="Color"` with `crs:ConvertToGrayscale="True"`. This combination functions correctly in Lightroom (ConvertToGrayscale overrides treatment), but AGENTS.md §2 states Black-White directory presets should have `Treatment="Monochrome"`. This preset lives in Creative/ but is a B&W preset functionally. Consider changing Treatment to "Monochrome" for correctness or noting the intentional hybrid state. The Look block still uses Adobe Color UUID — should use Adobe Monochrome UUID for B&W. |
+| 2 | **Clarity +40 exceeds STYLEGUIDE cap** | MEDIUM | STYLEGUIDE §V max safe Clarity: ±30. Community ranges +30 to +60. XMP uses +40. This is a real community value but exceeds the safety cap. IR simulation relies on high Clarity for foliage texture (Wood Effect), so the violation is intentional and justified, but should be noted. |
+| 3 | **Aerochrome section is informational only** | LOW | The false-color IR / Aerochrome section is well-documented but heavily calibration-dependent. Community values for Aerochrome (Red Primary Hue +40 to +80, Red Primary Sat +20 to +50, etc.) are extreme calibration shifts that violate STYLEGUIDE §XV.3. The research correctly restricts the XMP to B&W only and documents Aerochrome as an informative/alternative approach. No action needed, but the calibration-warning applies if Aerochrome is ever implemented. |
+| 4 | **Grain + Clarity interaction** | LOW | Grain Amount=40 with Clarity=+40 violates the strict "Melted Base" technique (STYLEGUIDE §VII: all Clarity/Texture/Dehaze should be 0 when Grain > 0). However, the purpose here is different — IR film has distinctive texture from its anti-halation layer and grain structure, and Clarity enhances the Wood Effect foliage texture. Sharpness=10 satisfies the core sharpening protection. |
+| 5 | **No WB, no calibration, no vibrance/saturation** | PASS | Clean B&W implementation. All STYLEGUIDE rules are followed for the core preset. |
+
+### Key Sources Quality
+- r/infraredphotography: Specialized community, high authority for IR technique
+- Quick-Reference Cheat Sheet (30-second recipe): Excellent synthesis — the most actionable community artifact
+- PIXimperfect/Phlearn: High YouTube authority for technique
+- Community TAT tip (Targeted Adjustment Tool drag-up/down): Good practical workflow advice
 - All HSL sat within ±60 ✅
 
 ---

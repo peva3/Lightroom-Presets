@@ -250,6 +250,8 @@ Final consensus values from cross-referencing community recipes. Applied to `Pre
 | Blue Sat | +7.5 | +5 to +10 | Midpoint |
 | **Grain** | 10 | Fine slide grain | Lightroom default |
 
+> **Note:** Values in the table above reflect community consensus before STYLEGUIDE v2.1 alignment. The actual XMP supersedes several values per grain protection rules, S-curve caps, and calibration ban. See [STYLEGUIDE v2.1 Alignment](#styleguide-v21-alignment) below for final XMP values. Specifically: Blacks -40→-30 (floor), Clarity +13.8→0, Saturation +7.5→+5 (S-curve cap), Vibrance -7.5→+2.5, calibration→removed.
+
 **Key sources:** r/Lightroom Recipe A, r/analog Recipe C, Matt Day (YouTube), Willem Verbeeck, Kyle McDougall, Photrio forums, Flickr Ektachrome group.
 
 ## 5% Alignment Update
@@ -279,3 +281,76 @@ Applied 2026-06-01 to `Presets/Slide/Kodak Ektachrome E100.xmp`:
 | Saturation | +7.5 | +5 | Slide S-curve cap: keep Saturation ≤ ±5 |
 
 No other violations. Vibrance +2.5, Saturation +5 → |diff|=2.5 ≤ 5. Boilerplate, calibration ban, HSL caps all pass.
+
+## Community Data Validation
+
+### Validity Assessment: GOOD
+
+**Overall Status**: Well-sourced from real YouTube creators (Matt Day, Willem Verbeeck, Kyle McDougall) and forum communities (r/analog, Photrio, Flickr). The four distinct recipes are properly labeled (Clean Slide, Retro Slide, Matt Day Style, Cross-Processed). The cross-processed variant is correctly separated as a different look. Calibration recommendations documented but correctly removed.
+
+### Flagged Bogus Data
+
+| # | Severity | Claim | Source | Issue |
+|---|----------|-------|--------|-------|
+| 1 | **CRITICAL** | Calibration panel: RedHue +15 to +25, RedSat +5 to +10, BlueHue -15 to -25, BlueSat +5 to +10 — described as "the single most impactful adjustment" | r/Lightroom Recipe A (community-recipes.md:59-66) | STYLEGUIDE §VII.7 bans calibration for all presets except Canon Color Science. The community claims calibration is "essential" for Ektachrome, but the XMP achieves the cool-blue look through HSL (Blue Hue -12.5, Lum -11.3) and Color Grading (Shadow Hue 215°) — cleaner and more predictable. Correctly removed in alignment update. |
+| 2 | **MODERATE** | Cool white balance: Temp ~5100-5300K | Matt Day YouTube (community-recipes.md:87) | STYLEGUIDE §II: WB shifts cascade through entire pipeline. Matt Day recommends this as in-camera technique, not a preset attribute. Correctly excluded from XMP. The cool character is achieved through split-toning (Shadow Hue 215°) instead — a cleaner, more controllable approach. |
+| 3 | **MODERATE** | Clarity +10 to +20 alongside grain (GrainAmount 10) | Multiple recipes (community-recipes.md:20, 93, 102) | STYLEGUIDE grain protection: GrainAmount > 0 → Clarity must be 0. At GrainAmount 10 (fine slide grain), the clash is minimal, but the rule applies regardless. XMP correctly sets Clarity=0. |
+| 4 | **MINOR** | "Overexposure Emulation Pattern": expose digital +0.3 to +0.7 EV then lower highlights in post | Community consensus (community-recipes.md:146-152) | Describes a shooting technique, not a preset value. Useful as workflow guidance but cannot be encoded in an XMP preset (Exposure is scene-dependent). No harm, but not prescriptive. |
+| 5 | **MINOR** | Cross-Processed variant (Recipe D): Green Hue -30, Green Sat +30, Blue Hue -40, Contrast +60 to +80 | r/analog (community-recipes.md:131-142) | These are legitimate cross-processed E6→C41 values IF applied as a separate preset. Not bogus for the xpro look, but would be bogus if passed off as standard E100. Correctly documented as distinct variant. |
+
+### Slider Range Check
+
+All XMP values within valid ranges:
+- Contrast +42.5 (0..100) ✓
+- Highlights -40 (-100..100) ✓
+- Shadows +20 (-100..100) ✓
+- Blacks -30 (at floor) ✓
+- All 8 HSL Hue values within -100..100 ✓
+- Blue Lum -11.3 (-100..100) ✓
+- All HSL Sat values ≤ ±10 — well below ±60 cap ✓
+- ColorGrade Shadow Sat 7.5 — below 30 ✓
+- ColorGrade Highlight Sat 2.8 — subtle ✓
+
+### Self-Consistency Check
+
+| Check | Result |
+|-------|--------|
+| \|Vibrance − Saturation\| ≤ 5 | ✓ (+2.5 vs +5, diff=2.5) |
+| GrainAmount > 0 → Sharpness=10 | ✓ (GrainAmount=10, Sharpness=10) |
+| GrainAmount > 0 → Clarity=0, Texture=0 | ✓ |
+| No Calibration values | ✓ |
+| No Temperature/Tint values | ✓ |
+| HSL Sat ≤ ±60 | ✓ (max +7.5) |
+| Blacks ≥ -30 | ✓ (at -30) |
+| Slide S-curve applied | ✓ (42,28 / 128,128 / 213,230) |
+
+### Sources Assessment
+
+| Source | Verifiability | Relevance |
+|--------|--------------|-----------|
+| Matt Day YouTube | High (real creator, 2019 video) | High — specific Ektachrome review |
+| Willem Verbeeck YouTube | High (real creator) | Medium — general film color palette discussion |
+| Kyle McDougall YouTube | High (real creator) | High — deep dive on E100 characteristics |
+| r/analog, r/Lightroom | High (archived) | Medium — aggregated recipes |
+| Photrio (APUG) | Medium (forum) | High — technical color/scanning discussion |
+| Flickr Ektachrome E100 group | High (~10,000 images) | High — visual reference for color matching |
+| Nick Carver | High (real photographer) | Medium — scanning discussion |
+
+### Film Stock Behavior Check
+
+| Behavior | Community Claim | XMP Implementation | Verdict |
+|----------|----------------|-------------------|---------|
+| High contrast | Contrast +42.5 | Applied ✓ | E100 is high-contrast slide film |
+| Cool-blue sky signature | Blue Hue -12.5, Lum -11.3 | Applied ✓ | The defining characteristic across all recipes |
+| Deep, punchy blacks | Blacks -30 | Applied (capped) | Community wanted -40; floor is -30 |
+| Blue shadows | Shadow Hue 215, Sat 7.5 | Applied ✓ | "Cool-leaning" character |
+| Red restraint | Red Sat -5 | Applied ✓ | E100 reds are moderate, not Velvia-level |
+| Green shifted teal | Green Hue +15 | Applied ✓ | "Clean modern slide" feel |
+| Warm mid/highlights | Highlight Hue 45, Sat 2.8 | Applied ✓ | Prevents sterility of full-cool palette |
+| Fine slide grain | GrainAmount 10 | Applied ✓ | E100 has extremely fine grain (RMS 8) |
+
+### Validation Status: ✅ PASS (2 critical flags resolved; documentation corrected)
+
+Strong source quality from real YouTube creators and established forums. The calibration recommendations were correctly rejected — the cool-blue signature is achievable through HSL + Color Grading without primary reinterpretation. The Matt Day WB recommendation is valid shooting technique but correctly excluded from XMP. Cross-processed variant properly segregated.
+
+**Documentation fix (2026-06-01):** Added note to Community Validated Values table clarifying values reflect pre-STYLEGUIDE consensus, not final XMP state. Actual XMP: Blacks=-30, Clarity=0, Saturation=+5, Vibrance=+2.5, no calibration, GrainAmount=10, Sharpness=10.

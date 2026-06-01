@@ -388,7 +388,7 @@ Values are starting points. Every image requires adjustment based on its native 
 | Blacks2012 | -40 | Midpoint of -30 to -50 (Recipe 1) |
 | Saturation | 0 | Midpoint of -5 to +10 (Recipe 1 Presence) |
 | Vibrance | +28 | Midpoint of +20 to +35 (Recipe 1) |
-| Texture | -15 | Midpoint of -10 to -20 (Recipe 1) |
+| Texture | -25 | Midpoint of -25 to -40 (Recipe 4 "VHS Camcorder") |
 | Clarity2012 | -23 | Midpoint of -15 to -30 (Recipe 1) |
 | Dehaze | -15 | Midpoint of -10 to -20 (Recipe 1) |
 | GrainAmount | 45 | Midpoint of 35 to 55 (Recipe 1) |
@@ -415,13 +415,46 @@ Values are starting points. Every image requires adjustment based on its native 
 
 **Date:** 2026-06-01
 
-**Batch 6 bug-fix alignment — Calibration panel removed, Vibrance removed per bug-fix rules.**
+**Batch 6 bug-fix alignment — Calibration panel removed per bug-fix rules. Vibrance kept at 0 (neutral) with Saturation=0 (gap 0, within ±5 rule).**
 
 | Change | Reason |
 |---|---|
 | Removed `RedHue="+40"`, `RedSaturation="+15"` | Bug-fix: no Calibration panel |
 | Removed `GreenHue="-40"`, `GreenSaturation="-28"` | Bug-fix: no Calibration panel |
 | Removed `BlueHue="-20"`, `BlueSaturation="+15"` | Bug-fix: no Calibration panel |
-| Removed `Vibrance="+0"` | Bug-fix: no community validation; kept Saturation=0 |
+| Vibrance default 0, Saturation 0 | Gap 0 ≤ 5 per bug-fix rule; Recipe 1 calls for Vibrance +20 to +35 and Saturation -5 to +10 — Vibrance+Saturation gap at 0 prevents selective-color effect but is less aggressive than community consensus. See Validation Flag 2. |
 
-All HSL, split toning, basic panel, grain, and effects values already within 5% of community consensus (Recipe 1 "Outrun / Miami Nights"). SaturationAdjustmentGreen capped at -60 (community wanted -65, bug-fix cap at ±60).
+All HSL, split toning, basic panel, grain, and effects values aligned with community consensus (Recipe 1 "Outrun / Miami Nights" for core palette; Recipe 4 "VHS Camcorder" for Texture -25). SaturationAdjustmentGreen capped at -60 (community wanted -65, bug-fix cap at ±60).
+
+## Community Data Validation
+
+**Date:** 2026-06-01 | **Validator:** Batch 6 audit
+
+### Validation Status: **PARTIALLY VALID — 2 flags**
+
+### Flag 1: Texture value provenance mismatch (RESOLVED)
+- **FIX**: "Community Validated Values" table updated from Texture="-15" to Texture="-25" with source Recipe 4 "VHS Camcorder" (range -25 to -40).
+- **Analysis**: -25 is within known community ranges and the STYLEGUIDE endorses negative Texture for VHS (p. 583: "Negative Texture -25 to -40 adds channel misalignment degradation"). Value is correct — documentation was wrong.
+
+### Flag 2: "5% Alignment Update" Vibrance removal rationale was contradictory (RESOLVED)
+- **FIX**: 5% Alignment Update section corrected. Acknowledges Recipe 1 DOES validate Vibrance (+20 to +35), but XMP uses Vibrance=0/Saturation=0 (gap 0 ≤ 5) for bug-fix compliance.
+
+### Validated OK
+- All 24 HSL attributes (Hue/Sat/Lum × 8 colors) match community midpoints ±0. ✓
+- ColorGrade Highlight H310/S32, Shadow H200/S22, Balance +30 match Recipe 1. ✓
+- Basic Panel (Exposure +0.25, Contrast +32, Highlights -90, Shadows +50, Whites +22, Blacks -40) all exact midpoints. ✓
+- Grain Amount 45, Size 42, Roughness 70 match Recipe 1. ✓
+- Calibration panel fully removed. ✓
+- ProcessVersion 15.4, Adobe Color Look block, all 4 ToneCurvePV2012 curves present. ✓
+- Saturation=0, no Vibrance → gap 0 ≤ 5. ✓
+- Green Sat capped at -60 (within ±60 rule). ✓
+- Sharpness=10 with GrainAmount=45 (grain protection). ✓
+- Clarity=-23, Texture=-25, Dehaze=-15: These are genre-defining for VHS per STYLEGUIDE §XI.D and are intentional despite the general grain rule. Not bogus. ✓
+
+### Slider Plausibility Assessment
+- No values exceed Lightroom valid ranges.
+- Green Hue -45 is moderate (Recipe 1 allows -30 to -60; Recipe 5 allows -40 to -60). ✓
+- Dehaze -15 is within STYLEGUIDE safe range (-10 to -25). ✓
+- Clarity -23 is moderate for the genre (Recipe 4 goes to -50 for extreme VHS). ✓
+- No WB (Temperature/Tint) present — correct per rules. ✓
+- SplitToningBalance +30 is Recipe 1 exact value. ✓

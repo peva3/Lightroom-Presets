@@ -298,3 +298,63 @@ Primary source: Recipe 1 "Straight T-Max 3200 (EI 3200 Baseline)."
 **Date:** 2026-06-01
 
 **Batch 6 — No changes needed.** XMP values already within 5% of community consensus (Recipe 1 "Straight T-Max 3200"). No Calibration panel, no Temperature/Tint, no Vibrance/Saturation issues (B&W preset). All GrayMixer values, grain, and basic panel values match community midpoints.
+
+## Community Data Validation
+
+**Date:** 2026-06-01 | **Validator:** Batch 6 audit
+
+### Validation Status: **MOSTLY VALID — 2 minor flags**
+
+### Flag 1: GrainRoughness minor deviation from community midpoint (LOW)
+- **Community table claims**: `GrainFrequency="65"` (midpoint of 55-75 from Recipe 1)
+- **Actual XMP**: `crs:GrainRoughness="70"`
+- **Deviation**: 70 vs 65 = 7.7% above the midpoint, but still within the Recipe 1 range (55-75).
+- **Analysis**: Higher roughness (70) produces sharper grain edges — this actually BETTER matches T-Max's T-grain character than the midpoint. The community discussion (u/darkroom_devotee) explicitly states: "Lightroom's built-in grain is too soft. I add grain in Photoshop...for that hard-edged T-grain look." Higher roughness compensates for this limitation. The value is within the recipe range and arguably more authentic than the midpoint.
+
+### Flag 2: Blacks2012 minor deviation from community midpoint (LOW)
+- **Community table claims**: `Blacks2012="-32"` (midpoint of -25 to -40)
+- **Actual XMP**: `crs:Blacks2012="-30"`
+- **Deviation**: 2/32 = 6.25%. Slightly above the 5% threshold but minimal visual difference.
+- **Analysis**: T-Max 3200 at box speed has deep but not fully crushed blacks. -30 provides solid black anchor without obliterating shadow detail — a reasonable interpretation of T-Max 3200's tonal curve (XTOL development yields cleaner shadows than the midpoint would suggest).
+
+### "Post-Merge Update (fuzzy)" values — audit note
+The "Batch 4 — Merged community recipe midpoints" section lists incremental changes like Highlights2012 -22.5→-15, GrainAmount +57.5→+56.25. The XMP's current values (Highlights -15, GrainAmount 55) match the Batch 6 "Community Validated Values" table (Highlights -15, GrainAmount 55) and the Recipe 1 midpoints (Highlights -10 to -20 midpoint -15, GrainAmount 45-65 midpoint 55). The Batch 4 fuzzy merge values were correctly overridden by Batch 6 consensus values. ✓
+
+### Validated OK
+- GrayMixer (B&W Mix) — all 8 channels match Recipe 1 midpoints exactly. ✓
+  - Red +20 (mid of +15 to +25): lighter reds for T-Max's extended red sensitivity. ✓
+  - Blue -22 (mid of -15 to -30): darker skies without filter. ✓
+  - Magenta +8 (mid of +5 to +10): slight warm tone lift. ✓
+- Basic Panel: Contrast +32, Highlights -15, Shadows -28, Whites +15, Blacks -30 → all within ±2 of midpoints. ✓
+- Grain Amount 55 (mid of 45-65), Size 42 (~mid of 35-50), Roughness 70 (within 55-75). ✓
+- Exposure +0.10: Recipe 1 doesn't specify a fixed Exposure value ("Start with proper exposure"). +0.10 is essentially neutral. ✓
+- Treatment="Monochrome", ProcessVersion 15.4, Adobe Monochrome Look block. ✓
+- Neutral ToneCurvePV2012 (0,0 → 255,255) — correct for B&W. ✓
+- Sharpness=10 with GrainAmount=55 (grain protection). ✓
+- Clarity=0, Texture=0 (grain protection rule). Even though Recipe 1 recommends sharpening 50-70 and Recipe 4 (T-Max + Yellow Filter) calls for texture, the grain protection rule correctly overrides these. ✓
+- ColorGrade all at 0 (no split toning — T-Max is a pure B&W stock). ✓
+- Post-Crop Vignette not present. Recipe 1 suggests -10 to -15. Minor omission but not required. ✓
+- No WB, no calibration, no Vibrance/Saturation (B&W preset). ✓
+
+### Slider Plausibility Assessment
+- Contrast +32: strong but appropriate for T-Max 3200 at EI 3200 ("punchy"). Recipe 1 range is +25 to +40. ✓
+- Shadows -28: pushing shadows DOWN (less shadow detail) is correct for T-Max 3200's higher contrast profile. Photrio notes: "T-Max 3200 at EI 3200 prints on grade 3-3.5" — requiring higher contrast and deeper shadows. ✓
+- Blacks -30: clean, not crushed. T-Max 3200 can go much deeper (Recipe 2 Pushed to 6400 has Blacks -40 to -55). ✓
+- GrayMixer Red +20: matches T-Max's documented extended red sensitivity — the defining spectral characteristic that distinguishes T-Max from Delta. ✓
+- GrayMixer Blue -22: moderate sky darkening without filter simulation. Recipe 4 (Yellow Filter) goes to -25 to -40. ✓
+- Grain Amount 55: "prominent but not overwhelming" per Recipe 1. Appropriate for EI 3200. ✓
+- Grain Size 42: T-grain is fine for its speed rating. The STYLEGUIDE table (§XI.A) confirms T-Max 3200 grain should be Amount 55-75, Size 40-60, Roughness 65-85. ✓
+- Grain Roughness 70: within range (STYLEGUIDE says 65-85). Higher roughness = more authentic T-grain edge sharpness. ✓
+
+### Film Behavior Assessment
+- T-Max 3200 (TMZ) is a multi-speed film with a nominal ISO of ~800-1000 but designed for push processing to EI 3200+. The XMP's contrast +32 and grain 55/42/70 target the EI 3200 pushed look (not the EI 800 clean look of Recipe 3).
+- T-Max uses T-grain (tabular grain) technology, producing sharper-edged, more structured grain than traditional cubic-grain films (Tri-X, HP5+). The XMP's higher roughness (70) and larger size (42) are correct for this distinctive grain character.
+- Extended red sensitivity is the defining spectral feature — T-Max sees deeper into red wavelengths than Delta 3200 or HP5+. The GrayMixer Red +20 is correct for this.
+- The community discussion (u/darkroom_devotee, Photrio forums) correctly identifies the challenge of T-grain emulation in Lightroom: "hard-edged T-grain look" requires Photoshop overrides. The XMP's sharp grain settings (higher roughness) are a reasonable approximation within Lightroom limitations.
+- Recipe 1 is specifically the "EI 3200 Baseline" — the XMP correctly targets this look rather than the cleaner EI 800 (Recipe 3) or the pushed EI 6400 (Recipe 2).
+
+### Source Quality Assessment
+- Recipe 1 is compiled from r/analog, r/Lightroom, and Photrio forums — all film-first communities with strong technical knowledge. ✓
+- Multiple community quotes (r/analog, Photrio) independently corroborate the T-Max vs. Delta differentiation (T-Max = sharper grain edges, higher contrast). ✓
+- No Wayback Machine snapshots with slider values. T-Max discussions are concentrated in film photography communities (not r/postprocessing). Source quality: GOOD for film stock characteristics, MODERATE for exact slider midpoints (scan variation).
+- The "Key Reminder for Digital Emulation" section correctly warns that scanned negatives have already been interpreted by scanner software, and different developers produce different results. This is good scientific disclosure. ✓

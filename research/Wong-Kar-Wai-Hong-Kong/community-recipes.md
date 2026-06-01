@@ -448,6 +448,8 @@ Primary source: Method 1 "The Green Shadow Base Preset" + Method 5 "80s Hong Kon
 | Blacks2012 | -40 | Method 1 range -30 to -50 |
 | Clarity2012 | -10 | Method 1; texture/clarity -5 to -15 |
 | GrainAmount | 40 | Method 1 range 30-50 |
+| GrainSize | 40 | Method 1 range 35-50 |
+| GrainFrequency | 60 | Method 1 range 50-70 (Roughness) |
 | SplitToningShadowHue | 170 | Method 1 range 160-180 |
 | SplitToningShadowSaturation | 20 | Method 1 range 15-25 |
 | SplitToningHighlightHue | 190 | Method 1 range 180-200 |
@@ -478,3 +480,39 @@ Primary source: Method 1 "The Green Shadow Base Preset" + Method 5 "80s Hong Kon
 | Removed `BlueHue="+15"`, `BlueSaturation="+18"` | Bug-fix: no Calibration panel |
 
 All other attributes (HSL, split toning, basic panel, grain) already within 5% of community consensus (Method 1 "Green Shadow Base").
+
+## Community Data Validation
+
+**Date:** 2026-06-01 | **Validator:** Batch 6 audit
+
+### Validation Status: **LARGELY VALID — 1 flag**
+
+### Flag 1: Grain attribute documentation incomplete (RESOLVED)
+- **FIX**: "Community Validated Values" table updated to include GrainSize=40 and GrainFrequency=60.
+- **Source alignment**: Method 1 lists Grain Size 35-50 (midpoint ~43) and Roughness 50-70 (midpoint 60). XMP values Size=40 (slightly below midpoint) and Frequency=60 (exact midpoint) are well within community ranges.
+
+### Validated OK
+- All 24 HSL attributes (Hue/Sat/Lum × 8 colors) match Method 1 midpoints exactly. ✓
+  - Critical WKW sliders: Green H-50 (within range -40 to -60), Orange S-12 (skin protection, range -10 to -15), Magenta S+32 (neon pop, range +25 to +40). ✓
+- ColorGrade Highlight H190/S12, Shadow H170/S20, Balance -15 → all match Method 1 midpoints. ✓
+- Basic Panel: Exposure -0.40, Contrast +25, Highlights -50, Shadows +20, Whites -15, Blacks -40 → all exact midpoints. ✓
+- Clarity -10 matches Method 1 range (-5 to -15). ✓
+- Calibration panel fully removed. ✓
+- ProcessVersion 15.4, Adobe Color Look block, all 4 ToneCurvePV2012 curves present (cinematic curve). ✓
+- Saturation=0, Vibrance=+0 (effectively 0) → gap 0 ≤ 5. ✓
+- Sharpness=10 with GrainAmount=40 (grain protection). ✓
+- Texture=0, Dehaze=0 (grain protection rule satisfied). ✓
+- No WB (Temperature/Tint) present — correct per rules. ✓
+
+### Slider Plausibility Assessment
+- Green Saturation +32: within Method 1 range (+25 to +40) and within ±60 cap. ✓
+- Green Hue -50: aggressive but within Method 1 range (-40 to -60). This is the DEFINING WKW slider. ✓
+- Aqua Saturation +28: within Method 1 range (+20 to +35). ✓
+- Blue Saturation +22: within Method 1 range (+15 to +30). ✓
+- All values within valid Lightroom ranges. No implausible values detected.
+- Split toning green-shadow (H170) is the authentic Doyle green signature. Film behavior: fluorescent lighting → green cast in shadows is physically accurate for the Chungking Express aesthetic. ✓
+
+### Source Quality Assessment
+- Method 1 and Method 5 sources are well-cited: multiple Reddit threads references, Doyle cinematography analysis, community presets.
+- No Wayback Machine slider values exist for this query, but live Reddit confirms the aesthetic descriptions match the slider direction.
+- The Method 5 "80s Hong Kong Night" preset independently corroborates Method 1 values (Green H-50, S+35, Calibration Green H-40 used as cross-reference).

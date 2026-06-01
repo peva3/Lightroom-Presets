@@ -340,6 +340,8 @@ Final consensus values from cross-referencing community recipes. Applied to `Pre
 | Size | 40 | 35-45 | Midpoint |
 | Frequency | 72.5 | 65-80 | High roughness = salt-and-pepper |
 
+> **Note:** Values in the table above reflect community consensus before STYLEGUIDE v2.1 alignment. The actual XMP supersedes several values per grain protection rules, grain table caps, and Blacks floor. See [STYLEGUIDE v2.1 Alignment](#styleguide-v21-alignment) below for final XMP values. Specifically: Blacks -32.5→-30 (floor), Clarity +27.5→0, Dehaze +10→0, Texture +15→0, GrainAmount 60→55, GrainSize 40→35, GrainFrequency 72.5→65.
+
 **Key sources:** r/Lightroom, r/analog, r/postprocessing, FredMiranda forums, Photrio (APUG), VSCO Film 01 reference, YouTube tutorials.
 
 ## STYLEGUIDE v2.1 Alignment
@@ -354,3 +356,71 @@ Applied 2026-06-01 to `Presets/Black-White/Kodak Tri-X 400.xmp`:
 | GrainFrequency | 72.5 | 65 | STYLEGUIDE Tri-X grain table: Roughness 50-65 |
 
 No other violations. Clarity=0, Texture=0, Dehaze=0 already compliant. Sharpness=10, calibration ban, B&W curve neutral all pass.
+
+## Community Data Validation
+
+### Validity Assessment: GOOD
+
+**Overall Status**: Well-sourced with 5 distinct recipes covering different development chemistries (D-76, HC-110, Rodinal, XTOL pull, newspaper repro). The community understanding of Tri-X's panchromatic red sensitivity and the importance of grain roughness over amount is accurate and well-documented. However, community recipes advocate Clarity/Texture/Dehaze values incompatible with grain protection rules.
+
+### Flagged Bogus Data
+
+| # | Severity | Claim | Source | Issue |
+|---|----------|-------|--------|-------|
+| 1 | **MODERATE** | Clarity +20 to +35, Texture +10 to +20, Dehaze +5 to +15 recommended simultaneously with grain (GrainAmount 55-70) | Recipe A, r/Lightroom (community-recipes.md:47-50) | STYLEGUIDE §VII.2: sharpening of any kind sees grain as "detail" and amplifies it into jagged digital noise. Clarity (30-100px radius) directly boosts midtone grain clusters. The community "Contrast layering" approach (adding small amounts of Clarity, Texture, and Dehaze) is valid for grain-free images but breaks with heavy Tri-X grain. XMP correctly sets all three to 0. |
+| 2 | **MODERATE** | Recipe C (Rodinal): Sharpening Amount 60-80, Radius 1.0-1.4, Detail 35-50 with GrainAmount 80-100 | Community recipe (community-recipes.md:171-177) | STYLEGUIDE §VII.2: Sharpening ≤ 10 when GrainAmount > 0. Community Rodinal recipe would produce extreme jagged noise — each grain particle treated as an edge by the USM kernel. This is a legitimate Rodinal aesthetic for darkroom prints but fails in digital grain simulation. XMP correctly uses Sharpness=10. |
+| 3 | **MODERATE** | Recipe B (Pushed 1600): Contrast +60 to +80 | HC-110 look (community-recipes.md:76) | While pushed Tri-X at 1600 in HC-110 does exhibit very high contrast, Contrast +60 to +80 in Lightroom's Basic panel risks total shadow/highlight clipping on anything except perfectly exposed images. The community recipe acknowledges this is an aggressive look, but users should understand the extreme slider range. |
+| 4 | **MINOR** | "Lift the toe slightly (RGB value ~8 at black)" | Recipe B point curve description (community-recipes.md:92) | This is a point curve technique recommendation. The XMP uses neutral 0,0 → 255,255 curves (per STYLEGUIDE §IV for B&W). Point curve lifts are image-specific and should not be in a general preset. Correctly excluded. |
+| 5 | **NONE** | "HP5 has smooth grain like sand, Tri-X has sharp grain like broken glass" | r/analog u/throwaway (community-recipes.md:272) | Legitimate subjective characterization. Not a slider recommendation — useful aesthetic guide. |
+
+### Slider Range Check
+
+All XMP values within valid ranges:
+- Contrast +35 (0..100) ✓
+- Highlights -13.8 (-100..100) ✓
+- Shadows +25 (-100..100) ✓
+- Whites +15 (-100..100) ✓
+- Blacks -30 (at floor) ✓
+- B&W Mix: all values within -100..+100 ✓
+- GrainAmount 55 ≤ STYLEGUIDE Tri-X max 55 ✓
+- GrainSize 35 = STYLEGUIDE Tri-X max 35 ✓
+- GrainFrequency 65 = STYLEGUIDE Tri-X max 65 ✓
+
+### Self-Consistency Check
+
+| Check | Result |
+|-------|--------|
+| GrainAmount > 0 → Sharpness=10 | ✓ |
+| GrainAmount > 0 → Clarity=0, Texture=0, Dehaze=0 | ✓ |
+| No Calibration values | ✓ |
+| No Temperature/Tint values | ✓ |
+| B&W Mix values within ±100 | ✓ (Blue -40 max) |
+| Blacks ≥ -30 | ✓ |
+| B&W neutral tone curves (0,0 → 255,255) | ✓ |
+
+### Sources Assessment
+
+| Source | Verifiability | Relevance |
+|--------|--------------|-----------|
+| r/analog, r/Lightroom | High (archived) | High — extensive Tri-X discussion |
+| FredMiranda.com | Medium | High — detailed EI and development discussions |
+| Photrio (APUG) | High (archive) | High — D-76 1:1 reference standard documented |
+| VSCO Film 01 reference | Medium (discontinued) | High — was gold standard |
+| Community characterization ("woven grain" thread) | High (565 upvotes) | Medium — reticulation correctly identified as processing artifact |
+
+### Film Stock Behavior Check
+
+| Behavior | Community Claim | XMP Implementation | Verdict |
+|----------|----------------|-------------------|---------|
+| Extended red sensitivity (panchromatic) | Red +30, Orange +20 | Applied ✓ | The single most important B&W Mix setting for Tri-X |
+| Deep dramatic skies | Blue -40 | Applied ✓ | Orange/red filter equivalent for sky darkening |
+| Darkened foliage | Green -25 | Applied ✓ | Tri-X's red sensitivity darkens greens |
+| Salt-and-pepper grain | Roughness 65, Size 35, Amount 55 | Applied ✓ | High roughness = irregular grain pattern |
+| Moderate-to-strong midtone contrast | Contrast +35, Blacks -30 | Applied ✓ | D-76 box speed reference |
+| Preserve highlight separation | Yellow -5 | Applied ✓ | Subtle yellow channel restraint |
+
+### Validation Status: ✅ PASS (3 moderate flags documented; XMP correctly disregards them)
+
+The community recipe collection is excellent as a historical reference for Tri-X's different looks across developers and EI ratings. However, two of five recipes (Rodinal and pushed HC-110) recommend sharpening and clarity values that would produce jagged digital artifacts when combined with Lightroom's grain engine. The XMP correctly applies STYLEGUIDE grain protection rules. The "woven grain/reticulation" discussion is properly identified as a processing artifact, not inherent film behavior — this demonstrates good community knowledge quality.
+
+**Note**: The STYLEGUIDE grain table (Tri-X: Amount 40-55, Size 25-35, Roughness 50-65) is slightly more conservative than the community consensus (Amount 55-70, Size 35-45, Roughness 65-80). The XMP follows STYLEGUIDE caps at the upper boundary. Community values are not "bogus" — they reflect user preference for more prominent grain — but STYLEGUIDE's display-survivability concerns (§XIII) justify the conservative caps.

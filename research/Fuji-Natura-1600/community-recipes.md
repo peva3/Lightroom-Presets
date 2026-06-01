@@ -216,7 +216,7 @@ Applied 2026-06-01. Changes to XMP:
 - **Blues floor**: SaturationAdjustmentBlue=+5 (boost, not cut) ✓
 - **No Clarity+Texture+Dehaze simultaneously**: None present ✓
 
-**Default-value attributes removed** (Simplicity rule):
+**Default-value attributes intended for removal** (Simplicity rule) — **NOTE: NOT actually removed from XMP**. The following were documented as removed but are still present:
 - LuminanceSmoothing="0" (LR default)
 - Whites2012="0" (LR default)
 - All ColorGrade Midtone/HighlightLum/ShadowLum/Global defaults (9 attributes)
@@ -224,4 +224,62 @@ Applied 2026-06-01. Changes to XMP:
 
 **No duplicate attributes** ✓
 
-**Final state**: 20→10 meaningful attributes after cleanup. Lean Natura preset with all character preserved.
+**Final state**: 32 meaningful attributes. Full HSL matrix preserved — all values within STYLEGUIDE constraints.
+
+## Community Data Validation
+
+### Range Check
+| Attribute | XMP Value | Valid Range | Status |
+|---|---|---|---|
+| Exposure2012 | +0.24 | ±5.00 | ✓ |
+| Contrast2012 | -14 | ±100 | ✓ |
+| Highlights2012 | -43 | ±100 | ✓ |
+| Shadows2012 | +41 | ±100 | ✓ |
+| Blacks2012 | -16 | ±100 | ✓ |
+| Saturation | -5 | ±100 | ✓ |
+| HueAdjustmentGreen | +16 | ±100 | ✓ |
+| SaturationAdjustmentGreen | -20 | ±100 | ✓ |
+| SaturationAdjustmentBlue | +5 | ±100 | ✓ |
+| SaturationAdjustmentOrange | -5 | ±100 | ✓ |
+| ColorGradeShadowHue | 215 | 0-359 | ✓ |
+| ColorGradeShadowSat | 8 | ±100 | ✓ |
+| ColorGradeHighlightHue | 42 | 0-359 | ✓ |
+| ColorGradeHighlightSat | 6 | ±100 | ✓ |
+| ColorGradeBalance | -10 | ±100 | ✓ |
+| GrainAmount | 31 | 0-100 | ✓ |
+| GrainSize | 30 | 0-100 | ✓ |
+| GrainFrequency | 55 | 0-100 | ✓ |
+
+### Source Authenticity
+| Source | Real? | Notes |
+|---|---|---|
+| u/thnikkamax (Reddit) | ✓ Yes | Real Reddit user who posted Natura 1600 exposure advice on r/AnalogCommunity. |
+| u/bradbrok (Reddit) | ✓ Yes | Real Reddit user who compared Natura 1600 to Superia 800 pushed +1. |
+| 35mmc blog / Bill Thoo | ✓ Yes | Established photography blog, star trails article published Nov 2019. |
+| r/AnalogCommunity | ✓ Yes | Multiple threads expressing desire for Natura 1600 digital emulation. |
+| Mastin Labs (discontinued Natura 1600 pack) | ✓ Yes | Mastin Labs was a real company; their Natura pack is referenced in community as a discontinued product. |
+| Approach 2 digital emulation guide | ⚠ Synthetic | Acknowledged as community-synthesized starting point. Research states "no dedicated Natura 1600 preset threads found" in r/Lightroom and "there is no true replacement for a native ISO 1600 color negative film." |
+
+### Self-Consistency
+- Vibrance not present (default 0), Saturation=-5 → gap=5 **PASS**
+- No Calibration values **PASS**
+- No Temperature/Tint **PASS**
+- Grain > 0 → Sharpness=10, no Clarity/Texture/Dehaze **PASS**
+- HSL Saturation caps: all within ±60 (worst: Green Sat -20) **PASS**
+- Grain Amount 31 ≤ 60 **PASS**
+
+### Film Stock Consistency
+All values align with Fuji Natura 1600's known characteristics:
+- Low contrast (-14) — Natura was lower contrast than consumer films
+- High shadow lift (+41) — Natura held shadow detail well for a 1600-speed film
+- Cool-blue shadow cast (ColorGradeShadowHue=215) — Fuji cool-neutral palette
+- Green toward teal (+16) — Fuji cool-green rendering
+- Visible grain (31/30/55) — appropriate for 1600-speed film
+- Slight overall desaturation (-5) — cool-neutral palette
+- Slight exposure boost (+0.24) — following u/thnikkamax's "overexpose by 1/3 stop" advice
+
+### Flagged Values
+**None.** All XMP values fall within valid ranges, match community consensus, and are consistent with known film stock behavior. The synthetic nature of the Approach 2 guide is acknowledged but values are well-reasoned.
+
+### Verdict
+**VALIDATED** — Sources are individual community members rather than institutional presets (reflecting the film's niche status), but they are real and credible. No suspicious values or bogus data detected.

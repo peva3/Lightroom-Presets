@@ -273,3 +273,36 @@ Date: 2026-06-01
 - No Temperature/Tint ✅
 - |Vibrance - Saturation| = |15 - 10| = 5 ✅
 - All HSL sat within ±60 ✅
+
+---
+
+## Community Data Validation
+
+### Status: PASS with warnings
+
+### Sources: WEAK (quantitative), ADEQUATE (qualitative)
+10 sources spanning 2020-2026 but only ONE (PresetsStore "Anime Style" 2021) provides hard numeric slider values. The remaining 9 sources (SparkleStock, 4 YouTube mentions, 2 Instagram reels, Facebook post, 2 Lemon8 posts) describe the aesthetic in qualitative terms — pink highlights, teal shadows, lifted blacks, mint greens — without specific numbers. The "consensus" values are essentially the PresetsStore values ± small rounding adjustments justified by the qualitative summaries. This is thin evidence for a 23-attribute preset.
+
+### Slider Plausibility
+All values within valid Lightroom ranges. However, **Highlights -90 and Shadows +90** are near the ±100 limits and represent extreme dynamic range compression. This only works on well-exposed outdoor images with sky and greenery. Fails catastrophically on indoor artificially-lit scenes — shadows will be nuclear gray, highlights will be completely flat. The PresetsStore source explicitly confirms Highlights -100, Shadows +100, so these ARE real community values.
+
+### Self-Consistency: PASS
+High-key pastel look with pink highlights/teal shadows split, mint-forward greens, and boosted sky luminance is coherent for the "Ghibli/Suzume" anime aesthetic. Dehaze -10 + negative Clarity + negative Texture creates the soft/dreamy diffusion that all qualitative sources agree on.
+
+### XMP Alignment: PASS
+XMP values match consensus exactly. Vibrance/Saturation gap = 5 (compliant).
+
+### Flagged Items
+
+| # | Issue | Severity | Detail |
+|---|-------|----------|--------|
+| 1 | **Single-source quantitative dependency** | HIGH | 1 of 10 sources provides numbers. The PresetsStore site is a free-preset blog, not a community forum with peer review. No Reddit thread, no forum post, no YouTube tutorial gives specific slider values for this preset. The consensus is essentially back-filled from characteristics into the PresetsStore template. This is not bogus data, but the confidence level is low. |
+| 2 | **Extreme Highlights/Shadows limits** | MEDIUM | -90/+90 is approaching full tonal compression. The preset will NOT work on: indoor scenes, low-light images, portraits without sky background, or underexposed RAWs. The research should note this image-type constraint explicitly. |
+| 3 | **No "aethereal" source** | LOW | All sources describe "anime-inspired" or "Ghibli" looks. The term "aethereal" is this project's branding — no community source uses this word. The color palette matches the anime aesthetic, but the name is creative license, not community provenance. |
+| 4 | **Grain + Texture conflict** | LOW | Grain Amount=15 with Texture=-10 mildly violates STYLEGUIDE §XV.7 strict reading (all should be 0 when Grain > 0), but Sharpness=10 satisfies the core protection. Texture at -10 is mild and arguably necessary for the soft/dreamy quality. |
+
+### Key Sources Quality
+- PresetsStore: Only hard source. Blog-quality, not peer-reviewed. Credible for values, low for authority.
+- SparkleStock: Commercial preset pack. Describes aesthetic but no specific values.
+- YouTube/Instagram/Lemon8: Qualitative descriptions only. Good for confirming aesthetic direction, no numeric value.
+- Reddit r/AskPhotography: Qualitative confirmation of pink/teal split tone pattern.

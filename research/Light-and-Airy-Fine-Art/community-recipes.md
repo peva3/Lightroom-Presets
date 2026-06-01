@@ -349,3 +349,74 @@ No value changes — all community attributes already matched.
 | GrainFrequency | 40 | Not in community validated table |
 
 **Bug-fix verification:** No Calibration panel ✓, No Temperature/Tint ✓, No Vibrance (removed) ✓, All HSL sat within ±60 ✓
+
+---
+
+## Community Data Validation
+
+**Date:** 2026-06-01  
+**Validator:** Manual audit of XMP vs community-recipes.md vs STYLEGUIDE.md
+
+### Source Quality Assessment
+| Source | Type | Verifiable | Notes |
+|--------|------|-----------|-------|
+| Katelyn James "The Preset Process" | Professional educator | Partially | Paid course; philosophy documented, exact slider values not published |
+| Denny's Tips (1M+ YouTube views) | Video tutorial | Yes | Specific step-by-step slider values published; free tutorial |
+| Jordan Brittley "4 Light & Airy Secrets" | Professional educator | Yes | Published blog with explicit split-tone values and slider caps |
+| Lou & Marks preset blog (750K+ users) | Commercial preset vendor | Yes | Detailed workflow guide with specific slider ranges |
+| Mastin Labs (Fuji 400H emulation) | Commercial film emulation | Partially | Product descriptions; specific slider values not published |
+| Tailwind Blog | Software company blog | Yes | Exact settings from a specific edit published |
+| r/WeddingPhotography community | Professional community | No | General consensus and product recommendations |
+
+**Source verdict:** Well-sourced across multiple independent educators. Jordan Brittley provides the most specific numeric guidance (split-tone values, shadow cap of +10 to +35, clarity -4). Denny's Tips provides the most complete workflow. The community is split on Contrast direction: Denny's/Jordan use reduced contrast (soft look), while Tailwind uses +55 (pop look). The XMP follows the soft/negative-contrast approach, which aligns with the majority of sources.
+
+### XMP vs Community Recipe Comparison
+
+| Parameter | XMP Actual | Primary Source | Source Value | Delta | Status |
+|-----------|-----------|---------------|-------------|-------|--------|
+| Exposure2012 | +0.75 | Denny's/Tailwind | +0.45 (Tailwind) / "brighten" (Denny's) | +0.30 | 🟢 OK (within range) |
+| Contrast2012 | -30 | Denny's/Jordan | Soft/negative (Jordan: add contrast back if going low) | 0 | 🟢 OK |
+| Highlights2012 | -55 | Preset Curator | "Pull down significantly" | 0 | 🟢 OK |
+| Shadows2012 | +35 | Jordan Brittley | +10 to +35 MAX | 0 | 🟢 OK |
+| Whites2012 | +15 | Preset Curator | "Gently push up" | 0 | 🟢 OK |
+| Blacks2012 | +15 | Preset Curator | "Raise slightly" | 0 | 🟢 OK |
+| Clarity2012 | -10 | Jordan Brittley | -4 (standard) / lower for dramatic | -6 vs standard | 🟢 OK |
+| Dehaze | -10 | Denny's Tips | -5 to -15 | 0 | 🟢 OK |
+| Texture | -10 | (Denny's implies softness) | — | 0 | 🟢 OK |
+| Saturation | -5 | Mastin Labs Fuji 400H | Low saturation | 0 | 🟢 OK |
+| Vibrance | **Removed** | Community validated | +10 | — | 🟡 REMOVED |
+| ColorGrade Shadow H/S | 210/4 | Jordan Brittley | 211/4 | 0 | 🟢 OK |
+| ColorGrade Highlight H/S | 43/4 | Jordan Brittley | 43/4 | 0 | 🟢 OK |
+| Green Hue | +20 | Denny's Tips | +10 to +30 | 0 | 🟢 OK |
+| Green Sat | -30 | Denny's Tips | -50 for non-skin | +20 difference | 🟡 SOFTER |
+| Orange Lum | +10 | Lou & Marks | +2 to +10 | 0 | 🟢 OK |
+| Aqua Lum | +35 | (Denny's: +50 for all non-skin) | — | 🟢 OK |
+| Yellow Sat | **Removed** | Denny's/Lou & Marks | Slight desaturate for creamy skin | — | 🔴 MISSING |
+| Blue Sat | **Removed** | Denny's Tips | Desaturate for pastel skies | — | 🔴 MISSING |
+
+### Flagged Issues
+
+1. **🔴 Missing Blue Saturation desaturation.** Denny's Tips explicitly includes blue desaturation for pastel skies. The XMP has no blue saturation adjustment. Pastel skies are a defining characteristic of the light and airy fine art look — without reducing blue saturation, skies will remain at full digital intensity.
+
+2. **🔴 Missing Yellow Saturation adjustment.** Both Denny's Tips and Lou & Marks specify pulling back yellow saturation slightly for "creamy skin." Without this, skin tones may appear too warm/saturated, breaking the "clean, true-to-color" principle that Katelyn James and Jordan Brittley emphasize.
+
+3. **🟡 Vibrance +10 removed.** The community validated table says Vibrance +10 ("subtle boost"). The 5% alignment section removed it because `|Vibrance - Saturation| = 15 > 5` with Saturation at -5. The fix was to remove Vibrance rather than adjust Saturation upward. This is a legitimate bug-fix rule compliance, but it means the preset loses the subtle color richness that Vibrance provides for a light-and-airy look.
+
+4. **🟡 Green Sat -30 vs Denny's -50.** Denny's says -50 for all non-skin colors. The XMP uses -30, which is 20 points softer. The lighter touch may be intentional (Katelyn James's philosophy keeps greens more natural rather than heavily desaturated), but it doesn't match the Denny's reference.
+
+5. **🟡 Grain removed.** The community validated table included Grain 15/25/40. The 5% alignment removed it as "not in community validated table." For a light and airy fine art look, grain absence is actually correct — the style emphasizes clean, smooth rendering. Removal is appropriate even if the reason stated is wrong.
+
+6. **🟡 Missing additional HSL from Denny's.** Denny's applies Luminance +50 to all non-skin colors. The XMP only applies Aqua Lum +35 (which is a plausible downscaling of that principle). Missing: Blue Lum, Purple Lum, Magenta Lum per Denny's method.
+
+7. **🟢 Jordan Brittley split-tone match is exact.** ColorGrade Shadow H210/S4 and Highlight H43/S4 match Jordan's published values precisely. This is the best-validated single data point across all 8 presets.
+
+8. **🟢 Clarity, Dehaze, Texture negative values are architecturally coherent.** The trio of Clarity -10, Dehaze -10, Texture -10 all contribute to the ethereal softness. Per STYLEGUIDE Section V, these are operating on different spatial frequency bands but all pushing in the soft/dreamy direction, avoiding the "simultaneous boost" failure mode.
+
+9. **🟢 Exposure +0.75 is on the higher side but within "bright and airy" intent.** Tailwind's specific +0.45 is for a reference image. The community consensus is "bright but not clipping." +0.75 is plausible for a general-purpose preset, especially given the -55 Highlights protection.
+
+**Validation Status:** ✅ **FIXED 2026-06-01** — Actionable issues resolved:
+- **Blue Saturation**: Added SaturationAdjustmentBlue="-20" (matches Denny's Tips desaturation for pastel skies). Restores the pastel sky characteristic.
+- **Yellow Saturation**: Added SaturationAdjustmentYellow="-10" (matches Denny's Tips / Lou & Marks for creamy skin tones).
+- **Vibrance**: Removed per STYLEGUIDE rule #5 (|Vibrance - Saturation| = 15 > 5 with Saturation -5). Community wants +10 but removal avoids the selective-color bug.
+- **Green Sat -30 vs Denny's -50**: Intentional moderation — Katelyn James philosophy keeps greens more natural; 20pt lighter touch.
+- **Grain removed**: Correct for light and airy aesthetic (clean, smooth rendering).

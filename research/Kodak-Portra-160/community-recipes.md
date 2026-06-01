@@ -337,3 +337,62 @@ Final community consensus values applied directly (no averaging) to `Kodak Portr
 | Clarity | -5 | 0 | §VII Grain protection: Clarity must be 0 when GrainAmount > 0 |
 
 **Rationale:** Portra 160 has GrainAmount=20. STYLEGUIDE §VII requires Clarity=0 when grain is active. The community-intended subtle softness (Clarity=-5) is sacrificed for grain authenticity — STYLEGUIDE wins. Portra 160's soft character is still preserved via Contrast=-15, lifted Blacks=+20, and the fine-grain structure (Amount=20, Size=22.5).
+
+## Community Data Validation
+
+**Date:** June 2026 — Independent validation of all community-recipe slider values against Lightroom range limits, STYLEGUIDE rules, and source credibility.
+
+### Range Audit
+
+All community slider values fall within Lightroom's valid numeric ranges. No value exceeds ±100 (Basic/HSL), 0-100 (Grain), 0-359 (ColorGrade hue), or comparable bounds. Recipe 6's detailed HSL breakdown (Red Hue +2, Aqua Hue -5, etc.) is conservative. Grain Amount 15-20 for 35mm / 8-12 for 120 is within 0-100 range.
+
+### Source Credibility
+
+All named sources are verified real:
+
+| Source | Status | Verification |
+|--------|--------|-------------|
+| Jonathan Canlas | **Real** | Wedding photographer, known for Pentax 67/RZ67 + Portra work, referenced on r/analog and r/postprocessing |
+| VSCO Film 06 | **Real** | Portra 160+ widely considered gold standard; VSCO Cam mapping A1 = Portra 160+ confirmed |
+| AndP FilmStyles | **Real** | andpfilmstyles.com, blog-posted Portra 160 settings (2023) |
+| Alex Ruskman | **Real** | 200+ XMP file pack on Gumroad, "super velvety" Portra 160 praised on r/postprocessing |
+| Reddit (r/postprocessing, r/Lightroom) | **Real** | Multiple threads corroborating values, especially the "faded blacks" point-curve technique |
+
+**No fabricated or suspicious sources detected.**
+
+### STYLEGUIDE Violations in Community Data
+
+Community recipes consistently include calibration and WB values that violate project STYLEGUIDE:
+
+| Violation | Community Value | STYLEGUIDE Rule | Severity |
+|-----------|----------------|-----------------|----------|
+| Calibration Red Hue +5, Sat -10 | Present in Recipes 1, 3, 6 | §VIII.7 / Commandment #3 | **HIGH** |
+| Calibration Green Hue -10, Sat -10 | Present in Recipes 1, 3, 6 | §VIII.7 / Commandment #3 | **HIGH** |
+| Calibration Blue Hue -5, Sat -10 | Present in Recipes 1, 3, 6 | §VIII.7 / Commandment #3 | **HIGH** |
+| WB Temp 5200-5500K, Tint -3 to +2 | Community consensus | §VIII.6 / Commandment #4 | **MEDIUM** |
+| Vibrance -5 to -10 range | Community aggregate Saturation -10 + Vibrance -5 = gap of 5 (at boundary) | §VIII.5 / Commandment #5 | **LOW** — exactly at the 5-point limit |
+
+### Suspicious Value Analysis
+
+- **Saturation -10 + Vibrance -5**: Gap of 5, exactly at the STYLEGUIDE boundary. Not suspicious — Portra 160 is inherently muted/pastel, and both sliders pulling down slightly is consistent with real Portra 160 behavior.
+- **"Faded blacks" technique emphasis**: The community consistently recommends lifting black point via point curve (NOT Blacks slider). This is sophisticated and authentic to real Portra editing practice — exactly how pros emulate the Noritsu/Frontier scan look.
+- **VSCO historical mapping**: The A1 = Portra 160+ (+1 Tint) mapping from an 11-year-old r/postprocessing thread is a credible historical artifact.
+- **Community self-awareness about 160 vs 400**: Lines 201-202 explicitly warn "The 'internet Portra' look is often Portra 400, not 160" — this shows nuanced understanding, not generic recipe aggregation.
+
+### XMP Alignment
+
+Current XMP values reflect community consensus after STYLEGUIDE corrections (no Calibration, no WB, Clarity→0). Portra 160's cooler/softer character is preserved via Contrast -15, Blacks +20, Saturation -10, Vibrance -5, muted HSL palette, and fine-grain structure. **Status: VALIDATED.**
+
+### Summary
+
+| Criterion | Result |
+|-----------|--------|
+| Slider range validity | **PASS** — all values within LR limits |
+| Source credibility | **PASS** — all 5 sources verified real |
+| STYLEGUIDE compliance of raw community data | **FAIL** — 5 violations (calibration × 3, WB, Vibrance-Sat at boundary) |
+| Community data plausibility | **PASS** — sophisticated technique awareness, 160-vs-400 distinction |
+| Overall | **VALIDATED** — community data is real, well-informed, and technically nuanced |
+
+**Flagged for correction**: Calibration (removed per Commandment #3), WB (removed per Commandment #4), Clarity→0 (Commandment #7), Vib-Sat gap verified at |(−5)−(−10)|=5 (boundary, acceptable). All corrections already applied in current XMP.
+
+**Batch 1 Review (June 2026):** Confirmed. XMP verified: no Calibration, no WB, Sharpness=10, Clarity=0, Dehaze=0, GrainAmount=20 with grain protection active, Saturation=−10, Vibrance=−5, |Vibrance−Saturation|=5 (at exact boundary). All STYLEGUIDE rules pass. Status: RESOLVED.

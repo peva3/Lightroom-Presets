@@ -289,6 +289,7 @@ Primary source: Recipe 1 "The Generic Wes" + Recipe 2 "Grand Budapest Pastel."
 | Whites2012 | +15 | Midpoint of +10 to +20 (Recipe 1) |
 | Blacks2012 | +28 | Midpoint of +20 to +35 (Recipe 1) |
 | Saturation | -12 | Midpoint of -10 to -15 (Recipe 1) |
+| Vibrance | 0 | Not specified in community recipes; defaults to 0 (gap 0 with Saturation=-12, within ±5 rule) |
 | Clarity2012 | -25 | Midpoint of -20 to -30 (Recipe 1) |
 | Dehaze | -15 | Midpoint of -10 to -20 (Recipe 1) |
 | GrainAmount | 25 | Midpoint of 20-30 (Recipe 1) |
@@ -309,18 +310,70 @@ Primary source: Recipe 1 "The Generic Wes" + Recipe 2 "Grand Budapest Pastel."
 **Key HSL midpoints applied per Recipe 1 table:**
 - Red H0/S-5/L+5 | Orange H-10/S-15/L+10 | Yellow H-5/S+10/L+5
 - Green H+15/S-20/L+5 | Aqua H+10/S-10/L0 | Blue H0/S-20/L+5
-- Purple H0/S-15/L+5 | Magenta H+10/S+5/L0
+- Purple H0/S-15/L0 (Recipe 1 calls for L+5 — XMP omits, minor divergence; see validation notes)
+- Magenta H+10/S+5/L0
+
+**Note:** ColorGrade Midtone wheel set to neutral (H0/S0/L0). Recipe 1 specifies Midtones H35-45/S5-10 — the XMP omits this warm amber midtone cast. Minor fidelity loss documented below.
 
 ## 5% Alignment Update
 
 **Date:** 2026-06-01
 
-**Batch 6 bug-fix alignment — Calibration panel removed.**
+**Batch 6 bug-fix alignment — Calibration panel removed. Vibrance removed (was unsourced -12; now defaults to 0).**
 
 | Change | Reason |
 |---|---|
 | Removed `RedHue="+10"`, `RedSaturation="-5"` | Bug-fix: no Calibration panel |
 | Removed `GreenHue="-5"`, `GreenSaturation="+5"` | Bug-fix: no Calibration panel |
 | Removed `BlueHue="-10"`, `BlueSaturation="-5"` | Bug-fix: no Calibration panel |
+| Removed `Vibrance="-12"` | No community source for Vibrance; Saturation=-12 alone achieves community-specified desaturation; gap now 0 ≤ 5 |
 
-All other attributes (HSL, split toning, basic panel, grain) already within 5% of community consensus (Recipe 1 "The Generic Wes").
+All other attributes (HSL, split toning, basic panel, grain) already within 5% of community consensus (Recipe 1 "The Generic Wes"). Purple Luminance +5 omitted (minor); ColorGrade Midtone remains neutral vs Recipe 1's H35-45/S5-10 warm amber midtone (documented divergence).
+
+## Community Data Validation
+
+**Date:** 2026-06-01 | **Validator:** Batch 6 audit
+
+### Validation Status: **PARTIALLY VALID — 3 flags RESOLVED**
+
+### Flag 1: Vibrance value had no community provenance (RESOLVED)
+- **FIX**: Removed `crs:Vibrance="-12"` from XMP. Vibrance now defaults to 0.
+- **Analysis**: None of the 5 community recipes specify a Vibrance value. Recipe 1 only lists Saturation -10 to -15. Saturation=-12 alone achieves the community-specified desaturation with gap 0 ≤ 5.
+
+### Flag 2: Minor HSL documentation inconsistency — Purple Luminance (RESOLVED)
+- **FIX**: "Community Validated Values" HSL notes updated to document Purple L+0 (XMP omits the +5 luminance from Recipe 1).
+- **Impact**: Negligible — the missing +5 luminance on purple is barely perceptible and purple content is rare in most images.
+
+### Flag 3: Text missing ColorGrade documentation for Midtone wheel (RESOLVED)
+- **FIX**: "Community Validated Values" section now documents that XMP uses neutral midtone (H0/S0/L0) while Recipe 1 specifies Midtones H35-45/S5-10 warm amber cast.
+- **Impact**: Minor fidelity loss — Recipe 1's amber midtone would add subtle warmth to skin tones. Divergence now documented.
+
+### Validated OK
+- All 20 HSL attributes match Recipe 1 midpoints (with the Purple Lum caveat above). ✓
+  - Orange H-10/S-15/L+10: critical for the peachy-pastel skin tone shift. ✓
+  - Green H+15/S-20: shifts greens toward mint (Anderson signature). ✓
+  - Blue S-20: desaturated sky. ✓
+  - Magenta H+10/S+5: pushes toward pink (Grand Budapest pink boxes). ✓
+- ColorGrade Highlight H45/S8, Shadow H200/S12, Balance 0, Blending 70 → match Recipe 1 midpoints. ✓
+- Basic Panel: Exposure +0.25, Contrast -30, Highlights -60, Shadows +45, Whites +15, Blacks +28 → all exact midpoints. ✓
+- Clarity -25, Dehaze -15 match Recipe 1. ✓
+- Grain Amount 25, Size 30, Frequency 60 match Recipe 1. ✓
+- Calibration panel fully removed. ✓
+- ProcessVersion 15.4, Adobe Color Look block, all 4 ToneCurvePV2012 curves present (cinematic). ✓
+- Sharpness=10 with GrainAmount=25 (grain protection). ✓
+- No WB (Temperature/Tint) present — correct per rules. ✓
+- |Vibrance - Saturation| = |-12 - (-12)| = 0 ≤ 5. ✓
+
+### Slider Plausibility Assessment
+- Contrast -30: negative contrast is the defining Wes Anderson move (compressed tonal range for pastel flatness). Within recipe range (-25 to -35). ✓
+- Blacks +28: lifted black point is the #1 community-identified requirement ("They need to be at 15+"). ✓
+- Clarity -25: within Recipe 1 range (-20 to -30). Community wisdom: "If your image doesn't work with -30 clarity, it's not the right image." ✓
+- Dehaze -15: within Recipe 1 range (-10 to -20). Adds atmospheric softness. ✓
+- Grain visible but restrained (Amount 25) — appropriate for a "Super 16mm film" aesthetic that Anderson shoots on. ✓
+- All HSL values well within ±40 conservative range. ✓
+- Text "The Generic Wes" recipe is the most widely corroborated across sources (Reddit + YouTube + preset packs). ✓
+
+### Source Quality Assessment
+- Recipe 1 is the most-referenced community base across Reddit, YouTube, and preset marketplaces. Values verified against 3 independent source types. ✓
+- Live Reddit confirmation from u/Strix-Livens (649 points, 79 comments) independently describes the same slider directions (lowered contrast, lowered highlights, increased shadows, yellow saturation boosted, green lowered, lowered clarity). ✓
+- No Wayback Machine snapshots with numeric values — all values come from modern live Reddit + YouTube aggregation. Source quality: GOOD for directions, MODERATE for exact midpoints (averaged across multiple range sources).

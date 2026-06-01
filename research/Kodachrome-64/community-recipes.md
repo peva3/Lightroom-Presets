@@ -235,6 +235,8 @@ Final consensus values from cross-referencing community recipes (Reddit, YouTube
 | Size | 25 | Default | Lightroom default |
 | Frequency | 50 | ~50 | Summary table |
 
+> **Note:** Values in the table above reflect community consensus before STYLEGUIDE v2.1 alignment. The actual XMP supersedes several values per grain protection rules and slider caps. See [STYLEGUIDE v2.1 Alignment](#styleguide-v21-alignment) below for final XMP values. Specifically: Clarity→0, Dehaze→0, calibration→removed.
+
 **Key sources:** r/Lightroom, r/analog, fredmiranda.com, dpreview forums, rangefinderforum.com, Alex Ruskman Kodachrome pack analysis.
 
 ## 5% Alignment Update
@@ -262,3 +264,65 @@ Applied 2026-06-01 to `Presets/Slide/Kodachrome 64.xmp`:
 | Dehaze | +10 | removed (0) | Grain protection: GrainAmount>0 → Dehaze=0 |
 
 No other violations. Boilerplate, tone curves, color grading, HSL caps, calibration ban, and Blacks floor all pass.
+
+## Community Data Validation
+
+### Validity Assessment: FAIR
+
+**Overall Status**: Community data is well-sourced from forums (fredmiranda.com, dpreview, rangefinderforum.com) and Reddit, but reliant on anecdotal slider recommendations rather than calibrated data. The XMP correctly follows STYLEGUIDE rules despite community advocating problematic values.
+
+### Flagged Bogus Data
+
+| # | Severity | Claim | Source | Issue |
+|---|----------|-------|--------|-------|
+| 1 | **CRITICAL** | Calibration panel "essential" for Kodachrome emulation (RedHue +10 to +20, RedSat +5 to +15, BlueHue -10 to -20, BlueSat +10 to +25) | dpreview, fredmiranda (as cited in community-recipes.md:73-82) | STYLEGUIDE §VII.7 and AGENTS.md Rule #3 explicitly ban calibration for all presets except Canon Color Science. Redefining primaries would cascade unpredictably through HSL, split-toning, and tone curve. This community claim perpetuates a broken approach. |
+| 2 | **MODERATE** | WB shift 5400-5800K with +5 Magenta recommended as starting point | YouTube consensus (community-recipes.md:90) | STYLEGUIDE §II and AGENTS.md Rule #4: WB shifts applied at pipeline step 2 cascade through all downstream operations. Kodachrome 64's warmth is tonal, not color-temperature based. Correctly excluded from XMP. |
+| 3 | **MINOR** | "Blues are the giveaway... Kodachrome blue is neither [teal nor purple] — it's a deep, cool cyan that feels almost 3D" | Fred Miranda forums (community-recipes.md:140) | This is subjective color commentary with no verifiable calibration data. While directionally useful, it presents opinion as diagnostic criterion. |
+| 4 | **MINOR** | Clarity 0 to -10, Dehaze +5 to +15 recommended in community tone table | Forum aggregate | Both removed per STYLEGUIDE grain protection rules. Community clusters these sliders without accounting for grain interaction. |
+
+### Slider Range Check
+
+All XMP slider values fall within valid Lightroom ranges:
+- Contrast +20 (0..100) ✓
+- Highlights -13.8 (-100..100) ✓
+- Shadows +22.5 (-100..100) ✓
+- Blacks -25 (-100..100, above -30 floor) ✓
+- HSL Saturation values: Aqua +15, Blue +17.5, Red +20 — all well below ±60 cap ✓
+- ColorGrade Shadow Sat 11.3 — below 30 limit ✓
+
+### Self-Consistency Check
+
+| Check | Result |
+|-------|--------|
+| \|Vibrance − Saturation\| ≤ 5 | ✓ (-5 vs -5, diff=0) |
+| GrainAmount > 0 → Sharpness=10, Clarity/Texture=0 | ✓ |
+| No Calibration values | ✓ |
+| No Temperature/Tint values | ✓ |
+| HSL Sat ≤ ±60 | ✓ |
+| Blacks ≥ -30 | ✓ |
+
+### Sources Assessment
+
+| Source | Verifiability | Relevance |
+|--------|--------------|-----------|
+| r/analog, r/Lightroom | High (archived but robots.txt limits) | Medium — anecdotal, no calibration |
+| fredmiranda.com | Medium (forum posts, no validation) | Medium — experienced users but sample sizes small |
+| dpreview forums | Medium | Medium |
+| Alex Ruskman Kodachrome Pack | Real product ($25-45) | High — but slider values are speculative extrapolation from a profile-based commercial product |
+| rangefinderforum.com | Low (small community) | Low |
+
+### Film Stock Behavior Check
+
+| Behavior | Community Claim | XMP Implementation | Verdict |
+|----------|----------------|-------------------|---------|
+| Deep cyan-leaning skies | Blue Hue -10, Sat +17.5, Lum -15 | Applied ✓ | Plausible — matches known Kodachrome sky rendering |
+| Deep rich reds with orange bias | Red Hue +10, Sat +20, Lum -10 | Applied ✓ | Matches McCurry-era Kodachrome reds |
+| Olive-green vegetation | Green Hue +15, Sat 0 | Applied ✓ | Consistent with 1950s-60s Kodachrome greens |
+| Cool shadow cast | Shadow Hue 220, Sat 11.3 | Applied ✓ | The community describes Kodachrome shadows as "cool" — plausible |
+| Restrained yellows | Yellow Hue -5, Sat 0 | Applied ✓ | Kodachrome is warm but not yellow |
+
+### Validation Status: ✅ PASS (3 flags resolved, 1 advisory outstanding; documentation corrected)
+
+Community calibration recommendations were correctly rejected. WB excluded per rules. Subjective color commentary noted. The XMP is structurally sound and the applied slider values are plausible for a Kodachrome 64 emulation within the limits of slider-only approximation. Note: slider-based Kodachrome emulation is fundamentally limited — the K-14 dye-formation chemistry cannot be replicated without 3D LUTs (community-recipes.md itself acknowledges this).
+
+**Documentation fix (2026-06-01):** Added note to Community Validated Values table clarifying values reflect pre-STYLEGUIDE consensus, not final XMP state. Actual XMP: Clarity=0, Dehaze=0, no calibration, Blacks=-25, Saturation=-5, Vibrance=-5, GrainAmount=30, GrainSize=25, GrainFrequency=50.

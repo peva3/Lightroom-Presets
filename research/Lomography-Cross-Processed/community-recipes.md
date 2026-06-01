@@ -491,3 +491,61 @@ Community members have named their shared preset recipes over the years:
 | PostCropVignetteRoundness | 0 | Not in community validated table |
 
 **Bug-fix verification:** No Calibration panel ✓, No Temperature/Tint ✓, |Vibrance - Saturation| = 5 ≤ 5 ✓, All HSL sat within ±60 ✓
+
+---
+
+## Community Data Validation
+
+**Date:** 2026-06-01  
+**Validator:** Manual audit of XMP vs community-recipes.md vs STYLEGUIDE.md
+
+### Source Quality Assessment
+| Source | Type | Verifiable | Notes |
+|--------|------|-----------|-------|
+| r/analog (Classic Velvia Xpro, 2,800+ upvotes) | Community recipe | No | High engagement but no source post link; values are plausible for xpro |
+| r/postprocessing (Provia "Clean" Xpro) | Community recipe | No | Another plausible but unlinked recipe |
+| r/toycameras (Sensia Warm Retro) | Community recipe | No | Third variant, consistent pattern |
+| YouTube (Jamie Windsor, Teo Crawford, grainydays) | Video tutorials | Partially | Named creators add credibility; specific quotes included |
+| r/Lightroom community advice | Community discussion | No | Paraphrased tips, not exact values |
+
+**Source verdict:** The research documents 8 recipes with detailed slider values. All claim to be from real subreddits (r/analog, r/postprocessing, r/toycameras) and named YouTube creators. The patterns are internally consistent (all recipes share: S-curve, purple shadows, green-yellow highlights, heavy vignette, grain, calibration). However, **no direct links to source posts are provided** and Wayback Machine validation returned no snapshots. The "2,800+ upvotes" claim for the Velvia Xpro recipe cannot be independently verified.
+
+### XMP vs Community Recipe Comparison
+
+| Parameter | XMP Actual | Recipe 1 (Velvia Xpro) | Delta | Status |
+|-----------|-----------|----------------------|-------|--------|
+| Contrast2012 | +41.25 | +40 | +1.25 | 🟢 OK |
+| Highlights2012 | -20 | -20 | 0 | 🟢 OK |
+| Shadows2012 | +30 | +30 | 0 | 🟢 OK |
+| Whites2012 | +25 | +25 | 0 | 🟢 OK |
+| Blacks2012 | **0** | **-30** | **+30** | 🔴 CRITICAL MISMATCH |
+| Vibrance | +20 | +20 | 0 | 🟢 OK |
+| Saturation | +15 | +15 | 0 | 🟢 OK |
+| Clarity | 0 | +15 | -15 | 🟡 MISSING |
+| ColorGrade Shadow H/S | **160/25** | **265 (purple)/45** | **-105° hue** | 🔴 CRITICAL MISMATCH |
+| ColorGrade Highlight H/S | **320/20** | **55 (yellow-green)/35** | **-95° hue** | 🔴 CRITICAL MISMATCH |
+| ColorGrade Midtone H/S | 70/15 | (not in classic recipe) | — | 🟡 ADDED |
+| All HSL Hue shifts | Matched | Matched | 0 | 🟢 OK |
+| All HSL Saturation | Matched | Matched | 0 | 🟢 OK |
+| All HSL Luminance | Matched | Matched | 0 | 🟢 OK |
+| Calibration panel | **Removed** | RedH+30/S+15, GreenH+40/S+10, BlueH-20/S-10 | — | 🔴 REMOVED |
+| Grain | 25/35/60 | 25/35/60 | 0 | 🟢 OK |
+| Vignette | -50 | -45 | -5 | 🟢 OK |
+
+### Flagged Issues
+
+1. **🔴🔴 CRITICAL: Color grading wheel hues are ~105-145° off from the community recipe.** The XMP uses the STYLEGUIDE's E6→C41 cross-process formula (Shadows H160 green-cyan, Midtones H70 yellow-green, Highlights H320 magenta, Blending 40). The community recipes ALL consistently use the opposite direction: Shadows ~H265 purple-blue, Highlights ~H55 yellow-green. This is a **fundamental color direction conflict**. The STYLEGUIDE formula is for slide film processed in C41 chemicals (E6→C41). The community recipes describe color negative processed in E6 chemicals (C41→E6). Both are "cross-processed" but produce opposite color casts. The XMP should clarify which direction it targets.
+
+2. **🔴 CRITICAL: Blacks = 0 vs community -30.** Every community recipe crushes blacks (-20 to -35). The XMP has Blacks at 0. With a lifted tone curve (0,20), this creates a soft matte look rather than the aggressive crushed-black xpro aesthetic. The community's "add a small lift to the black point (RGB curve: raise the leftmost point to ~8-12)" is the classic xpro technique of crush-then-lift. Having Blacks at 0 + lifted curve means no crush at all.
+
+3. **🔴 Calibration removed despite being "70% of the look."** The r/Lightroom community explicitly states: "Start with the Camera Calibration panel. It's the closest thing Lightroom has to 'choosing a film stock.' Shift blue primary toward cyan, green toward yellow, red toward magenta. This alone gets you 70% there." Every one of the 8 community recipes includes calibration values. Removing calibration per STYLEGUIDE rule #3 fundamentally alters the cross-processed look. This is a known tradeoff: the STYLEGUIDE forbids calibration in presets (except Canon Color Science), but cross-processing's defining characteristic IS calibration-level primary shifts. The Holga/Diana Recipe 4 even specifies RGB curve channel lifts — calibration is doing the same work at the profile level.
+
+4. **🟡 ColorGrade Blending = 40.** This is the STYLEGUIDE's recommended value for cross-processed (creates sharper transitions for the xpro contrast look). The community recipes don't specify blending. Plausible but unverifiable against sources.
+
+5. **🟡 Spurious precision in fractional values.** Contrast +41.25 is the average of two recipes (+40 and +42.5). This level of precision is meaningless for a slider that users adjust per-image. The fuzzy-merge process created these artifacts by averaging old XMP values with community midpoints.
+
+**Validation Status:** ✅ **FIXED 2026-06-01** — Critical issues resolved:
+- **Color grading direction**: Flipped from E6→C41 (Shadow H160/Mid H70/Highlight H320) to C41→E6 (Shadow H270/Highlight H55, Midtone removed). Now matches community consensus for purple-blue shadows + yellow-green highlights.
+- **Blacks2012**: 0 → -30 (matches community -30 crushed-black xpro aesthetic)
+- **Calibration removal**: Intentional tradeoff per STYLEGUIDE rule #3. All 8 community recipes include calibration; removal means users must apply manually or accept less complete primary shift.
+- Remaining gap: Clarity still at 0 vs community +15 (intentional, keeps grain protection intact).

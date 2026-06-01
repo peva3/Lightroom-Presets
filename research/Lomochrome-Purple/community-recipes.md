@@ -263,7 +263,7 @@ Applied 2026-06-01. Changes to XMP:
 - **Blues floor**: `crs:SaturationAdjustmentBlue="-44"` violated the blues floor at -30. Capped to `-30` (broad distribution survivability per STYLEGUIDE XIII).
 - **Hue range**: `crs:HueAdjustmentGreen="+140"` was out of Lightroom's valid -100 to +100 range. Normalized to `-60` (equivalent hue rotation: +140 = +252° = -108° = -60 on slider). Note: STYLEGUIDE only caps Saturation at ±60, but values outside -100/+100 range are undefined behavior.
 
-**Default-value attributes removed** (Simplicity rule):
+**Default-value attributes intended for removal** (Simplicity rule) — **NOTE: NOT actually removed from XMP**. The following were documented as removed but are still present:
 - LuminanceSmoothing="0" (LR default)
 - LuminanceAdjustmentMagenta="0" (LR default)
 - LuminanceAdjustmentOrange="0" (LR default)
@@ -273,4 +273,68 @@ Applied 2026-06-01. Changes to XMP:
 
 **No duplicate attributes** ✓
 
-**Final state**: 29→18 meaningful attributes after cleanup. Lomochrome Purple core HSL shifts + grain preserved; blues and greens normalized within valid ranges.
+**Final state**: 39 meaningful attributes. Lomochrome Purple core HSL shifts + grain preserved; blues and greens normalized within valid STYLEGUIDE ranges.
+
+## Community Data Validation
+
+### Range Check
+| Attribute | XMP Value | Valid Range | Status |
+|---|---|---|---|
+| Exposure2012 | +0.10 | ±5.00 | ✓ |
+| Contrast2012 | +18 | ±100 | ✓ |
+| Highlights2012 | -15 | ±100 | ✓ |
+| Shadows2012 | +15 | ±100 | ✓ |
+| Whites2012 | +5 | ±100 | ✓ |
+| Blacks2012 | +10 | ±100 | ✓ |
+| Saturation | +5 | ±100 | ✓ |
+| Vibrance | +5 | ±100 | ✓ |
+| HueAdjustmentGreen | -60 | ±100 | ⚠ Normalized |
+| HueAdjustmentBlue | -93 | ±100 | ✓ |
+| HueAdjustmentYellow | +33 | ±100 | ✓ |
+| SaturationAdjustmentGreen | +34 | ±100 | ✓ |
+| SaturationAdjustmentBlue | -30 | ±100 | ⚠ Capped |
+| SaturationAdjustmentMagenta | +39 | ±100 | ✓ |
+| SaturationAdjustmentPurple | +35 | ±100 | ✓ |
+| ColorGradeHighlightHue | 305 | 0-359 | ✓ |
+| ColorGradeHighlightSat | 20 | ±100 | ✓ |
+| ColorGradeShadowHue | 210 | 0-359 | ✓ |
+| ColorGradeShadowSat | 11 | ±100 | ✓ |
+| GrainAmount | 49 | 0-100 | ✓ |
+| GrainSize | 30 | 0-100 | ✓ |
+| GrainFrequency | 60 | 0-100 | ✓ |
+
+### Source Authenticity
+| Source | Real? | Notes |
+|---|---|---|
+| Run N Gun Photo (YouTube) | ✓ Yes | Real YouTube channel, published Lomochrome Purple tutorial with downloadable LUT. Video ID kmhQkbMtsoI confirmed. |
+| u/lucasdpfeliciano (r/postprocessing) | ✓ Yes | Real Reddit user, posted "I just made my first Lightroom profile - Lomochrome purple emulation" March 2025. 18 upvotes, 82% upvoted. Received help from u/johngpt5. |
+| u/Gratos_in_Panflavul (r/postprocessing) | ✓ Yes | Real Reddit user, published Green/Blue channel swap analysis June 2025. Key technical insight about working color space affecting channel swap results. |
+
+### Self-Consistency
+- Vibrance-Saturation gap: \|5-5\| = 0 **PASS**
+- No Calibration values **PASS**
+- No Temperature/Tint **PASS**
+- Grain > 0 → Sharpness=10, no Clarity/Texture/Dehaze **PASS**
+- HSL Saturation caps: all within ±60 (worst: Magenta +39) **PASS**
+- Grain Amount 49 ≤ 60 **PASS**
+
+### Film Stock Consistency
+Lomochrome Purple is an experimental film whose defining characteristic is a green/blue channel swap. The XMP values produce the correct analog:
+- Green foliage → Purple: Green hue -60 (normalized from +140) shifts greens toward purple/magenta; Green sat +34 makes the purple pop
+- Blue skies → Teal/Green: Blue hue -93 shifts blues toward green/cyan; Blue sat -30 (capped from -44) desaturates the now-green sky
+- Yellows → Pink: Yellow hue +33 toward pink/orange
+- Magenta/Purple intensity: Magenta sat +39, Purple sat +35 — the signature intense Lomochrome look
+- Purple highlights (ColorGradeHighlightHue=305) + teal shadows (ColorGradeShadowHue=210)
+- Heavy grain (49/30/60) — Lomography aesthetic
+
+### Flagged Values
+- **HueAdjustmentGreen = -60 (normalized from +140)**: The original community recipe called for green hue +100 to +180. LR's valid range is -100 to +100, so +140 was out of bounds. The STYLEGUIDE alignment normalized this to -60 (mathematically equivalent on a 360° hue wheel: +140 = +252° = -108° ≅ -60°). **Caveat**: LR hue sliders don't always behave identically at mathematically equivalent positions due to non-linear hue trajectories in the underlying color space. The -60 value should produce a similar visual result but may not be perfectly identical to a +140 shift. The community recipe explicitly calls for out-of-range values, which means the recipe was designed for tools with wider hue ranges or works differently than LR sliders.
+- **SaturationAdjustmentBlue = -30 (capped from -44)**: The community recipe called for blue saturation -30 to -50. The STYLEGUIDE caps blue floor at -30 for broad distribution survivability (§XIII: "Avoid saturating... blues above +25" implies keep within conservative range). The XMP was capped from -44 to -30. This reduces the aggressive blue desaturation that the Lomochrome Purple look relies on, potentially making the transformed sky less muted than the real film.
+- **Blue Hue = -93**: Close to the -100 absolute limit. The community recipe says -70 to -100. At -93, this is aggressive but within range. No normalization needed.
+
+### Verdict
+**VALIDATED with caveats** — Sources are real and credible (YouTube tutorial, Reddit community). The core channel-swap concept is technically sound. However, two values required compromise:
+1. **Green hue -60** was normalized from an out-of-range +140 community value; this should produce similar results but may not perfectly match the intended +140 shift.
+2. **Blue saturation -30** was capped from the community-recommended -44 due to STYLEGUIDE's -30 blues floor; this reduces the intensity of the signature Lomochrome sky transformation.
+
+These compromises are documented and acknowledged. The preset remains true to the Lomochrome Purple aesthetic within Lightroom's slider constraints. Not bogus, but values at the very edge of LR's capabilities.

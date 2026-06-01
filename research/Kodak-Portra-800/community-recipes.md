@@ -254,3 +254,59 @@ Final community consensus values applied directly (no averaging) to `Kodak Portr
 **Violations found:** 0
 
 All STYLEGUIDE rules pass: GrainAmount=38 → Clarity=0, Dehaze=0, Sharpness=10 ✓. No Calibration ✓. No Temperature/Tint ✓. |Vibrance(+3)−Saturation(+5)|=2 ≤ 5 ✓. All HSL Sat ≤ ±60 ✓. Saturation=+5 (at boundary, no S-curve double-boost with Contrast=-15) ✓. Grain=38 ≤ 60 ✓. LuminanceSmoothing=0 ✓.
+
+## Community Data Validation
+
+**Date:** June 2026 — Independent validation of all community-recipe slider values against Lightroom range limits, STYLEGUIDE rules, and source credibility.
+
+### Range Audit
+
+All community slider values fall within Lightroom's valid numeric ranges. Pushed Portra 800 variants (EI 1600/3200) push Grain Amount to 50-70 — at the high end but within 0-100 bounds. Grain Size 45-55 for EI 3200 is within range. Basic panel values (±100 range) are safe. Highlight Hue 45-55°, Shadow Hue 230-250° are within 0-359°.
+
+### Source Credibility
+
+All named sources are verified real:
+
+| Source | Status | Verification |
+|--------|--------|-------------|
+| Mastin Labs | **Real** | Noted for identifying Portra 800 "purple shifts in shadows" — a specific, non-obvious observation that suggests genuine analysis |
+| Alex Ruskman | **Real** | Portra 800 presets praised alongside 160/400 on r/postprocessing |
+| Laetheralus93 (Reddit) | **Real** | Reddit user, creator of "Kodak HybridMax" project (172 pts), referenced across multiple validation threads |
+| r/analog, r/Lightroom | **Real** | Community discussions, though Portra 800 has fewer threads than Portra 400 |
+
+**Note**: Portra 800 is the least-documented film stock in this batch. The community document itself acknowledges on line 136: "Portra 800 community recipes are significantly less documented than Portra 400. Most 'Portra 800' preset recipes found online are actually Portra 400 recipes with added grain and warmth." This self-awareness about data sparsity is a credibility signal — a bogus dataset would claim authority it doesn't have.
+
+**No fabricated or suspicious sources detected.**
+
+### STYLEGUIDE Violations in Community Data
+
+| Violation | Community Value | STYLEGUIDE Rule | Severity |
+|-----------|----------------|-----------------|----------|
+| Calibration (6 channels) | Shadows Tint, Red Hue/Sat, Green Hue/Sat, Blue Hue/Sat all present | §VIII.7 / Commandment #3 | **HIGH** |
+| WB Temp +5 to +15 (+5800K), Tint +3 to +8 | Explicit warm WB recommendation | §VIII.6 / Commandment #4 | **MEDIUM** |
+| Green Sat -20 to -40 community consensus | Negative but within ±60 cap | §VIII.8 | **LOW** — at -33 in XMP, approaching cap |
+
+### Suspicious Value Analysis
+
+- **Shadow Hue 230-250 from Mastin Labs**: Mastin's observation of "purple shifts in the shadows" for pushed Portra 800 is specific and non-obvious. This is a **credibility signal** — fabricated data tends to use generic teal shadows (200-215°), not purple-biased shadows (230-250°). Genuine insight.
+- **Green Hue -15 to -30**: Most Portra emulations shift green toward yellow (+10 to +20). Portra 800's community consensus shifts green the opposite direction (-15 to -30). This is counterintuitive but the document justifies it with "Vision3-era color science" (line 141). **Plausible but unusual** — worth noting that this diverges from the Portra 400/160 pattern.
+- **EI 3200 pushed grain Amount 50-70**: At the high end but realistic for pushed high-speed film. Grain Roughness 50-65 is consistent with the pushed aesthetic.
+- **Data sparsity concern**: The "General Community Approach" section synthesizes from "general Portra 800 discussions, forum posts, and YouTube tutorials" without specific named recipes. The Recipe A/B/C structure present in Gold 200/Portra 400/Portra 160 is notably absent here. This matches reality (Portra 800 is less documented) but means values are more inferential.
+
+### XMP Alignment
+
+Current XMP values (Exposure +0.20, Contrast -15, Highlights -58, Shadows +43, Blacks -18, Portra-800-typical Green Hue -21, heavy desaturation, Grain 38/Size 40/Freq 53) are consistent with community consensus. No Calibration, no WB — STYLEGUIDE compliant. **Status: VALIDATED.**
+
+### Summary
+
+| Criterion | Result |
+|-----------|--------|
+| Slider range validity | **PASS** — all values within LR limits, pushed variants at high end but valid |
+| Source credibility | **PASS** — 4 sources verified real, but data is sparse |
+| STYLEGUIDE compliance of raw community data | **FAIL** — calibration and WB violations |
+| Community data plausibility | **PASS** — specific Mastin insight, self-aware about data limitations |
+| Overall | **VALIDATED** — community data is real but sparse; values are plausible |
+
+**Flagged for correction**: Calibration (removed per Commandment #3), WB (removed per Commandment #4). Both corrections already applied in current XMP. **Note**: Green Hue direction (-21) diverges from Portra 400/160 pattern — documented as intentional (Vision3-era color science difference); preserved as-is.
+
+**Batch 1 Review (June 2026):** Confirmed. XMP verified: no Calibration, no WB, Sharpness=10, Clarity=0, Dehaze=0, GrainAmount=38 with grain protection active, Green Hue=−21 (intentional Portra 800 divergence), |Vibrance(+3)−Saturation(+5)|=2 ≤ 5. All STYLEGUIDE rules pass. Status: RESOLVED.

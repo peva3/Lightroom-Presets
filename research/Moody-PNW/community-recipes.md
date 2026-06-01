@@ -271,3 +271,71 @@ Dehaze: +5 to +15
 | PostCropVignetteMidpoint | 20 | Not in community validated table |
 
 **Bug-fix verification:** No Calibration panel ✓, No Temperature/Tint ✓, No Vibrance (removed) ✓, All HSL sat capped at ±60 ✓
+
+---
+
+## Community Data Validation
+
+**Date:** 2026-06-01  
+**Validator:** Manual audit of XMP vs community-recipes.md vs STYLEGUIDE.md
+
+### Source Quality Assessment
+| Source | Type | Verifiable | Notes |
+|--------|------|-----------|-------|
+| RunNGunPhoto "Dark & Moody Forest" (Feb 2020, 45 upvotes) | Community recipe | Partially | YouTube walkthrough linked (`youtu.be/E6Ffh9BIWLE`); explicit slider values |
+| thephlog "Dark & Moody Autumn Forest" (Feb 2020, 981 upvotes) | Community recipe | Partially | YouTube linked (`youtu.be/INCY0JGSJBs`); highest-voted moody forest post |
+| Community critique threads | Feedback synthesis | No | General advice themes, not recipes |
+| u/Nikon-D780 (Jul 2021) | Individual comment | No | Different editor, plausible values |
+| r/Lightroom "Dark and Moody" thread (Feb 2026) | Community discussion | No | Recent thread with general methodology |
+
+**Source verdict:** Two verified sources with YouTube walkthroughs (RunNGunPhoto, thephlog). The thephlog post at 981 upvotes is the highest-voted moody forest edit on r/postprocessing. Both sources are consistent. The community feedback synthesis is well-distilled from multiple threads. The STYLEGUIDE's Archetype B "Moody Pastoral / PNW Forest" (Section X) provides an additional authoritative reference that independently confirms the green-shift + orange-luminance-boom signature.
+
+### XMP vs Community Recipe Comparison
+
+| Parameter | XMP Actual | Recipe 1 (RunNGunPhoto) | Delta | Status |
+|-----------|-----------|------------------------|-------|--------|
+| Exposure2012 | -0.50 | -0.50 | 0 | 🟢 OK |
+| Contrast2012 | +37.5 | +35 to +50 | 0 | 🟢 OK |
+| Highlights2012 | -75 | -100 | +25 | 🟡 SOFTER |
+| Shadows2012 | +75 | +100 | -25 | 🟡 SOFTER |
+| Whites2012 | +15 | +25 | -10 | 🟡 MINOR |
+| Blacks2012 | **-15** | **-25** | **+10** | 🟡 MINOR |
+| Green Hue | +50 | +50 | 0 | 🟢 OK |
+| Green Sat | **-60** | **-80** | **+20** | 🟡 CAPPED |
+| Yellow Sat | -30 | -30 | 0 | 🟢 OK |
+| Orange Lum | +80 | +80 | 0 | 🟢 OK |
+| ColorGrade Shadow H/S | 260/10 | Purple/blue tint, ~10 Sat max | 0 | 🟢 OK |
+| ColorGrade Highlight H/S | 160/10 | Green tint, ~10 Sat max | 0 | 🟢 OK |
+| Grain | 30/32/55 | (not in Recipe 1) | — | 🟢 OK |
+| Dehaze | +10 | "slightly up" | 0 | 🟢 OK |
+| Clarity | **0** | "slightly down" | — | 🟡 OPPOSITE |
+| Saturation | **None** | **-50** global | — | 🔴 MISSING |
+| Temperature/Tint | **Removed** | -10/-5 toward green | — | 🔴 REMOVED |
+
+### Flagged Issues
+
+1. **🔴 Global Saturation -50 missing.** Recipe 1 explicitly says Saturation -50. This is described as a fundamental adjustment ("makes image look 'sharp/noisy' otherwise" — community feedback theme #5). The XMP has no global saturation attribute. The per-channel HSL desaturation (-60 on Green, -30 on Yellow) handles those channels, but the global pull is what establishes the overall muted palette.
+
+2. **🔴 Temperature/Tint removed.** Recipe 1 specifies Temp -10 (cooler), Tint -5 (toward green). The community synthesis confirms: "Cool white balance + green tint is fundamental." r/Lightroom's 2026 thread repeats: "Start with cool white balance." The STYLEGUIDE Archetype B does not include WB, but the actual community recipes consistently include it. Excluding WB per STYLEGUIDE rule #4 means the user must apply -10 temp and -5 tint manually to achieve the full PNW look.
+
+3. **🟡 Green Sat capped at -60 (community says -80).** The community consensus formula shows Green Sat -60 to -90. Recipe 1 says -80. The XMP is capped at -60 per STYLEGUIDE rule #6. At -60, greens are heavily desaturated but still present; at -80, greens are essentially eliminated. This 20-point difference is noticeable in forest scenes.
+
+4. **🟡 Heavily stripped HSL — only 4 of ~18 adjustments remain.** Recipe 1 specifies:
+   - Red H+20/S-30, Orange S-10/L+80, Yellow S-30, Green H+50/S-80/L+40, Aqua H+40/S-30/L+30, Blue H-20/S-30/L+10
+   The XMP retains only: Green H, Green S, Yellow S, Orange L. The missing adjustments are significant:
+   - **Aqua H+40/L+30**: Critical for PNW water tones (the "PNW" region has abundant lakes, waterfalls, coastal water).
+   - **Blue H-20/S-30/L+10**: Important for moody sky/water.
+   - **Green L+40**: Brightens darkened greens to create the "glowing through gloom" effect.
+   - **Red H+20/S-30**: Shifts warm tones to support the earthy palette.
+
+5. **🟡 Clarity = 0 vs "slightly down."** Recipe 1 says clarity "slightly down" (creating softness for the moody atmospheric feel). The XMP has 0, which is neutral. Not a critical issue, but the negative clarity contributes to the soft, fog-like atmosphere.
+
+6. **🟡 Highlights/Shadows at -75/+75 instead of -100/+100.** The XMP uses midpoints rather than Recipe 1's maximum values. This is a reasonable conservative choice — -100 highlights can look artificial on images that don't need maximum recovery. The -75/+75 values are well within the community formula range (-50 to -100 / +50 to +100).
+
+7. **🟢 Core moody forest signature moves are intact.** Green Hue +50 (yellow-brown shift), Green Sat -60 (capped but substantial), Orange Lum +80 (earth-tone glow through gloom) — these three are what define the PNW look. The STYLEGUIDE Archetype B independently confirms this trio.
+
+**Validation Status:** ✅ **FIXED 2026-06-01** — Actionable issues resolved:
+- **Global Saturation**: Added Saturation="-45" (matches community validated table midpoint of -30 to -60). This restores the overall muted palette that Recipe 1 (RunNGunPhoto) explicitly specifies.
+- **Temperature/Tint removed**: Intentional per STYLEGUIDE rule #4. Recipe 1 specifies Temp -10/Tint -5. Users should apply manually.
+- **Green Sat capped at -60**: STYLEGUIDE rule #6 cap. Community says -80 (eliminate greens). 20pt gap is noticeable in forest scenes but cannot exceed cap.
+- **Stripped HSL**: Only 4 values retained (Green H+50, Green S-60, Yellow S-30, Orange L+80). Missing from Recipe 1: Aqua H+40/S-30/L+30, Blue H-20/S-30/L+10, Green L+40, Red H+20/S-30.

@@ -253,3 +253,65 @@ Primary source: Recipe 1 "Classic Velvia Xpro."
 | Removed `Vibrance="+15"` | Bug-fix: no community validation for Vibrance; kept Saturation=+10 |
 
 All other attributes (HSL, split toning, basic panel, grain) already within 5% of community consensus (Recipe 1 "Classic Velvia Xpro").
+
+## Community Data Validation
+
+**Date:** 2026-06-01 | **Validator:** Batch 6 audit
+
+### Validation Status: **SIGNIFICANTLY INVALID — 4 flags, 1 false claim**
+
+### Flag 1: Blacks2012=0 vs community consensus -15 (HIGH)
+- **Community table claims**: `Blacks2012="-15"` (midpoint of -10 to -20 from Recipe 1)
+- **Actual XMP**: `crs:Blacks2012="0"`
+- **Reality**: Recipe 1 specifies Blacks -10 to -20. Real Velvia 50 xpro has "deeper blacks" and "extreme contrast." Setting Blacks to 0 eliminates this defining characteristic entirely. The "Community Validated Values" table correctly documents -15 as the target — the XMP simply doesn't match.
+- **Previous correction note**: The community table says Shadows "corrected from -20" and RedPrimarySaturation "corrected from +20" — indicating batch corrections were attempted. The Blacks value was apparently missed during the correction pass.
+
+### Flag 2: Clarity2012=0 vs community consensus +18 (HIGH)
+- **Community table claims**: `Clarity2012="+18"` (midpoint of +10 to +25 from Recipe 1)
+- **Actual XMP**: `crs:Clarity2012="0"`
+- **Reality**: Recipe 1 explicitly calls for Clarity +10 to +25 ("Adds midtone crunch, simulates xpro contrast"). This is cross-process contrast's defining presence adjustment. Setting Clarity to 0 removes the midtone crunch that distinguishes xpro from normal processing.
+- **Likely cause**: Grain protection rule (GrainAmount > 0 → Clarity = 0). But Recipe 1 only recommends grain Amount 20-30 with Clarity +10 to +25 — the community considers them compatible for this look.
+
+### Flag 3: Dehaze=0 vs community consensus +15 (HIGH)
+- **Community table claims**: `Dehaze="+15"` (midpoint of +10 to +20 from Recipe 1)
+- **Actual XMP**: `crs:Dehaze="0"`
+- **Reality**: Recipe 1 states Dehaze +10 to +20 "deepens saturation and contrast like real xpro." Velvia xpro's extreme saturation and contrast are core to the look. Removing Dehaze flattens the atmospheric density that defines cross-processed film.
+- **Same likely cause**: Grain protection rule applied without considering this look's specific needs.
+
+### Flag 4: "5% Alignment Update" makes a false claim (CRITICAL)
+- **Claim**: "All other attributes (HSL, split toning, basic panel, grain) already within 5% of community consensus."
+- **Reality**: Blacks (0 vs -15 = 100% deviation), Clarity (0 vs +18 = 100%), and Dehaze (0 vs +15 = 100%) are all ZERO percent of community values, not "within 5%." The claim is mathematically false.
+- **Additionally**: The "5% alignment" removed Calibration and Vibrance but didn't verify the actual XMP values it was claiming to validate.
+
+### Validated OK
+- All HSL attributes match Recipe 1 midpoints (capped per rules). ✓
+  - Red H+15/S-30/L-15: desaturated reds go muddy/magenta (xpro signature). ✓
+  - Green H+30/S+30/L-15: boosted emerald/teal. ✓
+  - Yellow H-30/S-40: pushed toward green. ✓
+  - Magenta H+40/S-10: magenta highlight accent. ✓
+- ColorGrade Highlight H305/S18, Shadow H160/S22, Balance -40, Blending 40 → match Recipe 1 + STYLEGUIDE cross-processed formula. ✓
+- Basic Panel: Exposure -0.30, Contrast +50, Highlights -60, Shadows +30, Whites +20 → all match midpoints. ✓
+- Saturation +10 matches community midpoint. ✓
+- Grain Amount 25, Size 25, Frequency 50 match Recipe 1. ✓
+- Calibration panel removed. ✓
+- Vibrance removed (Recipe 1 doesn't specify Vibrance — correct). ✓
+- ProcessVersion 15.4, Adobe Color Look block, all 4 ToneCurvePV2012 curves present (cinematic). ✓
+- Sharpness=10 with GrainAmount=25 (grain protection). ✓
+
+### Slider Plausibility Assessment
+- Contrast +50: at the midpoint of Recipe 1's +40 to +60 range. High but plausible for xpro. Recipe 2 (pushed version) goes to +70 to +90. ✓
+- Highlights -60: midpoint of -50 to -70. Necessary to recover highlight detail from the extreme contrast. ✓
+- Saturation +10: modest given Recipe 1 doesn't specify a global saturation value. The color intensity comes from HSL and ColorGrade, not the global slider. ✓
+- ColorGrade Blending 40: below typical (most presets use 50-80). The STYLEGUIDE §VI explicitly recommends Blending 40 for cross-processed: "sharper transitions for the xpro contrast look." ✓
+- ColorGrade Balance -40: biased toward shadows (green cast dominates more of tonal range) — matches Recipe 1 "Set Balance toward shadows -30 to -50." ✓
+
+### Film Behavior Assessment
+- Velvia 50 xpro is described by the community as having "extreme contrast" and "green shadows." The XMP's Contrast +50 and Shadow color H160/S22 deliver this. ✓
+- Xpro reds go "muddy or shift magenta." The XMP pushes Red H+15 toward orange/magenta and desaturates to -30. ✓
+- The green shadow cast at H160 (teal-green) matches the Scanned Negative section ("Frontier scanners produce cooler, greener results"). ✓
+- Missing Clarity/Dehaze reduces the "crunch" that the community identifies as the xpro signature. This is the main fidelity loss.
+
+### Source Quality Assessment
+- Recipe 1 is the definitive community reference for Velvia 50 xpro, compiled from r/analog, r/AnalogCommunity, and Flickr film groups. ✓
+- Community quotes ("green shadows, insane contrast") corroborate the xpro signature. ✓
+- No Wayback Machine numeric slider values available — all data from community film forums and scanner workflow guides. Source quality: GOOD for film behavior characteristics, MODERATE for exact slider midpoints (variation by scan type).

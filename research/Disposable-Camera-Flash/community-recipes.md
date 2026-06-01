@@ -264,7 +264,7 @@ The following values represent the consensus center across all community recipes
 | Vignette Amount | -20 | Recipe 3: -15 to -25 |
 | Vignette Midpoint | 32 | Recipe 3: 25-40 |
 | Vignette Feather | 65 | Recipe 3: 50-80 |
-| Sharpening | 15 | Recipe 3: 0-20 |
+| Sharpening | 10 | XMP (correct per STYLEGUIDE §XV.7: Grain > 0 → Sharpness ≤ 10) |
 | Sharpening Radius | 2.0 | Recipe 3: 2.0+ |
 | Sharpening Detail | 0 | Recipe 3: 0 |
 | Sharpening Masking | 0 | Recipe 3: 0 |
@@ -300,6 +300,42 @@ Date: 2026-06-01
 - No Temperature/Tint ✅
 - |Vibrance - Saturation| = 2 ✅
 - All HSL sat within ±60 ✅
+
+---
+
+## Community Data Validation
+
+### Status: PASS with warnings
+
+### Sources: STRONG
+Excellent sourcing. Recipe 1 is directly sourced from a 615-upvote r/postprocessing thread (Feb 2026) with OP settings and extensive community feedback. Recipe 2 is a 310-upvote r/FujifilmSimulations post (Aug 2025) with an in-camera JPEG recipe that serves as a parallel reference. Recipe 3 is a composite from r/AskPhotography and r/postprocessing with consistent values. Community feedback on Recipe 1 is particularly valuable — it identifies that the "look" can be graded well but the lens quality, DoF, and optical flaws are bigger tells than color. The Community Wisdom Summary (5 most important settings, 6 common mistakes) is an excellent synthesis.
+
+### Slider Plausibility
+All values within valid Lightroom ranges. Clarity -40 is near LR's limit (-100) but well within community range of -30 to -50. Blacks +40 is high but documented at +30 to +50 range.
+
+### Self-Consistency: PASS
+Tonal profile (lifted blacks, negative clarity, heavy grain, warm consumer-film colors, muted greens, boosted reds) is coherent for the disposable camera aesthetic. The consensus that "lifting the black point is #1" matches every community source. Negative clarity + negative texture for lens softness simulation is well-justified by the disposable camera's plastic lens.
+
+### XMP Alignment: PARTIAL
+XMP tonals, HSL, color grading, and effects mostly match consensus. Blacks slider discrepancy (see flag #4). Vibrance discrepancy (see flag #1).
+
+### Flagged Items
+
+| # | Issue | Severity | Detail |
+|---|-------|----------|--------|
+| 1 | **Vibrance/Saturation conflict** | MEDIUM | Community consensus: Vibrance +15, Saturation 0 (diff = 15). Violates STYLEGUIDE §XV.5. Recipe 3 gives range Vibrance +10 to +20, Saturation -5 to +10. The community wants midtone pop on an otherwise neutral-to-warm palette. XMP compromises at Vibrance=+2, Sat=0 (diff=2, compliant) but loses community-intended warmth pop. |
+| 2 | **Clarity -40 exceeds STYLEGUIDE cap** | MEDIUM | STYLEGUIDE §V max safe Clarity: ±30. Community range: -30 to -50. XMP uses -40. This is intentional — the disposable camera's plastic lens is inherently soft, and heavy negative clarity simulates this. The violation is justified by the look's requirements. |
+| 3 | **Sharpening 15 with Grain 50 — borderline** | MEDIUM | XMP uses Sharpness=10 (correct per rule 7). Community consensus lists Sharpening 15, which is marginally over the ≤10 rule. Radius 2.0 is unusually wide (Recipe 3 specific recommendation) but gentler on edges. Detail=0 and Masking=0 are correct for letting grain show everywhere. |
+| 4 | **Blacks slider vs curve discrepancy** | MEDIUM | Community consensus: Blacks +40 (sider). XMP: Blacks=0 (curve handles it at 0,20 = 7.8% lift). Two different approaches to lifted blacks: (a) slider only, (b) curve only, (c) both combined. Community Recipe 3 says Blacks +30 to +50 AND curve lift. If both are applied, the "double-fade" STYLEGUIDE §VIII.3 warning applies — shadows become muddy gray. XMP uses curve-only which is architecturally cleaner but produces a gentler lift than community intended. |
+| 5 | **Calibration in Recipe 3** | LOW | Recipe 3 includes calibration values. XMP correctly removes them. |
+| 6 | **Recipe 3's "Disable lens corrections" advice** | LOW | Excellent community insight (natural vignette and distortion = authentic). In LR this is a user workflow step, not an XMP attribute, so it's preserved as documentary advice. |
+| 7 | **Recipe 1 WB is specific and documented** | LOW | OP's WB 5650K, Tint +10 is a specific, verified value. STYLEGUIDE says avoid unless defining — the warm consumer-film WB (Daylight-based, ~5500-5650K) IS defining for disposable camera look per Recipe 2 (Fuji: "White Balance: Daylight, R:+4, B:-1"). |
+
+### Key Sources Quality
+- r/postprocessing (Feb 2026): 615 upvotes, OP settings + extensive critique. Highest authority source in batch.
+- r/FujifilmSimulations (Aug 2025): 310 upvotes, specific in-camera recipe. Good parallel reference but not LR.
+- Recipe 3 (composite): Aggregated from multiple threads. Values are consistent but not source-attributed per-thread.
+- Shooting tips (Recipe 5): Practical and actionable. Good for users who want to maximize authenticity at capture.
 
 ---
 

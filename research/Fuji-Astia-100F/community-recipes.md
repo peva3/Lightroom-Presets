@@ -143,6 +143,8 @@ Final consensus values from cross-referencing community recipes and Fuji in-came
 | Blue Sat | -5 | Slight desaturation | Fuji in-camera reference |
 | **Grain** | Minimal (10) | Fine grain film | Fuji Astia datasheet RMS 7 |
 
+> **Note:** Values in the table above reflect community consensus before STYLEGUIDE v2.1 alignment. The actual XMP supersedes several values per grain protection rules and S-curve caps. See [STYLEGUIDE v2.1 Alignment](#styleguide-v21-alignment) below for final XMP values. Specifically: Clarity -7.5→0, Texture -5→0, Saturation -7.5→-5 (S-curve cap), Vibrance removed, calibration→removed.
+
 **Key sources:** r/fujifilm (Astia/Soft simulation), Fuji X/GFX JPEG engine parameters, r/analog community descriptions, Fuji datasheet.
 
 ## 5% Alignment Update
@@ -173,3 +175,70 @@ Applied 2026-06-01 to `Presets/Slide/Fuji Astia 100F.xmp`:
 | Saturation | -7.5 | -5 | Slide S-curve cap: keep Saturation ≤ ±5 |
 
 No other violations. Boilerplate, tone curves, color grading, calibration ban, and Blacks floor all pass.
+
+## Community Data Validation
+
+### Validity Assessment: GOOD (sparse but honest)
+
+**Overall Status**: The community-recipes.md is transparent about data scarcity — it explicitly states "Direct Lightroom recipes for Astia 100F are scarce" and "zero results for 'astia preset.'" The primary data source (Fuji's in-camera Astia/Soft JPEG simulation) is a legitimate translation reference. No bogus data was fabricated to fill gaps. This is an example of good research hygiene.
+
+### Flagged Bogus Data
+
+| # | Severity | Claim | Source | Issue |
+|---|----------|-------|--------|-------|
+| 1 | **MINOR** | "Calibration → Blue Primary: slight desaturation" | Fuji in-camera reference interpretation (community-recipes.md:82-83) | STYLEGUIDE §VII.7 bans calibration for all presets except Canon Color Science. This recommendation was correctly removed in the 5% Alignment Update. The community-recipes.md itself acknowledges Astia recipes are scarce and this is speculative. |
+| 2 | **MINOR** | "Overexpose by 1/3 to 1/2 stop for expired stock" | r/analog, r/AnalogCommunity (community-recipes.md:90) | This is legitimate expired film handling advice, not bogus. However, it belongs in a film-shooting guide, not a Lightroom preset research document — it cannot be converted to XMP slider values. Present for completeness but irrelevant to XMP. |
+| 3 | **NONE** | "Some users report a magenta/purple shift in very expired (10+ year) stock" | r/analog (community-recipes.md:91) | Legitimate observation of actual film behavior. Not translated to XMP — correctly documented as film-stock reference only. |
+
+### Slider Range Check
+
+All XMP slider values within valid ranges:
+- Contrast -17.5 (-100..100) ✓ (negative contrast for soft rendering)
+- Highlights -35 (-100..100) ✓
+- Shadows +16.3 (-100..100) ✓
+- Whites -12.5 (-100..100) ✓
+- Blacks -7.5 (-100..100) — gently lifted black point, not crushed ✓
+- HSL Saturation values: max -7.5 — well below cap ✓
+- GrainAmount 10 ✓
+
+### Self-Consistency Check
+
+| Check | Result |
+|-------|--------|
+| \|Vibrance − Saturation\| ≤ 5 | ✓ (Vibrance removed; Saturation=-5, effectively 0) |
+| GrainAmount > 0 → Sharpness=10 | ✓ (GrainAmount=10, Sharpness=10) |
+| GrainAmount > 0 → Clarity=0, Texture=0 | ✓ |
+| No Calibration values | ✓ |
+| No Temperature/Tint values | ✓ |
+| HSL Sat ≤ ±60 | ✓ (max -7.5) |
+| Blacks ≥ -30 | ✓ (-7.5) |
+
+### Sources Assessment
+
+| Source | Verifiability | Relevance |
+|--------|--------------|-----------|
+| Fuji X/GFX Astia/Soft Camera Simulation | High (Fuji product documentation) | High — direct manufacturer reference |
+| r/analog photo posts | High (archived) | Low — photo posts, not settings |
+| r/AnalogCommunity scanning comparisons | Medium | Low — hardware discussion, not LR settings |
+| r/Lightroom search results | Confirmed zero | n/a — no data exists |
+| r/fujifilm discussions | Medium | Medium — describes in-camera behavior |
+| Heidelberg drum scanner notes | Medium | Low — hardware recommendation |
+
+### Film Stock Behavior Check
+
+| Behavior | Community Claim | XMP Implementation | Verdict |
+|----------|----------------|-------------------|---------|
+| Soft, lower contrast | Contrast -17.5 | Applied ✓ | Matches Astia's gentle rendering |
+| Good highlight detail retention | Highlights -35 | Applied ✓ | Fuji Highlight Tone -1 equivalent |
+| Open shadows, not crushed | Shadows +16.3, Blacks -7.5 | Applied ✓ | Fuji Shadow Tone -1 equivalent |
+| Muted saturation (not punchy) | Saturation -5, Green Sat -7.5, Blue Sat -7.5 | Applied ✓ | Matches "Color: 0" in Fuji sim |
+| Fine grain (RMS 7) | GrainAmount 10, Size 25 | Applied ✓ | Minimal grain for fine-grain slide film |
+| Skin tone luminance | Orange Lum +15 | Applied ✓ | Portrait-friendly warm skin |
+
+### Validation Status: ✅ PASS (no flags require action; documentation corrected)
+
+This is the **best-documented preset in this batch** despite having the sparsest community data. The research document honestly reports data gaps rather than fabricating values. The XMP values are derived from Fuji's own JPEG engine parameters — a defensible translation pathway. No slider values are bogus. No community recommendations would break the preset. The calibration suggestion was correctly excluded.
+
+**Documentation fix (2026-06-01):** Added note to Community Validated Values table clarifying values reflect pre-STYLEGUIDE consensus, not final XMP state. Actual XMP: Clarity=0, Texture=0, Saturation=-5, no Vibrance, no calibration.
+
+**Note**: The contrast with the Kodachrome and Velvia research documents is instructive. Those presets have extensive community recipe data but much of it promotes broken slider combinations (calibration, Vibrance-Saturation gaps). Astia's documentation, despite fewer data points, is higher quality because it relies on a manufacturer reference rather than unaudited forum aggregation.

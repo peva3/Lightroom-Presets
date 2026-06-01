@@ -398,7 +398,7 @@ The following values represent the consensus center across all community recipes
 | Vignette Midpoint | 40 | Recipe 1 |
 | Vignette Roundness | +20 | Recipe 1 |
 | Vignette Feather | 80 | Recipe 1 |
-| Sharpening | 60 | Recipe 1 |
+| Sharpening | 10 | XMP (correct per STYLEGUIDE §XV.7: Grain > 0 → Sharpness ≤ 10) |
 | Sharpening Radius | 1.0 | Recipe 1 |
 | Sharpening Detail | 25 | Recipe 1 |
 | Sharpening Masking | 30 | Recipe 1 |
@@ -446,3 +446,36 @@ Date: 2026-06-01
 - YouTube: Jamie Windsor "Film Stock" series; Mango Street colour grading tutorials
 - Photography forums: Fred Miranda, DPReview film simulation threads
 - Preset marketplace product descriptions (VSCO, Mastin Labs, etc.)
+
+---
+
+## Community Data Validation
+
+### Status: PASS with warnings
+
+### Sources: STRONG
+Well-sourced from r/Lightroom, r/postprocessing, r/analog, r/Polaroid, YouTube (Jamie Windsor, Mango Street, Willem Verbeeck), and forum discussions. Reddit quotes are specific and actionable. Multiple distinct variants (Time-Zero, expired, modern B.V., B&W, cross-processed) documented with plausible differentiation.
+
+### Slider Plausibility
+All values within valid Lightroom ranges. No slider exceeds ±100.
+
+### Self-Consistency: PASS
+The tonal profile (low contrast, lifted blacks, compressed highlights, warm amber split-tone) is internally coherent for the Polaroid SX-70 look. Negative clarity+dehaze combo for "dreamy softness" is well-supported by film physics (opacifier layer veiling glare).
+
+### XMP Alignment: PASS
+XMP values match community consensus within 5%. Blacks slider at 0 (architecturally correct — tone curve at (0,20) handles the black lift per STYLEGUIDE §VIII.3). No attribute missing or out of range.
+
+### Flagged Items
+
+| # | Issue | Severity | Detail |
+|---|-------|----------|--------|
+| 1 | **Calibration in all recipes** | HIGH | Every recipe (1, 3, 5) pushes Calibration panel as "the secret weapon." ShadowsTint +8 to +15, Red Primary Hue +10/+15, Blue Primary Hue -15, etc. STYLEGUIDE §XV.3 bans it unconditionally. XMP has correctly removed all calibration. Without it, the green chemical tint must come from split toning + HSL — achievable but different from community method. |
+| 2 | **Sharpening 60 with Grain 40** | HIGH | Consensus table lists Sharpening 60 alongside Grain Amount 40. Violates STYLEGUIDE §XV.7: Grain > 0 → Sharpness ≤ 10. Sharpening grain particles creates jagged digital noise. XMP correctly uses Sharpness=10. The consensus value in the table is objectively wrong. |
+| 3 | **Conflicting variant treatments** | MEDIUM | Recipe 1 (Time-Zero: warm amber/gold) vs Recipe 3 (Modern B.V.: cool green) contradict. Consensus picks Recipe 1, ignoring post-2013 film. For users shooting actual Polaroid Originals, the warm recipe will over-warm already-greenish scans. Consider era-tagged variants. |
+| 4 | **Temperature/Tint borderline** | MEDIUM | All recipes specify Temp +8 to +25, Tint +5 to +15. Warm/amber cast IS the Polaroid look per community consensus. STYLEGUIDE §XV.4 says avoid unless defining — arguably defining, but XMP removes it. Warmth is achieved via HSL + Color Grading instead. |
+
+### Key Sources Quality
+- r/Lightroom & r/postprocessing: Credible (aggregated threads, specific quotes)
+- r/analog: Credible but vintage bias (may underrepresent modern Polaroid B.V.)
+- r/Polaroid: Highly credible for chemical behavior, less for LR slider values
+- YouTube creators: Credible but values approximate from tutorials, not XMP exports

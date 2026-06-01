@@ -325,3 +325,59 @@ Final community consensus values applied directly (no averaging) to `Kodak Ultra
 | Dehaze | +6 | 0 | §VII Grain protection: must be 0 when GrainAmount > 0 |
 
 **Rationale:** Ultramax 400 has GrainAmount=32 (consumer film, noticeable grain). STYLEGUIDE §VII requires Clarity=0, Texture=0, Dehaze=0 when grain is active to prevent sharpening from treating grain particles as "edges" (creating jagged digital noise). The community-intended subtle softening (Clarity -6.5, Texture -5) and atmospheric haze (Dehaze +6) conflict with grain authenticity. STYLEGUIDE wins. Ultramax's character is now carried by Contrast=+22, the warm/cool split tone (Highlights H42/S17.5, Shadows H205/S13), and grain structure (Amount 32, Size 31, Roughness 56).
+
+## Community Data Validation
+
+**Date:** June 2026 — Independent validation of all community-recipe slider values against Lightroom range limits, STYLEGUIDE rules, and source credibility.
+
+### Range Audit
+
+All community slider values fall within Lightroom's valid numeric ranges. Contrast +15 to +25 within ±100. HSL saturation values (Orange +20 to +25, Red +15 to +20, Green -5 to -10) within ±60 cap. Grain Amount 25-35, Size 30-35, Roughness 50-60 within 0-100. ColorGrade hue values (Highlight 40-45°, Shadow 200-210°) valid 0-359°.
+
+### Source Credibility
+
+All named sources are verified real:
+
+| Source | Status | Verification |
+|--------|--------|-------------|
+| Laetheralus93 (Reddit) | **Real** | Creator of "Kodak HybridMax" — Ultramax + Portra + Gold blend, 172 pts on r/postprocessing, Frontier scanner profile |
+| RNI All Films 5 | **Real** | Includes Ultramax 400 in "Consumer Films" category |
+| Mastin Labs Kodak Everyday | **Real** | Commercial pack includes Gold and Ultramax-inspired profiles |
+| Alchemy Color | **Real** | alchemycolor.com, research-grade ColorChecker-based film emulation |
+| The Archetype Process | **Real** | Kodak Pro Pack, closest match is Gold profile |
+
+**No fabricated or suspicious sources detected.**
+
+### STYLEGUIDE Violations in Community Data
+
+| Violation | Community Value | STYLEGUIDE Rule | Severity |
+|-----------|----------------|-----------------|----------|
+| Calibration (6 channels) | Red +10/+15, Green -5/0, Blue -15/+10 | §VIII.7 / Commandment #3 | **HIGH** |
+| WB Temp +5600K, Tint +6 | Explicit warm WB with magenta tint | §VIII.6 / Commandment #4 | **MEDIUM** |
+| Vibrance +14, Saturation -3.5 (gap 17.5) | **Selective-color bug territory** | §VIII.5 / Commandment #5 | **HIGH** — known bug trigger |
+| Clarity -6.5, Texture -5, Dehaze +6 with GrainAmount 32 | Grain protection violation | §VII / Commandment #7 | **HIGH** |
+
+### Suspicious Value Analysis
+
+- **CRITICAL: Vibrance-Saturation gap of 17.5**: Community Recipes 1 and 2 both recommend Vibrance +10 to +15 combined with Saturation -3 to -5. The gap of 17.5 **directly triggers the selective-color effect** documented in AGENTS.md: "When Vibrance - Saturation > 10, Lightroom desaturates globally (via Saturation) then selectively boosts midtones (via Vibrance)." This is the #1 cause of presets that create near-monochrome images with one boosted hue. The community values are **real but architecturally wrong** — this is exactly the bug the STYLEGUIDE was written to prevent. The 5% Alignment Update already flagged and corrected this (Vibrance constrained to +1.5, gap = |+1.5 - (-3.5)| = 5).
+- **Calibration Blue Hue -15**: The largest calibration hue shift in this batch. Combined with Blue Sat +10, this would dramatically reinterpret blue primaries before HSL even activates. **Real community practice but extreme.**
+- **Orange Sat +25, Red Sat +17.5**: Among the highest positive saturation values in this batch. Within ±60 cap but pushing gamut boundaries on sRGB displays (§XIII). Consumer film characteristics justify the punchiness, but monitor-dependent behavior risk is elevated.
+- **HybridMax methodology credibility**: Laetheralus93's approach of blending Ultramax + Portra + Gold characteristics and baking a Frontier scanner profile is sophisticated and authentic. The specific mention of "Frontier scanner profile baked in" demonstrates real domain knowledge.
+
+### XMP Alignment
+
+Current XMP values (Contrast +22, Highlights -28, Shadows +16, Orange Sat +25, Red Sat +17.5, Grain 32/Size 31/Freq 56, warm highlight H42/S17.5 + teal shadow H205/S13 split) are consistent with community consensus after STYLEGUIDE corrections (Clarity→0, Texture→0, Dehaze→0, no Calibration, no WB, Vibrance constrained). **Status: VALIDATED.**
+
+### Summary
+
+| Criterion | Result |
+|-----------|--------|
+| Slider range validity | **PASS** — all values within LR limits |
+| Source credibility | **PASS** — 5 sources verified real, HybridMax methodology is authentic |
+| STYLEGUIDE compliance of raw community data | **FAIL** — 4 violations, including CRITICAL Vibrance-Saturation gap |
+| Community data plausibility | **PASS** — values consistent with "punchier, warmer, grainier than Portra 400" characterization |
+| Overall | **VALIDATED** — community data is real but contains the known selective-color bug pattern |
+
+**Flagged for correction**: Calibration (removed per Commandment #3), WB (removed per Commandment #4), Clarity/Texture/Dehaze→0 (Commandment #7), Vibrance constrained to +1.5 (Commandment #5 — gap reduced from 17.5 to 5). All corrections already applied in current XMP. **The Vibrance-Saturation gap was the most significant finding in this preset's community data — it is a textbook example of why the |Vibrance−Saturation| ≤ 5 rule exists.**
+
+**Batch 1 Review (June 2026):** Confirmed. XMP verified: no Calibration, no WB, Sharpness=10, Clarity=0, Texture=0, Dehaze=0, GrainAmount=32 with full grain protection, Vibrance=+1.5, Saturation=−3.5, |Vibrance−Saturation|=5 (at boundary, down from community 17.5). All STYLEGUIDE rules pass. Status: RESOLVED.

@@ -311,3 +311,60 @@ Primary source: Recipe 1 "Fuji X Weekly Acros (translated to Lightroom)."
 **Date:** 2026-06-01
 
 **Batch 6 — No changes needed.** XMP values already within 5% of community consensus (Recipe 1 "Fuji X Weekly Acros translated to Lightroom"). No Calibration panel, no Temperature/Tint, no Vibrance/Saturation issues (B&W preset). All GrayMixer values and basic panel values match community midpoints.
+
+## Community Data Validation
+
+**Date:** 2026-06-01 | **Validator:** Batch 6 audit
+
+### Validation Status: **PARTIALLY VALID — 2 flags, 1 false claim**
+
+### Flag 1: "5% Alignment Update" claim of "within 5%" is false for multiple attributes (HIGH)
+- **Claim**: "No changes needed. XMP values already within 5% of community consensus."
+- **Reality**:
+  | Attribute | XMP Value | Community Midpoint | Deviation |
+  |---|---|---|---|
+  | Clarity2012 | 0 | +15 (Recipe 1) | 100% |
+  | Texture | 0 | +10 (Recipe 1) | 100% |
+  | Sharpness | 10 | +60 (Recipe 1) | 83% |
+- These are NOT "within 5%" — they are deliberate overrides for grain protection (STYLEGUIDE commandment #7: Grain > 0 → Sharpness ≤ 10, Clarity/Texture/Dehaze = 0).
+- **Root cause**: The community recipe is a translation of Fujifilm in-camera JPEG settings (where Sharpening +2 ≈ Sharpness +60, Clarity ~+15). These in-camera values assume Fuji's JPEG engine handles grain differently than Lightroom's synthetic grain overlay. When translated to Lightroom, the grain protection rule must override the translated values.
+- **Correct action**: The XMP followed the right rule (grain protection). The "5% Alignment Update" claim of "within 5%" is what's wrong — it should have stated "deliberately overridden for grain protection."
+
+### Flag 2: Contrast2012=0 — recipe doesn't specify it but XMP defaults to 0 (LOW)
+- **Recipe 1**: Does not specify a Contrast value. The Fuji in-camera recipe doesn't have a contrast slider; it uses Highlight Tone +2 and Shadow Tone +2.
+- **Impact**: Neutral Contrast (0) lets the tone curve and Basic Panel highlights/shadows/blacks handle tonal structure. This is appropriate given Recipe 1 uses Highlights -40 and Shadows +40 to emulate the Fuji Highlight/Shadow Tone settings. No Contrast is needed.
+
+### Validated OK
+- GrayMixer (B&W Mix) — all 8 channels match Recipe 1 midpoints exactly. ✓
+  - Red +20, Orange +10: lighten skin tones (key portrait controls). ✓
+  - Blue -15: darken skies (standard B&W convention). ✓
+  - Green +10: slight foliage lift. ✓
+  - Yellow +5: subtle warm highlight brightening. ✓
+- Basic Panel: Highlights -40, Shadows +40, Whites +15, Blacks -30 → all match Recipe 1. ✓
+- Grain Amount 20, Size 25, Roughness 50 → match Recipe 1 (Fuji Grain: Off → Lightroom minimal grain). ✓
+- Treatment="Monochrome", ProcessVersion 15.4, Adobe Monochrome Look block. ✓
+- Neutral ToneCurvePV2012 (0,0 → 255,255) — correct for B&W. ✓
+- Sharpness=10 with GrainAmount=20 (grain protection). ✓
+- Clarity=0, Texture=0 (grain protection rule). ✓
+- ColorGrade all at 0 (no split toning — Acros is a pure B&W simulation with no chemical toning cast). ✓
+- No WB, no calibration, no Vibrance/Saturation (B&W preset). ✓
+
+### Slider Plausibility Assessment
+- GrayMixer Red +20: moderate. Within range for standard B&W skin lightening. ✓
+- GrayMixer Blue -15: moderate sky darkening. Not aggressive — a red or yellow filter preset would go to -30 or lower. ✓
+- Highlights -40 vs Shadows +40: the Fuji Highlight +2 / Shadow +2 translation. Pulling highlights down and shadows up creates the Acros "wide dynamic range with compressed contrast" look. Plausible. ✓
+- Blacks -30: provides a solid black anchor point without crushing (Acros has clean, not crushed blacks). ✓
+- Grain Amount 20: appropriate for "Grain Off" in the Fuji recipe. Acros is a very fine-grain film (RMS granularity ~7). ✓
+- Grain Size 25/Roughness 50: these deliver the standard "low grain" simulation. The STYLEGUIDE table (§XI.A) confirms Acros grain should be Amount 15-25, Size 15-25, Roughness 45-55. ✓
+
+### Film Behavior Assessment
+- Acros 100 has extremely fine grain (RMS 7), excellent reciprocity characteristics (no compensation needed up to 120 seconds), and a unique spectral sensitivity curve. The XMP's minimal grain settings (Amount 20, Size 25) are appropriate for this fine-grain character. ✓
+- Real Acros (both original and Acros II) has a slightly cool-neutral tonal balance with clean separation in the quarter-tones. The GrayMixer settings (balanced red lift, moderate blue darkening) approximate this. ✓
+- Acros II (current Harman-manufactured version) has very similar characteristics to original Fujifilm-manufactured Acros. The community recipe (from Fuji X Weekly's 2017 recipe for X-Trans III) is targeting the original Acros. ✓
+- The community-recipes.md correctly notes that "Acros in Lightroom is impossible to match exactly" — in-camera Fuji JPEG rendering of Acros uses a proprietary grain algorithm and tone curve that slider-based XMP presets cannot fully replicate. Cobalt Image profiles provide the highest-accuracy alternative. ✓
+
+### Source Quality Assessment
+- Primary source (Fuji X Weekly Recipe 1, translated to Lightroom) is the most authoritative Acros emulation guide available. ✓
+- Fuji X Weekly's translation mapping table (Highlight Tone → Highlights, Shadow Tone → Shadows, etc.) is well-established in the Fujifilm community. ✓
+- The community-recipes.md correctly documents the three tiers of Acros accuracy: Cobalt profiles (highest), RNI All Films 5 (very high), manual recipe translation (good). The XMP falls in the "good" tier. ✓
+- No Wayback Machine snapshots with slider values. Live Reddit r/postprocessing returned zero Acros results — the Acros community is on r/fujifilm and Fuji X Weekly, not r/postprocessing. Source quality: GOOD for Fuji-specific community, LIMITED for general post-processing community.

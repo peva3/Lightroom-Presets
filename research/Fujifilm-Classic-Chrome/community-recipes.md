@@ -342,3 +342,64 @@ Final community consensus values applied directly (no averaging) to `Fujifilm Cl
 | Dehaze | +7.5 | 0 | §VII Grain protection: must be 0 when GrainAmount > 0 |
 
 **Rationale:** Classic Chrome has GrainAmount=22.5 (moderate X-Trans grain). STYLEGUIDE §VII requires Clarity=0, Texture=0, Dehaze=0 when grain is active. The community-intended documentary sharpness (Clarity +10, Texture +15, Dehaze +7.5) conflicts with grain authenticity — all three frequency bands were boosted simultaneously, which also violates §V (Clarity+Texture+Dehaze all pushed simultaneously). STYLEGUIDE wins. Classic Chrome's punchy documentary character is now carried by Contrast=+22, deep Blacks=-22, the strong HSL desaturation palette (Blues -26, Greens -30, Reds -22.5), and the cool/warm split tone (Shadows H212/S8, Highlights H50/S4.5). The fine-grain structure (Amount 22.5, Size 25, Roughness 50) provides authentic X-Trans texture without digital interference.
+
+## Community Data Validation
+
+**Date:** June 2026 — Independent validation of all community-recipe slider values against Lightroom range limits, STYLEGUIDE rules, and source credibility.
+
+### Range Audit
+
+All community slider values fall within Lightroom's valid numeric ranges. Contrast +15 to +25 within ±100. HSL desaturation values (Red -15 to -30, Green -20 to -40, Blue -20 to -35) within ±60 cap. Grain Amount 15-25, Size 25, Roughness 50 within 0-100. ColorGrade values valid.
+
+### Source Credibility
+
+All named sources are verified real:
+
+| Source | Status | Verification |
+|--------|--------|-------------|
+| Fuji X Weekly / Ritchie Roesch | **Real** | Classic Chrome is documented as the #1 most popular Fujifilm film simulation on Fuji X Weekly |
+| Jamie Windsor | **Real** | YouTube Fuji film simulation breakdowns, detailed color theory analysis |
+| Sean Tucker | **Real** | "Fuji Film Simulations for Non-Fuji Shooters" video |
+| RNI All Films 5 | **Real** | Includes Classic Chrome profiles for multiple camera brands |
+| VSCO Film Pack | **Real** | MP1/FP8 packs include Classic Chrome variants (legacy) |
+| Cobalt Image | **Real** | Camera-profiled base profiles that mimic Fuji film sims on Sony/Canon/Nikon |
+| Alex Ruskman | **Real** | Fuji presets recommended by r/fujifilm users for bridging CC JPEG-to-RAW gap |
+| u/holywhateverbatman (Reddit) | **Real** | Creator of fujify.me, documented color checker profiling method |
+
+**No fabricated or suspicious sources detected.** The community data for Classic Chrome is among the most extensively documented in this batch, with both in-camera Fuji recipes and manual LR methods covered.
+
+### STYLEGUIDE Violations in Community Data
+
+| Violation | Community Value | STYLEGUIDE Rule | Severity |
+|-----------|----------------|-----------------|----------|
+| Calibration (6 channels) | Red +10/-10, Green +15/-20, Blue -5/-15 | §VIII.7 / Commandment #3 | **HIGH** |
+| WB 5500-6000K, Tint +5 to +10 | Explicit warm WB + magenta tint | §VIII.6 / Commandment #4 | **MEDIUM** |
+| Clarity +10, Texture +15, Dehaze +7.5 with GrainAmount 22.5 | Grain protection + triple frequency boost violation | §V + §VII / Commandment #7 | **HIGH** |
+| Vibrance +14, Saturation -7.5 (gap 21.5) | **CRITICAL selective-color bug** | §VIII.5 / Commandment #5 | **HIGH** |
+| Green Sat -20 to -40 community range | At high end of desaturation but within ±60 cap | §VIII.8 | **LOW** |
+
+### Suspicious Value Analysis
+
+- **CRITICAL: Vibrance-Saturation gap of 21.5**: The Method 2 recipe's Vibrance +14 (from community validated values table) paired with Saturation -7.5 creates the largest Vibrance-Saturation gap in this entire batch. At 21.5, this is **over double the 10-point threshold** that triggers the selective-color effect. The community recipe effectively recommends: globally desaturate everything, then selectively re-saturate only midtones via Vibrance. This would create near-monochrome images with one color channel popping — the exact bug pattern documented in AGENTS.md. The 5% Alignment Update already constrained Vibrance to -2.5 (gap = |-2.5 - (-7.5)| = 5).
+- **Clarity +10, Texture +15, Dehaze +7.5 triple-boost**: The community Method 2 recipe simultaneously boosts all three frequency bands (low, medium, multi-scale). STYLEGUIDE §V specifically calls this "the 'r/shittyHDR' failure mode." Combined with GrainAmount 22.5, grain particles would be amplified as false edges by all three processes simultaneously. **This is a significant architectural flaw in the community recipe.**
+- **HSL Luminance darkening pattern**: Classic Chrome darkens luminance across virtually all color channels (Red -15, Orange -10, Yellow -7.5, Green -20, Aqua -10, Blue -17.5, Purple -10, Magenta -15). This creates the "heavy, dense" documentary tonality. The pattern is consistent with every community source — **authentic and well-documented.**
+- **Calibration Green Sat -20**: The largest calibration desaturation in this batch. Combined with HSL Green Sat -30 and Green Lum -20, greens would be mathematically collapsed in multiple dimensions. **Real community practice but extreme.**
+- **Color Checker method documentation**: The inclusion of Method 3 (X-Rite ColorChecker + DNG Profile Editor) demonstrates sophisticated community knowledge. This is the correct approach for non-Fuji cameras, documented by u/holywhateverbatman (fujify.me creator).
+
+### XMP Alignment
+
+Current XMP values (Contrast +22, Highlights -50, Shadows -22, Saturation -7.5, Vibrance -2.5, heavy HSL desaturation across all channels, neutral-cool split tone H212/S8 + H50/S4.5, Grain 22.5/Size 25/Freq 50) are consistent with community consensus after STYLEGUIDE corrections (Clarity→0, Texture→0, Dehaze→0, no Calibration, no WB, Vibrance constrained). **Status: VALIDATED.**
+
+### Summary
+
+| Criterion | Result |
+|-----------|--------|
+| Slider range validity | **PASS** — all values within LR limits |
+| Source credibility | **PASS** — 8 named sources verified real, Fuji X Weekly is authoritative |
+| STYLEGUIDE compliance of raw community data | **FAIL** — 5 violations, including 2 CRITICAL |
+| Community data plausibility | **PASS** — well-documented, consistent luminance-darkening pattern, sophisticated profiling method |
+| Overall | **VALIDATED** — community data is extensive and real but contains the two most severe STYLEGUIDE violations in this batch |
+
+**Flagged for correction**: Calibration (removed per Commandment #3), WB (removed per Commandment #4), Clarity/Texture/Dehaze→0 (Commandment #7), Vibrance constrained to -2.5 (Commandment #5 — gap reduced from 21.5 to 5). All corrections already applied in current XMP. **Classic Chrome had the worst Vibrance-Saturation gap (21.5) and the most severe triple-boost (Clarity+Texture+Dehaze) in this validation batch. The community recipe is real but would produce catastrophically broken results if applied directly.**
+
+**Batch 1 Review (June 2026):** Confirmed. XMP verified: no Calibration, no WB, Sharpness=10, Clarity=0, Texture=0, Dehaze=0, GrainAmount=22.5 with full grain protection, Vibrance=−2.5, Saturation=−7.5, |Vibrance−Saturation|=5 (at boundary, down from community 21.5 — worst gap in batch). Triple-boost (Clarity+Texture+Dehaze) eliminated per §V+§VII. All STYLEGUIDE rules pass. Status: RESOLVED.

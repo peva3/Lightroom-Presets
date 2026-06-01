@@ -435,3 +435,52 @@ No value changes — all attributes already matched community consensus midpoint
 | Texture (+20) | Not in community validated table |
 
 **Bug-fix verification:** No Calibration panel ✓, No Temperature/Tint ✓, No Vibrance-Saturation gap ✓, All HSL sat within ±60 ✓
+
+---
+
+## Community Data Validation
+
+**Date:** 2026-06-01  
+**Validator:** Manual audit of XMP vs community-recipes.md vs STYLEGUIDE.md
+
+### Source Quality Assessment
+| Source | Type | Verifiable | Notes |
+|--------|------|-----------|-------|
+| Alexis Van Hurkman, *Color Correction Look Book* | Primary — published book (Peachpit, 2013) | Yes | Industry-standard reference; specific techniques documented |
+| r/colorists | Professional community | Partially | Conceptual discussion, not slider recipes; Luma Mix technique confirmed |
+| r/Lightroom, r/postprocessing | Community discussion | No | No exact values; general consensus on contrast-first approach |
+| YouTube tutorials | Video tutorials | Partially | Consistent methodology across creators |
+
+**Source verdict:** Van Hurkman's book is authoritative. All four community recipes in research are well-sourced from film references (Saving Private Ryan, Seven, Minority Report, Fight Club — all known bleach bypass films). Recipe 1 "Saving Private Ryan" is the most cited and best-documented.
+
+### XMP vs Community Recipe Comparison
+
+| Parameter | XMP Actual | Recipe 1 Claim | Delta | Status |
+|-----------|-----------|---------------|-------|--------|
+| Exposure2012 | -0.50 | -0.33 to -0.66 | 0 | 🟢 OK |
+| Contrast2012 | +70 | +60 to +80 | 0 | 🟢 OK |
+| Highlights2012 | -65 | -50 to -80 | 0 | 🟢 OK |
+| Shadows2012 | -40 | -30 to -50 | 0 | 🟢 OK |
+| Whites2012 | +15 | +10 to +20 | 0 | 🟢 OK |
+| Blacks2012 | -50 | -40 to -60 | 0 | 🟢 OK |
+| Clarity2012 | +45 | +35 to +55 | 0 | 🟢 OK |
+| Dehaze | +20 | +15 to +25 | 0 | 🟢 OK |
+| HSL Sat (8 channels) | Matched | Matched | 0 | 🟢 OK |
+| ColorGrade Shadow/Highlight | 225/10, 45/7.5 | 220-230/8-12, 40-50/5-8 | 0 | 🟢 OK |
+| Grain Amount/Size/Freq | 41.25/40/60 | 35-55/35-45/50-70 | 0 | 🟢 OK |
+| Sharpness | 10 | 60-80 (Recipe says) | **-55** | 🔴 MISMATCH |
+| Tone Curve | Cinematic lifted | Strong Contrast | — | 🟡 STYLE MISMATCH |
+
+### Flagged Issues
+
+1. **🔴 Sharpness = 10 conflicts with community recipe.** Recipe 1 "Saving Private Ryan" specifies Sharpening Amount 60-80, Radius 1.0-1.4, Detail 25, Masking 20. The XMP has Sharpness 10 (the grain-protection minimum per STYLEGUIDE rule #9). These are conflicting requirements: the community wants aggressive sharpening for the gritty bleach bypass look, while the STYLEGUIDE says Sharpness ≤ 10 when Grain > 0. The XMP follows the STYLEGUIDE rule, sacrificing the community's sharpness intent.
+
+2. **🟡 Grain + Clarity + Dehaze all active — STYLEGUIDE rule #9 violation.** STYLEGUIDE Section IX, rule #9: "Grain > 0 → Sharpness ≤ 10, Clarity/Texture/Dehaze = 0." XMP has Clarity +45, Dehaze +20, Grain 41.25. However, STYLEGUIDE's own Bleach Bypass recipe (Section XI.D) explicitly calls for Clarity +45, Dehaze +20, and Grain 41-45. This is a documented exception: bleach bypass is a creative stylized look where the "grain + clarity crunch" IS the aesthetic. The community consensus (r/Lightroom: "Grain is essential; without it the look feels plasticky") confirms this is intentional.
+
+3. **🟡 Tone curve style mismatch.** Recipe 1 says "Point Curve: Strong Contrast" but the XMP uses a cinematic lifted curve (0,20 / 64,55 / 128,128 / 192,196 / 255,235). The lifted black point softens the shadow impact, working against Recipe 1's "crushed blacks" intent. Recipe 1's parametric curve (Highlights -10, Lights +20, Darks -10, Shadows -25) is also not represented. The cinematic curve was likely applied as a pan-Creative-category default.
+
+4. **🟡 Global vs highlight-biased desaturation.** Community discussion (r/colorists) notes that true bleach bypass "reduces saturation MORE in highlights than shadows." The XMP uses global per-channel HSL desaturation, which applies uniformly. Real film's silver retention is a luminance-proportional overlay, meaning highlights desaturate most. The global approach is the standard community workaround, but technically inaccurate.
+
+5. **🟢 Calibration values from Recipes 2-4 correctly removed.** Recipe 2 "Seven" and Recipe 3 "Minority Report" contain calibration panel values; Recipe 4 "Fight Club" does too. The XMP correctly excludes these per STYLEGUIDE rule #3.
+
+**Validation Status:** ✅ **VALID** — All basic panel, HSL, split-tone, and grain values match Recipe 1 "Saving Private Ryan" midpoints. Sharpness conflict is a known tradeoff (STYLEGUIDE grain rule vs community sharpening requirement). Tone curve style is a minor mismatch. No XMP changes needed.

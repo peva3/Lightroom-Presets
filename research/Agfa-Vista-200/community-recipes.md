@@ -230,7 +230,7 @@ Applied 2026-06-01. Changes to XMP:
 - **Blues floor**: SaturationAdjustmentBlue=+16 (boost, not cut) ✓
 - **No Clarity+Texture+Dehaze simultaneously**: None present ✓
 
-**Default-value attributes removed** (Simplicity rule):
+**Default-value attributes intended for removal** (Simplicity rule) — **NOTE: NOT actually removed from XMP**. The following were documented as removed but are still present:
 - LuminanceSmoothing="0" (LR default)
 - HueAdjustmentOrange="0" (LR default)
 - All ColorGrade Midtone/Highlight/Global defaults (9 attributes)
@@ -240,4 +240,57 @@ Applied 2026-06-01. Changes to XMP:
 
 **No duplicate attributes** ✓
 
-**Final state**: 23→11 meaningful attributes after cleanup. Clean compact Agfa Vista preset.
+**Final state**: 29 meaningful attributes. Full HSL detail preserved — all values within STYLEGUIDE constraints.
+
+## Community Data Validation
+
+### Range Check
+| Attribute | XMP Value | Valid Range | Status |
+|---|---|---|---|
+| Contrast2012 | +14 | ±100 | ✓ |
+| Highlights2012 | -11 | ±100 | ✓ |
+| Shadows2012 | +15 | ±100 | ✓ |
+| Whites2012 | +19 | ±100 | ✓ |
+| Blacks2012 | -15 | ±100 | ✓ |
+| Vibrance | +12 | ±100 | ✓ |
+| Saturation | +8 | ±100 | ✓ |
+| SaturationAdjustmentRed | +28 | ±100 | ✓ |
+| SaturationAdjustmentBlue | +16 | ±100 | ✓ |
+| SaturationAdjustmentYellow | +12 | ±100 | ✓ |
+| ColorGradeShadowHue | 240 | 0-359 | ✓ |
+| ColorGradeShadowSat | 5 | ±100 | ✓ |
+| GrainAmount | 21 | 0-100 | ✓ |
+| GrainSize | 30 | 0-100 | ✓ |
+| GrainFrequency | 55 | 0-100 | ✓ |
+
+### Source Authenticity
+| Source | Real? | Notes |
+|---|---|---|
+| Japan Camera Hunter | ✓ Yes | Established photography blog by Bellamy Hunt, published Agfa Vista article with comments. |
+| Photrio | ✓ Yes | Real photography forum with side-by-side comparison of Gold 200/ColorPlus 200/Vista 200/C200 (2018 thread). |
+| r/AnalogCommunity | ✓ Yes | Multiple threads on Vista 200 (May 2020, Mar 2020, Sep 2025). |
+| r/analog | ✓ Yes | Thousands of Agfa Vista 200 image posts with shooting data. |
+| Community Building Guide (Section "Building a Lightroom Preset") | ⚠ Synthetic | Explicitly framed as "a starting-point Lightroom profile" derived from documented color behaviors, not a published recipe. No specific slider-for-slider preset exists in the wild. |
+
+### Self-Consistency
+- Vibrance-Saturation gap: \|12-8\| = 4 ≤ 5 **PASS**
+- No Calibration values **PASS**
+- No Temperature/Tint **PASS**
+- Grain > 0 → Sharpness=10, no Clarity/Texture/Dehaze **PASS**
+- HSL Saturation caps: all within ±60 (worst: Red Sat +28) **PASS**
+- Grain Amount 21 ≤ 60 **PASS**
+
+### Film Stock Consistency
+All values align with Agfa Vista 200's known characteristics:
+- Strong red saturation (+28) — the single most documented Vista trait ("poppy reds", "legendary for red rendition")
+- Vibrant consumer primaries: Blue +16, Yellow +12, Red +28
+- Consumer contrast (+14) — higher than pro films, lower than aggressive
+- Lifted consumer shadows (+15) — not true black
+- Visible consumer grain (21/30/55) — "slightly more grain than C200"
+- Blue shadow color grade (240°) — alternative to the magenta counter-green option; both valid
+
+### Flagged Values
+- **SaturationAdjustmentRed +28 vs community +25**: The XMP value is 12% above the community range midpoint of +25. The fuzzy-merge update considered this within ±20% and averaged. While slightly above the stated community range, Agfa Vista 200 is universally described as having "poppy" reds that "blast" primary colors — an elevated red saturation is arguably the defining characteristic.
+
+### Verdict
+**VALIDATED** — Sources are credible (Japan Camera Hunter, Photrio, r/AnalogCommunity). The data is synthesized from documented color behaviors rather than a direct emulation recipe, but this is acknowledged in the research. Values are internally consistent and match known film stock behavior. No bogus data detected.

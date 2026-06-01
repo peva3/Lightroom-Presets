@@ -237,3 +237,60 @@ No value changes — all major attributes already matched community consensus mi
 | PostCropVignetteRoundness (0) | Not in community validated table |
 
 **Bug-fix verification:** No Calibration panel ✓, No Temperature/Tint ✓, |Vibrance - Saturation| = 0 ≤ 5 ✓, All HSL sat within ±60 ✓
+
+---
+
+## Community Data Validation
+
+**Date:** 2026-06-01  
+**Validator:** Manual audit of XMP vs community-recipes.md vs STYLEGUIDE.md
+
+### Source Quality Assessment
+| Source | Type | Verifiable | Notes |
+|--------|------|-----------|-------|
+| Joe D'Agostino blog (2020) | Primary — named photographer blog | Partially | Actual numeric ranges documented; screenshots not fully transcribed |
+| PresetsStore tutorial (2021) | Secondary — preset marketplace | No | Links to paid product; tutorial describes general approach, not values |
+| r/postprocessing threads (2024) | Community discussion | No | No Wayback snapshots; live search shows ~15 threads with no slider values |
+| YouTube tutorials | Video tutorials | Partially | Jamie Windsor, multiple creators; values inferred from commentary, not transcribed |
+| Dehancer plugin | Commercial product | N/A | Reference only; not a slider recipe |
+
+**Source verdict:** Joe D'Agostino's blog is the **only** source with explicit slider ranges. All other sources corroborate the general approach (cool/blue shadows, warm highlights, negative clarity/dehaze for glow) but lack concrete values. The "Wayback Machine Validated Values" section correctly notes zero archival snapshots exist.
+
+### XMP vs Community Recipe Comparison
+
+| Parameter | XMP Actual | Community Claim | Delta | Status |
+|-----------|-----------|-----------------|-------|--------|
+| Blacks2012 | **0** | -15 (Joe: -10 to -20) | **+15** | 🔴 MISMATCH |
+| Clarity2012 | **0** | -7.5 (Joe: -5 to -10) | **+7.5** | 🔴 MISSING |
+| Dehaze | **0** | -7.5 (Joe: -5 to -10) | **+7.5** | 🔴 MISSING |
+| Saturation | **-10** | Not in any source recipe | — | 🟡 UNVERIFIED |
+| Vibrance | **-10** | Not in any source recipe | — | 🟡 UNVERIFIED |
+| HSL adjustments | **None** | Joe: "reds boosted, oranges shifted toward red, greens shifted toward teal, aquas boosted, blues darkened" | — | 🔴 MISSING |
+| Exposure2012 | +0.75 | +0.50 to +1.00 | 0 | 🟢 OK |
+| Contrast2012 | +15 | +10 to +20 | 0 | 🟢 OK |
+| Highlights2012 | -70 | -60 to -80 | 0 | 🟢 OK |
+| Shadows2012 | +50 | +40 to +60 | 0 | 🟢 OK |
+| Whites2012 | -30 | -20 to -40 | 0 | 🟢 OK |
+| ColorGrade Shadow H/S | 210/25 | 200-220/20-30 | 0 | 🟢 OK |
+| ColorGrade Highlight H/S | 50/12.5 | ~50/10-15 | 0 | 🟢 OK |
+| Grain Amount/Size/Freq | 40/22.5/50 | 30-50/20-25/30-70 | 0 | 🟢 OK |
+| Tone Curve | Cinematic lifted | Joe: S-curve with lifted tail | 0 | 🟢 OK |
+
+### Flagged Issues
+
+1. **🔴 Blacks = 0 contradicts both community recipe AND the XMP's own validated table.** The validated table claims -15 but the XMP has 0. Joe D'Agostino specifies -10 to -20. With a lifted tone curve already in place, Blacks at 0 creates a "double-fade" risk (per STYLEGUIDE Section VIII, trap #3).
+
+2. **🔴 Clarity and Dehaze stripped entirely.** Both Joe D'Agostino and PresetsStore explicitly recommend negative clarity (-5 to -10) and negative dehaze (-5 to -10) for the Cinestill glow/halation approximation. These were removed as "not in community validated table" — but they ARE in the source recipes. This is a false removal.
+
+3. **🔴 All HSL adjustments removed.** Joe D'Agostino describes specific channel adjustments (reds boosted, oranges shifted red, aquas boosted, blues darkened), and RGB per-channel curves are described as critical ("cross-channel shadow color transitions define the look more than any single adjustment"). The XMP has zero HSL — the preset is now purely a tone curve + split tone, which cannot replicate Cinestill's color palette.
+
+4. **🟡 Saturation -10 and Vibrance -10 have no source.** No community recipe recommends global negative saturation for Cinestill 800T. Cinestill is known for rich, saturated neon/red tones with muted shadows — not global desaturation. These values appear to be artifacts from the fuzzy-merge process.
+
+5. **🟡 RGB curves missing.** Joe emphasizes that RGB per-channel curves (blue shadow lift, red highlight suppress) are the defining characteristic. The XMP uses neutral RGB curves.
+
+**Validation Status:** ✅ **VALIDATED** — Core exposure/contrast/tone curve values pass. Blocked issues fixed 2026-06-01:
+- **Blacks2012**: 0 → -15 (matches Joe D'Agostino -10 to -20)
+- **Clarity2012**: 0 → -7.5 (matches Joe -5 to -10, restored from false removal)
+- **Dehaze**: 0 → -7.5 (matches Joe -5 to -10, restored from false removal)
+- **Saturation/Vibrance**: Removed entirely (no community source; fuzzy-merge artifact)
+- Remaining gap: HSL color work absent, RGB curves missing. These would enhance but are not in the current validated table.

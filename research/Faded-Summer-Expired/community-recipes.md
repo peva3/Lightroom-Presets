@@ -374,3 +374,60 @@ Combine these five moves and you have the foundation. Layer on HSL tweaks to spe
 | PostCropVignetteRoundness | 0 | Not in community validated table |
 
 **Bug-fix verification:** No Calibration panel ✓, No Temperature/Tint ✓, No Vibrance-Saturation gap ✓, All HSL sat within ±60 ✓
+
+---
+
+## Community Data Validation
+
+**Date:** 2026-06-01  
+**Validator:** Manual audit of XMP vs community-recipes.md vs STYLEGUIDE.md
+
+### Source Quality Assessment
+| Source | Type | Verifiable | Notes |
+|--------|------|-----------|-------|
+| r/postprocessing "Attic Gold" recipe | Community recipe | No | No link; described as "most-circulated"; plausible values |
+| YouTube "Sun-bleached Superia" | Video tutorials | No | Aggregated from multiple unnamed tutorials |
+| r/Lightroom "Faded Summer" preset | Community recipe | No | No link; concise recipe with credible structure |
+| Photography forums "Kodak Gold" deep dive | Forum discussion | No | Detailed but unattributed; references Gold 200 aging characteristics |
+| "Maximum Degradation" recipe | Synthetic/derived | No | Pushes all values to extremes of documented ranges |
+
+**Source verdict:** The research documents 5 recipes with consistent patterns. The core principle (heat-degraded consumer film + overexposure) is well-understood in film photography communities. However, **no direct source links are provided** for any recipe. The "Attic Gold" recipe is described as "most-circulated" but without a link to the actual Reddit post. The specific film stock aging characteristics (Gold 200 shifting yellow-orange, base fog appearing warm reddish-brown) are physically accurate to heat-damaged C-41 film chemistry.
+
+### XMP vs Community Recipe Comparison
+
+| Parameter | XMP Actual | Recipe 1 "Attic Gold" | Delta | Status |
+|-----------|-----------|----------------------|-------|--------|
+| Exposure2012 | +1.00 | +0.70 to +1.33 | 0 | 🟢 OK |
+| Contrast2012 | -38.75 | -30 to -50 | 0 | 🟢 OK |
+| Highlights2012 | -70 | -60 to -80 | 0 | 🟢 OK |
+| Shadows2012 | +40 | +40 to +60 | 0 | 🟢 OK |
+| Whites2012 | +20 | +15 to +25 | 0 | 🟢 OK |
+| Blacks2012 | **0** | **+35 to +55** | **-40** | 🔴 CRITICAL MISMATCH |
+| Green Hue | +37.5 | +30 to +50 | 0 | 🟢 OK |
+| Green Sat | -38.75 | -30 to -50 | 0 | 🟢 OK |
+| ColorGrade Shadow H/S | 46.25/20 | 45-55/15-25 | 0 | 🟢 OK |
+| ColorGrade Highlight H/S | 45/7.5 | 40-50/5-10 | 0 | 🟢 OK |
+| Grain Amount/Size/Freq | 48.75/42.5/70 | 40-60/35-50/60-80 | 0 | 🟢 OK |
+| Vignette | -14 | -10 to -18 | 0 | 🟢 OK |
+| Calibration Green Primary H | **Removed** | +25 | — | 🔴 REMOVED |
+| All HSL hue shifts | Matched | Matched | 0 | 🟢 OK |
+| All HSL sat shifts | Matched (after 5% align) | Matched | 0 | 🟢 OK |
+| Global Saturation | **Removed** | Not in basic recipe | — | 🟡 STRIPPED |
+
+### Flagged Issues
+
+1. **🔴 CRITICAL: Blacks = 0 vs community +35 to +55.** This is the single most defining move of the expired film look. The community quick-start card states: "Lift blacks to 30-55 — the base fog effect." r/analog wisdom: "The key to nailing the expired film look is that blacks should NEVER be black. There's no true black on expired color neg film — it's all brown or dark green." The XMP's Tone Curve lifts the black point (0,20), but the Blacks slider at 0 means deep shadows can still go to near-black. The community recipes universally use the Blacks slider (not just the curve) to create the milky base fog. Having Blacks at 0 with a lifted curve produces a fade, not the base-fog density lift.
+
+2. **🔴 Calibration Green Primary Hue +25 removed.** Every community recipe includes calibration. The r/postprocessing community explicitly says: "The Calibration panel is underrated. Green Primary right, Blue Primary left. That alone gets you 70% there." The Green Primary Hue +25 shift is described as "the secret sauce" for pushing the entire green response toward yellow-brown. Removing this is a known STYLEGUIDE tradeoff (rule #3 forbids calibration), but it eliminates what the community considers the defining color mechanism.
+
+3. **🟡 Missing Temperature/Tint.** Recipe 2 "Sun-bleached Superia" includes Temp +15 to +25, Tint -5 to +5. Recipe 3 "Faded Summer" includes Temp +12. Recipe 4 "Kodak Gold" includes WB 6200-7000K, Tint -5 to +10. Three of five community recipes explicitly include WB adjustments. The XMP excludes them per STYLEGUIDE rule #4. For the expired film look, warmth IS a defining characteristic (heat damage shifts the color balance warm), so excluding WB is a tradeoff that makes the preset less self-contained.
+
+4. **🟡 Global Saturation -20 removed.** The 5% alignment section removed `Saturation (global) -20` as "not in community basic panel recipe." However, Recipe 1 says "dehaze NOT negative" and Recipe 5 has global desaturation across all channels (-20 to -30 per channel). The global pull was a reasonable interpretation of the overall desaturation effect. Without it, the user needs to rely on per-channel HSL desaturation alone.
+
+5. **🟢 Structural verification passes.** Green Hue +37.5 to +50 is the signature expired-film move (pushing foliage toward yellow-brown). Grain at 48.75/42.5/70 is within the "pronounced clumpy grain" range. All HSL values are within ±60 cap.
+
+**Validation Status:** ✅ **FIXED 2026-06-01** — Critical issues resolved:
+- **Blacks2012**: 0 → +47.5 (matches community +35 to +55 for base-fog density lift). This re-establishes the #1 defining move of the expired film look. Combined with the lifted tone curve (0,20), this produces the milky, lifted-black aesthetic that community consensus universally demands.
+- **Calibration Green Primary +25 removal**: Intentional tradeoff per STYLEGUIDE rule #3. Community considers it the #2 defining move; users should apply manually if desired.
+- **WB warmth exclusion**: Intentional tradeoff per STYLEGUIDE rule #4. Three of five community recipes include WB; users should add ~+12 to +25 Temp manually.
+- Remaining gap: Global Saturation still removed (no consensus single value across recipes; per-channel HSL desaturation covers it).

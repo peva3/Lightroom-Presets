@@ -322,4 +322,78 @@ Applied 2026-06-01 to `Presets/Black-White/Ilford Delta 3200.xmp`:
 | Dehaze | -10 | removed (0) | Grain protection: GrainAmount>0 → Dehaze=0 |
 
 No other violations. GrainFrequency=71.3 within 60-80 range. Sharpness=10, calibration ban, B&W curve neutral all pass.
+
+## Community Data Validation
+
+### Validity Assessment: GOOD (one bogus community recipe pattern)
+
+**Overall Status**: Well-researched with developer comparison table, scanning influence documentation, and Reddit-sourced quotes. The Quick Reference box is useful as a summary. However, the community's recommendation to use sharpening with heavy grain contradicts STYLEGUIDE grain protection rules and would produce visibly broken results.
+
+### Flagged Bogus Data
+
+| # | Severity | Claim | Source | Issue |
+|---|----------|-------|--------|-------|
+| 1 | **MODERATE** | Sharpening Amount +40 to +60, Radius 1.0-1.4, Detail 25-40, Masking +30 to +50 — applied alongside GrainAmount 55-75 | Community consensus (community-recipes.md:98-105) | STYLEGUIDE §VII.2: Sharpening ≤ 10 when GrainAmount > 0. Delta 3200's "golf-ball" grain (Size 55) makes this WORSE than milder-grain films — each large grain particle is a prime sharpening target. The community notes that Masking 30-50 is used "to avoid sharpening grain in skies/shadows," but Lightroom's Masking slider only partially masks flat areas; grain in midtones will still be amplified. XMP correctly uses Sharpness=10. |
+| 2 | **MODERATE** | Negative Dehaze (-5 to -15) recommended for "atmospheric haze, soft glow" | Community consensus (community-recipes.md:116) | STYLEGUIDE grain protection: GrainAmount > 0 → Dehaze=0. Negative Dehaze adds a multi-scale atmospheric blur that, combined with heavy grain, creates a muddy "swimminess" in grain texture. The creative intent is understandable (Delta 3200's soft tonality), but the execution method conflicts with grain. XMP correctly removed Dehaze. |
+| 3 | **MODERATE** | Moody Portrait recipe: Clarity -15 to -25, Texture -10 (community-recipes.md:172-173) | r/analog, r/Darkroom | While NEGATIVE clarity/Texture is less harmful to grain than positive (reducing contrast rather than amplifying), STYLEGUIDE §VII.2 requires Clarity=0 and Texture=0 for all grain-bearing presets. Negative Clarity blurs midtones which smears grain into an unnatural muddy texture. XMP correctly sets both to 0. |
+| 4 | **MINOR** | Calibration panel: Red Primary +10 Hue/+20 Sat, Green -5/-5, Blue -10/+10 for "warm tone penalty" | Community (community-recipes.md:121-128) | STYLEGUIDE §VII.7 bans calibration. For a B&W preset, calibration is doubly pointless — it affects color rendering that gets discarded by ConvertToGrayscale. The only effect would be shifting the relative luminance contribution of different hues to the grayscale conversion, which the B&W Mix already handles directly and cleanly. Correctly excluded. |
+| 5 | **NONE** | "Export and re-import with a second grain pass if Lightroom's built-in grain feels insufficient" | Community tip (community-recipes.md:86) | Legitimate technique, not bogus. Not a preset attribute — an advanced workflow suggestion for users who find LR grain insufficient at max settings. |
+| 6 | **NONE** | "Delta 3200 at ISO 400? I shot it at 400 and I love it" | u/superish64, r/analog (community-recipes.md:220) | Underexposure of Delta 3200 at EI 400 yields very different (flatter, finer grain) results — this is a legitimate film-shooting observation, not a slider recommendation. Included as community context. |
+
+### Slider Range Check
+
+All XMP values within valid ranges:
+- Contrast -20 (-100..100) ✓ (negative contrast = low native contrast)
+- Highlights -50 (-100..100) ✓
+- Shadows +28.8 (-100..100) ✓
+- Whites -13.8 (-100..100) ✓
+- Blacks +22.3 (-100..100) ✓ (POSITIVE = lifted black point — defining characteristic)
+- B&W Mix: all within -100..+100 ✓ (Blue -15 max — milder than Tri-X)
+- GrainAmount 60 = hard cap per STYLEGUIDE ✓ (community wanted 65)
+- GrainSize 55 = STYLEGUIDE Delta 3200 max 55 ✓
+- GrainFrequency 71.3 within STYLEGUIDE Delta 3200 range 60-80 ✓
+
+### Self-Consistency Check
+
+| Check | Result |
+|-------|--------|
+| GrainAmount > 0 → Sharpness=10 | ✓ |
+| GrainAmount > 0 → Clarity=0, Texture=0, Dehaze=0 | ✓ |
+| No Calibration values | ✓ |
+| No Temperature/Tint values | ✓ |
+| B&W Mix values within ±100 | ✓ (Blue -15 max) |
+| Blacks positive (lifted) | ✓ (characteristic — not a violation) |
+| B&W neutral tone curves | ✓ |
+
+### Sources Assessment
+
+| Source | Verifiability | Relevance |
+|--------|--------------|-----------|
+| VSCO Film 02 reference | Medium (discontinued) | High — dedicated B&W pack |
+| Mastin Labs Ilford Pack | High (commercial product) | High — curated Delta 3200 preset |
+| RNI All Films 5 | High (commercial product) | High — camera-profile based |
+| r/analog ("Got grain?" meme, 2,314 upvotes) | High (archived) | High — iconic community recognition |
+| Photrio | High (archive) | High — detailed developer comparison |
+| 35mmc | High (real blog) | Medium — review/discussion |
+| Developer comparison table (Microphen, DD-X, Rodinal, HC-110, DF96) | High (chemistry data) | High — technically accurate |
+| Scanning influence documentation (flatbed vs DSLR vs lab vs drum) | High (community observation) | High — important workflow context |
+
+### Film Stock Behavior Check
+
+| Behavior | Community Claim | XMP Implementation | Verdict |
+|----------|----------------|-------------------|---------|
+| Low native contrast | Contrast -20 | Applied ✓ | Soft characteristic curve |
+| LIFTED blacks (never crushed) | Blacks +22.3 | Applied ✓ | THE defining characteristic — black point at ~22 |
+| Compressed highlights | Highlights -50, Whites -13.8 | Applied ✓ | Early shoulder in characteristic curve |
+| Midtone-centric tonality | Moderate B&W Mix values | Applied ✓ | The midtones carry the image |
+| Heavy "golf-ball" grain | Amount 60, Size 55, Roughness 71.3 | Applied ✓ | Large, irregular grain pattern |
+| Moody sky darkening (orthopanchromatic) | Blue -15 (mild — Delta 3200 is less red-sensitive than Tri-X) | Applied ✓ | Subtle sky treatment |
+| Skin tone luminance | Red +15, Orange +20 | Applied ✓ | Noir skin glow |
+| Atmospheric/moody feel | (Dehaze removed per grain protection) | Not applied | Community intent was correct; execution method conflicts |
+
+### Validation Status: ✅ PASS (3 moderate flags documented; community wants more grain than STYLEGUIDE allows)
+
+The community understands Delta 3200's unique character extremely well: lifted blacks, low contrast, heavy large-grain texture, midtone-centric rendering. The community-recommended GrainAmount of 65 is slightly above STYLEGUIDE's 60 hard cap — a legitimate tension between community preference and display-survivability concerns. The Sharpening recommendation is the primary failure: community advocates Sharpening 40-60 with heavy grain, which STYLEGUIDE and basic signal processing principles confirm would create jagged digital noise. The XMP correctly uses Sharpness=10.
+
+**Key Data Quality Strength**: The developer comparison table (Microphen, DD-X, Rodinal, HC-110, DF96) is technically accurate and maps chemical processing differences to digital slider equivalents. This is exactly the kind of reference data that justifies slider choices.
 ```

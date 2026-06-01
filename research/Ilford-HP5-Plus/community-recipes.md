@@ -438,3 +438,76 @@ Applied 2026-06-01 to `Presets/Black-White/Ilford HP5 Plus.xmp`:
 | GrainFrequency | 46.3 | 50 | STYLEGUIDE HP5 grain table: Roughness 50-60 |
 
 No other violations. GrainAmount=36.3 within 30-45 range, Size=27.5 within 20-30 range. Sharpness=10, calibration ban, B&W curve neutral all pass.
+
+## Community Data Validation
+
+### Validity Assessment: EXCELLENT
+
+**Overall Status**: The most well-structured and best-sourced B&W research document in the project. Six distinct recipes cover different development chemistries and use cases. The HP5 vs Tri-X comparison, color filter equivalents table, and EI behavior chart are high-value reference material. Community slider recommendations are moderate and well-justified. No critical bogus data found.
+
+### Flagged Bogus Data
+
+| # | Severity | Claim | Source | Issue |
+|---|----------|-------|--------|-------|
+| 1 | **MINOR** | Recipe 1 "British Journalist": Clarity +10, and Recipe 2 "Pushed Reporter": Clarity +20, Dehaze +5 | r/analog, YouTube (community-recipes.md:31, 83-84) | STYLEGUIDE grain protection: GrainAmount > 0 → Clarity=0, Dehaze=0. At HP5's moderate grain levels (Amount 35-55), the clash is less severe than with Tri-X or Delta 3200, but the rule applies. XMP correctly sets Clarity=0, Dehaze not present (=0). This community recommendation is acceptable for grain-free use but flagged for grain-preset context. |
+| 2 | **MINOR** | Recipe 4 "Silver Gelatin Print": Clarity +15 with grain | r/Darkroom (community-recipes.md:184) | Same issue as above — mild conflict with grain protection. Minor because HP5's grain is relatively fine and the Clarity value is modest. |
+| 3 | **NONE** | "HP5 has a slight red/warm bias in most scanners — green channel alone often gives the cleanest mono conversion" | Negative Lab Pro community (community-recipes.md:365) | Legitimate scanning observation from NLP users. Not a preset recommendation — useful background for understanding scanner-native tonality. |
+| 4 | **NONE** | Recipe 5 "HP5 Scan" with all B&W Mix channels at 0 | r/Lightroom, NLP users (community-recipes.md:243-246) | This is documented as a FLAT LAB SCAN BASE for further editing, not as a finished preset. Clearly labeled. Not bogus — intentional flat transfer. |
+| 5 | **NONE** | Recipe 6 "Yellow Filter": Yellow +25, Green +5 (aggressive yellow channel lift) | r/analog (community-recipes.md:279-282) | Matches the documented K2 yellow filter equivalent. Physically accurate translation of filter behavior to B&W Mix sliders. |
+
+### Slider Range Check
+
+All XMP values within valid ranges:
+- Contrast +7.5 (0..100) ✓ (softer than Tri-X)
+- Highlights -23.8 (-100..100) ✓
+- Shadows +16.3 (-100..100) ✓
+- Whites +5 (-100..100) ✓
+- Blacks -11.3 (-100..100) ✓ (soft black point — characteristic)
+- B&W Mix: all values within -100..+100 ✓ (Blue -18.8 max)
+- GrainAmount 36.3 ≤ STYLEGUIDE HP5 max 45 ✓
+- GrainSize 27.5 within STYLEGUIDE HP5 range 20-30 ✓
+- GrainFrequency 50 at STYLEGUIDE HP5 minimum 50 ✓
+
+### Self-Consistency Check
+
+| Check | Result |
+|-------|--------|
+| GrainAmount > 0 → Sharpness=10 | ✓ |
+| GrainAmount > 0 → Clarity=0, Texture=0 | ✓ |
+| No Calibration values | ✓ |
+| No Temperature/Tint values | ✓ |
+| B&W Mix values within ±100 | ✓ (Blue -18.8 max — mild compared to Tri-X at -40) |
+| Blacks ≥ -30 | ✓ (-11.3) |
+| B&W neutral tone curves | ✓ |
+| Split toning present (50/5 warm highlight, 230/8 cool shadow) | ✓ (matches Recipe 1 "British Journalist") |
+
+### Sources Assessment
+
+| Source | Verifiability | Relevance |
+|--------|--------------|-----------|
+| r/analog Recipe 1 ("British Journalist") | High (archived) | High — well-documented reference recipe |
+| YouTube: Jamie Windsor | High (real creator, 800K+) | High — film emulation expertise |
+| YouTube: Kyle McDougall | High (real creator) | High — HP5-focused content |
+| YouTube: Matt Day | High (real creator) | High — pushed HP5 expertise |
+| r/Darkroom | Medium | High — darkroom printing perspective |
+| Negative Lab Pro community | Medium | Medium — scanning/editing workflow |
+| Flickr HP5 group | High | Medium — visual reference |
+| Filter equivalents table | High (optics) | High — physically accurate |
+
+### Film Stock Behavior Check
+
+| Behavior | Community Claim | XMP Implementation | Verdict |
+|----------|----------------|-------------------|---------|
+| Softer contrast than Tri-X | Contrast +7.5 | Applied ✓ | HP5's gentler characteristic curve |
+| Mid-tone richness | Balanced B&W Mix (moderate values) | Applied ✓ | HP5's signature gradation |
+| Moderate grain, tighter than Tri-X | Amount 36.3, Size 27.5, Roughness 50 | Applied ✓ | Cleaner grain structure |
+| Slightly cool to neutral tone | Shadow Hue 230, Sat 8 | Applied ✓ | Cool black ink tone from Recipe 1 |
+| Warm paper base | Highlight Hue 50, Sat 5 | Applied ✓ | Split-tone warmth from Recipe 1 |
+| Shadow detail preservation | Blacks -11.3 (gentle) | Applied ✓ | HP5 doesn't crush blacks like Tri-X |
+| Yellow filter variant documented | Recipe 6 (Yellow +25, Blue -35) | Not in base XMP — variant only | Correctly separated as distinct recipe |
+
+### Validation Status: ✅ PASS (no action required)
+
+Outstanding data quality. The six-recipe structure is well-organized. The HP5 vs Tri-X comparison is accurate. The filter equivalents table is physically correct. The community's preference for moderate values (Contrast +7.5 vs Tri-X's +35) matches actual film behavior. No bogus slider recommendations. Mild Clarity conflicts with grain protection are documented. This is the quality benchmark for all B&W research documents.
+
+**Note**: The community-recipes.md correctly identifies that HP5 scans flatter than Tri-X (more latitude for digital editing) — this is consistent with the XMP having Blacks at only -11.3 (vs -30 for Tri-X). The XMP captures the relationship correctly: HP5 is the gentler, more flexible film.

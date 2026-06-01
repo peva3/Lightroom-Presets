@@ -337,3 +337,78 @@ Applied 2026-06-01 to `Presets/Black-White/Ricoh High-Contrast Monochrome.xmp`:
 | Dehaze | +13.8 | 0 | Grain protection: GrainAmount>0 → Dehaze=0 |
 
 No other violations. GrainAmount=58.8 ≤ 60. Texture=0 already compliant. Sharpness=10, calibration ban, B&W curve neutral all pass.
+
+## Community Data Validation
+
+### Validity Assessment: GOOD (best-sourced B&W preset in this batch)
+
+**Overall Status**: Uniquely well-sourced among the 8 presets — grounded in Ricoh's actual in-camera JPEG engine parameters (documented by Ritchie's Ricoh Recipes and GR Recipe community) rather than forum speculation. The in-camera JPEG parameter translation to Lightroom is defensible. However, Approach 3 (Moriyama-style) pushes extreme slider values that exceed STYLEGUIDE safety caps.
+
+### Flagged Bogus Data
+
+| # | Severity | Claim | Source | Issue |
+|---|----------|-------|--------|-------|
+| 1 | **CRITICAL** | Approach 3 "Aggressive HC B&W": Blacks -80, Shadows -80, Contrast +100, Blue -80 in B&W Mix | Moriyama-style recipe (community-recipes.md:131-138) | Blacks -80 far exceeds STYLEGUIDE's -30 floor (§XIII) — would render as a flat black rectangle on most displays. Shadows -80 with Contrast +100 creates extreme tonal compression. This recipe is labeled as an aesthetic choice ("Moriyama-style"), but users should understand it will fail on most images. The XMP correctly caps Blacks at -30. |
+| 2 | **MODERATE** | Approach 3: Sharpening 60/1.2/40/20 with GrainAmount 80 | Moriyama-style (community-recipes.md:168-172) | STYLEGUIDE §VII.2: Sharpening ≤ 10 when GrainAmount > 0. Sharpening 60 with GrainAmount 80 and Clarity +60 is a triple violation of grain protection. Every grain particle would be amplified with haloing. XMP correctly uses Sharpness=10, Clarity=0. |
+| 3 | **MODERATE** | Approach 3: Clarity +60, Dehaze +30, Texture +30 — all three maxed simultaneously | Moriyama-style (community-recipes.md:154-156) | STYLEGUIDE §V: boosting all three frequency bands simultaneously creates the "over-processed" failure mode (the r/shittyHDR look). The recipe's Clarity +60 alone exceeds STYLEGUIDE's ±30 safe max for Clarity. Labeled as extreme aesthetic — users should be warned. |
+| 4 | **MODERATE** | Approach 4 "GR II BW MAX": Blue -90 in B&W Mix | GR II replication (community-recipes.md:202) | Blue -90 is technically within slider range (-100..+100) but extreme. Combined with Aqua -70, Green -50, this nukes the cool end of the spectrum. Legitimate for BW-MAX replication, but full channel collapse is measured in single-digit increments at this range. |
+| 5 | **MINOR** | PerfeFilm grain recommendation: Amount 100, Roughness 100 | perfefilm.com (community-recipes.md:28-31) | GrainAmount 100 exceeds STYLEGUIDE's ≤ 60 cap (§XIII: "Grain Amount > 60 looks like compression artifacts on some panels"). This is PerfeFilm's recommendation for OTHER cameras using their profile — their profile handles grain differently than LR native grain. The XMP uses 58.8 (just under cap). |
+| 6 | **NONE** | "No free, perfect solution exists" — Ricoh's refusal to ship Adobe profiles | Community consensus (community-recipes.md:261) | Accurate and honest assessment. Not bogus — this is the fundamental constraint the community worked around. |
+| 7 | **NONE** | In-camera JPEG engine applies grain BEFORE contrast curve (impossible to replicate in LR) | Technical observation (community-recipes.md:263) | Technically accurate. Lightroom's grain is post-tone-curve (pipeline step 10). This is an honest limitation acknowledgment that increases the document's credibility. |
+
+### Slider Range Check
+
+All XMP values within valid ranges:
+- Contrast +80 (0..100) ✓ (high but valid for HC B&W)
+- Highlights -60 (-100..100) ✓
+- Shadows -46.3 (-100..100) ✓
+- Blacks -30 (at floor) ✓
+- B&W Mix: max Blue -60 — well within ±100 ✓
+- GrainAmount 58.8 ≤ hard cap 60 ✓
+- GrainSize 30 ✓
+- GrainFrequency 66.3 ✓
+
+### Self-Consistency Check
+
+| Check | Result |
+|-------|--------|
+| GrainAmount > 0 → Sharpness=10 | ✓ |
+| GrainAmount > 0 → Clarity=0, Texture=0, Dehaze=0 | ✓ |
+| No Calibration values | ✓ |
+| No Temperature/Tint values | ✓ |
+| B&W Mix values within ±100 | ✓ (Blue -60 max) |
+| Blacks ≥ -30 | ✓ |
+| B&W neutral tone curves | ✓ |
+
+### Sources Assessment
+
+| Source | Verifiability | Relevance |
+|--------|--------------|-----------|
+| Ritchie's Ricoh Recipes (ricohrecipes.com) | High (real website) | High — definitive GR recipe community |
+| GR Recipe (grrecipe.com) | High (real website) | High — EXIF decoder tool validates settings |
+| PerfeFilm (perfefilm.com) | High (commercial product) | High — paid profiles with side-by-side comparisons |
+| Aditya Ardiya's Blog | Medium | Medium — individual recipe |
+| Michael Kirchherr | Medium | Medium — recipe comparisons |
+| In-camera JPEG parameters table | High (from Ricoh camera) | High — direct reference data |
+
+### Film Stock / Camera Behavior Check
+
+Note: This is a digital camera profile emulation, not a film stock. Validation criteria are different — accuracy is measured against the Ricoh JPEG engine, not a chemical film.
+
+| Behavior | In-Camera Reference (GR III HC B&W) | XMP Implementation | Verdict |
+|----------|-------------------------------------|-------------------|---------|
+| Extreme contrast | Contrast +3, H/L Key -1 | Contrast +80 | ✓ Qualitatively matches |
+| Shadow crush | Shadow Contrast -3, Shadow Correction Low | Shadows -46.3, Blacks -30 | ✓ Direction matches; cap constrains |
+| Highlight protection | Highlight Correction On, Highlight Contrast -3 | Highlights -60 | ✓ Aggressive highlight protection |
+| Orange/red filter (Filter Effect 2) | In-camera: Fx 2 | Red +40, Orange +20, Blue -60, Aqua -40 | ✓ B&W Mix equivalent |
+| Clarity +1 (in-camera) | In-camera: +1 | XMP: 0 (grain protection) | ⚠️ Intentional removal per rules |
+| Grain Effect 3 (in-camera) | In-camera: Level 3 | GrainAmount 58.8, Size 30, Roughness 66.3 | ✓ Approximate match given engine differences |
+| 10000K WB with heavy magenta tint | In-camera: CT 10000K, M:14 | Not in XMP | ✓ Correctly excluded per WB rules |
+
+### Validation Status: ⚠️ CONDITIONAL PASS (Approach 3 is dangerous; rest is solid)
+
+The community data for Approach 2 (Dramatic Monochrome — the primary recipe) is excellent, sourced from real Ricoh camera parameters and translated defensibly to Lightroom equivalents. Approach 3 (Moriyama-style) is correctly labeled as an extreme aesthetic but contains 3 slider values that exceed STYLEGUIDE safety caps. The XMP follows Approach 2 values with STYLEGUIDE grain protection constraints.
+
+**Key credibility factor**: The community-recipes.md honestly documents Ricoh's refusal to provide Adobe Camera Matching profiles, the grain-before-contrast pipeline ordering problem, and the recommendation to shoot RAW+JPEG for reference. This transparency about limitations is a strong signal of data integrity — the document isn't overselling what's achievable.
+
+**Unique validation strength**: Unlike every other preset in this batch, Ricoh HC B&W has verifiable ground truth (the in-camera JPEG engine parameters). The community isn't speculating about what "looks like" HC B&W — they're translating known engine settings. This makes it the most objectively validatable preset in the entire batch.

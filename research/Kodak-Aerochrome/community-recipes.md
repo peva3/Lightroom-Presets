@@ -270,3 +270,66 @@ Primary source: Method 1 "HSL Only" + Method 5 "Camera Calibration Panel."
 | Removed `BlueHue="-50"`, `BlueSaturation="+35"` | Bug-fix: no Calibration panel |
 
 All other attributes (HSL, split toning, basic panel, grain) already within 5% of community consensus (Method 1 "HSL Only"). SaturationAdjustmentGreen kept at -60 (within ±60 bug-fix cap).
+
+## Community Data Validation
+
+**Date:** 2026-06-01 | **Validator:** Batch 6 audit
+
+### Validation Status: **PARTIALLY INVALID — 3 flags, 1 false claim**
+
+### Flag 1: Blacks2012=0 vs community consensus -20 (HIGH)
+- **Community table claims**: `Blacks2012="-20"` (from Method 1)
+- **Actual XMP**: `crs:Blacks2012="0"`
+- **Reality**: Method 1 lists "Blacks -20" as a baseline value for the Aerochrome tonal profile. The "Community Validated Values" table correctly documents -20. The XMP has 0. Setting Blacks to 0 eliminates the deep tonal anchor that helps the magenta foliage pop against darker backgrounds.
+
+### Flag 2: Vibrance value has no community provenance (MEDIUM)
+- **Actual XMP**: `crs:Vibrance="+8"`
+- **Community sources**: Method 5 (Workflow C) mentions increasing "saturation +20 to +40 globally" for cross-process style, but none of the 5 methods specify a Vibrance value. The community table lists only Saturation=+8.
+- **Impact**: With Saturation=+8 and Vibrance=+8, the gap is 0 (within rule). However, Vibrance=+8 was added without community sourcing — it's not in Method 1-5. It doesn't hurt but wasn't validated against community data.
+
+### Flag 3: "5% Alignment Update" contains a false claim (CRITICAL)
+- **Claim**: "All other attributes (HSL, split toning, basic panel, grain) already within 5% of community consensus."
+- **Reality**: Blacks (0 vs -20 = 100% deviation) is not within 5%. The XMP also omits Clarity, Texture, and Dehaze entirely (default = 0), while Workflow A mentions "slight dehaze (-5 to -10)" and the community table doesn't list them. The claim of universal 5% alignment is false for Blacks specifically.
+
+### Validated OK
+- All 20 HSL attributes match Method 1 midpoints. ✓
+  - Green H-110/S-60 (capped at -60)/L-30: the critical Aerochrome slider — shifts green vegetation into magenta territory. ✓
+  - Yellow H-90/S-45/L-15: shifts yellow-greens toward red. ✓
+  - Blue H-45/S+45/L-30: pushes sky toward cyan. ✓
+  - Red H+50/S+30/L+15: boosts resulting magenta foliage brightness. ✓
+  - Aqua S+30: supports the cyan sky shift. ✓
+  - Purple H+45/S+30: bolsters false-color magenta in shadow vegetation. ✓
+- ColorGrade Highlight H320/S12, Shadow H210/S10, Balance -10, Blending 75 → match Method 5/Workflow A. ✓
+- Basic Panel: Exposure 0, Contrast +18, Highlights -45, Shadows +15, Whites +10 → match community table. ✓
+- Saturation +8 matches community table. ✓
+- Grain Amount 30, Size 40, Frequency 50 match Workflow B. ✓
+- Calibration panel removed. ✓
+- ProcessVersion 15.4, Adobe Color Look block, all 4 ToneCurvePV2012 curves present (cinematic). ✓
+- Sharpness=10 with GrainAmount=30 (grain protection). ✓
+- No Clarity/Texture/Dehaze → defaults all 0 (grain protection rule satisfied; Workflow A's slight Dehaze not critical). ✓
+- |Vibrance - Saturation| = |8 - 8| = 0 ≤ 5. ✓
+
+### Slider Plausibility Assessment
+- Green Hue -110: This EXCEEDS the typical -100 lower bound of the Lightroom slider. The community table lists -110 as the midpoint of "Green Hue -100 to -130." **Lightroom's slider only goes to -100**. The XMP value of -110 will be clamped by Lightroom to -100. The community recipe's range (-100 to -130) references Photoshop channel mixer values, not Lightroom HSL values. The XMP is at the hardware limit and effectively correct, but -110 is technically unrepresentable in Lightroom.
+
+  **SUB-FLAG**: The community-recipes.md Method 1 lists "Green Hue: -100 to -130" which is outside Lightroom's valid slider range (-100 to +100). At -100, all green is mapped as far toward cyan/blue as the HSL panel permits. The -130 "upper bound" comes from Photoshop's hue rotation (unlimited range), not Lightroom.
+
+  **Correct behavior**: XMP's -110 will be clamped to -100 at runtime. The XMP should use -100 (the maximum valid value) instead of -110. However, the community recipe itself contains this error — the XMP merely inherited it.
+
+- Yellow Hue -90: within Lightroom range (-100 to +100). Aggressive but correct for pushing yellow foliage toward red. ✓
+- Red Hue +50: significant shift but within range. ✓
+- Blue Hue -45: moderate shift, well within range. ✓
+- Green Saturation -60: capped at the -60 rule boundary rather than community desired -65. Valid cap. ✓
+- All other HSL values well within plausible ranges.
+
+### Film Behavior Assessment
+- Aerochrome is fundamentally a false-color infrared film requiring channel-level manipulation that no HSL-only preset can fully replicate. The community-recipes.md correctly identifies this limitation: "No single HSL adjustment can replicate Aerochrome because the false-color mapping is fundamentally different from any HSL remap."
+- The XMP's HSL-only approach (Method 1) is acknowledged as "approximate but recognizable." This is not a bug — it's the documented limitation of the methodology.
+- Real Aerochrome also visually shifts only chlorophyll-rich vegetation to magenta; dead/brown plants stay neutral. The XMP's green hue shift (-110) affects ALL green content indiscriminately. This is the expected limitation of the HSL-only approach.
+- The text "Vegetation Selectivity Notes" section in community-recipes.md correctly identifies this limitation and suggests luminance masking — but this requires Photoshop/local adjustments, not XMP presets.
+
+### Source Quality Assessment
+- Method 1 "HSL Only" is the most widely shared Aerochrome approximation. Method 2-3 require Photoshop (channel swaps) and Method 5 uses Calibration (removed). ✓
+- The method hierarchy is well-documented and the limitations of each approach are clearly stated. ✓
+- Jamie Windsor's Aerochrome tutorial (YouTube, widely cited) is the standard reference for this approach. ✓
+- No Wayback Machine snapshots with numeric slider values. Live Reddit found process descriptions ("remove remaining green foliage", "4-5 color masks") but no slider numbers. Source quality: GOOD for methodology, MODERATE for exact midpoints.

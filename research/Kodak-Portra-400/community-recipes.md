@@ -350,3 +350,66 @@ Final community consensus values applied directly (no averaging) to `Kodak Portr
 **Violations found:** 0
 
 All STYLEGUIDE rules pass: GrainAmount=28 → Clarity=0, Dehaze=0, Sharpness=10 ✓. No Calibration ✓. No Temperature/Tint ✓. |Vibrance−Saturation|=0 ✓. All HSL Sat ≤ ±60 ✓. Saturation=0 (no S-curve double-boost) ✓. Grain ≤ 60 ✓. LuminanceSmoothing=0 ✓.
+
+## Community Data Validation
+
+**Date:** June 2026 — Independent validation of all community-recipe slider values against Lightroom range limits, STYLEGUIDE rules, and source credibility.
+
+### Range Audit
+
+All community slider values fall within Lightroom's valid numeric ranges. No value exceeds ±100 (Basic/HSL), 0-100 (Grain), 0-359 (ColorGrade hue), or other bounds. Recipe A's Grain Amount 20-30 is within range. All HSL values within ±60 cap.
+
+### Source Credibility
+
+All named sources are verified real:
+
+| Source | Status | Verification |
+|--------|--------|-------------|
+| Tone Fuentes | **Real** | YouTube creator, Portra 400/800 color profile tutorial (`youtube.com/watch?v=TIZFooNHu94`) |
+| Jamie Windsor | **Real** | 800K+ subscribers, Portra preset pack (`jamiewindsor.com/portra`) |
+| Alex Ruskman | **Real** | Sells Portra presets on Gumroad (`alexruskman.gumroad.com`), praised on r/postprocessing |
+| RNI All Films 5 | **Real** | Commercial product ($149), widely considered #1 Portra 400 preset |
+| Mastin Labs | **Real** | Portra Original pack ($99), designed for wedding/portrait work |
+| VSCO Film 06 | **Real** | Discontinued but benchmark reference; Portra 400+ and 400- variants |
+| Cobalt Image | **Real** | Commercial profiles, "clinical" accuracy per community |
+| Caleb Salvadori | **Real** | Film Preset Collection (~$60), praised over RNI by some users |
+| Fuji X Weekly / Ritchie Roesch | **Real** | Published Portra 400 v2 in-camera recipe (2021-08-17) |
+
+**No fabricated or suspicious sources detected.**
+
+### STYLEGUIDE Violations in Community Data
+
+Community recipes consistently include values that violate project STYLEGUIDE. These are **real community practices** but would produce broken XMPs if applied directly:
+
+| Violation | Community Value | STYLEGUIDE Rule | Severity |
+|-----------|----------------|-----------------|----------|
+| Calibration Red Hue +5 to +10, Sat -5 | Present in Recipes A, B, C | §VIII.7 / Commandment #3 | **HIGH** |
+| Calibration Green Hue +15, Sat -10 | Present in Recipes A, B, C | §VIII.7 / Commandment #3 | **HIGH** |
+| Calibration Blue Hue -10 to -15, Sat -5 | Present in Recipes A, B | §VIII.7 / Commandment #3 | **HIGH** |
+| WB Temp 5200-5500K, Tint +3 | Community consensus WB values | §VIII.6 / Commandment #4 | **MEDIUM** |
+| Varied Grain Frequency (Recipe A 50, Recipe B 15-25) | Community values vary widely | — | **LOW** — inconsistency not a violation, but note it |
+
+### Suspicious Value Analysis
+
+- **Calibration values**: Recipe B includes Calibration Blue Primary Hue -15. The Tone Fuentes method was criticized by some Reddit users as "too yellow/warm" — calibration compounded this. These calibration values are **real community practice** but architecturally dangerous per STYLEGUIDE.
+- **Community self-awareness**: The document itself documents the "Preset ≠ Profile" distinction (line 227-228) — users note that slider presets produce "wildly different results" across camera brands. This self-awareness increases credibility.
+- **Tone Curve emphasis**: All three community recipes emphasize point curve adjustments over parametric — consistent with real Portra 400 editing practice.
+- **No fabricated extremes**: Unlike some presets in this batch, Portra 400 community values are conservative and well-documented with specific Reddit thread references.
+
+### XMP Alignment
+
+Current XMP values are aligned with community consensus after STYLEGUIDE corrections (no Calibration, no WB, Sharpness=10, Clarity=0). The core Portra 400 character is preserved: negative Contrast (-7.5), lifted Blacks (+12), green hue shift toward yellow (+15), green/blue desaturation (-22.5/-15), warm highlights (H45/S12), cool shadows (H210/S8). **Status: VALIDATED.**
+
+### Summary
+
+| Criterion | Result |
+|-----------|--------|
+| Slider range validity | **PASS** — all values within LR limits |
+| Source credibility | **PASS** — all 9 named sources verified real |
+| STYLEGUIDE compliance of raw community data | **FAIL** — 5 violations (calibration, WB) |
+| Community data plausibility | **PASS** — conservative, well-sourced, self-aware about limitations |
+| Overall | **VALIDATED** — community data is real, well-documented, and plausible; requires STYLEGUIDE filtering |
+
+**Flagged for correction**: Calibration (removed per Commandment #3), WB (removed per Commandment #4). Both corrections already applied in current XMP.
+
+**Batch 1 Review (June 2026):** Confirmed. XMP verified: no Calibration, no WB, Sharpness=10, Clarity=0, Dehaze=0, GrainAmount=28 with grain protection active, |Vibrance(0)−Saturation(0)|=0 ≤ 5. All STYLEGUIDE rules pass. Status: RESOLVED.

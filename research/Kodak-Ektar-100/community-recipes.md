@@ -266,3 +266,62 @@ Final community consensus values applied directly (no averaging) to `Kodak Ektar
 | Saturation | +15 | +5 | §VIII.4 S-curve double-boost: Saturation ≤ ±5 when Contrast ≥ +30 |
 
 **Rationale:** Ektar 100 has Contrast=+32 (strong S-curve) with Saturation=+15 — textbook double-boost. STYLEGUIDE §VIII.4: "Let the curve carry the saturation. Use mild global Saturation (±5) and target specific color channels via HSL saturation for fine-tuning." Ektar already has robust per-channel HSL saturation (Red +21, Orange +17.5, Green +25, Blue +17.5, etc.) that carries the Ektar "punch." Global Saturation reduced from +15 to +5 to stop the curve+saturation compounding effect. The Ektar vibrancy remains via the HSL channels while avoiding the harsh digital over-saturation that the double-boost creates. This also fixes the |Vibrance−Saturation| gap: previously |0−15|=15 > 5; now |0−5|=5 ≤ 5.
+
+## Community Data Validation
+
+**Date:** June 2026 — Independent validation of all community-recipe slider values against Lightroom range limits, STYLEGUIDE rules, and source credibility.
+
+### Range Audit
+
+All community slider values fall within Lightroom's valid numeric ranges. Contrast +25 to +40 is within ±100. HSL saturation values (Red +15 to +30, Green +15 to +35, Blue +10 to +25) are within the ±60 cap. Grain Amount 0-5 (near-zero, per community consensus). ColorGrade hue values (200-220° shadows, 30-50° highlights) are valid.
+
+### Source Credibility
+
+All named sources are verified real:
+
+| Source | Status | Verification |
+|--------|--------|-------------|
+| Luke Taylor | **Real** | lukeptaylor.com, free Ektar 100 XMP preset, tested on Sigma FP/Ricoh GR III/Sony a7s |
+| Seim Effects Filmist | **Real** | Commercial preset pack with free sampler including Classic Negative + Portra 160 |
+| PSD Stack | **Real** | Free Kodak Ektar 100 preset (DNG + XMP + LRTEMPLATE) |
+| Presetpro.com | **Real** | Commercial Ektar 100 emulation profile |
+| Eli Hendrickson (Gumroad) | **Real** | Free Ektar 100 LR preset on Gumroad |
+| Reddit r/analog, r/AnalogCommunity | **Real** | Community discussions with specific posts referenced (1h03xp9) |
+| RyanHK (r/AnalogCommunity) | **Real** | Reddit user, specific quote about Ektar skin tones verified in discussion |
+
+**No fabricated or suspicious sources detected.**
+
+### STYLEGUIDE Violations in Community Data
+
+| Violation | Community Value | STYLEGUIDE Rule | Severity |
+|-----------|----------------|-----------------|----------|
+| Calibration (6 channels) | Red +5 to +15/+10 to +20, Green -5 to +10/+5 to +15, Blue -5 to +5/+10 to +20 | §VIII.7 / Commandment #3 | **HIGH** |
+| WB Temp +5 to +15 (+5800K), Tint +5 to +10 | Explicit warm WB recommendation | §VIII.6 / Commandment #4 | **MEDIUM** |
+| Saturation +15 with Contrast +32 | S-curve double-boost | §VIII.4 | **HIGH** — textbook violation |
+| Sharpening 40-60 with Grain 5 | Grain is near-zero, so conflict is minimal | §VII | **LOW** — effectively N/A since grain is negligible |
+
+### Suspicious Value Analysis
+
+- **S-curve + Saturation double-boost**: Recipe 1 recommends Contrast +25 to +40 AND positive saturation across all HSL channels. The community document itself provides the "Red Flags" section (lines 108-113) warning not to add grain and to watch skin tones — but does NOT warn about the curve+saturation interaction. This is an **oversight in the community knowledge**, not fabricated data. Already corrected per STYLEGUIDE.
+- **Calibration Blue Sat +10 to +20**: Combined with Blue Sat +10 to +25 in HSL, this would create extreme blue channel amplification. The risk is gamut clipping on sRGB displays (§XIII). **Community data is real but architecturally dangerous.**
+- **"Zero grain" consensus**: Universal agreement that Ektar should have minimal/no grain. This is a strong credibility signal — fabricated data would likely add grain because "film = grain" is a common misconception. The community correctly identifies Ektar's key characteristic as grain-free.
+- **"Ektar is not friendly for low light" quote**: The specific user quote about "strange dark blue hue in low light" (line 118) is a detailed, non-obvious observation consistent with Ektar's actual behavior (tight shadow latitude + cool blue shadow response under underexposure). **Authentic community insight.**
+- **VSCO historical mapping**: E1 = Kodak Ektar 100 is consistent with VSCO's documented film simulation numbering.
+
+### XMP Alignment
+
+Current XMP values (Contrast +32, Highlights -30, Shadows +22, HSL saturation heavy on positive side, Grain near-zero at 5, Saturation reduced to +5 per STYLEGUIDE) are consistent with community consensus. No Calibration, no WB — STYLEGUIDE compliant. **Status: VALIDATED.**
+
+### Summary
+
+| Criterion | Result |
+|-----------|--------|
+| Slider range validity | **PASS** — all values within LR limits |
+| Source credibility | **PASS** — 7 named sources verified real |
+| STYLEGUIDE compliance of raw community data | **FAIL** — 4 violations (calibration, WB, S-curve double-boost) |
+| Community data plausibility | **PASS** — specific technical observations, zero-grain consensus, authentic quotes |
+| Overall | **VALIDATED** — community data is real, technically detailed, and self-consistent with Ektar's known characteristics |
+
+**Flagged for correction**: Calibration (removed per Commandment #3), WB (removed per Commandment #4), Saturation reduced to +5 (Commandment #9/S-curve double-boost). All corrections already applied in current XMP. **Note**: Ektar's defining characteristic — high saturation carried by per-channel HSL rather than global Saturation — is correctly preserved in the current XMP architecture.
+
+**Batch 1 Review (June 2026):** Confirmed. XMP verified: no Calibration, no WB, Sharpness=10, Clarity=0, Dehaze=0, GrainAmount=5 (near-zero, minimal grain protection concern), Saturation=+5 (down from community +15 per §VIII.4 S-curve double-boost prevention), no Vibrance attribute (gap to Saturation=5, effectively 0). Contrast=+32 with per-channel HSL saturation carrying Ektar punch. All STYLEGUIDE rules pass. Status: RESOLVED.

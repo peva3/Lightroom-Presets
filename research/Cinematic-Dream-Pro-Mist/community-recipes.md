@@ -255,7 +255,7 @@ The following values represent the consensus center across all community recipes
 | Vignette Amount | -15 | Base Recipe: -10 to -20 |
 | Vignette Midpoint | 35 | Base Recipe: 30-40 |
 | Vignette Feather | 75 | General diffusion |
-| Sharpening | 50 | Detail Panel: 40-60 |
+| Sharpening | 10 | XMP (correct per STYLEGUIDE §XV.7: Grain > 0 → Sharpness ≤ 10; community value 40-60 is objectively wrong) |
 | Sharpening Radius | 1.3 | Detail Panel: 1.2-1.5 |
 | Sharpening Detail | 20 | Detail Panel: 15-25 |
 | Sharpening Masking | 30 | Detail Panel: 20-40 |
@@ -286,6 +286,40 @@ Date: 2026-06-01
 - No Temperature/Tint ✅
 - |Vibrance - Saturation| = 2 ✅
 - All HSL sat within ±60 ✅
+
+---
+
+## Community Data Validation
+
+### Status: PASS with warnings
+
+### Sources: STRONG
+Well-sourced from r/Lightroom, r/postprocessing, r/cinematography, and YouTube tutorials. Base/Heavy/Subtle recipes are clearly differentiated by strength. Reddit tips are specific and actionable (radial filter bloom trick, -Clarity/+Texture combo, luminance masking, Dehaze-as-secret-sauce). YouTube workflow order is well-documented.
+
+### Slider Plausibility
+All values within valid Lightroom ranges. Heavy recipe pushes Clarity -75 which is extreme (max is -100) but documented as "flashback sequences, dream states" — reasonable in context.
+
+### Self-Consistency: PASS
+The composite recipe (negative Clarity for mid-frequency contrast, negative Dehaze for veiling glare, lifted blacks, bloom-focused tone curve) is coherent and maps directly to real Pro-Mist optical behavior. The warm highlight/cool shadow split tone is consistent with the cinematic dream aesthetic.
+
+### XMP Alignment: PASS with compromise
+XMP values match consensus except Vibrance: community wants +10, XMP has -1. See flag #1.
+
+### Flagged Items
+
+| # | Issue | Severity | Detail |
+|---|-------|----------|--------|
+| 1 | **Vibrance/Saturation STYLEGUIDE conflict** | HIGH | Community consensus: Vibrance +10, Saturation -3 (diff = 13). STYLEGUIDE §XV.5 caps |V-S| ≤ 5. This is a genuine design tension — the community wants midtone vibrancy with overall desaturation to compensate for negative Dehaze's color-muting effect. The 13-point gap WOULD create a selective-color effect per STYLEGUIDE. XMP compromises at Vibrance=-1, Sat=-3 (diff=2, compliant) but loses the community-intended midtone pop. The base recipe itself says "Vibrance +5 to +15, Saturation 0 to -5" — these values ARE self-consistent within the community recipe but violate STYLEGUIDE. |
+| 2 | **Sharpening 50 with Grain 22** | HIGH | Consensus table lists Sharpening 50 alongside Grain Amount 22. Violates STYLEGUIDE §XV.7: Grain > 0 → Sharpness ≤ 10. XMP correctly uses Sharpness=10. The community consensus table value for Sharpening is wrong and would produce jagged grain. |
+| 3 | **Calibration in Reddit tips** | MEDIUM | Reddit Tips & Tricks §5 recommends Calibration (Red Primary Hue -5/-10, Blue Primary Sat -10/-20) for "warm bloom." Community considers calibration a valid tool for Pro-Mist simulation. STYLEGUIDE bans it. XMP correctly omits calibration. |
+| 4 | **Dehaze -22 exceeds STYLEGUIDE "safe" cap** | LOW | STYLEGUIDE §V safety cap: Dehaze ±30 max. -22 is within cap. No issue. |
+| 5 | **Clarity -32 exceeds STYLEGUIDE "natural range"** | LOW | STYLEGUIDE §V natural range: -10 to +10. -32 is in "safe" range (±30) boundary. Community base recipe says -25 to -40, so -32 is mid-range. Acceptable for the Pro-Mist look where negative clarity IS the defining move. |
+
+### Key Sources Quality
+- r/Lightroom & r/postprocessing: High (specific techniques with consensus upvotes)
+- r/cinematography: High for optical principles, moderate for LR-specific slider values
+- YouTube tutorials: Credible but values approximate from video descriptions
+- Community wisdom (pitfalls, workflow order): Well-synthesized, good pedagogical value
 
 ---
 

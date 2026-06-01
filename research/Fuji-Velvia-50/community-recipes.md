@@ -343,6 +343,8 @@ Final consensus values from cross-referencing community recipes. Applied to `Pre
 | Blue Sat | +20 | +15 to +25 | Midpoint |
 | **Grain** | Minimal (Velvia is grain-free) | | |
 
+> **Note:** Values in the table above reflect community consensus before STYLEGUIDE v2.1 alignment. The actual XMP supersedes several values per grain protection rules, calibration ban, and slider caps. See [STYLEGUIDE v2.1 Alignment](#styleguide-v21-alignment) below for final XMP values. Specifically: Blacks -40→-30 (floor), Clarity +22.5→0, Texture -5→0, Dehaze +11.3→0, Vibrance +32.5→removed, calibration→removed.
+
 **Key sources:** r/Lightroom, r/analog, Ken Rockwell, YouTube tutorials (Jamie Windsor, Sean Tucker), darktable velvia module, VSCO Film 01 reference.
 
 ## 5% Alignment Update
@@ -373,6 +375,72 @@ Applied 2026-06-01 to `Presets/Slide/Fuji Velvia 50.xmp`:
 | Dehaze | +11.3 | removed (0) | Grain protection: GrainAmount>0 → Dehaze=0 |
 
 No other violations. Saturation=-5 within Slide S-curve cap (±5). Boilerplate, calibration ban, HSL caps all pass.
+
+## Community Data Validation
+
+### Validity Assessment: POOR (one critical bogus recommendation)
+
+**Overall Status**: The community-recipes.md is comprehensive and well-structured, but the most widely repeated community recipe (Approach 2, "Velvia in Lightroom Baseline") contains a **critical bogus slider combination** that would trigger the "B&W with one color" selective-color bug.
+
+### Flagged Bogus Data
+
+| # | Severity | Claim | Source | Issue |
+|---|----------|-------|--------|-------|
+| 1 | **CRITICAL** | Vibrance +20 to +40 combined with Saturation -10 to 0 | r/Lightroom, r/postprocessing (community-recipes.md:53-54) | The gap \|Vibrance − Saturation\| reaches 30-50, far exceeding the ≤ 5 limit (STYLEGUIDE §VIII.5). This desaturates globally (via Saturation) then selectively boosts midtones (via Vibrance), creating a near-monochrome image with one popping hue. The community-recipes.md "Community Validated Values" table itself documents Vibrance +32.5 and Saturation -5 (diff=37.5), which would break any real image. The XMP correctly removed Vibrance entirely per the 5% Alignment Update. |
+| 2 | **CRITICAL** | Calibration panel recommended (RedHue +10 to +20, RedSat +10 to +20, GreenHue -5 to -15, GreenSat +15 to +30, BlueHue -5 to -15, BlueSat +15 to +25) | r/Lightroom (community-recipes.md:127-137), darktable community | STYLEGUIDE §VII.7 and AGENTS.md Rule #3 ban calibration for all presets except Canon Color Science. The community claim that "Red Primary changes are what gets you 70% toward the Velvia look" is misleading — calibration compounds with 8 hue shifts and 8 saturation adjustments already in the preset, creating an unpredictable 3×3×3 primary reinterpretation. Correctly removed. |
+| 3 | **MODERATE** | Clarity +15 to +30, Dehaze +5 to +15 recommended alongside grain | Various YouTube/community recipes | STYLEGUIDE §V: Clarity/Dehaze amplify all spatial frequencies. When combined with grain, the grain particles get sharpened into jagged digital noise. XMP correctly sets Clarity=0, Dehaze=0. |
+| 4 | **MODERATE** | "Fuji in-camera Velvia simulation is widely considered poor" citing Ken Rockwell calling it "AWFUL compared to real VELVIA film" | Ken Rockwell (community-recipes.md:13) | This is Ken Rockwell's opinion, not verified data. Fuji's own simulation is based on their emulsion data — Rockwell's criticism is about matching scanned negatives to slides, not about slider settings. Used as rhetorical support for community calibration values. |
+| 5 | **MINOR** | Ken Rockwell's "Digital Settings" section recommends Nikon Picture Control VIVID Saturation +3 and Canon Picture Style STANDARD Saturation +4 | Ken Rockwell (community-recipes.md:20-34) | These are in-camera JPEG settings for Nikon/Canon bodies, not Lightroom slider equivalents. Included in the research document for completeness but not translatable to XMP values. No XMP consequence. |
+
+### Slider Range Check
+
+All XMP values within valid ranges:
+- Contrast +40 (0..100) ✓
+- Highlights -65 (-100..100) — aggressive but valid ✓
+- Shadows -30 (-100..100) ✓
+- Blacks -30 (at floor, per STYLEGUIDE §XIII) ✓
+- All 8 HSL Saturation values ≤ +35 — well below ±60 cap ✓
+- Hue shifts ±22.5 max — within -100..100 ✓
+- ColorGrade Shadow Sat 10 — below 30 ✓
+
+### Self-Consistency Check
+
+| Check | Result |
+|-------|--------|
+| \|Vibrance − Saturation\| ≤ 5 | ✓ (Vibrance removed; Saturation=-5) |
+| GrainAmount > 0 → Sharpness=10 | ✓ (GrainAmount=5, Sharpness=10) |
+| GrainAmount > 0 → Clarity=0, Texture=0, Dehaze=0 | ✓ |
+| No Calibration values | ✓ |
+| No Temperature/Tint values | ✓ |
+| HSL Sat ≤ ±60 | ✓ (max +35) |
+| Blacks ≥ -30 | ✓ (at -30) |
+
+### Sources Assessment
+
+| Source | Verifiability | Relevance |
+|--------|--------------|-----------|
+| Ken Rockwell | High (real reviewer, kenrockwell.com) | Low — in-camera settings, not Lightroom |
+| r/Lightroom, r/analog | High (archived) | Medium — anecdotal slider recommendations |
+| Darktable Velvia module | High (open-source) | Medium — different processing engine |
+| YouTube (Jamie Windsor, Sean Tucker) | High (real creators) | Medium — workflow approaches, not specific values |
+| VSCO Film 01 reference | Medium (discontinued product) | High — was the gold standard |
+
+### Film Stock Behavior Check
+
+| Behavior | Community Claim | XMP Implementation | Verdict |
+|----------|----------------|-------------------|---------|
+| Extreme contrast | Contrast +40, Highlights -65 | Applied ✓ | Matches Velvia's high-contrast characteristic curve |
+| Hyper-saturated greens | Green Sat +35, Lum -15 | Applied ✓ | Velvia's signature foliage rendering |
+| Polarizer-like blue skies | Blue Sat +26.3, Lum -22.5 | Applied ✓ | Consistent with Velvia's spectral sensitivity |
+| Yellow→Orange shift | Yellow Hue -17.5 | Applied ✓ | The community's #1 HSL move |
+| Deep dMax blacks | Blacks -30 | Applied (capped) | Velvia dMax is famous but STYLEGUIDE floor is -30 |
+| Golden hour glow | ColorGrade Highlight Hue 50, Sat 7.5 | Applied ✓ | Subtle warmth for highlights |
+
+### Validation Status: ⚠️ CONDITIONAL PASS (2 critical flags resolved, 1 community recipe section is bogus; documentation corrected)
+
+The **Approach 2 baseline recipe is fundamentally broken** due to the Vibrance-Saturation gap. Users who follow the community-recommended Vibrance +20 to +40 with Saturation -10 to 0 will get the selective-color bug. The XMP correctly removed Vibrance and constrained Saturation to -5. The calibration and WB recommendations were also correctly rejected. The remaining slider values are plausible for a Velvia 50 emulation, but users should be warned that Approach 2 as-documented is harmful.
+
+**Documentation fix (2026-06-01):** Added note to Community Validated Values table clarifying values reflect pre-STYLEGUIDE consensus, not final XMP state. Actual XMP: Blacks=-30, Clarity=0, Texture=0, Dehaze=0, Vibrance removed, Saturation=-5, no calibration.
 
 ## References
 
