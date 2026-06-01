@@ -67,6 +67,21 @@ python3 test/render.py <image> "Preset Name" [output.jpg]
 - `339fe11`: RETUNE ALL 48 — broke everything with aggressive values
 - Latest: Restored original values, applied community fixes
 
+## Mandatory XMP Structural Requirements
+
+Every XMP MUST include these structural elements or Lightroom will render presets flat/washed out:
+
+1. **`crs:ProcessVersion="15.4"`** — Forces modern Camera Raw engine. Older/missing = legacy color matrices.
+2. **`crs:Treatment="Color"` or `"Monochrome"`** — Based on directory: Color-Negative/Creative/Slide → Color; Black-White → Monochrome.
+3. **`crs:SupportsAmount="True"`** — Must be True, not False.
+4. **`<crs:Look>` block** — Camera Profile. Without this, Lightroom skips the non-linear input color matrix:
+   - Color presets: `crs:Name="Adobe Color"` with UUID `B952C21111114111B1115456789ABCDE`
+   - B&W presets: `crs:Name="Adobe Monochrome"` with UUID `0C09521111114111B1115456789ABCDE`
+5. **`<crs:ToneCurvePV2012>`** — All 4 curves (RGB + Red + Green + Blue) set to neutral: `0, 0` → `255, 255`
+6. **`<crs:Name>` child element** — Must match `crs:Name` attribute (preset display name), not the Group name.
+
+See `test/rebuild_xmps.py` for the exact template.
+
 ## Key Rules for Agents
 1. NEVER add Calibration panel values (RedHue/Sat, GreenHue/Sat, BlueHue/Sat, ShadowTint) — they create color channel imbalance. **Exception**: `Canon Color Science` uses calibration as its defining characteristic (emulates Canon's in-camera color science via calibration shifts), so calibration values are allowed there.
 2. Keep Vibrance within 5 points of Saturation, or remove Vibrance
@@ -75,3 +90,4 @@ python3 test/render.py <image> "Preset Name" [output.jpg]
 5. Keep presets SIMPLE — the working originals had 8-15 attributes, not 60+
 6. Research first: check `research/{preset}/` before modifying XMPs
 7. Always verify on a real image before committing
+8. Every XMP must include the structural boilerplate (ProcessVersion 15.4, Treatment, Look block, ToneCurvePV2012) or presets will render incorrectly

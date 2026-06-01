@@ -1,11 +1,11 @@
-<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00        ">
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00">
  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about=""
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
     crs:PresetType="Normal"
     crs:Cluster=""
     crs:UUID="B7F3D2A16E894C5A9B1C8D4E7F2A3B6C"
-    crs:SupportsAmount="False"
+    crs:SupportsAmount="True"
     crs:SupportsColor="True"
     crs:SupportsMonochrome="True"
     crs:SupportsHighDynamicRange="True"
@@ -14,41 +14,90 @@
     crs:SupportsOutputReferred="True"
     crs:RequiresRenditionBehavior="True"
     crs:Name="Fuji Natura 1600"
+    crs:Treatment="Color"
+    crs:ProcessVersion="15.4"
     crs:HasSettings="True"
-    crs:Exposure2012="+0.24"
-    crs:Contrast2012="-14"
-    crs:Highlights2012="-43"
-    crs:Shadows2012="+41"
-    crs:Whites2012="0"
     crs:Blacks2012="-16"
-    crs:Saturation="-5"
-    crs:HueAdjustmentRed="+5"
-    crs:SaturationAdjustmentRed="-10"
-    crs:LuminanceAdjustmentRed="-5"
-    crs:HueAdjustmentOrange="0"
-    crs:SaturationAdjustmentOrange="-5"
-    crs:HueAdjustmentYellow="-5"
-    crs:SaturationAdjustmentYellow="-15"
-    crs:HueAdjustmentGreen="+16"
-    crs:SaturationAdjustmentGreen="-20"
-    crs:LuminanceAdjustmentGreen="+5"
+    crs:Contrast2012="-14"
+    crs:Exposure2012="+0.24"
+    crs:GrainAmount="31"
+    crs:GrainFrequency="55"
+    crs:GrainSize="30"
+    crs:Highlights2012="-43"
     crs:HueAdjustmentAqua="+10"
-    crs:SaturationAdjustmentAqua="-10"
     crs:HueAdjustmentBlue="-5"
-    crs:SaturationAdjustmentBlue="+5"
+    crs:HueAdjustmentGreen="+16"
+    crs:HueAdjustmentOrange="0"
+    crs:HueAdjustmentRed="+5"
+    crs:HueAdjustmentYellow="-5"
     crs:LuminanceAdjustmentBlue="-10"
-    crs:SaturationAdjustmentPurple="-15"
+    crs:LuminanceAdjustmentGreen="+5"
+    crs:LuminanceAdjustmentRed="-5"
+    crs:Saturation="-5"
+    crs:SaturationAdjustmentAqua="-10"
+    crs:SaturationAdjustmentBlue="+5"
+    crs:SaturationAdjustmentGreen="-20"
     crs:SaturationAdjustmentMagenta="-10"
+    crs:SaturationAdjustmentOrange="-5"
+    crs:SaturationAdjustmentPurple="-15"
+    crs:SaturationAdjustmentRed="-10"
+    crs:SaturationAdjustmentYellow="-15"
+    crs:Shadows2012="+41"
+    crs:SplitToningBalance="-10"
     crs:SplitToningHighlightHue="42"
     crs:SplitToningHighlightSaturation="6"
     crs:SplitToningShadowHue="215"
     crs:SplitToningShadowSaturation="8"
-    crs:SplitToningBalance="-10"
-    crs:GrainAmount="31"
-    crs:GrainSize="30"
-    crs:GrainFrequency="55">
-   <crs:Name><rdf:Alt><rdf:li xml:lang="x-default">Color Negative</rdf:li></rdf:Alt></crs:Name>
-   <crs:Group><rdf:Alt><rdf:li xml:lang="x-default">Color Negative</rdf:li></rdf:Alt></crs:Group>
+    crs:Whites2012="0">
+   <crs:Name>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Fuji Natura 1600</rdf:li>
+    </rdf:Alt>
+   </crs:Name>
+   <crs:Group>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Color Negative</rdf:li>
+    </rdf:Alt>
+   </crs:Group>
+   <crs:Look>
+    <rdf:Description
+     crs:Name="Adobe Color"
+     crs:Amount="1.000000"
+     crs:UUID="B952C21111114111B1115456789ABCDE"
+     crs:SupportsAmount="True"
+     crs:SupportsMonochrome="False"
+     crs:SupportsOutputReferred="True">
+     <crs:Group>
+      <rdf:Alt>
+       <rdf:li xml:lang="x-default">Profiles</rdf:li>
+      </rdf:Alt>
+     </crs:Group>
+    </rdf:Description>
+   </crs:Look>
+   <crs:ToneCurvePV2012>
+    <rdf:Seq>
+     <rdf:li>0, 0</rdf:li>
+     <rdf:li>255, 255</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012>
+   <crs:ToneCurvePV2012Red>
+    <rdf:Seq>
+     <rdf:li>0, 0</rdf:li>
+     <rdf:li>255, 255</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012Red>
+   <crs:ToneCurvePV2012Green>
+    <rdf:Seq>
+     <rdf:li>0, 0</rdf:li>
+     <rdf:li>255, 255</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012Green>
+   <crs:ToneCurvePV2012Blue>
+    <rdf:Seq>
+     <rdf:li>0, 0</rdf:li>
+     <rdf:li>255, 255</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012Blue>
   </rdf:Description>
  </rdf:RDF>
 </x:xmpmeta>

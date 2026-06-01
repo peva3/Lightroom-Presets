@@ -1,11 +1,11 @@
-<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00        ">
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00">
  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about=""
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
     crs:PresetType="Normal"
     crs:Cluster=""
     crs:UUID="6B09CF634E7F42BB8A74C0656A688D83"
-    crs:SupportsAmount="False"
+    crs:SupportsAmount="True"
     crs:SupportsColor="True"
     crs:SupportsMonochrome="True"
     crs:SupportsHighDynamicRange="True"
@@ -14,53 +14,55 @@
     crs:SupportsOutputReferred="True"
     crs:RequiresRenditionBehavior="True"
     crs:Name="01 Fujifilm Classic Chrome"
+    crs:Treatment="Color"
+    crs:ProcessVersion="15.4"
     crs:HasSettings="True"
-    crs:Exposure2012="0"
-    crs:Contrast2012="+22"
-    crs:Highlights2012="-50"
-    crs:Shadows2012="-22"
-    crs:Whites2012="0"
     crs:Blacks2012="-22"
     crs:Clarity2012="+10"
+    crs:Contrast2012="+22"
     crs:Dehaze="+7.5"
-    crs:Saturation="-7.5"
-    crs:Vibrance="-2.5"
-    crs:Texture="+15"
-    crs:HueAdjustmentRed="0"
-    crs:HueAdjustmentOrange="+2.5"
-    crs:HueAdjustmentYellow="0"
-    crs:HueAdjustmentGreen="+20"
+    crs:Exposure2012="0"
+    crs:GrainAmount="22.5"
+    crs:GrainFrequency="50"
+    crs:GrainSize="25"
+    crs:Highlights2012="-50"
     crs:HueAdjustmentAqua="+10"
     crs:HueAdjustmentBlue="-7.5"
-    crs:HueAdjustmentPurple="-15"
+    crs:HueAdjustmentGreen="+20"
     crs:HueAdjustmentMagenta="0"
-    crs:SaturationAdjustmentRed="-22.5"
-    crs:SaturationAdjustmentOrange="-15"
-    crs:SaturationAdjustmentYellow="-5"
-    crs:SaturationAdjustmentGreen="-30"
-    crs:SaturationAdjustmentAqua="-20"
-    crs:SaturationAdjustmentBlue="-26"
-    crs:SaturationAdjustmentPurple="-25"
-    crs:SaturationAdjustmentMagenta="-22.5"
-    crs:LuminanceAdjustmentRed="-15"
-    crs:LuminanceAdjustmentOrange="-10"
-    crs:LuminanceAdjustmentYellow="-7.5"
-    crs:LuminanceAdjustmentGreen="-20"
+    crs:HueAdjustmentOrange="+2.5"
+    crs:HueAdjustmentPurple="-15"
+    crs:HueAdjustmentRed="0"
+    crs:HueAdjustmentYellow="0"
     crs:LuminanceAdjustmentAqua="-10"
     crs:LuminanceAdjustmentBlue="-17.5"
-    crs:LuminanceAdjustmentPurple="-10"
+    crs:LuminanceAdjustmentGreen="-20"
     crs:LuminanceAdjustmentMagenta="-15"
+    crs:LuminanceAdjustmentOrange="-10"
+    crs:LuminanceAdjustmentPurple="-10"
+    crs:LuminanceAdjustmentRed="-15"
+    crs:LuminanceAdjustmentYellow="-7.5"
+    crs:Saturation="-7.5"
+    crs:SaturationAdjustmentAqua="-20"
+    crs:SaturationAdjustmentBlue="-26"
+    crs:SaturationAdjustmentGreen="-30"
+    crs:SaturationAdjustmentMagenta="-22.5"
+    crs:SaturationAdjustmentOrange="-15"
+    crs:SaturationAdjustmentPurple="-25"
+    crs:SaturationAdjustmentRed="-22.5"
+    crs:SaturationAdjustmentYellow="-5"
+    crs:Shadows2012="-22"
+    crs:SplitToningBalance="-5"
     crs:SplitToningHighlightHue="50"
     crs:SplitToningHighlightSaturation="4.5"
     crs:SplitToningShadowHue="212"
     crs:SplitToningShadowSaturation="8"
-    crs:SplitToningBalance="-5"
-    crs:GrainAmount="22.5"
-    crs:GrainSize="25"
-    crs:GrainFrequency="50">
+    crs:Texture="+15"
+    crs:Vibrance="-2.5"
+    crs:Whites2012="0">
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Color Negative</rdf:li>
+     <rdf:li xml:lang="x-default">01 Fujifilm Classic Chrome</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:Group>
@@ -68,6 +70,45 @@
      <rdf:li xml:lang="x-default">Color Negative</rdf:li>
     </rdf:Alt>
    </crs:Group>
+   <crs:Look>
+    <rdf:Description
+     crs:Name="Adobe Color"
+     crs:Amount="1.000000"
+     crs:UUID="B952C21111114111B1115456789ABCDE"
+     crs:SupportsAmount="True"
+     crs:SupportsMonochrome="False"
+     crs:SupportsOutputReferred="True">
+     <crs:Group>
+      <rdf:Alt>
+       <rdf:li xml:lang="x-default">Profiles</rdf:li>
+      </rdf:Alt>
+     </crs:Group>
+    </rdf:Description>
+   </crs:Look>
+   <crs:ToneCurvePV2012>
+    <rdf:Seq>
+     <rdf:li>0, 0</rdf:li>
+     <rdf:li>255, 255</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012>
+   <crs:ToneCurvePV2012Red>
+    <rdf:Seq>
+     <rdf:li>0, 0</rdf:li>
+     <rdf:li>255, 255</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012Red>
+   <crs:ToneCurvePV2012Green>
+    <rdf:Seq>
+     <rdf:li>0, 0</rdf:li>
+     <rdf:li>255, 255</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012Green>
+   <crs:ToneCurvePV2012Blue>
+    <rdf:Seq>
+     <rdf:li>0, 0</rdf:li>
+     <rdf:li>255, 255</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012Blue>
   </rdf:Description>
  </rdf:RDF>
 </x:xmpmeta>

@@ -1,11 +1,11 @@
-<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00        ">
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00">
  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about=""
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
     crs:PresetType="Normal"
     crs:Cluster=""
     crs:UUID="A8B509C348184D0E93B4005BFF7EE752"
-    crs:SupportsAmount="False"
+    crs:SupportsAmount="True"
     crs:SupportsColor="True"
     crs:SupportsMonochrome="True"
     crs:SupportsHighDynamicRange="True"
@@ -14,49 +14,51 @@
     crs:SupportsOutputReferred="True"
     crs:RequiresRenditionBehavior="True"
     crs:Name="02 Cinematic Teal and Orange"
+    crs:Treatment="Color"
+    crs:ProcessVersion="15.4"
     crs:HasSettings="True"
-    crs:Contrast2012="+23.75"
-    crs:Highlights2012="-40"
-    crs:Shadows2012="+30"
-    crs:Whites2012="+13.75"
     crs:Blacks2012="-18.75"
-    crs:Saturation="0"
-    crs:HueAdjustmentRed="+15"
-    crs:HueAdjustmentOrange="-5"
-    crs:HueAdjustmentYellow="-30"
-    crs:HueAdjustmentGreen="-60"
+    crs:Contrast2012="+23.75"
+    crs:GrainAmount="15"
+    crs:GrainFrequency="50"
+    crs:GrainSize="25"
+    crs:Highlights2012="-40"
     crs:HueAdjustmentAqua="+10"
     crs:HueAdjustmentBlue="-15"
-    crs:HueAdjustmentPurple="-100"
+    crs:HueAdjustmentGreen="-60"
     crs:HueAdjustmentMagenta="-100"
-    crs:SaturationAdjustmentRed="-10"
-    crs:SaturationAdjustmentOrange="-15"
-    crs:SaturationAdjustmentYellow="-20"
-    crs:SaturationAdjustmentGreen="-40"
-    crs:SaturationAdjustmentAqua="+15"
-    crs:SaturationAdjustmentBlue="-20"
-    crs:SaturationAdjustmentPurple="-50"
-    crs:SaturationAdjustmentMagenta="-50"
-    crs:LuminanceAdjustmentRed="0"
-    crs:LuminanceAdjustmentOrange="+10"
-    crs:LuminanceAdjustmentYellow="+15"
-    crs:LuminanceAdjustmentGreen="-10"
+    crs:HueAdjustmentOrange="-5"
+    crs:HueAdjustmentPurple="-100"
+    crs:HueAdjustmentRed="+15"
+    crs:HueAdjustmentYellow="-30"
     crs:LuminanceAdjustmentAqua="-10"
     crs:LuminanceAdjustmentBlue="-15"
-    crs:LuminanceAdjustmentPurple="0"
+    crs:LuminanceAdjustmentGreen="-10"
     crs:LuminanceAdjustmentMagenta="0"
-    crs:SplitToningShadowHue="208.75"
-    crs:SplitToningShadowSaturation="20"
+    crs:LuminanceAdjustmentOrange="+10"
+    crs:LuminanceAdjustmentPurple="0"
+    crs:LuminanceAdjustmentRed="0"
+    crs:LuminanceAdjustmentYellow="+15"
+    crs:PostCropVignetteAmount="-10"
+    crs:Saturation="0"
+    crs:SaturationAdjustmentAqua="+15"
+    crs:SaturationAdjustmentBlue="-20"
+    crs:SaturationAdjustmentGreen="-40"
+    crs:SaturationAdjustmentMagenta="-50"
+    crs:SaturationAdjustmentOrange="-15"
+    crs:SaturationAdjustmentPurple="-50"
+    crs:SaturationAdjustmentRed="-10"
+    crs:SaturationAdjustmentYellow="-20"
+    crs:Shadows2012="+30"
+    crs:SplitToningBalance="-30"
     crs:SplitToningHighlightHue="35.75"
     crs:SplitToningHighlightSaturation="15"
-    crs:SplitToningBalance="-30"
-    crs:GrainAmount="15"
-    crs:GrainSize="25"
-    crs:GrainFrequency="50"
-    crs:PostCropVignetteAmount="-10">
+    crs:SplitToningShadowHue="208.75"
+    crs:SplitToningShadowSaturation="20"
+    crs:Whites2012="+13.75">
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Creative</rdf:li>
+     <rdf:li xml:lang="x-default">02 Cinematic Teal and Orange</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:Group>
@@ -64,6 +66,45 @@
      <rdf:li xml:lang="x-default">Creative</rdf:li>
     </rdf:Alt>
    </crs:Group>
+   <crs:Look>
+    <rdf:Description
+     crs:Name="Adobe Color"
+     crs:Amount="1.000000"
+     crs:UUID="B952C21111114111B1115456789ABCDE"
+     crs:SupportsAmount="True"
+     crs:SupportsMonochrome="False"
+     crs:SupportsOutputReferred="True">
+     <crs:Group>
+      <rdf:Alt>
+       <rdf:li xml:lang="x-default">Profiles</rdf:li>
+      </rdf:Alt>
+     </crs:Group>
+    </rdf:Description>
+   </crs:Look>
+   <crs:ToneCurvePV2012>
+    <rdf:Seq>
+     <rdf:li>0, 0</rdf:li>
+     <rdf:li>255, 255</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012>
+   <crs:ToneCurvePV2012Red>
+    <rdf:Seq>
+     <rdf:li>0, 0</rdf:li>
+     <rdf:li>255, 255</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012Red>
+   <crs:ToneCurvePV2012Green>
+    <rdf:Seq>
+     <rdf:li>0, 0</rdf:li>
+     <rdf:li>255, 255</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012Green>
+   <crs:ToneCurvePV2012Blue>
+    <rdf:Seq>
+     <rdf:li>0, 0</rdf:li>
+     <rdf:li>255, 255</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012Blue>
   </rdf:Description>
  </rdf:RDF>
 </x:xmpmeta>
