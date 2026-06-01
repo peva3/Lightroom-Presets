@@ -255,3 +255,14 @@ Final community consensus values applied directly (no averaging) to `Kodak Ektar
 - Mastin Labs' Adventure Everyday pack includes Ektar 100 — community-recommended
 - Archetype Process recommended as "best simulations" by multiple users
 - RNI Ektar Warm Fade profile noted for shadow clipping behavior — our preset avoids this with blacks at -19 (not crushed to 0)
+
+## STYLEGUIDE v2.1 Alignment
+
+**Date:** June 2026 — Full STYLEGUIDE v2.1 sweep of all 8 Color-Negative presets.
+
+**Violations found:** 1
+| Attribute | Before | After | Rule |
+|-----------|--------|-------|------|
+| Saturation | +15 | +5 | §VIII.4 S-curve double-boost: Saturation ≤ ±5 when Contrast ≥ +30 |
+
+**Rationale:** Ektar 100 has Contrast=+32 (strong S-curve) with Saturation=+15 — textbook double-boost. STYLEGUIDE §VIII.4: "Let the curve carry the saturation. Use mild global Saturation (±5) and target specific color channels via HSL saturation for fine-tuning." Ektar already has robust per-channel HSL saturation (Red +21, Orange +17.5, Green +25, Blue +17.5, etc.) that carries the Ektar "punch." Global Saturation reduced from +15 to +5 to stop the curve+saturation compounding effect. The Ektar vibrancy remains via the HSL channels while avoiding the harsh digital over-saturation that the double-boost creates. This also fixes the |Vibrance−Saturation| gap: previously |0−15|=15 > 5; now |0−5|=5 ≤ 5.

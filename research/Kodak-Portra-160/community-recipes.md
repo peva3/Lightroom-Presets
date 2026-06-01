@@ -326,3 +326,14 @@ Final community consensus values applied directly (no averaging) to `Kodak Portr
 ## 5% Alignment Update
 
 **Date:** June 2026 — All values verified against Community Validated Values (2026) table. Every attribute was within 5% tolerance. Bug-fix rules confirmed: no Calibration, no Temperature/Tint, |Vibrance - Saturation| ≤ 5 (|⁻5 − ⁻10| = 5), all HSL saturation within ±60. **No XMP changes needed.**
+
+## STYLEGUIDE v2.1 Alignment
+
+**Date:** June 2026 — Full STYLEGUIDE v2.1 sweep of all 8 Color-Negative presets.
+
+**Violations found:** 1
+| Attribute | Before | After | Rule |
+|-----------|--------|-------|------|
+| Clarity | -5 | 0 | §VII Grain protection: Clarity must be 0 when GrainAmount > 0 |
+
+**Rationale:** Portra 160 has GrainAmount=20. STYLEGUIDE §VII requires Clarity=0 when grain is active. The community-intended subtle softness (Clarity=-5) is sacrificed for grain authenticity — STYLEGUIDE wins. Portra 160's soft character is still preserved via Contrast=-15, lifted Blacks=+20, and the fine-grain structure (Amount=20, Size=22.5).

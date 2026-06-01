@@ -329,3 +329,16 @@ Final community consensus values applied directly (no averaging) to `Fujifilm Cl
 - Macbeth chart color profiling is the most accurate method for non-Fuji cameras (confirmed by multiple threads)
 - VSCO legacy Film pack used as a starting point by many for Classic Chrome approximation
 - Lightroom factory presets ("Film Inspired Rich Gold", "Vintage VN1") noted as having similar characteristics
+
+## STYLEGUIDE v2.1 Alignment
+
+**Date:** June 2026 — Full STYLEGUIDE v2.1 sweep of all 8 Color-Negative presets.
+
+**Violations found:** 3
+| Attribute | Before | After | Rule |
+|-----------|--------|-------|------|
+| Clarity | +10 | 0 | §VII Grain protection: must be 0 when GrainAmount > 0 |
+| Texture | +15 | 0 | §VII Grain protection: must be 0 when GrainAmount > 0 |
+| Dehaze | +7.5 | 0 | §VII Grain protection: must be 0 when GrainAmount > 0 |
+
+**Rationale:** Classic Chrome has GrainAmount=22.5 (moderate X-Trans grain). STYLEGUIDE §VII requires Clarity=0, Texture=0, Dehaze=0 when grain is active. The community-intended documentary sharpness (Clarity +10, Texture +15, Dehaze +7.5) conflicts with grain authenticity — all three frequency bands were boosted simultaneously, which also violates §V (Clarity+Texture+Dehaze all pushed simultaneously). STYLEGUIDE wins. Classic Chrome's punchy documentary character is now carried by Contrast=+22, deep Blacks=-22, the strong HSL desaturation palette (Blues -26, Greens -30, Reds -22.5), and the cool/warm split tone (Shadows H212/S8, Highlights H50/S4.5). The fine-grain structure (Amount 22.5, Size 25, Roughness 50) provides authentic X-Trans texture without digital interference.

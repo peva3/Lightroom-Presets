@@ -342,3 +342,11 @@ Final community consensus values applied directly (no averaging) to `Kodak Portr
 ## 5% Alignment Update
 
 **Date:** June 2026 — All values verified against Community Validated Values (2026) table. Every attribute was within 5% tolerance. Bug-fix rules confirmed: no Calibration, no Temperature/Tint, |Vibrance - Saturation| ≤ 5 (both 0), all HSL saturation within ±60. **No XMP changes needed.**
+
+## STYLEGUIDE v2.1 Alignment
+
+**Date:** June 2026 — Full STYLEGUIDE v2.1 sweep of all 8 Color-Negative presets.
+
+**Violations found:** 0
+
+All STYLEGUIDE rules pass: GrainAmount=28 → Clarity=0, Dehaze=0, Sharpness=10 ✓. No Calibration ✓. No Temperature/Tint ✓. |Vibrance−Saturation|=0 ✓. All HSL Sat ≤ ±60 ✓. Saturation=0 (no S-curve double-boost) ✓. Grain ≤ 60 ✓. LuminanceSmoothing=0 ✓.

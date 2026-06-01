@@ -246,3 +246,11 @@ Final community consensus values applied directly (no averaging) to `Kodak Portr
 - Anecdotal confirmation that Portra 800 is the least documented Portra stock for Lightroom emulation
 - Alex Ruskman's profile-based approach is the most recommended community solution
 - Portra 800 emphasized as having distinctly richer red-orange tones and more purple/magenta in shadows vs Portra 400
+
+## STYLEGUIDE v2.1 Alignment
+
+**Date:** June 2026 — Full STYLEGUIDE v2.1 sweep of all 8 Color-Negative presets.
+
+**Violations found:** 0
+
+All STYLEGUIDE rules pass: GrainAmount=38 → Clarity=0, Dehaze=0, Sharpness=10 ✓. No Calibration ✓. No Temperature/Tint ✓. |Vibrance(+3)−Saturation(+5)|=2 ≤ 5 ✓. All HSL Sat ≤ ±60 ✓. Saturation=+5 (at boundary, no S-curve double-boost with Contrast=-15) ✓. Grain=38 ≤ 60 ✓. LuminanceSmoothing=0 ✓.

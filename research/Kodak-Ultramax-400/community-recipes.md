@@ -312,3 +312,16 @@ Final community consensus values applied directly (no averaging) to `Kodak Ultra
 **XMP Changes Made:** None — current values validated by live Reddit data.
 
 **Key Insight:** Ultramax is the least-discussed preset in this batch on Reddit. The community's primary reference for Ultramax Lightroom emulation is Laetheralus93's HybridMax project, which explicitly combines Ultramax + Portra + Gold characteristics. This validates our approach of positioning Ultramax between Portra 400 and Gold 200 on the warm/contrast spectrum.
+
+## STYLEGUIDE v2.1 Alignment
+
+**Date:** June 2026 — Full STYLEGUIDE v2.1 sweep of all 8 Color-Negative presets.
+
+**Violations found:** 3
+| Attribute | Before | After | Rule |
+|-----------|--------|-------|------|
+| Clarity | -6.5 | 0 | §VII Grain protection: must be 0 when GrainAmount > 0 |
+| Texture | -5 | 0 | §VII Grain protection: must be 0 when GrainAmount > 0 |
+| Dehaze | +6 | 0 | §VII Grain protection: must be 0 when GrainAmount > 0 |
+
+**Rationale:** Ultramax 400 has GrainAmount=32 (consumer film, noticeable grain). STYLEGUIDE §VII requires Clarity=0, Texture=0, Dehaze=0 when grain is active to prevent sharpening from treating grain particles as "edges" (creating jagged digital noise). The community-intended subtle softening (Clarity -6.5, Texture -5) and atmospheric haze (Dehaze +6) conflict with grain authenticity. STYLEGUIDE wins. Ultramax's character is now carried by Contrast=+22, the warm/cool split tone (Highlights H42/S17.5, Shadows H205/S13), and grain structure (Amount 32, Size 31, Roughness 56).

@@ -389,3 +389,16 @@ Final community consensus values applied directly (no averaging) to `Fujifilm Cl
 - Multiple users confirm that Classic Negative cannot be perfectly replicated in LR via sliders alone — requires profile/LUT approach
 - The r/Lumix color checker recreation by u/Infinity-- (already referenced in our research) is cited as the best DIY approach
 - In-camera recipes (Classic Cuban Negative, Reggie's Superia) already well-documented in our research from Fuji X Weekly
+
+## STYLEGUIDE v2.1 Alignment
+
+**Date:** June 2026 — Full STYLEGUIDE v2.1 sweep of all 8 Color-Negative presets.
+
+**Violations found:** 3
+| Attribute | Before | After | Rule |
+|-----------|--------|-------|------|
+| Clarity | -15 | 0 | §VII Grain protection: must be 0 when GrainAmount > 0 |
+| Texture | -5 | 0 | §VII Grain protection: must be 0 when GrainAmount > 0 |
+| Saturation | +20 | +5 | §VIII.4 S-curve double-boost: Saturation ≤ ±5 when Contrast ≥ +24 |
+
+**Rationale:** Classic Negative has GrainAmount=39 (strong grain) and Contrast=+24 (S-curve). Clarity=-15 and Texture=-5 violated grain protection (§VII). The in-camera Fuji recipe equivalent of Clarity=-3 to -4 is impossible to preserve with active grain — STYLEGUIDE wins. Saturation=+20 with Contrast=+24 is a double-boost violation (§VIII.4); reduced to +5. Classic Negative's muted-color character is still expressed via aggressive per-channel HSL desaturation (Red -29, Orange -14, Yellow -34, Green -19) and the signature cyan-green shadow / magenta highlight split tone (Shadows H160/S19, Highlights H330/S9.5). The grain structure (Amount 39, Size 40, Frequency 64) now renders cleanly without digital sharpening interference.

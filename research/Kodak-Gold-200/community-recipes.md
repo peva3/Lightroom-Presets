@@ -523,3 +523,14 @@ Final community consensus values applied directly (no averaging) to `Kodak Gold 
 ## 5% Alignment Update
 
 **Date:** June 2026 — All values verified against Community Validated Values (2026) table. Every attribute was within 5% tolerance (Exposure ±0.05 stops; all others ±5% of value's distance from 0). Bug-fix rules confirmed: no Calibration, no Temperature/Tint, |Vibrance - Saturation| ≤ 5 (both 0), all HSL saturation within ±60. **No XMP changes needed.**
+
+## STYLEGUIDE v2.1 Alignment
+
+**Date:** June 2026 — Full STYLEGUIDE v2.1 sweep of all 8 Color-Negative presets.
+
+**Violations found:** 1
+| Attribute | Before | After | Rule |
+|-----------|--------|-------|------|
+| Clarity | -7.5 | 0 | §VII Grain protection: Clarity must be 0 when GrainAmount > 0 |
+
+**Rationale:** Gold 200 has GrainAmount=35 (consumer film grain). STYLEGUIDE §VII (Grain vs Sharpening Clash + 10 Commandments #7) requires Clarity=0 when grain is active to prevent sharpening/grain interaction that creates jagged digital noise. The community-intended soft bloom (negative Clarity) is sacrificed — STYLEGUIDE wins over community values per project policy. The preset's character now relies on the Contrast=-12.5 + lifted Blacks=+20 for softness, with grain providing analog texture.
