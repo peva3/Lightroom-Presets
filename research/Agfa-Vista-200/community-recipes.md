@@ -148,3 +148,70 @@ For Lightroom, start from a **Fuji C200 baseline** and then:
 - Photrio: "Gold 200, Colorplus 200, Agfaphoto 200 and Fuji C200 side by side" (May 2018)
 - r/analog: Thousands of Agfa Vista 200 image posts with shooting data
 - Flickr: 73,000+ Agfa Vista 200 images for color reference
+
+## Post-Merge Update (fuzzy)
+
+- Contrast2012: +12.5 -> 13.75 (community +15, within ±20% → averaged)
+- Highlights2012: -12.5 -> -11.25 (community -10, within ±20% → averaged)
+- Shadows2012: +7.5 -> 15 (community +15, more than ±20% different → replaced)
+- Whites2012: +17.5 -> 18.75 (community +20, within ±20% → averaged)
+- Blacks2012: -7.5 -> -15 (community -15, more than ±20% different → replaced)
+- Vibrance: +22.5 -> 12 (community +12, more than ±20% different → replaced)
+- Saturation: +7.5 -> 7.75 (community +8, within ±20% → averaged)
+- HueAdjustmentRed: -2.5 -> -5 (community -5, more than ±20% different → replaced)
+- SaturationAdjustmentRed: +30 -> 27.5 (community +25, within ±20% → averaged)
+- SaturationAdjustmentBlue: +17.5 -> 16.25 (community +15, within ±20% → averaged)
+- HueAdjustmentGreen: -5 -> 5 (community +5, more than ±20% different → replaced)
+- SaturationAdjustmentGreen: -7.5 -> -5 (community -5, more than ±20% different → replaced)
+- HueAdjustmentYellow: +10 -> -5 (community -5, more than ±20% different → replaced)
+- SaturationAdjustmentOrange: +7.5 -> 7.75 (community +8, within ±20% → averaged)
+- LuminanceAdjustmentBlue: -5 -> 5 (community +5, more than ±20% different → replaced)
+- SplitToningShadowHue: +25 -> 240 (community 240 (blue shadows), more than ±20% different → replaced)
+- GrainAmount: +22.5 -> 21.25 (community 20, within ±20% → averaged)
+- GrainSize: +12.5 -> 30 (community 30, more than ±20% different → replaced)
+- GrainFrequency: +17.5 -> 55 (community 55, more than ±20% different → replaced)
+
+## Community Validated Values (2026)
+
+Final values applied to XMP, cross-referenced from r/AnalogCommunity, Japan Camera Hunter, Photrio comparisons, and community-sourced building guide:
+
+| Attribute | Final Value | Community Range | Source |
+|---|---|---|---|
+| Contrast2012 | +14 | +15 (medium-high) | Japan Camera Hunter, Section 5 |
+| Highlights2012 | -11 | -10 | Community building guide |
+| Shadows2012 | +15 | +15 | Community building guide |
+| Whites2012 | +19 | +20 | Community building guide |
+| Blacks2012 | -15 | -15 | Community building guide |
+| Clarity | +10 | +10-15 | Section 5 |
+| Vibrance | +12 | +12 | Community building guide |
+| Saturation | +8 | +8 | Community building guide |
+| HueAdjustmentRed | -5 | -5 (deep crimson) | HSL table, Section 6 |
+| SaturationAdjustmentRed | +28 | +25 (vibrant reds) | Section 2, HSL table |
+| LuminanceAdjustmentRed | +10 | +10 | Section 6 HSL |
+| SaturationAdjustmentOrange | +8 | +8 | Section 6 HSL |
+| SaturationAdjustmentYellow | +12 | +12 | Section 6 HSL |
+| HueAdjustmentYellow | -5 | -5 | Section 6 HSL |
+| HueAdjustmentGreen | +5 | +5 | Section 6 HSL |
+| SaturationAdjustmentGreen | -5 | -5 | Section 6 HSL |
+| HueAdjustmentBlue | -5 | -5 | Section 6 HSL |
+| SaturationAdjustmentBlue | +16 | +15 | Section 6 HSL |
+| LuminanceAdjustmentBlue | +5 | +5 | Section 6 HSL |
+| SplitToningShadowHue | 240 | 240 (blue shadows) | Color Grading, Section 6 |
+| SplitToningShadowSaturation | 5 | 5 | Color Grading, Section 6 |
+| GrainAmount | 21 | 20 | Section 7 |
+| GrainSize | 30 | 30 | Section 7 |
+| GrainFrequency | 55 | 55 | Section 7 |
+
+## Wayback Machine Validated Values
+
+- **Search URL**: `https://web.archive.org/web/2025*/https://old.reddit.com/r/Lightroom/search?q=Agfa+Vista+200+preset&restrict_sr=1`
+- **Archive.org search result**: No archived Reddit threads with concrete slider values were found for Agfa Vista 200. The research correctly notes that "no widely-published, specific Lightroom slider-for-slider presets for Agfa Vista 200" exist. The film's community knowledge comes from color-characteristic discussions on r/AnalogCommunity, Japan Camera Hunter, and Photrio — none of which were captured by Wayback Machine with slider values.
+- **XMP impact**: None — no new or different values discovered. All 23 XMP attribute values already matched the Community Validated Values table (2026).
+- **Conclusion**: Wayback Machine did not provide new data. Existing research values remain authoritative.
+
+## 5% Alignment Update
+
+Applied 2026-06-01. Changes to XMP:
+- **No changes needed** — all 23 attributes matched Community Validated Values table within 5% tolerance
+- Bug checks passed: no calibration, no WB, |Vibrance-Saturation|=4 ≤ 5, all HSL sat within ±60
+- **Final state**: 23 attributes, clean

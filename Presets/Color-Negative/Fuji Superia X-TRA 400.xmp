@@ -15,34 +15,28 @@
     crs:RequiresRenditionBehavior="True"
     crs:Name="04 Fuji Superia X-TRA 400"
     crs:HasSettings="True"
-    crs:GrainSize="30"
-    crs:SplitToningBalance="-20"
-    crs:SplitToningHighlightSaturation="0"
-    crs:SplitToningHighlightHue="0"
-    crs:LuminanceAdjustmentBlue="-10"
-    crs:LuminanceAdjustmentGreen="-10"
-    crs:SaturationAdjustmentBlue="+15"
-    crs:SaturationAdjustmentGreen="+10"
-    crs:SaturationAdjustmentOrange="+10"
-    crs:HueAdjustmentBlue="-5"
-    crs:HueAdjustmentOrange="-5"
-    crs:Vibrance="+15"
-    crs:Saturation="-10"
-    crs:Whites2012="+10"
-    crs:Contrast2012="+20"
-    crs:Highlights2012="-25"
+    crs:Contrast2012="+15"
+    crs:Highlights2012="-20"
     crs:Shadows2012="+10"
     crs:Blacks2012="+5"
-    crs:SaturationAdjustmentRed="+25"
+     crs:Vibrance="15"
+     crs:Saturation="10"
+     crs:SaturationAdjustmentRed="+13"
+    crs:SaturationAdjustmentGreen="+5"
+    crs:SaturationAdjustmentBlue="-5"
     crs:HueAdjustmentRed="-10"
-    crs:HueAdjustmentGreen="-10"
-    crs:SplitToningShadowHue="170"
-    crs:SplitToningShadowSaturation="20"
-    crs:GrainAmount="35"
-    crs:GrainFrequency="50">
+    crs:HueAdjustmentGreen="0"
+    crs:HueAdjustmentBlue="-5"
+    crs:SplitToningShadowHue="130"
+    crs:SplitToningShadowSaturation="16"
+    crs:SplitToningHighlightHue="40"
+    crs:SplitToningHighlightSaturation="5"
+    crs:GrainAmount="31"
+    crs:GrainSize="28"
+     crs:GrainFrequency="51">
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">04 Fuji Superia X-TRA 400</rdf:li>
+     <rdf:li xml:lang="x-default">Color Negative</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:Group>

@@ -15,28 +15,33 @@
     crs:RequiresRenditionBehavior="True"
     crs:Name="06 Ilford HP5 Plus"
     crs:HasSettings="True"
-    crs:GrayMixerMagenta="-5"
-    crs:GrayMixerPurple="-5"
-    crs:GrayMixerAqua="+5"
-    crs:GrayMixerOrange="+5"
-    crs:GrayMixerRed="-5"
     crs:ConvertToGrayscale="True"
-    crs:Contrast2012="+15"
-    crs:Highlights2012="-25"
-    crs:Shadows2012="+20"
-    crs:Whites2012="+20"
-    crs:Blacks2012="-15"
-    crs:GrayMixerYellow="+15"
-    crs:GrayMixerGreen="+15"
-    crs:GrayMixerBlue="-20"
-    crs:Texture="+15"
-    crs:Clarity2012="+15"
-    crs:GrainAmount="40"
-    crs:GrainSize="30"
-    crs:GrainFrequency="45">
+    crs:Contrast2012="+7.5"
+    crs:Highlights2012="-23.8"
+    crs:Shadows2012="+16.3"
+    crs:Whites2012="+5"
+    crs:Blacks2012="-11.3"
+    crs:Clarity2012="+11.3"
+    crs:Texture="+10"
+    crs:GrayMixerRed="+15"
+    crs:GrayMixerOrange="+10"
+    crs:GrayMixerYellow="+5"
+    crs:GrayMixerGreen="-5"
+    crs:GrayMixerAqua="-10"
+    crs:GrayMixerBlue="-18.8"
+    crs:GrayMixerPurple="0"
+    crs:GrayMixerMagenta="0"
+    crs:SplitToningShadowHue="230"
+    crs:SplitToningShadowSaturation="8"
+    crs:SplitToningHighlightHue="50"
+    crs:SplitToningHighlightSaturation="5"
+    crs:SplitToningBalance="-20"
+    crs:GrainAmount="36.3"
+    crs:GrainSize="27.5"
+    crs:GrainFrequency="46.3">
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">06 Ilford HP5 Plus</rdf:li>
+     <rdf:li xml:lang="x-default">Black White</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:Group>

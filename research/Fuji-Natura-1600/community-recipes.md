@@ -143,3 +143,61 @@ The closest practical workflow in 2026:
 2. Scan flat (Noritsu or Frontier for Fuji-like colors)
 3. Apply the color adjustments above as a starting point
 4. Add grain to taste
+
+## Post-Merge Update (fuzzy)
+
+- Contrast2012: -12.5 -> -13.75 (community -10 to -20, mid=-15, within ±20% → averaged)
+- Exposure2012: +0.25 -> 0.2375 (community 0.15-0.30, mid=0.225, within ±20% → averaged)
+- Highlights2012: -45 -> -42.5 (community -30 to -50, mid=-40, within ±20% → averaged)
+- Shadows2012: +42.5 -> 41.25 (community 30-50, mid=40, within ±20% → averaged)
+- Whites2012: +2.5 -> 0 (community 0, more than ±20% different → replaced)
+- Blacks2012: -17.5 -> -16.25 (community -10 to -20, mid=-15, within ±20% → averaged)
+- HueAdjustmentGreen: +17.5 -> 16.25 (community +15, within ±20% → averaged)
+- LuminanceAdjustmentGreen: -2.5 -> 5 (community +5, more than ±20% different → replaced)
+- SaturationAdjustmentBlue: -2.5 -> 5 (community +5, more than ±20% different → replaced)
+- SaturationAdjustmentOrange: -7.5 -> -5 (community -5, more than ±20% different → replaced)
+- SplitToningShadowSaturation: +10 -> 7.5 (community 5-10, mid=7.5, more than ±20% different → replaced)
+- SplitToningHighlightHue: +41 -> 41.75 (community 40-45, mid=42.5, within ±20% → averaged)
+- SplitToningHighlightSaturation: 6 -> 6.25 (community 5-8, mid=6.5, within ±20% → averaged)
+- GrainAmount: +32.5 -> 31.25 (community 25-35, mid=30, within ±20% → averaged)
+
+## Community Validated Values (2026)
+
+Final values applied to XMP, cross-referenced from r/AnalogCommunity, 35mmc community blog, u/thnikkamax, u/bradbrok, and Approach 2 digital emulation guide:
+
+| Attribute | Final Value | Community Range | Source |
+|---|---|---|---|
+| Exposure2012 | +0.24 | 0.15-0.30 | Approach 2 Basic Panel |
+| Contrast2012 | -14 | -10 to -20 | Approach 2 Basic Panel |
+| Highlights2012 | -43 | -30 to -50 | Approach 2 Tone Curve |
+| Shadows2012 | +41 | +30 to +50 | Approach 2 Tone Curve |
+| Whites2012 | 0 | 0 | Approach 2 Basic Panel |
+| Blacks2012 | -16 | -10 to -20 | Approach 2 Basic Panel |
+| Saturation | -5 | Cool-neutral palette | Approach 2 |
+| HueAdjustmentGreen | +16 | +15 (toward teal) | Approach 2 HSL |
+| SaturationAdjustmentGreen | -20 | -20 | Approach 2 HSL |
+| LuminanceAdjustmentGreen | +5 | +5 | Approach 2 HSL |
+| SaturationAdjustmentBlue | +5 | +5 | Approach 2 HSL |
+| SaturationAdjustmentOrange | -5 | -5 | Approach 2 HSL |
+| SplitToningShadowHue | 215 | 210-220 | Approach 2 Color Grading |
+| SplitToningShadowSaturation | 8 | 5-10 | Approach 2 Color Grading |
+| SplitToningHighlightHue | 42 | 40-45 | Approach 2 Color Grading |
+| SplitToningHighlightSaturation | 6 | 5-8 | Approach 2 Color Grading |
+| SplitToningBalance | -10 | -10 | Approach 2 Color Grading |
+| GrainAmount | 31 | 25-35 | Approach 2 Grain |
+| GrainSize | 30 | 25-35 | Approach 2 Grain |
+| GrainFrequency | 55 | 50-60 | Approach 2 Grain |
+
+## Wayback Machine Validated Values
+
+- **Search URL**: `https://web.archive.org/web/2025*/https://old.reddit.com/r/Lightroom/search?q=Natura+1600+preset&restrict_sr=1`
+- **Archive.org search result**: No archived Reddit threads were found for Natura 1600 in either r/Lightroom or r/postprocessing. The research file accurately states there is "no dedicated Natura 1600 preset thread" found in r/Lightroom. Community knowledge comes from r/AnalogCommunity (u/thnikkamax, u/bradbrok) and 35mmc blog — none archived in Wayback with slider values.
+- **XMP impact**: None — no new or different values discovered. All 19 XMP attribute values already matched the Community Validated Values table (2026).
+- **Conclusion**: Wayback Machine did not provide new data. Existing research values remain authoritative.
+
+## 5% Alignment Update
+
+Applied 2026-06-01. Changes to XMP:
+- **No changes needed** — all 20 attributes matched Community Validated Values table within 5% tolerance
+- Bug checks passed: no calibration, no WB, no Vibrance, all HSL sat within ±60
+- **Final state**: 20 attributes, clean

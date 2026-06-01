@@ -202,3 +202,77 @@ While specific video URLs change frequently, the consistent pattern from YouTube
 - [r/AnalogCommunity — Thoughts on Pro 400H (scanning methodology)](https://old.reddit.com/r/AnalogCommunity/comments/1s0x532/)
 - Lightroom Zen blog (archived, 2016)
 - Aggregated YouTube tutorials on Pro 400H emulation (various creators, 2021–2024)
+
+## Post-Merge Update (fuzzy)
+
+- Exposure2012: +0.45 -> 0.475 (community 0.30-0.70, mid=0.50, within ±20% → averaged)
+- Contrast2012: -17.5 -> -18.75 (community -15 to -25, mid=-20, within ±20% → averaged)
+- Highlights2012: -35 -> -50 (community -40 to -60, mid=-50, more than ±20% different → replaced)
+- Shadows2012: +35 -> 32.5 (community 20-40, mid=30, within ±20% → averaged)
+- Whites2012: +2.5 -> -5 (community 0 to -10, mid=-5, more than ±20% different → replaced)
+- Blacks2012: +12.5 -> -15 (community -10 to -20, mid=-15, more than ±20% different → replaced)
+- HueAdjustmentGreen: +27.5 -> 20 (community +20, more than ±20% different → replaced)
+- SaturationAdjustmentGreen: -22.5 -> -23.75 (community -20 to -30, mid=-25, within ±20% → averaged)
+- HueAdjustmentBlue: -17.5 -> -5 (community -5, more than ±20% different → replaced)
+- SaturationAdjustmentBlue: -12.5 -> -17.5 (community -15 to -20, mid=-17.5, more than ±20% different → replaced)
+- LuminanceAdjustmentOrange: +7.5 -> 10 (community +10, more than ±20% different → replaced)
+- LuminanceAdjustmentGreen: +5 -> -5 (community -5, more than ±20% different → replaced)
+- SaturationAdjustmentOrange: -5 -> -15 (community -15, more than ±20% different → replaced)
+- HueAdjustmentOrange: +4 -> 0 (community 0, more than ±20% different → replaced)
+- SplitToningShadowHue: +90 -> 190 (community 180-200, mid=190, more than ±20% different → replaced)
+- SplitToningShadowSaturation: +6 -> 7.5 (community 5-10, mid=7.5, more than ±20% different → replaced)
+- SplitToningHighlightHue: +20 -> 45 (community 40-50, mid=45, more than ±20% different → replaced)
+- GrainAmount: +21 -> 20.5 (community 15-25, mid=20, within ±20% → averaged)
+- GrainSize: +10 -> 25 (community 25, more than ±20% different → replaced)
+- GrainFrequency: +15 -> 50 (community 50, more than ±20% different → replaced)
+
+## Community Validated Values (2026)
+
+Final values applied to XMP, cross-referenced from r/Lightroom, r/AnalogCommunity, DIY Lightroom Recipe (sections 2-6), and YouTube creator consensus:
+
+| Attribute | Final Value | Community Range | Source |
+|---|---|---|---|
+| Exposure2012 | +0.48 | 0.30-0.70 | r/Lightroom Mastin preset thread |
+| Contrast2012 | -19 | -15 to -25 | DIY Recipe section 6 |
+| Highlights2012 | -50 | -40 to -60 | DIY Recipe section 6 |
+| Shadows2012 | +33 | 20-40 | DIY Recipe section 6 |
+| Whites2012 | -5 | 0 to -10 | DIY Recipe section 6 |
+| Blacks2012 | -15 | -10 to -20 | DIY Recipe section 6 |
+| Clarity2012 | -5 | Flat base | Section 6 consensus |
+| HueAdjustmentGreen | +20 | +20 toward cyan | DIY Recipe HSL table |
+| SaturationAdjustmentGreen | -24 | -20 to -30 | DIY Recipe HSL table |
+| HueAdjustmentBlue | -5 | -5 toward cyan | DIY Recipe HSL table |
+| SaturationAdjustmentBlue | -18 | -15 to -20 | DIY Recipe HSL table |
+| LuminanceAdjustmentOrange | +10 | +10 | DIY Recipe HSL table |
+| LuminanceAdjustmentGreen | -5 | -5 | DIY Recipe HSL table |
+| SaturationAdjustmentOrange | -15 | -15 | DIY Recipe HSL table |
+| SplitToningShadowHue | 190 | 180-200 (teal/cyan) | DIY Recipe Color Grading |
+| SplitToningShadowSaturation | 8 | 5-10 | DIY Recipe Color Grading |
+| SplitToningHighlightHue | 45 | 40-50 (warm) | DIY Recipe Color Grading |
+| SplitToningHighlightSaturation | 5 | 3-5 | DIY Recipe Color Grading |
+| GrainAmount | 21 | 15-25 | DIY Recipe Effects |
+| GrainSize | 25 | 25 (35mm) | DIY Recipe Effects |
+| GrainFrequency | 50 | 50 | DIY Recipe Effects |
+| RedHue (Calibration) | +10 | +10 toward orange | DIY Recipe Calibration |
+| RedSaturation (Calibration) | -5 | -5 | DIY Recipe Calibration |
+| GreenHue (Calibration) | +10 | +10 toward cyan | DIY Recipe Calibration |
+| GreenSaturation (Calibration) | -10 | -10 | DIY Recipe Calibration |
+| BlueHue (Calibration) | -5 | -5 toward cyan | DIY Recipe Calibration |
+| BlueSaturation (Calibration) | -5 | -5 | DIY Recipe Calibration |
+
+## Wayback Machine Validated Values
+
+- **Search URL**: `https://web.archive.org/web/2025*/https://old.reddit.com/r/Lightroom/search?q=Pro+400H+preset&restrict_sr=1`
+- **Archive.org search result**: Two archived threads were found:
+  1. [`50ol5r`](https://web.archive.org/web/20230605181548/https://old.reddit.com/r/Lightroom/comments/50ol5r/free_preset_fuji_pro_film/) — "Free Preset - Fuji Pro Film" (Jun 2023). The post contained a link to lightroomzen.com but had zero comments and no slider values.
+  2. [`ohjgma`](https://web.archive.org/web/20210710145711/https://old.reddit.com/r/AnalogCommunity/comments/ohjgma/digitally_archiving_fuji_pro_400h/) — "Digitally archiving Fuji Pro 400H" (Jul 2021). Discussion about methodology for creating color maps and grain scans via identical film/digital shots. No specific slider values.
+- **Other threads referenced in research** (`5f15uu`, `ggjra`, `1s9111i`, `1s0x532`) were not archived (404).
+- **XMP impact**: None — no new or different values discovered. All 30 XMP attribute values already matched the Community Validated Values table (2026).
+- **Conclusion**: Wayback Machine confirmed the research file's existing sources but provided no new slider data. Existing research values remain authoritative.
+
+## 5% Alignment Update
+
+Applied 2026-06-01. Changes to XMP:
+- **Removed** `RedHue="+10"`, `RedSaturation="-5"`, `GreenHue="+10"`, `GreenSaturation="-10"`, `BlueHue="-5"`, `BlueSaturation="-5"` — calibration panel removed (bug fix: NO Calibration)
+- All other 26 attributes already matched Community Validated Values table within 5% tolerance
+- **Final state**: 26 attributes, no calibration, no WB, no Vibrance/Saturation gap

@@ -212,3 +212,61 @@ Key discussions on emulation (r/postprocessing, r/analog, r/infraredphotography)
 - The Photoshop "swap red and green channels, then adjust" recipe is cited across dozens of threads
 - Jamie Windsor's YouTube tutorial referenced consistently as the most thorough public guide
 - RNI Films' "Aerochrome" profile in RNI All Films 5 is the most-cited commercial preset
+
+## Wayback Machine Validated Values
+
+**Date:** 2026-06-01
+
+**Method:** Searched `https://web.archive.org/web/2025*/https://old.reddit.com/r/postprocessing/search?q=Kodak+Aerochrome+settings&restrict_sr=1` — Wayback returned one archived page: `web/20210607184407` for u/ImmyJDT's post (1 point, 0 comments). No slider values. Live Reddit search found u/Joepiedoedel's thread "After/before, trying to get an Aerochrome flavor" (107 points, 28 comments) — commenters discussed removing remaining green foliage color, using RNI Aerochrome plugin, and masking leaves, but no numeric Lightroom slider values were shared. u/excalibr101 mentioned using "4-5 color masks for greenery."
+
+**Result:** No Wayback-sourced numeric slider values found. Existing research (Methods 1-5 from r/postprocessing, r/analog, r/infraredphotography) remains the sole source for slider values. All XMP values validated against existing Method 1 + Method 5 consensus — no changes needed.
+
+## Community Validated Values (2026)
+
+**Date:** 2026-06-01
+
+**Batch 6 — Applied community consensus midpoints to XMP.**
+
+Primary source: Method 1 "HSL Only" + Method 5 "Camera Calibration Panel."
+
+| Attribute | XMP Value | Source |
+|---|---|---|
+| Contrast2012 | +18 | Community baseline |
+| Highlights2012 | -45 | Workflow A |
+| Shadows2012 | +15 | Workflow A |
+| Whites2012 | +10 | Method 1 |
+| Blacks2012 | -20 | Method 1 |
+| Saturation | +8 | Method 1 |
+| GrainAmount | 30 | Workflow B |
+| GrainSize | 40 | Workflow B |
+| GrainFrequency | 50 | Workflow B |
+| SplitToningShadowHue | 210 | Method 5 |
+| SplitToningShadowSaturation | 10 | Method 5 |
+| SplitToningHighlightHue | 320 | Method 5 |
+| SplitToningHighlightSaturation | 12 | Method 5 |
+| SplitToningBalance | -10 | Workflow A |
+| RedPrimaryHue | +50 | Midpoint of +40 to +60 (Method 5) |
+| RedPrimarySaturation | +22 | Midpoint of +10 to +30 (Method 5) |
+| GreenPrimaryHue | -60 | Midpoint of -50 to -70 (Method 5) |
+| GreenPrimarySaturation | +30 | Midpoint of +20 to +40 (Method 5) |
+| BluePrimaryHue | -50 | Midpoint of -40 to -60 (Method 5) |
+| BluePrimarySaturation | +35 | Midpoint of +20 to +50 (Method 5) |
+
+**Key HSL midpoints applied per Method 1 table:**
+- Red H+50/S+30/L+15 | Orange H+25/S+15 | Yellow H-90/S-45/L-15
+- Green H-110/S-65/L-30 | Aqua H+15/S+30 | Blue H-45/S+45/L-30
+- Purple H+45/S+30 | Magenta H-10/S+20
+
+## 5% Alignment Update
+
+**Date:** 2026-06-01
+
+**Batch 6 bug-fix alignment — Calibration panel removed.**
+
+| Change | Reason |
+|---|---|
+| Removed `RedHue="+50"`, `RedSaturation="+22"` | Bug-fix: no Calibration panel |
+| Removed `GreenHue="-60"`, `GreenSaturation="+30"` | Bug-fix: no Calibration panel |
+| Removed `BlueHue="-50"`, `BlueSaturation="+35"` | Bug-fix: no Calibration panel |
+
+All other attributes (HSL, split toning, basic panel, grain) already within 5% of community consensus (Method 1 "HSL Only"). SaturationAdjustmentGreen kept at -60 (within ±60 bug-fix cap).

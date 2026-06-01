@@ -284,3 +284,60 @@ Popular Tri-X emulation tutorials emphasize:
 - **FredMiranda.com** threads suggest Tri-X at EI 200-250 yields the "true" shadow detail, with the characteristic curve showing ~2 stops of underexposure latitude and 5+ stops overexposure latitude
 - **Photrio (APUG)** consensus: D-76 1:1 at 9.75 min is the "reference standard" for Tri-X development against which all other developer/film combinations are judged
 - **RangeFinderForum** recommendation: Pair Tri-X with a yellow filter (K2/Y48) for classic street photography look, or orange filter for dramatic skies
+
+---
+
+## Post-Merge Update (fuzzy)
+
+Changes applied to `Presets/Black-White/Kodak Tri-X 400.xmp` via fuzzy community merge (2026-06-01):
+
+| Parameter | Before | After | Method |
+|---|---|---|---|
+| Highlights2012 | -12.5 | -13.8 | Averaged (community -15) |
+| Shadows2012 | -17.5 | +25 | Replaced (community +20 to +30) |
+| Whites2012 | +22.5 | +15 | Replaced (community +15) |
+| Blacks2012 | -35 | -32.5 | Averaged (community -25 to -35) |
+| Clarity2012 | +20 | +27.5 | Replaced (community +20 to +35) |
+| Texture | +7.5 | +15 | Replaced (community +10 to +20) |
+| Dehaze | (none) | +10 | Added (community +5 to +15) |
+| GrayMixerRed | +2.5 | +30 | Replaced (community +25 to +35) |
+| GrayMixerOrange | +5 | +20 | Replaced (community +15 to +25) |
+| GrayMixerYellow | +17.5 | -5 | Replaced (community -10 to 0) |
+| GrayMixerGreen | +22.5 | -25 | Replaced (community -20 to -30) |
+| GrayMixerAqua | +2.5 | 0 | Replaced (community 0) |
+| GrayMixerBlue | -17.5 | -40 | Replaced (community -30 to -50) |
+| GrayMixerPurple | -5 | 0 | Replaced (community 0) |
+| GrayMixerMagenta | -2.5 | -5 | Replaced (community -10 to 0) |
+| GrainAmount | +57.5 | +60 | Averaged (community 55-70) |
+| GrainFrequency | +52.5 | +72.5 | Replaced (community 65-80) |
+
+## Community Validated Values (2026)
+
+Final consensus values from cross-referencing community recipes. Applied to `Presets/Black-White/Kodak Tri-X 400.xmp` on 2026-06-01.
+
+| Parameter | Final Value | Community Range | Source |
+|-----------|------------|-----------------|--------|
+| **Basic Panel** | | | |
+| Contrast2012 | +35 | +35 to +45 | Recipe A (box speed) |
+| Highlights2012 | -13.8 | -15 | Averaged |
+| Shadows2012 | +25 | +20 to +30 | Midpoint |
+| Whites2012 | +15 | +15 | Recipe A |
+| Blacks2012 | -32.5 | -25 to -35 | Averaged |
+| Clarity2012 | +27.5 | +20 to +35 | Midpoint |
+| Dehaze | +10 | +5 to +15 | Midpoint |
+| Texture | +15 | +10 to +20 | Midpoint |
+| **B&W Mix** | | | |
+| Red | +30 | +25 to +35 | Key: panchromatic red sensitivity |
+| Orange | +20 | +15 to +25 | Midpoint |
+| Yellow | -5 | -10 to 0 | Midpoint |
+| Green | -25 | -20 to -30 | Darken foliage |
+| Aqua | 0 | 0 | Recipe A |
+| Blue | -40 | -30 to -50 | Dramatic sky darkening |
+| Purple | 0 | 0 | Recipe A |
+| Magenta | -5 | -10 to 0 | Midpoint |
+| **Grain** | | | |
+| Amount | 60 | 55-70 | Averaged |
+| Size | 40 | 35-45 | Midpoint |
+| Frequency | 72.5 | 65-80 | High roughness = salt-and-pepper |
+
+**Key sources:** r/Lightroom, r/analog, r/postprocessing, FredMiranda forums, Photrio (APUG), VSCO Film 01 reference, YouTube tutorials.

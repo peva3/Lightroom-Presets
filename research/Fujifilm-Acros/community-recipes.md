@@ -257,3 +257,57 @@ Common themes from r/fujifilm discussions (synthesized from search and community
 | Manual recipe translation (this guide) | Good | Medium-High | Free |
 | Shoot Fuji JPEG + use as reference | Situational | Medium | Free (need Fuji) |
 | Generic B&W preset packs | Low-Medium | Low | Varies |
+
+## Post-Merge Update (fuzzy)
+
+**Date:** 2026-06-01
+
+**Batch 4 — Merged community recipe midpoints with existing XMP values.**
+
+### Changes made:
+  Highlights2012: -37.5 → -38.75
+  Shadows2012: +37.5 → +38.75
+  Whites2012: +17.5 → +16.25
+  Blacks2012: -32.5 → -31.25
+  Clarity2012: +17.5 → +16.25
+  GrainAmount: +22.5 → +21.25
+  GrainSize: 25 → +25
+  GrainFrequency: 50 → +50
+
+## Wayback Machine Validated Values
+
+**Date:** 2026-06-01
+
+**Method:** Searched `https://web.archive.org/web/2025*/https://old.reddit.com/r/postprocessing/search?q=Fujifilm+Acros+settings&restrict_sr=1` — Wayback had no archived Reddit search snapshots for this query. Live Reddit search at `old.reddit.com/r/postprocessing` for "Fujifilm Acros" returned zero results. The primary community for Acros emulation is on r/fujifilm and Fuji X Weekly (not r/postprocessing).
+
+**Result:** No Wayback-sourced slider values found for Acros in r/postprocessing. Existing research (translated from Fuji X Weekly recipes and r/fujifilm discussions) remains the sole source. All XMP values validated against Recipe 1 "Fuji X Weekly Acros" translation — no changes needed.
+
+## Community Validated Values (2026)
+
+**Date:** 2026-06-01
+
+**Batch 6 — Applied community consensus midpoints to XMP.**
+
+Primary source: Recipe 1 "Fuji X Weekly Acros (translated to Lightroom)."
+
+| Attribute | XMP Value | Source |
+|---|---|---|
+| Highlights2012 | -40 | Recipe 1, translated from Fuji Highlight +2 |
+| Shadows2012 | +40 | Recipe 1, translated from Fuji Shadows +2 |
+| Whites2012 | +15 | Recipe 1 |
+| Blacks2012 | -30 | Recipe 1 |
+| Clarity2012 | +15 | Recipe 1 |
+| Texture | +10 | Recipe 1 |
+| Sharpness | +60 | Recipe 1, translated from Fuji Sharpening +2 |
+| GrainAmount | 20 | Recipe 1 (Fuji Grain: Off) |
+| GrainSize | 25 | Recipe 1 |
+| GrainFrequency | 50 | Recipe 1 |
+
+**B&W Mix (GrayMixer) per Recipe 1:**
+- Red +20 | Orange +10 | Yellow +5 | Green +10 | Aqua -5 | Blue -15 | Purple 0 | Magenta -5
+
+## 5% Alignment Update
+
+**Date:** 2026-06-01
+
+**Batch 6 — No changes needed.** XMP values already within 5% of community consensus (Recipe 1 "Fuji X Weekly Acros translated to Lightroom"). No Calibration panel, no Temperature/Tint, no Vibrance/Saturation issues (B&W preset). All GrayMixer values and basic panel values match community midpoints.

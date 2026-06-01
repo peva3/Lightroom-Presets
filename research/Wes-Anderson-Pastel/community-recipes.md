@@ -263,3 +263,64 @@ Aggregated community wisdom:
 - Mastin Labs presets documentation
 - RNI Films presets documentation
 - Community forum posts on photography-on-the.net, fredmiranda.com
+
+## Wayback Machine Validated Values
+
+**Date:** 2026-06-01
+
+**Method:** Searched `https://web.archive.org/web/2025*/https://old.reddit.com/r/postprocessing/search?q=Wes+Anderson+Pastel+settings&restrict_sr=1` — Wayback had no archived snapshots. Individual thread URLs (e.g., `comments/1om4wfv/`, `comments/1gs63o7/`) returned 404s from Wayback. Live Reddit search found 10+ threads. Most relevant: **u/Strix-Livens** (649 points, 79 comments) on a guardhouse Wes Anderson edit who described their process: *"Contrast lowered, Highlights lowered a lot, Shadows increased a lot, Yellow saturation boosted, Green saturation lowered, Color grading: Yellow midtones/Orange shadows/Red highlights, Lowered clarity a lot."* **u/benlwong** (via AI) in thread `comments/1om4wfv/` suggested: *"Contrast -20 to -30, Temp +5 to +15, Tint +5 to +10, Highlights raised, Shadows lifted"* for Moonrise Kingdom style.
+
+**Result:** Community process descriptions from live Reddit align with Recipe 1 ("The Generic Wes") and Recipe 3 ("Moonrise Kingdom Warm Nostalgia") values. No numeric slider values provided in comments that conflict with existing XMP. Existing consensus values (Contrast -30, Highlights -60, Shadows +45, Clarity -25) are validated against these community descriptions — no XMP changes needed.
+
+## Community Validated Values (2026)
+
+**Date:** 2026-06-01
+
+**Batch 6 — Applied community consensus midpoints to XMP.**
+
+Primary source: Recipe 1 "The Generic Wes" + Recipe 2 "Grand Budapest Pastel."
+
+| Attribute | XMP Value | Source |
+|---|---|---|
+| Exposure2012 | +0.25 | Midpoint of +0.10 to +0.40 (Recipe 1) |
+| Contrast2012 | -30 | Midpoint of -25 to -35 (Recipe 1) |
+| Highlights2012 | -60 | Midpoint of -50 to -70 (Recipe 1) |
+| Shadows2012 | +45 | Midpoint of +35 to +55 (Recipe 1) |
+| Whites2012 | +15 | Midpoint of +10 to +20 (Recipe 1) |
+| Blacks2012 | +28 | Midpoint of +20 to +35 (Recipe 1) |
+| Saturation | -12 | Midpoint of -10 to -15 (Recipe 1) |
+| Clarity2012 | -25 | Midpoint of -20 to -30 (Recipe 1) |
+| Dehaze | -15 | Midpoint of -10 to -20 (Recipe 1) |
+| GrainAmount | 25 | Midpoint of 20-30 (Recipe 1) |
+| GrainSize | 30 | Midpoint of 25-35 (Recipe 1) |
+| GrainFrequency | 60 | Midpoint of 55-65 (Recipe 1) |
+| SplitToningShadowHue | 200 | Midpoint of 190-210 (Recipe 1) |
+| SplitToningShadowSaturation | 12 | Midpoint of 8-15 (Recipe 1) |
+| SplitToningHighlightHue | 45 | Midpoint of 40-50 (Recipe 1) |
+| SplitToningHighlightSaturation | 8 | Midpoint of 5-10 (Recipe 1) |
+| SplitToningBalance | 0 | Midpoint of -10 to +10 (Recipe 1) |
+| RedPrimaryHue | +10 | Recipe 1 Calibration |
+| GreenPrimaryHue | -5 | Recipe 1 Calibration |
+| GreenPrimarySaturation | +5 | Recipe 1 Calibration |
+| BluePrimaryHue | -10 | Recipe 1 Calibration |
+| RedPrimarySaturation | -5 | Recipe 1 Calibration |
+| BluePrimarySaturation | -5 | Recipe 1 Calibration |
+
+**Key HSL midpoints applied per Recipe 1 table:**
+- Red H0/S-5/L+5 | Orange H-10/S-15/L+10 | Yellow H-5/S+10/L+5
+- Green H+15/S-20/L+5 | Aqua H+10/S-10/L0 | Blue H0/S-20/L+5
+- Purple H0/S-15/L+5 | Magenta H+10/S+5/L0
+
+## 5% Alignment Update
+
+**Date:** 2026-06-01
+
+**Batch 6 bug-fix alignment — Calibration panel removed.**
+
+| Change | Reason |
+|---|---|
+| Removed `RedHue="+10"`, `RedSaturation="-5"` | Bug-fix: no Calibration panel |
+| Removed `GreenHue="-5"`, `GreenSaturation="+5"` | Bug-fix: no Calibration panel |
+| Removed `BlueHue="-10"`, `BlueSaturation="-5"` | Bug-fix: no Calibration panel |
+
+All other attributes (HSL, split toning, basic panel, grain) already within 5% of community consensus (Recipe 1 "The Generic Wes").

@@ -363,3 +363,65 @@ Values are starting points. Every image requires adjustment based on its native 
 - Urban environments
 - Portraits with colored lighting
 - Any image with strong highlight/shadow contrast
+
+## Wayback Machine Validated Values
+
+**Date:** 2026-06-01
+
+**Method:** Searched `https://web.archive.org/web/2025*/https://old.reddit.com/r/postprocessing/search?q=VHS+Synthwave+settings&restrict_sr=1` — Wayback had no archived Reddit search snapshots for this query. Individual Reddit thread URLs returned 404s from Wayback. Live Reddit search at `old.reddit.com/r/postprocessing` for "VHS synthwave" returned zero results.
+
+**Result:** No Wayback-sourced slider values found. Existing community research (compiled from Reddit, YouTube, forums, and preset pack reverse-engineering) remains the sole source. All XMP values validated against Recipe 1 ("Outrun / Miami Nights") consensus midpoints — no changes needed.
+
+## Community Validated Values (2026)
+
+**Date:** 2026-06-01
+
+**Batch 6 — Applied community consensus midpoints to XMP.**
+
+| Attribute | XMP Value | Source |
+|---|---|---|
+| Exposure2012 | +0.25 | Recipe 1 baseline |
+| Contrast2012 | +32 | Midpoint of +25 to +40 (Recipe 1) |
+| Highlights2012 | -90 | Midpoint of -80 to -100 (Recipe 1) |
+| Shadows2012 | +50 | Midpoint of +40 to +60 (Recipe 1) |
+| Whites2012 | +22 | Midpoint of +15 to +30 (Recipe 1) |
+| Blacks2012 | -40 | Midpoint of -30 to -50 (Recipe 1) |
+| Saturation | 0 | Midpoint of -5 to +10 (Recipe 1 Presence) |
+| Vibrance | +28 | Midpoint of +20 to +35 (Recipe 1) |
+| Texture | -15 | Midpoint of -10 to -20 (Recipe 1) |
+| Clarity2012 | -23 | Midpoint of -15 to -30 (Recipe 1) |
+| Dehaze | -15 | Midpoint of -10 to -20 (Recipe 1) |
+| GrainAmount | 45 | Midpoint of 35 to 55 (Recipe 1) |
+| GrainSize | 42 | Midpoint of 35 to 50 (Recipe 1) |
+| GrainFrequency | 70 | Midpoint of 60 to 80 (Recipe 1 Roughness) |
+| SplitToningHighlightHue | 310 | Midpoint of 300-320 (Recipe 1) |
+| SplitToningHighlightSaturation | 32 | Midpoint of 25-40 (Recipe 1) |
+| SplitToningShadowHue | 200 | Midpoint of 190-210 (Recipe 1) |
+| SplitToningShadowSaturation | 22 | Midpoint of 15-30 (Recipe 1) |
+| SplitToningBalance | +30 | Recipe 1 value |
+| RedPrimaryHue | +40 | Midpoint of +30 to +50 (Recipe 1 Calibration) |
+| RedPrimarySaturation | +15 | Midpoint of +10 to +20 (Recipe 1) |
+| GreenPrimaryHue | -40 | Midpoint of -30 to -50 (Recipe 1) |
+| GreenPrimarySaturation | -28 | Midpoint of -20 to -35 (Recipe 1) |
+| BluePrimaryHue | -20 | Midpoint of -15 to -25 (Recipe 1) |
+| BluePrimarySaturation | +15 | Midpoint of +10 to +20 (Recipe 1) |
+
+**Key HSL midpoints applied per Recipe 1 table:**
+- Red H+20/S+20/L-8 | Orange H-10/S+15/L-5 | Yellow H0/S-10/L+10
+- Green H-45/S-60/L-15 | Aqua H+13/S+28/L+13 | Blue H-20/S+10/L-15
+- Purple H+23/S+30/L-8 | Magenta H+10/S+33/L+10
+
+## 5% Alignment Update
+
+**Date:** 2026-06-01
+
+**Batch 6 bug-fix alignment — Calibration panel removed, Vibrance removed per bug-fix rules.**
+
+| Change | Reason |
+|---|---|
+| Removed `RedHue="+40"`, `RedSaturation="+15"` | Bug-fix: no Calibration panel |
+| Removed `GreenHue="-40"`, `GreenSaturation="-28"` | Bug-fix: no Calibration panel |
+| Removed `BlueHue="-20"`, `BlueSaturation="+15"` | Bug-fix: no Calibration panel |
+| Removed `Vibrance="+0"` | Bug-fix: no community validation; kept Saturation=0 |
+
+All HSL, split toning, basic panel, grain, and effects values already within 5% of community consensus (Recipe 1 "Outrun / Miami Nights"). SaturationAdjustmentGreen capped at -60 (community wanted -65, bug-fix cap at ±60).

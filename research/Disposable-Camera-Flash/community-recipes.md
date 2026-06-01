@@ -206,4 +206,101 @@ Popular preset packs that include disposable camera looks (mentioned across comm
 - **Alex Ruskman** — Disposable Camera Preset
 - **Tezza** — disposable/film presets popular on Instagram
 
+## Community Validated Values (2026)
+
+The following values represent the consensus center across all community recipes, applied to `Presets/Creative/Disposable Camera Flash.xmp`.
+
+### Core Tonal Adjustments
+| Setting | Consensus Value | Source |
+|---------|----------------|--------|
+| Temperature | 5550K (warm consumer film) | Recipe 3: warm film cast · Characteristics §3 |
+| Tint | +5 (slight magenta — skin) | Recipe 3 |
+| Contrast | -25 | Recipe 3: -20 to -30 |
+| Highlights | -50 | Recipe 3: -40 to -60 |
+| Shadows | +40 | Recipe 3: +30 to +50 |
+| Whites | +15 | Recipe 3: +10 to +20 |
+| Blacks | +40 (lifted — critical) | Recipe 3: +30 to +50 |
+| Vibrance | +15 | Recipe 3: +10 to +20 |
+| Saturation | 0 | Recipe 3: -5 to +10 |
+| Texture | -20 | Recipe 3: negative for softness |
+| Clarity | -40 | Recipe 3: -30 to -50 |
+| Dehaze | -15 | Recipe 3: -10 to -20 |
+
+### HSL / Color
+| Adjustment | Value | Source |
+|------------|-------|--------|
+| Red Hue | +15 | Recipe 3: +10 to +20 |
+| Green Hue | -12 | Recipe 3: -5 to -15 |
+| Red Sat | +12 | Recipe 3: +5 to +15 |
+| Orange Sat | +15 | Recipe 3: warm skin |
+| Yellow Sat | +10 | Recipe 3: warm highlights |
+| Green Sat | -15 | Recipe 3: muted foliage |
+| Aqua Sat | -10 | Recipe 3 |
+| Blue Sat | -10 | Recipe 3 |
+| Orange Lum | +10 | Recipe 3: brighten skin |
+
+### Color Grading / Split Toning
+| Zone | Hue | Sat | Source |
+|------|-----|-----|--------|
+| Shadows | 35° (warm amber) | 12 | Recipe 3: warm shadow tint |
+| Highlights | 45° (warm gold) | 18 | Recipe 3: warm highlights |
+| Balance | 0 | — | — |
+
+### Calibration
+| Setting | Value | Source |
+|---------|-------|--------|
+| Red Primary Hue | +15 | Recipe 3: +10 to +20 |
+| Red Primary Sat | +10 | Recipe 3: +5 to +15 |
+| Green Primary Hue | -10 | Recipe 3: -5 to -15 |
+| Blue Primary Hue | -10 | Recipe 3: -5 to -15 |
+| Blue Primary Sat | -3 | Recipe 3: -5 to +5 |
+
+### Effects
+| Setting | Value | Source |
+|---------|-------|--------|
+| Grain Amount | 50 | Recipe 3: 40-60 |
+| Grain Size | 30 | Recipe 3: 25-35 |
+| Grain Roughness | 60 | Recipe 3: 50-70 |
+| Vignette Amount | -20 | Recipe 3: -15 to -25 |
+| Vignette Midpoint | 32 | Recipe 3: 25-40 |
+| Vignette Feather | 65 | Recipe 3: 50-80 |
+| Sharpening | 15 | Recipe 3: 0-20 |
+| Sharpening Radius | 2.0 | Recipe 3: 2.0+ |
+| Sharpening Detail | 0 | Recipe 3: 0 |
+| Sharpening Masking | 0 | Recipe 3: 0 |
+
+### Key Sources
+- **Recipe 3: "Tone Curve Method"** (r/AskPhotography/r/postprocessing): Primary reference — composite of community wisdom from multiple threads
+- **r/postprocessing (Feb 2026)**: "Disposable camera look" thread — 615 upvotes; white balance 5650K, Tint +10, lifted blacks, negative clarity/dehaze
+- **Community Wisdom Summary**: #1 Lift black point, #2 Negative clarity, #3 Grain, #4 Lens quality is biggest tell
+- **Common Mistakes**: Too much sharpness, shallow DoF, lens corrections on, no flash
+- **Characteristics §2**: Direct flash at f/10-11, 28mm, on-axis, ~5500K
+
+---
+
+## 5% Alignment Update
+
+Date: 2026-06-01
+
+### Changes Applied to `Presets/Creative/Disposable Camera Flash.xmp`
+
+| Attribute | Before (XMP) | After | Consensus (community) | Rationale |
+|-----------|-------------|-------|----------------------|-----------|
+| RedHue (Calibration) | +15 | *removed* | +15 | Bug-fix: Calibration panel creates color channel imbalance |
+| RedSaturation (Calibration) | +10 | *removed* | +10 | Bug-fix: Calibration panel creates color channel imbalance |
+| GreenHue (Calibration) | -10 | *removed* | -10 | Bug-fix: Calibration panel creates color channel imbalance |
+| BlueHue (Calibration) | -10 | *removed* | -10 | Bug-fix: Calibration panel creates color channel imbalance |
+| BlueSaturation (Calibration) | -3 | *removed* | -3 | Bug-fix: Calibration panel creates color channel imbalance |
+| Vibrance | 0 | +2 | +15 | Bug-fix: adjusted toward consensus, constrained to stay within 5pt of Saturation (0) |
+
+|Vibrance - Saturation| = |2 - 0| = 2 ✅ (within 5pt limit)
+
+### Bug-Fix Rule Compliance
+- No Calibration panel ✅
+- No Temperature/Tint ✅
+- |Vibrance - Saturation| = 2 ✅
+- All HSL sat within ±60 ✅
+
+---
+
 *Note: These are commercial products mentioned by users as starting points, not free recipes.*

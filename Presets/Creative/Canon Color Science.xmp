@@ -42,16 +42,15 @@
     crs:SplitToningShadowSaturation="7"
     crs:SplitToningHighlightHue="42"
     crs:SplitToningHighlightSaturation="5"
-    crs:ShadowTint="+6"
     crs:RedHue="-8"
     crs:RedSaturation="0"
     crs:GreenHue="-10"
     crs:GreenSaturation="-22"
     crs:BlueHue="0"
     crs:BlueSaturation="+6">
-   <crs:Name>
+    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Canon Color Science</rdf:li>
+     <rdf:li xml:lang="x-default">Creative</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:Group>

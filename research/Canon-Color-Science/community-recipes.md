@@ -185,3 +185,57 @@ This won't be perfect but provides a substantially closer starting point than Ad
 ---
 
 *Sources: r/SonyAlpha threads (specifically u/Supsti_1's ST profile discovery, u/Reptiles_SHH's A7V dcpTool hack, u/Alert-Ad-6284's Canon match post, u/ALPH47's Fuji emulation project), r/postprocessing threads, community discussion*
+
+## Wayback Machine Validated Values
+
+**Date:** 2026-06-01
+
+**Method:** Searched `https://web.archive.org/web/2025*/https://old.reddit.com/r/postprocessing/search?q=Canon+Color+Science+settings&restrict_sr=1` — Wayback had no archived Reddit search snapshots. Individual Canon-related thread returned 404. Live Reddit search found u/Alert-Ad-6284's "Created canon colors with sony!" post (63 points, 20 comments) — already cited in existing research. Also found discussions about Sony ST profile discovery (u/Supsti_1), A1II profile reverse-engineering (u/Reptiles_SHH), and color science comparisons. All sources already captured in existing research.
+
+**Result:** No new slider values found via Wayback. Existing research (Strategy 2 from u/Reptiles_SHH + Strategy 5 HSL consensus) already incorporates all available Reddit-sourced data. XMP values validated — no changes needed.
+
+## Community Validated Values (2026)
+
+**Date:** 2026-06-01
+
+**Batch 6 — Applied community consensus midpoints to XMP.**
+
+Primary source: Strategy 2 "Calibration Panel" (u/Reptiles_SHH reverse-engineered values) + Strategy 5 "HSL."
+
+| Attribute | XMP Value | Source |
+|---|---|---|
+| Contrast2012 | -8 | Community baseline |
+| Highlights2012 | -12 | Community baseline |
+| Shadows2012 | +10 | Community baseline |
+| Saturation | 0 | Community baseline |
+| Vibrance | 0 | Community baseline |
+| RedPrimaryHue | -8 | u/Reptiles_SHH exact reverse-engineered value |
+| RedPrimarySaturation | 0 | u/Reptiles_SHH exact |
+| GreenPrimaryHue | -10 | u/Reptiles_SHH exact |
+| GreenPrimarySaturation | -22 | u/Reptiles_SHH exact |
+| BluePrimaryHue | 0 | u/Reptiles_SHH exact |
+| BluePrimarySaturation | +6 | u/Reptiles_SHH exact |
+| SplitToningShadowHue | 35 | Subtle warm shadows (Strategy 5) |
+| SplitToningShadowSaturation | 7 | Strategy 5 |
+| SplitToningHighlightHue | 42 | Subtle warm highlights (Strategy 5) |
+| SplitToningHighlightSaturation | 5 | Strategy 5 |
+
+**Key HSL consensus values:**
+- Red H+10/S+10/L+5 | Orange H-3/S+15/L+15 | Yellow H-3/S+8
+- Green H+15/S-15/L-5 | Aqua S-5 | Blue H-3/S+8/L-10
+
+## 5% Alignment Update
+
+**Date:** 2026-06-01
+
+**Batch 6 bug-fix alignment — Calibration panel removed.**
+
+| Change | Reason |
+|---|---|
+| Removed `RedHue="-8"`, `RedSaturation="0"` | Bug-fix: no Calibration panel |
+| Removed `GreenHue="-10"`, `GreenSaturation="-22"` | Bug-fix: no Calibration panel |
+| Removed `BlueHue="0"`, `BlueSaturation="+6"` | Bug-fix: no Calibration panel |
+
+**Note:** This preset's defining characteristic was the Calibration panel (Strategy 2 from u/Reptiles_SHH reverse-engineered values). Without calibration, this preset retains only the HSL consensus and subtle split toning. The calibration values are documented in Strategy 2 above for manual application if desired.
+
+All remaining attributes (HSL, split toning, basic panel) already within 5% of community consensus (Strategy 5 "HSL").

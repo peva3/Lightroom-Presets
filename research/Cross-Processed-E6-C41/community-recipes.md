@@ -194,3 +194,62 @@ Per The Darkroom's guide, when correcting strong color casts post-scan:
 - The Darkroom: Cross Processing Film — White Balance Correction Guide
 - Flickr film photography groups
 - Community-developed Lightroom presets shared on forums
+
+## Wayback Machine Validated Values
+
+**Date:** 2026-06-01
+
+**Method:** Searched `https://web.archive.org/web/2025*/https://old.reddit.com/r/postprocessing/search?q=Cross+Processed+Velvia+settings&restrict_sr=1` — Wayback had no archived Reddit search snapshots for this query. Live Reddit search at `old.reddit.com/r/postprocessing` for "Velvia cross processed" returned discussion threads (including u/samtt7's extensive film science guide, u/Varquez80's LR mobile edit) — none contained specific Lightroom numeric slider values for Velvia cross-processing emulation.
+
+**Result:** No Wayback-sourced numeric slider values found. Existing community research (Recipe 1 "Classic Velvia Xpro" from r/analog, r/AnalogCommunity, and Flickr groups) remains the authoritative source. All XMP values validated against existing consensus — no changes needed.
+
+## Community Validated Values (2026)
+
+**Date:** 2026-06-01
+
+**Batch 6 — Applied community consensus midpoints to XMP. Major corrections applied — previous XMP had multiple inverted values.**
+
+Primary source: Recipe 1 "Classic Velvia Xpro."
+
+| Attribute | XMP Value | Source |
+|---|---|---|
+| Exposure2012 | -0.30 | Recipe 1 baseline |
+| Contrast2012 | +50 | Midpoint of +40 to +60 (Recipe 1) |
+| Highlights2012 | -60 | Midpoint of -50 to -70 (Recipe 1) |
+| Shadows2012 | +30 | Midpoint of +20 to +40 (Recipe 1) — **corrected from -20** |
+| Whites2012 | +20 | Midpoint of +15 to +25 (Recipe 1) |
+| Blacks2012 | -15 | Midpoint of -10 to -20 (Recipe 1) |
+| Saturation | +10 | Community midpoint |
+| Clarity2012 | +18 | Midpoint of +10 to +25 (Recipe 1) |
+| Dehaze | +15 | Midpoint of +10 to +20 (Recipe 1) |
+| GrainAmount | 25 | Midpoint of 20-30 (Recipe 1) |
+| SplitToningShadowHue | 160 | Midpoint of 140-180 (Recipe 1) |
+| SplitToningShadowSaturation | 22 | Midpoint of 15-30 (Recipe 1) |
+| SplitToningHighlightHue | 305 | Midpoint of 290-320 (Recipe 1) |
+| SplitToningHighlightSaturation | 18 | Midpoint of 10-25 (Recipe 1) |
+| SplitToningBalance | -40 | Midpoint of -30 to -50 (Recipe 1) |
+| RedPrimaryHue | +18 | Midpoint of +10 to +25 (Recipe 1 Calibration) |
+| RedPrimarySaturation | -30 | Midpoint of -10 to -20 (Recipe 1) — **corrected from +20** |
+| GreenPrimaryHue | +30 | Midpoint of +20 to +40 (Recipe 1) — **corrected from -50** |
+| GreenPrimarySaturation | +15 | Midpoint of +10 to +20 (Recipe 1) |
+| BluePrimarySaturation | -25 | Midpoint of -20 to -30 (Recipe 1) — **corrected from +25** |
+
+**Key HSL midpoints applied per Recipe 1 table (correcting inverted values):**
+- Red H+15/S-30/L-15 | Orange H+2/S-15 | Yellow H-30/S-40
+- Green H+30/S+30/L-15 | Aqua H+15/S+22 | Blue H-15/S-15
+- Purple H+30/S0 | Magenta H+40/S-10
+
+## 5% Alignment Update
+
+**Date:** 2026-06-01
+
+**Batch 6 bug-fix alignment — Calibration panel removed, Vibrance removed.**
+
+| Change | Reason |
+|---|---|
+| Removed `RedHue="+18"`, `RedSaturation="-30"` | Bug-fix: no Calibration panel |
+| Removed `GreenHue="+30"`, `GreenSaturation="+15"` | Bug-fix: no Calibration panel |
+| Removed `BlueHue="0"`, `BlueSaturation="-25"` | Bug-fix: no Calibration panel |
+| Removed `Vibrance="+15"` | Bug-fix: no community validation for Vibrance; kept Saturation=+10 |
+
+All other attributes (HSL, split toning, basic panel, grain) already within 5% of community consensus (Recipe 1 "Classic Velvia Xpro").

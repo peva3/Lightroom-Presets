@@ -249,3 +249,128 @@ If you only remember five things:
 5. **Grain 40-60, Roughness 60-80** — the texture of decay
 
 Combine these five moves and you have the foundation. Layer on HSL tweaks to specific colors based on which film stock you're emulating.
+
+## Post-Merge Update (fuzzy)
+
+**Date:** 2026-06-01
+
+**Batch 4 — Merged community recipe midpoints with existing XMP values.**
+
+### Changes made:
+  Exposure2012: +0.6 → +1
+  Contrast2012: -37.5 → -38.75
+  Highlights2012: -50 → -70
+  Whites2012: +10 → 20
+  Blacks2012: +50 → +47.5
+  HueAdjustmentRed: +7.5 → 10
+  HueAdjustmentOrange: +5 → -5
+  HueAdjustmentYellow: -7.5 → -15
+  HueAdjustmentGreen: +35 → +37.5
+  HueAdjustmentAqua: +5 → 15
+  HueAdjustmentBlue: -5 → -10
+  HueAdjustmentPurple: (new) → 0
+  HueAdjustmentMagenta: (new) → 10
+  SaturationAdjustmentRed: -7.5 → -10
+  SaturationAdjustmentOrange: -10 → -15
+  SaturationAdjustmentYellow: -12.5 → -13.75
+  SaturationAdjustmentGreen: -37.5 → -38.75
+  SaturationAdjustmentAqua: -7.5 → -20
+  SaturationAdjustmentBlue: -45 → -20
+  SaturationAdjustmentPurple: -10 → -20
+  SaturationAdjustmentMagenta: -7.5 → -15
+  LuminanceAdjustmentRed: +10 → 5
+  LuminanceAdjustmentOrange: +12.5 → +11.25
+  LuminanceAdjustmentYellow: +10 → 5
+  LuminanceAdjustmentGreen: +15 → -10
+  LuminanceAdjustmentAqua: +7.5 → 0
+  LuminanceAdjustmentBlue: +10 → 5
+  LuminanceAdjustmentPurple: (new) → 0
+  LuminanceAdjustmentMagenta: (new) → 0
+  SplitToningShadowHue: +42.5 → +46.25
+  SplitToningShadowSaturation: +27.5 → 20
+  SplitToningHighlightHue: +27.5 → 45
+  SplitToningHighlightSaturation: +10 → +7.5
+  SplitToningBalance: +15 → 15
+  RedHue: (new) → -10
+  RedSaturation: (new) → -5
+  GreenHue: (new) → 25
+  GreenSaturation: (new) → -15
+  BlueHue: (new) → 10
+  BlueSaturation: (new) → -10
+  GrainAmount: +47.5 → +48.75
+  GrainSize: +25 → +42.5
+  GrainFrequency: +35 → 70
+  PostCropVignetteAmount: -7.5 → -14
+  PostCropVignetteMidpoint: +20 → 45
+  PostCropVignetteFeather: +30 → 30
+
+## Wayback Machine Validated Values
+
+**Date:** 2026-06-01
+
+**Search URL:** `https://old.reddit.com/r/postprocessing/search?q=Faded+Summer+Expired+settings&restrict_sr=1`
+
+**Results:** Wayback Machine has no archived snapshots. Live Reddit search found "After months of tweaking, I think I finally nailed the film look" (1,058pts) and older vintage film threads, but none with specific expired film slider values. Existing research (r/postprocessing "Attic Gold" recipe, r/Lightroom "Faded Summer" preset) already contains the best community recipes.
+
+**Validation:** No XMP changes needed — existing values align with community-stated ranges for the expired film aesthetic.
+
+---
+
+## Community Validated Values (2026)
+
+**Date:** 2026-06-01
+
+**Source:** r/postprocessing "Attic Gold" recipe, r/Lightroom "Faded Summer" community preset, YouTube tutorial consensus, photography forum deep dives (Kodak Gold 200 aging)
+
+### Final XMP Values Applied
+
+| Parameter | Value | Source |
+|-----------|-------|--------|
+| Exposure2012 | +1.00 | Simulate +2 stops overexposure |
+| Contrast2012 | -38.75 | Kill contrast (-30 to -50 mid) |
+| Highlights2012 | -70 | Recover blown skies (-60 to -80) |
+| Shadows2012 | +40 | Lift into base fog zone |
+| Whites2012 | +20 | Keep some brilliance |
+| Blacks2012 | +47.5 | Key move: lift significantly (35-55) |
+| SplitToningShadowHue | 46.25 | Warm yellow-orange shadows (45-55) |
+| SplitToningShadowSaturation | 20 | Moderate (15-25) |
+| SplitToningHighlightHue | 45 | Warm highlights (40-50) |
+| SplitToningHighlightSaturation | 7.5 | Subtle (5-10) |
+| GrainAmount | 48.75 | Pronounced (40-60 mid) |
+| GrainSize | 42.5 | Larger clumpy grain (35-50 mid) |
+| GrainFrequency | 70 | Rough irregular grain (60-80) |
+| PostCropVignetteAmount | -14 | Subtle edge darkening (-10 to -18) |
+
+**Signature moves:** Green Hue +37.5 (yellow shift), Green Sat -38.75 (desaturation), Calibration Green Primary Hue +25. This trio creates the heat-damaged yellow-brown foliage look.
+
+## 5% Alignment Update
+
+**Date:** 2026-06-01
+
+**Changes made to align within 5% of community consensus (bug-fix rules applied):**
+
+**Adjusted:**
+| Attribute | Before | After | Target |
+|-----------|--------|-------|--------|
+| LuminanceAdjustmentOrange | +11.25 | +10 | Recipe 1: +10 (+11.25 > 5% of 10) |
+| SaturationAdjustmentYellow | -13.75 | -15 | Recipe 1: -15 (-13.75 > 5% of 15) |
+
+**Removed (violating bug-fix rules):**
+| Attribute | Value | Reason |
+|-----------|-------|--------|
+| RedHue | -10 | Calibration panel (bug-fix rule #1) |
+| RedSaturation | -5 | Calibration panel (bug-fix rule #1) |
+| GreenHue | +25 | Calibration panel (bug-fix rule #1) |
+| GreenSaturation | -15 | Calibration panel (bug-fix rule #1) |
+| BlueHue | +10 | Calibration panel (bug-fix rule #1) |
+| BlueSaturation | -10 | Calibration panel (bug-fix rule #1) |
+
+**Removed (not in community validated table):**
+| Attribute | Value | Reason |
+|-----------|-------|--------|
+| Saturation (global) | -20 | Not in community basic panel recipe |
+| PostCropVignetteMidpoint | 45 | Not in community validated table |
+| PostCropVignetteFeather | 30 | Not in community validated table |
+| PostCropVignetteRoundness | 0 | Not in community validated table |
+
+**Bug-fix verification:** No Calibration panel ✓, No Temperature/Tint ✓, No Vibrance-Saturation gap ✓, All HSL sat within ±60 ✓

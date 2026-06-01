@@ -140,3 +140,66 @@ When scanning actual Vision3 250D negatives at home (for reference matching):
 - **Reddit r/colorists**: Vision3 250D PowerGrade workflows and color space transform approaches
 - **Cinematography.com**: Push processing characteristics, contrast behavior, comparison between Vision3 variants
 - **Dehancer**: Reference emulation data confirming the stock's high contrast and warm daylight rendering
+
+## Post-Merge Update (fuzzy)
+
+- Contrast2012: +32.5 -> 31.25 (community 25-35, mid=30, within ±20% → averaged)
+- Highlights2012: -52.5 -> -51.25 (community -40 to -60, mid=-50, within ±20% → averaged)
+- Shadows2012: +23.5 -> 23 (community 15-30, mid=22.5, within ±20% → averaged)
+- Whites2012: -19 -> -18.25 (community -10 to -25, mid=-17.5, within ±20% → averaged)
+- Blacks2012: -22.5 -> -21.25 (community -15 to -25, mid=-20, within ±20% → averaged)
+- Exposure2012: +0.23 -> 0.2275 (community 0.15-0.30, mid=0.225, within ±20% → averaged)
+- HueAdjustmentRed: +6.5 -> 7 (community +5 to +10, mid=7.5, within ±20% → averaged)
+- SaturationAdjustmentOrange: -9 -> -8.25 (community -5 to -10, mid=-7.5, within ±20% → averaged)
+- SaturationAdjustmentYellow: -12.5 -> -11.25 (community -5 to -15, mid=-10, within ±20% → averaged)
+- SaturationAdjustmentGreen: -20 -> -18.75 (community -10 to -25, mid=-17.5, within ±20% → averaged)
+- SplitToningShadowSaturation: +10 -> 7.5 (community 5-10, mid=7.5, more than ±20% different → replaced)
+- SplitToningHighlightSaturation: +12 -> 7.5 (community 5-10, mid=7.5, more than ±20% different → replaced)
+- GrainAmount: +22.5 -> 21.25 (community 15-25, mid=20, within ±20% → averaged)
+
+## Community Validated Values (2026)
+
+Final values applied to XMP, cross-referenced from YouTube tutorial (Golden Coast Presets), r/postprocessing, r/colorists PowerGrade workflows, cinematography.com, and Dehancer reference data:
+
+| Attribute | Final Value | Community Range | Source |
+|---|---|---|---|
+| Exposure2012 | +0.23 | 0.15-0.30 | YouTube tutorial Basic Panel |
+| Contrast2012 | +31 | +25 to +35 | YouTube tutorial, Dehancer |
+| Highlights2012 | -51 | -40 to -60 | YouTube tutorial Basic Panel |
+| Shadows2012 | +23 | +15 to +30 | YouTube tutorial Basic Panel |
+| Whites2012 | -18 | -10 to -25 | YouTube tutorial Basic Panel |
+| Blacks2012 | -21 | -15 to -25 | YouTube tutorial Basic Panel |
+| Texture | -10 | Subtle soften | Effects section |
+| Clarity2012 | -5 | Subtle soften | Effects section |
+| HueAdjustmentRed | +7 | +5 to +10 | HSL table |
+| SaturationAdjustmentOrange | -8 | -5 to -10 | HSL table |
+| SaturationAdjustmentYellow | -11 | -5 to -15 | HSL table |
+| SaturationAdjustmentGreen | -19 | -10 to -25 (olive) | HSL table |
+| SplitToningShadowHue | 210 | 200-220 (teal-blue) | Color Grading |
+| SplitToningShadowSaturation | 8 | 5-10 | Color Grading |
+| SplitToningHighlightHue | 45 | 40-50 (warm gold) | Color Grading |
+| SplitToningHighlightSaturation | 8 | 5-10 | Color Grading |
+| SplitToningBalance | +10 | Warm balance | Color Grading |
+| GrainAmount | 21 | 15-25 | Effects |
+| GrainSize | 30 | 25-35 | Effects |
+| GrainFrequency | 50 | 40-60 | Effects |
+| RedHue (Calibration) | +20 | +15 to +25 (toward orange) | Calibration (secret sauce) |
+| RedSaturation (Calibration) | -10 | -5 to -15 | Calibration |
+| GreenHue (Calibration) | -15 | -10 to -20 (olive shift) | Calibration |
+| BlueHue (Calibration) | -10 | -5 to -15 (toward cyan) | Calibration |
+| BlueSaturation (Calibration) | +18 | +10 to +25 | Calibration |
+
+## Wayback Machine Validated Values
+
+- **Search URL**: `https://web.archive.org/web/2025*/https://old.reddit.com/r/Lightroom/search?q=Vision3+250D+preset&restrict_sr=1`
+- **Archive.org search result**: No archived Reddit threads with concrete slider values were found for Kodak Vision3 250D. The research file draws from a YouTube tutorial (Golden Coast Presets), r/postprocessing, r/colorists PowerGrade workflows, cinematography.com, and Dehancer reference data — none additionally captured by Wayback Machine.
+- **XMP impact**: None — no new or different values discovered. All 25 XMP attribute values already matched the Community Validated Values table (2026).
+- **Conclusion**: Wayback Machine did not provide new data. Existing research values remain authoritative.
+
+## 5% Alignment Update
+
+Applied 2026-06-01. Changes to XMP:
+- **Removed** `RedHue="+20"`, `RedSaturation="-10"`, `GreenHue="-15"`, `GreenSaturation="0"`, `BlueHue="-10"`, `BlueSaturation="+18"` — calibration panel removed (bug fix: NO Calibration)
+- All other 20 attributes already matched Community Validated Values table within 5% tolerance
+- Bug checks passed: |Vibrance-Saturation|=0 ≤ 5, all HSL sat within ±60
+- **Final state**: 20 attributes, no calibration, no WB, clean

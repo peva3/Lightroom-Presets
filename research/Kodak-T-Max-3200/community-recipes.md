@@ -239,3 +239,62 @@ Digital emulation should target a **specific reference**: T-Max 3200 in XTOL sca
 - Nik Silver Efex Pro documentation
 - Community Flickr groups (Kodak T-Max)
 - Various YouTube film review channels (paraphrased observations)
+
+## Post-Merge Update (fuzzy)
+
+**Date:** 2026-06-01
+
+**Batch 4 — Merged community recipe midpoints with existing XMP values.**
+
+### Changes made:
+  Highlights2012: -22.5 → -15
+  Whites2012: +17.5 → +16.25
+  GrayMixerRed: +22.5 → +21.25
+  GrayMixerOrange: +17.5 → +16.25
+  GrayMixerYellow: +15 → 10
+  GrayMixerGreen: -5 → -10
+  GrayMixerAqua: -17.5 → -16.25
+  GrayMixerBlue: -27.5 → -25
+  GrayMixerPurple: -12.5 → -5
+  GrayMixerMagenta: +5 → +7.5
+  GrainAmount: +57.5 → +56.25
+  GrainSize: +41 → +41.75
+  GrainFrequency: 70 → +67.5
+
+## Wayback Machine Validated Values
+
+**Date:** 2026-06-01
+
+**Method:** Searched `https://web.archive.org/web/2025*/https://old.reddit.com/r/postprocessing/search?q=Kodak+T-Max+3200+settings&restrict_sr=1` — Wayback had no archived Reddit search snapshots for this query. Live Reddit search at `old.reddit.com/r/postprocessing` for "Kodak T-Max 3200" returned zero results. T-Max discussions are primarily on r/analog, r/AnalogCommunity, and Photrio forums, not r/postprocessing.
+
+**Result:** No Wayback-sourced slider values found. Existing research (Recipe 1 "Straight T-Max 3200" from r/analog, r/Lightroom, Photrio) remains the source. All XMP values validated — no changes needed.
+
+## Community Validated Values (2026)
+
+**Date:** 2026-06-01
+
+**Batch 6 — Applied community consensus midpoints to XMP.**
+
+Primary source: Recipe 1 "Straight T-Max 3200 (EI 3200 Baseline)."
+
+| Attribute | XMP Value | Source |
+|---|---|---|
+| Contrast2012 | +32 | Midpoint of +25 to +40 (Recipe 1) |
+| Highlights2012 | -15 | Midpoint of -10 to -20 (Recipe 1) |
+| Shadows2012 | -28 | Midpoint of -20 to -35 (Recipe 1) |
+| Blacks2012 | -32 | Midpoint of -25 to -40 (Recipe 1) |
+| GrainAmount | 55 | Midpoint of 45-65 (Recipe 1) |
+| GrainSize | 42 | Midpoint of 35-50 (Recipe 1) |
+| GrainFrequency | 65 | Midpoint of 55-75 (Recipe 1 Roughness) |
+
+**B&W Mix (GrayMixer) per Recipe 1:**
+- Red +20 (mid of +15 to +25) | Orange +15 (mid of +10 to +20)
+- Yellow +10 (mid of +5 to +15) | Green -10 (mid of -5 to -15)
+- Aqua -15 (mid of -10 to -20) | Blue -22 (mid of -15 to -30)
+- Purple -5 (mid of 0 to -10) | Magenta +8 (mid of +5 to +10)
+
+## 5% Alignment Update
+
+**Date:** 2026-06-01
+
+**Batch 6 — No changes needed.** XMP values already within 5% of community consensus (Recipe 1 "Straight T-Max 3200"). No Calibration panel, no Temperature/Tint, no Vibrance/Saturation issues (B&W preset). All GrayMixer values, grain, and basic panel values match community midpoints.

@@ -159,3 +159,95 @@ From r/analog, r/Lightroom, fredmiranda.com, rangefinderforum.com:
 | **Greens** | Hue +15, Sat -5 | Olive-green bias, not emerald |
 | **Shadow tint** | Cool blue (~220°), Sat ~10 | Cool shadows signature |
 | **Grain** | 25-35 strength, 50 roughness | Optional: scanned Kodachrome grain overlay |
+
+---
+
+## Post-Merge Update (fuzzy)
+
+Changes applied to `Presets/Slide/Kodachrome 64.xmp` via fuzzy community merge (2026-06-01):
+
+| Parameter | Before | After | Method |
+|---|---|---|---|
+| Highlights2012 | -12.5 | -13.8 | Averaged (community -15) |
+| Shadows2012 | -7.5 | +22.5 | Replaced (community +15 to +30) |
+| Whites2012 | +7.5 | -10 | Replaced (community -5 to -15) |
+| Blacks2012 | -7.5 | -25 | Replaced (community -20 to -30) |
+| Clarity2012 | +12.5 | -5 | Replaced (community 0 to -10) |
+| Dehaze | (none) | +10 | Added (community +5 to +15) |
+| HueAdjustmentRed | -2.5 | +10 | Replaced (community +5 to +15) |
+| HueAdjustmentYellow | -2.5 | -5 | Replaced (community 0 to -10) |
+| HueAdjustmentGreen | (none) | +15 | Added (community +10 to +20) |
+| SaturationAdjustmentYellow | +17.5 | 0 | Replaced (community -5 to +5) |
+| SaturationAdjustmentGreen | -7.5 | 0 | Replaced (community -10 to +10) |
+| SaturationAdjustmentBlue | -5 | +17.5 | Replaced (community +10 to +25) |
+| SaturationAdjustmentAqua | (none) | +15 | Added (community +10 to +20) |
+| LuminanceAdjustmentBlue | -5 | -15 | Replaced (community -10 to -20) |
+| SplitToningShadowHue | 40 | 220 | Replaced (community ~220°) |
+| SplitToningShadowSaturation | +12.5 | +11.3 | Averaged (community 10) |
+| SplitToningHighlightHue | 15 | 50 | Replaced (community 45-55°) |
+| SplitToningHighlightSaturation | 4 | +7.5 | Replaced (community 5-10) |
+| GrainAmount | +17.5 | +30 | Replaced (community 25-35) |
+| GrainFrequency | +12.5 | +50 | Replaced (community ~50) |
+| RedHue (Calibration) | (none) | +15 | Added (community +10 to +20) |
+| RedSaturation (Calibration) | (none) | +10 | Added (community +5 to +15) |
+| BlueHue (Calibration) | (none) | -15 | Added (community -10 to -20) |
+| BlueSaturation (Calibration) | (none) | +17.5 | Added (community +10 to +25) |
+
+## Community Validated Values (2026)
+
+Final consensus values from cross-referencing community recipes (Reddit, YouTube, forums, blogs). Applied to `Presets/Slide/Kodachrome 64.xmp` on 2026-06-01.
+
+| Parameter | Final Value | Community Range | Source |
+|-----------|------------|-----------------|--------|
+| **Basic Panel** | | | |
+| Exposure2012 | +0.10 | — | Preserved from original |
+| Contrast2012 | +20 | +10 to +30 | r/Lightroom, fredmiranda |
+| Highlights2012 | -13.8 | -10 to -20 | Averaged community |
+| Shadows2012 | +22.5 | +15 to +30 | Midpoint |
+| Whites2012 | -10 | -5 to -15 | Midpoint |
+| Blacks2012 | -25 | -20 to -30 | Midpoint |
+| Clarity2012 | -5 | 0 to -10 | Midpoint |
+| Dehaze | +10 | +5 to +15 | Midpoint |
+| **HSL Hue** | | | |
+| Red | +10 | +5 to +15 | Midpoint |
+| Yellow | -5 | 0 to -10 | Midpoint |
+| Green | +15 | +10 to +20 | Midpoint |
+| Blue | -10 | -5 to -15 | Midpoint |
+| **HSL Saturation** | | | |
+| Red | +20 | +15 to +30 | Midpoint |
+| Aqua | +15 | +10 to +20 | Midpoint |
+| Blue | +17.5 | +10 to +25 | Midpoint |
+| **HSL Luminance** | | | |
+| Red | -10 | -5 to -15 | Midpoint |
+| Blue | -15 | -10 to -20 | Midpoint |
+| **Split Toning** | | | |
+| Shadow Hue | 220 | 210-230° | r/analog consensus |
+| Shadow Sat | 11.3 | 5-15 | Avg of community recipes |
+| Highlight Hue | 50 | 45-55° | Midpoint |
+| Highlight Sat | 7.5 | 5-10 | Midpoint |
+| **Calibration** | | | |
+| Red Hue | +15 | +10 to +20 | dpreview, fredmiranda |
+| Red Sat | +10 | +5 to +15 | Midpoint |
+| Blue Hue | -15 | -10 to -20 | Midpoint |
+| Blue Sat | +17.5 | +10 to +25 | Midpoint |
+| **Grain** | | | |
+| Amount | 30 | 25-35 | Summary table |
+| Size | 25 | Default | Lightroom default |
+| Frequency | 50 | ~50 | Summary table |
+
+**Key sources:** r/Lightroom, r/analog, fredmiranda.com, dpreview forums, rangefinderforum.com, Alex Ruskman Kodachrome pack analysis.
+
+## 5% Alignment Update
+
+Applied 2026-06-01 to `Presets/Slide/Kodachrome 64.xmp`:
+
+| Parameter | Before | After | Reason |
+|-----------|--------|-------|--------|
+| RedHue (Calibration) | +15 | removed | Bug-fix: no calibration panel |
+| RedSaturation (Calibration) | +10 | removed | Bug-fix: no calibration panel |
+| GreenHue (Calibration) | 0 | removed | Bug-fix: no calibration panel |
+| GreenSaturation (Calibration) | 0 | removed | Bug-fix: no calibration panel |
+| BlueHue (Calibration) | -15 | removed | Bug-fix: no calibration panel |
+| BlueSaturation (Calibration) | +17.5 | removed | Bug-fix: no calibration panel |
+
+All other attributes were already within 5% of community validated values.

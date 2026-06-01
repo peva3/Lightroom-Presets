@@ -249,4 +249,63 @@ From Reddit threads about Delta 3200:
 │ Sharpening:      +50 / R1.2 / D30 / M40     │
 │ Vignette:        -15                         │
 └─────────────────────────────────────────────┘
+
+---
+
+## Post-Merge Update (fuzzy)
+
+Changes applied to `Presets/Black-White/Ilford Delta 3200.xmp` via fuzzy community merge (2026-06-01):
+
+| Parameter | Before | After | Method |
+|---|---|---|---|
+| Contrast2012 | -12.5 | -20 | Replaced (community -15 to -30) |
+| Highlights2012 | -32.5 | -50 | Replaced (community -40 to -60) |
+| Shadows2012 | +27.5 | +28.8 | Averaged (community +20 to +40) |
+| Whites2012 | -12.5 | -13.8 | Averaged (community -10 to -25) |
+| Blacks2012 | +22.5 | +22.3 | Averaged (community +15 to +30) |
+| Clarity2012 | -17.5 | -10 | Replaced (community -10) |
+| Texture | -12.5 | -11.3 | Averaged (community -10) |
+| Dehaze | (none) | -10 | Added (community -5 to -15) |
+| GrayMixerRed | +5 | +15 | Replaced (community +10 to +25) |
+| GrayMixerOrange | +2.5 | +20 | Replaced (community +15 to +30) |
+| GrayMixerYellow | (none) | +10 | Added (community +5 to +15) |
+| GrayMixerGreen | +5 | -7.5 | Replaced (community -5 to -10) |
+| GrayMixerAqua | (none) | -2.5 | Added (community 0 to -5) |
+| GrayMixerBlue | -7.5 | -15 | Replaced (community -10 to -20) |
+| GrayMixerPurple | (none) | -7.5 | Added (community -5 to -10) |
+| GrayMixerMagenta | (none) | +2.5 | Added (community 0 to +5) |
+| GrainAmount | +77.5 | +71.3 | Averaged (community 55-75) |
+| GrainSize | 60 | 57.5 | Averaged (community 45-65) |
+| GrainFrequency | +77.5 | +71.3 | Averaged (community 55-70) |
+
+## Community Validated Values (2026)
+
+Final consensus values from cross-referencing community recipes. Applied to `Presets/Black-White/Ilford Delta 3200.xmp` on 2026-06-01.
+
+| Parameter | Final Value | Community Range | Source |
+|-----------|------------|-----------------|--------|
+| **Basic Panel** | | | |
+| Contrast2012 | -20 | -15 to -30 | Low native contrast |
+| Highlights2012 | -50 | -40 to -60 | Aggressive highlight protection |
+| Shadows2012 | +28.8 | +20 to +40 | Averaged |
+| Whites2012 | -13.8 | -10 to -25 | Muted whites |
+| Blacks2012 | +22.3 | +15 to +30 | Critical: LIFTED blacks |
+| Clarity2012 | -10 | -10 | Softer look |
+| Dehaze | -10 | -5 to -15 | Atmospheric haze |
+| Texture | -11.3 | -10 | Averaged |
+| **B&W Mix** | | | |
+| Red | +15 | +10 to +25 | Skin tones |
+| Orange | +20 | +15 to +30 | Warm skin lift |
+| Yellow | +10 | +5 to +15 | Midpoint |
+| Green | -7.5 | -5 to -10 | Suppressed green |
+| Aqua | -2.5 | 0 to -5 | Midpoint |
+| Blue | -15 | -10 to -20 | Moody sky darkening |
+| Purple | -7.5 | -5 to -10 | Midpoint |
+| Magenta | +2.5 | 0 to +5 | Midpoint |
+| **Grain** | | | |
+| Amount | 71.3 | 55-75 | Heavy — defining characteristic |
+| Size | 57.5 | 45-65 | Large "golf-ball" grain |
+| Frequency | 71.3 | 55-70 | Pronounced texture |
+
+**Key sources:** r/analog, r/Lightroom, r/Darkroom, Photrio, 35mmc, VSCO Film 02 reference, Mastin Labs Ilford Pack reference.
 ```

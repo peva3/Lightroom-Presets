@@ -173,3 +173,97 @@ Many recipes suggest exposing digital +0.3 to +0.7 EV over neutral and then lowe
 ---
 
 *Note: Community recipes vary significantly based on the starting digital file (camera sensor, white balance, exposure). These are starting points that require adjustment per image. The most consistent elements across all recipes are: high contrast, negative blue hue shift, deep blacks, and cool white balance.*
+
+---
+
+## Post-Merge Update (fuzzy)
+
+Changes applied to `Presets/Slide/Kodak Ektachrome E100.xmp` via fuzzy community merge (2026-06-01):
+
+| Parameter | Before | After | Method |
+|---|---|---|---|
+| Contrast2012 | +30 | +42.5 | Replaced (community +35 to +50) |
+| Highlights2012 | -17.5 | -40 | Replaced (community -30 to -50) |
+| Shadows2012 | -12.5 | +20 | Replaced (community +15 to +25) |
+| Whites2012 | +5 | +15 | Replaced (community +10 to +20) |
+| Blacks2012 | -20 | -40 | Replaced (community -30 to -50) |
+| Clarity2012 | +12.5 | +13.8 | Averaged (community +10 to +20) |
+| Vibrance | +17.5 | -7.5 | Replaced (community -5 to -10) |
+| Saturation | +2.5 | +7.5 | Replaced (community +5 to +10) |
+| SaturationAdjustmentRed | +17.5 | -5 | Replaced (community -5) |
+| SaturationAdjustmentYellow | +12.5 | 0 | Replaced (community 0) |
+| SaturationAdjustmentBlue | +22.5 | +7.5 | Replaced (community +5 to +10) |
+| HueAdjustmentGreen | -2.5 | +15 | Replaced (community +15) |
+| HueAdjustmentBlue | -5 | -12.5 | Replaced (community -10 to -15) |
+| LuminanceAdjustmentBlue | -10 | -11.3 | Averaged (community -10 to -15) |
+| SplitToningBalance | +5 | -5 | Replaced (community 0 to -10) |
+| SplitToningShadowHue | +110 | +215 | Replaced (community 210-220°) |
+| SplitToningShadowSaturation | +4 | +7.5 | Replaced (community 5-10) |
+| SplitToningHighlightHue | +15 | +45 | Replaced (community 40-50°) |
+| SplitToningHighlightSaturation | +3 | +2.8 | Averaged (community 0-5) |
+| Added HSL Hue: Red +10, Orange -5, Yellow -5, Aqua +10, Purple +10, Magenta +5 | | | |
+| Added HSL Sat: Green -10, Magenta -10 | | | |
+| Added Calibration: RedHue=+20, RedSat=+7.5, GreenSat=+2.5, BlueHue=-20, BlueSat=+7.5 | | | |
+
+## Community Validated Values (2026)
+
+Final consensus values from cross-referencing community recipes. Applied to `Presets/Slide/Kodak Ektachrome E100.xmp` on 2026-06-01.
+
+| Parameter | Final Value | Community Range | Source |
+|-----------|------------|-----------------|--------|
+| **Basic Panel** | | | |
+| Contrast2012 | +42.5 | +35 to +50 | Averaged |
+| Highlights2012 | -40 | -30 to -50 | Midpoint |
+| Shadows2012 | +20 | +15 to +25 | Midpoint |
+| Whites2012 | +15 | +10 to +20 | Midpoint |
+| Blacks2012 | -40 | -30 to -50 | Midpoint |
+| Clarity2012 | +13.8 | +10 to +20 | Averaged |
+| Vibrance | -7.5 | -5 to -10 | Midpoint |
+| Saturation | +7.5 | +5 to +10 | Midpoint |
+| **HSL Hue** | | | |
+| Red | +10 | +10 | Recipe A |
+| Orange | -5 | -5 | Recipe A |
+| Yellow | -5 | -5 | Recipe A |
+| Green | +15 | +15 | Recipe C |
+| Aqua | +10 | +10 | Recipe A |
+| Blue | -12.5 | -10 to -15 | Signature cool-blue shift |
+| Purple | +10 | +10 | Recipe A |
+| Magenta | +5 | +5 | Recipe A |
+| **HSL Saturation** | | | |
+| Red | -5 | -5 | Recipe A/C |
+| Green | -10 | -10 | Recipe A/C |
+| Blue | +7.5 | +5 to +10 | Midpoint |
+| Magenta | -10 | -10 | Recipe A |
+| **HSL Luminance** | | | |
+| Blue | -11.3 | -10 to -15 | Averaged |
+| **Split Toning** | | | |
+| Shadow Hue | 215 | 210-220° | Midpoint |
+| Shadow Sat | 7.5 | 5-10 | Midpoint |
+| Highlight Hue | 45 | 40-50° | Midpoint |
+| Highlight Sat | 2.8 | 0-5 | Averaged |
+| Balance | -5 | 0 to -10 | Midpoint |
+| **Calibration** | | | |
+| Red Hue | +20 | +15 to +25 | Midpoint |
+| Red Sat | +7.5 | +5 to +10 | Midpoint |
+| Green Sat | +2.5 | 0 to +5 | Midpoint |
+| Blue Hue | -20 | -15 to -25 | Midpoint |
+| Blue Sat | +7.5 | +5 to +10 | Midpoint |
+| **Grain** | 10 | Fine slide grain | Lightroom default |
+
+**Key sources:** r/Lightroom Recipe A, r/analog Recipe C, Matt Day (YouTube), Willem Verbeeck, Kyle McDougall, Photrio forums, Flickr Ektachrome group.
+
+## 5% Alignment Update
+
+Applied 2026-06-01 to `Presets/Slide/Kodak Ektachrome E100.xmp`:
+
+| Parameter | Before | After | Reason |
+|-----------|--------|-------|--------|
+| Vibrance | -7.5 | +2.5 | Bug-fix: \|Vibrance - Saturation\| ≤ 5; community -7.5 with Saturation +7.5 violates; +2.5 is closest allowed (diff=5) |
+| RedHue (Calibration) | +20 | removed | Bug-fix: no calibration panel |
+| RedSaturation (Calibration) | +7.5 | removed | Bug-fix: no calibration panel |
+| GreenHue (Calibration) | 0 | removed | Bug-fix: no calibration panel |
+| GreenSaturation (Calibration) | +2.5 | removed | Bug-fix: no calibration panel |
+| BlueHue (Calibration) | -20 | removed | Bug-fix: no calibration panel |
+| BlueSaturation (Calibration) | +7.5 | removed | Bug-fix: no calibration panel |
+
+All other attributes were already within 5% of community validated values.

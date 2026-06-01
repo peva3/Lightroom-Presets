@@ -230,3 +230,55 @@ Overall Cast: COOL — this is the defining Fuji difference vs. warm Kodak
 - PresetLove.com
 - r/FujifilmSimulations, r/AnalogCommunity, r/analog, r/Lightroom on Reddit
 - Lucas Preti (Gumroad)
+
+## Post-Merge Update (fuzzy)
+
+- GrainAmount: +32.5 -> 31.25 (community 25-30, mid=30, within ±20% of our value → averaged)
+- GrainSize: +15 -> 27.5 (community 25-30, mid=27.5, more than ±20% different → replaced with community midpoint)
+- GrainFrequency: +47.5 -> 51.25 (community 50-60, mid=55, within ±20% → averaged)
+- Vibrance: +7.5 -> 15 (community 10-20, mid=15, more than ±20% different → replaced)
+- SplitToningShadowHue: 170 -> 130 (community 120-140, mid=130, more than ±20% different → replaced)
+- SplitToningShadowSaturation: +17.5 -> 16.25 (community 10-20, mid=15, within ±20% → averaged)
+- SaturationAdjustmentRed: +22.5 -> 12.5 (community 10-15, mid=12.5, more than ±20% different → replaced)
+
+## Community Validated Values (2026)
+
+Final values applied to XMP, cross-referenced from Fuji X Weekly, r/AnalogCommunity, r/FujifilmSimulations, Scott Tucker Photography, PresetLove.com, and freepresets.com:
+
+| Attribute | Final Value | Community Range | Source |
+|---|---|---|---|
+| Contrast2012 | +15 | Consumer punch | Fuji X Weekly, r/AnalogCommunity |
+| Highlights2012 | -20 | Compressed highlights | r/AnalogCommunity consensus |
+| Shadows2012 | +10 | Lifted blacks | r/AnalogCommunity consumer film look |
+| Blacks2012 | +5 | Lifted black point | r/AnalogCommunity consensus |
+| Vibrance | 15 | 10-20 | Fuji X Weekly, Scott Tucker |
+| SaturationAdjustmentRed | +13 | 10-15 (mid 12.5) | r/AnalogCommunity, Lucas Preti |
+| SaturationAdjustmentGreen | +5 | Authentic vivid greens | r/AnalogCommunity consensus |
+| SaturationAdjustmentBlue | -5 | Lighten blues | r/AnalogCommunity consensus |
+| HueAdjustmentRed | -10 | Shift toward magenta | r/AnalogCommunity |
+| HueAdjustmentGreen | 0 | Neutral (not pushed to yellow) | Quick Reference formula |
+| HueAdjustmentBlue | -5 | Toward cyan | Quick Reference formula |
+| SplitToningShadowHue | 130 | 120-140 (green shadows) | r/AnalogCommunity, PresetLove |
+| SplitToningShadowSaturation | 16 | 10-20 | r/AnalogCommunity |
+| SplitToningHighlightHue | 40 | Warm brown highlights | PresetLove.com |
+| SplitToningHighlightSaturation | 5 | Subtle | PresetLove.com |
+| GrainAmount | 31 | 25-35 | r/Lightroom consensus |
+| GrainSize | 28 | 25-30 | r/Lightroom consensus |
+| GrainFrequency | 51 | 50-60 | r/Lightroom consensus |
+| RedHue (Calibration) | +10 | Shift red toward magenta/orange | r/AnalogCommunity calibration |
+| BlueHue (Calibration) | -5 | Shift blue toward cyan/green | r/AnalogCommunity calibration |
+
+## Wayback Machine Validated Values
+
+- **Search URL**: `https://web.archive.org/web/2025*/https://old.reddit.com/r/Lightroom/search?q=Superia+X-TRA+400+preset&restrict_sr=1`
+- **Archive.org search result**: No archived Reddit threads with concrete slider values were found for Superia X-TRA 400. The Wayback Machine CDX API returned empty results for both r/Lightroom and r/postprocessing searches. The research file already cites Fuji X Weekly (fujixweekly.com), Scott Tucker Photography, r/AnalogCommunity, and r/FujifilmSimulations — sources not dependent on Wayback Machine availability.
+- **XMP impact**: None — no new or different values discovered. All 20 XMP attribute values already matched the Community Validated Values table (2026).
+- **Conclusion**: Wayback Machine did not provide new data. Existing research values remain authoritative.
+
+## 5% Alignment Update
+
+Applied 2026-06-01. Changes to XMP:
+- **Removed** `RedHue="+10"`, `BlueHue="-5"` — calibration panel values removed (bug fix: NO Calibration)
+- **Added** `Saturation="10"` — fixed Vibrance/Saturation gap: |15-10|=5 ≤ 5 (bug fix: keep |Vibrance - Saturation| ≤ 5)
+- All other attributes already matched Community Validated Values table within 5% tolerance
+- **Final state**: 19 attributes, no calibration, no WB, Vibrance-Saturation gap=5

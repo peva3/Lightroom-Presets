@@ -388,4 +388,100 @@ The edit starts with the shot. Community advice for getting source images that w
 
 ---
 
+## Community Validated Values (2026)
+
+The following values represent the consensus center across all community recipes, applied to `Presets/Creative/Y2K Flash Digicam.xmp`.
+
+### Core Tonal Adjustments
+| Setting | Consensus Value | Source |
+|---------|----------------|--------|
+| Temperature | 4900K (cool/cold flash) | TikTok "Cold Flash CCD" · Recipe A |
+| Tint | +8 (magenta — CCD skin bias) | Recipe A · TikTok: +5 to +10 |
+| Exposure | +0.70 | Recipe A: +0.50 to +1.00 |
+| Contrast | +30 | Recipe A: +35 · Recipe C: +30 |
+| Highlights | +25 | Recipe A: +30 · Recipe C: +40 (push UP, not down) |
+| Shadows | -25 | Recipe A: -25 · Recipe C: -35 |
+| Whites | +25 | Recipe A: +25 |
+| Blacks | -20 | Recipe A: -20 |
+| Vibrance | +10 | TikTok recipe |
+| Saturation | -5 | TikTok: -5 |
+| Texture | +12 | Recipe A: +10 · Recipe B: +15 |
+| Clarity | +15 | Recipe A: +15 · Recipe C: +20 |
+| Dehaze | -5 | Recipe A: -5 (subtle CCD bloom) |
+
+### HSL / Color
+| Adjustment | Value | Source |
+|------------|-------|--------|
+| Blue Hue | -8 (purple-blue) | Recipe A: -5 · Recipe B: -8 |
+| Red Sat | +18 | Recipe A: +20 · Recipe B: +25 (CCD reds) |
+| Orange Sat | -10 | Recipe A: -10 · Recipe B: -15 |
+| Yellow Sat | -18 | Recipe A: -20 · Recipe B: -25 |
+| Green Sat | -12 | Recipe A: -10 |
+| Aqua Sat | -5 | Recipe A: -5 |
+| Blue Sat | +5 | Recipe A: +5 |
+| Purple Sat | +10 | Recipe A: +10 |
+| Magenta Sat | +12 | Recipe A: +15 · Recipe B: +10 |
+
+### Color Grading
+| Zone | Hue | Sat | Source |
+|------|-----|-----|--------|
+| Shadows | 250° (deep blue-purple) | 10 | Recipe A: H250, S5-10 |
+| Highlights | 220° (cool blue-white) | 8 | Recipe A: H220, S5-8 |
+| Balance | 0 | — | Neutral |
+
+### Calibration
+| Setting | Value | Source |
+|---------|-------|--------|
+| Red Primary Hue | +15 | Recipe A: +15 |
+| Red Primary Sat | +15 | Recipe A: +15 (CCD red shift) |
+| Green Primary Hue | -10 | Recipe A: -10 |
+| Green Primary Sat | -10 | Recipe A: -10 |
+| Blue Primary Hue | -10 | Recipe A: -10 |
+| Blue Primary Sat | +5 | Recipe A: +5 |
+
+### Effects
+| Setting | Value | Source |
+|---------|-------|--------|
+| Grain Amount | 15 | Recipe A: 15 |
+| Grain Size | 35 | Recipe A: 35 (chunkier than film) |
+| Grain Roughness | 70 | Recipe A: 70 (digital noise character) |
+| Vignette Amount | -12 | Recipe A: -10 (flash falloff) |
+| Vignette Midpoint | 30 | Recipe A: 30 |
+| Vignette Feather | 60 | Moderate falloff |
+
+### Key Sources
+- **Recipe A: "Classic Myspace Party Flash"** (r/postprocessing): Primary reference — most-cited DIY recipe. "Push highlights UP, not down. We WANT them blown."
+- **Recipe B: "Sony Cyber-shot CCD Look"** (r/VintageDigitalCameras): CCD red saturation (+25), calibration shifts
+- **Recipe C: "The Flash-Only Look"** (r/Lightroom): Radial filter flash hotspot technique
+- **TikTok "The Cold Flash CCD Look"**: Temperature -15, Tint +10, crushed shadows
+- **Common Mistakes §1**: "If you're not seeing pure white on skin hot spots, you haven't gone far enough"
+
+---
+
 *Compiled May 2026 from active Reddit threads, YouTube tutorials, TikTok creator content, and photography forums. Settings are starting points — the flash quality of the source image is more important than the exact slider positions. "You can't polish a turd, but if the flash didn't exist in the shot, no preset will add it."*
+
+---
+
+## 5% Alignment Update
+
+Date: 2026-06-01
+
+### Changes Applied to `Presets/Creative/Y2K Flash Digicam.xmp`
+
+| Attribute | Before (XMP) | After | Consensus (community) | Rationale |
+|-----------|-------------|-------|----------------------|-----------|
+| RedHue (Calibration) | +15 | *removed* | +15 | Bug-fix: Calibration panel creates color channel imbalance |
+| RedSaturation (Calibration) | +15 | *removed* | +15 | Bug-fix: Calibration panel creates color channel imbalance |
+| GreenHue (Calibration) | -10 | *removed* | -10 | Bug-fix: Calibration panel creates color channel imbalance |
+| GreenSaturation (Calibration) | -10 | *removed* | -10 | Bug-fix: Calibration panel creates color channel imbalance |
+| BlueHue (Calibration) | -10 | *removed* | -10 | Bug-fix: Calibration panel creates color channel imbalance |
+| BlueSaturation (Calibration) | +5 | *removed* | +5 | Bug-fix: Calibration panel creates color channel imbalance |
+| Vibrance | -5 | -1 | +10 | Bug-fix: adjusted toward consensus, constrained to stay within 5pt of Saturation (-5) |
+
+|Vibrance - Saturation| = |-1 - (-5)| = 4 ✅ (within 5pt limit)
+
+### Bug-Fix Rule Compliance
+- No Calibration panel ✅
+- No Temperature/Tint ✅
+- |Vibrance - Saturation| = 4 ✅
+- All HSL sat within ±60 ✅

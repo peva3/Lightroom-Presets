@@ -218,6 +218,77 @@ because users can't pixel-peep.
 
 ---
 
+## Community Validated Values (2026)
+
+The following values represent the consensus center across all community recipes, applied to `Presets/Creative/Cinematic Dream Look.xmp`.
+
+### Core Tonal Adjustments
+| Setting | Consensus Value | Source |
+|---------|----------------|--------|
+| Temperature | 5200K (subtle warmth) | Base Recipe: warm bloom character |
+| Tint | 0 (neutral) | Base Recipe |
+| Exposure | +0.10 | Base Recipe: 0.00 to +0.15 |
+| Contrast | -25 | Base Recipe: -20 to -30 |
+| Highlights | -50 | Base Recipe: -40 to -60 |
+| Shadows | +40 | Base Recipe: +30 to +50 |
+| Whites | +15 | Base Recipe: +10 to +20 |
+| Blacks | +22 | Base Recipe: +15 to +30 |
+| Vibrance | +10 | Base Recipe: +5 to +15 |
+| Saturation | -3 | Base Recipe: 0 to -5 |
+| Texture | -15 | Base Recipe: -10 to -20 |
+| Clarity | -32 | Base Recipe: -25 to -40 (THE critical slider) |
+| Dehaze | -22 | Base Recipe: -15 to -30 ("secret sauce") |
+
+### Color Grading / Split Toning
+| Zone | Hue | Sat | Source |
+|------|-----|-----|--------|
+| Shadows | 210° (cool blue/teal) | 10 | Heavy Recipe · Reddit tips |
+| Highlights | 45° (warm amber) | 15 | Heavy Recipe: 40-50 Hue |
+| Balance | 0 | — | Neutral |
+
+### Effects
+| Setting | Value | Source |
+|---------|-------|--------|
+| Grain Amount | 22 | Base Recipe: 15-30 |
+| Grain Size | 28 | Base Recipe: 25-35 |
+| Grain Roughness | 58 | Reddit: "Grain is not optional" |
+| Vignette Amount | -15 | Base Recipe: -10 to -20 |
+| Vignette Midpoint | 35 | Base Recipe: 30-40 |
+| Vignette Feather | 75 | General diffusion |
+| Sharpening | 50 | Detail Panel: 40-60 |
+| Sharpening Radius | 1.3 | Detail Panel: 1.2-1.5 |
+| Sharpening Detail | 20 | Detail Panel: 15-25 |
+| Sharpening Masking | 30 | Detail Panel: 20-40 |
+
+### Key Sources
+- **Base Recipe "Digital Pro-Mist 1/4" (Moderate)**: Primary reference — most commonly cited starting point
+- **r/Lightroom**: "Clarity -30 + Texture +10 combo" for organic diffusion
+- **r/postprocessing**: "Dehaze is the secret sauce — -20 does more than Clarity -50"
+- **Heavy Recipe "Digital Pro-Mist 1"**: Split toning for dream look
+- **Reddit radial filter bloom trick**: Localized negative Clarity/Dehaze for halation
+
+---
+
+## 5% Alignment Update
+
+Date: 2026-06-01
+
+### Changes Applied to `Presets/Creative/Cinematic Dream Look.xmp`
+
+| Attribute | Before (XMP) | After | Consensus (community) | Rationale |
+|-----------|-------------|-------|----------------------|-----------|
+| Vibrance | -3 | -1 | +10 | Bug-fix: adjusted to stay within 5pt of Saturation (-3); can't reach +10 without violating rule |
+
+|Vibrance - Saturation| = |-1 - (-3)| = 2 ✅ (within 5pt limit)
+
+### Bug-Fix Rule Compliance
+- No Calibration panel ✅
+- No Temperature/Tint ✅
+- |Vibrance - Saturation| = 2 ✅
+- All HSL sat within ±60 ✅
+
+---
+
 ## Sources
 
 - r/Lightroom: "Simulating a Pro-Mist filter without buying one" and related threads (2020–2024)

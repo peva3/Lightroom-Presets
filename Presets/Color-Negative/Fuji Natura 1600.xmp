@@ -15,37 +15,40 @@
     crs:RequiresRenditionBehavior="True"
     crs:Name="Fuji Natura 1600"
     crs:HasSettings="True"
-    crs:LuminanceAdjustmentOrange="+15"
-    crs:Clarity2012="-5"
-    crs:Texture="-10"
-    crs:Vibrance="+10"
-    crs:Exposure2012="+0.30"
-    crs:Contrast2012="-10"
-    crs:Highlights2012="-50"
-    crs:Shadows2012="+45"
-    crs:Whites2012="+5"
-    crs:Blacks2012="-20"
-    crs:Saturation="-8"
-    crs:SaturationAdjustmentOrange="-10"
-    crs:HueAdjustmentGreen="+20"
+    crs:Exposure2012="+0.24"
+    crs:Contrast2012="-14"
+    crs:Highlights2012="-43"
+    crs:Shadows2012="+41"
+    crs:Whites2012="0"
+    crs:Blacks2012="-16"
+    crs:Saturation="-5"
+    crs:HueAdjustmentRed="+5"
+    crs:SaturationAdjustmentRed="-10"
+    crs:LuminanceAdjustmentRed="-5"
+    crs:HueAdjustmentOrange="0"
+    crs:SaturationAdjustmentOrange="-5"
+    crs:HueAdjustmentYellow="-5"
+    crs:SaturationAdjustmentYellow="-15"
+    crs:HueAdjustmentGreen="+16"
     crs:SaturationAdjustmentGreen="-20"
-    crs:LuminanceAdjustmentGreen="-10"
-    crs:SaturationAdjustmentBlue="-10"
+    crs:LuminanceAdjustmentGreen="+5"
+    crs:HueAdjustmentAqua="+10"
+    crs:SaturationAdjustmentAqua="-10"
+    crs:HueAdjustmentBlue="-5"
+    crs:SaturationAdjustmentBlue="+5"
     crs:LuminanceAdjustmentBlue="-10"
-    crs:SplitToningHighlightHue="40"
+    crs:SaturationAdjustmentPurple="-15"
+    crs:SaturationAdjustmentMagenta="-10"
+    crs:SplitToningHighlightHue="42"
     crs:SplitToningHighlightSaturation="6"
     crs:SplitToningShadowHue="215"
-    crs:SplitToningShadowSaturation="12"
+    crs:SplitToningShadowSaturation="8"
     crs:SplitToningBalance="-10"
-    crs:GrainAmount="35"
+    crs:GrainAmount="31"
     crs:GrainSize="30"
     crs:GrainFrequency="55">
-   <crs:Name><rdf:Alt><rdf:li xml:lang="x-default">Fuji Natura 1600</rdf:li></rdf:Alt></crs:Name>
-   <crs:Group>
-    <rdf:Alt>
-     <rdf:li xml:lang="x-default">Color Negative</rdf:li>
-    </rdf:Alt>
-   </crs:Group>
+   <crs:Name><rdf:Alt><rdf:li xml:lang="x-default">Color Negative</rdf:li></rdf:Alt></crs:Name>
+   <crs:Group><rdf:Alt><rdf:li xml:lang="x-default">Color Negative</rdf:li></rdf:Alt></crs:Group>
   </rdf:Description>
  </rdf:RDF>
 </x:xmpmeta>

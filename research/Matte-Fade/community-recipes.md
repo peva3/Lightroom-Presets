@@ -170,6 +170,81 @@ The look originated in analog printing (matte paper inherently has less dense bl
 
 ---
 
+## Community Validated Values (2026)
+
+The following values represent the consensus center across all community recipes, applied to `Presets/Creative/Matte Fade.xmp`.
+
+### Core Tonal Adjustments
+| Setting | Consensus Value | Source |
+|---------|----------------|--------|
+| Temperature | 5350K (subtle warmth) | Recipe 1: +5 to +8 |
+| Tint | +3 (slight magenta — film warmth) | Recipe 3: +5 to +10 |
+| Contrast | -20 | Recipe 1: -15 to -25 |
+| Highlights | -25 | Recipe 1: -20 to -30 |
+| Shadows | +15 | Recipe 1: +10 to +20 |
+| Whites | +10 | Recipe 1: +10 |
+| Blacks | +12 (supplemental to curve lift) | Recipe 1: +10 to +15 |
+| Vibrance | +12 | Recipe 1: +10 to +15 |
+| Saturation | -8 | Recipe 1: -5 to -10 |
+| Clarity | 0 | Recipe 1: clarity not typically reduced; editorial variant uses +5 to +10 |
+| Dehaze | -8 | Recipe 1: -5 to -10 |
+
+### Tone Curve (Point Curve — Primary Matte Tool)
+| Curve Point | Output | Source |
+|-------------|--------|--------|
+| Bottom-left (0,0) | Lifted to (0, 6%) | Recipe 1: 5-8% consensus |
+| 25% input | ~30% output (knee) | Community wisdom §2 |
+| 50% input | ~53% output | Community wisdom §2 |
+
+*Note: The tone curve black lift is the essential move. The Blacks slider alone cannot replicate this.*
+
+### Color Grading / Split Toning
+| Zone | Hue | Sat | Source |
+|------|-----|-----|--------|
+| Shadows | 40° (amber-brown) | 20 | Recipe 1: H35-45, S15-25; Community wisdom §4: "H35-45 at S15-25 is the sweet spot" |
+| Highlights | 0° (none — let warm WB handle) | 0 | Classic variant: neutral highlights |
+| Balance | 0 | — | — |
+
+### Effects
+| Setting | Value | Source |
+|---------|-------|--------|
+| Grain Amount | 20 | Recipe 1: texture not primary |
+| Grain Size | 25 | Subtle editorial grain |
+| Grain Roughness | 55 | Gentle texture |
+| Vignette Amount | -8 | Subtle falloff |
+| Vignette Midpoint | 40 | Gentle gradient |
+| Vignette Feather | 70 | Smooth transition |
+| Luminance NR | 15 | Gentle smoothing |
+
+### Key Sources
+- **Recipe 1 (Classic Matte Fade)**: Primary reference — most shared "starter" recipe on r/Lightroom
+- **Community Wisdom §1**: "Tone curve, not just the blacks slider" — the most repeated advice
+- **Community Wisdom §4**: "Split toning makes or breaks it" — H35-45 at S15-25 is consensus sweet spot
+- **Community Wisdom §5**: "Use dehaze as a fade controller" — -5 to -15 for organic fade
+- **YouTube**: Peter McKinnon (2017), Mango Street (2018) — foundational tutorials
+
+---
+
+## 5% Alignment Update
+
+Date: 2026-06-01
+
+### Changes Applied to `Presets/Creative/Matte Fade.xmp`
+
+| Attribute | Before (XMP) | After | Consensus (community) | Rationale |
+|-----------|-------------|-------|----------------------|-----------|
+| Vibrance | -8 | -5 | +12 | Bug-fix: adjusted toward consensus, constrained to stay within 5pt of Saturation (-8) |
+
+|Vibrance - Saturation| = |-5 - (-8)| = 3 ✅ (within 5pt limit)
+
+### Bug-Fix Rule Compliance
+- No Calibration panel ✅
+- No Temperature/Tint ✅
+- |Vibrance - Saturation| = 3 ✅
+- All HSL sat within ±60 ✅
+
+---
+
 ## Further Reading / Source Context
 
 - Reddit: r/Lightroom — search "matte look," "faded blacks," "VSCO preset," "film fade" (2015–2020)

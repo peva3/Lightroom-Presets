@@ -16,19 +16,19 @@
     crs:Name="Disposable Camera Flash"
     crs:HasSettings="True"
     crs:Contrast2012="-25"
-    crs:Highlights2012="-45"
-    crs:Shadows2012="+35"
-    crs:Whites2012="+12"
-    crs:Blacks2012="+35"
-    crs:Saturation="+5"
-    crs:Vibrance="+15"
+    crs:Highlights2012="-50"
+    crs:Shadows2012="+40"
+    crs:Whites2012="+15"
+    crs:Blacks2012="+40"
+    crs:Vibrance="+2"
+    crs:Saturation="0"
     crs:Texture="-20"
     crs:Clarity2012="-40"
     crs:Dehaze="-15"
-    crs:HueAdjustmentRed="+8"
+    crs:HueAdjustmentRed="+15"
     crs:HueAdjustmentGreen="-12"
     crs:SaturationAdjustmentRed="+12"
-    crs:SaturationAdjustmentOrange="+18"
+    crs:SaturationAdjustmentOrange="+15"
     crs:SaturationAdjustmentYellow="+10"
     crs:SaturationAdjustmentGreen="-15"
     crs:SaturationAdjustmentAqua="-10"
@@ -42,12 +42,16 @@
     crs:GrainAmount="50"
     crs:GrainSize="30"
     crs:GrainFrequency="60"
-    crs:PostCropVignetteAmount="-25"
-    crs:PostCropVignetteMidpoint="35"
-    crs:PostCropVignetteFeather="70">
+    crs:PostCropVignetteAmount="-20"
+    crs:PostCropVignetteMidpoint="32"
+    crs:PostCropVignetteFeather="65"
+    crs:Sharpness="15"
+    crs:SharpnessRadius="+2.0"
+    crs:SharpnessDetail="0"
+    crs:SharpnessMasking="0">
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Disposable Camera Flash</rdf:li>
+     <rdf:li xml:lang="x-default">Creative</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:Group>

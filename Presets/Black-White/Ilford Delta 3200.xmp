@@ -15,24 +15,29 @@
     crs:RequiresRenditionBehavior="True"
     crs:Name="11 Ilford Delta 3200"
     crs:HasSettings="True"
-    crs:GrayMixerBlue="-15"
-    crs:GrayMixerGreen="+10"
-    crs:GrayMixerOrange="+5"
-    crs:GrayMixerRed="+10"
     crs:ConvertToGrayscale="True"
-    crs:Contrast2012="-15"
-    crs:Highlights2012="-35"
-    crs:Shadows2012="+30"
-    crs:Whites2012="-15"
-    crs:Blacks2012="+25"
-    crs:Texture="-15"
-    crs:Clarity2012="-20"
-    crs:GrainAmount="80"
-    crs:GrainSize="60"
-    crs:GrainFrequency="80">
+    crs:Contrast2012="-20"
+    crs:Highlights2012="-50"
+    crs:Shadows2012="+28.8"
+    crs:Whites2012="-13.8"
+    crs:Blacks2012="+22.3"
+    crs:Clarity2012="-10"
+    crs:Dehaze="-10"
+    crs:Texture="-11.3"
+    crs:GrayMixerRed="+15"
+    crs:GrayMixerOrange="+20"
+    crs:GrayMixerYellow="+10"
+    crs:GrayMixerGreen="-7.5"
+    crs:GrayMixerAqua="-2.5"
+    crs:GrayMixerBlue="-15"
+    crs:GrayMixerPurple="-7.5"
+    crs:GrayMixerMagenta="+2.5"
+    crs:GrainAmount="71.3"
+    crs:GrainSize="57.5"
+    crs:GrainFrequency="71.3">
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">11 Ilford Delta 3200</rdf:li>
+     <rdf:li xml:lang="x-default">Black White</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:Group>

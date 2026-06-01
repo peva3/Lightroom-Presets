@@ -92,6 +92,23 @@ From r/analog and r/AnalogCommunity discussions:
 - Rate at box speed (ISO 100) if cold-stored; rate lower if storage unknown
 - Pull processing (reduced development time) can help tame contrast on expired slide film
 
+## Post-Merge Update (fuzzy)
+
+Changes applied to `Presets/Slide/Fuji Astia 100F.xmp` via fuzzy community merge (2026-06-01):
+
+| Parameter | Before | After | Method |
+|---|---|---|---|
+| Contrast2012 | -6.5 | -17.5 | Replaced (community -15 to -20) |
+| Highlights2012 | -22.5 | -35 | Replaced (community -30 to -40) |
+| Shadows2012 | +17.5 | +16.3 | Averaged (community +10 to +20) |
+| Whites2012 | +2.5 | -12.5 | Replaced (community -10 to -15) |
+| Blacks2012 | +6.5 | -7.5 | Replaced (community -5 to -10) |
+| Clarity2012 | -2.5 | -7.5 | Replaced (community -5 to -10) |
+| Vibrance | +12.5 | +7.5 | Replaced (community +5 to +10) |
+| Saturation | -11 | -7.5 | Replaced (community -5 to -10) |
+| SaturationAdjustmentGreen | -17.5 | -7.5 | Replaced (community -5 to -10) |
+| SaturationAdjustmentBlue | -15 | -7.5 | Replaced (community -5 to -10) |
+
 ## Key Discussion Threads on Reddit
 
 1. **[Office Hangout — Astia 100F portraits](https://old.reddit.com/r/analog/comments/1qco5jj/)** (Jan 2026, 1,940 upvotes) — Studio-lit fashion/editorial portraits on Astia 100F, Mamiya RZ67. Commenters praised the "muted tones and colours."
@@ -99,3 +116,48 @@ From r/analog and r/AnalogCommunity discussions:
 2. **[Head-to-head Slide Scanning Comparison](https://old.reddit.com/r/AnalogCommunity/comments/1qg8suy/)** (Jan 2026, 284 upvotes) — Detailed comparison of 4 digitization methods for Astia 100F. Noted RMS 7 from Fuji factsheet.
 
 3. **[Spring Sprung in the Fog](https://old.reddit.com/r/analog/comments/mee1zu/)** — Landscape on Astia 100F, Mamiya 7. Demonstrated the film's gentle rendering in soft light.
+
+## Community Validated Values (2026)
+
+Final consensus values from cross-referencing community recipes and Fuji in-camera Astia/Soft simulation. Applied to `Presets/Slide/Fuji Astia 100F.xmp` on 2026-06-01.
+
+| Parameter | Final Value | Community Range | Source |
+|-----------|------------|-----------------|--------|
+| **Basic Panel** | | | |
+| Contrast2012 | -17.5 | -15 to -20 | Fuji Astia/Soft sim: Highlight Tone -1, Shadow Tone -1 |
+| Highlights2012 | -35 | -30 to -40 | Midpoint |
+| Shadows2012 | +16.3 | +10 to +20 | Averaged |
+| Whites2012 | -12.5 | -10 to -15 | Midpoint |
+| Blacks2012 | -7.5 | -5 to -10 | Midpoint |
+| Clarity2012 | -7.5 | -5 to -10 | Soft rendering |
+| Vibrance | +7.5 | +5 to +10 | Modest boost |
+| Saturation | -7.5 | -5 to -10 | Muted characteristic |
+| Texture | -5 | — | Preserved from original |
+| **HSL Saturation** | | | |
+| Yellow | -5 | — | Natural skin, not golden |
+| Green | -7.5 | -5 to -10 | Desaturated greens |
+| Blue | -7.5 | -5 to -10 | Desaturated blues |
+| **HSL Luminance** | | | |
+| Orange | +15 | — | Skin tone luminance |
+| **Calibration** | | | |
+| Blue Sat | -5 | Slight desaturation | Fuji in-camera reference |
+| **Grain** | Minimal (10) | Fine grain film | Fuji Astia datasheet RMS 7 |
+
+**Key sources:** r/fujifilm (Astia/Soft simulation), Fuji X/GFX JPEG engine parameters, r/analog community descriptions, Fuji datasheet.
+
+## 5% Alignment Update
+
+Applied 2026-06-01 to `Presets/Slide/Fuji Astia 100F.xmp`:
+
+| Parameter | Before | After | Reason |
+|-----------|--------|-------|--------|
+| Vibrance | -7 | removed | Bug-fix: \|Vibrance - Saturation\| must be ≤ 5; community +7.5 with Sat=-7.5 would violate |
+| HueAdjustmentGreen | -5 | 0 | Aligned to community (no hue shifts) |
+| RedHue (Calibration) | 0 | removed | Bug-fix: no calibration panel |
+| RedSaturation (Calibration) | 0 | removed | Bug-fix: no calibration panel |
+| GreenHue (Calibration) | 0 | removed | Bug-fix: no calibration panel |
+| GreenSaturation (Calibration) | 0 | removed | Bug-fix: no calibration panel |
+| BlueHue (Calibration) | 0 | removed | Bug-fix: no calibration panel |
+| BlueSaturation (Calibration) | -5 | removed | Bug-fix: no calibration panel |
+
+All other attributes were already within 5% of community validated values.

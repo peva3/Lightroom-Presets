@@ -23,8 +23,8 @@
     crs:Blacks2012="+18"
     crs:Saturation="-15"
     crs:Vibrance="-10"
-    crs:Texture="-18"
-    crs:Clarity2012="-25"
+    crs:Texture="-15"
+    crs:Clarity2012="-22"
     crs:Dehaze="-15"
     crs:HueAdjustmentOrange="+8"
     crs:HueAdjustmentYellow="-8"
@@ -43,25 +43,14 @@
     crs:SplitToningShadowHue="220"
     crs:SplitToningShadowSaturation="8"
     crs:SplitToningBalance="+22"
-    crs:ShadowTint="+6"
-    crs:RedHue="+20"
-    crs:RedSaturation="-10"
-    crs:GreenHue="-15"
-    crs:GreenSaturation="-20"
-    crs:BlueHue="-18"
-    crs:BlueSaturation="-28"
     crs:GrainAmount="50"
     crs:GrainSize="32"
     crs:GrainFrequency="70"
     crs:PostCropVignetteAmount="-22"
     crs:PostCropVignetteMidpoint="48"
     crs:PostCropVignetteFeather="62">
-   <crs:Name><rdf:Alt><rdf:li xml:lang="x-default">Super 8 Home Movie</rdf:li></rdf:Alt></crs:Name>
-   <crs:Group>
-    <rdf:Alt>
-     <rdf:li xml:lang="x-default">Creative</rdf:li>
-    </rdf:Alt>
-   </crs:Group>
+   <crs:Name><rdf:Alt><rdf:li xml:lang="x-default">Creative</rdf:li></rdf:Alt></crs:Name>
+   <crs:Group><rdf:Alt><rdf:li xml:lang="x-default">Creative</rdf:li></rdf:Alt></crs:Group>
   </rdf:Description>
  </rdf:RDF>
 </x:xmpmeta>

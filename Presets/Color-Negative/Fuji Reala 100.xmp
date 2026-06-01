@@ -15,32 +15,29 @@
     crs:RequiresRenditionBehavior="True"
     crs:Name="Fuji Reala 100"
     crs:HasSettings="True"
-    crs:SplitToningBalance="+10"
-    crs:LuminanceAdjustmentOrange="+10"
-    crs:Clarity2012="+5"
-    crs:Texture="+5"
-    crs:Vibrance="+10"
-    crs:Whites2012="+10"
-    crs:Contrast2012="-5"
-    crs:Highlights2012="-25"
-    crs:Shadows2012="+20"
-    crs:Blacks2012="-10"
+    crs:Contrast2012="-8"
+    crs:Highlights2012="-21"
+    crs:Shadows2012="+16"
+    crs:Blacks2012="-8"
     crs:Saturation="-5"
-    crs:HueAdjustmentGreen="+10"
-    crs:HueAdjustmentBlue="-5"
-    crs:SaturationAdjustmentRed="-10"
-    crs:SaturationAdjustmentGreen="-15"
-    crs:SaturationAdjustmentBlue="-10"
-    crs:SplitToningShadowHue="190"
-    crs:SplitToningShadowSaturation="6"
-    crs:SplitToningHighlightHue="45"
-    crs:SplitToningHighlightSaturation="6"
+    crs:HueAdjustmentRed="-5"
+    crs:SaturationAdjustmentRed="-8"
+    crs:HueAdjustmentOrange="-5"
+    crs:HueAdjustmentYellow="-5"
+    crs:HueAdjustmentGreen="+8"
+    crs:SaturationAdjustmentGreen="+5"
+    crs:HueAdjustmentBlue="-8"
+    crs:SaturationAdjustmentBlue="-8"
+    crs:SplitToningShadowHue="216"
+    crs:SplitToningShadowSaturation="7"
+    crs:SplitToningHighlightHue="210"
+    crs:SplitToningHighlightSaturation="5"
     crs:GrainAmount="15"
     crs:GrainSize="15"
-    crs:GrainFrequency="20">
+     crs:GrainFrequency="15">
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Fuji Reala 100</rdf:li>
+     <rdf:li xml:lang="x-default">Color Negative</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:Group>

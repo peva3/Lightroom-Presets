@@ -18,3 +18,14 @@ Desktop.ini
 *.lrdata
 *.lrcat.lock
 Previews.lrdata/
+
+# Test scripts
+test/
+output*/
+
+# Python
+.venv/
+__pycache__/
+
+# Archived originals
+old/

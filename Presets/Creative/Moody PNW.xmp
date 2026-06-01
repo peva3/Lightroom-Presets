@@ -13,53 +13,27 @@
     crs:SupportsSceneReferred="True"
     crs:SupportsOutputReferred="True"
     crs:RequiresRenditionBehavior="True"
-    crs:Name="Moody PNW"
+    crs:Name="01 Moody PNW"
     crs:HasSettings="True"
-    crs:Exposure2012="-0.40"
-    crs:Contrast2012="+20"
-    crs:Highlights2012="-50"
-    crs:Shadows2012="-20"
-    crs:Whites2012="-10"
-    crs:Blacks2012="+25"
-    crs:Saturation="-20"
-    crs:Vibrance="-15"
-    crs:Texture="+10"
-    crs:Clarity2012="+25"
-    crs:Dehaze="+20"
-    crs:HueAdjustmentRed="-10"
-    crs:HueAdjustmentOrange="-10"
-    crs:HueAdjustmentYellow="-15"
-    crs:HueAdjustmentGreen="+15"
-    crs:HueAdjustmentAqua="+10"
-    crs:HueAdjustmentBlue="-15"
-    crs:SaturationAdjustmentRed="-15"
-    crs:SaturationAdjustmentOrange="-15"
-    crs:SaturationAdjustmentYellow="-20"
+    crs:Exposure2012="-0.50"
+    crs:Contrast2012="+37.5"
+    crs:Highlights2012="-75"
+    crs:Shadows2012="+75"
+    crs:Whites2012="+25"
+    crs:Blacks2012="-22.5"
+    crs:Saturation="-45"
+    crs:Dehaze="+10"
+    crs:HueAdjustmentGreen="+50"
     crs:SaturationAdjustmentGreen="-60"
-    crs:SaturationAdjustmentAqua="-15"
-    crs:SaturationAdjustmentBlue="-30"
-    crs:SaturationAdjustmentPurple="-10"
-    crs:SaturationAdjustmentMagenta="-10"
-    crs:LuminanceAdjustmentRed="-10"
-    crs:LuminanceAdjustmentOrange="-10"
-    crs:LuminanceAdjustmentYellow="-15"
-    crs:LuminanceAdjustmentGreen="-40"
-    crs:LuminanceAdjustmentAqua="-10"
-    crs:LuminanceAdjustmentBlue="-20"
-    crs:SplitToningShadowHue="180"
-    crs:SplitToningShadowSaturation="15"
+    crs:LuminanceAdjustmentOrange="+80"
+    crs:SplitToningShadowHue="260"
+    crs:SplitToningShadowSaturation="10"
     crs:SplitToningHighlightHue="160"
-    crs:SplitToningHighlightSaturation="10"
-    crs:SplitToningBalance="-20"
-    crs:GrainAmount="35"
-    crs:GrainSize="40"
-    crs:GrainFrequency="60"
-    crs:PostCropVignetteAmount="-20"
-    crs:PostCropVignetteMidpoint="40"
-    crs:PostCropVignetteFeather="55">
+     crs:SplitToningHighlightSaturation="10"
+    >
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Moody PNW</rdf:li>
+     <rdf:li xml:lang="x-default">Creative</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:Group>
@@ -69,4 +43,4 @@
    </crs:Group>
   </rdf:Description>
  </rdf:RDF>
-</x:xmpeta>
+</x:xmpmeta>

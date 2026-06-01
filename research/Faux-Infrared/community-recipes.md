@@ -156,6 +156,69 @@ Search terms: `faux infrared lightroom`, `aerochrome lightroom tutorial`, `black
 
 ---
 
+## Community Validated Values (2026)
+
+The following values represent the consensus center across all community recipes, applied to `Presets/Creative/Faux Infrared.xmp`.
+
+### Core Tonal Adjustments
+| Setting | Consensus Value | Source |
+|---------|----------------|--------|
+| Convert To Grayscale | True | All recipes — B&W treatment |
+| Exposure | +0.50 | Core settings: +0.3 to +1.0 |
+| Contrast | +40 | Cheat Sheet: +40; Core: +30 to +60 |
+| Highlights | -40 | Core: -20 to -60 |
+| Shadows | +30 | Core: +20 to +40 |
+| Whites | +30 | Core: +20 to +40 |
+| Blacks | -30 | Core: -20 to -50; Cheat Sheet: -30 |
+| Clarity | +40 | Cheat Sheet: +40; Core: +30 to +60 |
+| Dehaze | +30 | Cheat Sheet: +30; Core: +15 to +40 |
+
+### B&W Mixer (THE core IR simulation)
+| Channel | Luminance | Source |
+|---------|-----------|--------|
+| Red | +80 | Core: +60 to +100 |
+| Orange | +65 | Core: +50 to +80 |
+| Yellow | +100 | Core: +80 to +100; Cheat Sheet: +100 |
+| Green | +100 | Core: +80 to +100; Cheat Sheet: +100 |
+| Aqua | -80 | Cheat Sheet: -80; Core: -30 to -60 |
+| Blue | -100 | Core: -60 to -100; Cheat Sheet: -100 |
+| Purple | -45 | Core: -30 to -60 |
+| Magenta | -30 | Core: -20 to -40 |
+
+### Effects
+| Setting | Value | Source |
+|---------|-------|--------|
+| Grain Amount | 40 | Medium grain for film texture |
+| Grain Size | 30 | Standard grain size |
+| Grain Roughness | 60 | Textured grain |
+| Sharpening | 60 | Core: 40-80 |
+| Sharpening Radius | 1.2 | Core: 1.0-1.5 |
+| Sharpening Detail | 25 | Standard detail preservation |
+
+### Key Sources
+- **B&W Mixer Method (Most Common)**: Universal starting mantra — "Green and yellow to +100, blues to -100"
+- **Quick-Reference Cheat Sheet (30-second recipe)**: B&W Faux IR — Green +100, Yellow +100, Blue -100, Aqua -80; Dehaze +30; Contrast +40; Clarity +40
+- **r/postprocessing, r/infraredphotography**: Dehaze is critical — IR film cuts through atmospheric haze
+- **Reddit TAT tip**: Use Targeted Adjustment Tool — drag UP on foliage, DOWN on sky
+
+---
+
+## 5% Alignment Update
+
+Date: 2026-06-01
+
+### Changes Applied to `Presets/Creative/Faux Infrared.xmp`
+
+**No changes needed.** All values already matched community consensus within 5%.
+
+### Bug-Fix Rule Compliance
+- No Calibration panel ✅
+- No Temperature/Tint ✅
+- No Vibrance/Saturation (B&W treatment) ✅
+- All HSL sat within ±60 ✅
+
+---
+
 ## Sources
 - Reddit communities: r/postprocessing, r/analog, r/infraredphotography
 - YouTube tutorials (PIXimperfect, Phlearn, Jamie Windsor, Sean Tucker)

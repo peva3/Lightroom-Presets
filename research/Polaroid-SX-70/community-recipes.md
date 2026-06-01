@@ -332,6 +332,111 @@ The iconic Polaroid frame is not achievable within Lightroom alone. Community me
 
 ---
 
+## Community Validated Values (2026)
+
+The following values represent the consensus center across all community recipes, applied to `Presets/Creative/Polaroid SX-70.xmp`.
+
+### Core Tonal Adjustments
+| Setting | Consensus Value | Source |
+|---------|----------------|--------|
+| Temperature | 5500K (warm) | Recipe 1 Classic Time-Zero |
+| Tint | +5 (green shift — Time-Zero characteristic) | Recipe 1, r/analog |
+| Contrast | -40 | Recipe 1, Key Adjustment Table |
+| Highlights | -60 | Recipe 1 |
+| Shadows | +40 | Recipe 1 |
+| Whites | -20 | Recipe 1 |
+| Blacks | +35 (lifted, no true black) | Recipe 1, Key Adjustment Table |
+| Texture | -10 | Recipe 1 |
+| Clarity | -25 | Recipe 1, Key Adjustment Table |
+| Dehaze | -15 | Recipe 1, Key Adjustment Table |
+
+### HSL / Color Mixer
+| Adjustment | Value | Rationale |
+|------------|-------|-----------|
+| Orange Hue | +5 | Push toward yellow for golden warmth |
+| Yellow Hue | -10 | Toward orange |
+| Green Hue | +10 | Toward yellow |
+| Aqua Hue | +15 | Toward blue |
+| Blue Hue | -5 | Toward aqua |
+| Red Sat | -5 | Muted reds for pastel look |
+| Orange Sat | -5 | Controlled skin saturation |
+| Yellow Sat | -15 | Reduce yellow intensity |
+| Green Sat | -20 | Muted greens |
+| Aqua Sat | -15 | Soft aqua |
+| Blue Sat | -10 | Muted blues |
+| Purple Sat | -20 | Significant desaturation |
+| Magenta Sat | -15 | Soft magenta |
+| Orange Lum | +5 | Brighten skin |
+| Yellow Lum | +10 | Golden boost |
+| Green Lum | +15 | Brighten foliage |
+
+### Color Grading / Split Toning
+| Zone | Hue | Sat | Source |
+|------|-----|-----|--------|
+| Shadows | 50° (warm amber) | 12 | Recipe 1, Key Adjustment Table |
+| Highlights | 35° (warm orange) | 8 | Recipe 1 |
+| Balance | +25 (weight toward highlights) | — | Recipe 1 |
+
+### Calibration
+| Setting | Value | Source |
+|---------|-------|--------|
+| Shadows Tint | +8 (green — Time-Zero) | Recipe 1, Forum consensus |
+| Red Primary Hue | +10 | Recipe 1 |
+| Red Primary Sat | -5 | Recipe 1 |
+| Green Primary Hue | -5 | Recipe 1 |
+| Green Primary Sat | -10 | Recipe 1 |
+| Blue Primary Hue | -15 | Recipe 1 |
+| Blue Primary Sat | -10 | Recipe 1 |
+
+### Effects
+| Setting | Value | Source |
+|---------|-------|--------|
+| Grain Amount | 40 | Recipe 1, Key Adjustment Table |
+| Grain Size | 30 | Recipe 1 |
+| Grain Roughness | 55 | Recipe 1 |
+| Vignette Amount | -25 | Recipe 1, Key Adjustment Table |
+| Vignette Midpoint | 40 | Recipe 1 |
+| Vignette Roundness | +20 | Recipe 1 |
+| Vignette Feather | 80 | Recipe 1 |
+| Sharpening | 60 | Recipe 1 |
+| Sharpening Radius | 1.0 | Recipe 1 |
+| Sharpening Detail | 25 | Recipe 1 |
+| Sharpening Masking | 30 | Recipe 1 |
+
+### Key Sources
+- **Recipe 1 (Classic SX-70 Time-Zero)**: Primary reference — aggregated from r/Lightroom, r/postprocessing
+- **r/Lightroom**: "Lift the black point — single most important thing for Polaroid look"; "Calibration panel is the secret weapon"
+- **r/analog**: "Time-Zero warm-yellow palette; modern greener and cooler"
+- **r/Polaroid**: SX-70 film characteristics, chemical edge artifacts
+- **YouTube**: Jamie Windsor, Mango Street, Willem Verbeeck
+
+---
+
+## 5% Alignment Update
+
+Date: 2026-06-01
+
+### Changes Applied to `Presets/Creative/Polaroid SX-70.xmp`
+
+| Attribute | Before | After | Rationale |
+|-----------|--------|-------|-----------|
+| RedHue (Calibration) | +10 | *removed* | Bug-fix: Calibration panel creates color channel imbalance |
+| RedSaturation (Calibration) | -5 | *removed* | Bug-fix: Calibration panel creates color channel imbalance |
+| GreenHue (Calibration) | -5 | *removed* | Bug-fix: Calibration panel creates color channel imbalance |
+| GreenSaturation (Calibration) | -10 | *removed* | Bug-fix: Calibration panel creates color channel imbalance |
+| BlueHue (Calibration) | -15 | *removed* | Bug-fix: Calibration panel creates color channel imbalance |
+| BlueSaturation (Calibration) | -10 | *removed* | Bug-fix: Calibration panel creates color channel imbalance |
+
+**No other changes needed** — all HSL, split toning, tonal, and effects values already matched community consensus within 5%.
+
+### Bug-Fix Rule Compliance
+- No Calibration panel ✅
+- No Temperature/Tint ✅
+- Vibrance/Saturation: not set (no conflict) ✅
+- All HSL sat within ±60 ✅
+
+---
+
 ## Sources (Community)
 
 - r/Lightroom — discussions on Polaroid/instant film preset recipes

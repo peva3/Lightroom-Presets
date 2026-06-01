@@ -190,3 +190,59 @@ This 8-step process gets you 70% there for quick social media posts.
 - Reddit r/postprocessing: u/Gratos_in_Panflavul "A little rant about color spaces" / G/B channel swap analysis (June 2025)
 - Reddit r/postprocessing: u/JT_Armstrong sharing the Run N Gun Photo tutorial (2018)
 - Community knowledge from r/Lightroom, r/postprocessing discussions
+
+## Post-Merge Update (fuzzy)
+
+- RedHue: +25 -> 22.5 (community +20, within ±20% → averaged)
+- GreenSaturation: +20 -> 15 (community +15, more than ±20% different → replaced)
+- BlueSaturation: -15 -> -10 (community -10, more than ±20% different → replaced)
+- ShadowTint: +15 -> 5 (community +5, more than ±20% different → replaced)
+- HueAdjustmentGreen: +100 -> 140 (community +100 to +180, mid=140, more than ±20% different → replaced)
+- HueAdjustmentBlue: -100 -> -92.5 (community -70 to -100, mid=-85, within ±20% → averaged)
+- HueAdjustmentYellow: +35 -> 32.5 (community +20 to +40, mid=30, within ±20% → averaged)
+- SaturationAdjustmentGreen: +37.5 -> 33.75 (community +20 to +40, mid=30, within ±20% → averaged)
+- SaturationAdjustmentBlue: -47.5 -> -43.75 (community -30 to -50, mid=-40, within ±20% → averaged)
+- SaturationAdjustmentMagenta: +37.5 -> 38.75 (community +30 to +50, mid=40, within ±20% → averaged)
+- SplitToningHighlightHue: 300 -> 305 (community 300-320, mid=310, within ±20% → averaged)
+- SplitToningShadowHue: +250 -> 230 (community 200-220, mid=210, within ±20% → averaged)
+- SplitToningShadowSaturation: +12.5 -> 11.25 (community 5-15, mid=10, within ±20% → averaged)
+- SplitToningBalance: +17.5 -> 16.25 (community +10 to +20, mid=15, within ±20% → averaged)
+- GrainAmount: +47.5 -> 48.75 (community 40-60, mid=50, within ±20% → averaged)
+
+## Community Validated Values (2026)
+
+Final values applied to XMP, cross-referenced from Run N Gun Photo (YouTube), u/lucasdpfeliciano (r/postprocessing), u/Gratos_in_Panflavul channel-swap analysis, and Method 2 HSL/Calibration guide:
+
+| Attribute | Final Value | Community Range | Source |
+|---|---|---|---|
+| HueAdjustmentGreen | +140 | +100 to +180 | Method 2 HSL |
+| HueAdjustmentBlue | -93 | -70 to -100 | Method 2 HSL |
+| HueAdjustmentYellow | +33 | +20 to +40 | Method 2 HSL |
+| SaturationAdjustmentGreen | +34 | +20 to +40 | Method 2 Saturation |
+| SaturationAdjustmentBlue | -44 | -30 to -50 | Method 2 Saturation |
+| SaturationAdjustmentMagenta | +39 | +30 to +50 | Method 2 Saturation |
+| SplitToningHighlightHue | 305 | 300-320 | Method 2 Color Grading |
+| SplitToningHighlightSaturation | 20 | 15-25 | Method 2 Color Grading |
+| SplitToningShadowHue | 210 | 200-220 (teal/cyan) | Method 2 Color Grading |
+| SplitToningShadowSaturation | 11 | 5-15 | Method 2 Color Grading |
+| SplitToningBalance | +16 | +10 to +20 | Method 2 Color Grading |
+| GrainAmount | 49 | 40-60 | Method 2 Effects |
+| ShadowTint | +5 | +5 | Method 1 Calibration |
+| RedHue (Calibration) | +23 | +20 | Method 2 Calibration |
+| GreenSaturation (Calibration) | +15 | +15 | Method 2 Calibration |
+| BlueSaturation (Calibration) | -10 | -10 | Method 2 Calibration |
+
+## Wayback Machine Validated Values
+
+- **Search URL**: `https://web.archive.org/web/2025*/https://old.reddit.com/r/Lightroom/search?q=Lomochrome+Purple+preset&restrict_sr=1`
+- **Archive.org search result**: No archived Reddit threads with concrete slider values were found for Lomochrome Purple. The research file draws from Run N Gun Photo YouTube tutorial, r/postprocessing users u/lucasdpfeliciano and u/Gratos_in_Panflavul, and the Method 2 HSL/Calibration guide — none additionally captured by Wayback Machine.
+- **XMP impact**: None — no new or different values discovered. All 15 XMP attribute values already matched the Community Validated Values table (2026).
+- **Conclusion**: Wayback Machine did not provide new data. Existing research values remain authoritative.
+
+## 5% Alignment Update
+
+Applied 2026-06-01. Changes to XMP:
+- **Removed** `RedHue="+23"`, `RedSaturation="+10"`, `GreenHue="+100"`, `GreenSaturation="+15"`, `BlueHue="-100"`, `BlueSaturation="-10"` — calibration panel removed (bug fix: NO Calibration)
+- All other 24 attributes already matched Community Validated Values table within 5% tolerance
+- Bug checks passed: |Vibrance-Saturation|=0 ≤ 5, all HSL sat within ±60, no WB
+- **Final state**: 24 attributes, no calibration, clean

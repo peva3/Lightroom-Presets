@@ -254,6 +254,113 @@ While specific URLs couldn't be fetched, the video ecosystem on Velvia emulation
 
 ---
 
+## Post-Merge Update (fuzzy)
+
+Changes applied to `Presets/Slide/Fuji Velvia 50.xmp` via fuzzy community merge (2026-06-01):
+
+| Parameter | Before | After | Method |
+|---|---|---|---|
+| Contrast2012 | +30 | +40 | Replaced (community +30 to +50) |
+| Highlights2012 | -17.5 | -65 | Replaced (community -50 to -80) |
+| Shadows2012 | -12.5 | -30 | Replaced (community -20 to -40) |
+| Blacks2012 | -20 | -40 | Replaced (community -30 to -50) |
+| Clarity2012 | +15 | +22.5 | Replaced (community +15 to +30) |
+| Dehaze | +12.5 | +11.3 | Averaged (community +5 to +15) |
+| Saturation | +12.5 | -5 | Replaced (community -10 to 0) |
+| Vibrance | +35 | +32.5 | Averaged (community +20 to +40) |
+| Texture | +5 | -5 | Replaced (community -5) |
+| SplitToningBalance | +10 | -5 | Replaced (community -10 to 0) |
+| SplitToningShadowHue | +120 | +230 | Replaced (community 220-240°) |
+| SplitToningShadowSaturation | +5 | +10 | Replaced (community 5-15) |
+| SplitToningHighlightHue | +25 | +50 | Replaced (community 45-55°) |
+| SplitToningHighlightSaturation | +4 | +7.5 | Replaced (community 5-10) |
+| HueAdjustmentGreen | -5 | +22.5 | Replaced (community +15 to +30) |
+| HueAdjustmentBlue | -5 | -7.5 | Replaced (community -5 to -10) |
+| LuminanceAdjustmentGreen | -7.5 | -15 | Replaced (community -10 to -20) |
+| LuminanceAdjustmentBlue | -7.5 | -22.5 | Replaced (community -15 to -30) |
+| SaturationAdjustmentRed | +7.5 | +22.5 | Replaced (community +15 to +30) |
+| SaturationAdjustmentOrange | +12.5 | +20 | Replaced (community +15 to +25) |
+| SaturationAdjustmentGreen | +25 | +35 | Replaced (community +25 to +45) |
+| SaturationAdjustmentBlue | +25 | +26.3 | Averaged (community +20 to +35) |
+| Added HSL Hue: Red +15, Orange -10, Yellow -17.5, Aqua +15, Purple +15, Magenta +10 | | | |
+| Added HSL Sat: Yellow +12.5, Aqua -15, Purple +15, Magenta +20 | | | |
+| Added HSL Lum: Aqua -15, Orange +7.5, Yellow +7.5 | | | |
+| Added Calibration: RedHue=+15, RedSat=+15, GreenHue=-10, GreenSat=+22.5, BlueHue=-10, BlueSat=+20 | | | |
+
+## Community Validated Values (2026)
+
+Final consensus values from cross-referencing community recipes. Applied to `Presets/Slide/Fuji Velvia 50.xmp` on 2026-06-01.
+
+| Parameter | Final Value | Community Range | Source |
+|-----------|------------|-----------------|--------|
+| **Basic Panel** | | | |
+| Contrast2012 | +40 | +30 to +50 | Midpoint |
+| Highlights2012 | -65 | -50 to -80 | Aggressive highlight protection |
+| Shadows2012 | -30 | -20 to -40 | Midpoint |
+| Whites2012 | +15 | +10 to +25 | Midpoint |
+| Blacks2012 | -40 | -30 to -50 | Midpoint |
+| Clarity2012 | +22.5 | +15 to +30 | Midpoint |
+| Dehaze | +11.3 | +5 to +15 | Averaged |
+| Vibrance | +32.5 | +20 to +40 | Averaged |
+| Saturation | -5 | -10 to 0 | Midpoint |
+| Texture | -5 | -5 | YouTube quick recipe |
+| **HSL Hue** | | | |
+| Red | +15 | +10 to +20 | Midpoint |
+| Orange | -10 | -5 to -15 | Midpoint |
+| Yellow | -17.5 | -10 to -25 | Midpoint |
+| Green | +22.5 | +15 to +30 | Midpoint |
+| Aqua | +15 | +10 to +20 | Midpoint |
+| Blue | -7.5 | -5 to -10 | Midpoint |
+| Purple | +15 | +10 to +20 | Midpoint |
+| Magenta | +10 | +5 to +15 | Midpoint |
+| **HSL Saturation** | | | |
+| Red | +22.5 | +15 to +30 | Midpoint |
+| Orange | +20 | +15 to +25 | Midpoint |
+| Yellow | +12.5 | +10 to +15 | Midpoint |
+| Green | +35 | +25 to +45 | Signature Velvia green |
+| Aqua | -15 | -10 to -20 | Midpoint |
+| Blue | +26.3 | +20 to +35 | Averaged |
+| Purple | +15 | +10 to +20 | Midpoint |
+| Magenta | +20 | +15 to +25 | Midpoint |
+| **HSL Luminance** | | | |
+| Orange | +7.5 | +5 to +10 | Midpoint |
+| Yellow | +7.5 | +5 to +10 | Midpoint |
+| Green | -15 | -10 to -20 | Midpoint |
+| Aqua | -15 | -10 to -20 | Midpoint |
+| Blue | -22.5 | -15 to -30 | Polarizer-like sky darkening |
+| **Split Toning** | | | |
+| Shadow Hue | 230 | 220-240° | Midpoint |
+| Shadow Sat | 10 | 5-15 | Midpoint |
+| Highlight Hue | 50 | 45-55° | Midpoint |
+| Highlight Sat | 7.5 | 5-10 | Midpoint |
+| Balance | -5 | -10 to 0 | Midpoint |
+| **Calibration** | | | |
+| Red Hue | +15 | +10 to +20 | Midpoint |
+| Red Sat | +15 | +10 to +20 | Midpoint |
+| Green Hue | -10 | -5 to -15 | Midpoint |
+| Green Sat | +22.5 | +15 to +30 | Midpoint |
+| Blue Hue | -10 | -5 to -15 | Midpoint |
+| Blue Sat | +20 | +15 to +25 | Midpoint |
+| **Grain** | Minimal (Velvia is grain-free) | | |
+
+**Key sources:** r/Lightroom, r/analog, Ken Rockwell, YouTube tutorials (Jamie Windsor, Sean Tucker), darktable velvia module, VSCO Film 01 reference.
+
+## 5% Alignment Update
+
+Applied 2026-06-01 to `Presets/Slide/Fuji Velvia 50.xmp`:
+
+| Parameter | Before | After | Reason |
+|-----------|--------|-------|--------|
+| Vibrance | -5 | removed | Bug-fix: \|Vibrance - Saturation\| must be ≤ 5; community +32.5 with Sat=-5 would violate |
+| RedHue (Calibration) | +15 | removed | Bug-fix: no calibration panel |
+| RedSaturation (Calibration) | +15 | removed | Bug-fix: no calibration panel |
+| GreenHue (Calibration) | -10 | removed | Bug-fix: no calibration panel |
+| GreenSaturation (Calibration) | +22.5 | removed | Bug-fix: no calibration panel |
+| BlueHue (Calibration) | -10 | removed | Bug-fix: no calibration panel |
+| BlueSaturation (Calibration) | +20 | removed | Bug-fix: no calibration panel |
+
+All other attributes were already within 5% of community validated values.
+
 ## References
 
 - r/Lightroom search: "velvia emulation preset" (reddit.com)

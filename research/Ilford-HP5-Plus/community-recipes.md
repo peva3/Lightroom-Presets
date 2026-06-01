@@ -363,3 +363,66 @@ NLP users report HP5 scans best with:
 - **Pre-saturation**: Convert with flat settings before sending to NLP
 - **NLP tone**: "Linear + Contrast" profile works well for HP5
 - **RGB channels**: HP5 has a slight red/warm bias in most scanners — green channel alone often gives the cleanest mono conversion from color-scanned HP5 negatives
+
+---
+
+## Post-Merge Update (fuzzy)
+
+Changes applied to `Presets/Black-White/Ilford HP5 Plus.xmp` via fuzzy community merge (2026-06-01):
+
+| Parameter | Before | After | Method |
+|---|---|---|---|
+| Contrast2012 | +12.5 | +7.5 | Replaced (community +5 to +10) |
+| Highlights2012 | -22.5 | -23.8 | Averaged (community -25) |
+| Shadows2012 | +17.5 | +16.3 | Averaged (community +15) |
+| Whites2012 | +17.5 | +5 | Replaced (community +5) |
+| Blacks2012 | -12.5 | -11.3 | Averaged (community -10) |
+| Clarity2012 | +12.5 | +11.3 | Averaged (community +10) |
+| GrayMixerRed | -2.5 | +15 | Replaced (community +15) |
+| GrayMixerOrange | +2.5 | +10 | Replaced (community +10) |
+| GrayMixerYellow | +15 | +5 | Replaced (community +5) |
+| GrayMixerGreen | +12.5 | -5 | Replaced (community -5) |
+| GrayMixerAqua | +2.5 | -10 | Replaced (community -10) |
+| GrayMixerBlue | -17.5 | -18.8 | Averaged (community -20) |
+| GrayMixerPurple | -2.5 | 0 | Replaced (community 0) |
+| GrayMixerMagenta | -2.5 | 0 | Replaced (community 0) |
+| GrainAmount | +37.5 | +36.3 | Averaged (community 35) |
+| GrainSize | 30 | 27.5 | Averaged (community 25) |
+| GrainFrequency | +42.5 | +46.3 | Averaged (community 50) |
+| SplitToning | (none) | Added: Highlight 50/5, Shadow 230/8, Balance -20 | Added from Recipe 1 |
+
+## Community Validated Values (2026)
+
+Final consensus values from cross-referencing community recipes. Applied to `Presets/Black-White/Ilford HP5 Plus.xmp` on 2026-06-01.
+
+| Parameter | Final Value | Community Range | Source |
+|-----------|------------|-----------------|--------|
+| **Basic Panel** | | | |
+| Contrast2012 | +7.5 | +5 to +10 | Softer than Tri-X |
+| Highlights2012 | -23.8 | -25 | Averaged |
+| Shadows2012 | +16.3 | +15 | Averaged |
+| Whites2012 | +5 | +5 | Recipe 1 |
+| Blacks2012 | -11.3 | -10 | Averaged |
+| Clarity2012 | +11.3 | +10 | Averaged |
+| Texture | +10 | +10 | Recipe 1 |
+| **B&W Mix** | | | |
+| Red | +15 | +15 | Recipe 1 |
+| Orange | +10 | +10 | Recipe 1 |
+| Yellow | +5 | +5 | Recipe 1 |
+| Green | -5 | -5 | Recipe 1 |
+| Aqua | -10 | -10 | Recipe 1 |
+| Blue | -18.8 | -20 | Averaged |
+| Purple | 0 | 0 | Recipe 1 |
+| Magenta | 0 | 0 | Recipe 1 |
+| **Split Toning** | | | |
+| Highlight Hue | 50 | 50 | Recipe 1 |
+| Highlight Sat | 5 | 5 | Recipe 1 |
+| Shadow Hue | 230 | 230 | Recipe 1 |
+| Shadow Sat | 8 | 8 | Recipe 1 |
+| Balance | -20 | -20 | Recipe 1 |
+| **Grain** | | | |
+| Amount | 36.3 | 35 | Averaged |
+| Size | 27.5 | 25 | Averaged |
+| Frequency | 46.3 | 50 | Averaged (cleaner than Tri-X) |
+
+**Key sources:** r/analog Recipe 1 ("British Journalist"), YouTube (Jamie Windsor, Kyle McDougall, Matt Day), r/Darkroom, Negative Lab Pro community, Flickr HP5 group.

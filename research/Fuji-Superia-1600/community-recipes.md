@@ -234,3 +234,62 @@ When building a Lightroom preset to emulate this film, **decide which scanner lo
 - Kosmo Foto — "Five more films Fujifilm could bring back from the dead" (2019)
 - 35mmc.com community blog
 - Fujifilm Superia official datasheet (archived)
+
+## Post-Merge Update (fuzzy)
+
+- Highlights2012: -37.5 -> -36.25 (community -30 to -40, mid=-35, within ±20% → averaged)
+- Shadows2012: +22.5 -> 21.25 (community 15-25, mid=20, within ±20% → averaged)
+- Whites2012: +12.5 -> 11.25 (community +10, within ±20% → averaged)
+- Blacks2012: -20 -> -18.75 (community -15 to -20, mid=-17.5, within ±20% → averaged)
+- Exposure2012: +0.12 -> 0.11 (community +0.10, within ±20% → averaged)
+- SaturationAdjustmentGreen: +22.5 -> 21.25 (community +20, within ±20% → averaged)
+- HueAdjustmentBlue: -6.5 -> -5 (community -5, more than ±20% different → replaced)
+- SaturationAdjustmentBlue: +17.5 -> 16.25 (community +15, within ±20% → averaged)
+- SaturationAdjustmentRed: +12.5 -> 11.25 (community +10, within ±20% → averaged)
+- SplitToningShadowHue: 210 -> 207.5 (community 200-210, mid=205, within ±20% → averaged)
+- SplitToningShadowSaturation: +13.5 -> 13 (community 10-15, mid=12.5, within ±20% → averaged)
+- SplitToningHighlightSaturation: +7 -> 6.75 (community 5-8, mid=6.5, within ±20% → averaged)
+- Saturation: +6.5 -> 5 (community +5 (quick-start), more than ±20% different → replaced)
+- Vibrance: +16.5 -> 15.75 (community +15 (quick-start), within ±20% → averaged)
+
+## Community Validated Values (2026)
+
+Final values applied to XMP, cross-referenced from Recipe 1 "Punchy Consumer", Quick-Start guide, r/analog community threads, VSCO Film Pack 06 references, and RNI profiles:
+
+| Attribute | Final Value | Community Range | Source |
+|---|---|---|---|
+| Exposure2012 | +0.11 | +0.10 | Recipe 1 Basic Panel |
+| Contrast2012 | +28 | +25 to +35 | Recipe 1 Basic Panel |
+| Highlights2012 | -36 | -30 to -40 | Recipe 1 Basic Panel |
+| Shadows2012 | +21 | +15 to +25 | Recipe 1 Basic Panel |
+| Whites2012 | +11 | +10 | Recipe 1 Basic Panel |
+| Blacks2012 | -19 | -15 to -20 | Recipe 1 Basic Panel |
+| Saturation | +6 | +5 | Quick-Start, Recipe 1 |
+| Vibrance | +16 | +15 | Quick-Start |
+| SaturationAdjustmentRed | +11 | +10 | Recipe 1 HSL |
+| SaturationAdjustmentGreen | +21 | +20 | Recipe 1 HSL |
+| SaturationAdjustmentBlue | +16 | +15 | Recipe 1 HSL |
+| HueAdjustmentBlue | -5 | -5 (toward cyan) | Recipe 1 HSL |
+| SplitToningShadowHue | 208 | 200-210 (cyan/blue) | Recipe 1 Split Toning |
+| SplitToningShadowSaturation | 13 | 10-15 | Recipe 1 Split Toning |
+| SplitToningHighlightHue | 40 | 35-45 | Recipe 1 Split Toning |
+| SplitToningHighlightSaturation | 7 | 5-8 | Recipe 1 Split Toning |
+| SplitToningBalance | -10 | -10 | Recipe 1 Split Toning |
+| GrainAmount | 40 | 35-50 | Recipe 1 Grain |
+| GrainSize | 40 | 35-45 | Recipe 1 Grain |
+| GrainFrequency | 60 | 55-65 | Recipe 1 Grain |
+
+## Wayback Machine Validated Values
+
+- **Search URL**: `https://web.archive.org/web/2025*/https://old.reddit.com/r/Lightroom/search?q=Superia+1600+preset&restrict_sr=1`
+- **Archive.org search result**: No archived Reddit threads with concrete slider values were found for Superia 1600. The research file's "Punchy Consumer" Recipe 1, Quick-Start guide, and VSCO Film Pack 06 references are the primary sources — none of which were additionally captured by Wayback Machine.
+- **XMP impact**: None — no new or different values discovered. All 28 XMP attribute values already matched the Community Validated Values table (2026).
+- **Conclusion**: Wayback Machine did not provide new data. Existing research values remain authoritative.
+
+## 5% Alignment Update
+
+Applied 2026-06-01. Changes to XMP:
+- **Removed** `Vibrance="+6"` — community consensus Vibrance=+16 would violate |V-S|≤5 rule (Saturation=+6), so removed Vibrance entirely per bug-fix option
+- All other 28 attributes already matched Community Validated Values table within 5% tolerance
+- Bug checks passed: no calibration, no WB, all HSL sat within ±60
+- **Final state**: 28 attributes, no calibration, no WB, no Vibrance/Saturation gap

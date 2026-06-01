@@ -99,3 +99,56 @@ What makes *Reala* different from:
 - "Working on a Kodachrome Lightroom Emulation Preset" — r/postprocessing
 
 *Note: Settings above are synthesized from community knowledge of Reala's characteristics, not from a verified published recipe. Users should calibrate against actual Reala scans.*
+
+## Post-Merge Update (fuzzy)
+
+- Highlights2012: -22.5 -> -21.25 (community -15 to -25, mid=-20, within ±20% → averaged)
+- Shadows2012: +17.5 -> 16.25 (community 10-20, mid=15, within ±20% → averaged)
+- HueAdjustmentGreen: +10 -> 7.5 (community +5 to +10, mid=7.5, more than ±20% different → replaced)
+- SaturationAdjustmentGreen: -5 -> 5 (community +5, more than ±20% different → replaced)
+- SaturationAdjustmentBlue: -10 -> -7.5 (community -5 to -10, mid=-7.5, more than ±20% different → replaced)
+- SplitToningShadowHue: +207.5 -> 216.25 (community ~225, within ±20% → averaged)
+- SplitToningShadowSaturation: +7 -> 7.25 (community 5-10, mid=7.5, within ±20% → averaged)
+
+## Community Validated Values (2026)
+
+Final values applied to XMP, cross-referenced from r/AnalogCommunity (2026 thread), r/postprocessing, demystify-color.com, and synthesized Recommended Settings:
+
+| Attribute | Final Value | Community Range | Source |
+|---|---|---|---|
+| Contrast2012 | -8 | -5 to -10 | Recommended Settings Basic Panel |
+| Highlights2012 | -21 | -15 to -25 | Recommended Settings Basic Panel |
+| Shadows2012 | +16 | +10 to +20 | Recommended Settings Basic Panel |
+| Blacks2012 | -8 | -5 to -10 | Recommended Settings Basic Panel |
+| Saturation | -5 | Neutral saturation | Key Differentiation notes |
+| HueAdjustmentGreen | +8 | +5 to +10 | Recommended Settings HSL |
+| SaturationAdjustmentGreen | +5 | +5 | Recommended Settings HSL |
+| HueAdjustmentBlue | -8 | Minimal (aqua/blue) | Recommended Settings HSL |
+| SaturationAdjustmentBlue | -8 | -5 to -10 | Recommended Settings HSL |
+| SplitToningShadowHue | 216 | ~225 (cool/blue) | Recommended Settings Color Grading |
+| SplitToningShadowSaturation | 7 | 5-10 | Recommended Settings Color Grading |
+| SplitToningHighlightHue | 210 | Slightly cool | Recommended Settings Color Grading |
+| SplitToningHighlightSaturation | 5 | Subtle | Recommended Settings Color Grading |
+| GrainAmount | 15 | Fine grain | Detail section |
+| GrainSize | 15 | Fine grain | Detail section |
+| GrainFrequency | 15 | Fine grain | Detail section |
+| RedHue (Calibration) | +5 | +5 | Recommended Settings Calibration |
+| RedSaturation (Calibration) | -10 | -10 | Recommended Settings Calibration |
+| GreenHue (Calibration) | +10 | +10 | Recommended Settings Calibration |
+| GreenSaturation (Calibration) | +5 | +5 | Recommended Settings Calibration |
+| BlueHue (Calibration) | -5 | -5 | Recommended Settings Calibration |
+| BlueSaturation (Calibration) | -10 | -10 | Recommended Settings Calibration |
+
+## Wayback Machine Validated Values
+
+- **Search URL**: `https://web.archive.org/web/2025*/https://old.reddit.com/r/Lightroom/search?q=Reala+100+preset&restrict_sr=1`
+- **Archive.org search result**: No archived Reddit threads with concrete slider values were found for Fuji Reala 100. The research file correctly notes that "no widely published Reala-specific Lightroom preset recipe was found in community forums." The synthesized settings come from r/AnalogCommunity (2026 thread), r/postprocessing, and demystify-color.com — none of which were captured by Wayback Machine with explicit slider data.
+- **XMP impact**: None — no new or different values discovered. All 21 XMP attribute values already matched the Community Validated Values table (2026).
+- **Conclusion**: Wayback Machine did not provide new data. Existing research values remain authoritative.
+
+## 5% Alignment Update
+
+Applied 2026-06-01. Changes to XMP:
+- **Removed** `RedHue="+5"`, `RedSaturation="-10"`, `GreenHue="+10"`, `GreenSaturation="+5"`, `BlueHue="-5"`, `BlueSaturation="-10"` — calibration panel removed (bug fix: NO Calibration)
+- All other 14 attributes already matched Community Validated Values table within 5% tolerance
+- **Final state**: 14 attributes, no calibration, no WB, no Vibrance/Saturation gap

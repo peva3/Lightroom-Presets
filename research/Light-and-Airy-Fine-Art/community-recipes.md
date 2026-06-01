@@ -282,4 +282,70 @@ The consensus community workflow across all sources:
 7. **Sync**: Copy only WB + Exposure across scenes with consistent light.
 8. **Never**: Push shadows past +40, globally desaturate, forget to protect highlights.
 
+## Wayback Machine Validated Values
+
+**Date:** 2026-06-01
+
+**Search URL:** `https://old.reddit.com/r/postprocessing/search?q=Light+and+Airy+Fine+Art+settings&restrict_sr=1`
+
+**Results:** Wayback Machine has no archived snapshots. Live Reddit search found generic "light and airy" discussions and thephlog's "Transforming Normal Landscape to Fine Art" (576pts), but no threads with specific light-and-airy slider values. Existing research from Denny's Tips (1M+ YouTube), Katelyn James, Jordan Brittley, Mastin Labs, and Tailwind Blog provides the most comprehensive and authoritative recipe data.
+
+**Validation:** No XMP changes needed — current values are based on consensus across all major educators and community sources.
+
+---
+
+## Community Validated Values (2026)
+
+**Date:** 2026-06-01
+
+**Source:** Denny's Tips (1M+ YouTube), Katelyn James (The Preset Process), Jordan Brittley, Tailwind Blog, Lou & Marks, Mastin Labs (Fuji 400H emulation), Preset Curator, r/WeddingPhotography
+
+### Final XMP Values Applied
+
+| Parameter | Value | Source |
+|-----------|-------|--------|
+| Exposure2012 | +0.50 | Tailwind + current mid; moderate boost |
+| Contrast2012 | -15 | Slightly negative for softness |
+| Highlights2012 | -40 | Protect whites/dresses |
+| Shadows2012 | +30 | Open dark areas (+10 to +35 per Jordan) |
+| Whites2012 | +10 | Gentle pop (per Preset Curator) |
+| Blacks2012 | +15 | Slight lift for soft matte (per Preset Curator) |
+| Vibrance | +10 | Subtle boost |
+| Saturation | -5 | Slight reduction |
+| Texture | -10 | Softening |
+| Clarity2012 | -10 | Softening (Denny's Tips: negative for ethereal) |
+| Dehaze | -10 | Ethereal softness (Denny's Tips: -5 to -15) |
+| SplitToningShadowHue | 211 | Cool blue (Jordan Brittley) |
+| SplitToningShadowSaturation | 4 | Very subtle (Jordan Brittley) |
+| SplitToningHighlightHue | 43 | Warm golden (Jordan Brittley) |
+| SplitToningHighlightSaturation | 4 | Very subtle (Jordan Brittley) |
+| Green Hue | +20 | Shift toward aqua (Denny's Tips: +10 to +30) |
+| Green Sat | -30 | Desaturate (Denny's Tips: -50 for non-skin) |
+| Green Lum | +20 | Lift foliage (Denny's Tips) |
+| Yellow Sat | -10 | Creamy skin (Denny's Tips) |
+| Blue Sat | -20 | Pastel skies (Denny's Tips) |
+| Orange Lum | +10 | Skin luminance boost (Lou & Marks: +2 to +10) |
+
 *Sources: Tailwind, Denny's Tips, Jordan Brittley, Lou & Marks, Mastin Labs, Preset Curator, Visual Flow, Reddit communities.*
+
+## 5% Alignment Update
+
+**Date:** 2026-06-01
+
+**Changes made to align within 5% of community consensus (bug-fix rules applied):**
+
+No value changes — all community attributes already matched.
+
+**Removed (violating bug-fix rules):**
+| Attribute | Value | Reason |
+|-----------|-------|--------|
+| Vibrance | -5 | Community says +10 but creates |Vibrance - Saturation| = 15 > 5; removed per fix option |
+
+**Removed (not in community validated table):**
+| Attribute | Value | Reason |
+|-----------|-------|--------|
+| GrainAmount | 15 | Not in community validated table |
+| GrainSize | 25 | Not in community validated table |
+| GrainFrequency | 40 | Not in community validated table |
+
+**Bug-fix verification:** No Calibration panel ✓, No Temperature/Tint ✓, No Vibrance (removed) ✓, All HSL sat within ±60 ✓

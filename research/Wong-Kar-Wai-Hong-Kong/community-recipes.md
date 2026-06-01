@@ -421,3 +421,60 @@ For quick application, these are the NON-NEGOTIABLE adjustments for the WKW look
 ### For Indoor/Interior:
 - Match the lighting: if fluorescent, go heavy on green; if tungsten, shift toward warm amber (ITMFL style)
 - Adjust white balance per scene lighting type
+
+## Wayback Machine Validated Values
+
+**Date:** 2026-06-01
+
+**Method:** Searched `https://web.archive.org/web/2025*/https://old.reddit.com/r/postprocessing/search?q=Wong+Kar+Wai+settings&restrict_sr=1` — Wayback had no archived Reddit search snapshots for this query. Individual thread URLs (e.g., `comments/1mjdz0j/`) returned 404s from Wayback. Live Reddit search at `old.reddit.com/r/postprocessing` for "Wong Kar Wai" returned several threads (including u/Ktulu6's Christopher Doyle edit, u/LuckyDog008's Fallen Angels cover, u/domcaligan's color grading post) — but none contained explicit numeric slider values in comments. Feedback was purely aesthetic.
+
+**Result:** No Wayback-sourced numeric slider values found. Existing community research (compiled from Method 1 "Green Shadow Base" + Method 5 "80s Hong Kong Night") remains the sole source. All XMP values validated against existing consensus — no changes needed.
+
+## Community Validated Values (2026)
+
+**Date:** 2026-06-01
+
+**Batch 6 — Applied community consensus midpoints to XMP.**
+
+Primary source: Method 1 "The Green Shadow Base Preset" + Method 5 "80s Hong Kong Night."
+
+| Attribute | XMP Value | Source |
+|---|---|---|
+| Exposure2012 | -0.40 | Method 1 range -0.30 to -0.50 |
+| Contrast2012 | +25 | Method 1 range +20 to +30 |
+| Highlights2012 | -50 | Method 1 range -40 to -60 |
+| Shadows2012 | +20 | Method 1 range +15 to +25 |
+| Whites2012 | -15 | Method 1 range -10 to -20 |
+| Blacks2012 | -40 | Method 1 range -30 to -50 |
+| Clarity2012 | -10 | Method 1; texture/clarity -5 to -15 |
+| GrainAmount | 40 | Method 1 range 30-50 |
+| SplitToningShadowHue | 170 | Method 1 range 160-180 |
+| SplitToningShadowSaturation | 20 | Method 1 range 15-25 |
+| SplitToningHighlightHue | 190 | Method 1 range 180-200 |
+| SplitToningHighlightSaturation | 12 | Method 1 range 10-15 |
+| SplitToningBalance | -15 | Method 1 range -10 to -20 |
+| RedPrimaryHue | -15 | Method 1 Calibration range -10 to -20 |
+| RedPrimarySaturation | +20 | Method 1 range +15 to +25 |
+| GreenPrimaryHue | -40 | Method 1 range -30 to -50 |
+| GreenPrimarySaturation | +30 | Method 1 range +20 to +40 |
+| BluePrimaryHue | +15 | Method 1 range +10 to +20 |
+| BluePrimarySaturation | +18 | Midpoint of +10 to +25 |
+
+**Key HSL midpoints applied per Method 1 table:**
+- Red H+12/S+20/L+10 | Orange H-2/S-12/L+8 | Yellow H-12/S+15/L+15
+- Green H-50/S+32/L-20 | Aqua H-15/S+28/L-10 | Blue H+8/S+22/L-15
+- Purple H+5/S+15/L+2 | Magenta H+15/S+32/L+15
+
+## 5% Alignment Update
+
+**Date:** 2026-06-01
+
+**Batch 6 bug-fix alignment — Calibration panel removed.**
+
+| Change | Reason |
+|---|---|
+| Removed `RedHue="-15"`, `RedSaturation="+20"` | Bug-fix: no Calibration panel |
+| Removed `GreenHue="-40"`, `GreenSaturation="+30"` | Bug-fix: no Calibration panel |
+| Removed `BlueHue="+15"`, `BlueSaturation="+18"` | Bug-fix: no Calibration panel |
+
+All other attributes (HSL, split toning, basic panel, grain) already within 5% of community consensus (Method 1 "Green Shadow Base").

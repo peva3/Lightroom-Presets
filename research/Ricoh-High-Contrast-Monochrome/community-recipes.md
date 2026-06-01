@@ -269,3 +269,59 @@ This is the most work-intensive approach but yields the closest match to the act
 5. **Underexpose slightly (-0.3 to -0.7 EV) when shooting RAW intended for HC B&W conversion.** This protects highlight detail and produces a contrast starting point that's closer to the in-camera JPEG engine's behavior.
 
 6. **Shoot RAW+JPEG** if possible — use the SOOC JPEG as a reference for your Lightroom preset calibration.
+
+---
+
+## Post-Merge Update (fuzzy)
+
+Changes applied to `Presets/Black-White/Ricoh High-Contrast Monochrome.xmp` via fuzzy community merge (2026-06-01):
+
+| Parameter | Before | After | Method |
+|---|---|---|---|
+| Contrast2012 | +50 | +80 | Replaced (community +80) |
+| Highlights2012 | +32.5 | -60 | Replaced (community -60) |
+| Shadows2012 | -42.5 | -46.3 | Averaged (community -50) |
+| Blacks2012 | -55 | -57.5 | Averaged (community -60) |
+| Clarity2012 | +40 | +25 | Replaced (community +25) |
+| Dehaze | +12.5 | +13.8 | Averaged (community +15) |
+| GrayMixerRed | -12.5 | +40 | Replaced (community +40) |
+| GrayMixerOrange | -2.5 | +20 | Replaced (community +20) |
+| GrayMixerYellow | +2.5 | 0 | Replaced (community 0) |
+| GrayMixerGreen | +10 | -30 | Replaced (community -30) |
+| GrayMixerAqua | +2.5 | -40 | Replaced (community -40) |
+| GrayMixerBlue | -22.5 | -60 | Replaced (community -60) |
+| GrayMixerPurple | -5 | -30 | Replaced (community -30) |
+| GrayMixerMagenta | -5 | 0 | Replaced (community 0) |
+| GrainAmount | +62.5 | +58.8 | Averaged (community 55) |
+| GrainSize | 50 | 30 | Replaced (community 30) |
+| GrainFrequency | +62.5 | +66.3 | Averaged (community 70) |
+
+## Community Validated Values (2026)
+
+Final consensus values from cross-referencing community recipes. Applied to `Presets/Black-White/Ricoh High-Contrast Monochrome.xmp` on 2026-06-01.
+
+| Parameter | Final Value | Community Range | Source |
+|-----------|------------|-----------------|--------|
+| **Basic Panel** | | | |
+| Contrast2012 | +80 | +80 | Approach 2 (Ritchie's Recipes) |
+| Highlights2012 | -60 | -60 | Approach 2 |
+| Shadows2012 | -46.3 | -50 | Averaged |
+| Whites2012 | +25 | +25 | Approach 2 |
+| Blacks2012 | -57.5 | -60 | Averaged |
+| Clarity2012 | +25 | +25 | Approach 2 |
+| Dehaze | +13.8 | +15 | Averaged |
+| **B&W Mix** | | | |
+| Red | +40 | +40 | Simulates Filter Effect 2 (orange-red) |
+| Orange | +20 | +20 | Approach 2 |
+| Yellow | 0 | 0 | Approach 2 |
+| Green | -30 | -30 | Approach 2 |
+| Aqua | -40 | -40 | Approach 2 |
+| Blue | -60 | -60 | Strong sky darkening |
+| Purple | -30 | -30 | Approach 2 |
+| Magenta | 0 | 0 | Approach 2 |
+| **Grain** | | | |
+| Amount | 58.8 | 55 | Averaged |
+| Size | 30 | 30 | Approach 2 |
+| Frequency | 66.3 | 70 | Averaged |
+
+**Key sources:** Ritchie's Ricoh Recipes (ricohrecipes.com), PerfeFilm profiles (perfefilm.com), GR Recipe community (grrecipe.com), Aditya Ardiya's blog, Michael Kirchherr comparisons.

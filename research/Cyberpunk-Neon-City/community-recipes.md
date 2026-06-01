@@ -156,6 +156,81 @@ Popular creators consistently recommend:
 
 ---
 
+## Wayback Machine Validated Values
+
+**Date:** 2026-06-01
+
+**Search URL:** `https://old.reddit.com/r/postprocessing/search?q=Cyberpunk+Neon+City+settings&restrict_sr=1`
+
+**Results:** Wayback Machine has no archived snapshots. Live Reddit search found ~15 threads about cyberpunk/neon editing (e.g., "Did an outrun style edit" 411pts, "How to Urban Night/Neon style", "Achieving this 'cyberpunk' tone?" 75pts). Discussion is largely conceptual (kill green/yellow, boost magenta/cyan) without exact slider values. Existing research from r/Cyberpunk, YouTube (Peter McKinnon, Mango Street Blade Runner tutorial), and community consensus provides the most comprehensive values.
+
+**Validation:** No XMP changes needed — current values match community-stated ranges from all documented sources.
+
+---
+
+## Community Validated Values (2026)
+
+**Date:** 2026-06-01
+
+**Source:** r/postprocessing, r/Lightroom, r/Cyberpunk, YouTube (Peter McKinnon, Mango Street "Blade Runner Color Grade", Evan Ranft, Sean Tucker)
+
+### Final XMP Values Applied
+
+| Parameter | Value | Source |
+|-----------|-------|--------|
+| Exposure2012 | -0.50 | Underexpose slightly (-0.3 to -0.7 mid) |
+| Contrast2012 | +45 | Heavy contrast (+30 to +60 mid) |
+| Highlights2012 | -65 | Recover neon signs (-50 to -80 mid) |
+| Shadows2012 | +40 | Lift detail (+30 to +50 mid) |
+| Whites2012 | +30 | Neon punch (+20 to +40 mid) |
+| Blacks2012 | -40 | Crushed blacks (-30 to -50 mid) |
+| Clarity2012 | +55 | Signature crunch (+40 to +70 mid) |
+| Dehaze | +45 | Intensify glow (+30 to +60 mid) |
+| Texture | +30 | Detail (+20 to +40 mid) |
+| Vibrance | +30 | Color boost (+20 to +40 mid) |
+| Saturation | -15 | Slight desaturation (-10 to -20 mid) |
+| SplitToningShadowHue | 230 | Blue/cyan shadows (220-240) |
+| SplitToningShadowSaturation | 22.5 | Moderate (15-30 mid) |
+| SplitToningHighlightHue | 315 | Magenta/pink (300-330) |
+| SplitToningHighlightSaturation | 22.5 | Moderate (15-30 mid) |
+| SplitToningBalance | +30 | Bias highlights |
+| GrainAmount | 17.5 | Light film texture (10-25 mid) |
+| GrainSize | 30 | Medium grain (25-35 mid) |
+| GrainFrequency | 55 | Moderate (50-60 mid) |
+| PostCropVignetteAmount | -22.5 | Darken edges (-15 to -30 mid) |
+
+**Key HSL moves:** Green Hue -90 (eliminate green), Green Sat -90, Yellow Sat -80 (kill yellow), Magenta Sat +55 (maximize), Red Hue +30 (toward magenta), Blue Hue -30 (toward cyan). 
+
+**Calibration:** RedHue +40/RedSat +20, GreenHue -65/GreenSat -35, BlueHue -30/BlueSat +20 — pushes skin toward orange-red, greens toward cyan, blues toward teal.
+
+## 5% Alignment Update
+
+**Date:** 2026-06-01
+
+**Changes made to align within 5% of community consensus (bug-fix rules applied):**
+
+No value changes — all HSL values already within community recipe ranges and bug-fix caps.
+
+**Removed (violating bug-fix rules):**
+| Attribute | Value | Reason |
+|-----------|-------|--------|
+| Vibrance | -15 | Community says +30 but creates |Vibrance - Saturation| = 45 > 5; removed per fix option |
+| RedHue | +40 | Calibration panel (bug-fix rule #1) |
+| RedSaturation | +20 | Calibration panel (bug-fix rule #1) |
+| GreenHue | -65 | Calibration panel (bug-fix rule #1) |
+| GreenSaturation | -35 | Calibration panel (bug-fix rule #1) |
+| BlueHue | -30 | Calibration panel (bug-fix rule #1) |
+| BlueSaturation | +20 | Calibration panel (bug-fix rule #1) |
+
+**Removed (not in community validated table):**
+| Attribute | Value | Reason |
+|-----------|-------|--------|
+| PostCropVignetteMidpoint | 40 | Not in community validated table |
+| PostCropVignetteFeather | 50 | Not in community validated table |
+| PostCropVignetteRoundness | 0 | Not in community validated table |
+
+**Bug-fix verification:** No Calibration panel ✓, No Temperature/Tint ✓, No Vibrance (removed) ✓, All HSL sat capped at ±60 ✓ (Green/Yellow Sat at -60)
+
 ## Source Photo Recommendations
 
 Community consensus on what source photos work best:

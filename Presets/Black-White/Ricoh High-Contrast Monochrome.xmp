@@ -15,29 +15,29 @@
     crs:RequiresRenditionBehavior="True"
     crs:Name="03 Ricoh High-Contrast Monochrome"
     crs:HasSettings="True"
-    crs:GrayMixerMagenta="-10"
-    crs:GrayMixerPurple="-10"
-    crs:GrayMixerAqua="+5"
-    crs:GrayMixerGreen="+20"
-    crs:GrayMixerYellow="+5"
-    crs:GrayMixerOrange="-5"
-    crs:Texture="+15"
     crs:ConvertToGrayscale="True"
-    crs:Contrast2012="+55"
-    crs:Highlights2012="+35"
-    crs:Shadows2012="-45"
-    crs:Whites2012="+35"
-    crs:Blacks2012="-60"
-    crs:GrayMixerRed="-15"
-    crs:GrayMixerBlue="-25"
-    crs:Clarity2012="+45"
-    crs:Dehaze="+15"
-    crs:GrainAmount="65"
-    crs:GrainSize="50"
-    crs:GrainFrequency="65">
+    crs:Contrast2012="+80"
+    crs:Highlights2012="-60"
+    crs:Shadows2012="-46.3"
+    crs:Whites2012="+25"
+    crs:Blacks2012="-57.5"
+    crs:Clarity2012="+25"
+    crs:Dehaze="+13.8"
+    crs:Texture="0"
+    crs:GrayMixerRed="+40"
+    crs:GrayMixerOrange="+20"
+    crs:GrayMixerYellow="0"
+    crs:GrayMixerGreen="-30"
+    crs:GrayMixerAqua="-40"
+    crs:GrayMixerBlue="-60"
+    crs:GrayMixerPurple="-30"
+    crs:GrayMixerMagenta="0"
+    crs:GrainAmount="58.8"
+    crs:GrainSize="30"
+    crs:GrainFrequency="66.3">
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">03 Ricoh High-Contrast Monochrome</rdf:li>
+     <rdf:li xml:lang="x-default">Black White</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:Group>
