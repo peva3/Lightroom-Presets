@@ -201,3 +201,27 @@ Applied 2026-06-01. Changes to XMP:
 - **No changes needed** — all 20 attributes matched Community Validated Values table within 5% tolerance
 - Bug checks passed: no calibration, no WB, no Vibrance, all HSL sat within ±60
 - **Final state**: 20 attributes, clean
+
+## STYLEGUIDE v2.1 Alignment
+
+Applied 2026-06-01. Changes to XMP:
+
+- **Boilerplate**: ProcessVersion 15.4, Treatment="Color", Adobe Color Look UUID, 4 neutral ToneCurvePV2012 curves — all present ✓
+- **Calibration**: None present ✓
+- **Temperature/Tint**: None present ✓
+- **Vibrance–Saturation gap**: Vibrance not present (default 0), Saturation=-5, gap=5, compliant ✓
+- **HSL Saturation caps**: All within ±60 ✓
+- **Grain protection**: GrainAmount=31 > 0 → Sharpness=10 ✓, no Clarity/Texture/Dehaze ✓
+- **Grain Amount**: 31 ≤ 60 ✓
+- **Blues floor**: SaturationAdjustmentBlue=+5 (boost, not cut) ✓
+- **No Clarity+Texture+Dehaze simultaneously**: None present ✓
+
+**Default-value attributes removed** (Simplicity rule):
+- LuminanceSmoothing="0" (LR default)
+- Whites2012="0" (LR default)
+- All ColorGrade Midtone/HighlightLum/ShadowLum/Global defaults (9 attributes)
+- ColorGradeBlending="50" (LR default)
+
+**No duplicate attributes** ✓
+
+**Final state**: 20→10 meaningful attributes after cleanup. Lean Natura preset with all character preserved.

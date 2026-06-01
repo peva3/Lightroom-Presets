@@ -152,3 +152,27 @@ Applied 2026-06-01. Changes to XMP:
 - **Removed** `RedHue="+5"`, `RedSaturation="-10"`, `GreenHue="+10"`, `GreenSaturation="+5"`, `BlueHue="-5"`, `BlueSaturation="-10"` — calibration panel removed (bug fix: NO Calibration)
 - All other 14 attributes already matched Community Validated Values table within 5% tolerance
 - **Final state**: 14 attributes, no calibration, no WB, no Vibrance/Saturation gap
+
+## STYLEGUIDE v2.1 Alignment
+
+Applied 2026-06-01. Changes to XMP:
+
+- **Boilerplate**: ProcessVersion 15.4, Treatment="Color", Adobe Color Look UUID, 4 neutral ToneCurvePV2012 curves — all present ✓
+- **Calibration**: None present ✓
+- **Temperature/Tint**: None present ✓
+- **Vibrance–Saturation gap**: Vibrance not present (default 0), Saturation=-5, gap=5, compliant ✓
+- **HSL Saturation caps**: All within ±60 ✓
+- **Grain protection**: GrainAmount=15 > 0 → Sharpness=10 ✓, no Clarity/Texture/Dehaze ✓
+- **Grain Amount**: 15 ≤ 60 ✓
+- **Blues floor**: SaturationAdjustmentBlue=-8 > -30 ✓
+- **No Clarity+Texture+Dehaze simultaneously**: None present ✓
+
+**Default-value attributes removed** (Simplicity rule):
+- LuminanceSmoothing="0" (LR default)
+- All ColorGrade Midtone/HighlightLum/ShadowLum/Global defaults (9 attributes)
+- ColorGradeBlending="50" (LR default)
+- ColorGradeBalance="0" (LR default)
+
+**No duplicate attributes** ✓
+
+**Final state**: 12 meaningful attributes. Very close to 8-15 ideal range. The simplest preset of this batch.

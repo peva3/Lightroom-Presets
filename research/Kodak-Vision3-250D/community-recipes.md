@@ -203,3 +203,31 @@ Applied 2026-06-01. Changes to XMP:
 - All other 20 attributes already matched Community Validated Values table within 5% tolerance
 - Bug checks passed: |Vibrance-Saturation|=0 ≤ 5, all HSL sat within ±60
 - **Final state**: 20 attributes, no calibration, no WB, clean
+
+## STYLEGUIDE v2.1 Alignment
+
+Applied 2026-06-01. Changes to XMP:
+
+- **Boilerplate**: ProcessVersion 15.4, Treatment="Color", Adobe Color Look UUID, 4 neutral ToneCurvePV2012 curves — all present ✓
+- **Calibration**: None present ✓
+- **Temperature/Tint**: None present ✓
+- **Vibrance–Saturation gap**: |(-5)-(-5)|=0, compliant ✓
+- **HSL Saturation caps**: All within ±60 ✓
+- **Grain Amount**: 21 ≤ 60 ✓
+- **Blues floor**: SaturationAdjustmentBlue=-10 > -30 ✓
+- **No Clarity+Texture+Dehaze simultaneously**: Clarity and Texture were present but both removed (see below) ✓
+
+**Prior violations fixed**:
+- `crs:Clarity2012="-5"` — removed (grain protection: Clarity must be 0 when GrainAmount > 0)
+- `crs:Texture="-10"` — removed (grain protection: Texture must be 0 when GrainAmount > 0)
+
+**Default-value attributes removed** (Simplicity rule):
+- LuminanceSmoothing="0" (LR default)
+- HueAdjustmentBlue="0" (LR default)
+- HueAdjustmentYellow="0" (LR default)
+- All ColorGrade Midtone/HighlightLum/ShadowLum/Global defaults (9 attributes)
+- ColorGradeBlending="50" (LR default)
+
+**No duplicate attributes** ✓
+
+**Final state**: 23→11 meaningful attributes after cleanup. Clean Vision3 250D preset with grain protection enforced.

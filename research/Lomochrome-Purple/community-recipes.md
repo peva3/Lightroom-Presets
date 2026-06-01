@@ -246,3 +246,31 @@ Applied 2026-06-01. Changes to XMP:
 - All other 24 attributes already matched Community Validated Values table within 5% tolerance
 - Bug checks passed: |Vibrance-Saturation|=0 ≤ 5, all HSL sat within ±60, no WB
 - **Final state**: 24 attributes, no calibration, clean
+
+## STYLEGUIDE v2.1 Alignment
+
+Applied 2026-06-01. Changes to XMP:
+
+- **Boilerplate**: ProcessVersion 15.4, Treatment="Color", Adobe Color Look UUID, 4 neutral ToneCurvePV2012 curves — all present ✓
+- **Calibration**: None present ✓
+- **Temperature/Tint**: None present ✓
+- **Vibrance–Saturation gap**: |5-5|=0, compliant ✓
+- **Grain protection**: GrainAmount=49 > 0 → Sharpness=10 ✓, no Clarity/Texture/Dehaze ✓
+- **Grain Amount**: 49 ≤ 60 ✓
+- **No Clarity+Texture+Dehaze simultaneously**: None present ✓
+
+**Prior violations fixed**:
+- **Blues floor**: `crs:SaturationAdjustmentBlue="-44"` violated the blues floor at -30. Capped to `-30` (broad distribution survivability per STYLEGUIDE XIII).
+- **Hue range**: `crs:HueAdjustmentGreen="+140"` was out of Lightroom's valid -100 to +100 range. Normalized to `-60` (equivalent hue rotation: +140 = +252° = -108° = -60 on slider). Note: STYLEGUIDE only caps Saturation at ±60, but values outside -100/+100 range are undefined behavior.
+
+**Default-value attributes removed** (Simplicity rule):
+- LuminanceSmoothing="0" (LR default)
+- LuminanceAdjustmentMagenta="0" (LR default)
+- LuminanceAdjustmentOrange="0" (LR default)
+- LuminanceAdjustmentRed="0" (LR default)
+- All ColorGrade Midtone/HighlightLum/ShadowLum/Global defaults (9 attributes)
+- ColorGradeBlending="50" (LR default)
+
+**No duplicate attributes** ✓
+
+**Final state**: 29→18 meaningful attributes after cleanup. Lomochrome Purple core HSL shifts + grain preserved; blues and greens normalized within valid ranges.

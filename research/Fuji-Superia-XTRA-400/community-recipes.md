@@ -282,3 +282,31 @@ Applied 2026-06-01. Changes to XMP:
 - **Added** `Saturation="10"` — fixed Vibrance/Saturation gap: |15-10|=5 ≤ 5 (bug fix: keep |Vibrance - Saturation| ≤ 5)
 - All other attributes already matched Community Validated Values table within 5% tolerance
 - **Final state**: 19 attributes, no calibration, no WB, Vibrance-Saturation gap=5
+
+## STYLEGUIDE v2.1 Alignment
+
+Applied 2026-06-01. Changes to XMP:
+
+- **Boilerplate**: ProcessVersion 15.4, Treatment="Color", Adobe Color Look UUID, 4 neutral ToneCurvePV2012 curves — all present ✓
+- **Calibration**: None present ✓
+- **Temperature/Tint**: None present ✓
+- **Vibrance–Saturation gap**: |15-10|=5, compliant ✓
+- **HSL Saturation caps**: All within ±60 ✓
+- **Grain protection**: GrainAmount=31 > 0 → Sharpness=10 ✓, no Clarity/Texture/Dehaze ✓
+- **Grain Amount**: 31 ≤ 60 ✓
+- **Blues floor**: SaturationAdjustmentBlue=-5 > -30 ✓
+- **No Clarity+Texture+Dehaze simultaneously**: None present ✓
+
+**Default-value attributes removed** (Simplicity rule):
+- LuminanceSmoothing="0" (LR default = 0)
+- HueAdjustmentGreen="0" (LR default = 0)
+- ColorGradeMidtoneHue/Sat/Lum="0" (all LR defaults)
+- ColorGradeHighlightLum="0" (LR default)
+- ColorGradeShadowLum="0" (LR default)
+- ColorGradeGlobalHue/Sat/Lum="0" (all LR defaults)
+- ColorGradeBlending="50" (LR default = 50)
+- ColorGradeBalance="0" (LR default = 0)
+
+**No duplicate attributes** ✓
+
+**Final state**: 14 meaningful attributes after cleanup (down from 26). Clean lean preset.
