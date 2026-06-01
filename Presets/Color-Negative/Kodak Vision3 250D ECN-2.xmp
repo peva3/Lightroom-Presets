@@ -1,7 +1,8 @@
 <x:xmpmeta xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00">
  <rdf:RDF>
  
- <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="C02BFBEA5A37435AA5FF291915270A03" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="False" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:Name="Kodak Vision3 250D ECN-2" crs:Treatment="Color" crs:ProcessVersion="15.4" crs:HasSettings="True" crs:Sharpness="10" crs:Blacks2012="-21" crs:Contrast2012="28" crs:Exposure2012="+0.23" crs:GrainAmount="24" crs:GrainFrequency="50" crs:GrainSize="30" crs:Highlights2012="-51" crs:HueAdjustmentRed="+7" crs:SaturationAdjustmentGreen="-19" crs:SaturationAdjustmentOrange="-8" crs:SaturationAdjustmentYellow="-11" crs:Shadows2012="+23" crs:Whites2012="-18" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="45" crs:ColorGradeHighlightSat="8" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="210" crs:ColorGradeShadowSat="8" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="50" crs:ColorGradeBalance="+10" crs:Amount="1.000000" crs:Clarity2012="0" crs:Dehaze="0" crs:Texture="0" crs:LuminanceSmoothing="0">
+ 
+ <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="C02BFBEA5A37435AA5FF291915270A03" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="False" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:Name="Kodak Vision3 250D ECN-2" crs:Treatment="Color" crs:ProcessVersion="15.4" crs:HasSettings="True" crs:Sharpness="10" crs:Blacks2012="-21" crs:Contrast2012="28" crs:Exposure2012="+0.23" crs:GrainAmount="24" crs:GrainFrequency="50" crs:GrainSize="30" crs:Highlights2012="-51" crs:HueAdjustmentRed="+7" crs:SaturationAdjustmentGreen="-19" crs:SaturationAdjustmentOrange="-8" crs:SaturationAdjustmentYellow="-11" crs:Shadows2012="+23" crs:Whites2012="-18" crs:Amount="1.000000" crs:Clarity2012="0" crs:Dehaze="0" crs:Texture="0" crs:LuminanceSmoothing="0" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="45" crs:ColorGradeHighlightSat="8" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="210" crs:ColorGradeShadowSat="8" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="50" crs:ColorGradeBalance="+10">
  <crs:Name>
  <rdf:Alt>
  <rdf:li xml:lang="x-default">Kodak Vision3 250D ECN-2</rdf:li>
@@ -13,6 +14,7 @@
  </rdf:Alt>
  </crs:Group>
  <crs:Look>
+ 
  
  
  <rdf:Description crs:Name="Adobe Color" crs:Amount="1.000000" crs:UUID="B952C21111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="False" crs:SupportsOutputReferred="True">

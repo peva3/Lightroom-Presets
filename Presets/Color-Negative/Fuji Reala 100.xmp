@@ -2,6 +2,7 @@
  <rdf:RDF>
  
  
+ 
  <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="A6F8D2E4913B4C7A82F1E5C9D0B7A3E6" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:Name="Fuji Reala 100" crs:Treatment="Color" crs:ProcessVersion="15.4" crs:HasSettings="True" crs:Sharpness="10" crs:Blacks2012="-8" crs:Contrast2012="-8" crs:GrainAmount="15" crs:GrainFrequency="15" crs:GrainSize="15" crs:Highlights2012="-21" crs:HueAdjustmentBlue="-8" crs:HueAdjustmentGreen="+8" crs:Saturation="-5" crs:SaturationAdjustmentBlue="-8" crs:SaturationAdjustmentGreen="+5" crs:Shadows2012="+16" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="210" crs:ColorGradeHighlightSat="5" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="216" crs:ColorGradeShadowSat="7" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="50" crs:ColorGradeBalance="0">
  <crs:Name>
  <rdf:Alt>
@@ -14,6 +15,7 @@
  </rdf:Alt>
  </crs:Group>
  <crs:Look>
+ 
  
  
  <rdf:Description crs:Name="Adobe Color" crs:Amount="1.000000" crs:UUID="B952C21111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="False" crs:SupportsOutputReferred="True">

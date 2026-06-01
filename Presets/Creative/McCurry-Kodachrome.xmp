@@ -2,7 +2,8 @@
  <rdf:RDF>
  
  
- <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="3867E5D4CF2446ED8E0706337A0C0F17" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:ProcessVersion="15.4" crs:Treatment="Color" crs:HasSettings="True" crs:Name="McCurry Kodachrome" crs:Contrast2012="+10" crs:Highlights2012="-20" crs:Shadows2012="0" crs:Whites2012="+10" crs:Blacks2012="0" crs:Saturation="+12" crs:Vibrance="+10" crs:Clarity2012="-5" crs:Sharpness="10" crs:LuminanceSmoothing="0" crs:GrainAmount="20" crs:GrainSize="22" crs:GrainFrequency="50" crs:ColorGradeBlending="75" crs:ColorGradeShadowHue="210" crs:ColorGradeShadowSat="5" crs:ColorGradeHighlightHue="40" crs:ColorGradeHighlightSat="8" crs:ColorGradeMidtoneHue="35" crs:ColorGradeMidtoneSat="4" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeShadowLum="0" crs:ColorGradeHighlightLum="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBalance="0" crs:SaturationAdjustmentRed="+8" crs:SaturationAdjustmentGreen="-10" crs:SaturationAdjustmentBlue="-8" crs:LuminanceAdjustmentOrange="+12">
+ 
+ <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="3867E5D4CF2446ED8E0706337A0C0F17" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:ProcessVersion="15.4" crs:Treatment="Color" crs:HasSettings="True" crs:Name="McCurry Kodachrome" crs:Contrast2012="+10" crs:Highlights2012="-20" crs:Shadows2012="0" crs:Whites2012="+10" crs:Blacks2012="0" crs:Saturation="+12" crs:Vibrance="+10" crs:Clarity2012="-5" crs:Sharpness="10" crs:LuminanceSmoothing="0" crs:GrainAmount="20" crs:GrainSize="22" crs:GrainFrequency="50" crs:SaturationAdjustmentRed="+8" crs:SaturationAdjustmentGreen="-10" crs:SaturationAdjustmentBlue="-8" crs:LuminanceAdjustmentOrange="+12" crs:ColorGradeMidtoneHue="35" crs:ColorGradeMidtoneSat="4" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="40" crs:ColorGradeHighlightSat="8" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="210" crs:ColorGradeShadowSat="5" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="75" crs:ColorGradeBalance="0">
  <crs:Name>
  <rdf:Alt>
  <rdf:li xml:lang="x-default">McCurry Kodachrome</rdf:li>
@@ -14,6 +15,7 @@
  </rdf:Alt>
  </crs:Group>
  <crs:Look>
+ 
  
  
  <rdf:Description crs:Name="Adobe Color" crs:Amount="1.000000" crs:UUID="B952C21111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="False" crs:SupportsOutputReferred="True">

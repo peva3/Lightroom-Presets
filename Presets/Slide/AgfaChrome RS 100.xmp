@@ -2,6 +2,7 @@
  <rdf:RDF>
  
  
+ 
  <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="F60123456789ABCDEF0123A1B2C3D4E5" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:Name="19 AgfaChrome RS 100" crs:Treatment="Color" crs:ProcessVersion="15.4" crs:HasSettings="True" crs:Sharpness="10" crs:LuminanceSmoothing="0" crs:Clarity2012="0" crs:Texture="0" crs:GrainFrequency="50" crs:Saturation="+5" crs:Contrast2012="+20" crs:Highlights2012="-10" crs:Shadows2012="-10" crs:Blacks2012="-20" crs:GrainAmount="25" crs:GrainSize="20" crs:HueAdjustmentRed="+5" crs:HueAdjustmentYellow="-5" crs:HueAdjustmentGreen="+10" crs:SaturationAdjustmentRed="+5" crs:SaturationAdjustmentGreen="+5" crs:SaturationAdjustmentBlue="+5" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="45" crs:ColorGradeHighlightSat="5" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="50" crs:ColorGradeShadowSat="5" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="75" crs:ColorGradeBalance="0">
  <crs:Name>
  <rdf:Alt>
@@ -14,6 +15,7 @@
  </rdf:Alt>
  </crs:Group>
  <crs:Look>
+ 
  
  
  <rdf:Description crs:Name="Adobe Vivid" crs:Amount="1.000000" crs:UUID="EA1DE074F188405965EF399C72C221D9" crs:SupportsAmount="True" crs:SupportsMonochrome="False" crs:SupportsOutputReferred="True">

@@ -1,0 +1,28 @@
+<x:xmpmeta xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00">
+ <rdf:RDF>
+ 
+ <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="666EEE5A-2198-4FE7-B957-BC1B0E928044" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:Name="Peter Lindbergh" crs:Treatment="Monochrome" crs:ProcessVersion="15.4" crs:HasSettings="True" crs:LuminanceSmoothing="0" crs:Sharpness="10" crs:Blacks2012="-12" crs:Clarity2012="0" crs:Contrast2012="+10" crs:ConvertToGrayscale="True" crs:GrainAmount="40" crs:GrainFrequency="55" crs:GrainSize="32" crs:GrayMixerRed="+15" crs:GrayMixerOrange="+12" crs:GrayMixerYellow="+5" crs:GrayMixerGreen="-5" crs:GrayMixerAqua="0" crs:GrayMixerBlue="-15" crs:GrayMixerPurple="0" crs:GrayMixerMagenta="0" crs:Highlights2012="-35" crs:Shadows2012="+35" crs:Texture="0" crs:Whites2012="+15" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="0" crs:ColorGradeHighlightSat="0" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="0" crs:ColorGradeShadowSat="0" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="50" crs:ColorGradeBalance="0">
+  <crs:Name>
+  <rdf:Alt>
+  <rdf:li xml:lang="x-default">Peter Lindbergh</rdf:li>
+  </rdf:Alt>
+  </crs:Name>
+  <crs:Group>
+  <rdf:Alt>
+  <rdf:li xml:lang="x-default">Photographer</rdf:li>
+  </rdf:Alt>
+  </crs:Group>
+  <crs:Look>
+  
+  
+  <rdf:Description crs:Name="Adobe Monochrome" crs:Amount="1.000000" crs:UUID="0C09521111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="True" crs:SupportsOutputReferred="True">
+  <crs:Group>
+  <rdf:Alt>
+  <rdf:li xml:lang="x-default">Profiles</rdf:li>
+  </rdf:Alt>
+  </crs:Group>
+  </rdf:Description>
+  </crs:Look>
+<crs:ToneCurvePV2012><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012><crs:ToneCurvePV2012Red><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012Red><crs:ToneCurvePV2012Green><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012Green><crs:ToneCurvePV2012Blue><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012Blue> </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

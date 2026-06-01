@@ -2,6 +2,7 @@
  <rdf:RDF>
  
  
+ 
  <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="C1B2C3D4E5F6789012345678ABCDEF09" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:Name="21 Dramatic Monochrome" crs:Treatment="Monochrome" crs:ProcessVersion="15.4" crs:HasSettings="True" crs:Sharpness="10" crs:LuminanceSmoothing="0" crs:Blacks2012="-30" crs:Clarity2012="0" crs:Contrast2012="+40" crs:ConvertToGrayscale="True" crs:GrainAmount="55" crs:GrainFrequency="70" crs:GrainSize="40" crs:GrayMixerRed="+20" crs:GrayMixerOrange="+15" crs:GrayMixerYellow="+10" crs:GrayMixerGreen="-25" crs:GrayMixerAqua="-15" crs:GrayMixerBlue="-45" crs:GrayMixerPurple="-15" crs:GrayMixerMagenta="-15" crs:Highlights2012="-10" crs:Shadows2012="+10" crs:Texture="0" crs:Whites2012="+25" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="0" crs:ColorGradeHighlightSat="0" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="0" crs:ColorGradeShadowSat="0" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="50" crs:ColorGradeBalance="0">
  <crs:Name>
  <rdf:Alt>
@@ -14,6 +15,7 @@
  </rdf:Alt>
  </crs:Group>
  <crs:Look>
+ 
  
  
  <rdf:Description crs:Name="Adobe Monochrome" crs:Amount="1.000000" crs:UUID="0C09521111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="True" crs:SupportsOutputReferred="True">

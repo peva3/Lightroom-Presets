@@ -2,7 +2,8 @@
  <rdf:RDF>
  
  
- <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="D2F08BBF84944709ACCB61D39CBEC2E5" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:ProcessVersion="15.4" crs:Treatment="Color" crs:HasSettings="True" crs:Name="Eterna Summer" crs:Exposure2012="+0.15" crs:Contrast2012="+10" crs:Highlights2012="+25" crs:Shadows2012="0" crs:Whites2012="+10" crs:Blacks2012="0" crs:Saturation="+18" crs:Vibrance="+15" crs:Clarity2012="-12" crs:Dehaze="-5" crs:Temperature="5800" crs:Tint="-10" crs:Sharpness="10" crs:LuminanceSmoothing="0" crs:GrainAmount="30" crs:GrainSize="15" crs:GrainFrequency="50" crs:ColorGradeBlending="75" crs:ColorGradeShadowHue="30" crs:ColorGradeShadowSat="5" crs:ColorGradeHighlightHue="42" crs:ColorGradeHighlightSat="12" crs:ColorGradeMidtoneHue="38" crs:ColorGradeMidtoneSat="6" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeShadowLum="0" crs:ColorGradeHighlightLum="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBalance="+10" crs:SaturationAdjustmentGreen="-10" crs:LuminanceAdjustmentOrange="+8">
+ 
+ <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="D2F08BBF84944709ACCB61D39CBEC2E5" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:ProcessVersion="15.4" crs:Treatment="Color" crs:HasSettings="True" crs:Name="Eterna Summer" crs:Exposure2012="+0.15" crs:Contrast2012="+10" crs:Highlights2012="+25" crs:Shadows2012="0" crs:Whites2012="+10" crs:Blacks2012="0" crs:Saturation="+18" crs:Vibrance="+15" crs:Clarity2012="-12" crs:Dehaze="-5" crs:Temperature="5800" crs:Tint="-10" crs:Sharpness="10" crs:LuminanceSmoothing="0" crs:GrainAmount="30" crs:GrainSize="15" crs:GrainFrequency="50" crs:SaturationAdjustmentGreen="-10" crs:LuminanceAdjustmentOrange="+8" crs:ColorGradeMidtoneHue="38" crs:ColorGradeMidtoneSat="6" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="42" crs:ColorGradeHighlightSat="12" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="30" crs:ColorGradeShadowSat="5" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="75" crs:ColorGradeBalance="+10">
  <crs:Name>
  <rdf:Alt>
  <rdf:li xml:lang="x-default">Eterna Summer</rdf:li>
@@ -14,6 +15,7 @@
  </rdf:Alt>
  </crs:Group>
  <crs:Look>
+ 
  
  
  <rdf:Description crs:Name="Adobe Color" crs:Amount="1.000000" crs:UUID="B952C21111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="False" crs:SupportsOutputReferred="True">

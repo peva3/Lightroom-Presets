@@ -2,6 +2,7 @@
  <rdf:RDF>
  
  
+ 
  <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="6DF298ECC3A341C0982DB37D152EE016" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:Name="06 Ilford HP5 Plus" crs:Treatment="Monochrome" crs:ProcessVersion="15.4" crs:HasSettings="True" crs:Sharpness="10" crs:LuminanceSmoothing="0" crs:Blacks2012="-11.3" crs:Clarity2012="0" crs:Contrast2012="+7.5" crs:ConvertToGrayscale="True" crs:GrainAmount="36.3" crs:GrainFrequency="50" crs:GrainSize="27.5" crs:GrayMixerRed="+15" crs:GrayMixerOrange="+10" crs:GrayMixerYellow="+5" crs:GrayMixerGreen="-5" crs:GrayMixerAqua="-10" crs:GrayMixerBlue="-18.8" crs:GrayMixerPurple="0" crs:GrayMixerMagenta="0" crs:Highlights2012="-23.8" crs:Shadows2012="+16.3" crs:Texture="0" crs:Whites2012="+5" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="50" crs:ColorGradeHighlightSat="5" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="230" crs:ColorGradeShadowSat="8" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="50" crs:ColorGradeBalance="-20">
  <crs:Name>
  <rdf:Alt>
@@ -14,6 +15,7 @@
  </rdf:Alt>
  </crs:Group>
  <crs:Look>
+ 
  
  
  <rdf:Description crs:Name="Adobe Monochrome" crs:Amount="1.000000" crs:UUID="0C09521111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="True" crs:SupportsOutputReferred="True">

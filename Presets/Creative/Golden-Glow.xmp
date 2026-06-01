@@ -2,7 +2,8 @@
  <rdf:RDF>
  
  
- <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="99810234CA8F4983B8D11F8E4F8DBA81" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:ProcessVersion="15.4" crs:Treatment="Color" crs:HasSettings="True" crs:Name="Golden Glow" crs:Exposure2012="+0.15" crs:Contrast2012="+10" crs:Highlights2012="-20" crs:Shadows2012="+12" crs:Whites2012="+5" crs:Blacks2012="0" crs:Saturation="+10" crs:Vibrance="+15" crs:Clarity2012="-5" crs:Temperature="6350" crs:Tint="+10" crs:Sharpness="10" crs:LuminanceSmoothing="0" crs:ColorGradeBlending="75" crs:ColorGradeShadowHue="38" crs:ColorGradeShadowSat="10" crs:ColorGradeHighlightHue="45" crs:ColorGradeHighlightSat="15" crs:ColorGradeMidtoneHue="42" crs:ColorGradeMidtoneSat="8" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeShadowLum="0" crs:ColorGradeHighlightLum="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBalance="+15" crs:SaturationAdjustmentOrange="+10" crs:SaturationAdjustmentYellow="+8" crs:LuminanceAdjustmentOrange="+12">
+ 
+ <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="99810234CA8F4983B8D11F8E4F8DBA81" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:ProcessVersion="15.4" crs:Treatment="Color" crs:HasSettings="True" crs:Name="Golden Glow" crs:Exposure2012="+0.15" crs:Contrast2012="+10" crs:Highlights2012="-20" crs:Shadows2012="+12" crs:Whites2012="+5" crs:Blacks2012="0" crs:Saturation="+10" crs:Vibrance="+15" crs:Clarity2012="-5" crs:Temperature="6350" crs:Tint="+10" crs:Sharpness="10" crs:LuminanceSmoothing="0" crs:SaturationAdjustmentOrange="+10" crs:SaturationAdjustmentYellow="+8" crs:LuminanceAdjustmentOrange="+12" crs:ColorGradeMidtoneHue="42" crs:ColorGradeMidtoneSat="8" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="45" crs:ColorGradeHighlightSat="15" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="38" crs:ColorGradeShadowSat="10" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="75" crs:ColorGradeBalance="+15">
  <crs:Name>
  <rdf:Alt>
  <rdf:li xml:lang="x-default">Golden Glow</rdf:li>
@@ -14,6 +15,7 @@
  </rdf:Alt>
  </crs:Group>
  <crs:Look>
+ 
  
  
  <rdf:Description crs:Name="Adobe Color" crs:Amount="1.000000" crs:UUID="B952C21111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="False" crs:SupportsOutputReferred="True">

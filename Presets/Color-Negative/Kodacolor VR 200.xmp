@@ -1,5 +1,6 @@
 <x:xmpmeta xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00">
  <rdf:RDF>
+ 
  <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="E6F20D83C5D36F4FC9124E0G5D7C8B93" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:Name="Kodacolor VR 200" crs:Treatment="Color" crs:ProcessVersion="15.4" crs:HasSettings="True" crs:Blacks2012="+10" crs:Clarity2012="0" crs:Contrast2012="-10" crs:Dehaze="0" crs:Exposure2012="+0.10" crs:Highlights2012="-35" crs:Shadows2012="+20" crs:Whites2012="-15" crs:HueAdjustmentRed="+5" crs:HueAdjustmentOrange="-5" crs:HueAdjustmentYellow="-10" crs:HueAdjustmentGreen="+20" crs:HueAdjustmentAqua="-10" crs:HueAdjustmentBlue="-10" crs:HueAdjustmentPurple="-15" crs:HueAdjustmentMagenta="-15" crs:SaturationAdjustmentRed="+5" crs:SaturationAdjustmentOrange="+10" crs:SaturationAdjustmentYellow="+10" crs:SaturationAdjustmentGreen="-15" crs:SaturationAdjustmentAqua="-10" crs:SaturationAdjustmentBlue="-20" crs:SaturationAdjustmentPurple="-25" crs:SaturationAdjustmentMagenta="-25" crs:LuminanceAdjustmentOrange="+10" crs:LuminanceAdjustmentYellow="+5" crs:LuminanceAdjustmentGreen="-5" crs:LuminanceAdjustmentBlue="-10" crs:GrainAmount="45" crs:GrainSize="35" crs:GrainFrequency="60" crs:Sharpness="10" crs:LuminanceSmoothing="0" crs:Texture="0" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="45" crs:ColorGradeHighlightSat="12" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="200" crs:ColorGradeShadowSat="12" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="50" crs:ColorGradeBalance="-20">
  <crs:Name>
  <rdf:Alt>
@@ -12,6 +13,7 @@
  </rdf:Alt>
  </crs:Group>
  <crs:Look>
+ 
  <rdf:Description crs:Name="Adobe Color" crs:Amount="1.000000" crs:UUID="B952C21111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="False" crs:SupportsOutputReferred="True">
  <crs:Group>
  <rdf:Alt>

@@ -2,6 +2,7 @@
  <rdf:RDF>
  
  
+ 
  <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="78B9237E406140F785B72295CF3E386E" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:Name="12 Faux Infrared" crs:Treatment="Monochrome" crs:ProcessVersion="15.4" crs:LuminanceSmoothing="0" crs:HasSettings="True" crs:Blacks2012="0" crs:Clarity2012="+40" crs:Contrast2012="+40" crs:ConvertToGrayscale="True" crs:Dehaze="+30" crs:Exposure2012="+0.50" crs:GrainAmount="40" crs:GrainFrequency="60" crs:GrainSize="30" crs:GrayMixerAqua="-80" crs:GrayMixerBlue="-100" crs:GrayMixerGreen="+100" crs:GrayMixerMagenta="-30" crs:GrayMixerOrange="+65" crs:GrayMixerPurple="-45" crs:GrayMixerRed="+80" crs:GrayMixerYellow="+100" crs:Highlights2012="-40" crs:Shadows2012="+30" crs:Sharpness="10" crs:SharpnessDetail="25" crs:SharpnessRadius="+1.2" crs:Whites2012="+30" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="0" crs:ColorGradeHighlightSat="0" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="0" crs:ColorGradeShadowSat="0" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="75" crs:ColorGradeBalance="0">
  <crs:Name>
  <rdf:Alt>
@@ -14,6 +15,7 @@
  </rdf:Alt>
  </crs:Group>
  <crs:Look>
+ 
  
  
  <rdf:Description crs:Name="Adobe Monochrome" crs:Amount="1.000000" crs:UUID="0C09521111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="False" crs:SupportsOutputReferred="True">

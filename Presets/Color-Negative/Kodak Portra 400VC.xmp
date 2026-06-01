@@ -2,6 +2,7 @@
  <rdf:RDF>
  
  
+ 
  <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="FEA339D525414350BB7717D2F2380427" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:Name="Kodak Portra 400VC" crs:Treatment="Color" crs:ProcessVersion="15.4" crs:HasSettings="True" crs:Blacks2012="+8" crs:Clarity2012="0" crs:Contrast2012="+3" crs:Dehaze="0" crs:Exposure2012="+0.40" crs:Highlights2012="-50" crs:Shadows2012="+28" crs:Whites2012="0" crs:Saturation="+8" crs:Vibrance="+5" crs:HueAdjustmentOrange="-2" crs:HueAdjustmentYellow="-6" crs:HueAdjustmentGreen="+12" crs:HueAdjustmentBlue="-2" crs:HueAdjustmentRed="+3" crs:SaturationAdjustmentRed="+8" crs:SaturationAdjustmentOrange="-3" crs:SaturationAdjustmentGreen="-18" crs:SaturationAdjustmentAqua="-8" crs:SaturationAdjustmentBlue="-12" crs:LuminanceAdjustmentOrange="+12" crs:LuminanceAdjustmentBlue="-10" crs:GrainAmount="30" crs:GrainSize="28" crs:GrainFrequency="48" crs:Sharpness="10" crs:LuminanceSmoothing="0" crs:Texture="0" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="45" crs:ColorGradeHighlightSat="12" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="210" crs:ColorGradeShadowSat="8" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="50" crs:ColorGradeBalance="0">
  <crs:Name>
  <rdf:Alt>
@@ -14,6 +15,7 @@
  </rdf:Alt>
  </crs:Group>
  <crs:Look>
+ 
  
  
  <rdf:Description crs:Name="Adobe Color" crs:Amount="1.000000" crs:UUID="B952C21111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="False" crs:SupportsOutputReferred="True">

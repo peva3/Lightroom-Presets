@@ -2,6 +2,7 @@
  <rdf:RDF>
  
  
+ 
  <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="8BEB115A9B57441FB639B6A08B23FE3B" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:Name="Fuji Superia 100" crs:Treatment="Color" crs:ProcessVersion="15.4" crs:HasSettings="True" crs:Sharpness="5" crs:Blacks2012="-5" crs:Contrast2012="+8" crs:Exposure2012="+0.50" crs:GrainAmount="15" crs:GrainFrequency="50" crs:GrainSize="15" crs:Highlights2012="-10" crs:Shadows2012="+20" crs:Saturation="+5" crs:Vibrance="+5" crs:SaturationAdjustmentRed="+5" crs:SaturationAdjustmentGreen="+5" crs:SaturationAdjustmentBlue="+5" crs:HueAdjustmentRed="-5" crs:HueAdjustmentBlue="-3" crs:LuminanceSmoothing="0" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="35" crs:ColorGradeHighlightSat="5" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="140" crs:ColorGradeShadowSat="8" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="50" crs:ColorGradeBalance="0">
  <crs:Name>
  <rdf:Alt>
@@ -14,6 +15,7 @@
  </rdf:Alt>
  </crs:Group>
  <crs:Look>
+ 
  
  
  <rdf:Description crs:Name="Adobe Color" crs:Amount="1.000000" crs:UUID="B952C21111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="False" crs:SupportsOutputReferred="True">

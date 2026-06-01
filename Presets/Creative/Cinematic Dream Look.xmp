@@ -2,6 +2,7 @@
  <rdf:RDF>
  
  
+ 
  <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="FCEA71FF2CBB494B98EF1604B7D8DD39" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:Name="10 Cinematic Dream Look" crs:Treatment="Color" crs:ProcessVersion="15.4" crs:LuminanceSmoothing="0" crs:HasSettings="True" crs:Blacks2012="0" crs:Clarity2012="-32" crs:Contrast2012="-25" crs:Dehaze="-22" crs:Exposure2012="+0.10" crs:GrainAmount="22" crs:GrainFrequency="58" crs:GrainSize="28" crs:Highlights2012="-50" crs:PostCropVignetteAmount="-15" crs:PostCropVignetteFeather="75" crs:PostCropVignetteMidpoint="35" crs:Saturation="-3" crs:Shadows2012="+40" crs:Sharpness="10" crs:SharpnessDetail="20" crs:SharpnessMasking="30" crs:SharpnessRadius="+1.3" crs:Texture="-15" crs:Vibrance="-1" crs:Whites2012="+15" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="45" crs:ColorGradeHighlightSat="15" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="210" crs:ColorGradeShadowSat="10" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="75" crs:ColorGradeBalance="0">
  <crs:Name>
  <rdf:Alt>
@@ -14,6 +15,7 @@
  </rdf:Alt>
  </crs:Group>
  <crs:Look>
+ 
  
  
  <rdf:Description crs:Name="Adobe Color" crs:Amount="1.000000" crs:UUID="B952C21111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="False" crs:SupportsOutputReferred="True">

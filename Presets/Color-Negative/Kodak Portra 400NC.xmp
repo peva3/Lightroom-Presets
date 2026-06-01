@@ -2,6 +2,7 @@
  <rdf:RDF>
  
  
+ 
  <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="21A141C043D0F45EB8A447847E3330921" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:Name="21 Kodak Portra 400NC" crs:Treatment="Color" crs:ProcessVersion="15.4" crs:HasSettings="True" crs:Sharpness="10" crs:Blacks2012="+15" crs:Contrast2012="-12" crs:Exposure2012="+0.45" crs:GrainAmount="22" crs:GrainFrequency="45" crs:GrainSize="25" crs:Highlights2012="-55" crs:HueAdjustmentGreen="+12" crs:LuminanceAdjustmentOrange="+15" crs:Saturation="-15" crs:SaturationAdjustmentBlue="-18" crs:SaturationAdjustmentGreen="-22" crs:SaturationAdjustmentRed="+5" crs:SaturationAdjustmentYellow="-5" crs:Shadows2012="+35" crs:Whites2012="-5" crs:Vibrance="-12" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="48" crs:ColorGradeHighlightSat="5" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="210" crs:ColorGradeShadowSat="5" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="50" crs:ColorGradeBalance="0">
  <crs:Name>
  <rdf:Alt>
@@ -14,6 +15,7 @@
  </rdf:Alt>
  </crs:Group>
  <crs:Look>
+ 
  
  
  <rdf:Description crs:Name="Adobe Color" crs:Amount="1.000000" crs:UUID="B952C21111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="False" crs:SupportsOutputReferred="True">

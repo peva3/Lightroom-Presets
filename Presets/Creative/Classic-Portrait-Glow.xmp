@@ -2,7 +2,8 @@
  <rdf:RDF>
  
  
- <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="209BEC71918847DEB2139089D5B12BF2" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:ProcessVersion="15.4" crs:Treatment="Color" crs:HasSettings="True" crs:Name="Classic Portrait Glow" crs:Exposure2012="+0.15" crs:Contrast2012="+10" crs:Highlights2012="-20" crs:Shadows2012="+15" crs:Whites2012="+8" crs:Blacks2012="0" crs:Saturation="+4" crs:Vibrance="+2" crs:Texture="-12" crs:Clarity2012="-6" crs:Sharpness="10" crs:LuminanceSmoothing="0" crs:ColorGradeBlending="75" crs:ColorGradeShadowHue="30" crs:ColorGradeShadowSat="3" crs:ColorGradeHighlightHue="40" crs:ColorGradeHighlightSat="6" crs:ColorGradeMidtoneHue="35" crs:ColorGradeMidtoneSat="4" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeShadowLum="0" crs:ColorGradeHighlightLum="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBalance="0" crs:LuminanceAdjustmentOrange="+8" crs:SaturationAdjustmentOrange="-5" crs:PostCropVignetteAmount="-8">
+ 
+ <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="209BEC71918847DEB2139089D5B12BF2" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:ProcessVersion="15.4" crs:Treatment="Color" crs:HasSettings="True" crs:Name="Classic Portrait Glow" crs:Exposure2012="+0.15" crs:Contrast2012="+10" crs:Highlights2012="-20" crs:Shadows2012="+15" crs:Whites2012="+8" crs:Blacks2012="0" crs:Saturation="+4" crs:Vibrance="+2" crs:Texture="-12" crs:Clarity2012="-6" crs:Sharpness="10" crs:LuminanceSmoothing="0" crs:LuminanceAdjustmentOrange="+8" crs:SaturationAdjustmentOrange="-5" crs:PostCropVignetteAmount="-8" crs:ColorGradeMidtoneHue="35" crs:ColorGradeMidtoneSat="4" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="40" crs:ColorGradeHighlightSat="6" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="30" crs:ColorGradeShadowSat="3" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="75" crs:ColorGradeBalance="0">
  <crs:Name>
  <rdf:Alt>
  <rdf:li xml:lang="x-default">Classic Portrait Glow</rdf:li>
@@ -14,6 +15,7 @@
  </rdf:Alt>
  </crs:Group>
  <crs:Look>
+ 
  
  
  <rdf:Description crs:Name="Adobe Color" crs:Amount="1.000000" crs:UUID="B952C21111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="False" crs:SupportsOutputReferred="True">

@@ -2,7 +2,8 @@
  <rdf:RDF>
  
  
- <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="F918EE88C574457DAF177C2DD22DFE96" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:ProcessVersion="15.4" crs:Treatment="Color" crs:HasSettings="True" crs:Name="Midnight City" crs:Exposure2012="-0.10" crs:Contrast2012="+28" crs:Highlights2012="-30" crs:Shadows2012="+22" crs:Whites2012="+10" crs:Blacks2012="0" crs:Saturation="+8" crs:Vibrance="+5" crs:Clarity2012="+20" crs:Dehaze="+12" crs:Sharpness="10" crs:LuminanceSmoothing="0" crs:ColorGradeBlending="75" crs:ColorGradeShadowHue="230" crs:ColorGradeShadowSat="15" crs:ColorGradeHighlightHue="35" crs:ColorGradeHighlightSat="8" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeShadowLum="0" crs:ColorGradeHighlightLum="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBalance="-15" crs:PostCropVignetteAmount="-12">
+ 
+ <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="F918EE88C574457DAF177C2DD22DFE96" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:ProcessVersion="15.4" crs:Treatment="Color" crs:HasSettings="True" crs:Name="Midnight City" crs:Exposure2012="-0.10" crs:Contrast2012="+28" crs:Highlights2012="-30" crs:Shadows2012="+22" crs:Whites2012="+10" crs:Blacks2012="0" crs:Saturation="+8" crs:Vibrance="+5" crs:Clarity2012="+20" crs:Dehaze="+12" crs:Sharpness="10" crs:LuminanceSmoothing="0" crs:PostCropVignetteAmount="-12" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="35" crs:ColorGradeHighlightSat="8" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="230" crs:ColorGradeShadowSat="15" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="75" crs:ColorGradeBalance="-15">
  <crs:Name>
  <rdf:Alt>
  <rdf:li xml:lang="x-default">Midnight City</rdf:li>
@@ -14,6 +15,7 @@
  </rdf:Alt>
  </crs:Group>
  <crs:Look>
+ 
  
  
  <rdf:Description crs:Name="Adobe Color" crs:Amount="1.000000" crs:UUID="B952C21111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="False" crs:SupportsOutputReferred="True">

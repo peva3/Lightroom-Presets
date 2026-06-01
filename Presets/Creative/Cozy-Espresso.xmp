@@ -2,7 +2,8 @@
  <rdf:RDF>
  
  
- <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="2D6E79946C3F4FAC89451C033A557A80" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:ProcessVersion="15.4" crs:Treatment="Color" crs:HasSettings="True" crs:Name="Cozy Espresso" crs:Exposure2012="+0.10" crs:Contrast2012="+15" crs:Highlights2012="-20" crs:Shadows2012="+18" crs:Whites2012="+8" crs:Blacks2012="0" crs:Saturation="-8" crs:Vibrance="-5" crs:Temperature="5900" crs:Sharpness="10" crs:LuminanceSmoothing="0" crs:ColorGradeBlending="75" crs:ColorGradeShadowHue="35" crs:ColorGradeShadowSat="12" crs:ColorGradeHighlightHue="42" crs:ColorGradeHighlightSat="10" crs:ColorGradeMidtoneHue="38" crs:ColorGradeMidtoneSat="6" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeShadowLum="0" crs:ColorGradeHighlightLum="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBalance="+10" crs:PostCropVignetteAmount="-12">
+ 
+ <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="2D6E79946C3F4FAC89451C033A557A80" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:ProcessVersion="15.4" crs:Treatment="Color" crs:HasSettings="True" crs:Name="Cozy Espresso" crs:Exposure2012="+0.10" crs:Contrast2012="+15" crs:Highlights2012="-20" crs:Shadows2012="+18" crs:Whites2012="+8" crs:Blacks2012="0" crs:Saturation="-8" crs:Vibrance="-5" crs:Temperature="5900" crs:Sharpness="10" crs:LuminanceSmoothing="0" crs:PostCropVignetteAmount="-12" crs:ColorGradeMidtoneHue="38" crs:ColorGradeMidtoneSat="6" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="42" crs:ColorGradeHighlightSat="10" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="35" crs:ColorGradeShadowSat="12" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="75" crs:ColorGradeBalance="+10">
  <crs:Name>
  <rdf:Alt>
  <rdf:li xml:lang="x-default">Cozy Espresso</rdf:li>
@@ -14,6 +15,7 @@
  </rdf:Alt>
  </crs:Group>
  <crs:Look>
+ 
  
  
  <rdf:Description crs:Name="Adobe Color" crs:Amount="1.000000" crs:UUID="B952C21111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="False" crs:SupportsOutputReferred="True">

@@ -1,0 +1,106 @@
+<x:xmpmeta xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00">
+ <rdf:RDF>
+
+  <rdf:Description rdf:about=""
+   crs:Blacks2012="0"
+   crs:Clarity2012="0"
+   crs:Cluster=""
+   crs:ColorGradeBalance="0"
+   crs:ColorGradeBlending="50"
+   crs:ColorGradeGlobalHue="0"
+   crs:ColorGradeGlobalLum="0"
+   crs:ColorGradeGlobalSat="0"
+   crs:ColorGradeHighlightHue="0"
+   crs:ColorGradeHighlightLum="0"
+   crs:ColorGradeHighlightSat="0"
+   crs:ColorGradeMidtoneHue="0"
+   crs:ColorGradeMidtoneLum="0"
+   crs:ColorGradeMidtoneSat="0"
+   crs:ColorGradeShadowHue="0"
+   crs:ColorGradeShadowLum="0"
+   crs:ColorGradeShadowSat="0"
+   crs:ColorNoiseReduction="25"
+   crs:Contrast2012="0"
+   crs:Dehaze="0"
+   crs:Exposure2012="-0.70"
+   crs:GrainAmount="0"
+   crs:GrainFrequency="50"
+   crs:GrainSize="25"
+   crs:HasSettings="True"
+   crs:Highlights2012="0"
+   crs:HueAdjustmentAqua="0"
+   crs:HueAdjustmentBlue="0"
+   crs:HueAdjustmentGreen="0"
+   crs:HueAdjustmentMagenta="0"
+   crs:HueAdjustmentOrange="0"
+   crs:HueAdjustmentPurple="0"
+   crs:HueAdjustmentRed="0"
+   crs:HueAdjustmentYellow="0"
+   crs:LuminanceAdjustmentAqua="0"
+   crs:LuminanceAdjustmentBlue="0"
+   crs:LuminanceAdjustmentGreen="0"
+   crs:LuminanceAdjustmentMagenta="0"
+   crs:LuminanceAdjustmentOrange="0"
+   crs:LuminanceAdjustmentPurple="0"
+   crs:LuminanceAdjustmentRed="0"
+   crs:LuminanceAdjustmentYellow="0"
+   crs:LuminanceSmoothing="0"
+   crs:Name="Exposure -0.70"
+   crs:PostCropVignetteAmount="0"
+   crs:PostCropVignetteFeather="50"
+   crs:PostCropVignetteMidpoint="50"
+   crs:PostCropVignetteRoundness="0"
+   crs:PostCropVignetteStyle="1"
+   crs:PresetType="Normal"
+   crs:ProcessVersion="15.4"
+   crs:RequiresRenditionBehavior="True"
+   crs:Saturation="0"
+   crs:SaturationAdjustmentAqua="0"
+   crs:SaturationAdjustmentBlue="0"
+   crs:SaturationAdjustmentGreen="0"
+   crs:SaturationAdjustmentMagenta="0"
+   crs:SaturationAdjustmentOrange="0"
+   crs:SaturationAdjustmentPurple="0"
+   crs:SaturationAdjustmentRed="0"
+   crs:SaturationAdjustmentYellow="0"
+   crs:Shadows2012="0"
+   crs:Sharpness="25"
+   crs:SharpnessDetail="25"
+   crs:SharpnessEdgeMasking="0"
+   crs:SharpnessRadius="+1.0"
+   crs:SupportsAmount="True"
+   crs:SupportsColor="True"
+   crs:SupportsHighDynamicRange="True"
+   crs:SupportsMonochrome="True"
+   crs:SupportsNormalDynamicRange="True"
+   crs:SupportsOutputReferred="True"
+   crs:SupportsSceneReferred="True"
+   crs:Texture="0"
+   crs:Treatment="Color"
+   crs:UUID="141554CB71444D29FB293327A66BC597"
+   crs:Vibrance="0"
+   crs:Whites2012="0">
+  <crs:Name>
+   <rdf:Alt>
+   <rdf:li xml:lang="x-default">Exposure -0.70</rdf:li>
+   </rdf:Alt>
+  </crs:Name>
+  <crs:Group>
+   <rdf:Alt>
+   <rdf:li xml:lang="x-default">Utility</rdf:li>
+   </rdf:Alt>
+  </crs:Group>
+<crs:Look>
+   <rdf:Description crs:Name="Adobe Color" crs:Amount="1.000000" crs:UUID="B952C21111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="False" crs:SupportsOutputReferred="True">
+   <crs:Group>
+   <rdf:Alt>
+   <rdf:li xml:lang="x-default">Profiles</rdf:li>
+   </rdf:Alt>
+   </crs:Group>
+   </rdf:Description>
+  </crs:Look>
+
+<crs:ToneCurvePV2012><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012><crs:ToneCurvePV2012Red><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012Red><crs:ToneCurvePV2012Green><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012Green><crs:ToneCurvePV2012Blue><rdf:Seq><rdf:li>0, 0</rdf:li><rdf:li>255, 255</rdf:li></rdf:Seq></crs:ToneCurvePV2012Blue>
+</rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

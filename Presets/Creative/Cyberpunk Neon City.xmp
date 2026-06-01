@@ -2,6 +2,7 @@
  <rdf:RDF>
  
  
+ 
  <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="2DD3E197105945ABA901E0C61F631D15" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:Name="05 Cyberpunk Neon City" crs:Treatment="Color" crs:ProcessVersion="15.4" crs:LuminanceSmoothing="0" crs:Sharpness="10" crs:HasSettings="True" crs:Blacks2012="0" crs:Clarity2012="+55" crs:Contrast2012="+45" crs:Dehaze="+45" crs:Exposure2012="-0.50" crs:GrainAmount="45" crs:GrainFrequency="65" crs:GrainSize="40" crs:Highlights2012="-65" crs:HueAdjustmentGreen="-90" crs:PostCropVignetteAmount="-22.5" crs:Saturation="-15" crs:SaturationAdjustmentGreen="-60" crs:SaturationAdjustmentMagenta="+55" crs:SaturationAdjustmentYellow="-60" crs:Shadows2012="+40" crs:Whites2012="+30" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="315" crs:ColorGradeHighlightSat="22.5" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="230" crs:ColorGradeShadowSat="22.5" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="75" crs:ColorGradeBalance="+30">
  <crs:Name>
  <rdf:Alt>
@@ -14,6 +15,7 @@
  </rdf:Alt>
  </crs:Group>
  <crs:Look>
+ 
  
  
  <rdf:Description crs:Name="Adobe Color" crs:Amount="1.000000" crs:UUID="B952C21111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="False" crs:SupportsOutputReferred="True">

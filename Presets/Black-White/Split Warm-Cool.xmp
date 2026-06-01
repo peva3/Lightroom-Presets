@@ -1,7 +1,8 @@
 <x:xmpmeta xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00">
  <rdf:RDF>
  
- <rdf:Description rdf:about="" crs:HasSettings="True" crs:RequiresRenditionBehavior="True" crs:SupportsOutputReferred="True" crs:SupportsSceneReferred="True" crs:SupportsNormalDynamicRange="True" crs:SupportsHighDynamicRange="True" crs:SupportsMonochrome="True" crs:SupportsColor="True" crs:SupportsAmount="True" crs:Cluster="" crs:PresetType="Normal" crs:Treatment="Monochrome" crs:ProcessVersion="15.4" crs:ConvertToGrayscale="True" crs:Sharpness="10" crs:LuminanceSmoothing="0" crs:Blacks2012="-20" crs:Contrast2012="+20" crs:Highlights2012="-15" crs:Shadows2012="+15" crs:Whites2012="+10" crs:Texture="0" crs:Clarity2012="0" crs:Dehaze="0" crs:GrainAmount="35" crs:GrainSize="25" crs:GrainFrequency="50" crs:GrayMixerRed="+20" crs:GrayMixerOrange="+15" crs:GrayMixerYellow="+5" crs:GrayMixerGreen="-10" crs:GrayMixerAqua="-15" crs:GrayMixerBlue="-25" crs:GrayMixerPurple="-5" crs:GrayMixerMagenta="0" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="45" crs:ColorGradeHighlightSat="15" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="220" crs:ColorGradeShadowSat="12" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="50" crs:ColorGradeBalance="0" crs:Name="Split Warm-Cool" crs:UUID="5ACD4899534F4FEFB5E2B64E769A65E1">
+ 
+ <rdf:Description rdf:about="" crs:HasSettings="True" crs:RequiresRenditionBehavior="True" crs:SupportsOutputReferred="True" crs:SupportsSceneReferred="True" crs:SupportsNormalDynamicRange="True" crs:SupportsHighDynamicRange="True" crs:SupportsMonochrome="True" crs:SupportsColor="True" crs:SupportsAmount="True" crs:Cluster="" crs:PresetType="Normal" crs:Treatment="Monochrome" crs:ProcessVersion="15.4" crs:ConvertToGrayscale="True" crs:Sharpness="10" crs:LuminanceSmoothing="0" crs:Blacks2012="-20" crs:Contrast2012="+20" crs:Highlights2012="-15" crs:Shadows2012="+15" crs:Whites2012="+10" crs:Texture="0" crs:Clarity2012="0" crs:Dehaze="0" crs:GrainAmount="35" crs:GrainSize="25" crs:GrainFrequency="50" crs:GrayMixerRed="+20" crs:GrayMixerOrange="+15" crs:GrayMixerYellow="+5" crs:GrayMixerGreen="-10" crs:GrayMixerAqua="-15" crs:GrayMixerBlue="-25" crs:GrayMixerPurple="-5" crs:GrayMixerMagenta="0" crs:Name="Split Warm-Cool" crs:UUID="5ACD4899534F4FEFB5E2B64E769A65E1" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="45" crs:ColorGradeHighlightSat="15" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="220" crs:ColorGradeShadowSat="12" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="50" crs:ColorGradeBalance="0">
  <crs:Name>
  <rdf:Alt>
  <rdf:li xml:lang="x-default">Split Warm-Cool</rdf:li>
@@ -13,6 +14,7 @@
  </rdf:Alt>
  </crs:Group>
  <crs:Look>
+ 
  
  
  <rdf:Description crs:Name="Adobe Monochrome" crs:Amount="1.000000" crs:UUID="0C09521111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="True" crs:SupportsOutputReferred="True">

@@ -2,6 +2,7 @@
  <rdf:RDF>
  
  
+ 
  <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="FEFAD93CFAEF4052AFD713000FDB7D59" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:Name="10 Kodak Ektachrome E100" crs:Treatment="Color" crs:ProcessVersion="15.4" crs:HasSettings="True" crs:Sharpness="10" crs:LuminanceSmoothing="0" crs:Blacks2012="-30" crs:Clarity2012="0" crs:Contrast2012="+42.5" crs:GrainAmount="10" crs:GrainFrequency="50" crs:GrainSize="25" crs:Highlights2012="-40" crs:HueAdjustmentRed="+10" crs:HueAdjustmentOrange="-5" crs:HueAdjustmentYellow="-5" crs:HueAdjustmentGreen="+15" crs:HueAdjustmentAqua="+10" crs:HueAdjustmentBlue="-12.5" crs:HueAdjustmentPurple="+10" crs:HueAdjustmentMagenta="+5" crs:LuminanceAdjustmentBlue="-11.3" crs:Saturation="+5" crs:SaturationAdjustmentRed="-5" crs:SaturationAdjustmentGreen="-10" crs:SaturationAdjustmentBlue="+7.5" crs:SaturationAdjustmentMagenta="-10" crs:Shadows2012="+20" crs:Texture="0" crs:Vibrance="+2.5" crs:Whites2012="+15" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="45" crs:ColorGradeHighlightSat="2.8" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="215" crs:ColorGradeShadowSat="7.5" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="75" crs:ColorGradeBalance="-5">
  <crs:Name>
  <rdf:Alt>
@@ -14,6 +15,7 @@
  </rdf:Alt>
  </crs:Group>
  <crs:Look>
+ 
  
  
  <rdf:Description crs:Name="Adobe Vivid" crs:Amount="1.000000" crs:UUID="EA1DE074F188405965EF399C72C221D9" crs:SupportsAmount="True" crs:SupportsMonochrome="False" crs:SupportsOutputReferred="True">

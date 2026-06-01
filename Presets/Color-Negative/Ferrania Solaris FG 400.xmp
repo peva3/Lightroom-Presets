@@ -1,5 +1,6 @@
 <x:xmpmeta xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00">
  <rdf:RDF>
+ 
  <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="A8B42F05E7F58A6B1E3425A1I7F9E0B5" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:Name="Ferrania Solaris FG 400" crs:Treatment="Color" crs:ProcessVersion="15.4" crs:HasSettings="True" crs:Blacks2012="-10" crs:Clarity2012="0" crs:Contrast2012="+10" crs:Dehaze="0" crs:Exposure2012="+0.10" crs:Highlights2012="-25" crs:Shadows2012="-10" crs:Whites2012="+10" crs:HueAdjustmentRed="+5" crs:HueAdjustmentOrange="+5" crs:HueAdjustmentYellow="-5" crs:HueAdjustmentGreen="+10" crs:HueAdjustmentAqua="-5" crs:HueAdjustmentBlue="-5" crs:HueAdjustmentPurple="-10" crs:HueAdjustmentMagenta="-10" crs:SaturationAdjustmentRed="+10" crs:SaturationAdjustmentOrange="+5" crs:SaturationAdjustmentYellow="+5" crs:SaturationAdjustmentGreen="-5" crs:SaturationAdjustmentAqua="-10" crs:SaturationAdjustmentBlue="-15" crs:SaturationAdjustmentPurple="-10" crs:SaturationAdjustmentMagenta="-15" crs:LuminanceAdjustmentOrange="+10" crs:LuminanceAdjustmentYellow="+5" crs:LuminanceAdjustmentGreen="-5" crs:LuminanceAdjustmentBlue="-10" crs:GrainAmount="30" crs:GrainSize="30" crs:GrainFrequency="50" crs:Sharpness="10" crs:LuminanceSmoothing="0" crs:Texture="0" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="30" crs:ColorGradeHighlightSat="8" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="40" crs:ColorGradeShadowSat="10" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="50" crs:ColorGradeBalance="0">
  <crs:Name>
  <rdf:Alt>
@@ -12,6 +13,7 @@
  </rdf:Alt>
  </crs:Group>
  <crs:Look>
+ 
  <rdf:Description crs:Name="Adobe Color" crs:Amount="1.000000" crs:UUID="B952C21111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="False" crs:SupportsOutputReferred="True">
  <crs:Group>
  <rdf:Alt>
