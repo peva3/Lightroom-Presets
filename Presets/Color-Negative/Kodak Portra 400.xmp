@@ -2,8 +2,36 @@
  <rdf:RDF>
  
  <rdf:Description rdf:about="" crs:PresetType="Normal" crs:Cluster="" crs:UUID="FEA339D525414350BB7717D2F2380425" crs:SupportsAmount="True" crs:SupportsColor="True" crs:SupportsMonochrome="True" crs:SupportsHighDynamicRange="True" crs:SupportsNormalDynamicRange="True" crs:SupportsSceneReferred="True" crs:SupportsOutputReferred="True" crs:RequiresRenditionBehavior="True" crs:Name="02 Kodak Portra 400" crs:Treatment="Color" crs:ProcessVersion="15.4"
+        crs:HasSettings="True"
+        crs:Blacks2012="+12"
+        crs:Clarity2012="0"
+        crs:Contrast2012="-7.5"
+        crs:Dehaze="0"
+        crs:Exposure2012="+0.50"
+        crs:Highlights2012="-55"
+        crs:Shadows2012="+32"
+        crs:Whites2012="-2"
+        crs:HueAdjustmentOrange="-3"
+        crs:HueAdjustmentYellow="-8"
+        crs:HueAdjustmentGreen="+15"
+        crs:HueAdjustmentBlue="-5"
+        crs:SaturationAdjustmentOrange="-5"
+        crs:SaturationAdjustmentGreen="-22.5"
+        crs:SaturationAdjustmentAqua="-10"
+        crs:SaturationAdjustmentBlue="-15"
+        crs:LuminanceAdjustmentOrange="+15"
+        crs:LuminanceAdjustmentBlue="-10"
+        crs:ColorGradeHighlightHue="45"
+        crs:ColorGradeHighlightSat="12"
+        crs:ColorGradeShadowHue="210"
+        crs:ColorGradeShadowSat="8"
+        crs:ColorGradeBlending="50"
+        crs:GrainAmount="28"
+        crs:GrainSize="25"
+        crs:GrainFrequency="50"
+        crs:Sharpness="10"
         crs:LuminanceSmoothing="0"
-        crs:Sharpness="10" crs:HasSettings="True" crs:Blacks2012="+12" crs:Clarity2012="0" crs:Contrast2012="-7.5" crs:Dehaze="0" crs:Exposure2012="+0.50" crs:GrainAmount="28" crs:GrainFrequency="50" crs:GrainSize="25" crs:Highlights2012="-55" crs:HueAdjustmentAqua="0" crs:HueAdjustmentBlue="-5" crs:HueAdjustmentGreen="+15" crs:HueAdjustmentMagenta="0" crs:HueAdjustmentOrange="-3" crs:HueAdjustmentPurple="0" crs:HueAdjustmentRed="0" crs:HueAdjustmentYellow="-8" crs:LuminanceAdjustmentBlue="-10" crs:LuminanceAdjustmentGreen="0" crs:LuminanceAdjustmentMagenta="0" crs:LuminanceAdjustmentOrange="+15" crs:LuminanceAdjustmentPurple="0" crs:LuminanceAdjustmentRed="0" crs:LuminanceAdjustmentYellow="0" crs:Saturation="0" crs:SaturationAdjustmentAqua="-10" crs:SaturationAdjustmentBlue="-15" crs:SaturationAdjustmentGreen="-22.5" crs:SaturationAdjustmentMagenta="0" crs:SaturationAdjustmentOrange="-5" crs:SaturationAdjustmentPurple="0" crs:SaturationAdjustmentRed="0" crs:SaturationAdjustmentYellow="-10" crs:Shadows2012="+32" crs:Vibrance="0" crs:Whites2012="-2" crs:ColorGradeMidtoneHue="0" crs:ColorGradeMidtoneSat="0" crs:ColorGradeMidtoneLum="0" crs:ColorGradeHighlightHue="45" crs:ColorGradeHighlightSat="12" crs:ColorGradeHighlightLum="0" crs:ColorGradeShadowHue="210" crs:ColorGradeShadowSat="8" crs:ColorGradeShadowLum="0" crs:ColorGradeGlobalHue="0" crs:ColorGradeGlobalSat="0" crs:ColorGradeGlobalLum="0" crs:ColorGradeBlending="50" crs:ColorGradeBalance="0">
+        crs:Texture="0">
  <crs:Name>
  <rdf:Alt>
  <rdf:li xml:lang="x-default">02 Kodak Portra 400</rdf:li>
