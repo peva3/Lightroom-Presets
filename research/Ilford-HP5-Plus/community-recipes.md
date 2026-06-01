@@ -425,6 +425,8 @@ Final consensus values from cross-referencing community recipes. Applied to `Pre
 | Size | 27.5 | 25 | Averaged |
 | Frequency | 46.3 | 50 | Averaged (cleaner than Tri-X) |
 
+> **Note:** Values in the table above reflect community consensus before STYLEGUIDE v2.1 alignment. The actual XMP supersedes several values per grain protection rules and HP5 grain table. See [STYLEGUIDE v2.1 Alignment](#styleguide-v21-alignment) below for final XMP values. Specifically: Clarity +11.3→0, Texture +10→0, GrainFrequency 46.3→50 (roughness floor).
+
 **Key sources:** r/analog Recipe 1 ("British Journalist"), YouTube (Jamie Windsor, Kyle McDougall, Matt Day), r/Darkroom, Negative Lab Pro community, Flickr HP5 group.
 
 ## STYLEGUIDE v2.1 Alignment
@@ -506,8 +508,10 @@ All XMP values within valid ranges:
 | Shadow detail preservation | Blacks -11.3 (gentle) | Applied ✓ | HP5 doesn't crush blacks like Tri-X |
 | Yellow filter variant documented | Recipe 6 (Yellow +25, Blue -35) | Not in base XMP — variant only | Correctly separated as distinct recipe |
 
-### Validation Status: ✅ PASS (no action required)
+### Validation Status: ✅ PASS (no action required; documentation corrected)
 
 Outstanding data quality. The six-recipe structure is well-organized. The HP5 vs Tri-X comparison is accurate. The filter equivalents table is physically correct. The community's preference for moderate values (Contrast +7.5 vs Tri-X's +35) matches actual film behavior. No bogus slider recommendations. Mild Clarity conflicts with grain protection are documented. This is the quality benchmark for all B&W research documents.
+
+**Documentation fix (2026-06-01):** Added note to Community Validated Values table clarifying values reflect pre-STYLEGUIDE consensus, not final XMP state. Actual XMP: Clarity=0, Texture=0, GrainFrequency=50, GrainAmount=36.3, GrainSize=27.5, Sharpness=10.
 
 **Note**: The community-recipes.md correctly identifies that HP5 scans flatter than Tri-X (more latitude for digital editing) — this is consistent with the XMP having Blacks at only -11.3 (vs -30 for Tri-X). The XMP captures the relationship correctly: HP5 is the gentler, more flexible film.

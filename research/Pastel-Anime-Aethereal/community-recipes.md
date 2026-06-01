@@ -306,3 +306,7 @@ XMP values match consensus exactly. Vibrance/Saturation gap = 5 (compliant).
 - SparkleStock: Commercial preset pack. Describes aesthetic but no specific values.
 - YouTube/Instagram/Lemon8: Qualitative descriptions only. Good for confirming aesthetic direction, no numeric value.
 - Reddit r/AskPhotography: Qualitative confirmation of pink/teal split tone pattern.
+
+### Fixes Applied (2026-06-01 Batch 5)
+- **No XMP changes needed**: All slider values already match community consensus and are STYLEGUIDE-compliant (Vibrance=+15, Sat=+10, diff=5)
+- **Documentation**: Source weakness (1/10 quantitative) is documented; extreme -90/+90 range noted as image-type-restricted

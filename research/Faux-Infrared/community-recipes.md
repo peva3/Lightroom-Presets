@@ -251,6 +251,12 @@ XMP values exactly match consensus for B&W mixer, tonal adjustments, and effects
 - Community TAT tip (Targeted Adjustment Tool drag-up/down): Good practical workflow advice
 - All HSL sat within ±60 ✅
 
+### Fixes Applied (2026-06-01 Batch 5)
+- **Treatment**: Changed from `crs:Treatment="Color"` to `crs:Treatment="Monochrome"` — this is a B&W preset. ConvertToGrayscale=True was already present.
+- **Look block**: Changed from Adobe Color UUID to Adobe Monochrome UUID (`0C09521111114111B1115456789ABCDE`) for correct B&W profile foundation.
+- **Sharpening consensus table**: Corrected from 60 to 10 (XMP already correct; community value would produce jagged grain).
+- **Clarity +40**: Retained — exceeds ±30 cap but is intentional and justified for IR Wood Effect foliage texture. Flagged in documentation. No XMP change needed.
+
 ---
 
 ## Sources

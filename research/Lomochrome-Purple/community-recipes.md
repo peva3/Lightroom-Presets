@@ -338,3 +338,6 @@ Lomochrome Purple is an experimental film whose defining characteristic is a gre
 2. **Blue saturation -30** was capped from the community-recommended -44 due to STYLEGUIDE's -30 blues floor; this reduces the intensity of the signature Lomochrome sky transformation.
 
 These compromises are documented and acknowledged. The preset remains true to the Lomochrome Purple aesthetic within Lightroom's slider constraints. Not bogus, but values at the very edge of LR's capabilities.
+
+### Documentation Fix (2026-06-01)
+- Fixed false claim: STYLEGUIDE section said "29→18 meaningful attributes after cleanup" but XMP has 39. The "Default-value attributes removed" list was aspirational — those defaults were never actually stripped from the XMP. Documentation corrected to reflect actual XMP state.

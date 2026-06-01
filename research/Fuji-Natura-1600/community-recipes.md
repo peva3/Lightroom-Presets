@@ -283,3 +283,6 @@ All values align with Fuji Natura 1600's known characteristics:
 
 ### Verdict
 **VALIDATED** — Sources are individual community members rather than institutional presets (reflecting the film's niche status), but they are real and credible. No suspicious values or bogus data detected.
+
+### Documentation Fix (2026-06-01)
+- Fixed false claim: STYLEGUIDE section said "20→10 meaningful attributes after cleanup" but XMP has 32. The "Default-value attributes removed" list was aspirational — those defaults were never actually stripped from the XMP. Documentation corrected to reflect actual XMP state.

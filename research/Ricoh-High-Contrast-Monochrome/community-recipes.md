@@ -324,6 +324,8 @@ Final consensus values from cross-referencing community recipes. Applied to `Pre
 | Size | 30 | 30 | Approach 2 |
 | Frequency | 66.3 | 70 | Averaged |
 
+> **Note:** Values in the table above reflect community consensus before STYLEGUIDE v2.1 alignment. The actual XMP supersedes several values per grain protection rules and Blacks floor. See [STYLEGUIDE v2.1 Alignment](#styleguide-v21-alignment) below for final XMP values. Specifically: Blacks -57.5→-30 (floor), Clarity +25→0, Dehaze +13.8→0.
+
 **Key sources:** Ritchie's Ricoh Recipes (ricohrecipes.com), PerfeFilm profiles (perfefilm.com), GR Recipe community (grrecipe.com), Aditya Ardiya's blog, Michael Kirchherr comparisons.
 
 ## STYLEGUIDE v2.1 Alignment
@@ -405,9 +407,11 @@ Note: This is a digital camera profile emulation, not a film stock. Validation c
 | Grain Effect 3 (in-camera) | In-camera: Level 3 | GrainAmount 58.8, Size 30, Roughness 66.3 | ✓ Approximate match given engine differences |
 | 10000K WB with heavy magenta tint | In-camera: CT 10000K, M:14 | Not in XMP | ✓ Correctly excluded per WB rules |
 
-### Validation Status: ⚠️ CONDITIONAL PASS (Approach 3 is dangerous; rest is solid)
+### Validation Status: ⚠️ CONDITIONAL PASS (Approach 3 is dangerous; rest is solid; documentation corrected)
 
 The community data for Approach 2 (Dramatic Monochrome — the primary recipe) is excellent, sourced from real Ricoh camera parameters and translated defensibly to Lightroom equivalents. Approach 3 (Moriyama-style) is correctly labeled as an extreme aesthetic but contains 3 slider values that exceed STYLEGUIDE safety caps. The XMP follows Approach 2 values with STYLEGUIDE grain protection constraints.
+
+**Documentation fix (2026-06-01):** Added note to Community Validated Values table clarifying values reflect pre-STYLEGUIDE consensus, not final XMP state. Actual XMP: Blacks=-30, Clarity=0, Dehaze=0, GrainAmount=58.8, GrainSize=30, GrainFrequency=66.3, Sharpness=10.
 
 **Key credibility factor**: The community-recipes.md honestly documents Ricoh's refusal to provide Adobe Camera Matching profiles, the grain-before-contrast pipeline ordering problem, and the recommendation to shoot RAW+JPEG for reference. This transparency about limitations is a strong signal of data integrity — the document isn't overselling what's achievable.
 

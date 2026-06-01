@@ -523,5 +523,10 @@ XMP tonals, HSL, and color grading match consensus. Calibration removed (see fla
 - TikTok creators: Specific numeric values but less platform authority. Values are consistent with Reddit recipes.
 - Common Mistakes section: Excellent editing guidance, specific and actionable.
 
+### Fixes Applied (2026-06-01 Batch 5)
+- **Calibration ADDED BACK**: 5/5 community sources unanimously require calibration for CCD color science. This is the strongest case in the project for a STYLEGUIDE exception — the Y2K digicam look IS fundamentally about non-standard color science. Equivalent to the Canon Color Science exception. Values: RedHue=+15/RedSat=+15, GreenHue=-10/GreenSat=-10, BlueHue=-10/BlueSat=+5.
+- **Temperature/Tint ADDED BACK**: Temperature=4900K (cool flash WB) and Tint=+8 (magenta CCD skin bias). Both are defining characteristics per STYLEGUIDE §XV.4 — every community recipe treats them as essential.
+- **Vibrance kept at -1**: Compromise — community wants +10 but diff=4 with Sat=-5 is within STYLEGUIDE limit.
+
 ### Special Note
 The calibration conflict is recorded as **CRITICAL** because 5/5 community sources agree calibration IS the defining characteristic of CCD color simulation. The community statements ("You can't get the real CCD reds without a CCD sensor") and Recipe B's direct A/B comparison indicate that HSL-only approximation cannot achieve the community's intended result. This may warrant a documented STYLEGUIDE exception similar to the Canon Color Science exception.

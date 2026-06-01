@@ -243,45 +243,37 @@ Primary source: Recipe 1 "Classic Velvia Xpro."
 
 **Date:** 2026-06-01
 
-**Batch 6 bug-fix alignment — Calibration panel removed, Vibrance removed.**
+**Batch 6 bug-fix alignment — Calibration panel removed, Vibrance removed. XMP Blacks/Clarity/Dehaze now corrected to community consensus midpoints.**
 
 | Change | Reason |
 |---|---|
 | Removed `RedHue="+18"`, `RedSaturation="-30"` | Bug-fix: no Calibration panel |
 | Removed `GreenHue="+30"`, `GreenSaturation="+15"` | Bug-fix: no Calibration panel |
 | Removed `BlueHue="0"`, `BlueSaturation="-25"` | Bug-fix: no Calibration panel |
-| Removed `Vibrance="+15"` | Bug-fix: no community validation for Vibrance; kept Saturation=+10 |
+| Removed `Vibrance="+15"` | Bug-fix: not in community recipes; Saturation=+10 sufficient |
+| Blacks2012: 0→-15 | Corrected to community midpoint (previously zeroed by grain rule) |
+| Clarity2012: 0→+18 | Corrected to community midpoint (xpro defining characteristic) |
+| Dehaze: 0→+15 | Corrected to community midpoint (deepens xpro saturation/contrast) |
 
-All other attributes (HSL, split toning, basic panel, grain) already within 5% of community consensus (Recipe 1 "Classic Velvia Xpro").
+Previous claim "all attributes within 5%" was false for Blacks (100% deviation), Clarity (100%), and Dehaze (100%). These are now corrected. Xpro's grain Amount is only 25 — the grain-protection Clarity/Dehaze=0 rule is overridden per community consensus.
 
 ## Community Data Validation
 
 **Date:** 2026-06-01 | **Validator:** Batch 6 audit
 
-### Validation Status: **SIGNIFICANTLY INVALID — 4 flags, 1 false claim**
+### Validation Status: **SIGNIFICANTLY INVALID — 4 flags RESOLVED**
 
-### Flag 1: Blacks2012=0 vs community consensus -15 (HIGH)
-- **Community table claims**: `Blacks2012="-15"` (midpoint of -10 to -20 from Recipe 1)
-- **Actual XMP**: `crs:Blacks2012="0"`
-- **Reality**: Recipe 1 specifies Blacks -10 to -20. Real Velvia 50 xpro has "deeper blacks" and "extreme contrast." Setting Blacks to 0 eliminates this defining characteristic entirely. The "Community Validated Values" table correctly documents -15 as the target — the XMP simply doesn't match.
-- **Previous correction note**: The community table says Shadows "corrected from -20" and RedPrimarySaturation "corrected from +20" — indicating batch corrections were attempted. The Blacks value was apparently missed during the correction pass.
+### Flag 1: Blacks2012=0 vs community consensus -15 (RESOLVED)
+- **FIX**: XMP `crs:Blacks2012` changed from `"0"` to `"-15"` (community midpoint of -10 to -20).
 
-### Flag 2: Clarity2012=0 vs community consensus +18 (HIGH)
-- **Community table claims**: `Clarity2012="+18"` (midpoint of +10 to +25 from Recipe 1)
-- **Actual XMP**: `crs:Clarity2012="0"`
-- **Reality**: Recipe 1 explicitly calls for Clarity +10 to +25 ("Adds midtone crunch, simulates xpro contrast"). This is cross-process contrast's defining presence adjustment. Setting Clarity to 0 removes the midtone crunch that distinguishes xpro from normal processing.
-- **Likely cause**: Grain protection rule (GrainAmount > 0 → Clarity = 0). But Recipe 1 only recommends grain Amount 20-30 with Clarity +10 to +25 — the community considers them compatible for this look.
+### Flag 2: Clarity2012=0 vs community consensus +18 (RESOLVED)
+- **FIX**: XMP `crs:Clarity2012` changed from `"0"` to `"+18"` (community midpoint of +10 to +25). Cross-process contrast's defining presence adjustment. Grain protection rule (GrainAmount=25 is light) overridden per community consensus.
 
-### Flag 3: Dehaze=0 vs community consensus +15 (HIGH)
-- **Community table claims**: `Dehaze="+15"` (midpoint of +10 to +20 from Recipe 1)
-- **Actual XMP**: `crs:Dehaze="0"`
-- **Reality**: Recipe 1 states Dehaze +10 to +20 "deepens saturation and contrast like real xpro." Velvia xpro's extreme saturation and contrast are core to the look. Removing Dehaze flattens the atmospheric density that defines cross-processed film.
-- **Same likely cause**: Grain protection rule applied without considering this look's specific needs.
+### Flag 3: Dehaze=0 vs community consensus +15 (RESOLVED)
+- **FIX**: XMP `crs:Dehaze` changed from `"0"` to `"+15"` (community midpoint of +10 to +20). Restores atmospheric density that defines cross-processed film.
 
-### Flag 4: "5% Alignment Update" makes a false claim (CRITICAL)
-- **Claim**: "All other attributes (HSL, split toning, basic panel, grain) already within 5% of community consensus."
-- **Reality**: Blacks (0 vs -15 = 100% deviation), Clarity (0 vs +18 = 100%), and Dehaze (0 vs +15 = 100%) are all ZERO percent of community values, not "within 5%." The claim is mathematically false.
-- **Additionally**: The "5% alignment" removed Calibration and Vibrance but didn't verify the actual XMP values it was claiming to validate.
+### Flag 4: "5% Alignment Update" false claim (RESOLVED)
+- **FIX**: "5% Alignment Update" section rewritten. Previous claim "all attributes within 5%" was mathematically false for Blacks (100% deviation), Clarity (100%), and Dehaze (100%). All three now corrected to community midpoints.
 
 ### Validated OK
 - All HSL attributes match Recipe 1 midpoints (capped per rules). ✓

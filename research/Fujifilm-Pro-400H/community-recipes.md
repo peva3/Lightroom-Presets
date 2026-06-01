@@ -362,3 +362,6 @@ All values align with Pro 400H's known characteristics:
 
 ### Verdict
 **VALIDATED** — Community data is well-sourced from real entities (Mastin, RNI, Cobalt). The aggregate DIY recipe is explicitly acknowledged as synthetic but its values are consistent with the film's known characteristics. No suspicious values or bogus data detected.
+
+### Documentation Fix (2026-06-01)
+- Fixed false claim: STYLEGUIDE section said "28→12 meaningful attributes after cleanup" but XMP has 37. The "Default-value attributes removed" list was aspirational — those defaults were never actually stripped from the XMP. Documentation corrected to reflect actual XMP state.

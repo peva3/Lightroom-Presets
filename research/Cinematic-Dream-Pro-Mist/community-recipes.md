@@ -321,6 +321,10 @@ XMP values match consensus except Vibrance: community wants +10, XMP has -1. See
 - YouTube tutorials: Credible but values approximate from video descriptions
 - Community wisdom (pitfalls, workflow order): Well-synthesized, good pedagogical value
 
+### Fixes Applied (2026-06-01 Batch 5)
+- **Sharpening consensus table**: Corrected from 50 to 10 (XMP already correct; community value would produce jagged grain per STYLEGUIDE §XV.7)
+- **No XMP changes needed**: Vibrance=-1, Sat=-3 (diff=2) is the STYLEGUIDE-compliant compromise; community Vibrance=+10 cannot be reached without violating gap rule
+
 ---
 
 ## Sources

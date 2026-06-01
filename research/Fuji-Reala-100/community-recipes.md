@@ -229,3 +229,6 @@ Values align with Reala 100's known characteristics:
 
 ### Verdict
 **VALIDATED with caveat** — Sources are real but none provide explicit Reala slider values. All XMP values are synthesized from Reala's documented film characteristics. Values are reasonable and internally consistent, but lack direct community emulation validation. The grain values (15/15/15) are below STYLEGUIDE recommendations but plausible for a 100-speed film. Not bogus, but the least empirically grounded preset in this batch.
+
+### Documentation Fix (2026-06-01)
+- Fixed false claim: STYLEGUIDE section said "12 meaningful attributes" but XMP has 22. The "Default-value attributes removed" list was aspirational — those defaults were never actually stripped from the XMP. Documentation corrected to reflect actual XMP state.

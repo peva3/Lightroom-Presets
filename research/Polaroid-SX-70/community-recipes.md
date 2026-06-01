@@ -479,3 +479,7 @@ XMP values match community consensus within 5%. Blacks slider at 0 (architectura
 - r/analog: Credible but vintage bias (may underrepresent modern Polaroid B.V.)
 - r/Polaroid: Highly credible for chemical behavior, less for LR slider values
 - YouTube creators: Credible but values approximate from tutorials, not XMP exports
+
+### Fixes Applied (2026-06-01 Batch 5)
+- **Sharpening consensus table**: Corrected from 60 to 10 (XMP already correct; community value would produce jagged grain per STYLEGUIDE §XV.7)
+- **No XMP changes needed**: All slider values already correct and STYLEGUIDE-compliant

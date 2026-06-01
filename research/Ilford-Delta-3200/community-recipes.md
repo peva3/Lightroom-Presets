@@ -307,6 +307,8 @@ Final consensus values from cross-referencing community recipes. Applied to `Pre
 | Size | 57.5 | 45-65 | Large "golf-ball" grain |
 | Frequency | 71.3 | 55-70 | Pronounced texture |
 
+> **Note:** Values in the table above reflect community consensus before STYLEGUIDE v2.1 alignment. The actual XMP supersedes several values per grain protection rules and grain hard caps. See [STYLEGUIDE v2.1 Alignment](#styleguide-v21-alignment) below for final XMP values. Specifically: GrainAmount 71.3→60 (hard cap), GrainSize 57.5→55, Clarity -10→0, Texture -11.3→0, Dehaze -10→0.
+
 **Key sources:** r/analog, r/Lightroom, r/Darkroom, Photrio, 35mmc, VSCO Film 02 reference, Mastin Labs Ilford Pack reference.
 
 ## STYLEGUIDE v2.1 Alignment
@@ -391,9 +393,11 @@ All XMP values within valid ranges:
 | Skin tone luminance | Red +15, Orange +20 | Applied ✓ | Noir skin glow |
 | Atmospheric/moody feel | (Dehaze removed per grain protection) | Not applied | Community intent was correct; execution method conflicts |
 
-### Validation Status: ✅ PASS (3 moderate flags documented; community wants more grain than STYLEGUIDE allows)
+### Validation Status: ✅ PASS (3 moderate flags documented; community wants more grain than STYLEGUIDE allows; documentation corrected)
 
 The community understands Delta 3200's unique character extremely well: lifted blacks, low contrast, heavy large-grain texture, midtone-centric rendering. The community-recommended GrainAmount of 65 is slightly above STYLEGUIDE's 60 hard cap — a legitimate tension between community preference and display-survivability concerns. The Sharpening recommendation is the primary failure: community advocates Sharpening 40-60 with heavy grain, which STYLEGUIDE and basic signal processing principles confirm would create jagged digital noise. The XMP correctly uses Sharpness=10.
+
+**Documentation fix (2026-06-01):** Added note to Community Validated Values table clarifying values reflect pre-STYLEGUIDE consensus, not final XMP state. Actual XMP: GrainAmount=60, GrainSize=55, GrainFrequency=71.3, Clarity=0, Texture=0, Dehaze=0, Sharpness=10.
 
 **Key Data Quality Strength**: The developer comparison table (Microphen, DD-X, Rodinal, HC-110, DF96) is technically accurate and maps chemical processing differences to digital slider equivalents. This is exactly the kind of reference data that justifies slider choices.
 ```

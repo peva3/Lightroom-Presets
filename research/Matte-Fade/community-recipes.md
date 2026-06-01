@@ -277,6 +277,10 @@ XMP values match consensus except Vibrance: community wants +12, XMP has -5. See
 - r/Lightroom megathreads: High consensus on technique, moderate variation in values.
 - VSCO/Mastin Labs: Commercial benchmarks for the look's market adoption.
 
+### Fixes Applied (2026-06-01 Batch 5)
+- **No XMP changes possible**: The Vibrance/Saturation gap (community wants +12/-8, diff=20) is a systemic STYLEGUIDE §XV.5 violation. XMP uses Vibrance=-5, Sat=-8 (diff=3) — the compliant compromise. This changes the aesthetic from "vibrant midtones + muted overall" to "uniformly muted" but avoids the selective-color bug. Resolution requires STYLEGUIDE revision.
+- **No documentation false claims**: Consensus values accurately represent community; 5% alignment already documents XMP compromise.
+
 ### Special Note
 The Vibrance/Saturation conflict is recorded here as **CRITICAL** because it is a structural, repeated pattern across all 5 matte fade recipes. This is not an isolated community error — the community is intentionally asking for a gap that the STYLEGUIDE prohibits. Resolution requires either relaxing the STYLEGUIDE for this preset class or documenting the trade-off explicitly.
 

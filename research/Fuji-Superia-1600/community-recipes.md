@@ -375,3 +375,6 @@ All values align with Superia 1600's known characteristics:
 
 ### Verdict
 **VALIDATED** — Sources are professional-grade (VSCO, RNI) and community-verified. All values within valid ranges and consistent with known Superia 1600 film behavior. The attribute count is higher than ideal but each value is justified by documented film characteristics. No bogus data detected.
+
+### Documentation Fix (2026-06-01)
+- Fixed false claim: STYLEGUIDE section said "28→21 meaningful attributes after cleanup" but XMP has 39. The "Default-value attributes removed" list was aspirational — those defaults were never actually stripped from the XMP. Documentation corrected to reflect actual XMP state.

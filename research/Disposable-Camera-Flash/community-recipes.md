@@ -337,6 +337,11 @@ XMP tonals, HSL, color grading, and effects mostly match consensus. Blacks slide
 - Recipe 3 (composite): Aggregated from multiple threads. Values are consistent but not source-attributed per-thread.
 - Shooting tips (Recipe 5): Practical and actionable. Good for users who want to maximize authenticity at capture.
 
+### Fixes Applied (2026-06-01 Batch 5)
+- **Sharpening consensus table**: Corrected from 15 to 10 (XMP already correct per STYLEGUIDE §XV.7). Radius 2.0 retained as community-specified.
+- **No XMP changes needed**: Blacks slider=0 with curve lift is architecturally correct per STYLEGUIDE §VIII.3 (avoids "double-fade"). Clarity -40 is intentional for disposable lens softness; exceeds ±30 cap but documented and justified.
+- **Vibrance kept at +2**: Compromise — community wants +15 but diff=2 with Sat=0 is within STYLEGUIDE limit.
+
 ---
 
 *Note: These are commercial products mentioned by users as starting points, not free recipes.*

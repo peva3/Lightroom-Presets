@@ -419,8 +419,10 @@ All XMP values within valid ranges:
 | Moderate-to-strong midtone contrast | Contrast +35, Blacks -30 | Applied ✓ | D-76 box speed reference |
 | Preserve highlight separation | Yellow -5 | Applied ✓ | Subtle yellow channel restraint |
 
-### Validation Status: ✅ PASS (3 moderate flags documented; XMP correctly disregards them)
+### Validation Status: ✅ PASS (3 moderate flags documented; XMP correctly disregards them; documentation corrected)
 
 The community recipe collection is excellent as a historical reference for Tri-X's different looks across developers and EI ratings. However, two of five recipes (Rodinal and pushed HC-110) recommend sharpening and clarity values that would produce jagged digital artifacts when combined with Lightroom's grain engine. The XMP correctly applies STYLEGUIDE grain protection rules. The "woven grain/reticulation" discussion is properly identified as a processing artifact, not inherent film behavior — this demonstrates good community knowledge quality.
+
+**Documentation fix (2026-06-01):** Added note to Community Validated Values table clarifying values reflect pre-STYLEGUIDE consensus, not final XMP state. Actual XMP: Blacks=-30, Clarity=0, Dehaze=0, Texture=0, GrainAmount=55, GrainSize=35, GrainFrequency=65, Sharpness=10.
 
 **Note**: The STYLEGUIDE grain table (Tri-X: Amount 40-55, Size 25-35, Roughness 50-65) is slightly more conservative than the community consensus (Amount 55-70, Size 35-45, Roughness 65-80). The XMP follows STYLEGUIDE caps at the upper boundary. Community values are not "bogus" — they reflect user preference for more prominent grain — but STYLEGUIDE's display-survivability concerns (§XIII) justify the conservative caps.

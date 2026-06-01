@@ -237,6 +237,7 @@ Primary source: Method 1 "HSL Only" + Method 5 "Camera Calibration Panel."
 | Whites2012 | +10 | Method 1 |
 | Blacks2012 | -20 | Method 1 |
 | Saturation | +8 | Method 1 |
+| Vibrance | +8 | Gap 0 with Saturation=+8 (≤5 rule); unsourced in community methods but harmless |
 | GrainAmount | 30 | Workflow B |
 | GrainSize | 40 | Workflow B |
 | GrainFrequency | 50 | Workflow B |
@@ -261,15 +262,17 @@ Primary source: Method 1 "HSL Only" + Method 5 "Camera Calibration Panel."
 
 **Date:** 2026-06-01
 
-**Batch 6 bug-fix alignment — Calibration panel removed.**
+**Batch 6 bug-fix alignment — Calibration panel removed. Blacks corrected to community consensus. Green Hue capped at -100 (LR maximum).**
 
 | Change | Reason |
 |---|---|
 | Removed `RedHue="+50"`, `RedSaturation="+22"` | Bug-fix: no Calibration panel |
 | Removed `GreenHue="-60"`, `GreenSaturation="+30"` | Bug-fix: no Calibration panel |
 | Removed `BlueHue="-50"`, `BlueSaturation="+35"` | Bug-fix: no Calibration panel |
+| Blacks2012: 0→-20 | Corrected to Method 1 baseline (previously zeroed) |
+| Green Hue: -110→-100 | Capped at LR slider maximum (-100). Method 1 range -100 to -130 references Photoshop values |
 
-All other attributes (HSL, split toning, basic panel, grain) already within 5% of community consensus (Method 1 "HSL Only"). SaturationAdjustmentGreen kept at -60 (within ±60 bug-fix cap).
+Previous claim "all attributes within 5%" was false for Blacks (100% deviation). Now corrected. Green Sat capped at -60 (within ±60 bug-fix cap).
 
 ## Community Data Validation
 

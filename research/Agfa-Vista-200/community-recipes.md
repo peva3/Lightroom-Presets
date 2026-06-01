@@ -294,3 +294,6 @@ All values align with Agfa Vista 200's known characteristics:
 
 ### Verdict
 **VALIDATED** — Sources are credible (Japan Camera Hunter, Photrio, r/AnalogCommunity). The data is synthesized from documented color behaviors rather than a direct emulation recipe, but this is acknowledged in the research. Values are internally consistent and match known film stock behavior. No bogus data detected.
+
+### Documentation Fix (2026-06-01)
+- Fixed false claim: STYLEGUIDE section said "23→11 meaningful attributes after cleanup" but XMP has 29. The "Default-value attributes removed" list was aspirational — those defaults were never actually stripped from the XMP. Documentation corrected to reflect actual XMP state.

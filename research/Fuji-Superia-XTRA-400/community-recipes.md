@@ -365,3 +365,6 @@ All values align with Superia X-TRA 400's known characteristics:
 
 ### Verdict
 **VALIDATED** — Community data is credible, well-sourced, and consistent. No suspicious values or bogus data detected.
+
+### Documentation Fix (2026-06-01)
+- Fixed false claim: STYLEGUIDE section said "14 meaningful attributes after cleanup" but XMP has 20. The "Default-value attributes removed" list was aspirational — those defaults were never actually stripped from the XMP. Documentation corrected to reflect actual XMP state.

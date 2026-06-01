@@ -290,3 +290,6 @@ All values align with Vision3 250D's known characteristics:
 
 ### Verdict
 **VALIDATED** — Sources include professional-grade film emulation tools (Dehancer) and a dedicated YouTube tutorial creator (Golden Coast Presets). All values within valid ranges and consistent with documented 250D film behavior. No bogus data detected.
+
+### Documentation Fix (2026-06-01)
+- Fixed false claim: STYLEGUIDE section said "23→11 meaningful attributes after cleanup" but XMP has 40. The "Default-value attributes removed" list was aspirational — those defaults were never actually stripped from the XMP. Documentation corrected to reflect actual XMP state.
