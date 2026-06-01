@@ -1,110 +1,174 @@
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00">
  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about=""
-    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
-    crs:PresetType="Normal"
-    crs:Cluster=""
-    crs:UUID="C47D2F1E8B9A4635A7E3F6D0C1B29874"
-    crs:SupportsAmount="True"
-    crs:SupportsColor="True"
-    crs:SupportsMonochrome="True"
-    crs:SupportsHighDynamicRange="True"
-    crs:SupportsNormalDynamicRange="True"
-    crs:SupportsSceneReferred="True"
-    crs:SupportsOutputReferred="True"
-    crs:RequiresRenditionBehavior="True"
-    crs:Name="Fuji Superia 1600"
-    crs:Treatment="Color"
-    crs:ProcessVersion="15.4"
-    crs:HasSettings="True"
-    crs:Blacks2012="-19"
-    crs:Contrast2012="+28"
-    crs:Exposure2012="+0.11"
-    crs:GrainAmount="40"
-    crs:GrainFrequency="60"
-    crs:GrainSize="40"
-    crs:Highlights2012="-36"
-    crs:HueAdjustmentAqua="+10"
-    crs:HueAdjustmentBlue="-5"
-    crs:HueAdjustmentGreen="+15"
-    crs:HueAdjustmentMagenta="+5"
-    crs:HueAdjustmentOrange="-5"
-    crs:HueAdjustmentPurple="+10"
-    crs:HueAdjustmentRed="+5"
-    crs:HueAdjustmentYellow="-10"
-    crs:LuminanceAdjustmentAqua="-5"
-    crs:LuminanceAdjustmentBlue="-10"
-    crs:LuminanceAdjustmentGreen="-10"
-    crs:LuminanceAdjustmentMagenta="0"
-    crs:LuminanceAdjustmentOrange="0"
-    crs:LuminanceAdjustmentPurple="-5"
-    crs:LuminanceAdjustmentRed="-5"
-    crs:LuminanceAdjustmentYellow="+5"
-    crs:Saturation="+6"
-    crs:SaturationAdjustmentAqua="+15"
-    crs:SaturationAdjustmentBlue="+16"
-    crs:SaturationAdjustmentGreen="+21"
-    crs:SaturationAdjustmentMagenta="+5"
-    crs:SaturationAdjustmentOrange="+5"
-    crs:SaturationAdjustmentPurple="+5"
-    crs:SaturationAdjustmentRed="+11"
-    crs:SaturationAdjustmentYellow="+10"
-    crs:Shadows2012="+21"
-    crs:SplitToningBalance="-10"
-    crs:SplitToningHighlightHue="40"
-    crs:SplitToningHighlightSaturation="7"
-    crs:SplitToningShadowHue="208"
-    crs:SplitToningShadowSaturation="13"
-    crs:Whites2012="+11">
-   <crs:Name>
-    <rdf:Alt>
-     <rdf:li xml:lang="x-default">Fuji Superia 1600</rdf:li>
-    </rdf:Alt>
-   </crs:Name>
-   <crs:Group>
-    <rdf:Alt>
-     <rdf:li xml:lang="x-default">Color Negative</rdf:li>
-    </rdf:Alt>
-   </crs:Group>
-   <crs:Look>
-    <rdf:Description
-     crs:Name="Adobe Color"
-     crs:Amount="1.000000"
-     crs:UUID="B952C21111114111B1115456789ABCDE"
-     crs:SupportsAmount="True"
-     crs:SupportsMonochrome="False"
-     crs:SupportsOutputReferred="True">
-     <crs:Group>
-      <rdf:Alt>
-       <rdf:li xml:lang="x-default">Profiles</rdf:li>
-      </rdf:Alt>
-     </crs:Group>
-    </rdf:Description>
-   </crs:Look>
-   <crs:ToneCurvePV2012>
-    <rdf:Seq>
-     <rdf:li>0, 0</rdf:li>
-     <rdf:li>255, 255</rdf:li>
-    </rdf:Seq>
-   </crs:ToneCurvePV2012>
-   <crs:ToneCurvePV2012Red>
-    <rdf:Seq>
-     <rdf:li>0, 0</rdf:li>
-     <rdf:li>255, 255</rdf:li>
-    </rdf:Seq>
-   </crs:ToneCurvePV2012Red>
-   <crs:ToneCurvePV2012Green>
-    <rdf:Seq>
-     <rdf:li>0, 0</rdf:li>
-     <rdf:li>255, 255</rdf:li>
-    </rdf:Seq>
-   </crs:ToneCurvePV2012Green>
-   <crs:ToneCurvePV2012Blue>
-    <rdf:Seq>
-     <rdf:li>0, 0</rdf:li>
-     <rdf:li>255, 255</rdf:li>
-    </rdf:Seq>
-   </crs:ToneCurvePV2012Blue>
-  </rdf:Description>
+ <rdf:Description rdf:about=""
+ xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+ crs:PresetType="Normal"
+ crs:Cluster=""
+ crs:UUID="C47D2F1E8B9A4635A7E3F6D0C1B29874"
+ crs:SupportsAmount="True"
+ crs:SupportsColor="True"
+ crs:SupportsMonochrome="True"
+ crs:SupportsHighDynamicRange="True"
+ crs:SupportsNormalDynamicRange="True"
+ crs:SupportsSceneReferred="True"
+ crs:SupportsOutputReferred="True"
+ crs:RequiresRenditionBehavior="True"
+ crs:Name="Fuji Superia 1600"
+ crs:Treatment="Color"
+ crs:ProcessVersion="15.4"
+ crs:HasSettings="True"
+ crs:Blacks2012="-19"
+ crs:Contrast2012="+28"
+ crs:Exposure2012="+0.11"
+ crs:GrainAmount="40"
+ crs:GrainFrequency="60"
+ crs:GrainSize="40"
+ crs:Highlights2012="-36"
+ crs:HueAdjustmentAqua="+10"
+ crs:HueAdjustmentBlue="-5"
+ crs:HueAdjustmentGreen="+15"
+ crs:HueAdjustmentMagenta="+5"
+ crs:HueAdjustmentOrange="-5"
+ crs:HueAdjustmentPurple="+10"
+ crs:HueAdjustmentRed="+5"
+ crs:HueAdjustmentYellow="-10"
+ crs:LuminanceAdjustmentAqua="-5"
+ crs:LuminanceAdjustmentBlue="-10"
+ crs:LuminanceAdjustmentGreen="-10"
+ crs:LuminanceAdjustmentMagenta="0"
+ crs:LuminanceAdjustmentOrange="0"
+ crs:LuminanceAdjustmentPurple="-5"
+ crs:LuminanceAdjustmentRed="-5"
+ crs:LuminanceAdjustmentYellow="+5"
+ crs:Saturation="+6"
+ crs:SaturationAdjustmentAqua="+15"
+ crs:SaturationAdjustmentBlue="+16"
+ crs:SaturationAdjustmentGreen="+21"
+ crs:SaturationAdjustmentMagenta="+5"
+ crs:SaturationAdjustmentOrange="+5"
+ crs:SaturationAdjustmentPurple="+5"
+ crs:SaturationAdjustmentRed="+11"
+ crs:SaturationAdjustmentYellow="+10"
+ crs:Shadows2012="+21"
+
+ crs:Whites2012="+11">
+ <crs:Name>
+ <rdf:Alt>
+ <rdf:li xml:lang="x-default">Fuji Superia 1600</rdf:li>
+ </rdf:Alt>
+ </crs:Name>
+ <crs:Group>
+ <rdf:Alt>
+ <rdf:li xml:lang="x-default">Color Negative</rdf:li>
+ </rdf:Alt>
+ </crs:Group>
+ <crs:ToneCurvePV2012>
+ <rdf:Seq>
+ <rdf:li>0, 0</rdf:li>
+ <rdf:li>42, 28</rdf:li>
+ <rdf:li>128, 128</rdf:li>
+ <rdf:li>213, 230</rdf:li>
+ <rdf:li>255, 255</rdf:li>
+ </rdf:Seq>
+ </crs:ToneCurvePV2012>
+ <crs:ToneCurvePV2012Red>
+ <rdf:Seq>
+ <rdf:li>0, 0</rdf:li>
+ <rdf:li>42, 28</rdf:li>
+ <rdf:li>128, 128</rdf:li>
+ <rdf:li>213, 230</rdf:li>
+ <rdf:li>255, 255</rdf:li>
+ </rdf:Seq>
+ </crs:ToneCurvePV2012Red>
+ <crs:ToneCurvePV2012Green>
+ <rdf:Seq>
+ <rdf:li>0, 0</rdf:li>
+ <rdf:li>42, 28</rdf:li>
+ <rdf:li>128, 128</rdf:li>
+ <rdf:li>213, 230</rdf:li>
+ <rdf:li>255, 255</rdf:li>
+ </rdf:Seq>
+ </crs:ToneCurvePV2012Green>
+ <crs:ToneCurvePV2012Blue>
+ <rdf:Seq>
+ <rdf:li>0, 0</rdf:li>
+ <rdf:li>42, 28</rdf:li>
+ <rdf:li>128, 128</rdf:li>
+ <rdf:li>213, 230</rdf:li>
+ <rdf:li>255, 255</rdf:li>
+ </rdf:Seq>
+ </crs:ToneCurvePV2012Blue>
+ <crs:Look>
+ <rdf:Description
+ crs:Name="Adobe Color"
+ crs:Amount="1.000000"
+ crs:UUID="B952C21111114111B1115456789ABCDE"
+ crs:SupportsAmount="True"
+ crs:SupportsMonochrome="False"
+ crs:SupportsOutputReferred="True">
+ <crs:Group>
+ <rdf:Alt>
+ <rdf:li xml:lang="x-default">Profiles</rdf:li>
+ </rdf:Alt>
+ </crs:Group>
+ </rdf:Description>
+ </crs:Look>
+ crs:ColorGradeMidtoneHue="0"
+ crs:ColorGradeMidtoneSat="0"
+ crs:ColorGradeMidtoneLum="0"
+ crs:ColorGradeHighlightHue="40"
+ crs:ColorGradeHighlightSat="7"
+ crs:ColorGradeHighlightLum="0"
+ crs:ColorGradeShadowHue="208"
+ crs:ColorGradeShadowSat="13"
+ crs:ColorGradeShadowLum="0"
+ crs:ColorGradeGlobalHue="0"
+ crs:ColorGradeGlobalSat="0"
+ crs:ColorGradeGlobalLum="0"
+ crs:ColorGradeBlending="50"
+ crs:ColorGradeBalance="-10"
+ crs:ColorGradeMidtoneHue="0"
+ crs:ColorGradeMidtoneSat="0"
+ crs:ColorGradeMidtoneLum="0"
+ crs:ColorGradeHighlightHue="40"
+ crs:ColorGradeHighlightSat="7"
+ crs:ColorGradeHighlightLum="0"
+ crs:ColorGradeShadowHue="208"
+ crs:ColorGradeShadowSat="13"
+ crs:ColorGradeShadowLum="0"
+ crs:ColorGradeGlobalHue="0"
+ crs:ColorGradeGlobalSat="0"
+ crs:ColorGradeGlobalLum="0"
+ crs:ColorGradeBlending="50"
+ crs:ColorGradeBalance="-10"
+ crs:ColorGradeMidtoneHue="0"
+ crs:ColorGradeMidtoneSat="0"
+ crs:ColorGradeMidtoneLum="0"
+ crs:ColorGradeHighlightHue="40"
+ crs:ColorGradeHighlightSat="7"
+ crs:ColorGradeHighlightLum="0"
+ crs:ColorGradeShadowHue="208"
+ crs:ColorGradeShadowSat="13"
+ crs:ColorGradeShadowLum="0"
+ crs:ColorGradeGlobalHue="0"
+ crs:ColorGradeGlobalSat="0"
+ crs:ColorGradeGlobalLum="0"
+ crs:ColorGradeBlending="50"
+ crs:ColorGradeBalance="-10"
+ crs:ColorGradeMidtoneHue="0"
+ crs:ColorGradeMidtoneSat="0"
+ crs:ColorGradeMidtoneLum="0"
+ crs:ColorGradeHighlightHue="40"
+ crs:ColorGradeHighlightSat="7"
+ crs:ColorGradeHighlightLum="0"
+ crs:ColorGradeShadowHue="208"
+ crs:ColorGradeShadowSat="13"
+ crs:ColorGradeShadowLum="0"
+ crs:ColorGradeGlobalHue="0"
+ crs:ColorGradeGlobalSat="0"
+ crs:ColorGradeGlobalLum="0"
+ crs:ColorGradeBlending="50"
+ crs:ColorGradeBalance="-10"
+ </rdf:Description>
  </rdf:RDF>
 </x:xmpmeta>

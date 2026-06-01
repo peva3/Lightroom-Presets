@@ -1,112 +1,176 @@
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00">
  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about=""
-    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
-    crs:PresetType="Normal"
-    crs:Cluster=""
-    crs:UUID="FEFAD93CFAEF4052AFD713000FDB7D59"
-    crs:SupportsAmount="True"
-    crs:SupportsColor="True"
-    crs:SupportsMonochrome="True"
-    crs:SupportsHighDynamicRange="True"
-    crs:SupportsNormalDynamicRange="True"
-    crs:SupportsSceneReferred="True"
-    crs:SupportsOutputReferred="True"
-    crs:RequiresRenditionBehavior="True"
-    crs:Name="10 Kodak Ektachrome E100"
-    crs:Treatment="Color"
-    crs:ProcessVersion="15.4"
-    crs:HasSettings="True"
-    crs:Blacks2012="-40"
-    crs:Clarity2012="+13.8"
-    crs:Contrast2012="+42.5"
-    crs:GrainAmount="10"
-    crs:GrainFrequency="50"
-    crs:GrainSize="25"
-    crs:Highlights2012="-40"
-    crs:HueAdjustmentAqua="+10"
-    crs:HueAdjustmentBlue="-12.5"
-    crs:HueAdjustmentGreen="+15"
-    crs:HueAdjustmentMagenta="+5"
-    crs:HueAdjustmentOrange="-5"
-    crs:HueAdjustmentPurple="+10"
-    crs:HueAdjustmentRed="+10"
-    crs:HueAdjustmentYellow="-5"
-    crs:LuminanceAdjustmentAqua="0"
-    crs:LuminanceAdjustmentBlue="-11.3"
-    crs:LuminanceAdjustmentGreen="0"
-    crs:LuminanceAdjustmentMagenta="0"
-    crs:LuminanceAdjustmentOrange="0"
-    crs:LuminanceAdjustmentPurple="0"
-    crs:LuminanceAdjustmentRed="0"
-    crs:LuminanceAdjustmentYellow="0"
-    crs:Saturation="+7.5"
-    crs:SaturationAdjustmentAqua="0"
-    crs:SaturationAdjustmentBlue="+7.5"
-    crs:SaturationAdjustmentGreen="-10"
-    crs:SaturationAdjustmentMagenta="-10"
-    crs:SaturationAdjustmentOrange="0"
-    crs:SaturationAdjustmentPurple="0"
-    crs:SaturationAdjustmentRed="-5"
-    crs:SaturationAdjustmentYellow="0"
-    crs:Shadows2012="+20"
-    crs:SplitToningBalance="-5"
-    crs:SplitToningHighlightHue="45"
-    crs:SplitToningHighlightSaturation="2.8"
-    crs:SplitToningShadowHue="215"
-    crs:SplitToningShadowSaturation="7.5"
-    crs:Texture="0"
-    crs:Vibrance="+2.5"
-    crs:Whites2012="+15">
-   <crs:Name>
-    <rdf:Alt>
-     <rdf:li xml:lang="x-default">10 Kodak Ektachrome E100</rdf:li>
-    </rdf:Alt>
-   </crs:Name>
-   <crs:Group>
-    <rdf:Alt>
-     <rdf:li xml:lang="x-default">Slide</rdf:li>
-    </rdf:Alt>
-   </crs:Group>
-   <crs:Look>
-    <rdf:Description
-     crs:Name="Adobe Color"
-     crs:Amount="1.000000"
-     crs:UUID="B952C21111114111B1115456789ABCDE"
-     crs:SupportsAmount="True"
-     crs:SupportsMonochrome="False"
-     crs:SupportsOutputReferred="True">
-     <crs:Group>
-      <rdf:Alt>
-       <rdf:li xml:lang="x-default">Profiles</rdf:li>
-      </rdf:Alt>
-     </crs:Group>
-    </rdf:Description>
-   </crs:Look>
-   <crs:ToneCurvePV2012>
-    <rdf:Seq>
-     <rdf:li>0, 0</rdf:li>
-     <rdf:li>255, 255</rdf:li>
-    </rdf:Seq>
-   </crs:ToneCurvePV2012>
-   <crs:ToneCurvePV2012Red>
-    <rdf:Seq>
-     <rdf:li>0, 0</rdf:li>
-     <rdf:li>255, 255</rdf:li>
-    </rdf:Seq>
-   </crs:ToneCurvePV2012Red>
-   <crs:ToneCurvePV2012Green>
-    <rdf:Seq>
-     <rdf:li>0, 0</rdf:li>
-     <rdf:li>255, 255</rdf:li>
-    </rdf:Seq>
-   </crs:ToneCurvePV2012Green>
-   <crs:ToneCurvePV2012Blue>
-    <rdf:Seq>
-     <rdf:li>0, 0</rdf:li>
-     <rdf:li>255, 255</rdf:li>
-    </rdf:Seq>
-   </crs:ToneCurvePV2012Blue>
-  </rdf:Description>
+ <rdf:Description rdf:about=""
+ xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+ crs:PresetType="Normal"
+ crs:Cluster=""
+ crs:UUID="FEFAD93CFAEF4052AFD713000FDB7D59"
+ crs:SupportsAmount="True"
+ crs:SupportsColor="True"
+ crs:SupportsMonochrome="True"
+ crs:SupportsHighDynamicRange="True"
+ crs:SupportsNormalDynamicRange="True"
+ crs:SupportsSceneReferred="True"
+ crs:SupportsOutputReferred="True"
+ crs:RequiresRenditionBehavior="True"
+ crs:Name="10 Kodak Ektachrome E100"
+ crs:Treatment="Color"
+ crs:ProcessVersion="15.4"
+ crs:HasSettings="True"
+ crs:Blacks2012="-40"
+ crs:Clarity2012="+13.8"
+ crs:Contrast2012="+42.5"
+ crs:GrainAmount="10"
+ crs:GrainFrequency="50"
+ crs:GrainSize="25"
+ crs:Highlights2012="-40"
+ crs:HueAdjustmentAqua="+10"
+ crs:HueAdjustmentBlue="-12.5"
+ crs:HueAdjustmentGreen="+15"
+ crs:HueAdjustmentMagenta="+5"
+ crs:HueAdjustmentOrange="-5"
+ crs:HueAdjustmentPurple="+10"
+ crs:HueAdjustmentRed="+10"
+ crs:HueAdjustmentYellow="-5"
+ crs:LuminanceAdjustmentAqua="0"
+ crs:LuminanceAdjustmentBlue="-11.3"
+ crs:LuminanceAdjustmentGreen="0"
+ crs:LuminanceAdjustmentMagenta="0"
+ crs:LuminanceAdjustmentOrange="0"
+ crs:LuminanceAdjustmentPurple="0"
+ crs:LuminanceAdjustmentRed="0"
+ crs:LuminanceAdjustmentYellow="0"
+ crs:Saturation="+7.5"
+ crs:SaturationAdjustmentAqua="0"
+ crs:SaturationAdjustmentBlue="+7.5"
+ crs:SaturationAdjustmentGreen="-10"
+ crs:SaturationAdjustmentMagenta="-10"
+ crs:SaturationAdjustmentOrange="0"
+ crs:SaturationAdjustmentPurple="0"
+ crs:SaturationAdjustmentRed="-5"
+ crs:SaturationAdjustmentYellow="0"
+ crs:Shadows2012="+20"
+
+ crs:Texture="0"
+ crs:Vibrance="+2.5"
+ crs:Whites2012="+15">
+ <crs:Name>
+ <rdf:Alt>
+ <rdf:li xml:lang="x-default">10 Kodak Ektachrome E100</rdf:li>
+ </rdf:Alt>
+ </crs:Name>
+ <crs:Group>
+ <rdf:Alt>
+ <rdf:li xml:lang="x-default">Slide</rdf:li>
+ </rdf:Alt>
+ </crs:Group>
+ <crs:ToneCurvePV2012>
+ <rdf:Seq>
+ <rdf:li>0, 0</rdf:li>
+ <rdf:li>42, 28</rdf:li>
+ <rdf:li>128, 128</rdf:li>
+ <rdf:li>213, 230</rdf:li>
+ <rdf:li>255, 255</rdf:li>
+ </rdf:Seq>
+ </crs:ToneCurvePV2012>
+ <crs:ToneCurvePV2012Red>
+ <rdf:Seq>
+ <rdf:li>0, 0</rdf:li>
+ <rdf:li>42, 28</rdf:li>
+ <rdf:li>128, 128</rdf:li>
+ <rdf:li>213, 230</rdf:li>
+ <rdf:li>255, 255</rdf:li>
+ </rdf:Seq>
+ </crs:ToneCurvePV2012Red>
+ <crs:ToneCurvePV2012Green>
+ <rdf:Seq>
+ <rdf:li>0, 0</rdf:li>
+ <rdf:li>42, 28</rdf:li>
+ <rdf:li>128, 128</rdf:li>
+ <rdf:li>213, 230</rdf:li>
+ <rdf:li>255, 255</rdf:li>
+ </rdf:Seq>
+ </crs:ToneCurvePV2012Green>
+ <crs:ToneCurvePV2012Blue>
+ <rdf:Seq>
+ <rdf:li>0, 0</rdf:li>
+ <rdf:li>42, 28</rdf:li>
+ <rdf:li>128, 128</rdf:li>
+ <rdf:li>213, 230</rdf:li>
+ <rdf:li>255, 255</rdf:li>
+ </rdf:Seq>
+ </crs:ToneCurvePV2012Blue>
+ <crs:Look>
+ <rdf:Description
+ crs:Name="Adobe Vivid"
+ crs:Amount="1.000000"
+ crs:UUID="EA1DE074F188405965EF399C72C221D9"
+ crs:SupportsAmount="True"
+ crs:SupportsMonochrome="False"
+ crs:SupportsOutputReferred="True">
+ <crs:Group>
+ <rdf:Alt>
+ <rdf:li xml:lang="x-default">Profiles</rdf:li>
+ </rdf:Alt>
+ </crs:Group>
+ </rdf:Description>
+ </crs:Look>
+ crs:ColorGradeMidtoneHue="0"
+ crs:ColorGradeMidtoneSat="0"
+ crs:ColorGradeMidtoneLum="0"
+ crs:ColorGradeHighlightHue="45"
+ crs:ColorGradeHighlightSat="2.8"
+ crs:ColorGradeHighlightLum="0"
+ crs:ColorGradeShadowHue="215"
+ crs:ColorGradeShadowSat="7.5"
+ crs:ColorGradeShadowLum="0"
+ crs:ColorGradeGlobalHue="0"
+ crs:ColorGradeGlobalSat="0"
+ crs:ColorGradeGlobalLum="0"
+ crs:ColorGradeBlending="50"
+ crs:ColorGradeBalance="-5"
+ crs:ColorGradeMidtoneHue="0"
+ crs:ColorGradeMidtoneSat="0"
+ crs:ColorGradeMidtoneLum="0"
+ crs:ColorGradeHighlightHue="45"
+ crs:ColorGradeHighlightSat="2.8"
+ crs:ColorGradeHighlightLum="0"
+ crs:ColorGradeShadowHue="215"
+ crs:ColorGradeShadowSat="7.5"
+ crs:ColorGradeShadowLum="0"
+ crs:ColorGradeGlobalHue="0"
+ crs:ColorGradeGlobalSat="0"
+ crs:ColorGradeGlobalLum="0"
+ crs:ColorGradeBlending="50"
+ crs:ColorGradeBalance="-5"
+ crs:ColorGradeMidtoneHue="0"
+ crs:ColorGradeMidtoneSat="0"
+ crs:ColorGradeMidtoneLum="0"
+ crs:ColorGradeHighlightHue="45"
+ crs:ColorGradeHighlightSat="2.8"
+ crs:ColorGradeHighlightLum="0"
+ crs:ColorGradeShadowHue="215"
+ crs:ColorGradeShadowSat="7.5"
+ crs:ColorGradeShadowLum="0"
+ crs:ColorGradeGlobalHue="0"
+ crs:ColorGradeGlobalSat="0"
+ crs:ColorGradeGlobalLum="0"
+ crs:ColorGradeBlending="50"
+ crs:ColorGradeBalance="-5"
+ crs:ColorGradeMidtoneHue="0"
+ crs:ColorGradeMidtoneSat="0"
+ crs:ColorGradeMidtoneLum="0"
+ crs:ColorGradeHighlightHue="45"
+ crs:ColorGradeHighlightSat="2.8"
+ crs:ColorGradeHighlightLum="0"
+ crs:ColorGradeShadowHue="215"
+ crs:ColorGradeShadowSat="7.5"
+ crs:ColorGradeShadowLum="0"
+ crs:ColorGradeGlobalHue="0"
+ crs:ColorGradeGlobalSat="0"
+ crs:ColorGradeGlobalLum="0"
+ crs:ColorGradeBlending="50"
+ crs:ColorGradeBalance="-5"
+ </rdf:Description>
  </rdf:RDF>
 </x:xmpmeta>
