@@ -1,6 +1,6 @@
 # XMP Profile & Color Grading Styleguide
-Version: 2.0
-Purpose: An authoritative architectural and artistic framework for constructing and refining Lightroom XMP presets. This document captures the physics of film emulation, the mathematics of human color perception, and the "10,000-hour" lessons learned through trial and error. Treat it as the single source of truth before editing any XMP.
+Version: 2.1
+Purpose: An authoritative architectural and artistic framework for constructing and refining Lightroom XMP presets. Synthesizes film physics, color science, pipeline architecture, whitepaper research, and YouTube pro creator techniques. Treat this as the single source of truth before editing any XMP.
 
 ## I. Structural Integrity & System Safeguards
 
@@ -497,7 +497,190 @@ Texture: 0
 Dehaze: 0
 ```
 
-## XI. Preset Portability & Survivability
+## XI. YouTube & Pro Creator Techniques
+
+### A. B&W Editing — Mixer, Contrast, Grain
+
+**The B&W Mixer** (triggered by one click or `V` key) converts each color channel into a luminance contribution. The real art is in the B&W Mix tab. Generic B&W conversion is flat — every image needs shot-specific tonal separation.
+
+| Color | Direction | Effect on Grayscale |
+|-------|-----------|---------------------|
+| Red | +10 to +20 | Lighten skin / lips |
+| Orange | +5 to +15 | Lighten skin tones (key portrait control) |
+| Yellow | +10 to +20 | Brighten grass, warm highlights |
+| Green | 0 to -20 | Darken foliage for depth |
+| Aqua | -5 to -15 | Darken coastal blues |
+| Blue | -10 to -20 | Dramatic dark skies |
+| Purple | 0 to -10 | Subtle background darkening |
+| Magenta | -5 to -15 | Tame artificial light sources |
+
+**Contrast layering for B&W** (from Jeff Ascough/Anthony Morganti philosophy):
+- Clarity builds structural "shape" at the midtone level — use locally with brushes, not globally
+- Texture affects fine edge detail (skin precision) — smaller radius than Clarity
+- Dehaze darkens near-light areas — easily overpowers in B&W; cap at 5–15 max
+- Stack small amounts of each for richer results than one slider maxed
+- Sean Tucker: "Shadows that go to black should do so deliberately, not accidentally"
+
+**B&W Grain by film stock:**
+| Film Stock | Amount | Size | Roughness |
+|------------|--------|------|-----------|
+| Tri-X 400 | 40–55 | 25–35 | 50–65 |
+| HP5+ | 30–45 | 20–30 | 50–60 |
+| Delta 3200 | 50–70 | 40–55 | 60–80 |
+| T-Max 3200 | 55–75 | 40–60 | 65–85 |
+| Acros | 15–25 | 15–25 | 45–55 |
+
+### B. Portrait Editing Techniques
+
+**Skin softening without Photoshop:** Negative Clarity (-15 to -40) via Brush or Radial Gradient over skin areas. Must pair with small Sharpness boost (+10 to +15) to retain realistic texture — negative Clarity alone creates plastic skin. Never apply globally. Julia Trotti and Anita Sadowska both use this as their primary Lightroom skin retouching method.
+
+**Skin tone protection (HSL priorities):**
+- Orange Lum +5 to +15: Brightens skin naturally (the most important skin slider)
+- Orange Sat -5 to -15: Calms ruddy/overly red skin
+- Red Sat -5 to -10: Reduces blemish prominence
+- Jessica Kobeissi's signature: Orange Lum +10, Orange Sat -10, Yellow Sat -5
+
+**Eye pop** (Peter McKinnon technique): Radial Gradient over each eye, Exposure +0.3, Clarity +25, Dehaze +10. For catchlights: tiny Brush on the sparkle, Exposure +1.0, Whites +30.
+
+### C. Landscape & Sky Editing
+
+**Sky darkening (three methods):**
+1. AI Select Sky mask → Exposure -0.5 to -1.0, Contrast +15 to +25, Dehaze +15 to +30
+2. Linear Gradient from top → Exposure -0.5 to -1.0, Contrast +15, Dehaze +15
+3. Multiple gradients: one for sky darkening, second flipped (press `'`) for foreground Clarity +20
+
+**Golden hour formula** (Peter McKinnon + community consensus):
+- Temp +10 (if WB not committed to preset), Tint +5 toward magenta
+- Orange Sat +15 to +20, Yellow Sat +10 to +15
+- Orange Lum +10 to +20, Yellow Hue -10 to -15 toward orange
+- Color Grading: warm highlights + shadows (H 40–50 sat 10–20 + H 30–40 sat 5–10)
+- Linear Gradient with warm gold overlay at sun direction, Dehaze -10 for atmospheric glow
+
+**Foliage naturalization:** Green Sat -10 to -20 (digital greens are too neon). Green Hue +20 to +40 for summer lush, or -10 to -20 for forest moody. Yellow adjustments massively affect foliage — Yellow Hue -10 to -20 shifts leaves toward autumn orange.
+
+**Aurora/night sky:** Dehaze +5 to +15 only (higher cranks contrast and saturation aggressively). Clarity +10 to +25 for banding definition. Saturation -5 to -10 first, compensate with Vibrance +10 to +20. Use Linear Gradient with Magenta Tint +10 to +20 on foreground snow to neutralize green aurora reflection.
+
+### D. Niche Creative Look Recipes
+
+**Cyberpunk / Blade Runner:**
+```
+Exposure: -0.50  |  Contrast: +45  |  Highlights: -65
+Shadows: +40  |  Whites: +30  |  Blacks: -40
+Clarity: +55  |  Dehaze: +45  |  Saturation: -15
+HSL: Green H-90/S-90, Yellow S-80, Magenta S+55
+Color Grading (Blending 70): Shd H230/S22, Hi H315/S22
+Grain: Amount 45, Size 40, Roughness 65
+```
+
+**1980s VHS / Synthwave:**
+```
+Contrast: +32  |  Highlights: -90  |  Shadows: +50
+Blacks: -40  |  Clarity: -23  |  Dehaze: -15
+Color Grading (Blending 50): Shd H200/S22, Hi H310/S32, Bal +30
+HSL: Red H+20/S+20, Green H-45/S-60, Aqua S+28, Magenta S+33
+Grain: Amount 45, Size 42, Roughness 70
+```
+Negative Clarity and Dehaze are the defining moves — they create the analog bloom and VHS fog. Negative Texture (-25 to -40) adds channel misalignment degradation.
+
+**Wong Kar-Wai / Doyle Green:**
+```
+Exposure: -0.40  |  Contrast: +25  |  Highlights: -50
+Shadows: +20  |  Blacks: -40  |  Clarity: -10
+HSL: Green H-50/S+32/L-20, Orange S-12, Magenta S+32
+Color Grading (Blending 50): Shd H170/S20, Hi H190/S12, Bal -15
+```
+The green shadow shift (H170) is the defining move. Orange Sat -12 protects skin from green cast contamination. Three variants exist: Chungking Express (mid contrast), Fallen Angels (extreme +35-50 contrast), In the Mood for Love (warm amber shadows, gentler).
+
+**Bleach Bypass (Saving Private Ryan / Seven):**
+```
+Exposure: -0.50  |  Contrast: +70  |  Highlights: -65
+Shadows: -40  |  Whites: +15  |  Blacks: -50
+Clarity: +45  |  Dehaze: +20
+HSL: Red -30, Orange -25, Yellow -35, Green -40, Aqua -45, Blue -20, Purple -35, Magenta -40
+Color Grading (Blending 50): Shd H225/S10, Hi H45/S7
+Grain: Amount 41-45, Size 40
+```
+Real bleach bypass reduces saturation MORE in highlights than shadows — channel-specific desaturation matters more than global Saturation. Clarity abuse is the #1 mistake — contrast first, clarity second.
+
+**Wes Anderson Pastel:**
+```
+Exposure: +0.25  |  Contrast: -30  |  Highlights: -60
+Shadows: +45  |  Whites: +15  |  Blacks: +28
+Clarity: -25  |  Dehaze: -15  |  Saturation: -12
+HSL: Orange H-10/S-15/L+10, Green H+15/S-20, Blue S-20, Magenta H+10/S+5
+Color Grading (Blending 70): Shd H200/S12, Hi H45/S8
+```
+The lifted black point in the tone curve is 70% of the look. Shoot slightly overexposed (+0.3 to +1.0 EV). "If your image doesn't work at -30 clarity, it's not the right image."
+
+### E. Pro Workflow & Preset Creation Rules
+
+**What makes a preset sellable** (from top YouTube creators):
+1. Must look dramatically different from unedited RAW at one click
+2. Must work across fair, medium, and dark skin tones — skin tone failure is the #1 complaint in reviews
+3. Test on golden hour, overcast, indoor tungsten, and flash
+4. Include multiple strength variants ("Preset +" and "Preset -")
+5. Exclude crop, exposure, WB, spot removal, and local adjustments when saving
+6. Professional naming — descriptive not gimmicky. "Warm Golden Hour" sells better than "Sunshine Explosion"
+7. Include DNG/mobile versions — this doubled sales for many creators
+
+**The "Influencer Preset" Formula** (the dominant Instagram look):
+1. Adobe Color or Adobe Portrait profile
+2. Medium-contrast S-curve
+3. Warm split tone: Highlights warm (~H40), Shadows teal (~H220)
+4. HSL: desaturate greens (-10 to -30), push greens toward yellow (+20 to +40), boost orange luminance (+10)
+5. Slight vignette (-10 to -15)
+6. Dial preset Amount to 70–85% — 100% often overwhelms
+
+**Keyboard shortcuts every pro uses:**
+| Key | Function |
+|-----|----------|
+| R | Crop tool |
+| Q | Spot healing |
+| K | Adjustment brush |
+| M / Shift+M | Linear / Radial Gradient |
+| `\` | Toggle before/after |
+| `'` | Invert gradient direction |
+| Cmd/Ctrl+Shift+C/V | Copy/Paste settings |
+| Cmd/Ctrl+' | Create Virtual Copy |
+
+### F. Pro Secrets & Hidden Features
+
+**Profile selection is the foundation** — never leave it at Adobe Standard:
+
+| Profile | Best For |
+|---------|----------|
+| Adobe Standard | Neutral base for cinematic grades |
+| Adobe Neutral | Flattest base for building looks from scratch |
+| Adobe Portrait | Softer skin tone rendering |
+| Adobe Landscape | Punchy outdoors (poor base for moody looks) |
+| Adobe Vivid | Never use as grading base (too saturated) |
+| Camera-specific profiles | Revive colors Adobe Standard loses — always try these first |
+
+**Dehaze's hidden talents:** Negative Dehaze (-10 to -25) adds atmospheric "fog" — essential for VHS, Wes Anderson pastels, and cinematic dream looks. Positive Dehaze at +30–60 on cyberpunk creates neon glow bloom. B&W Dehaze caps at 5–15 max (beyond = harsh and unnatural).
+
+**RGB channel curves** (pro landscape colorist technique): Lift highlights in Red channel slightly left → warm cast in highlights without touching WB. Drop highlights in Blue channel → added yellow in highlights. "This is how pros warm a sky without touching white balance at all."
+
+**The "Visual Helper" trick** (Vlad Moldovean): Create a preset that applies Saturation -100 at 200% over entire image. Toggle on/off to edit luminance without color perception bias. Yellow feels brighter than blue at the same luminance — this eliminates that illusion for precise exposure balancing.
+
+**Clarity/Texture/Dehaze distinction:**
+| Slider | Radius | What It Does |
+|--------|--------|-------------|
+| Texture | 5–15 px | Edge contrast at finest details — skin pores, fabric |
+| Clarity | 30–100 px | Midtone contrast — builds structure, lightens near-dark edges |
+| Dehaze | Multi-scale | Darkens near-light areas, cuts atmospheric haze |
+
+For B&W portraits: Texture +10–15 is safer than global Sharpening. For landscapes: use Clarity + Texture stacked in small amounts rather than one maxed slider.
+
+**Settings pros avoid:**
+1. Calibration panel for film presets — global primary shifts cascade chaos (exception: Canon Color Science)
+2. `|Vibrance − Saturation| > 5` — creates the "B&W with one color" selective-color bug
+3. HSL saturation > |60| — nukes color channels into mathematical collapse
+4. WB in film presets — shifts cascade through entire pipeline before HSL operates
+5. Texture + Clarity + Dehaze simultaneously maxed — all frequency bands amplified = over-processed
+6. Presets at 100% strength — Furoore: "Apply your preset, dial back to 70–85%"
+7. Saturation slider for B&W conversion — produces flat, low-contrast B&W; always use B&W button + B&W Mix tab instead
+
+## XIII. Preset Portability & Survivability
 
 ### Design for the 95th Percentile Display
 
@@ -526,7 +709,7 @@ Print gamuts are narrower than sRGB. If you want a preset to survive the print w
 
 ICC v4 profiles assume full adaptation to display white point. But human white-point adaptation takes 10–15 minutes. A user who just opened their laptop sees your preset through *partial adaptation* — color casts appear 2–3× stronger than intended. This is the primary reason to avoid Temperature/Tint in presets. A "subtle warm cast" (+200K) on a calibrated monitor looks like a +500K error on a cold-start laptop.
 
-## XII. Competitive Strategy & Preset Viability
+## XIV. Competitive Strategy & Preset Viability
 
 ### The Open-Source Moat
 
@@ -546,7 +729,7 @@ The market is shifting from slider presets to DCP-based profiles. The strongest 
 
 Smartphone computational pipelines (Apple ProRAW, Google HDR+) produce fundamentally different starting points than dedicated cameras. Video LUT formats (CUBE, 3DL) are needed alongside XMP for cross-media workflows. A preset pack with matched photo XMP + video LUT versions has a competitive moat few offer.
 
-## XIII. The 10 Commandments of XMP Preset Design
+## XV. The 10 Commandments of XMP Preset Design
 
 All distilled rules in one place:
 
@@ -561,7 +744,7 @@ All distilled rules in one place:
 9. **8–15 attributes > 55–68 attributes** — Small, single-purpose adjustments compose better
 10. **Test on 3 image types minimum** — Chevreul's simultaneous contrast means a preset's behavior is image-dependent
 
-## XIV. References (Whitepaper Archive)
+## XVI. References (Whitepaper + YouTube Archive)
 
 The `research/whitepapers/` directory contains 36 reference documents organized by domain:
 
@@ -573,5 +756,30 @@ The `research/whitepapers/` directory contains 36 reference documents organized 
 - **Display/Calibration** (4): Monitor calibration, color accuracy, print workflow, HDR wide gamut
 - **RAW Pipelines** (4): Demosaicing (Bayer/X-Trans), noise reduction, color science, lens correction
 - **Grading Theory** (4): Primary/secondary grading, color theory, ACES + LUTs, split-toning theory
+
+### YouTube / Pro Creator Sources
+Techniques in Section XI are synthesized from the following channels and their most-viewed tutorials:
+
+| Creator | Subscribers | Known For |
+|---------|------------|-----------|
+| Peter McKinnon | 5.9M+ | Tone curves, cinematic color grading, preset creation |
+| Mango Street | 1M+ | Cinematic looks, teal & orange, color grading wheels, Blade Runner |
+| Jamie Windsor | 800K+ | Film emulation, B&W techniques, grain authenticity |
+| Julia Trotti | 200K+ | Portrait editing, Portra-style presets, HSL mastery |
+| Evan Ranft | 400K+ | Workflow optimization, virtual copies, batch editing |
+| Jessica Kobeissi | 1M+ | Portrait editing, skin tone protection |
+| Anita Sadowska | 500K+ | Skin retouching, negative Clarity technique |
+| Sean Tucker | 500K+ | B&W philosophy, tonal intention, contrast discipline |
+| Chris Hau | 500K+ | Cinematic color grading, teal/orange formulas |
+| North Borders | 500K+ | Creative grading, dark/moody looks |
+| 7th Era | 400K+ | Moody editing, night photography, PNW style |
+| Pat Kay | 200K+ | Color theory, grading wheel mastery, HSL deep dives |
+| Mark Denney | 400K+ | Landscape editing, basic panel workflow |
+| Anthony Morganti | 200K+ | Slider education, Texture/Clarity/Dehaze distinctions |
+| Jeff Ascough (via Fstoppers) | — | B&W printing philosophy, contrast layering |
+| Vlad Moldovean | — | Luminosity-masked grain, visual helper technique |
+| ExpertPhotography / Shotkit | — | Comprehensive tutorial articles, B&W mixer |
+| Presets.io | — | Film emulation recipes, moody editing guides |
+| dPS (Digital Photography School) | — | Landscape techniques, aurora editing, batch workflow |
 
 Consult these before making slider decisions that interact with sensor physics, display calibration, or print output.
