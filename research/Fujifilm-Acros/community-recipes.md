@@ -310,29 +310,33 @@ Primary source: Recipe 1 "Fuji X Weekly Acros (translated to Lightroom)."
 
 **Date:** 2026-06-01
 
-**Batch 6 — No changes needed.** XMP values already within 5% of community consensus (Recipe 1 "Fuji X Weekly Acros translated to Lightroom"). No Calibration panel, no Temperature/Tint, no Vibrance/Saturation issues (B&W preset). All GrayMixer values and basic panel values match community midpoints.
+**Batch 6 — Grain protection overrides applied to Clarity, Texture, and Sharpness.**
+
+| Attribute | Community Recipe | XMP Value | Reason |
+|---|---|---|---|
+| Clarity2012 | +15 (Recipe 1) | 0 | Grain protection rule: GrainAmount > 0 → Clarity=0 |
+| Texture | +10 (Recipe 1) | 0 | Grain protection rule: GrainAmount > 0 → Texture=0 |
+| Sharpness | +60 (Recipe 1) | 10 | Grain protection rule: GrainAmount > 0 → Sharpness ≤ 10 |
+
+The community recipe is a translation of Fujifilm in-camera JPEG settings where Fuji's JPEG engine handles grain differently than Lightroom's synthetic grain overlay. In Lightroom, the grain protection rule (AGENTS.md rule 9) correctly overrides the translated in-camera sharpening/clarity values. The previous claim of "within 5%" was false — these are deliberate overrides (100%, 100%, and 83% deviation from community midpoints), not alignment. No Calibration panel, no Temperature/Tint, no Vibrance/Saturation issues (B&W preset). All GrayMixer values and basic panel values match community midpoints.
 
 ## Community Data Validation
 
 **Date:** 2026-06-01 | **Validator:** Batch 6 audit
 
-### Validation Status: **PARTIALLY VALID — 2 flags, 1 false claim**
+### Validation Status: **PARTIALLY VALID — 2 flags RESOLVED**
 
-### Flag 1: "5% Alignment Update" claim of "within 5%" is false for multiple attributes (HIGH)
-- **Claim**: "No changes needed. XMP values already within 5% of community consensus."
-- **Reality**:
-  | Attribute | XMP Value | Community Midpoint | Deviation |
-  |---|---|---|---|
-  | Clarity2012 | 0 | +15 (Recipe 1) | 100% |
-  | Texture | 0 | +10 (Recipe 1) | 100% |
-  | Sharpness | 10 | +60 (Recipe 1) | 83% |
-- These are NOT "within 5%" — they are deliberate overrides for grain protection (STYLEGUIDE commandment #7: Grain > 0 → Sharpness ≤ 10, Clarity/Texture/Dehaze = 0).
-- **Root cause**: The community recipe is a translation of Fujifilm in-camera JPEG settings (where Sharpening +2 ≈ Sharpness +60, Clarity ~+15). These in-camera values assume Fuji's JPEG engine handles grain differently than Lightroom's synthetic grain overlay. When translated to Lightroom, the grain protection rule must override the translated values.
-- **Correct action**: The XMP followed the right rule (grain protection). The "5% Alignment Update" claim of "within 5%" is what's wrong — it should have stated "deliberately overridden for grain protection."
+### Flag 1: "5% Alignment Update" claim of "within 5%" was false for multiple attributes (RESOLVED)
+- **FIX**: "5% Alignment Update" section rewritten to explain grain protection overrides.
+  | Attribute | XMP Value | Community Midpoint | Deviation | Reason |
+  |---|---|---|---|---|
+  | Clarity2012 | 0 | +15 (Recipe 1) | 100% | Grain protection |
+  | Texture | 0 | +10 (Recipe 1) | 100% | Grain protection |
+  | Sharpness | 10 | +60 (Recipe 1) | 83% | Grain protection (≤10 rule) |
+- **Correct behavior**: The community recipe is a translation of Fujifilm in-camera JPEG settings where Fuji's JPEG engine handles grain differently than Lightroom. These overrides are correct per AGENTS.md rule 9. The previous claim of "within 5%" was mathematically wrong.
 
-### Flag 2: Contrast2012=0 — recipe doesn't specify it but XMP defaults to 0 (LOW)
-- **Recipe 1**: Does not specify a Contrast value. The Fuji in-camera recipe doesn't have a contrast slider; it uses Highlight Tone +2 and Shadow Tone +2.
-- **Impact**: Neutral Contrast (0) lets the tone curve and Basic Panel highlights/shadows/blacks handle tonal structure. This is appropriate given Recipe 1 uses Highlights -40 and Shadows +40 to emulate the Fuji Highlight/Shadow Tone settings. No Contrast is needed.
+### Flag 2: Contrast2012=0 — recipe doesn't specify it (LOW, ACKNOWLEDGED)
+- **Status**: Recipe 1 uses Highlights -40 and Shadows +40 to emulate Fuji Highlight/Shadow Tone settings. Neutral Contrast (0) is appropriate.
 
 ### Validated OK
 - GrayMixer (B&W Mix) — all 8 channels match Recipe 1 midpoints exactly. ✓

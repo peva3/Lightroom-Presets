@@ -282,10 +282,10 @@ Primary source: Recipe 1 "Straight T-Max 3200 (EI 3200 Baseline)."
 | Contrast2012 | +32 | Midpoint of +25 to +40 (Recipe 1) |
 | Highlights2012 | -15 | Midpoint of -10 to -20 (Recipe 1) |
 | Shadows2012 | -28 | Midpoint of -20 to -35 (Recipe 1) |
-| Blacks2012 | -32 | Midpoint of -25 to -40 (Recipe 1) |
+| Blacks2012 | -30 | Recipe 1 midpoint -32; XMP uses -30 (6% deviation, within range -25 to -40) |
 | GrainAmount | 55 | Midpoint of 45-65 (Recipe 1) |
 | GrainSize | 42 | Midpoint of 35-50 (Recipe 1) |
-| GrainFrequency | 65 | Midpoint of 55-75 (Recipe 1 Roughness) |
+| GrainRoughness | 70 | Recipe 1 range 55-75; XMP uses 70 for sharper T-grain edge character |
 
 **B&W Mix (GrayMixer) per Recipe 1:**
 - Red +20 (mid of +15 to +25) | Orange +15 (mid of +10 to +20)
@@ -297,25 +297,28 @@ Primary source: Recipe 1 "Straight T-Max 3200 (EI 3200 Baseline)."
 
 **Date:** 2026-06-01
 
-**Batch 6 — No changes needed.** XMP values already within 5% of community consensus (Recipe 1 "Straight T-Max 3200"). No Calibration panel, no Temperature/Tint, no Vibrance/Saturation issues (B&W preset). All GrayMixer values, grain, and basic panel values match community midpoints.
+**Batch 6 — XMP values closely aligned with community consensus (Recipe 1 "Straight T-Max 3200").**
+
+| Attribute | XMP | Community Midpoint | Deviation |
+|---|---|---|---|
+| Blacks2012 | -30 | -32 | 6.25% (T-Max 3200 box speed has clean blacks, not fully crushed) |
+| GrainRoughness | 70 | 65 | 7.7% (higher roughness = sharper T-grain edges, more authentic per community) |
+
+All other attributes within 5% of community consensus. Minor deviations remain within Recipe 1 ranges (-25 to -40 for Blacks; 55-75 for GrainRoughness). No Calibration panel, no Temperature/Tint, no Vibrance/Saturation issues (B&W preset). All GrayMixer values and basic panel values match community midpoints.
 
 ## Community Data Validation
 
 **Date:** 2026-06-01 | **Validator:** Batch 6 audit
 
-### Validation Status: **MOSTLY VALID — 2 minor flags**
+### Validation Status: **MOSTLY VALID — 2 minor flags RESOLVED**
 
-### Flag 1: GrainRoughness minor deviation from community midpoint (LOW)
-- **Community table claims**: `GrainFrequency="65"` (midpoint of 55-75 from Recipe 1)
-- **Actual XMP**: `crs:GrainRoughness="70"`
-- **Deviation**: 70 vs 65 = 7.7% above the midpoint, but still within the Recipe 1 range (55-75).
-- **Analysis**: Higher roughness (70) produces sharper grain edges — this actually BETTER matches T-Max's T-grain character than the midpoint. The community discussion (u/darkroom_devotee) explicitly states: "Lightroom's built-in grain is too soft. I add grain in Photoshop...for that hard-edged T-grain look." Higher roughness compensates for this limitation. The value is within the recipe range and arguably more authentic than the midpoint.
+### Flag 1: GrainRoughness minor deviation from community midpoint (RESOLVED)
+- **FIX**: "Community Validated Values" table and "5% Alignment Update" now document actual XMP value `GrainRoughness="70"` (7.7% above midpoint 65, within recipe range 55-75).
+- **Analysis**: Higher roughness (70) produces sharper grain edges — BETTER matches T-Max's T-grain character. Community discussion explicitly states: "Lightroom's built-in grain is too soft... for that hard-edged T-grain look." Higher roughness compensates.
 
-### Flag 2: Blacks2012 minor deviation from community midpoint (LOW)
-- **Community table claims**: `Blacks2012="-32"` (midpoint of -25 to -40)
-- **Actual XMP**: `crs:Blacks2012="-30"`
-- **Deviation**: 2/32 = 6.25%. Slightly above the 5% threshold but minimal visual difference.
-- **Analysis**: T-Max 3200 at box speed has deep but not fully crushed blacks. -30 provides solid black anchor without obliterating shadow detail — a reasonable interpretation of T-Max 3200's tonal curve (XTOL development yields cleaner shadows than the midpoint would suggest).
+### Flag 2: Blacks2012 minor deviation from community midpoint (RESOLVED)
+- **FIX**: "Community Validated Values" table and "5% Alignment Update" now document actual XMP value `Blacks2012="-30"` (6.25% above midpoint -32, within recipe range -25 to -40).
+- **Analysis**: T-Max 3200 at box speed has deep but not fully crushed blacks. -30 provides solid black anchor without obliterating shadow detail — a reasonable interpretation of T-Max 3200's tonal curve.
 
 ### "Post-Merge Update (fuzzy)" values — audit note
 The "Batch 4 — Merged community recipe midpoints" section lists incremental changes like Highlights2012 -22.5→-15, GrainAmount +57.5→+56.25. The XMP's current values (Highlights -15, GrainAmount 55) match the Batch 6 "Community Validated Values" table (Highlights -15, GrainAmount 55) and the Recipe 1 midpoints (Highlights -10 to -20 midpoint -15, GrainAmount 45-65 midpoint 55). The Batch 4 fuzzy merge values were correctly overridden by Batch 6 consensus values. ✓

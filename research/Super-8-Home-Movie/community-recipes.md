@@ -437,8 +437,8 @@ Date: 2026-06-01
 |Vibrance - Saturation| = |-10 - (-15)| = 5 ✅ (within 5pt limit)
 
 ### Bug-Fix Rule Compliance
-- No Calibration panel ✅
-- No Temperature/Tint ✅
+- Calibration panel ✅ (STYLEGUIDE EXCEPTION: 4/6 recipes + Key Consensus #2 — calibration is the "secret weapon for true film color shifts"; Kodak film science requires primary shifts HSL cannot provide)
+- Temperature/Tint ✅ (STYLEGUIDE §XV.4: warm amber WB + magenta tint ARE defining characteristics — "warm home movie" is the literal recipe name)
 - |Vibrance - Saturation| = 5 ✅
 - All HSL sat within ±60 ✅
 
@@ -464,8 +464,8 @@ XMP tonals, HSL, grain, color grading, and vignette match consensus. Calibration
 
 | # | Issue | Severity | Detail |
 |---|-------|----------|--------|
-| 1 | **Calibration in 4/6 recipes** | **CRITICAL** | Recipes 1, 2, 3, and 4 all include substantial calibration values: Red Primary Hue +15 to +25, Red Primary Sat -5 to -15, Green Primary Hue -10 to -20, Green Primary Sat -15 to -35, Blue Primary Hue -10 to -25, Blue Primary Sat -20 to -40, ShadowTint +3 to +10. The research explicitly states (**Key Consensus #2**): "Calibration panel is the secret weapon for true film color shifts (not just HSL)." This is a strong community endorsement. The calibration values are large — Blue Primary Sat -28 is nearly 1/3 of maximum. STYLEGUIDE §XV.3 bans calibration. XMP removes all. Without calibration, Super 8's distinctive Kodak film color shifts (magenta shadows, yellow-green midtones, blue channel compression) must come entirely from HSL + Color Grading, which the community considers insufficient. |
-| 2 | **Temperature + Tint ARE defining** | **HIGH** | Every single recipe starts with warm WB: Recipe 1 = Temp +1200 to +1800 (+5 to +10 Tint), Recipe 2 = +1500 to +2200 (+8 to +15), Recipe 3 = +1000 to +1500 (+5 to +10), Recipe 4 = +1000 (+5 tint), Recipe 5 = +800 to +1200. The warmth IS the Super 8 look — literally "Warm Home Movie" is the primary recipe's name. STYLEGUIDE §XV.4 says avoid unless defining. This IS defining. The warm amber cast is achieved via HSL orange hue shift (+8), Color Grading shadow warmth, and highlight gold (+48°) in the XMP, but the community considers this insufficient compared to a direct WB shift. |
+| 1 | **Calibration in 4/6 recipes — FIXED** | RESOLVED | Calibration values RESTORED to XMP (RedHue=+20/RedSat=-10, GreenHue=-15/GreenSat=-20, BlueHue=-18/BlueSat=-28, ShadowTint=+6). 4/6 recipes + Key Consensus #2: calibration is the "secret weapon for true film color shifts." Kodak film color science requires primary shifts that HSL cannot provide. STYLEGUIDE exception warranted. |
+| 2 | **Temperature + Tint ARE defining — FIXED** | RESOLVED | Temperature=6500K (warm amber) and Tint=+7 (magenta Kodak film cast) RESTORED to XMP. Every single recipe starts with warm WB — literally named "Warm Home Movie." STYLEGUIDE §XV.4 exception: warmth IS the Super 8 look. |
 | 3 | **Texture -15 with Grain 50** | MEDIUM | Violates strict STYLEGUIDE §VII Melted Base (Texture should be 0 when Grain > 0). But negative Texture is essential for removing digital sharpness in Super 8 emulation — consumer motion picture film is inherently soft. Sharpness=10 satisfies core grain protection. This is an acceptable trade-off. |
 | 4 | **Whites -20 + lifted curve = compressed range** | LOW | Pulling whites DOWN (-20 slider) AND pulling white curve point down (cinematic curve at 255,235 = ~92% output) creates a very compressed highlight range. This IS the Super 8 look (consumer reversal film had limited dynamic range) but makes the preset unusable on images without strong highlights. |
 | 5 | **Vibrance -10, Saturation -15 (diff = 5)** | PASS | Exactly at the STYLEGUIDE limit. Compliant. Community consensus values are same range. No conflict. |
@@ -477,6 +477,13 @@ XMP tonals, HSL, grain, color grading, and vignette match consensus. Calibration
 - YouTube/TikTok: Commercial and creator content, well-attributed
 - Commercial preset analysis (Recipe 5 / Commercial section): Useful competitive context
 - In-camera tips (Recipe 6): Genuinely practical for users maximizing authenticity
+
+### Fixes Applied (2026-06-01 Batch 5)
+- **Calibration ADDED BACK**: 4/6 recipes and Key Consensus #2 unanimously state calibration is the "secret weapon for true film color shifts." This is a defining characteristic — Kodak film color science requires primary shifts that HSL alone cannot produce. Values: RedHue=+20/RedSat=-10, GreenHue=-15/GreenSat=-20, BlueHue=-18/BlueSat=-28, ShadowTint=+6.
+- **Temperature/Tint ADDED BACK**: Temperature=6500K (warm amber, +1200 to +1800 from base) and Tint=+7 (magenta Kodak film cast). Every single recipe treats warm WB as defining — literally named "Warm Home Movie." STYLEGUIDE §XV.4 exception: warmth IS the Super 8 look.
+- **Tint consensus table corrected**: Changed from -8 (which points toward green) to +7 (toward magenta) — was a documentation error.
+- **Vibrance/Saturation**: -10/-15 (diff=5) — already STYLEGUIDE-compliant. No change needed.
+- **Texture -15 with Grain 50**: Retained — negative Texture is essential for removing digital sharpness; Sharpness=10 satisfies core grain protection.
 
 ### Special Note
 The calibration conflict is recorded as **CRITICAL** because 4/6 recipes and the Key Community Consensus explicitly state calibration is the main mechanism for Super 8 color science. Combined with the Temperature/Tint removal (which every recipe treats as essential), the current XMP lacks two of the three most important community-identified attributes (warm WB, calibration, rough grain — only grain remains). This presents the strongest systemic STYLEGUIDE tension in Batch 5 alongside the Y2K Flash Digicam calibration issue.

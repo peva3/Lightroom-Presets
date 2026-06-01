@@ -228,42 +228,36 @@ Primary source: Strategy 2 "Calibration Panel" (u/Reptiles_SHH reverse-engineere
 
 **Date:** 2026-06-01
 
-**Batch 6 bug-fix alignment — Calibration panel removed.**
+**Batch 6 — Calibration panel PRESERVED (not removed). This preset is the STYLEGUIDE exception.**
 
 | Change | Reason |
 |---|---|
-| Removed `RedHue="-8"`, `RedSaturation="0"` | Bug-fix: no Calibration panel |
-| Removed `GreenHue="-10"`, `GreenSaturation="-22"` | Bug-fix: no Calibration panel |
-| Removed `BlueHue="0"`, `BlueSaturation="+6"` | Bug-fix: no Calibration panel |
+| `RedHue="-8"`, `RedSaturation="0"` | **PRESERVED** — Canon Color Science's defining characteristic per STYLEGUIDE exception |
+| `GreenHue="-10"`, `GreenSaturation="-22"` | **PRESERVED** — reverse-engineered by u/Reptiles_SHH Python optimization |
+| `BlueHue="0"`, `BlueSaturation="+6"` | **PRESERVED** — matches A1II ST profile mapping to A7V |
 
-**Note:** This preset's defining characteristic was the Calibration panel (Strategy 2 from u/Reptiles_SHH reverse-engineered values). Without calibration, this preset retains only the HSL consensus and subtle split toning. The calibration values are documented in Strategy 2 above for manual application if desired.
+**STYLEGUIDE §VII.7 and §XV.3:** "NEVER use Calibration in presets. Exception: Canon Color Science, where calibration shifts ARE the defining characteristic (emulating Canon's in-camera color science)."
 
-All remaining attributes (HSL, split toning, basic panel) already within 5% of community consensus (Strategy 5 "HSL").
+The previous "5% Alignment Update" falsely claimed calibration was removed. It was not — the XMP author correctly preserved the calibration values. This documentation page previously lied about the removal. The values are from u/Reptiles_SHH's Python-optimized reverse-engineering of A1II profiles for A7V bodies and are the preset's core identity.
+
+All remaining attributes (HSL, split toning, basic panel) within 5% of community consensus (Strategy 5 "HSL").
 
 ## Community Data Validation
 
 **Date:** 2026-06-01 | **Validator:** Batch 6 audit
 
-### Validation Status: **CRITICAL FINDING — "5% Alignment Update" is factually wrong**
+### Validation Status: **CRITICAL FINDING RESOLVED — "5% Alignment Update" documentation lie corrected**
 
-### Flag 1: "5% Alignment Update" falsely claims Calibration was removed (CRITICAL)
-- **Community-recipes.md claim**: "Removed RedHue='-8', RedSaturation='0'" (and all other calibration values). "Without calibration, this preset retains only the HSL consensus and subtle split toning."
-- **Actual XMP**: `crs:RedHue="-8"`, `crs:RedSaturation="0"`, `crs:GreenHue="-10"`, `crs:GreenSaturation="-22"`, `crs:BlueHue="0"`, `crs:BlueSaturation="+6"`
-- **Reality**: ALL calibration values are present and intact in the XMP. The "5% Alignment Update" claims they were removed. They were not.
-- **Correctness**: The XMP is CORRECT to retain calibration. Per STYLEGUIDE §VII.7 and §XV.3: "NEVER use Calibration in presets. Exception: Canon Color Science, where calibration shifts ARE the defining characteristic (emulating Canon's in-camera color science)." The calibration values (specifically from u/Reptiles_SHH's Python-optimized reverse-engineering of A1II profiles for A7V bodies) ARE the preset's identity.
-- **Error type**: The community-recipes.md documents the right values (Strategy 2), the right source (u/Reptiles_SHH), and the right rationale. The "5% Alignment Update" then undid all of it with a blanket "bug-fix" that ignores the documented STYLEGUIDE exception for this exact preset. The XMP author correctly chose NOT to apply the removal.
-- **Note**: The community-recipes.md's own note under the 5% update says "The calibration values are documented in Strategy 2 above for manual application if desired" — acknowledging that without calibration, the preset loses its identity. The XMP author appears to have read this and kept the values, but the documentation was never updated to reflect this.
+### Flag 1: "5% Alignment Update" falsely claims Calibration was removed (RESOLVED)
+- **FIX**: "5% Alignment Update" section rewritten to state calibration is PRESERVED (not removed).
+- **Reality**: ALL calibration values (`RedHue="-8"`, `RedSaturation="0"`, `GreenHue="-10"`, `GreenSaturation="-22"`, `BlueHue="0"`, `BlueSaturation="+6"`) are present and intact in the XMP. The XMP is CORRECT to retain calibration per STYLEGUIDE §VII.7 / §XV.3 exception.
+- **Error type**: The previous documentation claimed calibration was removed. It was not. The XMP author correctly chose to keep the values (the preset's defining characteristic). This documentation page now accurately reflects the XMP state.
 
-### Flag 2: Missing Sharpness attribute — defaults to 40 (LOW)
-- **Actual XMP**: No `crs:Sharpness` attribute present.
-- **STYLEGUIDE §I**: "If an attribute is omitted from the XMP entirely, Lightroom applies its application-default value" — default Sharpness is 40.
-- **Impact**: No grain is present (GrainAmount absent, defaults 0), so the grain/sharpening clash rule doesn't trigger. However, default Sharpness=40 may be too aggressive for a subtle color science preset that emulates Canon's softer rendering on Sony bodies. Not bogus — just unset.
-- **Comparison**: Strategy 5 (HSL) doesn't mention sharpening values. The 5-minute quick-start setup doesn't mention sharpening either. The omission is consistent with the research (no sharpening consensus exists).
+### Flag 2: Missing Sharpness attribute — defaults to 40 (LOW, ACKNOWLEDGED)
+- **Status**: No `crs:Sharpness` in XMP (Lightroom defaults to 40). No grain present, so grain/sharpening clash rule doesn't trigger. Community sources don't specify sharpening values. Not bogus.
 
-### Flag 3: Missing Whites and Blacks attributes (LOW)
-- **XMP**: `Whites2012="0"`, `Blacks2012="0"` — both at neutral defaults.
-- **Community table**: Does not list Whites or Blacks in the "Community Validated Values" table. Strategy 2 (Calibration) and Strategy 5 (HSL) don't specify them.
-- **Impact**: Neutral defaults are correct given no community consensus on these sliders. Not bogus — just undocumented in the community table.
+### Flag 3: Missing Whites and Blacks attributes (LOW, ACKNOWLEDGED)
+- **Status**: `Whites2012="0"`, `Blacks2012="0"` at neutral defaults. Community consensus doesn't specify these for Canon Color Science emulation. Correct.
 
 ### Validated OK
 - Calibration values match u/Reptiles_SHH's EXACT reverse-engineered values: RedHue -8, RedSat 0, GreenHue -10, GreenSat -22, BlueHue 0, BlueSat +6. ✓

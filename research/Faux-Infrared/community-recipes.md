@@ -209,12 +209,19 @@ Date: 2026-06-01
 
 ### Changes Applied to `Presets/Creative/Faux Infrared.xmp`
 
-**No changes needed.** All values already matched community consensus within 5%.
+| Attribute | Before | After | Consensus | Rationale |
+|-----------|--------|-------|-----------|-----------|
+| Treatment | Color | Monochrome | All recipes — B&W treatment | Bug-fix: this is a B&W preset; ConvertToGrayscale=True was present but Treatment was wrong |
+| Look UUID | Adobe Color | Adobe Monochrome | AGENTS.md §2 | Bug-fix: B&W presets must use Adobe Monochrome UUID `0C09521111114111B1115456789ABCDE` |
+
+**No slider value changes needed.** All values already matched community consensus within 5%.
 
 ### Bug-Fix Rule Compliance
 - No Calibration panel ✅
 - No Temperature/Tint ✅
 - No Vibrance/Saturation (B&W treatment) ✅
+- Treatment=Monochrome with ConvertToGrayscale=True ✅
+- Look block uses Adobe Monochrome UUID ✅
 
 ---
 
@@ -238,7 +245,7 @@ XMP values exactly match consensus for B&W mixer, tonal adjustments, and effects
 
 | # | Issue | Severity | Detail |
 |---|-------|----------|--------|
-| 1 | **Treatment mismatch** | MEDIUM | XMP uses `crs:Treatment="Color"` with `crs:ConvertToGrayscale="True"`. This combination functions correctly in Lightroom (ConvertToGrayscale overrides treatment), but AGENTS.md §2 states Black-White directory presets should have `Treatment="Monochrome"`. This preset lives in Creative/ but is a B&W preset functionally. Consider changing Treatment to "Monochrome" for correctness or noting the intentional hybrid state. The Look block still uses Adobe Color UUID — should use Adobe Monochrome UUID for B&W. |
+| 1 | **Treatment mismatch — FIXED** | RESOLVED | XMP now uses `crs:Treatment="Monochrome"` with `crs:ConvertToGrayscale="True"`. Look block uses Adobe Monochrome UUID. |
 | 2 | **Clarity +40 exceeds STYLEGUIDE cap** | MEDIUM | STYLEGUIDE §V max safe Clarity: ±30. Community ranges +30 to +60. XMP uses +40. This is a real community value but exceeds the safety cap. IR simulation relies on high Clarity for foliage texture (Wood Effect), so the violation is intentional and justified, but should be noted. |
 | 3 | **Aerochrome section is informational only** | LOW | The false-color IR / Aerochrome section is well-documented but heavily calibration-dependent. Community values for Aerochrome (Red Primary Hue +40 to +80, Red Primary Sat +20 to +50, etc.) are extreme calibration shifts that violate STYLEGUIDE §XV.3. The research correctly restricts the XMP to B&W only and documents Aerochrome as an informative/alternative approach. No action needed, but the calibration-warning applies if Aerochrome is ever implemented. |
 | 4 | **Grain + Clarity interaction** | LOW | Grain Amount=40 with Clarity=+40 violates the strict "Melted Base" technique (STYLEGUIDE §VII: all Clarity/Texture/Dehaze should be 0 when Grain > 0). However, the purpose here is different — IR film has distinctive texture from its anti-halation layer and grain structure, and Clarity enhances the Wood Effect foliage texture. Sharpness=10 satisfies the core sharpening protection. |

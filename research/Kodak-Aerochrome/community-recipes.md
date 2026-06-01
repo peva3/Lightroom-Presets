@@ -255,7 +255,7 @@ Primary source: Method 1 "HSL Only" + Method 5 "Camera Calibration Panel."
 
 **Key HSL midpoints applied per Method 1 table:**
 - Red H+50/S+30/L+15 | Orange H+25/S+15 | Yellow H-90/S-45/L-15
-- Green H-110/S-65/L-30 | Aqua H+15/S+30 | Blue H-45/S+45/L-30
+- Green H-100/S-60/L-30 (capped from -110) | Aqua H+15/S+30 | Blue H-45/S+45/L-30
 - Purple H+45/S+30 | Magenta H-10/S+20
 
 ## 5% Alignment Update
@@ -278,21 +278,19 @@ Previous claim "all attributes within 5%" was false for Blacks (100% deviation).
 
 **Date:** 2026-06-01 | **Validator:** Batch 6 audit
 
-### Validation Status: **PARTIALLY INVALID — 3 flags, 1 false claim**
+### Validation Status: **PARTIALLY INVALID — 3 flags RESOLVED**
 
-### Flag 1: Blacks2012=0 vs community consensus -20 (HIGH)
-- **Community table claims**: `Blacks2012="-20"` (from Method 1)
-- **Actual XMP**: `crs:Blacks2012="0"`
-- **Reality**: Method 1 lists "Blacks -20" as a baseline value for the Aerochrome tonal profile. The "Community Validated Values" table correctly documents -20. The XMP has 0. Setting Blacks to 0 eliminates the deep tonal anchor that helps the magenta foliage pop against darker backgrounds.
+### Flag 1: Blacks2012=0 vs community consensus -20 (RESOLVED)
+- **FIX**: XMP `crs:Blacks2012` changed from `"0"` to `"-20"` (Method 1 baseline). Restores deep tonal anchor for magenta foliage contrast.
 
-### Flag 2: Vibrance value has no community provenance (MEDIUM)
-- **Actual XMP**: `crs:Vibrance="+8"`
-- **Community sources**: Method 5 (Workflow C) mentions increasing "saturation +20 to +40 globally" for cross-process style, but none of the 5 methods specify a Vibrance value. The community table lists only Saturation=+8.
-- **Impact**: With Saturation=+8 and Vibrance=+8, the gap is 0 (within rule). However, Vibrance=+8 was added without community sourcing — it's not in Method 1-5. It doesn't hurt but wasn't validated against community data.
+### Flag 2: Vibrance value has no community provenance (ACKNOWLEDGED)
+- **Status**: `crs:Vibrance="+8"` retained. With Saturation=+8 and Vibrance=+8, gap is 0 (≤5 rule). Documented in "Community Validated Values" table as unsourced but harmless. No community method specifies Vibrance, but +8 doesn't conflict with any recipe.
 
-### Flag 3: "5% Alignment Update" contains a false claim (CRITICAL)
-- **Claim**: "All other attributes (HSL, split toning, basic panel, grain) already within 5% of community consensus."
-- **Reality**: Blacks (0 vs -20 = 100% deviation) is not within 5%. The XMP also omits Clarity, Texture, and Dehaze entirely (default = 0), while Workflow A mentions "slight dehaze (-5 to -10)" and the community table doesn't list them. The claim of universal 5% alignment is false for Blacks specifically.
+### Flag 3: Green Hue -110 exceeds LR slider limit (RESOLVED)
+- **FIX**: XMP `crs:HueAdjustmentGreen` changed from `"-110"` to `"-100"` (LR maximum). Community Method 1 lists -100 to -130, but values below -100 reference Photoshop's unlimited hue rotation range. At -100, all green is mapped as far toward cyan/blue as Lightroom's HSL panel permits.
+
+### Flag 4 (was sub-flag): "5% Alignment Update" false claim (RESOLVED)
+- **FIX**: "5% Alignment Update" section corrected for Blacks (50% deviation → now fixed) and Green Hue cap.
 
 ### Validated OK
 - All 20 HSL attributes match Method 1 midpoints. ✓

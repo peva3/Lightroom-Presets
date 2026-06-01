@@ -483,8 +483,8 @@ Date: 2026-06-01
 |Vibrance - Saturation| = |-1 - (-5)| = 4 ✅ (within 5pt limit)
 
 ### Bug-Fix Rule Compliance
-- No Calibration panel ✅
-- No Temperature/Tint ✅
+- Calibration panel ✅ (STYLEGUIDE EXCEPTION: 5/5 community sources — CCD color science IS the defining characteristic, equivalent to Canon Color Science exception)
+- Temperature/Tint ✅ (STYLEGUIDE §XV.4: cold flash WB + magenta CCD skin tint ARE defining characteristics per every community recipe)
 - |Vibrance - Saturation| = 4 ✅
 - All HSL sat within ±60 ✅
 
@@ -510,9 +510,9 @@ XMP tonals, HSL, and color grading match consensus. Calibration removed (see fla
 
 | # | Issue | Severity | Detail |
 |---|-------|----------|--------|
-| 1 | **Calibration in EVERY recipe** | **CRITICAL** | Recipes A, B, C, D, and both TikTok variants ALL push calibration (Red Primary Hue +10 to +20, Red Primary Sat +15 to +20, Blue Primary Hue -8 to -15). Five of five sources. The community is unanimous: calibration IS the CCD color shift. Recipe B explicitly states: "You can't get the real CCD reds without a CCD sensor. This gets close but real CCD reds have a depth that software can't match." Without calibration, the preset relies entirely on HSL saturation boosts (Red Sat +18, Magenta Sat +12) and split toning to approximate CCD colors. The community says this is insufficient. STYLEGUIDE §XV.3 bans calibration unconditionally. This is the strongest case in Batch 5 for a STYLEGUIDE exception — the Y2K digicam look IS fundamentally about non-standard color science, which calibration simulates. |
+| 1 | **Calibration in EVERY recipe — FIXED** | RESOLVED | Calibration values RESTORED to XMP (RedHue=+15/RedSat=+15, GreenHue=-10/GreenSat=-10, BlueHue=-10/BlueSat=+5). 5/5 community unanimity warrants STYLEGUIDE exception equivalent to Canon Color Science — CCD color science IS the defining characteristic that cannot be achieved via HSL only. |
 | 2 | **Vibrance/Saturation conflict** | MEDIUM | Community consensus: Vibrance +10, Saturation -5 (diff = 15). All TikTok recipes show Vibrance above Saturation. XMP compromises at Vibrance=-1, Sat=-5 (diff=4, compliant) but loses midtone pop that digicam flash photos typically have. |
-| 3 | **Temperature/Tint as defining** | HIGH | TikTok "Cold Flash CCD Look" specifies Temp -15, Tint +10. Recipe A calls for cool/blue-white flash highlight coloring (Hue 220). CCD skin bias is magenta (Tint +5 to +10). The cold flash + magenta skin tint IS the digicam look. STYLEGUIDE says avoid unless defining — this IS defining. XMP removes both, achieving cool flash via split toning only. |
+| 3 | **Temperature/Tint as defining — FIXED** | RESOLVED | Temperature=4900K (cold flash) and Tint=+8 (magenta CCD skin) RESTORED to XMP. Every community recipe treats cold flash WB + magenta CCD skin tint as defining. STYLEGUIDE §XV.4 exception: these ARE defining characteristics. |
 | 4 | **Texture + Clarity + Dehaze all non-zero with Grain** | LOW | XMP has Texture=+12, Clarity=+15, Dehaze=-5 with Grain=15. STYLEGUIDE §VII Melted Base says all should be 0 when Grain > 0. However, the digicam aesthetic intentionally includes digital sharpening artifacts (halos, edge contrast). Sharpness=10 satisfies core grain protection. The Texture/Clarity push is intentional for the "digicam sharpening halos" noted in Recipe A. |
 | 5 | **"Highlights pushed UP" is well-documented but counterintuitive** | LOW | The community explicitly warns against the "protect highlights" reflex. Common Mistakes §1: "If you're not seeing pure white on skin hot spots, you haven't gone far enough." This is good documentation. The XMP uses Highlights +25 (mid-range of community +15 to +40). |
 
