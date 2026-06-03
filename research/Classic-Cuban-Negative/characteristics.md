@@ -1,0 +1,1 @@
+## Classic Cuban Negative\n\nCreator: u/Odd-Box1031 (IG: @osanbilgi)\nSource: https://old.reddit.com/r/fujifilm/comments/1c4j7ut/\nCamera: Fujifilm X100VI (X-Trans V)\n\nBased on Classic Negative film simulation with heavily pushed color chrome effects and clarity reduction for softness.
