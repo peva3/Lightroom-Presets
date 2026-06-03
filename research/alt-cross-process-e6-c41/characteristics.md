@@ -1,8 +1,8 @@
-# Cross Process E6→C41 — Complete Aesthetic Breakdown
+# Cross Process E6→C41 Lightroom Preset — Complete Aesthetic Breakdown
 
 ## Core Aesthetic Signature
 
-Cross-processing E-6 slide film in C-41 color negative chemistry is a deliberate 'mistake' that produces unpredictable but visually striking color shifts. The fundamental effect: green/cyan shadows, yellow-green midtones, and magenta/pink highlights. This is because C-41 developer couples differently with slide film's dye layers — the magenta dye layer (green-sensitive) forms most aggressively in highlights, while the yellow layer (blue-sensitive) dominates in shadows.
+The cross process e6 c41 Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Cross-processing E-6 slide film in C-41 color negative chemistry is a deliberate 'mistake' that produces unpredictable but visually striking color shifts. The fundamental effect: green/cyan shadows, yellow-green midtones, and magenta/pink highlights. This is because C-41 developer couples differently with slide film's dye layers — the magenta dye layer (green-sensitive) forms most aggressively in highlights, while the yellow layer (blue-sensitive) dominates in shadows.
 
 ## Historical Context
 
@@ -35,3 +35,11 @@ This preset is designed to capture the essential visual character of the cross p
 - Alternative Photography (alternativephotography.com)
 - Christopher James: *The Book of Alternative Photographic Processes*
 - Community knowledge from r/analog, r/Darkroom, and photography forums
+
+## See Also
+
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Black White Presets](../../docs/black-white.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

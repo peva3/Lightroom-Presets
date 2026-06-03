@@ -1,8 +1,8 @@
-# Palladium Print — Complete Aesthetic Breakdown
+# Palladium Print Lightroom Preset — Complete Aesthetic Breakdown
 
 ## Core Aesthetic Signature
 
-Palladium printing uses palladium salts instead of platinum, producing warmer, brown-black tones. Palladium became the primary metal after WWI when platinum was diverted to explosives manufacturing. Palladium prints have a distinctive warm, almost sepia-black tonality that distinguishes them from the more neutral platinum prints.
+The palladium print Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Palladium printing uses palladium salts instead of platinum, producing warmer, brown-black tones. Palladium became the primary metal after WWI when platinum was diverted to explosives manufacturing. Palladium prints have a distinctive warm, almost sepia-black tonality that distinguishes them from the more neutral platinum prints.
 
 ## Historical Context
 
@@ -35,3 +35,11 @@ This preset is designed to capture the essential visual character of the palladi
 - Alternative Photography (alternativephotography.com)
 - Christopher James: *The Book of Alternative Photographic Processes*
 - Community knowledge from r/analog, r/Darkroom, and photography forums
+
+## See Also
+
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Black White Presets](../../docs/black-white.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

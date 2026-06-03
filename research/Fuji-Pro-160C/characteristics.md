@@ -1,4 +1,4 @@
-# Fuji Pro 160C — Full Aesthetic Characteristics
+# Fuji Pro 160C — Full Aesthetic Characteristics for Lightroom Presets
 
 > Higher-contrast, higher-saturation professional color negative. The "vivid" sibling in Fujifilm's PRO 160 line.
 
@@ -6,7 +6,7 @@
 
 ## Executive Summary
 
-Fuji Pro 160C was the higher-contrast, higher-saturation variant of Fujifilm's PRO 160 professional color negative line. Designed for commercial work where more "pop" was desired — fashion editorial, product photography, outdoor. Discontinued, but significant enough that Fujifilm's Reala Ace film simulation was designed in its spirit ("C" = contrast/color).
+Fuji Pro 160C was the higher-contrast, higher-saturation variant of Fujifilm's PRO 160 professional color negative line. Designed for commercial work where more "pop" was desired — fashion editorial, product photography, outdoor. Discontinued, but significant enough that Fujifilm's Reala Ace film simulation was designed in its spirit ("C" = contrast/color). This document serves as a reference for creating a Lightroom preset that emulates Pro 160C.
 
 ---
 
@@ -68,3 +68,15 @@ Fuji Pro 160C was the higher-contrast, higher-saturation variant of Fujifilm's P
 - Fuji X Weekly — "Fujifilm X-T50 Film Dial Settings" (May 2024, Reala Ace variant)
 - Fuji X Weekly — "PRO Negative 160C" (Mar 2024, X100VI Reala Ace version)
 - t3mujinpack GitHub — Fuji Pro 160C Darktable preset
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fujifilm Pro 400H](../Fujifilm-Pro-400H/characteristics.md)
+- [Fuji Pro 160NS](../Fuji-Pro-160NS/characteristics.md)
+- [Fuji Pro 800Z](../Fuji-Pro-800Z/characteristics.md)
+- [Kodak Portra 400](../Kodak-Portra-400/characteristics.md)
+- [Fujifilm Classic Negative](../Fujifilm-Classic-Negative/characteristics.md)

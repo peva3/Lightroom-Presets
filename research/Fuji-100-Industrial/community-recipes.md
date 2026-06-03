@@ -1,4 +1,4 @@
-# Fuji 100 Industrial — Community Recipes
+# Fuji 100 Industrial — Lightroom Preset Settings & Recipes
 
 > Compiled from Fuji X Weekly (Ritchie Roesch, Jun 2019), Japanese photography forums, and Reddit (r/analog, r/fujifilm). Japan domestic-market-only film with a unique tungsten-balanced emulsion.
 
@@ -90,3 +90,12 @@ Community users note: this preset can look too flat on low-contrast scenes. The 
 ---
 
 *Compiled June 2026 from Fuji X Weekly, Japanese photography communities, and Reddit data.*
+
+---
+
+## See Also
+
+- [Fuji 100 Industrial — Film Characteristics](../Fuji-100-Industrial/characteristics.md)
+- [Kodak ColorPlus 200 Lightroom Preset](../Kodak-ColorPlus-200/community-recipes.md)
+- [Fuji Superia 200 Lightroom Preset](../Fuji-Superia-200/community-recipes.md)
+- [XMP Preset: Fuji 100 Industrial](../../Presets/Color-Negative/Fuji 100 Industrial.xmp)

@@ -1,8 +1,8 @@
-# Albumen Print — Complete Aesthetic Breakdown
+# Albumen Print Lightroom Preset — Complete Aesthetic Breakdown
 
 ## Core Aesthetic Signature
 
-The albumen print, introduced by Louis Désiré Blanquart-Evrard in 1850, was the dominant photographic print process from 1855–1890. Egg white (albumen) was used as a binder layer to hold the light-sensitive silver salts on the paper surface, creating a glossy surface and preventing the image from sinking into paper fibers. The characteristic warm yellow-brown tone comes from both the albumen layer itself and sulfur-based toning.
+The albumen print Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The albumen print, introduced by Louis Désiré Blanquart-Evrard in 1850, was the dominant photographic print process from 1855–1890. Egg white (albumen) was used as a binder layer to hold the light-sensitive silver salts on the paper surface, creating a glossy surface and preventing the image from sinking into paper fibers. The characteristic warm yellow-brown tone comes from both the albumen layer itself and sulfur-based toning.
 
 ## Historical Context
 
@@ -35,3 +35,11 @@ This preset is designed to capture the essential visual character of the albumen
 - Alternative Photography (alternativephotography.com)
 - Christopher James: *The Book of Alternative Photographic Processes*
 - Community knowledge from r/analog, r/Darkroom, and photography forums
+
+## See Also
+
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Black White Presets](../../docs/black-white.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

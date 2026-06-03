@@ -1,8 +1,8 @@
-# Kodak Gold 200 — Full Aesthetic Breakdown
+# Kodak Gold 200 — Full Aesthetic Breakdown for Lightroom Presets
 
 ## Overview
 
-Kodak Gold 200 is the **quintessential 1990s family-vacation consumer film**. It embodies "sunny nostalgia" — the visual language of disposable cameras at Disneyland, beach trips captured on point-and-shoots, and the golden-hour warmth that defined pre-digital family photo albums. Its signature look is a **warm golden-yellow cast with slightly teal/cyan-leaning shadows**, moderate contrast, and rich-but-not-garish saturation.
+Kodak Gold 200 is the **quintessential 1990s family-vacation consumer film**. It embodies "sunny nostalgia" — the visual language of disposable cameras at Disneyland, beach trips captured on point-and-shoots, and the golden-hour warmth that defined pre-digital family photo albums. Its signature look is a **warm golden-yellow cast with slightly teal/cyan-leaning shadows**, moderate contrast, and rich-but-not-garish saturation. This document serves as a reference for creating a Lightroom preset that emulates Gold 200.
 
 ---
 
@@ -262,3 +262,16 @@ Gold 200 (and its predecessor Kodacolor Gold) was the film inside millions of di
 - Community observations from r/analog, r/Lightroom, r/postprocessing (2020–2025)
 - YouTube preset creators: Jamie Windsor, Willem Verbeeck, grainydays, Kyle McDougall
 - Mastin Labs, VSCO, RNI Films preset descriptions
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak ColorPlus 200](../Kodak-ColorPlus-200/characteristics.md)
+- [Kodak Ultramax 400](../Kodak-Ultramax-400/characteristics.md)
+- [Kodak Pro Image 100](../Kodak-Pro-Image-100/characteristics.md)
+- [Kodak Royal Gold 400](../Kodak-Royal-Gold-400/characteristics.md)
+- [Kodak Max 800](../Kodak-Max-800/characteristics.md)
+- [Kodak High Definition Plus 200](../Kodak-High-Definition-Plus-200/characteristics.md)

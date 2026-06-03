@@ -1,7 +1,7 @@
-# Agfa APX 100 — Film Characteristics
+# Agfa APX 100 — Film Characteristics for Lightroom Presets
 
 ## Overview
-Agfa APX 100 was a medium-speed, fine-grain black-and-white negative film. It was the most popular film in the Agfa APX line, offering a versatile combination of fine grain, good sharpness, and moderate contrast. Originally produced by Agfa-Gevaert; later revived under the AgfaPhoto APX branding by Lupus Imaging with a different emulsion.
+Agfa APX 100 was a medium-speed, fine-grain black-and-white negative film. It was the most popular film in the Agfa APX line, offering a versatile combination of fine grain, good sharpness, and moderate contrast. Originally produced by Agfa-Gevaert; later revived under the AgfaPhoto APX branding by Lupus Imaging with a different emulsion. This document serves as a reference for creating a Lightroom preset that emulates APX 100.
 
 ## Key Characteristics
 - **ISO**: 100 (nominal)
@@ -30,3 +30,13 @@ Agfa APX 100 was a medium-speed, fine-grain black-and-white negative film. It wa
 - Agfa-Gevaert Technical Data Sheet (archived)
 - t3mujinpack dtstyle data for Darktable emulation
 - Photrio/APUG community archives
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Agfa APX 25](../Agfa-APX-25/characteristics.md)
+- [Agfa APX 400](../Agfa-APX-400/characteristics.md)
+- [Kodak Tri X 400](../Kodak-Tri-X-400/characteristics.md)

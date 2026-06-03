@@ -378,3 +378,13 @@ All values align with Superia 1600's known characteristics:
 
 ### Documentation Fix (2026-06-01)
 - Fixed false claim: STYLEGUIDE section said "28→21 meaningful attributes after cleanup" but XMP has 39. The "Default-value attributes removed" list was aspirational — those defaults were never actually stripped from the XMP. Documentation corrected to reflect actual XMP state.
+
+---
+
+## See Also
+
+- [Fuji Superia 1600 — Film Characteristics](../Fuji-Superia-1600/characteristics.md)
+- [Fuji Superia 100 Lightroom Preset](../Fuji-Superia-100/community-recipes.md)
+- [Fuji Superia 200 Lightroom Preset](../Fuji-Superia-200/community-recipes.md)
+- [Fuji Superia 800 Lightroom Preset](../Fuji-Superia-800/community-recipes.md)
+- [XMP Preset: Fuji Superia 1600](../../Presets/Color-Negative/Fuji Superia 1600.xmp)

@@ -1,8 +1,8 @@
-# Kodak Max 800 — Aesthetic Characteristics
+# Kodak Max 800 — Aesthetic Characteristics for Lightroom Presets
 
 ## Overview
 
-Kodak Max 800 was Kodak's highest-speed consumer color negative film, designed for low-light and flash photography. Part of the "MAX" line (alongside Max 400, now Ultramax), it was the go-to consumer film for indoor events, parties, and night photography. Discontinued in the 2000s, it represents the "fast consumer" aesthetic — gritty, punchy, and unapologetically analog.
+Kodak Max 800 was Kodak's highest-speed consumer color negative film, designed for low-light and flash photography. Part of the "MAX" line (alongside Max 400, now Ultramax), it was the go-to consumer film for indoor events, parties, and night photography. Discontinued in the 2000s, it represents the "fast consumer" aesthetic — gritty, punchy, and unapologetically analog. This document serves as a reference for creating a Lightroom preset that emulates Max 800.
 
 ## Core Aesthetic Signature
 
@@ -49,3 +49,16 @@ Unapologetically analog — the "party camera" film
 - Fuji X Weekly community recipes
 - Kodak MAX line technical documentation (archived)
 - Film photography forums and expired film shooters
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Gold 200](../Kodak-Gold-200/characteristics.md)
+- [Kodak ColorPlus 200](../Kodak-ColorPlus-200/characteristics.md)
+- [Kodak Ultramax 400](../Kodak-Ultramax-400/characteristics.md)
+- [Kodak Pro Image 100](../Kodak-Pro-Image-100/characteristics.md)
+- [Kodak Royal Gold 400](../Kodak-Royal-Gold-400/characteristics.md)
+- [Kodak High Definition Plus 200](../Kodak-High-Definition-Plus-200/characteristics.md)

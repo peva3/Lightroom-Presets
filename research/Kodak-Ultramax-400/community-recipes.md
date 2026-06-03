@@ -1,6 +1,6 @@
 # Kodak Ultramax 400 — Community Lightroom Recipes & Settings
 
-Compiled from Reddit (r/AnalogCommunity, r/postprocessing, r/analog), photography forums, YouTube creators, and preset makers.
+The Kodak Ultramax 400 Lightroom preset community recipes compile settings from photographers worldwide. Compiled from Reddit (r/AnalogCommunity, r/postprocessing, r/analog), photography forums, YouTube creators, and preset makers.
 
 ---
 
@@ -381,3 +381,13 @@ Current XMP values (Contrast +22, Highlights -28, Shadows +16, Orange Sat +25, R
 **Flagged for correction**: Calibration (removed per Commandment #3), WB (removed per Commandment #4), Clarity/Texture/Dehaze→0 (Commandment #7), Vibrance constrained to +1.5 (Commandment #5 — gap reduced from 17.5 to 5). All corrections already applied in current XMP. **The Vibrance-Saturation gap was the most significant finding in this preset's community data — it is a textbook example of why the |Vibrance−Saturation| ≤ 5 rule exists.**
 
 **Batch 1 Review (June 2026):** Confirmed. XMP verified: no Calibration, no WB, Sharpness=10, Clarity=0, Texture=0, Dehaze=0, GrainAmount=32 with full grain protection, Vibrance=+1.5, Saturation=−3.5, |Vibrance−Saturation|=5 (at boundary, down from community 17.5). All STYLEGUIDE rules pass. Status: RESOLVED.
+
+---
+
+## See Also
+
+- [Kodak Ultramax 400 — Film Characteristics](../Kodak-Ultramax-400/characteristics.md)
+- [Kodak Gold 200 Lightroom Preset](../Kodak-Gold-200/community-recipes.md)
+- [Kodak ColorPlus 200 Lightroom Preset](../Kodak-ColorPlus-200/community-recipes.md)
+- [Kodak Pro Image 100 Lightroom Preset](../Kodak-Pro-Image-100/community-recipes.md)
+- [XMP Preset: Kodak Ultramax 400](../../Presets/Color-Negative/Kodak Ultramax 400.xmp)

@@ -1,8 +1,8 @@
-# Solarization — Complete Aesthetic Breakdown
+# Solarization Lightroom Preset — Complete Aesthetic Breakdown
 
 ## Core Aesthetic Signature
 
-Solarization (the Sabattier effect), discovered by Armand Sabattier in 1862 but made famous by Man Ray and Lee Miller in the 1920s–1930s, occurs when a partially developed print or negative is briefly re-exposed to light and then development continues. The result is a partial reversal of tones — shadows become light, creating a silver边缘 (edge) effect where adjacent tones diverge. Man Ray used it extensively for his surrealist nudes and portraits, creating ethereal silver lines around forms.
+The solarization Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Solarization (the Sabattier effect), discovered by Armand Sabattier in 1862 but made famous by Man Ray and Lee Miller in the 1920s–1930s, occurs when a partially developed print or negative is briefly re-exposed to light and then development continues. The result is a partial reversal of tones — shadows become light, creating a silver边缘 (edge) effect where adjacent tones diverge. Man Ray used it extensively for his surrealist nudes and portraits, creating ethereal silver lines around forms.
 
 ## Historical Context
 
@@ -35,3 +35,11 @@ This preset is designed to capture the essential visual character of the solariz
 - Alternative Photography (alternativephotography.com)
 - Christopher James: *The Book of Alternative Photographic Processes*
 - Community knowledge from r/analog, r/Darkroom, and photography forums
+
+## See Also
+
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Black White Presets](../../docs/black-white.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

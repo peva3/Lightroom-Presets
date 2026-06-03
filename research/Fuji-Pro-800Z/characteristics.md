@@ -1,4 +1,4 @@
-# Fuji Pro 800Z — Full Aesthetic Characteristics
+# Fuji Pro 800Z — Full Aesthetic Characteristics for Lightroom Presets
 
 > High-speed professional portrait film. Fujifilm's answer to Portra 800 — warm tones, moderate grain, low-light mastery.
 
@@ -6,7 +6,7 @@
 
 ## Executive Summary
 
-Fuji Pro 800Z (marketed as Fujicolor PRO 800Z) was Fujifilm's professional 800-speed color negative film. It was designed for low-light portrait and wedding work — indoor ceremonies, receptions, concert photography. Warm-biased with moderate, structured grain and surprisingly fine color fidelity for its speed class. Discontinued around 2010.
+Fuji Pro 800Z (marketed as Fujicolor PRO 800Z) was Fujifilm's professional 800-speed color negative film. It was designed for low-light portrait and wedding work — indoor ceremonies, receptions, concert photography. Warm-biased with moderate, structured grain and surprisingly fine color fidelity for its speed class. Discontinued around 2010. This document serves as a reference for creating a Lightroom preset that emulates Pro 800Z.
 
 ---
 
@@ -71,3 +71,15 @@ Fuji Pro 800Z (marketed as Fujicolor PRO 800Z) was Fujifilm's professional 800-s
 - t3mujinpack GitHub — Fuji Pro 800Z Darktable preset
 - Fujifilm product literature (archived)
 - r/AnalogCommunity — Pro 800Z discussion threads
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fujifilm Pro 400H](../Fujifilm-Pro-400H/characteristics.md)
+- [Fuji Pro 160NS](../Fuji-Pro-160NS/characteristics.md)
+- [Fuji Pro 160C](../Fuji-Pro-160C/characteristics.md)
+- [Kodak Portra 400](../Kodak-Portra-400/characteristics.md)
+- [Fujifilm Classic Negative](../Fujifilm-Classic-Negative/characteristics.md)

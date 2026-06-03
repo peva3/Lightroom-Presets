@@ -2,7 +2,7 @@
 
 ## Overview
 
-Kodachrome 64 is the most-requested film emulation in the digital photography community. Unlike E-6 films (Velvia, Provia, Ektachrome) which have dye couplers *in* the emulsion, Kodachrome's dyes were formed *during processing* in the K-14 developer solutions. This fundamental difference means no existing film simulation can perfectly replicate it — digital emulations can only approximate the final visual result, not the chemical pathway.
+The Kodachrome 64 Lightroom preset community recipes compile settings from photographers worldwide. Kodachrome 64 is the most-requested film emulation in the digital photography community. Unlike E-6 films (Velvia, Provia, Ektachrome) which have dye couplers *in* the emulsion, Kodachrome's dyes were formed *during processing* in the K-14 developer solutions. This fundamental difference means no existing film simulation can perfectly replicate it — digital emulations can only approximate the final visual result, not the chemical pathway.
 
 The community consensus: **profile-based approaches** (ICC/LUT-based) get closer than slider-based approaches, but neither fully captures the Kodachrome "look."
 
@@ -326,3 +326,11 @@ All XMP slider values fall within valid Lightroom ranges:
 Community calibration recommendations were correctly rejected. WB excluded per rules. Subjective color commentary noted. The XMP is structurally sound and the applied slider values are plausible for a Kodachrome 64 emulation within the limits of slider-only approximation. Note: slider-based Kodachrome emulation is fundamentally limited — the K-14 dye-formation chemistry cannot be replicated without 3D LUTs (community-recipes.md itself acknowledges this).
 
 **Documentation fix (2026-06-01):** Added note to Community Validated Values table clarifying values reflect pre-STYLEGUIDE consensus, not final XMP state. Actual XMP: Clarity=0, Dehaze=0, no calibration, Blacks=-25, Saturation=-5, Vibrance=-5, GrainAmount=30, GrainSize=25, GrainFrequency=50.
+
+## See Also
+
+- [Slide Presets](../../docs/slide.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

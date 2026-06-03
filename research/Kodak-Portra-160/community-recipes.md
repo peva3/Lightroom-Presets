@@ -1,4 +1,4 @@
-# Kodak Portra 160 — Community Recipes
+# Kodak Portra 160 — Lightroom Preset Settings & Recipes
 
 > Settings gathered from Reddit r/analog, r/Lightroom, r/postprocessing, photography forums, and YouTube.  
 > These are starting points — every image needs per-scene adjustment.
@@ -396,3 +396,13 @@ Current XMP values reflect community consensus after STYLEGUIDE corrections (no 
 **Flagged for correction**: Calibration (removed per Commandment #3), WB (removed per Commandment #4), Clarity→0 (Commandment #7), Vib-Sat gap verified at |(−5)−(−10)|=5 (boundary, acceptable). All corrections already applied in current XMP.
 
 **Batch 1 Review (June 2026):** Confirmed. XMP verified: no Calibration, no WB, Sharpness=10, Clarity=0, Dehaze=0, GrainAmount=20 with grain protection active, Saturation=−10, Vibrance=−5, |Vibrance−Saturation|=5 (at exact boundary). All STYLEGUIDE rules pass. Status: RESOLVED.
+
+---
+
+## See Also
+
+- [Kodak Portra 160 — Film Characteristics](../Kodak-Portra-160/characteristics.md)
+- [Kodak Portra 160NC Lightroom Preset](../Kodak-Portra-160NC/community-recipes.md)
+- [Kodak Portra 400VC Lightroom Preset](../Kodak-Portra-400VC/community-recipes.md)
+- [Kodak Portra 400 Lightroom Preset](../Kodak-Portra-400/community-recipes.md)
+- [XMP Preset: Kodak Portra 160](../../Presets/Color-Negative/Kodak Portra 160.xmp)

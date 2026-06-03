@@ -1,4 +1,4 @@
-# Community Recipes — Pastel Anime Aethereal
+# Community Recipes Lightroom Preset — Pastel Anime Aethereal
 
 Lightroom settings and recipes from Reddit, YouTube, forums, and preset marketplaces for achieving anime-inspired pastel / aethereal looks.
 
@@ -310,3 +310,11 @@ XMP values match consensus exactly. Vibrance/Saturation gap = 5 (compliant).
 ### Fixes Applied (2026-06-01 Batch 5)
 - **No XMP changes needed**: All slider values already match community consensus and are STYLEGUIDE-compliant (Vibrance=+15, Sat=+10, diff=5)
 - **Documentation**: Source weakness (1/10 quantitative) is documented; extreme -90/+90 range noted as image-type-restricted
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

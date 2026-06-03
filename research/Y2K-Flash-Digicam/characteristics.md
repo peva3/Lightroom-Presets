@@ -1,4 +1,4 @@
-# Y2K Flash Digicam — Full Aesthetic Characteristics
+# Y2K Flash Digicam Lightroom Preset — Full Aesthetic Characteristics
 
 > The definitive breakdown of early-2000s digicam aesthetics: blown-out direct flash, CCD sensor color shifts, outdated auto white balance, and the low-fi charm that's taken over TikTok and Instagram.
 
@@ -7,7 +7,7 @@
 ## Core Aesthetic Identity
 
 ### The Y2K Digicam Flash Look in Seven Words
-**Blown flash, crushed shadows, cold WB, saturated reds.**
+The Y2K Flash Digicam Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. **Blown flash, crushed shadows, cold WB, saturated reds.**
 
 | Attribute | Digicam Flash Characteristic |
 |-----------|------------------------------|
@@ -274,3 +274,11 @@ When comparing your digital recreation to real digicam flash photos, check:
 ---
 
 *Compiled May 2026 from Reddit (r/VintageDigitalCameras, r/postprocessing, r/Lightroom), TikTok trends, YouTube digicam review content, photography forums, and technical CCD/CMOS documentation. The "CCD vs CMOS" debate section represents community discourse, not settled photographic science.*
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

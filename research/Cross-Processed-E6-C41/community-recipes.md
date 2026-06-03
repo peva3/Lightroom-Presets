@@ -307,3 +307,11 @@ Previous claim "all attributes within 5%" was false for Blacks (100% deviation),
 - Recipe 1 is the definitive community reference for Velvia 50 xpro, compiled from r/analog, r/AnalogCommunity, and Flickr film groups. ✓
 - Community quotes ("green shadows, insane contrast") corroborate the xpro signature. ✓
 - No Wayback Machine numeric slider values available — all data from community film forums and scanner workflow guides. Source quality: GOOD for film behavior characteristics, MODERATE for exact slider midpoints (variation by scan type).
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

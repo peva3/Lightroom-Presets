@@ -1,7 +1,7 @@
-# High Contrast Editorial — Characteristics
+# High Contrast Editorial Lightroom Preset — Characteristics
 
 ## Use Case
-High-fashion editorial photography. Studio and location fashion, runway, lookbooks. Bold, dramatic, unapologetic contrast.
+The High Contrast Editorial Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. High-fashion editorial photography. Studio and location fashion, runway, lookbooks. Bold, dramatic, unapologetic contrast.
 
 ## Key Techniques
 High Contrast (+40) is the defining move — fashion editorial wants punch. Clarity +15 adds structural crunch for clothing textures (leather, denim, sequins). Cool shadows (H230 S18) create that signature fashion blue-black. Desaturated greens/oranges keep focus on garments not environment. Light grain (Amount 15) for magazine-print texture. Sharpness=10 per grain rule. |Vibrance−Saturation|=2. 22 attributes — richer than average but each slider has purpose.
@@ -18,3 +18,11 @@ High Contrast (+40) is the defining move — fashion editorial wants punch. Clar
 - HSL Sat max: Within ±60
 - Blacks floor: ≥ -30
 - Grain protection: Sharpness=10, Clarity=0, Texture=0, Dehaze=0
+
+## See Also
+
+- [Genre Presets](../../docs/genre.md)
+- [Mobile Presets](../../docs/mobile.md)
+- [Seasonal Presets](../../docs/seasonal.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

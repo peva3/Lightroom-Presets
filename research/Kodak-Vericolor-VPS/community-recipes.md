@@ -1,4 +1,4 @@
-# Kodak Vericolor VPS — Community Recipes
+# Kodak Vericolor VPS — Lightroom Preset Settings & Recipes
 
 > Compiled from Fuji X Weekly (Ritchie Roesch, Jul 2025), Reddit (r/analog, r/Lightroom), and photography forums. Part of the Vericolor family with the lowest contrast and a 1970s aesthetic.
 
@@ -76,3 +76,13 @@ Community users note that this preset can appear "washed out" on modern high-con
 ---
 
 *Compiled June 2026 from Fuji X Weekly, Photrio, and Flickr community data.*
+
+---
+
+## See Also
+
+- [Kodak Vericolor VPS — Film Characteristics](../Kodak-Vericolor-VPS/characteristics.md)
+- [Kodak Vericolor III 160 Lightroom Preset](../Kodak-Vericolor-III-160/community-recipes.md)
+- [Kodak Portra 160 Lightroom Preset](../Kodak-Portra-160/community-recipes.md)
+- [Fuji NPS 160 Pulled Lightroom Preset](../Fuji-NPS-160-Pulled/community-recipes.md)
+- [XMP Preset: Kodak Vericolor VPS](../../Presets/Color-Negative/Kodak Vericolor VPS.xmp)

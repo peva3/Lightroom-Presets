@@ -1,4 +1,4 @@
-# Fuji NPS 160 Pulled — Community Recipes
+# Fuji NPS 160 Pulled — Lightroom Preset Settings & Recipes
 
 > Compiled from Fuji X Weekly (Thomas Schwab / Ritchie Roesch, May 2021), Reddit (r/analog, r/Lightroom), and photography forums. The pulled variant creates an ultra-soft, ethereal portrait aesthetic.
 
@@ -81,3 +81,13 @@ Thomas Schwab (effzwo.thommy) is a prolific Fuji X Weekly recipe contributor who
 ---
 
 *Compiled June 2026 from Fuji X Weekly and community data.*
+
+---
+
+## See Also
+
+- [Fuji NPS 160 Pulled — Film Characteristics](../Fuji-NPS-160-Pulled/characteristics.md)
+- [Fuji Pro 160NS Lightroom Preset](../Fuji-Pro-160NS/community-recipes.md)
+- [Kodak Portra 160 Lightroom Preset](../Kodak-Portra-160/community-recipes.md)
+- [Fuji Reala 100 Lightroom Preset](../Fuji-Reala-100/community-recipes.md)
+- [XMP Preset: Fuji NPS 160 Pulled](../../Presets/Color-Negative/Fuji NPS 160 Pulled.xmp)

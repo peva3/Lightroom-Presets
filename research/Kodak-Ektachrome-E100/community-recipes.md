@@ -1,4 +1,4 @@
-# Community Lightroom Recipes — Kodak Ektachrome E100
+# Kodak Ektachrome E100 — Lightroom Preset Settings & Recipes
 
 This document compiles Lightroom/ACR settings shared across Reddit (r/analog, r/Lightroom, r/postprocessing), YouTube tutorials, film photography forums, and blog posts for emulating Kodak Ektachrome E100.
 
@@ -354,3 +354,13 @@ All XMP values within valid ranges:
 Strong source quality from real YouTube creators and established forums. The calibration recommendations were correctly rejected — the cool-blue signature is achievable through HSL + Color Grading without primary reinterpretation. The Matt Day WB recommendation is valid shooting technique but correctly excluded from XMP. Cross-processed variant properly segregated.
 
 **Documentation fix (2026-06-01):** Added note to Community Validated Values table clarifying values reflect pre-STYLEGUIDE consensus, not final XMP state. Actual XMP: Blacks=-30, Clarity=0, Saturation=+5, Vibrance=+2.5, no calibration, GrainAmount=10, Sharpness=10.
+
+---
+
+## See Also
+
+- [Kodak Ektachrome E100 — Film Characteristics](../Kodak-Ektachrome-E100/characteristics.md)
+- [Kodak Ektachrome 320T Lightroom Preset](../Kodak-Ektachrome-320T/community-recipes.md)
+- [Kodak Ektachrome 64 Lightroom Preset](../Kodak-Ektachrome-64/community-recipes.md)
+- [Kodak Ektachrome 400X Lightroom Preset](../Kodak-Ektachrome-400X/community-recipes.md)
+- [XMP Preset: Kodak Ektachrome E100](../../Presets/Slide/Kodak Ektachrome E100.xmp)

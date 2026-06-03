@@ -79,3 +79,13 @@ Agfa Ultra 100 emulation must deliver:
 ---
 
 *Last updated: June 2026*
+
+---
+
+## See Also
+
+- [Agfa Ultra 100 — Film Characteristics](../Agfa-Ultra-100/characteristics.md)
+- [Agfa Vista 100 Lightroom Preset](../Agfa-Vista-100/community-recipes.md)
+- [Agfa Optima 100 Lightroom Preset](../Agfa-Optima-100/community-recipes.md)
+- [Kodak Ultramax 400 Lightroom Preset](../Kodak-Ultramax-400/community-recipes.md)
+- [XMP Preset: Agfa Ultra 100](../../Presets/Color-Negative/Agfa Ultra 100.xmp)

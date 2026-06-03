@@ -1,8 +1,8 @@
-# CineStill 400D — Full Aesthetic Breakdown
+# CineStill 400D — Full Aesthetic Breakdown for Lightroom Presets
 
 ## Overview
 
-CineStill 400D is a daylight-balanced cinema color negative film adapted for C41 processing, created by removing the Remjet layer from Kodak Vision3 250D motion picture stock. The "D" stands for "Dynamic" (not "Daylight"), referring to its large push-processing latitude. Unlike traditional still-photography films, 400D scans flat and requires post-processing — a characteristic inherited from cinema workflows where color grading is expected.
+CineStill 400D is a daylight-balanced cinema color negative film adapted for C41 processing, created by removing the Remjet layer from Kodak Vision3 250D motion picture stock. The "D" stands for "Dynamic" (not "Daylight"), referring to its large push-processing latitude. Unlike traditional still-photography films, 400D scans flat and requires post-processing — a characteristic inherited from cinema workflows where color grading is expected. This document serves as a reference for creating a Lightroom preset that emulates 400D.
 
 The defining visual trait is **red halation around bright highlights**, caused by the missing Remjet layer which normally absorbs light scatter. This produces a dreamy, cinematic glow unique to CineStill films.
 
@@ -79,3 +79,13 @@ This recipe is described as having less contrast and leaning more red/purple tha
 - Fuji X Weekly: CineStill 400D v1 & v2 Film Simulation Recipes (January 2023)
 - CineStill official documentation
 - Community observations from r/analog, r/postprocessing (2022–2026)
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Cinestill 800T](../Cinestill-800T/characteristics.md)
+- [CineStill 50D](../CineStill-50D/characteristics.md)
+- [Kodak Vision3 250D](../Kodak-Vision3-250D/characteristics.md)

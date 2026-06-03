@@ -416,3 +416,11 @@ The community data for Approach 2 (Dramatic Monochrome — the primary recipe) i
 **Key credibility factor**: The community-recipes.md honestly documents Ricoh's refusal to provide Adobe Camera Matching profiles, the grain-before-contrast pipeline ordering problem, and the recommendation to shoot RAW+JPEG for reference. This transparency about limitations is a strong signal of data integrity — the document isn't overselling what's achievable.
 
 **Unique validation strength**: Unlike every other preset in this batch, Ricoh HC B&W has verifiable ground truth (the in-camera JPEG engine parameters). The community isn't speculating about what "looks like" HC B&W — they're translating known engine settings. This makes it the most objectively validatable preset in the entire batch.
+
+## See Also
+
+- [Black White Presets](../../docs/black-white.md)
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Genre Presets](../../docs/genre.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

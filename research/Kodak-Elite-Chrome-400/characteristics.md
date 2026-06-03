@@ -1,8 +1,8 @@
-# Kodak Elite Chrome 400 — Aesthetic Characteristics
+# Kodak Elite Chrome 400 — Aesthetic Characteristics for Lightroom Presets
 
 ## Overview
 
-Kodak Elite Chrome 400 was Kodak's consumer-grade high-speed color slide film. It filled the role of an accessible, forgiving slide film for casual photographers who wanted the "slide look" without the discipline required by professional films. Discontinued in the early 2000s, it represents the consumer-high-speed slide film category — the Kodak counterpart to the concept behind Fuji's Sensia line, but at 400 speed.
+Kodak Elite Chrome 400 was Kodak's consumer-grade high-speed color slide film. It filled the role of an accessible, forgiving slide film for casual photographers who wanted the "slide look" without the discipline required by professional films. Discontinued in the early 2000s, it represents the consumer-high-speed slide film category — the Kodak counterpart to the concept behind Fuji's Sensia line, but at 400 speed. This document serves as a reference for creating a Lightroom preset that emulates Elite Chrome 400.
 
 ## Core Aesthetic Traits
 
@@ -44,3 +44,12 @@ Significantly lower contrast than professional slide films. Highlights hold more
 - Kodak Elite Chrome 400 technical datasheet
 - t3mujinpack — Elite Chrome 400 profile reference
 - r/analog community — expired Elite Chrome 400 images
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Ektachrome 400X](../Kodak-Ektachrome-400X/characteristics.md)
+- [Kodak Ektachrome E100](../Kodak-Ektachrome-E100/characteristics.md)

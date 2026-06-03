@@ -1,4 +1,4 @@
-# Fuji Superia HG 1600 — Community Recipes
+# Fuji Superia HG 1600 — Lightroom Preset Settings & Recipes
 
 > Compiled from t3mujinpack .dtstyle reference data, Reddit (r/analog, r/Lightroom), and photography forums. The "High Grade" Superia variant offers finer grain and better skin tones than the standard 1600.
 
@@ -59,3 +59,13 @@ The HG variant's primary improvements:
 ---
 
 *Compiled June 2026 from t3mujinpack data, community forums, and Fujifilm documentation.*
+
+---
+
+## See Also
+
+- [Fuji Superia HG 1600 — Film Characteristics](../Fuji-Superia-HG-1600/characteristics.md)
+- [Fuji Superia 100 Lightroom Preset](../Fuji-Superia-100/community-recipes.md)
+- [Fuji Superia 200 Lightroom Preset](../Fuji-Superia-200/community-recipes.md)
+- [Fuji Superia 800 Lightroom Preset](../Fuji-Superia-800/community-recipes.md)
+- [XMP Preset: Fuji Superia HG 1600](../../Presets/Color-Negative/Fuji Superia HG 1600.xmp)

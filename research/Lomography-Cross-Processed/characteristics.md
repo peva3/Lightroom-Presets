@@ -1,4 +1,4 @@
-# Full Aesthetic Breakdown: Lomography Cross-Processed Look
+# Full Aesthetic Breakdown Lightroom Preset: Lomography Cross-Processed Look
 
 ## Core Aesthetic Signature
 
@@ -154,3 +154,11 @@ For accurate Lightroom preset creation, the digital emulation should target:
 - r/analog community knowledge
 - Lomography.com film specifications
 - Photographic community testing and documentation
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

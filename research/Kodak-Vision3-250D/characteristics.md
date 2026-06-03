@@ -1,8 +1,8 @@
-# Kodak Vision3 250D (5207) — Full Aesthetic Characteristics
+# Kodak Vision3 250D (5207) — Full Aesthetic Characteristics for Lightroom Presets
 
 ## Overview
 
-Kodak Vision3 250D is the **daylight-balanced workhorse** of modern motion picture cinematography. Repurposed for stills photography, it delivers a cinematic baseline defined by warm daylight rendering, rich but controlled contrast, natural skin tones, and fine, structured grain. It sits between the ultra-clean 50D and the flexible 500T — offering enough speed for available-light work while retaining the refinement expected of professional cinema stock.
+Kodak Vision3 250D is the **daylight-balanced workhorse** of modern motion picture cinematography. Repurposed for stills photography, it delivers a cinematic baseline defined by warm daylight rendering, rich but controlled contrast, natural skin tones, and fine, structured grain. It sits between the ultra-clean 50D and the flexible 500T — offering enough speed for available-light work while retaining the refinement expected of professional cinema stock. This document serves as a reference for creating a Lightroom preset that emulates Vision3 250D.
 
 ## Color Palette
 
@@ -102,3 +102,12 @@ As a motion picture film with **Rem-Jet backing** (anti-halation layer), Vision3
 - Cinematography.com forums — user reports on push processing, 16mm usage, and comparison with 50D/500T
 - Kodak Vision3 technical publications (archived)
 - YouTube: "How to Create the KODAK VISION 3 250D - 500T Look in Lightroom Classic Tutorial" — practical emulation techniques
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Vision3 50D](../Kodak-Vision3-50D/characteristics.md)
+- [Kodak Vision3 500T](../Kodak-Vision3-500T/characteristics.md)

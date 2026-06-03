@@ -1,8 +1,8 @@
-# Fuji Superia 1600 — Aesthetic Characteristics
+# Fuji Superia 1600 — Aesthetic Characteristics for Lightroom Presets
 
 ## Executive Summary
 
-Fuji Superia 1600 is the defining **high-speed consumer color negative film** of the early 2000s — the fastest multi-purpose C-41 film in the Superia lineup. It delivers punchy, vibrant color saturation at a speed where most films turn muddy, with pronounced but aesthetically pleasing grain that gives images a textured, painterly, almost reportage quality. The film has a distinctive slightly cool color cast that favors greens and blues, making it unmistakably "Fuji" in character. Discontinued between 2016-2018, it remains one of the most-missed film stocks among analog photographers, ranking **#6 in a "most-missed film" survey with 21 votes**.
+Fuji Superia 1600 is the defining **high-speed consumer color negative film** of the early 2000s — the fastest multi-purpose C-41 film in the Superia lineup. It delivers punchy, vibrant color saturation at a speed where most films turn muddy, with pronounced but aesthetically pleasing grain that gives images a textured, painterly, almost reportage quality. The film has a distinctive slightly cool color cast that favors greens and blues, making it unmistakably "Fuji" in character. Discontinued between 2016-2018, it remains one of the most-missed film stocks among analog photographers, ranking **#6 in a "most-missed film" survey with 21 votes**. This document serves as a reference for creating a Lightroom preset that emulates Superia 1600.
 
 ## Core Aesthetic Signature
 
@@ -128,3 +128,15 @@ Superia 1600 occupied a unique market position that no current film fills:
 - Pushable to 3200 for extreme low light
 
 Today, shooting at ISO 1600 or above in color requires either pushing Portra 800 (which loses its character) or shooting Lomo 800 (which is unpredictable). Neither option provides the controlled, punchy, cool-biased consumer aesthetic that Superia 1600 delivered.
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fuji Superia 100](../Fuji-Superia-100/characteristics.md)
+- [Fuji Superia 200](../Fuji-Superia-200/characteristics.md)
+- [Fuji Superia 800](../Fuji-Superia-800/characteristics.md)
+- [Fuji Superia XTRA 400](../Fuji-Superia-XTRA-400/characteristics.md)
+- [Fuji Superia HG 1600](../Fuji-Superia-HG-1600/characteristics.md)

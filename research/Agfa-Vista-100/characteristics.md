@@ -1,8 +1,8 @@
-# Agfa Vista 100 — Aesthetic Characteristics
+# Agfa Vista 100 — Aesthetic Characteristics for Lightroom Presets
 
 ## Overview
 
-Agfa Vista 100 was the **slower, finer-grain companion** to the popular Agfa Vista 200. Like Vista 200, it was manufactured by Fujifilm and sold under the historic AgfaPhoto brand at budget prices. At ISO 100, it offered visibly finer grain and slightly higher resolving power than Vista 200, with a somewhat cooler overall color balance. It was among the cheapest ISO 100 color films available before discontinuation.
+Agfa Vista 100 was the **slower, finer-grain companion** to the popular Agfa Vista 200. Like Vista 200, it was manufactured by Fujifilm and sold under the historic AgfaPhoto brand at budget prices. At ISO 100, it offered visibly finer grain and slightly higher resolving power than Vista 200, with a somewhat cooler overall color balance. It was among the cheapest ISO 100 color films available before discontinuation. This document serves as a reference for creating a Lightroom preset that emulates Vista 100.
 
 ## Core Aesthetic Signature
 
@@ -97,3 +97,13 @@ Like Vista 200, primary colors — especially reds — are saturated and vibrant
 - Japan Camera Hunter: Agfa Vista line overview
 - Photrio: Consumer ISO 100 film comparisons
 - Flickr: Agfa Vista 100 image samples
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Agfa Vista 200](../Agfa-Vista-200/characteristics.md)
+- [Agfa Vista 400](../Agfa-Vista-400/characteristics.md)
+- [Kodak Gold 200](../Kodak-Gold-200/characteristics.md)

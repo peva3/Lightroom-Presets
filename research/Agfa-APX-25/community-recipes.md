@@ -1,4 +1,4 @@
-# Agfa APX 25 — Community Recipes
+# Agfa APX 25 — Lightroom Preset Settings & Recipes
 
 ## Primary Source: t3mujinpack (Darktable Styles)
 
@@ -25,3 +25,13 @@ Source: https://github.com/t3mujinpack/t3mujinpack
 - Neutral tonality through even-handed GrayMixer distribution
 - All STYLEGUIDE rules applied: Sharpness=10, Clarity/Texture/Dehaze=0, no Calibration, no WB
 - The low ISO character translates to a cleaner, more transparent film emulation
+
+---
+
+## See Also
+
+- [Agfa APX 25 — Film Characteristics](../Agfa-APX-25/characteristics.md)
+- [Agfa APX 100 Lightroom Preset](../Agfa-APX-100/community-recipes.md)
+- [Agfa APX 400 Lightroom Preset](../Agfa-APX-400/community-recipes.md)
+- [Kodak Tri X 400 Lightroom Preset](../Kodak-Tri-X-400/community-recipes.md)
+- [XMP Preset: Agfa APX 25](../../Presets/Black-White/Agfa APX 25.xmp)

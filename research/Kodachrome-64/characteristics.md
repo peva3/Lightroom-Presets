@@ -1,4 +1,4 @@
-# Kodachrome 64 — Full Aesthetic Breakdown
+# Kodachrome 64 Lightroom Preset — Full Aesthetic Breakdown
 
 > *"Kodachrome had more poetry in it, a softness, an elegance. With digital photography, you gain many benefits [but] you have to put in post-production. [With Kodachrome,] you take it out of the box and the pictures are already brilliant."*
 > — **Steve McCurry**, Vanity Fair, 2011
@@ -7,7 +7,7 @@
 
 ## The Kodachrome Paradox: Uniqueness Through Chemistry
 
-Kodachrome's aesthetic is the product of a chemical process that no longer exists. Unlike every other color film ever made, Kodachrome's dyes were not embedded in the emulsion at the factory. They were **formed during processing** when the film was sequentially re-exposed to red, blue, and white light and bathed in three separate color developer solutions — each containing a specific dye coupler that reacted with oxidized developer byproducts to precipitate pure cyan, magenta, and yellow dyes directly into their respective layers.
+The Kodachrome 64 Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Kodachrome's aesthetic is the product of a chemical process that no longer exists. Unlike every other color film ever made, Kodachrome's dyes were not embedded in the emulsion at the factory. They were **formed during processing** when the film was sequentially re-exposed to red, blue, and white light and bathed in three separate color developer solutions — each containing a specific dye coupler that reacted with oxidized developer byproducts to precipitate pure cyan, magenta, and yellow dyes directly into their respective layers.
 
 This non-substantive architecture produced several irreversible aesthetic qualities:
 
@@ -160,3 +160,11 @@ In digital terms, Kodachrome is a film that *does less* than Velvia but achieves
 - Wilhelm Imaging Research — "The Permanence and Care of Color Photographs"
 - Mees, Kenneth (1961) — "From Dry Plates to Ektachrome Film: A Story of Photographic Research"
 - Community discussions: r/analog, fredmiranda.com, rangefinderforum.com, dpreview.com
+
+## See Also
+
+- [Slide Presets](../../docs/slide.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

@@ -6,7 +6,7 @@
 
 ## Core Principle: The 15-Year Attic Rule
 
-The aesthetic we're emulating: cheap consumer color negative film (think Kodak Gold 200, Fuji Superia 400, or generic drugstore film) stored in a hot attic for 10–15 years, then shot with **+2 stops of overexposure**. The combination of heat degradation and deliberate overexposure produces a distinct look:
+The Faded Summer Expired Lightroom preset community recipes compile settings from photographers worldwide. The aesthetic we're emulating: cheap consumer color negative film (think Kodak Gold 200, Fuji Superia 400, or generic drugstore film) stored in a hot attic for 10–15 years, then shot with **+2 stops of overexposure**. The combination of heat degradation and deliberate overexposure produces a distinct look:
 
 - Washed-out, milky shadows (base fog from heat)
 - Extreme warmth / yellow-brown color cast (dye coupler degradation)
@@ -431,3 +431,11 @@ Combine these five moves and you have the foundation. Layer on HSL tweaks to spe
 - **Calibration Green Primary +25 removal**: Intentional tradeoff per STYLEGUIDE rule #3. Community considers it the #2 defining move; users should apply manually if desired.
 - **WB warmth exclusion**: Intentional tradeoff per STYLEGUIDE rule #4. Three of five community recipes include WB; users should add ~+12 to +25 Temp manually.
 - Remaining gap: Global Saturation still removed (no consensus single value across recipes; per-channel HSL desaturation covers it).
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

@@ -1,7 +1,7 @@
-# Kodak Verichrome Pan — Film Characteristics
+# Kodak Verichrome Pan — Film Characteristics for Lightroom Presets
 
 ## Overview
-Kodak Verichrome Pan was a medium-speed black-and-white negative film designed for simple box cameras and consumer use. Introduced in 1956 (updating the earlier orthochromatic Verichrome), it was known for extremely wide exposure latitude — it could produce usable negatives with exposure errors of several stops. Discontinued 2002, it was the last of Kodak's classic-era B&W films.
+Kodak Verichrome Pan was a medium-speed black-and-white negative film designed for simple box cameras and consumer use. Introduced in 1956 (updating the earlier orthochromatic Verichrome), it was known for extremely wide exposure latitude — it could produce usable negatives with exposure errors of several stops. Discontinued 2002, it was the last of Kodak's classic-era B&W films. This document serves as a reference for creating a Lightroom preset that emulates Verichrome Pan.
 
 ## Key Characteristics
 - **ISO**: 125 (nominal)
@@ -33,3 +33,13 @@ Kodak Verichrome Pan was a medium-speed black-and-white negative film designed f
 - Brownie Camera collectors community
 - Photrio archives on Verichrome Pan characteristics
 - Found film collections and vintage photography resources
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Plus X 125](../Kodak-Plus-X-125/characteristics.md)
+- [Kodak Tri X 400](../Kodak-Tri-X-400/characteristics.md)
+- [Kodak Panatomic X 32](../Kodak-Panatomic-X-32/characteristics.md)

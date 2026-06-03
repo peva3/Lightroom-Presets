@@ -1,8 +1,8 @@
-# Wes Anderson Pastel Aesthetic — Full Characteristics
+# Wes Anderson Pastel Aesthetic Lightroom Preset — Full Characteristics
 
 ## Overview
 
-The Wes Anderson "Pastel" look is the director's most iconic and most-referenced aesthetic in photo editing communities. While his early films (Bottle Rocket, Rushmore) use muted, naturalistic palettes, his post-2012 work—beginning with *Moonrise Kingdom* and peaking with *The Grand Budapest Hotel*—introduces a highly stylized, toy-like, storybook color signature that editors and photographers endlessly try to replicate.
+The Wes Anderson Pastel Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The Wes Anderson "Pastel" look is the director's most iconic and most-referenced aesthetic in photo editing communities. While his early films (Bottle Rocket, Rushmore) use muted, naturalistic palettes, his post-2012 work—beginning with *Moonrise Kingdom* and peaking with *The Grand Budapest Hotel*—introduces a highly stylized, toy-like, storybook color signature that editors and photographers endlessly try to replicate.
 
 ---
 
@@ -140,3 +140,11 @@ Anderson remains one of the few directors mandated by studios to shoot on film. 
 - Robert Yeoman ASC interviews on Grand Budapest Hotel cinematography
 - YouTube: Wes Anderson color breakdowns, Lightroom tutorial communities
 - Reddit r/cinematography, r/colorists, r/postprocessing community discussions
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

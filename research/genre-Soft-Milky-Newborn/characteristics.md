@@ -1,7 +1,7 @@
-# Soft Milky Newborn — Characteristics
+# Soft Milky Newborn Lightroom Preset — Characteristics
 
 ## Use Case
-Newborn studio and lifestyle sessions. Soft, creamy skin tones, high-key bright background. Works on fair to medium skin tones.
+The Soft Milky Newborn Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Newborn studio and lifestyle sessions. Soft, creamy skin tones, high-key bright background. Works on fair to medium skin tones.
 
 ## Key Techniques
 High Exposure (+0.65) floods sensor for clean whites. Negative Contrast (-20) + negative Clarity (-12) + negative Dehaze (-5) create triple-layer soft bloom. Orange Sat -10 calms ruddy newborn skin; Orange Lum +15 brightens. Saturation -10 global + Vibrance -8 (|diff|=2, safe). Lifted blacks (+15) for matte finish.
@@ -18,3 +18,11 @@ High Exposure (+0.65) floods sensor for clean whites. Negative Contrast (-20) + 
 - HSL Sat max: Within ±60
 - Blacks floor: ≥ -30
 - Grain protection: N/A (no grain)
+
+## See Also
+
+- [Genre Presets](../../docs/genre.md)
+- [Mobile Presets](../../docs/mobile.md)
+- [Seasonal Presets](../../docs/seasonal.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

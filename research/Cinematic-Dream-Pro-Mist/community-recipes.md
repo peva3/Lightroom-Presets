@@ -2,7 +2,7 @@
 
 ## Overview
 
-Since a physical Tiffen Pro-Mist filter affects multiple optical properties simultaneously
+The Cinematic Dream Pro Mist Lightroom preset community recipes compile settings from photographers worldwide. Since a physical Tiffen Pro-Mist filter affects multiple optical properties simultaneously
 (halation, contrast, MTF, spectral shift), no single Lightroom slider perfectly replicates it.
 The community approach uses a **composite recipe** — negative Clarity for mid-frequency
 contrast reduction, negative Dehaze for veiling glare simulation, lifted blacks via the Tone
@@ -334,3 +334,11 @@ XMP values match consensus except Vibrance: community wants +10, XMP has -1. See
 - r/cinematography: "Pro-Mist in post?" forum discussions
 - r/photography: "Favorite presets for diffusion filter look" community poll
 - YouTube: Multiple tutorials on "Pro-Mist Lightroom Preset," "Dreamy Lightroom Tutorial," "Diffusion Filter in Post"
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

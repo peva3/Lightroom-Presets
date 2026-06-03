@@ -1,9 +1,9 @@
-# Aesthetic Characteristics — Kodak Ektachrome E100
+# Kodak Ektachrome E100 — Aesthetic Characteristics for Lightroom Presets
 
 ## The Ektachrome Family
 
 ### E100 (2018–present)
-The current Ektachrome E100 was reformulated from previous generations using modern emulsion technology while maintaining the classic Ektachrome look. Kodak describes it as "clean, crisp, with a neutral color balance."
+The current Ektachrome E100 was reformulated from previous generations using modern emulsion technology while maintaining the classic Ektachrome look. Kodak describes it as "clean, crisp, with a neutral color balance." This document serves as a reference for creating a Lightroom preset that emulates Ektachrome E100.
 
 ### E100G (Grain — discontinued ca. 2012)
 The predecessor to the current E100. "G" stood for optimized grain structure. E100G had a slightly warmer default white balance than the new E100, with marginally lower contrast. Very fine grain (RMS 8). Generally considered the most neutral of the Ektachrome family.
@@ -196,3 +196,15 @@ The re-release was culturally significant in the film photography community beca
 ---
 
 *This document synthesizes information from Kodak technical data, extensive community reviews (35mmc, r/analog, Photrio, YouTube), personal experience reports, and comparisons with competing slide films.*
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Ektachrome 320T](../Kodak-Ektachrome-320T/characteristics.md)
+- [Kodak Ektachrome 64](../Kodak-Ektachrome-64/characteristics.md)
+- [Kodak Ektachrome 400X](../Kodak-Ektachrome-400X/characteristics.md)
+- [Kodak Ektachrome 200](../Kodak-Ektachrome-200/characteristics.md)
+- [Kodak Ektachrome 100VS](../Kodak-Ektachrome-100VS/characteristics.md)

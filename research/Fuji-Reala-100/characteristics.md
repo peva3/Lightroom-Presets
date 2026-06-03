@@ -1,8 +1,8 @@
-# Fuji Reala 100 — Full Aesthetic Characteristics
+# Fuji Reala 100 — Full Aesthetic Characteristics for Lightroom Presets
 
 ## Primary Character: Neutral Color Accuracy
 
-Reala was designed and marketed for **color accuracy above all else**. Unlike Kodak's warm-biased consumer films (Gold, Ultramax) or even Portra's warm-neutral balance, Reala aimed for a **neutral white balance with true-to-life color reproduction**.
+Reala was designed and marketed for **color accuracy above all else**. Unlike Kodak's warm-biased consumer films (Gold, Ultramax) or even Portra's warm-neutral balance, Reala aimed for a **neutral white balance with true-to-life color reproduction**. This document serves as a reference for creating a Lightroom preset that emulates Reala 100.
 
 The "Reala" name itself is a portmanteau of "Real" + "Alpha" — suggesting the highest achievable realism.
 
@@ -84,3 +84,12 @@ As one r/AnalogCommunity commenter put it: *"I miss four-layer color. I don't un
 - Photrio forum discussions on Reala color characteristics
 - Flickr pool analysis of ~44,000 Reala images
 - "I miss four-layer color" thread — r/AnalogCommunity May 2026 (162 comments)
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fuji Pro 160NS](../Fuji-Pro-160NS/characteristics.md)
+- [Kodak Ektar 100](../Kodak-Ektar-100/characteristics.md)

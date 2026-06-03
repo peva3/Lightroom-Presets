@@ -56,3 +56,13 @@ The t3mujinpack profiles capture the Provia 400X look as a higher-speed variant 
 ### Sources
 - t3mujinpack — Provia 400X profile
 - Fujifilm Provia 400X technical datasheet
+
+---
+
+## See Also
+
+- [Fuji Provia 400X — Film Characteristics](../Fuji-Provia-400X/characteristics.md)
+- [Fuji Velvia 50 Lightroom Preset](../Fuji-Velvia-50/community-recipes.md)
+- [Fuji Velvia 100 Lightroom Preset](../Fuji-Velvia-100/community-recipes.md)
+- [Fuji Astia 100F Lightroom Preset](../Fuji-Astia-100F/community-recipes.md)
+- [XMP Preset: Fuji Provia 400X](../../Presets/Slide/Fuji Provia 400X.xmp)

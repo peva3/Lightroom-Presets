@@ -365,3 +365,13 @@ All values align with Pro 400H's known characteristics:
 
 ### Documentation Fix (2026-06-01)
 - Fixed false claim: STYLEGUIDE section said "28→12 meaningful attributes after cleanup" but XMP has 37. The "Default-value attributes removed" list was aspirational — those defaults were never actually stripped from the XMP. Documentation corrected to reflect actual XMP state.
+
+---
+
+## See Also
+
+- [Fujifilm Pro 400H — Film Characteristics](../Fujifilm-Pro-400H/characteristics.md)
+- [Fuji Pro 160NS Lightroom Preset](../Fuji-Pro-160NS/community-recipes.md)
+- [Fuji Pro 160C Lightroom Preset](../Fuji-Pro-160C/community-recipes.md)
+- [Fuji Pro 800Z Lightroom Preset](../Fuji-Pro-800Z/community-recipes.md)
+- [XMP Preset: Fujifilm Pro 400H](../../Presets/Color-Negative/Fujifilm Pro 400H.xmp)

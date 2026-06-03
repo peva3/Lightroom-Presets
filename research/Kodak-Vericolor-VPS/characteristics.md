@@ -1,4 +1,4 @@
-# Kodak Vericolor VPS — Film Characteristics
+# Kodak Vericolor VPS — Film Characteristics for Lightroom Presets
 
 > ISO 160 color negative film, introduced 1979. Part of the Vericolor family. Even lower contrast than Vericolor III. "VPS" = Vericolor Print Slide. Lower contrast than Vericolor III with a late-1970s/early-80s aesthetic.
 
@@ -6,7 +6,7 @@
 
 ## Core Aesthetic Identity
 
-| Attribute | Vericolor VPS Characteristic |
+| Attribute | Vericolor VPS Characteristic | This document serves as a reference for creating a Lightroom preset that emulates Vericolor VPS.
 |-----------|----------------------------|
 | Contrast | Even lower than Vericolor III — ultra-low contrast |
 | Saturation | Very pastel, subdued |
@@ -58,3 +58,13 @@ Vericolor VPS is the most contrast-flattened preset in the collection. Its -40 c
 ---
 
 *Compiled June 2026 from Fuji X Weekly (fujixweekly.com), Kodak historical documentation, and community forums.*
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Vericolor III 160](../Kodak-Vericolor-III-160/characteristics.md)
+- [Kodak Portra 160](../Kodak-Portra-160/characteristics.md)
+- [Fuji NPS 160 Pulled](../Fuji-NPS-160-Pulled/characteristics.md)

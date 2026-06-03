@@ -1,9 +1,9 @@
-# CineStill 50D — Community Recipes
+# CineStill 50D — Lightroom Preset Settings & Recipes
 
 ## Source: Fuji X Weekly (extrapolated from CineStill 800T + Astia base)
 
 ### Fuji Camera Recipe (derived from Astia-based approach)
-```
+The CineStill 50D Lightroom preset community recipes compile settings from photographers worldwide. ```
 Film Simulation: Astia
 Dynamic Range: DR200
 Highlight: -1
@@ -56,3 +56,13 @@ Halation (the red/orange glow around highlights when remjet is removed) cannot b
 | Category | Color-Negative | Creative |
 | Curve | Neutral | Cinematic |
 | Blending | 50 | 75 |
+
+---
+
+## See Also
+
+- [CineStill 50D — Film Characteristics](../CineStill-50D/characteristics.md)
+- [CineStill 400D Lightroom Preset](../CineStill-400D/community-recipes.md)
+- [Cinestill 800T Lightroom Preset](../Cinestill-800T/community-recipes.md)
+- [Kodak Vision3 50D Lightroom Preset](../Kodak-Vision3-50D/community-recipes.md)
+- [XMP Preset: CineStill 50D](../../Presets/Color-Negative/CineStill-50D.xmp)

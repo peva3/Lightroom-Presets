@@ -1,4 +1,4 @@
-# Community Recipes: The Matte Fade Look
+# Community Recipes Lightroom Preset: The Matte Fade Look
 
 > Compiled from r/Lightroom, r/postprocessing, YouTube tutorials, and photography forums (2015–present). The matte fade is arguably the most requested "how do I get this look" question across all Lightroom communities.
 
@@ -6,7 +6,7 @@
 
 ## Foundational Principle
 
-The matte fade is achieved by manipulating the **Tone Curve** to lift the black point — the bottom-left node of the curve is raised from (0,0) to approximately (0, 5–15) on the Y-axis. This removes true black from the image, creating a soft, hazy shadow transition. Everything else (contrast sliders, color grading, dehaze) supports and refines this core move.
+The Matte Fade Lightroom preset community recipes compile settings from photographers worldwide. The matte fade is achieved by manipulating the **Tone Curve** to lift the black point — the bottom-left node of the curve is raised from (0,0) to approximately (0, 5–15) on the Y-axis. This removes true black from the image, creating a soft, hazy shadow transition. Everything else (contrast sliders, color grading, dehaze) supports and refines this core move.
 
 ---
 
@@ -293,3 +293,11 @@ The Vibrance/Saturation conflict is recorded here as **CRITICAL** because it is 
 - YouTube: Peter McKinnon, Mango Street, Jessica Kobeissi, Sean Tucker, Evan Ranft — all have matte/fade tutorial content
 - Photography publications: PetaPixel (2017), Fstoppers (2018), SLR Lounge blog, Photography Tuts+, Contrastly (2016)
 - Preset companies: VSCO, Mastin Labs, Tribe Archipelago, Noble Presets — all produce matte-fade variants as core products
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

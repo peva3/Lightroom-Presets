@@ -86,3 +86,13 @@ See XMP file for final applied values.
 - Japan Camera Hunter: Agfa Vista line overview
 - Photrio: Consumer ISO 100 film comparisons
 - Flickr: Agfa Vista 100 image samples
+
+---
+
+## See Also
+
+- [Agfa Vista 100 — Film Characteristics](../Agfa-Vista-100/characteristics.md)
+- [Agfa Vista 200 Lightroom Preset](../Agfa-Vista-200/community-recipes.md)
+- [Agfa Vista 400 Lightroom Preset](../Agfa-Vista-400/community-recipes.md)
+- [Kodak Gold 200 Lightroom Preset](../Kodak-Gold-200/community-recipes.md)
+- [XMP Preset: Agfa Vista 100](../../Presets/Color-Negative/Agfa Vista 100.xmp)

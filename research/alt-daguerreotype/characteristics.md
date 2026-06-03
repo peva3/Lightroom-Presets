@@ -1,8 +1,8 @@
-# Daguerreotype — Complete Aesthetic Breakdown
+# Daguerreotype Lightroom Preset — Complete Aesthetic Breakdown
 
 ## Core Aesthetic Signature
 
-The daguerreotype, announced by Louis Daguerre in 1839, was the first publicly available photographic process. A silver-plated copper sheet is polished to a mirror finish, sensitized with iodine (and later bromine/chlorine) vapor, exposed in-camera, and developed with mercury vapor. The image is a direct positive on a mirror surface — it appears positive or negative depending on viewing angle.
+The daguerreotype Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The daguerreotype, announced by Louis Daguerre in 1839, was the first publicly available photographic process. A silver-plated copper sheet is polished to a mirror finish, sensitized with iodine (and later bromine/chlorine) vapor, exposed in-camera, and developed with mercury vapor. The image is a direct positive on a mirror surface — it appears positive or negative depending on viewing angle.
 
 ## Historical Context
 
@@ -35,3 +35,11 @@ This preset is designed to capture the essential visual character of the daguerr
 - Alternative Photography (alternativephotography.com)
 - Christopher James: *The Book of Alternative Photographic Processes*
 - Community knowledge from r/analog, r/Darkroom, and photography forums
+
+## See Also
+
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Black White Presets](../../docs/black-white.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

@@ -1,8 +1,8 @@
-# Redscale — Complete Aesthetic Breakdown
+# Redscale Lightroom Preset — Complete Aesthetic Breakdown
 
 ## Core Aesthetic Signature
 
-Redscale photography involves loading color negative film backwards — the red-sensitive layer (normally on the bottom) is now on top, exposed first. Since red light penetrates the emulsion deepest in normal use, reversing the film means the red layer dominates exposure. The result is a deep red, orange, and yellow image with characteristic color shifts that vary with exposure. It was popularized by the Lomography movement in the 2000s.
+The redscale Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Redscale photography involves loading color negative film backwards — the red-sensitive layer (normally on the bottom) is now on top, exposed first. Since red light penetrates the emulsion deepest in normal use, reversing the film means the red layer dominates exposure. The result is a deep red, orange, and yellow image with characteristic color shifts that vary with exposure. It was popularized by the Lomography movement in the 2000s.
 
 ## Historical Context
 
@@ -35,3 +35,11 @@ This preset is designed to capture the essential visual character of the redscal
 - Alternative Photography (alternativephotography.com)
 - Christopher James: *The Book of Alternative Photographic Processes*
 - Community knowledge from r/analog, r/Darkroom, and photography forums
+
+## See Also
+
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Black White Presets](../../docs/black-white.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

@@ -1,4 +1,4 @@
-# Fuji NPS 160 Pulled — Film Characteristics
+# Fuji NPS 160 Pulled — Film Characteristics for Lightroom Presets
 
 > Fujicolor NPS 160 pulled 1 stop (overexposed + reduced development). Low contrast, low saturation, cooler color balance, finer grain, soft contrast portrait film. Pulled processing further reduces contrast and saturation for an ethereal portrait aesthetic.
 
@@ -6,7 +6,7 @@
 
 ## Core Aesthetic Identity
 
-| Attribute | NPS 160 Pulled Characteristic |
+| Attribute | NPS 160 Pulled Characteristic | This document serves as a reference for creating a Lightroom preset that emulates NPS 160 Pulled.
 |-----------|------------------------------|
 | Contrast | Very low — further reduced by pull processing |
 | Saturation | Very low — desaturated, almost pastel |
@@ -54,3 +54,13 @@ The [recipe by Thomas Schwab](https://fujixweekly.com/2021/05/30/) uses Classic 
 ---
 
 *Compiled June 2026 from Fuji X Weekly (fujixweekly.com), Fujifilm historical documentation, and community forums.*
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fuji Pro 160NS](../Fuji-Pro-160NS/characteristics.md)
+- [Kodak Portra 160](../Kodak-Portra-160/characteristics.md)
+- [Fuji Reala 100](../Fuji-Reala-100/characteristics.md)

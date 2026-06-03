@@ -1,8 +1,8 @@
-# Gum Bichromate — Complete Aesthetic Breakdown
+# Gum Bichromate Lightroom Preset — Complete Aesthetic Breakdown
 
 ## Core Aesthetic Signature
 
-The gum bichromate process, perfected by Robert Demachy and other pictorialists around 1895, is a hand-coated pigment process using gum arabic, potassium dichromate, and watercolor pigments. Multiple coating/exposure/development cycles can build up layers of different colors, creating uniquely textured, painterly images. It was the quintessential pictorialist process — deliberately un-photographic, soft, and individualistic.
+The gum bichromate Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The gum bichromate process, perfected by Robert Demachy and other pictorialists around 1895, is a hand-coated pigment process using gum arabic, potassium dichromate, and watercolor pigments. Multiple coating/exposure/development cycles can build up layers of different colors, creating uniquely textured, painterly images. It was the quintessential pictorialist process — deliberately un-photographic, soft, and individualistic.
 
 ## Historical Context
 
@@ -35,3 +35,11 @@ This preset is designed to capture the essential visual character of the gum bic
 - Alternative Photography (alternativephotography.com)
 - Christopher James: *The Book of Alternative Photographic Processes*
 - Community knowledge from r/analog, r/Darkroom, and photography forums
+
+## See Also
+
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Black White Presets](../../docs/black-white.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

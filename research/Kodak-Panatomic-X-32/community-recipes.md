@@ -1,4 +1,4 @@
-# Kodak Panatomic-X 32 — Community Recipes
+# Kodak Panatomic-X 32 — Lightroom Preset Settings & Recipes
 
 ## Primary Source: t3mujinpack (Darktable Styles)
 The t3mujinpack project includes a Panatomic-X emulation using Channel Mixer and Lab Tone Curves. The approach uses slightly reduced red channel weight to simulate Panatomic-X's ortho-panchromatic sensitivity.
@@ -24,3 +24,11 @@ Source: https://github.com/t3mujinpack/t3mujinpack
 - GrayMixer reflects ortho-panchromatic sensitivity: slightly reduced red (+15), darker blue (-25)
 - All STYLEGUIDE rules: Sharpness=10 with grain, Clarity/Texture/Dehaze=0, no Calibration, no WB
 - The absence of grain is what makes this preset special — smoothness is the point
+
+---
+
+## See Also
+
+- [Kodak Panatomic X 32 — Film Characteristics](../Kodak-Panatomic-X-32/characteristics.md)
+- [Kodak Plus X 125 Lightroom Preset](../Kodak-Plus-X-125/community-recipes.md)
+- [Kodak T Max 100 Lightroom Preset](../Kodak-T-Max-100/community-recipes.md)

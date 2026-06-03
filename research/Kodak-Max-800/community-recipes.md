@@ -1,4 +1,4 @@
-# Kodak Max 800 — Community Recipes
+# Kodak Max 800 — Lightroom Preset Settings & Recipes
 
 ## Source: Fuji X Weekly (FxW)
 
@@ -62,3 +62,13 @@ Max 800 is the rarest of the Kodak MAX line, noted for:
 - Fuji X Weekly: "Kodak Max 800" recipe
 - Expired film community on Flickr and Reddit
 - Kodak MAX line historical documentation
+
+---
+
+## See Also
+
+- [Kodak Max 800 — Film Characteristics](../Kodak-Max-800/characteristics.md)
+- [Kodak Gold 200 Lightroom Preset](../Kodak-Gold-200/community-recipes.md)
+- [Kodak ColorPlus 200 Lightroom Preset](../Kodak-ColorPlus-200/community-recipes.md)
+- [Kodak Ultramax 400 Lightroom Preset](../Kodak-Ultramax-400/community-recipes.md)
+- [XMP Preset: Kodak Max 800](../../Presets/Color-Negative/Kodak Max 800.xmp)

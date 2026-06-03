@@ -1,8 +1,8 @@
-# Agfa Vista 400 — Aesthetic Characteristics
+# Agfa Vista 400 — Aesthetic Characteristics for Lightroom Presets
 
 ## Overview
 
-Agfa Vista 400 was the **fastest film in the Agfa Vista consumer lineup** — the high-speed companion to Vista 100 and 200. Like all Vista films, it was manufactured by Fujifilm and sold under the AgfaPhoto brand at drugstore prices. At ISO 400, it traded the fine grain of slower Vistas for extra speed and notably warmer color rendering, making it a versatile all-purpose consumer film.
+Agfa Vista 400 was the **fastest film in the Agfa Vista consumer lineup** — the high-speed companion to Vista 100 and 200. Like all Vista films, it was manufactured by Fujifilm and sold under the AgfaPhoto brand at drugstore prices. At ISO 400, it traded the fine grain of slower Vistas for extra speed and notably warmer color rendering, making it a versatile all-purpose consumer film. This document serves as a reference for creating a Lightroom preset that emulates Vista 400.
 
 ## Core Aesthetic Signature
 
@@ -99,3 +99,13 @@ Like all Vista films, primaries are saturated and vibrant:
 - r/analog: Vista 400 image posts
 - Flickr: Agfa Vista 400 image samples
 - Photrio: Consumer 400-speed film comparisons
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Agfa Vista 100](../Agfa-Vista-100/characteristics.md)
+- [Agfa Vista 200](../Agfa-Vista-200/characteristics.md)
+- [Kodak Gold 200](../Kodak-Gold-200/characteristics.md)

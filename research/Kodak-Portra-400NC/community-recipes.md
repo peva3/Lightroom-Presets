@@ -1,4 +1,4 @@
-# Kodak Portra 400NC — Community Recipes
+# Kodak Portra 400NC — Lightroom Preset Settings & Recipes
 
 > "Natural Color" at 400 speed — more neutral, cooler, and lower contrast than standard Portra 400. Sourced from t3mujinpack.
 
@@ -74,3 +74,13 @@ The project's existing Portra 400 preset is the baseline. Portra 400NC differs b
 - t3mujinpack GitHub — Kodak Portra 400 NC Darktable preset
 - Kodak Professional — E-4046 PORTRA Films technical data
 - Project's existing Kodak Portra 400 preset (baseline reference)
+
+---
+
+## See Also
+
+- [Kodak Portra 400NC — Film Characteristics](../Kodak-Portra-400NC/characteristics.md)
+- [Kodak Portra 160NC Lightroom Preset](../Kodak-Portra-160NC/community-recipes.md)
+- [Kodak Portra 400VC Lightroom Preset](../Kodak-Portra-400VC/community-recipes.md)
+- [Kodak Portra 400 Lightroom Preset](../Kodak-Portra-400/community-recipes.md)
+- [XMP Preset: Kodak Portra 400NC](../../Presets/Color-Negative/Kodak Portra 400NC.xmp)

@@ -1,7 +1,7 @@
-# Clean Baby Portrait — Characteristics
+# Clean Baby Portrait Lightroom Preset — Characteristics
 
 ## Use Case
-Clean baby milestone and portrait sessions. True-to-life colors, bright eyes, soft background. Minimal processing for maximum natural appeal.
+The Clean Baby Portrait Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Clean baby milestone and portrait sessions. True-to-life colors, bright eyes, soft background. Minimal processing for maximum natural appeal.
 
 ## Key Techniques
 Subtle Exposure (+0.25) for clean brightness. Low Contrast (+5) preserves skin detail. Orange Lum +10 brightens skin; Orange/Red Sat -5 calms ruddy tones. Slight positive Texture (+5) brings out baby hair and eye detail without being harsh. Minimal Color Grading — just 3 sat each side for barely-perceptible warmth. 16 attributes — clean and safe.
@@ -18,3 +18,11 @@ Subtle Exposure (+0.25) for clean brightness. Low Contrast (+5) preserves skin d
 - HSL Sat max: Within ±60
 - Blacks floor: ≥ -30
 - Grain protection: N/A (no grain)
+
+## See Also
+
+- [Genre Presets](../../docs/genre.md)
+- [Mobile Presets](../../docs/mobile.md)
+- [Seasonal Presets](../../docs/seasonal.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

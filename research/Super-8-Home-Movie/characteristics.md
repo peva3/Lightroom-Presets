@@ -1,8 +1,8 @@
-# Super 8 / Home Movie Aesthetic — Full Characteristics Breakdown
+# Super 8 / Home Movie Aesthetic Lightroom Preset — Full Characteristics Breakdown
 
 ## Overview
 
-The Super 8 home movie aesthetic is the dominant vintage-film look in contemporary wedding and lifestyle photography. It emulates the look of amateur 8mm motion picture film shot on Kodak consumer cameras between 1965 and the early 1980s. The aesthetic is warm, nostalgic, imperfect, and emotionally evocative — the antithesis of crisp, clinical digital capture.
+The Super 8 Home Movie Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The Super 8 home movie aesthetic is the dominant vintage-film look in contemporary wedding and lifestyle photography. It emulates the look of amateur 8mm motion picture film shot on Kodak consumer cameras between 1965 and the early 1980s. The aesthetic is warm, nostalgic, imperfect, and emotionally evocative — the antithesis of crisp, clinical digital capture.
 
 Unlike clean 35mm still-film emulation, the Super 8 look deliberately embraces *degradation artifacts* that signal "memory" and "home" — the visual equivalent of a worn family photo album.
 
@@ -208,3 +208,11 @@ Unlike clean 35mm still-film emulation, the Super 8 look deliberately embraces *
 - Lightroom: Basic panel, Tone Curve, HSL, Color Grading, Calibration, Effects (Grain), Lens Corrections (disable), Transform (slight rotation offset)
 - Photoshop: Light leak overlays, halation glow layers, edge softening, chromatic aberration simulation
 - In-camera: diffusion filters, warm white balance preset, underexpose 1/3 to 2/3 stop, shoot through vintage glass or adapters
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

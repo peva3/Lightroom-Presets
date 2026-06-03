@@ -1,4 +1,4 @@
-# Kodak Technical Pan — Community Recipes
+# Kodak Technical Pan — Lightroom Preset Settings & Recipes
 
 ## Primary Source: t3mujinpack (Darktable Styles)
 The t3mujinpack project does not include a dedicated Technical Pan emulation, but the channel mixer approach used for other B&W films can be adapted — Technical Pan requires extended red weighting to simulate its super-panchromatic sensitivity.
@@ -22,3 +22,12 @@ Source: https://github.com/t3mujinpack/t3mujinpack
 - Moderate highlight reduction (-20) to protect the compressed highlight range
 - All STYLEGUIDE rules: Sharpness=10 with grain, Clarity/Texture/Dehaze=0, no Calibration, no WB
 - The super-panchromatic GrayMixer is the defining characteristic — brighter reds, dramatically darker blues
+
+---
+
+## See Also
+
+- [Kodak Technical Pan — Film Characteristics](../Kodak-Technical-Pan/characteristics.md)
+- [Kodak Panatomic X 32 Lightroom Preset](../Kodak-Panatomic-X-32/community-recipes.md)
+- [Kodak T Max 100 Lightroom Preset](../Kodak-T-Max-100/community-recipes.md)
+- [XMP Preset: Kodak Technical Pan](../../Presets/Black-White/Kodak Technical Pan.xmp)

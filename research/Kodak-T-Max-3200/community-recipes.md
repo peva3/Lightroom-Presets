@@ -1,4 +1,4 @@
-# Community Recipes — Lightroom B&W Settings for T-Max 3200 Emulation
+# Kodak T-Max 3200 — Lightroom Preset Settings & Recipes
 
 > **Disclaimer:** These are community-sourced approximations. True T-Max 3200 look depends on exposure, development, scanning, and the uncontrollable variables of analog photography. Digital emulation is an interpretation.
 
@@ -361,3 +361,12 @@ The "Batch 4 — Merged community recipe midpoints" section lists incremental ch
 - Multiple community quotes (r/analog, Photrio) independently corroborate the T-Max vs. Delta differentiation (T-Max = sharper grain edges, higher contrast). ✓
 - No Wayback Machine snapshots with slider values. T-Max discussions are concentrated in film photography communities (not r/postprocessing). Source quality: GOOD for film stock characteristics, MODERATE for exact slider midpoints (scan variation).
 - The "Key Reminder for Digital Emulation" section correctly warns that scanned negatives have already been interpreted by scanner software, and different developers produce different results. This is good scientific disclosure. ✓
+
+---
+
+## See Also
+
+- [Kodak T Max 3200 — Film Characteristics](../Kodak-T-Max-3200/characteristics.md)
+- [Kodak T Max 100 Lightroom Preset](../Kodak-T-Max-100/community-recipes.md)
+- [Kodak T Max 400 Lightroom Preset](../Kodak-T-Max-400/community-recipes.md)
+- [Kodak Tri X 400 Lightroom Preset](../Kodak-Tri-X-400/community-recipes.md)

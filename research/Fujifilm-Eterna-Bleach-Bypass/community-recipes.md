@@ -1,4 +1,4 @@
-# Fujifilm Eterna Bleach Bypass — Community Recipes
+# Fujifilm Eterna Bleach Bypass — Lightroom Preset Settings & Recipes
 
 ## Source: Extrapolation from Fuji X Weekly Eterna + Bleach Bypass recipes
 
@@ -30,3 +30,11 @@ No single Fuji X Weekly recipe exists for Eterna + Bleach Bypass combined. This 
 
 ### Comparison to Existing Bleach Bypass Preset
 The existing `Bleach Bypass.xmp` uses Contrast +70 and Clarity +45. The Eterna variant reduces both (Contrast +55, Clarity 0) to respect the Eterna base's softer character while keeping the silver retention look.
+
+---
+
+## See Also
+
+- [Fujifilm Eterna Bleach Bypass — Film Characteristics](../Fujifilm-Eterna-Bleach-Bypass/characteristics.md)
+- [Fujifilm Eterna Lightroom Preset](../Fujifilm-Eterna/community-recipes.md)
+- [Fujifilm Classic Negative Lightroom Preset](../Fujifilm-Classic-Negative/community-recipes.md)

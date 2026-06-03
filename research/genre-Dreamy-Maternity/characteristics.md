@@ -1,7 +1,7 @@
-# Dreamy Maternity — Characteristics
+# Dreamy Maternity Lightroom Preset — Characteristics
 
 ## Use Case
-Maternity golden hour and outdoor lifestyle sessions. Ethereal, warm without being orange. Soft skin rendering.
+The Dreamy Maternity Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Maternity golden hour and outdoor lifestyle sessions. Ethereal, warm without being orange. Soft skin rendering.
 
 ## Key Techniques
 Mild positive Exposure (+0.40) with negative Contrast (-10) for soft compression. Negative Clarity (-8) and Texture (-5) smooth skin organically. Warm shadows (H45 S8) + warm highlights (H40 S5) create golden envelope. Green desaturation (-20) and hue shift (+15) push foliage toward golden-olive. Just 18 attributes — structured, simple. |Vibrance−Saturation|=2.
@@ -18,3 +18,11 @@ Mild positive Exposure (+0.40) with negative Contrast (-10) for soft compression
 - HSL Sat max: Within ±60
 - Blacks floor: ≥ -30
 - Grain protection: N/A (no grain)
+
+## See Also
+
+- [Genre Presets](../../docs/genre.md)
+- [Mobile Presets](../../docs/mobile.md)
+- [Seasonal Presets](../../docs/seasonal.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

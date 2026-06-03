@@ -1,8 +1,8 @@
-# Fujifilm Acros — Full Aesthetic Characteristics
+# Fujifilm Acros — Full Aesthetic Characteristics for Lightroom Presets
 
 ## Overview
 
-Fujifilm Acros is Fuji's most celebrated black-and-white film stock and in-camera simulation. It represents the gold standard for monochrome rendering in the Fuji ecosystem — praised across the industry for its fine grain, rich midtone separation, and exceptional shadow detail. The in-camera simulation is widely considered Fujifilm's best film simulation, period, and is often described as the most "analog-like" of all digital monochrome simulations.
+Fujifilm Acros is Fuji's most celebrated black-and-white film stock and in-camera simulation. It represents the gold standard for monochrome rendering in the Fuji ecosystem — praised across the industry for its fine grain, rich midtone separation, and exceptional shadow detail. The in-camera simulation is widely considered Fujifilm's best film simulation, period, and is often described as the most "analog-like" of all digital monochrome simulations. This document serves as a reference for creating a Lightroom preset that emulates Acros.
 
 ## Film Stock Aesthetic
 
@@ -128,3 +128,12 @@ This versatility — the ability to convincingly emulate completely different fi
 **Dale Rogers** (35mmc, 2020): *"Fujifilm did a great job on the ACROS digital film simulation. I was surprised the shots were similar in look and feel."*
 
 **Multiple commenters** on 35mmc.com comparison article: Consensus that film Acros still wins for character and highlight handling, but digital Acros is an excellent substitute, especially when customized with the in-camera JPEG parameters.
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fujifilm Classic Negative](../Fujifilm-Classic-Negative/characteristics.md)
+- [Fuji Neopan 400](../Fuji-Neopan-400/characteristics.md)

@@ -1,6 +1,8 @@
-# Photographer Signature Style Presets
+# Photographer Signature Style Presets — 20 Free Lightroom XMP Presets
 
-Inspired by the visual signatures of masters — Ansel Adams, Cartier-Bresson, McCurry, Eggleston, Crewdson, Goldin, Fan Ho, and more. 20 presets. Educational and shareable.
+Inspired by the visual signatures of photography masters — free Lightroom XMP presets paying homage to Ansel Adams, Cartier-Bresson, McCurry, Eggleston, Crewdson, Hido, Goldin, and more. 20 presets for educational color grading and signature style emulation drawn from the aesthetics of iconic photographers.
+
+← [All Categories](index.md)
 
 **20 presets** in `Presets/Photographer/`
 
@@ -27,4 +29,11 @@ Inspired by the visual signatures of masters — Ansel Adams, Cartier-Bresson, M
 | 19 | **Vivian Maier** | **Name**: Vivian Dorothy Maier (1926–2009) |
 | 20 | **William Eggleston** | **Name**: William Eggleston (born 1939) |
 
-> All presets comply with STYLEGUIDE: ProcessVersion 15.4, neutral ToneCurvePV2012, proper Look block, grain protection, no Calibration (except exceptions).
+## See Also
+
+- [Black & White Film](black-white.md)
+- [Color Negative Film](color-negative.md)
+- [Creative / Cinematic](creative.md)
+- [Historical Decade](decade.md)
+
+> All presets comply with STYLEGUIDE: ProcessVersion 15.4, neutral curves, proper Look block, grain protection.

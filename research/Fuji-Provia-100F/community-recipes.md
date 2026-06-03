@@ -60,3 +60,13 @@ The Fuji X Weekly community has developed in-camera recipes for Fuji X/GFX camer
 - Fuji X Weekly (fujixweekly.com): Provia 100F recipe
 - r/analog, r/Lightroom community discussions
 - Fujifilm RDP III datasheet
+
+---
+
+## See Also
+
+- [Fuji Provia 100F — Film Characteristics](../Fuji-Provia-100F/characteristics.md)
+- [Fuji Velvia 50 Lightroom Preset](../Fuji-Velvia-50/community-recipes.md)
+- [Fuji Velvia 100 Lightroom Preset](../Fuji-Velvia-100/community-recipes.md)
+- [Fuji Astia 100F Lightroom Preset](../Fuji-Astia-100F/community-recipes.md)
+- [XMP Preset: Fuji Provia 100F](../../Presets/Slide/Fuji Provia 100F.xmp)

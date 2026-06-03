@@ -1,4 +1,4 @@
-# Fujicolor Pro 160NS — Community Recipes
+# Fujicolor Pro 160NS — Lightroom Preset Settings & Recipes
 
 > 7 Fuji X Weekly variants by Anders Lindborg, plus Ritchie Roesch's "Fujifilm Negative" recipe and community sources.
 
@@ -96,3 +96,13 @@ Using the project's Fuji→LR translation mapping:
 - Fuji X Weekly — Fujifilm Negative recipe (Ritchie Roesch, Oct 2024)
 - Fuji X Weekly — Film Dial Fujicolor PRO 160S (May 2024)
 - r/AnalogCommunity and r/Lightroom — Pro 160NS discussions
+
+---
+
+## See Also
+
+- [Fuji Pro 160NS — Film Characteristics](../Fuji-Pro-160NS/characteristics.md)
+- [Fujifilm Pro 400H Lightroom Preset](../Fujifilm-Pro-400H/community-recipes.md)
+- [Fuji Pro 160C Lightroom Preset](../Fuji-Pro-160C/community-recipes.md)
+- [Fuji Pro 800Z Lightroom Preset](../Fuji-Pro-800Z/community-recipes.md)
+- [XMP Preset: Fuji Pro 160NS](../../Presets/Color-Negative/Fuji Pro 160NS.xmp)

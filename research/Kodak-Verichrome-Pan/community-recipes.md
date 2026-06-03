@@ -1,4 +1,4 @@
-# Kodak Verichrome Pan — Community Recipes
+# Kodak Verichrome Pan — Lightroom Preset Settings & Recipes
 
 ## Community Notes (from forums)
 - No dedicated Fuji X Weekly or t3mujinpack recipe exists for Verichrome Pan
@@ -25,3 +25,13 @@
 - Modest shadow lift (+12) to preserve the "nothing is lost" look
 - All STYLEGUIDE rules: Sharpness=10 with grain, Clarity/Texture/Dehaze=0, no Calibration, no WB
 - The slightly darker skin tones (negative Red in GrayMixer) are the defining characteristic
+
+---
+
+## See Also
+
+- [Kodak Verichrome Pan — Film Characteristics](../Kodak-Verichrome-Pan/characteristics.md)
+- [Kodak Plus X 125 Lightroom Preset](../Kodak-Plus-X-125/community-recipes.md)
+- [Kodak Tri X 400 Lightroom Preset](../Kodak-Tri-X-400/community-recipes.md)
+- [Kodak Panatomic X 32 Lightroom Preset](../Kodak-Panatomic-X-32/community-recipes.md)
+- [XMP Preset: Kodak Verichrome Pan](../../Presets/Black-White/Kodak Verichrome Pan.xmp)

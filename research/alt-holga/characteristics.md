@@ -1,8 +1,8 @@
-# Holga — Complete Aesthetic Breakdown
+# Holga Lightroom Preset — Complete Aesthetic Breakdown
 
 ## Core Aesthetic Signature
 
-The Holga is a medium format toy camera manufactured in China since 1982. Its single-element plastic meniscus lens, plastic body, and rudimentary construction produce images characterized by heavy vignetting, soft focus (especially at edges), light leaks, and unpredictable color shifts. Originally designed as an inexpensive mass-market camera, the Holga was adopted by fine art photographers in the 1990s–2000s for its unique lo-fi aesthetic. The camera shoots 6×6 cm squares on 120 film.
+The holga Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The Holga is a medium format toy camera manufactured in China since 1982. Its single-element plastic meniscus lens, plastic body, and rudimentary construction produce images characterized by heavy vignetting, soft focus (especially at edges), light leaks, and unpredictable color shifts. Originally designed as an inexpensive mass-market camera, the Holga was adopted by fine art photographers in the 1990s–2000s for its unique lo-fi aesthetic. The camera shoots 6×6 cm squares on 120 film.
 
 ## Historical Context
 
@@ -35,3 +35,11 @@ This preset is designed to capture the essential visual character of the holga p
 - Alternative Photography (alternativephotography.com)
 - Christopher James: *The Book of Alternative Photographic Processes*
 - Community knowledge from r/analog, r/Darkroom, and photography forums
+
+## See Also
+
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Black White Presets](../../docs/black-white.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

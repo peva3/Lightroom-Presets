@@ -516,3 +516,11 @@ All other attributes (HSL, split toning, basic panel, grain) already within 5% o
 - Method 1 and Method 5 sources are well-cited: multiple Reddit threads references, Doyle cinematography analysis, community presets.
 - No Wayback Machine slider values exist for this query, but live Reddit confirms the aesthetic descriptions match the slider direction.
 - The Method 5 "80s Hong Kong Night" preset independently corroborates Method 1 values (Green H-50, S+35, Calibration Green H-40 used as cross-reference).
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

@@ -1,7 +1,7 @@
-# Lifestyle Product — Characteristics
+# Lifestyle Product Lightroom Preset — Characteristics
 
 ## Use Case
-Lifestyle product photography — products in natural settings, flat lays with props, hand-model shots. Aspirational but authentic.
+The Lifestyle Product Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Lifestyle product photography — products in natural settings, flat lays with props, hand-model shots. Aspirational but authentic.
 
 ## Key Techniques
 Warm Color Grading (shadows H45 S8, highlights H43 S5) creates aspirational golden glow. Mild positive Saturation (+5) with balanced Vibrance (+5) for subtle color pop. Red/Orange Sat +5 warm product colors. Orange Lum +10 brightens skin in hand-model shots. Green Sat -10 naturalizes backgrounds. Clarity +5 for clean product edges. |Vibrance−Saturation|=0. 18 attributes.
@@ -18,3 +18,11 @@ Warm Color Grading (shadows H45 S8, highlights H43 S5) creates aspirational gold
 - HSL Sat max: Within ±60
 - Blacks floor: ≥ -30
 - Grain protection: N/A (no grain)
+
+## See Also
+
+- [Genre Presets](../../docs/genre.md)
+- [Mobile Presets](../../docs/mobile.md)
+- [Seasonal Presets](../../docs/seasonal.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

@@ -1,8 +1,8 @@
-# Fujichrome Astia 100F — Full Aesthetic Breakdown
+# Fujichrome Astia 100F — Full Aesthetic Breakdown for Lightroom Presets
 
 ## Overview
 
-Fuji Astia 100F was a medium-speed color reversal (slide) film designed specifically for portraiture, fashion, and editorial photography. It was Fujifilm's answer to the problem that traditional slide films look terrible on skin: too much contrast, too much saturation, and inaccurate color. Astia 100F was engineered from the ground up to be the "portrait transparency" — a slide film that flatters rather than punishes.
+Fuji Astia 100F was a medium-speed color reversal (slide) film designed specifically for portraiture, fashion, and editorial photography. It was Fujifilm's answer to the problem that traditional slide films look terrible on skin: too much contrast, too much saturation, and inaccurate color. Astia 100F was engineered from the ground up to be the "portrait transparency" — a slide film that flatters rather than punishes. This document serves as a reference for creating a Lightroom preset that emulates Astia 100F.
 
 Positioned in Fuji's professional slide film lineup as:
 - **Velvia** = hyper-saturated landscapes
@@ -105,3 +105,18 @@ Astia 100F represents a category that barely exists in slide film: a **low-contr
 4. **Studio lighting behavior is critical** — the look is about how skin highlights roll off, not about cross-processed color shifts
 
 This makes Astia one of the more challenging film stocks to emulate well — it's subtle. Bad emulations overdo the desaturation and end up looking flat and lifeless. Good emulations capture the gentle highlight roll-off and the clean, dimensional skin tones.
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fuji Velvia 50](../Fuji-Velvia-50/characteristics.md)
+- [Fuji Velvia 100](../Fuji-Velvia-100/characteristics.md)
+- [Fuji Provia 100F](../Fuji-Provia-100F/characteristics.md)
+- [Fuji Provia 400F](../Fuji-Provia-400F/characteristics.md)
+- [Fuji Provia 400X](../Fuji-Provia-400X/characteristics.md)
+- [Fuji Sensia 100](../Fuji-Sensia-100/characteristics.md)
+- [Fuji Fortia SP 50](../Fuji-Fortia-SP-50/characteristics.md)
+- [Kodak Ektachrome E100](../Kodak-Ektachrome-E100/characteristics.md)

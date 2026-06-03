@@ -1,8 +1,8 @@
-# Kodak Aerochrome / Ektachrome EIR — Aesthetic Characteristics
+# Kodak Aerochrome / Ektachrome EIR — Aesthetic Characteristics for Lightroom Presets
 
 ## The Core Palette
 
-Aerochrome produces a unique **false-color rendering** where the color assignments are deliberately alien to human vision:
+Aerochrome produces a unique **false-color rendering** where the color assignments are deliberately alien to human vision: This document serves as a reference for creating a Lightroom preset that emulates Aerochrome.
 
 | Subject | Actual Color (to eye) | Aerochrome Renders As |
 |---------|----------------------|----------------------|
@@ -89,3 +89,11 @@ The false-color is a consequence of the 3-layer IR emulsion structure:
 - **The Dolomites on Aerochrome** (3,273 pts): Jagged limestone peaks appear cream/pale against hot magenta alpine meadows under turquoise sky.
 - **Swiss Avenue** (2,604 pts): Suburban trees in Dallas transformed into a psychedelic fever dream — manicured lawns become neon pink carpets.
 - **Autumn/fall foliage** consistently reported as the most photogenic subject — leaf color variation creates magenta-to-pink-to-purple gradients.
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+

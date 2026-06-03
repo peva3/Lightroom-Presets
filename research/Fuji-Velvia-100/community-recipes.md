@@ -1,4 +1,4 @@
-# Fuji Velvia 100 — Community Recipes
+# Fuji Velvia 100 — Lightroom Preset Settings & Recipes
 
 > Community emulation strategies from t3mujinpack, Reddit, and film forums. Less extreme than Velvia 50, warmer, with usable skin tones.
 
@@ -88,3 +88,13 @@ The community frequently recommends calibration panel values for Velvia emulatio
 - VSCO Film 01 Velvia 100 (discontinued reference)
 - RNI All Films 5 — Fuji Velvia 100 profile
 - Ken Rockwell, "Fuji Velvia 100 Review"
+
+---
+
+## See Also
+
+- [Fuji Velvia 100 — Film Characteristics](../Fuji-Velvia-100/characteristics.md)
+- [Fuji Velvia 50 Lightroom Preset](../Fuji-Velvia-50/community-recipes.md)
+- [Fuji Astia 100F Lightroom Preset](../Fuji-Astia-100F/community-recipes.md)
+- [Fuji Provia 100F Lightroom Preset](../Fuji-Provia-100F/community-recipes.md)
+- [XMP Preset: Fuji Velvia 100](../../Presets/Slide/Fuji Velvia 100.xmp)

@@ -82,3 +82,12 @@ Expired Farbwelt 200 emulation must deliver:
 ---
 
 *Last updated: June 2026*
+
+---
+
+## See Also
+
+- [Kodak Farbwelt 200 Expired — Film Characteristics](../Kodak-Farbwelt-200-Expired/characteristics.md)
+- [Kodak Gold 200 Lightroom Preset](../Kodak-Gold-200/community-recipes.md)
+- [Kodak ColorPlus 200 Lightroom Preset](../Kodak-ColorPlus-200/community-recipes.md)
+- [XMP Preset: Kodak Farbwelt 200 Expired](../../Presets/Color-Negative/Kodak Farbwelt 200 Expired.xmp)

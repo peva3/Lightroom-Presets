@@ -1,7 +1,7 @@
-# Star Trails — Characteristics
+# Star Trails Lightroom Preset — Characteristics
 
 ## Use Case
-Star trail stacking and long-exposure night sky. Circular or linear star trails against dark sky. Foreground composition.
+The Star Trails Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Star trail stacking and long-exposure night sky. Circular or linear star trails against dark sky. Foreground composition.
 
 ## Key Techniques
 Higher Contrast (+35) and Clarity (+25) than MW — star trails need maximum line definition. Blue Sat +15 + Blue Lum -15 for deep rich sky. Aqua Sat +10 and Purple Sat +15 enhance varied star colors. Cool-on-cool Color Grading (shadows H250 S15, highlights H220 S5) creates monochromatic depth. |Vibrance−Saturation|=5. 18 attributes.
@@ -18,3 +18,11 @@ Higher Contrast (+35) and Clarity (+25) than MW — star trails need maximum lin
 - HSL Sat max: Within ±60
 - Blacks floor: ≥ -30
 - Grain protection: N/A (no grain)
+
+## See Also
+
+- [Genre Presets](../../docs/genre.md)
+- [Mobile Presets](../../docs/mobile.md)
+- [Seasonal Presets](../../docs/seasonal.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

@@ -483,3 +483,11 @@ XMP values match community consensus within 5%. Blacks slider at 0 (architectura
 ### Fixes Applied (2026-06-01 Batch 5)
 - **Sharpening consensus table**: Corrected from 60 to 10 (XMP already correct; community value would produce jagged grain per STYLEGUIDE §XV.7)
 - **No XMP changes needed**: All slider values already correct and STYLEGUIDE-compliant
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

@@ -6,7 +6,7 @@
 
 ## Core "Cyberpunk Neon" Lightroom Recipe
 
-This is the most commonly shared approach across Reddit and YouTube communities. The goal is to transform any night cityscape into a neon-drenched, Blade Runner-style image.
+The Cyberpunk Neon City Lightroom preset community recipes compile settings from photographers worldwide. This is the most commonly shared approach across Reddit and YouTube communities. The goal is to transform any night cityscape into a neon-drenched, Blade Runner-style image.
 
 ### Basic Panel (Light)
 
@@ -306,3 +306,11 @@ Community consensus on what source photos work best:
 - **Cities**: Tokyo (Shinjuku/Shibuya), Hong Kong (Mong Kok), Seoul, Shanghai, Times Square NYC
 - **Elements to include**: Neon signage (especially in Chinese/Japanese characters), reflections on wet pavement, smoke/steam from vents, high contrast architecture
 - **Avoid**: Daylight, natural landscapes, warm sunlight, green foliage
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

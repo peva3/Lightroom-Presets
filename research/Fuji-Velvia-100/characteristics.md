@@ -1,4 +1,4 @@
-# Fuji Velvia 100 — Aesthetic Breakdown
+# Fuji Velvia 100 — Aesthetic Breakdown for Lightroom Presets
 
 > Less extreme than Velvia 50, warmer, better skin tones. The most-used slide film by nature photographers in the 2000s.
 
@@ -6,7 +6,7 @@
 
 ## Core Identity
 
-Velvia 100 (RVP100) was introduced in 2003 as Fujifilm's answer to the professional market's demand for a more versatile landscape slide film. While Velvia 50 was legendary for its extreme saturation and contrast, working pros needed something more practical: wider latitude, better skin tones, and finer grain. Velvia 100 delivered all three while retaining the iconic Velvia "pop."
+Velvia 100 (RVP100) was introduced in 2003 as Fujifilm's answer to the professional market's demand for a more versatile landscape slide film. While Velvia 50 was legendary for its extreme saturation and contrast, working pros needed something more practical: wider latitude, better skin tones, and finer grain. Velvia 100 delivered all three while retaining the iconic Velvia "pop." This document serves as a reference for creating a Lightroom preset that emulates Velvia 100.
 
 The key differentiator from Velvia 50 is the yellow→red spectral shift. Velvia 50 pulls yellows aggressively toward orange/red — a "defect" that landscape photographers loved for golden-hour warmth. Velvia 100 is more neutral in its yellow rendering, producing more accurate warm tones. This makes it usable for portraits and commercial work where Velvia 50 made skin look ruddy/sunburned.
 
@@ -98,3 +98,18 @@ The t3mujinpack reference approach: take Velvia 50's saturation and contrast pro
 - Ken Rockwell, "Fuji Velvia 100 Review"
 - r/analog community discussions — thousands of Velvia 100 images
 - Nature photographers' consensus: Velvia 100 was the standard 2003-2015
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fuji Velvia 50](../Fuji-Velvia-50/characteristics.md)
+- [Fuji Astia 100F](../Fuji-Astia-100F/characteristics.md)
+- [Fuji Provia 100F](../Fuji-Provia-100F/characteristics.md)
+- [Fuji Provia 400F](../Fuji-Provia-400F/characteristics.md)
+- [Fuji Provia 400X](../Fuji-Provia-400X/characteristics.md)
+- [Fuji Sensia 100](../Fuji-Sensia-100/characteristics.md)
+- [Fuji Fortia SP 50](../Fuji-Fortia-SP-50/characteristics.md)
+- [Kodak Ektachrome E100](../Kodak-Ektachrome-E100/characteristics.md)

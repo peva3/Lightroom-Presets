@@ -1,8 +1,8 @@
-# Kodak T-Max 3200 — Aesthetic Characteristics & Deep-Dive
+# Kodak T-Max 3200 — Aesthetic Characteristics & Deep-Dive for Lightroom Presets
 
 ## Overview: The High-Speed T-Grain Paradox
 
-Kodak T-Max P3200 (TMZ) is a unique entry in the B&W film world. It pairs **high sensitivity** (EI 800–6400+) with **tabular-grain technology** — a combination that creates a distinctive aesthetic unlike both traditional high-speed films (Tri-X) and its closest competitor (Ilford Delta 3200).
+Kodak T-Max P3200 (TMZ) is a unique entry in the B&W film world. It pairs **high sensitivity** (EI 800–6400+) with **tabular-grain technology** — a combination that creates a distinctive aesthetic unlike both traditional high-speed films (Tri-X) and its closest competitor (Ilford Delta 3200). This document serves as a reference for creating a Lightroom preset that emulates T Max 3200.
 
 ## T-Grain (Tabular) vs. Epitaxial Grain vs. Traditional Grain
 
@@ -182,3 +182,14 @@ T-Max 3200 holds highlights well up to a point, then clips relatively abruptly c
 - Massive Dev Chart development data
 - Community observations from r/analog, Photrio forums
 - Wikipedia: Kodak T-MAX
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak T Max 100](../Kodak-T-Max-100/characteristics.md)
+- [Kodak T Max 400](../Kodak-T-Max-400/characteristics.md)
+- [Kodak Tri X 400](../Kodak-Tri-X-400/characteristics.md)
+- [Kodak Plus X 125](../Kodak-Plus-X-125/characteristics.md)

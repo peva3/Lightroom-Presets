@@ -1,47 +1,49 @@
-# Video LUT Reference Presets
+# Lightroom Presets — 444 Free XMP Preset Collection
 
-Matched video LUT reference presets — XMP presets designed as reference for cross-format video workflows. 20 presets.
+The complete index of all 444 free Lightroom presets — modern `.xmp` files with ProcessVersion 15.4, researched from community recipes (Reddit, YouTube, forums, Fuji X Weekly), and validated against real film characteristics. Open-source alternative to VSCO, Mastin Labs, and RNI Films.
 
-**20 presets** in `Presets/Video/`
+**[Download all 444 presets](../lr-presets-all.xmp.zip) (ZIP) · [GitHub Release v3.0.0](https://github.com/peva3/Lightroom-Presets/releases/tag/v3.0.0) · [Back to README →](../README.md)**
 
-| # | Preset | Character / Source |
-|---|---|---|
-| 1 | **Bleach Bypass Video** | — |
-| 2 | **Cinematic Dream Look Video** | — |
-| 3 | **Cinestill 800T Video** | — |
-| 4 | **Cross-Processed Velvia Video** | — |
-| 5 | **Cyberpunk Neon Video** | — |
-| 6 | **Ektar 100 Video** | — |
-| 7 | **Gold 200 Video** | — |
-| 8 | **Kodachrome 64 Video** | — |
-| 9 | **Kodak Aerochrome Video** | — |
-| 10 | **Moody PNW Video** | — |
-| 11 | **Pastel Anime Aethereal Video** | — |
-| 12 | **Polaroid SX-70 Video** | — |
-| 13 | **Portra 400 Video** | — |
-| 14 | **Super 8 Home Movie Video** | — |
-| 15 | **Teal & Orange Cinematic Video** | — |
-| 16 | **Tri-X 400 Video** | — |
-| 17 | **VHS Synthwave Video** | — |
-| 18 | **Velvia 50 Video** | — |
-| 19 | **WKW Hong Kong Video** | — |
-| 20 | **Wes Anderson Pastel Video** | — |
+## Category Index
 
-> All presets comply with STYLEGUIDE: ProcessVersion 15.4, neutral ToneCurvePV2012, proper Look block, grain protection, no Calibration (except exceptions).
+| # | Category | Presets | Description |
+|---|---|---|---|
+| 1 | [Color Negative Film](color-negative.md) | 78 | Kodak Portra, Gold, Ektar, Ultramax, Fuji Superia, Pro, Reala, and more |
+| 2 | [Black & White Film](black-white.md) | 46 | Kodak Tri-X, T-Max, Ilford HP5, Delta, Pan F, Fuji Acros, Neopan, and more |
+| 3 | [Slide / E-6 Film](slide.md) | 16 | Kodachrome, Fuji Velvia, Provia, Astia, Kodak Ektachrome, and more |
+| 4 | [Creative / Cinematic](creative.md) | 42 | VHS, Cyberpunk, Bleach Bypass, Cross-Process, Teal & Orange, Wes Anderson, Wong Kar-Wai, and more |
+| 5 | [Alternative Processes](alternative-process.md) | 25 | Cyanotype, Wet Plate, Daguerreotype, Platinum, Autochrome, Holga, Pinhole, Solarization, and more |
+| 6 | [Utility & Tools](utility.md) | 40 | Exposure brackets, white balance, noise reduction, sharpening, vignette, grain, and more |
+| 7 | [Genre-Specific](genre.md) | 32 | Wedding, newborn, real estate, food, product, fashion, sports, concert, astro, and more |
+| 8 | [Seasonal & Holiday](seasonal.md) | 20 | Autumn, winter, spring, summer, Christmas, Halloween, wedding day, and more |
+| 9 | [Historical Decade](decade.md) | 25 | 1840s Daguerreotype through 2000s Y2K digicam — decade-by-decade aesthetics |
+| 10 | [Geographic & Cultural](geographic.md) | 32 | Japanese, Korean, Mediterranean, Indian, Moroccan, Parisian, Scandinavian, and more |
+| 11 | [Mobile & Social Media](mobile.md) | 23 | Instagram filter recreations (Clarendon, Juno, Valencia), TikTok looks, selfie optimized, and more |
+| 12 | [Photographer Styles](photographer.md) | 20 | Ansel Adams, Cartier-Bresson, McCurry, Eggleston, Crewdson, Hido, Goldin, and more |
+| 13 | [Video LUT Reference](video.md) | 20 | Matched XMP presets for cross-format video color grading workflows |
+| **Total** | | **444** | |
 
-| 1 | [Color Negative Film Presets](color-negative.md) | 78 | Film stock emulations — Kodak Portra, Gold, Ektar, Fuji Superia, Pro, Reala, and more. 78 presets co... |
-| 2 | [Black & White Film Presets](black-white.md) | 46 | Classic B&W film stock emulations — Kodak Tri-X, T-Max, Ilford HP5, Delta, Pan F, Fuji Acros, Neopan... |
-| 3 | [Slide / E-6 Film Presets](slide.md) | 16 | Positive/slide film emulations — Kodachrome, Fuji Velvia, Provia, Astia, Kodak Ektachrome, and more.... |
-| 4 | [Creative Presets](creative.md) | 42 | Cinematic color grading, niche film looks, retro/vintage aesthetics, and experimental styles. 42 pre... |
-| 5 | [Alternative Process Presets](alternative-process.md) | 25 | Historic and experimental photographic processes — cyanotype, wet plate, daguerreotype, platinum, br... |
-| 6 | [Utility & Tool Presets](utility.md) | 40 | Everyday photographic tools — exposure brackets, white balance, noise reduction, sharpening, vignett... |
-| 7 | [Genre-Specific Presets](genre.md) | 32 | Tailored for specific photography genres — wedding, newborn, real estate, food, product, fashion, sp... |
-| 8 | [Seasonal & Holiday Presets](seasonal.md) | 20 | Seasonal moods and holiday styles — autumn, winter, spring, summer, Christmas, Halloween, wedding da... |
-| 9 | [Historical Decade Presets](decade.md) | 25 | Era-specific aesthetics — from Daguerreotype (1840s) through Y2K digicam (2000s). 25 presets spannin... |
-| 10 | [Geographic & Cultural Presets](geographic.md) | 32 | Region-specific color palettes and lighting — Japanese, Korean, Mediterranean, Indian, Moroccan, Par... |
-| 11 | [Mobile & Social Media Presets](mobile.md) | 23 | Instagram filter recreations (Clarendon, Juno, Valencia, etc.), TikTok looks, selfie optimized, flat... |
-| 12 | [Photographer Signature Style Presets](photographer.md) | 20 | Inspired by the visual signatures of masters — Ansel Adams, Cartier-Bresson, McCurry, Eggleston, Cre... |
-| 13 | [Video LUT Reference Presets](video.md) | 20 | Matched video LUT reference presets — XMP presets designed as reference for cross-format video workf... |
-| **Total** | | **419** | |
+## Quick Start
 
-> See the [STYLEGUIDE.md](../STYLEGUIDE.md) for the architectural rules governing all presets.
+Browse any category page above to see the full preset list with characteristics and source notes. Each preset is a standalone `.xmp` file — copy it into your Lightroom Develop Presets folder and restart Lightroom.
+
+## Preset Directory
+
+```
+Presets/
+├── Color-Negative/   (78) — Film stock emulations
+├── Black-White/      (46) — Classic B&W film stocks
+├── Slide/            (16) — E-6 positive film emulations
+├── Creative/         (42) — Cinematic, niche, experimental
+├── Alternative-Process/ (25) — Historic processes
+├── Utility/          (40) — Exposure, WB, NR, sharpening tools
+├── Genre/            (32) — Wedding, newborn, real estate, etc.
+├── Seasonal/         (20) — Holidays, seasons, events
+├── Decade/           (25) — 1840s–2000s era aesthetics
+├── Geographic/       (32) — Regional color palettes
+├── Mobile/           (23) — Instagram, TikTok, social media
+├── Photographer/     (20) — Master photographer styles
+└── Video/            (20) — Cross-format LUT reference
+```
+
+> All presets comply with the [STYLEGUIDE.md](../STYLEGUIDE.md): ProcessVersion 15.4, proper Camera Profile Look blocks, neutral ToneCurvePV2012, grain protection, HSL caps, no Calibration (except documented exceptions).

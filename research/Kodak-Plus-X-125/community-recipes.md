@@ -1,4 +1,4 @@
-# Kodak Plus-X 125 — Community B&W Recipes
+# Kodak Plus-X 125 — Lightroom Preset Settings & Recipes
 
 ## Source: Fuji X Weekly (FxW)
 
@@ -64,3 +64,12 @@ Plus-X 125 is one of the most mourned discontinued B&W films:
 - Kodak Plus-X 125 technical data sheet (archived)
 - Large Format Photography Forum — Plus-X discussion
 - APUG/Photrio — Plus-X community and replacement strategies
+
+---
+
+## See Also
+
+- [Kodak Plus X 125 — Film Characteristics](../Kodak-Plus-X-125/characteristics.md)
+- [Kodak T Max 100 Lightroom Preset](../Kodak-T-Max-100/community-recipes.md)
+- [Kodak Tri X 400 Lightroom Preset](../Kodak-Tri-X-400/community-recipes.md)
+- [Kodak Panatomic X 32 Lightroom Preset](../Kodak-Panatomic-X-32/community-recipes.md)

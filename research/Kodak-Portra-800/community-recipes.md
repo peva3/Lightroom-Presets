@@ -310,3 +310,13 @@ Current XMP values (Exposure +0.20, Contrast -15, Highlights -58, Shadows +43, B
 **Flagged for correction**: Calibration (removed per Commandment #3), WB (removed per Commandment #4). Both corrections already applied in current XMP. **Note**: Green Hue direction (-21) diverges from Portra 400/160 pattern — documented as intentional (Vision3-era color science difference); preserved as-is.
 
 **Batch 1 Review (June 2026):** Confirmed. XMP verified: no Calibration, no WB, Sharpness=10, Clarity=0, Dehaze=0, GrainAmount=38 with grain protection active, Green Hue=−21 (intentional Portra 800 divergence), |Vibrance(+3)−Saturation(+5)|=2 ≤ 5. All STYLEGUIDE rules pass. Status: RESOLVED.
+
+---
+
+## See Also
+
+- [Kodak Portra 800 — Film Characteristics](../Kodak-Portra-800/characteristics.md)
+- [Kodak Portra 160NC Lightroom Preset](../Kodak-Portra-160NC/community-recipes.md)
+- [Kodak Portra 400VC Lightroom Preset](../Kodak-Portra-400VC/community-recipes.md)
+- [Kodak Portra 400 Lightroom Preset](../Kodak-Portra-400/community-recipes.md)
+- [XMP Preset: Kodak Portra 800](../../Presets/Color-Negative/Kodak Portra 800.xmp)

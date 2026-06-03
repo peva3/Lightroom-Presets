@@ -1,4 +1,4 @@
-# Kodak Portra 400VC — Community Recipes
+# Kodak Portra 400VC — Lightroom Preset Settings & Recipes
 
 > Compiled from t3mujinpack .dtstyle reference data, Reddit (r/Lightroom, r/analog), and community forums. The 400VC was the workhorse wedding film for photographers who wanted Portra skin tones with more punch.
 
@@ -55,3 +55,13 @@ Community consensus: Portra 400VC is Portra 400 with **positive contrast** and *
 ---
 
 *Compiled June 2026. No Wayback Machine snapshots available for t3mujinpack-specific pages. Values derived from community consensus and film characteristic documentation.*
+
+---
+
+## See Also
+
+- [Kodak Portra 400VC — Film Characteristics](../Kodak-Portra-400VC/characteristics.md)
+- [Kodak Portra 160NC Lightroom Preset](../Kodak-Portra-160NC/community-recipes.md)
+- [Kodak Portra 400 Lightroom Preset](../Kodak-Portra-400/community-recipes.md)
+- [Kodak Portra 400NC Lightroom Preset](../Kodak-Portra-400NC/community-recipes.md)
+- [XMP Preset: Kodak Portra 400VC](../../Presets/Color-Negative/Kodak Portra 400VC.xmp)

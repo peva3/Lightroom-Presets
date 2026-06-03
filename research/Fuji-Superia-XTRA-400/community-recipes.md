@@ -1,4 +1,4 @@
-# Fuji Superia X-TRA 400 — Community Recipes & Emulation Settings
+# Fuji Superia X-TRA 400 — Lightroom Preset Settings & Recipes
 
 ## Overview
 
@@ -368,3 +368,12 @@ All values align with Superia X-TRA 400's known characteristics:
 
 ### Documentation Fix (2026-06-01)
 - Fixed false claim: STYLEGUIDE section said "14 meaningful attributes after cleanup" but XMP has 20. The "Default-value attributes removed" list was aspirational — those defaults were never actually stripped from the XMP. Documentation corrected to reflect actual XMP state.
+
+---
+
+## See Also
+
+- [Fuji Superia XTRA 400 — Film Characteristics](../Fuji-Superia-XTRA-400/characteristics.md)
+- [Fuji Superia 100 Lightroom Preset](../Fuji-Superia-100/community-recipes.md)
+- [Fuji Superia 200 Lightroom Preset](../Fuji-Superia-200/community-recipes.md)
+- [Fuji Superia 800 Lightroom Preset](../Fuji-Superia-800/community-recipes.md)

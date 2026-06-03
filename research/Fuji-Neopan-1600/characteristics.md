@@ -1,8 +1,8 @@
-# Fuji Neopan 1600 — Aesthetic Characteristics
+# Fuji Neopan 1600 — Aesthetic Characteristics for Lightroom Presets
 
 ## Overview
 
-Fuji Neopan 1600 was Fujifilm's high-speed professional B&W film, discontinued in 2010. It was beloved by photojournalists, concert photographers, and street photographers for its distinctive grain structure, high contrast, and excellent push capability. Today it exists only as expired stock and in emulation — making digital simulation the primary way to access its aesthetic.
+Fuji Neopan 1600 was Fujifilm's high-speed professional B&W film, discontinued in 2010. It was beloved by photojournalists, concert photographers, and street photographers for its distinctive grain structure, high contrast, and excellent push capability. Today it exists only as expired stock and in emulation — making digital simulation the primary way to access its aesthetic. This document serves as a reference for creating a Lightroom preset that emulates Neopan 1600.
 
 ## Grain
 
@@ -55,3 +55,13 @@ Fuji Neopan 1600 was Fujifilm's high-speed professional B&W film, discontinued i
 - Documentary work requiring speed
 - Any situation where "gritty, real, immediate" B&W is desired
 - Not ideal for: fine art requiring subtle tonality, portraiture requiring smooth skin
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fuji Neopan 400](../Fuji-Neopan-400/characteristics.md)
+- [Kodak T Max 3200](../Kodak-T-Max-3200/characteristics.md)
+- [Fuji Natura 1600](../Fuji-Natura-1600/characteristics.md)

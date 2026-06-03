@@ -1,8 +1,8 @@
-# Fuji Superia 800 — Aesthetic Characteristics
+# Fuji Superia 800 — Aesthetic Characteristics for Lightroom Presets
 
 ## Overview
 
-Fuji Superia 800 (also sold as Venus 800 and Fuji Press 800 in some markets) was the **high-speed consumer color negative film** in Fujifilm's Superia lineup — positioned between the versatile Superia 400 and the specialty Superia 1600 (Natura 1600). It delivered the characteristic Fuji consumer palette with extra speed for low-light situations, producing noticeably more grain than 400 but retaining good color fidelity.
+Fuji Superia 800 (also sold as Venus 800 and Fuji Press 800 in some markets) was the **high-speed consumer color negative film** in Fujifilm's Superia lineup — positioned between the versatile Superia 400 and the specialty Superia 1600 (Natura 1600). It delivered the characteristic Fuji consumer palette with extra speed for low-light situations, producing noticeably more grain than 400 but retaining good color fidelity. This document serves as a reference for creating a Lightroom preset that emulates Superia 800.
 
 ## Core Aesthetic Signature
 
@@ -108,3 +108,15 @@ Superia 800 maintains the Fuji consumer film cool bias even at ISO 800 — a ach
 - t3mujinpack: Superia recipe data
 - Photrio: Superia 800 image samples and grain comparisons
 - 35mmc.com: Fuji consumer film line overview
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fuji Superia 100](../Fuji-Superia-100/characteristics.md)
+- [Fuji Superia 200](../Fuji-Superia-200/characteristics.md)
+- [Fuji Superia 1600](../Fuji-Superia-1600/characteristics.md)
+- [Fuji Superia XTRA 400](../Fuji-Superia-XTRA-400/characteristics.md)
+- [Fuji Superia HG 1600](../Fuji-Superia-HG-1600/characteristics.md)

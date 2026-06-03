@@ -1,4 +1,4 @@
-# Kodak Ektar 100 — Full Aesthetic Breakdown
+# Kodak Ektar 100 — Full Aesthetic Breakdown for Lightroom Presets
 
 > **Tagline:** "Slide film in C-41 clothing" — Ultra-saturated color negative with minimal grain, high contrast, and warm earth tones. A polarizing film stock that either delights or overwhelms.
 
@@ -6,7 +6,7 @@
 
 ## Overview: What Makes Ektar 100 Different
 
-Kodak Ektar 100 occupies a unique position in the color negative film market. It's neither Portra (soft, muted, skin-friendly) nor slide film (E-6, maximum contrast/saturation, unforgiving exposure). It's a **hybrid with an attitude** — C-41 convenience with E-6 aesthetic ambition.
+Kodak Ektar 100 occupies a unique position in the color negative film market. It's neither Portra (soft, muted, skin-friendly) nor slide film (E-6, maximum contrast/saturation, unforgiving exposure). It's a **hybrid with an attitude** — C-41 convenience with E-6 aesthetic ambition. This document serves as a reference for creating a Lightroom preset that emulates Ektar 100.
 
 **Kodak's own words:** "The world's finest-grain color negative film… ultra-vivid color, exceptional sharpness, and enhanced color saturation."
 
@@ -267,3 +267,14 @@ Kodak Ektar 100 is a **maximalist color negative film** that prioritizes saturat
 It is best understood as **Portra's opposite**: where Portra is soft, muted, and forgiving (designed for people), Ektar is sharp, saturated, and demanding (designed for world).
 
 For the Lightroom preset developer, the challenge is capturing Ektar's unique combination of extreme saturation + zero grain + warm earth tones + high contrast while managing its most notorious weakness: skin tone rendering.
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Portra 400](../Kodak-Portra-400/characteristics.md)
+- [Kodak Gold 200](../Kodak-Gold-200/characteristics.md)
+- [Kodak Ultramax 400](../Kodak-Ultramax-400/characteristics.md)
+- [Kodak Ektachrome E100](../Kodak-Ektachrome-E100/characteristics.md)

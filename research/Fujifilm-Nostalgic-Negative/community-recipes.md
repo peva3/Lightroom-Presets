@@ -1,4 +1,4 @@
-# Fujifilm Nostalgic Negative — Community Recipes
+# Fujifilm Nostalgic Negative — Lightroom Preset Settings & Recipes
 
 ## Source: Fuji X Weekly (Nostalgic Air recipe)
 
@@ -43,3 +43,12 @@ Exposure Compensation: 0 to +2/3 (typically)
 - **Nostalgic Print** (higher contrast variant): H0/S+1/Color+3/Sharp-1
 - **Nostalgic Summer** (brighter variant): H-2/S+1/Color+2/Sharp-1/Clarity-2
 - **1970s Summer** (Kodak Instamatic inspired): Nostalgic Neg + warm WB + very low contrast
+
+---
+
+## See Also
+
+- [Fujifilm Nostalgic Negative — Film Characteristics](../Fujifilm-Nostalgic-Negative/characteristics.md)
+- [Fujifilm Classic Negative Lightroom Preset](../Fujifilm-Classic-Negative/community-recipes.md)
+- [Fujifilm Pro 400H Lightroom Preset](../Fujifilm-Pro-400H/community-recipes.md)
+- [Fuji Astia 100F Lightroom Preset](../Fuji-Astia-100F/community-recipes.md)

@@ -1,4 +1,4 @@
-# Kodak Ektachrome 320T — Community Recipes
+# Kodak Ektachrome 320T — Lightroom Preset Settings & Recipes
 
 ## Source: Extrapolation from STYLEGUIDE + tungsten slide characteristics
 
@@ -40,3 +40,12 @@ No single Fuji X Weekly recipe exists for cross-processed tungsten slide film. T
 | Blue saturation | Boosted (+15) | Not specifically boosted |
 | Overall cast | Cool blue-dominant | Green-magenta dominant |
 | Contrast | +30 | Similar range |
+
+---
+
+## See Also
+
+- [Kodak Ektachrome 320T — Film Characteristics](../Kodak-Ektachrome-320T/characteristics.md)
+- [Kodak Ektachrome E100 Lightroom Preset](../Kodak-Ektachrome-E100/community-recipes.md)
+- [Kodak Ektachrome 64 Lightroom Preset](../Kodak-Ektachrome-64/community-recipes.md)
+- [Kodak Ektachrome 400X Lightroom Preset](../Kodak-Ektachrome-400X/community-recipes.md)

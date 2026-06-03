@@ -1,8 +1,8 @@
-# Fujichrome Provia 100F — Aesthetic Characteristics
+# Fujichrome Provia 100F — Aesthetic Characteristics for Lightroom Presets
 
 ## Overview
 
-Fuji Provia 100F (RDP III) is Fujifilm's all-purpose professional color slide film. Positioned between the hyper-saturated Velvia (landscape) and the low-contrast Astia (portrait), Provia is the "Goldilocks" slide film — moderate contrast, accurate colors, excellent sharpness, and universal applicability.
+Fuji Provia 100F (RDP III) is Fujifilm's all-purpose professional color slide film. Positioned between the hyper-saturated Velvia (landscape) and the low-contrast Astia (portrait), Provia is the "Goldilocks" slide film — moderate contrast, accurate colors, excellent sharpness, and universal applicability. This document serves as a reference for creating a Lightroom preset that emulates Provia 100F.
 
 ### Lineup Position
 - **Velvia 50/100** = hyper-saturated landscapes
@@ -54,3 +54,18 @@ Extremely fine grain, matching Kodak Ektachrome E100. At normal viewing distance
 - r/analog community — extensive Provia 100F image posts and discussion
 - Fuji X Weekly — Classic Chrome-based Provia recipe for Fuji X cameras
 - Ken Rockwell: "Fuji Provia 100F Review"
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fuji Velvia 50](../Fuji-Velvia-50/characteristics.md)
+- [Fuji Velvia 100](../Fuji-Velvia-100/characteristics.md)
+- [Fuji Astia 100F](../Fuji-Astia-100F/characteristics.md)
+- [Fuji Provia 400F](../Fuji-Provia-400F/characteristics.md)
+- [Fuji Provia 400X](../Fuji-Provia-400X/characteristics.md)
+- [Fuji Sensia 100](../Fuji-Sensia-100/characteristics.md)
+- [Fuji Fortia SP 50](../Fuji-Fortia-SP-50/characteristics.md)
+- [Kodak Ektachrome E100](../Kodak-Ektachrome-E100/characteristics.md)

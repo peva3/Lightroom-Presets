@@ -413,3 +413,13 @@ Current XMP values are aligned with community consensus after STYLEGUIDE correct
 **Flagged for correction**: Calibration (removed per Commandment #3), WB (removed per Commandment #4). Both corrections already applied in current XMP.
 
 **Batch 1 Review (June 2026):** Confirmed. XMP verified: no Calibration, no WB, Sharpness=10, Clarity=0, Dehaze=0, GrainAmount=28 with grain protection active, |Vibrance(0)−Saturation(0)|=0 ≤ 5. All STYLEGUIDE rules pass. Status: RESOLVED.
+
+---
+
+## See Also
+
+- [Kodak Portra 400 — Film Characteristics](../Kodak-Portra-400/characteristics.md)
+- [Kodak Portra 160NC Lightroom Preset](../Kodak-Portra-160NC/community-recipes.md)
+- [Kodak Portra 400VC Lightroom Preset](../Kodak-Portra-400VC/community-recipes.md)
+- [Kodak Portra 400NC Lightroom Preset](../Kodak-Portra-400NC/community-recipes.md)
+- [XMP Preset: Kodak Portra 400](../../Presets/Color-Negative/Kodak Portra 400.xmp)

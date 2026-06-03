@@ -1,4 +1,4 @@
-# Fuji Pro 160C — Community Recipes
+# Fuji Pro 160C — Lightroom Preset Settings & Recipes
 
 > Two Fuji X Weekly PRO Negative 160C recipes, plus t3mujinpack Darktable reference.
 
@@ -63,3 +63,13 @@ The t3mujinpack project includes Fuji Pro 160C as a Darktable style using Lab to
 - Fuji X Weekly — PRO Negative 160C X-Trans IV/V (Mar 2024)
 - Fuji X Weekly — X-T50 Film Dial (May 2024)
 - t3mujinpack GitHub — Fuji Pro 160C Darktable preset
+
+---
+
+## See Also
+
+- [Fuji Pro 160C — Film Characteristics](../Fuji-Pro-160C/characteristics.md)
+- [Fujifilm Pro 400H Lightroom Preset](../Fujifilm-Pro-400H/community-recipes.md)
+- [Fuji Pro 160NS Lightroom Preset](../Fuji-Pro-160NS/community-recipes.md)
+- [Fuji Pro 800Z Lightroom Preset](../Fuji-Pro-800Z/community-recipes.md)
+- [XMP Preset: Fuji Pro 160C](../../Presets/Color-Negative/Fuji Pro 160C.xmp)

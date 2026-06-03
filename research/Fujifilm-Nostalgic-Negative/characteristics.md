@@ -1,7 +1,7 @@
-# Fujifilm Nostalgic Negative — Characteristics
+# Fujifilm Nostalgic Negative — Characteristics for Lightroom Presets
 
 ## Film Simulation Profile
-- **Type:** Digital film simulation (Fujifilm X-T5 / X-Trans V)
+- **Type:** Digital film simulation (Fujifilm X-T5 / X-Trans V) This document serves as a reference for creating a Lightroom preset that emulates Nostalgic Negative.
 - **Based on:** Classic photo album aesthetic — 1960s-70s American color snapshot
 - **Introduced:** 2022 (X-T5, X-H2, X-H2S)
 - **Status:** Built-in Fujifilm film simulation
@@ -38,3 +38,13 @@
 - **Base:** Fuji X Weekly "Nostalgic Air" recipe
 - **Key moves:** Soft contrast, warm color grade, amber-green HSL shifts, moderate grain
 - **Translation date:** 2026-06-01
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fujifilm Classic Negative](../Fujifilm-Classic-Negative/characteristics.md)
+- [Fujifilm Pro 400H](../Fujifilm-Pro-400H/characteristics.md)
+- [Fuji Astia 100F](../Fuji-Astia-100F/characteristics.md)

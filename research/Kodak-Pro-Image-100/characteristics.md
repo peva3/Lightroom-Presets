@@ -1,8 +1,8 @@
-# Kodak Pro Image 100 — Full Aesthetic Breakdown
+# Kodak Pro Image 100 — Full Aesthetic Breakdown for Lightroom Presets
 
 ## Overview
 
-Kodak Professional Pro Image 100 is a medium-speed color negative film designed specifically for tropical/warm climate markets. Introduced in the late 1990s and particularly popular in Latin America, it was engineered for heat and humidity resistance — maintaining color accuracy and contrast even when stored without refrigeration in tropical conditions.
+Kodak Professional Pro Image 100 is a medium-speed color negative film designed specifically for tropical/warm climate markets. Introduced in the late 1990s and particularly popular in Latin America, it was engineered for heat and humidity resistance — maintaining color accuracy and contrast even when stored without refrigeration in tropical conditions. This document serves as a reference for creating a Lightroom preset that emulates Pro Image 100.
 
 Despite its "Professional" designation, Pro Image 100 sits between consumer and professional films: it has pro-level skin tone rendering combined with consumer-grade contrast and saturation. It's often described as a warmer, more contrasty Portra — or a more refined ColorPlus/Ultramax.
 
@@ -106,3 +106,16 @@ This practical robustness made it the film of choice for event/wedding photograp
 - Kodak Alaris — Pro Image 100 product information
 - r/analog — Pro Image 100 shooting discussions
 - Latin American photography community references
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Gold 200](../Kodak-Gold-200/characteristics.md)
+- [Kodak ColorPlus 200](../Kodak-ColorPlus-200/characteristics.md)
+- [Kodak Ultramax 400](../Kodak-Ultramax-400/characteristics.md)
+- [Kodak Royal Gold 400](../Kodak-Royal-Gold-400/characteristics.md)
+- [Kodak Max 800](../Kodak-Max-800/characteristics.md)
+- [Kodak High Definition Plus 200](../Kodak-High-Definition-Plus-200/characteristics.md)

@@ -1,8 +1,8 @@
-# Film Soup — Complete Aesthetic Breakdown
+# Film Soup Lightroom Preset — Complete Aesthetic Breakdown
 
 ## Core Aesthetic Signature
 
-Film souping is the practice of deliberately damaging unprocessed film by soaking it in various liquids (lemon juice, wine, coffee, soda, detergent, boiling water) before development. The process creates unpredictable color shifts, emulsion damage, texture artifacts, and chemical staining. Different liquids produce different effects: acidic liquids eat the emulsion (creating texture), colored liquids stain the film base (creating color casts), heat accelerates chemical reactions (creating intensified artifacts).
+The film soup Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Film souping is the practice of deliberately damaging unprocessed film by soaking it in various liquids (lemon juice, wine, coffee, soda, detergent, boiling water) before development. The process creates unpredictable color shifts, emulsion damage, texture artifacts, and chemical staining. Different liquids produce different effects: acidic liquids eat the emulsion (creating texture), colored liquids stain the film base (creating color casts), heat accelerates chemical reactions (creating intensified artifacts).
 
 ## Historical Context
 
@@ -35,3 +35,11 @@ This preset is designed to capture the essential visual character of the film so
 - Alternative Photography (alternativephotography.com)
 - Christopher James: *The Book of Alternative Photographic Processes*
 - Community knowledge from r/analog, r/Darkroom, and photography forums
+
+## See Also
+
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Black White Presets](../../docs/black-white.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

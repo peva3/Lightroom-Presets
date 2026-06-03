@@ -1,8 +1,8 @@
-# Diana F+ — Complete Aesthetic Breakdown
+# Diana F+ Lightroom Preset — Complete Aesthetic Breakdown
 
 ## Core Aesthetic Signature
 
-The Diana camera, manufactured by the Great Wall Plastic Factory in Hong Kong in the 1960s, was a cheap plastic novelty camera sold as a giveaway. Rediscovered in the 2000s and reissued as the Diana F+ by Lomography in 2007. Like the Holga, it uses a plastic lens and produces soft, dreamy, vignetted images — but with a more ethereal, pastel character. The Diana shoots 6×6 cm squares but can be modified for 6×4.5 cm rectangles.
+The diana f Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The Diana camera, manufactured by the Great Wall Plastic Factory in Hong Kong in the 1960s, was a cheap plastic novelty camera sold as a giveaway. Rediscovered in the 2000s and reissued as the Diana F+ by Lomography in 2007. Like the Holga, it uses a plastic lens and produces soft, dreamy, vignetted images — but with a more ethereal, pastel character. The Diana shoots 6×6 cm squares but can be modified for 6×4.5 cm rectangles.
 
 ## Historical Context
 
@@ -35,3 +35,11 @@ This preset is designed to capture the essential visual character of the diana f
 - Alternative Photography (alternativephotography.com)
 - Christopher James: *The Book of Alternative Photographic Processes*
 - Community knowledge from r/analog, r/Darkroom, and photography forums
+
+## See Also
+
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Black White Presets](../../docs/black-white.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

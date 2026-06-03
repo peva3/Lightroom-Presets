@@ -1,4 +1,4 @@
-# Fuji Pro 800Z — Community Recipes
+# Fuji Pro 800Z — Lightroom Preset Settings & Recipes
 
 > High-speed professional portrait film. Primarily sourced from t3mujinpack Darktable presets and film characteristics.
 
@@ -73,3 +73,13 @@ Since there is no direct Fuji X Weekly recipe for Pro 800Z, values are derived f
 - t3mujinpack GitHub — Fuji Pro 800Z Darktable preset
 - r/AnalogCommunity — Pro 800Z threads
 - Fujifilm professional product literature (archived)
+
+---
+
+## See Also
+
+- [Fuji Pro 800Z — Film Characteristics](../Fuji-Pro-800Z/characteristics.md)
+- [Fujifilm Pro 400H Lightroom Preset](../Fujifilm-Pro-400H/community-recipes.md)
+- [Fuji Pro 160NS Lightroom Preset](../Fuji-Pro-160NS/community-recipes.md)
+- [Fuji Pro 160C Lightroom Preset](../Fuji-Pro-160C/community-recipes.md)
+- [XMP Preset: Fuji Pro 800Z](../../Presets/Color-Negative/Fuji Pro 800Z.xmp)

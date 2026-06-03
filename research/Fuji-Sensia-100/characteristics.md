@@ -1,8 +1,8 @@
-# Fujichrome Sensia 100 — Aesthetic Characteristics
+# Fujichrome Sensia 100 — Aesthetic Characteristics for Lightroom Presets
 
 ## Overview
 
-Fuji Sensia 100 was Fujifilm's consumer-grade color slide film. Positioned as an affordable alternative to Provia 100F, Sensia shared the same basic emulsion technology but with minor formulation differences that made it slightly warmer and marginally less resolving. Discontinued around 2011, it remains beloved in the film community for its accessible price point (when available) and pleasant, forgiving rendering.
+Fuji Sensia 100 was Fujifilm's consumer-grade color slide film. Positioned as an affordable alternative to Provia 100F, Sensia shared the same basic emulsion technology but with minor formulation differences that made it slightly warmer and marginally less resolving. Discontinued around 2011, it remains beloved in the film community for its accessible price point (when available) and pleasant, forgiving rendering. This document serves as a reference for creating a Lightroom preset that emulates Sensia 100.
 
 ## Core Aesthetic Traits
 
@@ -44,3 +44,18 @@ Slightly more visible grain than Provia (RMS 8) but still extremely fine by any 
 - Fujifilm Sensia 100 technical datasheet
 - r/analog community — Sensia image posts and discussion
 - Fuji X Weekly — community recipe references
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fuji Velvia 50](../Fuji-Velvia-50/characteristics.md)
+- [Fuji Velvia 100](../Fuji-Velvia-100/characteristics.md)
+- [Fuji Astia 100F](../Fuji-Astia-100F/characteristics.md)
+- [Fuji Provia 100F](../Fuji-Provia-100F/characteristics.md)
+- [Fuji Provia 400F](../Fuji-Provia-400F/characteristics.md)
+- [Fuji Provia 400X](../Fuji-Provia-400X/characteristics.md)
+- [Fuji Fortia SP 50](../Fuji-Fortia-SP-50/characteristics.md)
+- [Kodak Ektachrome E100](../Kodak-Ektachrome-E100/characteristics.md)

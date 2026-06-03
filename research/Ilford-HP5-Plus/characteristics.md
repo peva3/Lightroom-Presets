@@ -1,4 +1,4 @@
-# Ilford HP5 Plus — Full Aesthetic Characteristics
+# Ilford HP5 Plus Lightroom Preset — Full Aesthetic Characteristics
 
 > A comprehensive breakdown of HP5's visual signature, with extended HP5 vs Tri-X analysis.
 
@@ -6,7 +6,7 @@
 
 ## The "British Tri-X" — Context
 
-Ilford HP5 Plus is often called the "British Tri-X" — the workhorse of B&W film outside North America. The nickname captures its role (go-to ISO 400 film for professionals and amateurs alike) but undersells its distinct aesthetic personality.
+The Ilford HP5 Plus Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Ilford HP5 Plus is often called the "British Tri-X" — the workhorse of B&W film outside North America. The nickname captures its role (go-to ISO 400 film for professionals and amateurs alike) but undersells its distinct aesthetic personality.
 
 ### Lineage
 - **HP** = "Hypersensitive Panchromatic" — dates to 1931 Ilford glass plates
@@ -266,3 +266,11 @@ HP5 Plus occupies a unique position: it is simultaneously the **beginner's recom
 Its softer contrast and more open shadows make it the **"editor's film"** — it gives you more to work with. Tri-X gives you more baked-in character. Neither is better; they are different tools.
 
 The "British Tri-X" nickname is both apt and misleading. HP5 is the British workhorse equivalent, but it produces images with a distinctly different emotional character: **calmer, smoother, more elegant** where Tri-X is bolder, grittier, and more dramatic.
+
+## See Also
+
+- [Black White Presets](../../docs/black-white.md)
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Genre Presets](../../docs/genre.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

@@ -1,8 +1,8 @@
-# Kodak Ektachrome 100VS — Aesthetic Characteristics
+# Kodak Ektachrome 100VS — Aesthetic Characteristics for Lightroom Presets
 
 ## Overview
 
-Kodak Ektachrome 100VS (Vivid Saturation) was the punchy sibling of the standard E100G/E100 family. Where standard Ektachrome aimed for accurate, clean, neutral rendering, 100VS cranked the saturation and contrast for high-impact results. Discontinued around 2012, it was Kodak's answer to Fuji Velvia — a landscape and nature photographer's slide film.
+Kodak Ektachrome 100VS (Vivid Saturation) was the punchy sibling of the standard E100G/E100 family. Where standard Ektachrome aimed for accurate, clean, neutral rendering, 100VS cranked the saturation and contrast for high-impact results. Discontinued around 2012, it was Kodak's answer to Fuji Velvia — a landscape and nature photographer's slide film. This document serves as a reference for creating a Lightroom preset that emulates Ektachrome 100VS.
 
 ## Core Aesthetic Traits
 
@@ -55,3 +55,15 @@ Like Velvia, 100VS was not kind to skin. The warm bias + boosted red saturation 
 - Kodak Ektachrome E100VS technical datasheet
 - t3mujinpack — E100VS profile reference
 - r/analog community — E100VS image posts and comparisons
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Ektachrome E100](../Kodak-Ektachrome-E100/characteristics.md)
+- [Kodak Ektachrome 320T](../Kodak-Ektachrome-320T/characteristics.md)
+- [Kodak Ektachrome 64](../Kodak-Ektachrome-64/characteristics.md)
+- [Kodak Ektachrome 400X](../Kodak-Ektachrome-400X/characteristics.md)
+- [Kodak Ektachrome 200](../Kodak-Ektachrome-200/characteristics.md)

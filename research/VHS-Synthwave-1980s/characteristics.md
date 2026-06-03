@@ -1,8 +1,8 @@
-# VHS / Synthwave / 1980s Aesthetic: Complete Breakdown
+# VHS / Synthwave / 1980s Aesthetic Lightroom Preset: Complete Breakdown
 
 ## Executive Summary
 
-The VHS/Synthwave/1980s retro aesthetic is a nostalgic visual style that emulates the look and feel of analog video technology (VHS, CRT televisions, composite video) combined with the neon-drenched color palettes of 1980s popular culture. It has been popularized by media like *Stranger Things*, *Drive* (2011), synthwave music culture, and the broader "outrun" art movement. The aesthetic is characterized by glowing neon colors against deep darkness, intentional degradation artifacts, and a dreamlike retro-futuristic atmosphere.
+The VHS Synthwave 1980s Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The VHS/Synthwave/1980s retro aesthetic is a nostalgic visual style that emulates the look and feel of analog video technology (VHS, CRT televisions, composite video) combined with the neon-drenched color palettes of 1980s popular culture. It has been popularized by media like *Stranger Things*, *Drive* (2011), synthwave music culture, and the broader "outrun" art movement. The aesthetic is characterized by glowing neon colors against deep darkness, intentional degradation artifacts, and a dreamlike retro-futuristic atmosphere.
 
 ---
 
@@ -336,3 +336,11 @@ The ideal VHS/synthwave preset should blend elements from all three:
 - Synthwave's neon palette as the color foundation
 - 1980s film's contrast structure and organic grain
 - VHS's bloom, crunched blacks, and color cast as texture overlays
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

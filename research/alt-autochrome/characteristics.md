@@ -1,8 +1,8 @@
-# Autochrome — Complete Aesthetic Breakdown
+# Autochrome Lightroom Preset — Complete Aesthetic Breakdown
 
 ## Core Aesthetic Signature
 
-The Autochrome Lumière, patented in 1903 by the Lumière brothers, was the first commercially successful color photography process. It used a glass plate coated with microscopic potato starch grains dyed red-orange, green, and blue-violet, overlaid with a panchromatic silver halide emulsion. Light passed through the starch grains (acting as color filters), exposed the emulsion, and was reversal-processed to create a positive transparency with a distinctive pointillist color palette.
+The autochrome Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The Autochrome Lumière, patented in 1903 by the Lumière brothers, was the first commercially successful color photography process. It used a glass plate coated with microscopic potato starch grains dyed red-orange, green, and blue-violet, overlaid with a panchromatic silver halide emulsion. Light passed through the starch grains (acting as color filters), exposed the emulsion, and was reversal-processed to create a positive transparency with a distinctive pointillist color palette.
 
 ## Historical Context
 
@@ -35,3 +35,11 @@ This preset is designed to capture the essential visual character of the autochr
 - Alternative Photography (alternativephotography.com)
 - Christopher James: *The Book of Alternative Photographic Processes*
 - Community knowledge from r/analog, r/Darkroom, and photography forums
+
+## See Also
+
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Black White Presets](../../docs/black-white.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

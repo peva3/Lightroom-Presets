@@ -6,7 +6,7 @@
 
 ## Recipe 1: "Blockbuster Starter" — Beginner-Friendly
 
-The most-copied Reddit recipe. Works on nearly any daylight image.
+The Cinematic Teal and Orange Lightroom preset community recipes compile settings from photographers worldwide. The most-copied Reddit recipe. Works on nearly any daylight image.
 
 ### Basic Panel
 | Setting | Value |
@@ -539,3 +539,11 @@ Popular tutorials that informed these recipes:
 - **Blacks2012**: -10 kept (minor 10pt difference vs community -20; within conservative range).
 - **Heavily stripped HSL**: Intentional simplification. Core signature moves (Green H-60/S-40, Orange L+10, Blue S-20) retained. Community recipes specify 24 HSL values; only 4 retained. Users who want the full transformation should add Purple H-100/S-50, Magenta H-100/S-50, Yellow H-30/S-20/L+15, Red H+15/S-10, Blue H-15/L-15 from Recipe 1.
 - **Calibration removed**: Intentional per STYLEGUIDE rule #3. All 5 community recipes include it; users should apply manually if desired.
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

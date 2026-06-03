@@ -1,8 +1,8 @@
-# Van Dyke Brown — Complete Aesthetic Breakdown
+# Van Dyke Brown Lightroom Preset — Complete Aesthetic Breakdown
 
 ## Core Aesthetic Signature
 
-The Van Dyke (Vandyke) brown process, named after the painter Anthony van Dyck for its rich brown tones, is an iron-silver process patented by Arndt and Troost in 1889 but based on Sir John Herschel's earlier argentotype (1842). It uses ferric ammonium citrate, tartaric acid, and silver nitrate to produce a rich brown image without the need for a separate toning step.
+The van dyke brown Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The Van Dyke (Vandyke) brown process, named after the painter Anthony van Dyck for its rich brown tones, is an iron-silver process patented by Arndt and Troost in 1889 but based on Sir John Herschel's earlier argentotype (1842). It uses ferric ammonium citrate, tartaric acid, and silver nitrate to produce a rich brown image without the need for a separate toning step.
 
 ## Historical Context
 
@@ -35,3 +35,11 @@ This preset is designed to capture the essential visual character of the van dyk
 - Alternative Photography (alternativephotography.com)
 - Christopher James: *The Book of Alternative Photographic Processes*
 - Community knowledge from r/analog, r/Darkroom, and photography forums
+
+## See Also
+
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Black White Presets](../../docs/black-white.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

@@ -458,3 +458,11 @@ All HSL, split toning, basic panel, grain, and effects values aligned with commu
 - Clarity -23 is moderate for the genre (Recipe 4 goes to -50 for extreme VHS). ✓
 - No WB (Temperature/Tint) present — correct per rules. ✓
 - SplitToningBalance +30 is Recipe 1 exact value. ✓
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

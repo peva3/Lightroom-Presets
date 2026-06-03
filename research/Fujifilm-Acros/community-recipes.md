@@ -1,4 +1,4 @@
-# Community Recipes — Acros Emulation in Lightroom
+# Fujifilm Acros — Lightroom Preset Settings & Recipes
 
 ## The Problem
 
@@ -372,3 +372,12 @@ The community recipe is a translation of Fujifilm in-camera JPEG settings where 
 - Fuji X Weekly's translation mapping table (Highlight Tone → Highlights, Shadow Tone → Shadows, etc.) is well-established in the Fujifilm community. ✓
 - The community-recipes.md correctly documents the three tiers of Acros accuracy: Cobalt profiles (highest), RNI All Films 5 (very high), manual recipe translation (good). The XMP falls in the "good" tier. ✓
 - No Wayback Machine snapshots with slider values. Live Reddit r/postprocessing returned zero Acros results — the Acros community is on r/fujifilm and Fuji X Weekly, not r/postprocessing. Source quality: GOOD for Fuji-specific community, LIMITED for general post-processing community.
+
+---
+
+## See Also
+
+- [Fujifilm Acros — Film Characteristics](../Fujifilm-Acros/characteristics.md)
+- [Fujifilm Classic Negative Lightroom Preset](../Fujifilm-Classic-Negative/community-recipes.md)
+- [Fuji Neopan 400 Lightroom Preset](../Fuji-Neopan-400/community-recipes.md)
+- [XMP Preset: Fujifilm Acros](../../Presets/Black-White/Fujifilm Acros.xmp)

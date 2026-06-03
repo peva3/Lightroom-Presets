@@ -1,4 +1,4 @@
-# Kodak Royal Gold 400 — Community Recipes
+# Kodak Royal Gold 400 — Lightroom Preset Settings & Recipes
 
 ## Source: Fuji X Weekly (FxW)
 
@@ -61,3 +61,13 @@ Royal Gold 400 is noted by expired film shooters for:
 - Fuji X Weekly: "Kodak Royal Gold 400" recipe (September 2025)
 - Expired film community on Flickr and Reddit r/analog
 - Kodak Royal Gold product archives
+
+---
+
+## See Also
+
+- [Kodak Royal Gold 400 — Film Characteristics](../Kodak-Royal-Gold-400/characteristics.md)
+- [Kodak Gold 200 Lightroom Preset](../Kodak-Gold-200/community-recipes.md)
+- [Kodak ColorPlus 200 Lightroom Preset](../Kodak-ColorPlus-200/community-recipes.md)
+- [Kodak Ultramax 400 Lightroom Preset](../Kodak-Ultramax-400/community-recipes.md)
+- [XMP Preset: Kodak Royal Gold 400](../../Presets/Color-Negative/Kodak Royal Gold 400.xmp)

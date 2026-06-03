@@ -1,4 +1,4 @@
-# Fuji 100 Industrial — Film Characteristics
+# Fuji 100 Industrial — Film Characteristics for Lightroom Presets
 
 > Japanese-market-only consumer film, ultra-fine grain, cool-neutral balance. Known as the "Japanese Superia." Sold in bulk in Japan as "Fujicolor 100 Industrial" — actually re-branded Fujicolor 100 (Japan domestic version, which differs from the American Fujicolor 100).
 
@@ -6,7 +6,7 @@
 
 ## Core Aesthetic Identity
 
-| Attribute | Fuji 100 Industrial Characteristic |
+| Attribute | Fuji 100 Industrial Characteristic | This document serves as a reference for creating a Lightroom preset that emulates 100 Industrial.
 |-----------|----------------------------------|
 | Contrast | Low-to-medium (PRO Neg. Std base) |
 | Saturation | Mild, restrained |
@@ -66,3 +66,12 @@ The [original Fuji X Weekly recipe](https://fujixweekly.com/2019/06/13/) was one
 ---
 
 *Compiled June 2026 from Fuji X Weekly (fujixweekly.com), Fujifilm documentation, and Japanese photography community resources.*
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak ColorPlus 200](../Kodak-ColorPlus-200/characteristics.md)
+- [Fuji Superia 200](../Fuji-Superia-200/characteristics.md)

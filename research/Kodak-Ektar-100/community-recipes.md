@@ -1,4 +1,4 @@
-# Community Recipes — Kodak Ektar 100 Lightroom Settings
+# Kodak Ektar 100 — Lightroom Preset Settings & Recipes
 
 > Sourced from Reddit (r/analog, r/AnalogCommunity, r/Lightroom), YouTube tutorials, and photography forums
 
@@ -325,3 +325,13 @@ Current XMP values (Contrast +32, Highlights -30, Shadows +22, HSL saturation he
 **Flagged for correction**: Calibration (removed per Commandment #3), WB (removed per Commandment #4), Saturation reduced to +5 (Commandment #9/S-curve double-boost). All corrections already applied in current XMP. **Note**: Ektar's defining characteristic — high saturation carried by per-channel HSL rather than global Saturation — is correctly preserved in the current XMP architecture.
 
 **Batch 1 Review (June 2026):** Confirmed. XMP verified: no Calibration, no WB, Sharpness=10, Clarity=0, Dehaze=0, GrainAmount=5 (near-zero, minimal grain protection concern), Saturation=+5 (down from community +15 per §VIII.4 S-curve double-boost prevention), no Vibrance attribute (gap to Saturation=5, effectively 0). Contrast=+32 with per-channel HSL saturation carrying Ektar punch. All STYLEGUIDE rules pass. Status: RESOLVED.
+
+---
+
+## See Also
+
+- [Kodak Ektar 100 — Film Characteristics](../Kodak-Ektar-100/characteristics.md)
+- [Kodak Portra 400 Lightroom Preset](../Kodak-Portra-400/community-recipes.md)
+- [Kodak Gold 200 Lightroom Preset](../Kodak-Gold-200/community-recipes.md)
+- [Kodak Ultramax 400 Lightroom Preset](../Kodak-Ultramax-400/community-recipes.md)
+- [XMP Preset: Kodak Ektar 100](../../Presets/Color-Negative/Kodak Ektar 100.xmp)

@@ -6,7 +6,7 @@
 
 ## Recipe Philosophy: The Two Approaches
 
-The digicam flash community splits into two camps:
+The Y2K Flash Digicam Lightroom preset community recipes compile settings from photographers worldwide. The digicam flash community splits into two camps:
 
 1. **"Just Buy a Digicam" camp**: Argues that you cannot truly replicate CCD sensor color + real direct flash in software. Recommends buying a $20-60 used digicam on eBay/Mercari. (r/VintageDigitalCameras leans here.)
 
@@ -530,3 +530,11 @@ XMP tonals, HSL, and color grading match consensus. Calibration removed (see fla
 
 ### Special Note
 The calibration conflict is recorded as **CRITICAL** because 5/5 community sources agree calibration IS the defining characteristic of CCD color simulation. The community statements ("You can't get the real CCD reds without a CCD sensor") and Recipe B's direct A/B comparison indicate that HSL-only approximation cannot achieve the community's intended result. This may warrant a documented STYLEGUIDE exception similar to the Canon Color Science exception.
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

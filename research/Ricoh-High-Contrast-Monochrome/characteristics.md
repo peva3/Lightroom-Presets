@@ -1,8 +1,8 @@
-# Ricoh High-Contrast Monochrome — Aesthetic Characteristics Breakdown
+# Ricoh High-Contrast Monochrome Lightroom Preset — Aesthetic Characteristics Breakdown
 
 ## Overview
 
-The Ricoh High-Contrast Black & White profile is not merely a "settings preset." It is a purpose-built JPEG rendering engine developed by Ricoh that synthesizes several aesthetic operations into a single in-camera look. This profile has developed a cult following because it produces a distinctive visual signature that resists easy replication in post-processing software.
+The Ricoh High Contrast Monochrome Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The Ricoh High-Contrast Black & White profile is not merely a "settings preset." It is a purpose-built JPEG rendering engine developed by Ricoh that synthesizes several aesthetic operations into a single in-camera look. This profile has developed a cult following because it produces a distinctive visual signature that resists easy replication in post-processing software.
 
 ---
 
@@ -222,3 +222,11 @@ For those seeking to replicate the look in Lightroom:
 5. For the closest possible match without shooting JPEG, use a paid DCP profile (PerfeFilm) as a starting point
 
 The HC B&W profile has a cult following precisely because it is difficult to replicate — a testament to Ricoh's JPEG engineering and their understanding of the B&W street photography tradition.
+
+## See Also
+
+- [Black White Presets](../../docs/black-white.md)
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Genre Presets](../../docs/genre.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

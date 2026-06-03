@@ -6,7 +6,7 @@
 
 ## Overview of Available Emulation Presets
 
-Several commercial preset packs include Delta 3200 emulations:
+The Ilford Delta 3200 Lightroom preset community recipes compile settings from photographers worldwide. Several commercial preset packs include Delta 3200 emulations:
 
 | Pack | Delta 3200 Coverage | Notes |
 |------|---------------------|-------|
@@ -401,3 +401,11 @@ The community understands Delta 3200's unique character extremely well: lifted b
 
 **Key Data Quality Strength**: The developer comparison table (Microphen, DD-X, Rodinal, HC-110, DF96) is technically accurate and maps chemical processing differences to digital slider equivalents. This is exactly the kind of reference data that justifies slider choices.
 ```
+
+## See Also
+
+- [Black White Presets](../../docs/black-white.md)
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Genre Presets](../../docs/genre.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

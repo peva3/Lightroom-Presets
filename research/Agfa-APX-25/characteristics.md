@@ -1,7 +1,7 @@
-# Agfa APX 25 — Film Characteristics
+# Agfa APX 25 — Film Characteristics for Lightroom Presets
 
 ## Overview
-Agfa APX 25 was an ultra-fine-grain, very low ISO black-and-white negative film produced by Agfa-Gevaert. It was renowned for its almost invisible grain structure, high sharpness, and exceptional enlarging capability. Discontinued in the early 2000s along with the rest of the APX line (later revived by Lupus Imaging as AgfaPhoto APX).
+Agfa APX 25 was an ultra-fine-grain, very low ISO black-and-white negative film produced by Agfa-Gevaert. It was renowned for its almost invisible grain structure, high sharpness, and exceptional enlarging capability. Discontinued in the early 2000s along with the rest of the APX line (later revived by Lupus Imaging as AgfaPhoto APX). This document serves as a reference for creating a Lightroom preset that emulates APX 25.
 
 ## Key Characteristics
 - **ISO**: 25 (nominal)
@@ -30,3 +30,13 @@ Agfa APX 25 was an ultra-fine-grain, very low ISO black-and-white negative film 
 - Agfa-Gevaert Technical Data Sheet (archived)
 - t3mujinpack dtstyle data for Darktable emulation
 - Community forum archives (APUG/Photrio, rangefinderforum.com)
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Agfa APX 100](../Agfa-APX-100/characteristics.md)
+- [Agfa APX 400](../Agfa-APX-400/characteristics.md)
+- [Kodak Tri X 400](../Kodak-Tri-X-400/characteristics.md)

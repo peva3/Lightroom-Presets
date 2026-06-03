@@ -1,8 +1,8 @@
-# Kodak Ultramax 400 — Aesthetic Characteristics Breakdown
+# Kodak Ultramax 400 — Aesthetic Characteristics Breakdown for Lightroom Presets
 
 ## Overview
 
-Kodak Ultramax 400 is a consumer-grade ISO 400 color negative film manufactured by Kodak. Introduced as part of Kodak's "MAX" line (alongside Max 800, now discontinued), it sits as the mid-tier consumer color film between Kodak Gold 200 and the professional Portra line. It is often called **"budget Portra"** or **"Golden hour in a can"** by the analog photography community.
+Kodak Ultramax 400 is a consumer-grade ISO 400 color negative film manufactured by Kodak. Introduced as part of Kodak's "MAX" line (alongside Max 800, now discontinued), it sits as the mid-tier consumer color film between Kodak Gold 200 and the professional Portra line. It is often called **"budget Portra"** or **"Golden hour in a can"** by the analog photography community. This document serves as a reference for creating a Lightroom preset that emulates Ultramax 400.
 
 ## Core Aesthetic Signature
 
@@ -147,3 +147,16 @@ Darkened blue luminance (sky polarization effect)
 ```
 
 This creates the characteristic **punchy, warm, everyday film look** that has made Ultramax a beloved staple of analog photography.
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Gold 200](../Kodak-Gold-200/characteristics.md)
+- [Kodak ColorPlus 200](../Kodak-ColorPlus-200/characteristics.md)
+- [Kodak Pro Image 100](../Kodak-Pro-Image-100/characteristics.md)
+- [Kodak Royal Gold 400](../Kodak-Royal-Gold-400/characteristics.md)
+- [Kodak Max 800](../Kodak-Max-800/characteristics.md)
+- [Kodak High Definition Plus 200](../Kodak-High-Definition-Plus-200/characteristics.md)

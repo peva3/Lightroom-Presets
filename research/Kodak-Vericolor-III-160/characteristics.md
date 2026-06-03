@@ -1,4 +1,4 @@
-# Kodak Vericolor III 160 — Film Characteristics
+# Kodak Vericolor III 160 — Film Characteristics for Lightroom Presets
 
 > Professional portrait film (pre-1998). Extremely low contrast, very pastel, magenta-leaning shadows. The wedding and school portrait standard for 20+ years. Introduced 1983, replaced by Portra 160 in 1998.
 
@@ -6,7 +6,7 @@
 
 ## Core Aesthetic Identity
 
-| Attribute | Vericolor III 160 Characteristic |
+| Attribute | Vericolor III 160 Characteristic | This document serves as a reference for creating a Lightroom preset that emulates Vericolor III 160.
 |-----------|--------------------------------|
 | Contrast | Extremely low — the defining characteristic |
 | Saturation | Pastel, subdued — designed for pleasing skin |
@@ -48,3 +48,13 @@ Vericolor III is fundamentally defined by contrast polarity — its -30 contrast
 ---
 
 *Compiled June 2026 from Kodak datasheets, Fuji X Weekly (fujixweekly.com), and community forums.*
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Vericolor VPS](../Kodak-Vericolor-VPS/characteristics.md)
+- [Kodak Portra 160](../Kodak-Portra-160/characteristics.md)
+- [Fujifilm Pro 400H](../Fujifilm-Pro-400H/characteristics.md)

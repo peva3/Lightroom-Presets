@@ -1,7 +1,7 @@
-# Kodak Ektachrome 320T — Characteristics
+# Kodak Ektachrome 320T — Characteristics for Lightroom Presets
 
 ## Film Stock Profile
-- **Type:** Tungsten-balanced color reversal (slide) film
+- **Type:** Tungsten-balanced color reversal (slide) film This document serves as a reference for creating a Lightroom preset that emulates Ektachrome 320T.
 - **Manufacturer:** Kodak
 - **ISO:** 320 (tungsten), 100 (daylight with 85B filter)
 - **Status:** Discontinued
@@ -40,3 +40,15 @@ When processed in C-41 chemistry instead of E-6:
 - **Base:** STYLEGUIDE Cross-Processed E6→C41 formula + tungsten balance characteristics
 - **Key moves:** High contrast, cool/green/magenta color grading, blue saturation boost, prominent grain
 - **Translation date:** 2026-06-01
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Ektachrome E100](../Kodak-Ektachrome-E100/characteristics.md)
+- [Kodak Ektachrome 64](../Kodak-Ektachrome-64/characteristics.md)
+- [Kodak Ektachrome 400X](../Kodak-Ektachrome-400X/characteristics.md)
+- [Kodak Ektachrome 200](../Kodak-Ektachrome-200/characteristics.md)
+- [Kodak Ektachrome 100VS](../Kodak-Ektachrome-100VS/characteristics.md)

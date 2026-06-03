@@ -65,3 +65,13 @@ See XMP file for final applied values.
 - r/analog: Vista 400 image posts
 - Japan Camera Hunter: Agfa Vista line overview
 - Flickr: Agfa Vista 400 image samples
+
+---
+
+## See Also
+
+- [Agfa Vista 400 — Film Characteristics](../Agfa-Vista-400/characteristics.md)
+- [Agfa Vista 100 Lightroom Preset](../Agfa-Vista-100/community-recipes.md)
+- [Agfa Vista 200 Lightroom Preset](../Agfa-Vista-200/community-recipes.md)
+- [Kodak Gold 200 Lightroom Preset](../Kodak-Gold-200/community-recipes.md)
+- [XMP Preset: Agfa Vista 400](../../Presets/Color-Negative/Agfa Vista 400.xmp)

@@ -1,7 +1,7 @@
-# Detail Pop — Characteristics
+# Detail Pop Lightroom Preset — Characteristics
 
 ## Use Case
-Wildlife photography — birds, mammals, reptiles. Fur, feather, and scale detail. Natural habitat backgrounds.
+The Detail Pop Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Wildlife photography — birds, mammals, reptiles. Fur, feather, and scale detail. Natural habitat backgrounds.
 
 ## Key Techniques
 Texture +15 + Clarity +15 is the detail duo — fur and feather structure pops. Green Hue +10 + Green Sat -15 naturalize foliage backgrounds without distracting from subject. Orange Sat +10 + Yellow Sat +10 enhance animal coat colors and golden-hour rim light. Blue Sat +10 for sky backgrounds. Subtle Dehaze +5 for distance clarity. |Vibrance−Saturation|=2. 20 attributes.
@@ -18,3 +18,11 @@ Texture +15 + Clarity +15 is the detail duo — fur and feather structure pops. 
 - HSL Sat max: Within ±60
 - Blacks floor: ≥ -30
 - Grain protection: N/A (no grain)
+
+## See Also
+
+- [Genre Presets](../../docs/genre.md)
+- [Mobile Presets](../../docs/mobile.md)
+- [Seasonal Presets](../../docs/seasonal.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

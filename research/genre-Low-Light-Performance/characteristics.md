@@ -1,7 +1,7 @@
-# Low Light Performance — Characteristics
+# Low Light Performance Lightroom Preset — Characteristics
 
 ## Use Case
-Low-light concerts, clubs, and small venues. High ISO shooting, minimal stage lighting. Noise management while preserving mood.
+The Low Light Performance Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Low-light concerts, clubs, and small venues. High ISO shooting, minimal stage lighting. Noise management while preserving mood.
 
 ## Key Techniques
 High Exposure (+0.50) + Shadow lift (+30) rescue underexposed low-light frames. LuminanceSmoothing +20 reduces high-ISO color noise without destroying detail. Muted saturation (-5) calms chroma noise artifacts. Green Sat -20 removes LED backlight pollution. Cool shadow split (H235 S10) + warm highlights (H40 S8) add depth. |Vibrance−Saturation|=2. 18 attributes.
@@ -18,3 +18,11 @@ High Exposure (+0.50) + Shadow lift (+30) rescue underexposed low-light frames. 
 - HSL Sat max: Within ±60
 - Blacks floor: ≥ -30
 - Grain protection: N/A (no grain)
+
+## See Also
+
+- [Genre Presets](../../docs/genre.md)
+- [Mobile Presets](../../docs/mobile.md)
+- [Seasonal Presets](../../docs/seasonal.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

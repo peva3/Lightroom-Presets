@@ -1,8 +1,8 @@
-# Bleach Bypass — Aesthetic Characteristics
+# Bleach Bypass Lightroom Preset — Aesthetic Characteristics
 
 ## The Core Visual Signature
 
-Bleach bypass / skip bleach creates one of the most instantly recognizable looks in cinema: **ultra-high contrast with severely stripped saturation**, an almost tactile silver grain texture, and deep, inky blacks that swallow detail. It is the aesthetic of existential dread, moral decay, grittiness, and heightened reality — making the world feel simultaneously more real and more nightmarish.
+The Bleach Bypass Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Bleach bypass / skip bleach creates one of the most instantly recognizable looks in cinema: **ultra-high contrast with severely stripped saturation**, an almost tactile silver grain texture, and deep, inky blacks that swallow detail. It is the aesthetic of existential dread, moral decay, grittiness, and heightened reality — making the world feel simultaneously more real and more nightmarish.
 
 ---
 
@@ -254,3 +254,11 @@ Key insight: **Only bleach bypass simultaneously crushes blacks AND blows highli
 - Alexis Van Hurkman, *Color Correction Look Book* (2013), Chapter 2
 - ASC "Soup du Jour: Bleach Bypass" (November 1998)
 - ShotOnWhat.com technical specifications
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

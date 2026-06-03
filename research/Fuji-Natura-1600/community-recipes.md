@@ -286,3 +286,13 @@ All values align with Fuji Natura 1600's known characteristics:
 
 ### Documentation Fix (2026-06-01)
 - Fixed false claim: STYLEGUIDE section said "20→10 meaningful attributes after cleanup" but XMP has 32. The "Default-value attributes removed" list was aspirational — those defaults were never actually stripped from the XMP. Documentation corrected to reflect actual XMP state.
+
+---
+
+## See Also
+
+- [Fuji Natura 1600 — Film Characteristics](../Fuji-Natura-1600/characteristics.md)
+- [Fuji Superia 1600 Lightroom Preset](../Fuji-Superia-1600/community-recipes.md)
+- [Fuji Neopan 1600 Lightroom Preset](../Fuji-Neopan-1600/community-recipes.md)
+- [Fuji Superia 800 Lightroom Preset](../Fuji-Superia-800/community-recipes.md)
+- [XMP Preset: Fuji Natura 1600](../../Presets/Color-Negative/Fuji Natura 1600.xmp)

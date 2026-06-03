@@ -1,4 +1,4 @@
-# Kodak Portra 400UC / 400VC — Full Aesthetic Characteristics
+# Kodak Portra 400UC / 400VC — Full Aesthetic Characteristics for Lightroom Presets
 
 > "Ultra Color" / "Vivid Color" — Portra 400 with the saturation turned up. The choice for fashion, editorial, and vibrant commercial work.
 
@@ -6,7 +6,7 @@
 
 ## Executive Summary
 
-Kodak Portra 400UC ("Ultra Color," later renamed 400VC "Vivid Color") was the higher-saturation variant of Portra 400. Where 400NC aimed for neutral accuracy, 400UC delivered **bold, saturated colors while retaining Portra's legendary skin tone handling**. It was the go-to for fashion editorial, vibrant travel photography, and any work where color needed to "pop" without looking like consumer film. Discontinued when Kodak unified Portra in 2010; the closest current equivalent is Portra 800 (which has higher saturation) or Ektar 100 (significantly more saturated).
+Kodak Portra 400UC ("Ultra Color," later renamed 400VC "Vivid Color") was the higher-saturation variant of Portra 400. Where 400NC aimed for neutral accuracy, 400UC delivered **bold, saturated colors while retaining Portra's legendary skin tone handling**. It was the go-to for fashion editorial, vibrant travel photography, and any work where color needed to "pop" without looking like consumer film. Discontinued when Kodak unified Portra in 2010; the closest current equivalent is Portra 800 (which has higher saturation) or Ektar 100 (significantly more saturated). This document serves as a reference for creating a Lightroom preset that emulates Portra 400UC.
 
 ---
 
@@ -70,3 +70,21 @@ Kodak Portra 400UC ("Ultra Color," later renamed 400VC "Vivid Color") was the hi
 - t3mujinpack GitHub — Kodak Portra 400 UC + 400 VC Darktable presets
 - Kodak Professional product literature (archived)
 - r/AnalogCommunity — Portra UC/VC discussion
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Portra 160NC](../Kodak-Portra-160NC/characteristics.md)
+- [Kodak Portra 400VC](../Kodak-Portra-400VC/characteristics.md)
+- [Kodak Portra 400](../Kodak-Portra-400/characteristics.md)
+- [Kodak Portra 400NC](../Kodak-Portra-400NC/characteristics.md)
+- [Kodak Portra 160VC](../Kodak-Portra-160VC/characteristics.md)
+- [Kodak Portra 160](../Kodak-Portra-160/characteristics.md)
+- [Kodak Portra 800](../Kodak-Portra-800/characteristics.md)
+- [Kodak Gold 200](../Kodak-Gold-200/characteristics.md)
+- [Kodak Ektar 100](../Kodak-Ektar-100/characteristics.md)
+- [Kodak Ultramax 400](../Kodak-Ultramax-400/characteristics.md)
+- [Fujifilm Pro 400H](../Fujifilm-Pro-400H/characteristics.md)

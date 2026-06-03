@@ -67,3 +67,13 @@ The t3mujinpack distinguishes E100VS from standard E100 through increased satura
 - t3mujinpack — E100VS profile
 - Kodak Ektachrome E100VS datasheet
 - Ektachrome family comparison research
+
+---
+
+## See Also
+
+- [Kodak Ektachrome 100VS — Film Characteristics](../Kodak-Ektachrome-100VS/characteristics.md)
+- [Kodak Ektachrome E100 Lightroom Preset](../Kodak-Ektachrome-E100/community-recipes.md)
+- [Kodak Ektachrome 320T Lightroom Preset](../Kodak-Ektachrome-320T/community-recipes.md)
+- [Kodak Ektachrome 64 Lightroom Preset](../Kodak-Ektachrome-64/community-recipes.md)
+- [XMP Preset: Kodak Ektachrome 100VS](../../Presets/Slide/Kodak Ektachrome 100VS.xmp)

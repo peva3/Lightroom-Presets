@@ -515,3 +515,11 @@ Outstanding data quality. The six-recipe structure is well-organized. The HP5 vs
 **Documentation fix (2026-06-01):** Added note to Community Validated Values table clarifying values reflect pre-STYLEGUIDE consensus, not final XMP state. Actual XMP: Clarity=0, Texture=0, GrainFrequency=50, GrainAmount=36.3, GrainSize=27.5, Sharpness=10.
 
 **Note**: The community-recipes.md correctly identifies that HP5 scans flatter than Tri-X (more latitude for digital editing) — this is consistent with the XMP having Blacks at only -11.3 (vs -30 for Tri-X). The XMP captures the relationship correctly: HP5 is the gentler, more flexible film.
+
+## See Also
+
+- [Black White Presets](../../docs/black-white.md)
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Genre Presets](../../docs/genre.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

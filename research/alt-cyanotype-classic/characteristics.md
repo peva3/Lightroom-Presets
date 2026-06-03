@@ -1,8 +1,8 @@
-# Cyanotype Classic — Complete Aesthetic Breakdown
+# Cyanotype Classic Lightroom Preset — Complete Aesthetic Breakdown
 
 ## Core Aesthetic Signature
 
-The cyanotype process, invented by Sir John Herschel in 1842, produces distinctive Prussian blue monochrome prints. It was the first successful non-silver photographic printing process and was famously used by Anna Atkins for her botanical photograms — the first book illustrated with photographs. The classic cyanotype has deep blue shadows and bright cyan-blue highlights, with a characteristic tonal range that emphasizes texture and form over color.
+The cyanotype classic Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The cyanotype process, invented by Sir John Herschel in 1842, produces distinctive Prussian blue monochrome prints. It was the first successful non-silver photographic printing process and was famously used by Anna Atkins for her botanical photograms — the first book illustrated with photographs. The classic cyanotype has deep blue shadows and bright cyan-blue highlights, with a characteristic tonal range that emphasizes texture and form over color.
 
 ## Historical Context
 
@@ -35,3 +35,11 @@ This preset is designed to capture the essential visual character of the cyanoty
 - Alternative Photography (alternativephotography.com)
 - Christopher James: *The Book of Alternative Photographic Processes*
 - Community knowledge from r/analog, r/Darkroom, and photography forums
+
+## See Also
+
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Black White Presets](../../docs/black-white.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

@@ -1,4 +1,4 @@
-# Kodak Portra 160VC — Community Recipes
+# Kodak Portra 160VC — Lightroom Preset Settings & Recipes
 
 > Compiled from t3mujinpack .dtstyle reference data, Reddit (r/Lightroom, r/analog), and community forums. The VC (Vivid Color) variant was discontinued in 2010 but remains sought-after for its punchier wedding/fashion look.
 
@@ -52,3 +52,13 @@ The community consistently identifies one core distinction: **contrast polarity*
 ---
 
 *Compiled June 2026. No Wayback Machine snapshots available for t3mujinpack-specific pages. Values derived from community consensus and film characteristics.*
+
+---
+
+## See Also
+
+- [Kodak Portra 160VC — Film Characteristics](../Kodak-Portra-160VC/characteristics.md)
+- [Kodak Portra 160NC Lightroom Preset](../Kodak-Portra-160NC/community-recipes.md)
+- [Kodak Portra 400VC Lightroom Preset](../Kodak-Portra-400VC/community-recipes.md)
+- [Kodak Portra 400 Lightroom Preset](../Kodak-Portra-400/community-recipes.md)
+- [XMP Preset: Kodak Portra 160VC](../../Presets/Color-Negative/Kodak Portra 160VC.xmp)

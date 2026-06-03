@@ -1,8 +1,8 @@
-# Lomo LC-A — Complete Aesthetic Breakdown
+# Lomo LC-A Lightroom Preset — Complete Aesthetic Breakdown
 
 ## Core Aesthetic Signature
 
-The Lomo LC-A (Lomo Kompakt Automat) is a 35mm compact camera manufactured by LOMO PLC in St. Petersburg from 1984. It features a Minitar 1 32mm f/2.8 glass lens and an automatic exposure system. Rediscovered in the 1990s by Austrian students, it spawned the Lomography movement — a philosophy of casual, snapshot photography celebrating saturated colors, vignetting, and 'happy accidents.'
+The lomo lc a Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The Lomo LC-A (Lomo Kompakt Automat) is a 35mm compact camera manufactured by LOMO PLC in St. Petersburg from 1984. It features a Minitar 1 32mm f/2.8 glass lens and an automatic exposure system. Rediscovered in the 1990s by Austrian students, it spawned the Lomography movement — a philosophy of casual, snapshot photography celebrating saturated colors, vignetting, and 'happy accidents.'
 
 ## Historical Context
 
@@ -35,3 +35,11 @@ This preset is designed to capture the essential visual character of the lomo lc
 - Alternative Photography (alternativephotography.com)
 - Christopher James: *The Book of Alternative Photographic Processes*
 - Community knowledge from r/analog, r/Darkroom, and photography forums
+
+## See Also
+
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Black White Presets](../../docs/black-white.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

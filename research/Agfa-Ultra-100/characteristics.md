@@ -1,8 +1,8 @@
-# Agfa Ultra 100 — Full Aesthetic Breakdown
+# Agfa Ultra 100 — Full Aesthetic Breakdown for Lightroom Presets
 
 ## Overview
 
-Agfa Ultra 100 was a short-lived (2003–2005) ultra-saturated consumer color negative film from Agfa that gained cult status after discontinuation. It was the "saturation king" of consumer color neg — more saturated than Ektar 100 but with consumer-grade contrast and grain. Think of it as Ektar's louder, less refined cousin: punchy primaries, strong red bias, and colors that blast off the print.
+Agfa Ultra 100 was a short-lived (2003–2005) ultra-saturated consumer color negative film from Agfa that gained cult status after discontinuation. It was the "saturation king" of consumer color neg — more saturated than Ektar 100 but with consumer-grade contrast and grain. Think of it as Ektar's louder, less refined cousin: punchy primaries, strong red bias, and colors that blast off the print. This document serves as a reference for creating a Lightroom preset that emulates Ultra 100.
 
 ---
 
@@ -80,3 +80,13 @@ Described as warmer and more vibrant than the v1 Classic Negative-based recipe. 
 - Fuji X Weekly: Agfa Ultra 100 v1 (February 2022)
 - r/AnalogCommunity discussions on discontinued Agfa stocks
 - Film photography forums (Photrio, etc.)
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Agfa Vista 100](../Agfa-Vista-100/characteristics.md)
+- [Agfa Optima 100](../Agfa-Optima-100/characteristics.md)
+- [Kodak Ultramax 400](../Kodak-Ultramax-400/characteristics.md)

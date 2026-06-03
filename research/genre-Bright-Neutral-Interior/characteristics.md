@@ -1,7 +1,7 @@
-# Bright Neutral Interior — Characteristics
+# Bright Neutral Interior Lightroom Preset — Characteristics
 
 ## Use Case
-Real estate interiors with mixed natural/artificial light. White walls, neutral decor. Accurate color rendering essential.
+The Bright Neutral Interior Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Real estate interiors with mixed natural/artificial light. White walls, neutral decor. Accurate color rendering essential.
 
 ## Key Techniques
 Bright exposure (+0.40) to fill shadow corners. Shadow lift (+30) reveals detail in darker rooms. Clarity +5 gives subtle edge definition for architectural lines without HDR look. Aqua Lum +15 brightens windows/skylight glow. Orange Sat -5 prevents warm wood from dominating. Minimal Color Grading for neutrality. 16 attributes — real estate agents want truth, not art.
@@ -18,3 +18,11 @@ Bright exposure (+0.40) to fill shadow corners. Shadow lift (+30) reveals detail
 - HSL Sat max: Within ±60
 - Blacks floor: ≥ -30
 - Grain protection: N/A (no grain)
+
+## See Also
+
+- [Genre Presets](../../docs/genre.md)
+- [Mobile Presets](../../docs/mobile.md)
+- [Seasonal Presets](../../docs/seasonal.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

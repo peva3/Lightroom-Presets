@@ -270,3 +270,11 @@ XMP values exactly match consensus for B&W mixer, tonal adjustments, and effects
 - Reddit communities: r/postprocessing, r/analog, r/infraredphotography
 - YouTube tutorials (PIXimperfect, Phlearn, Jamie Windsor, Sean Tucker)
 - Photography forum discussions (DPReview, Fred Miranda, Lightroom Queen Forums)
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

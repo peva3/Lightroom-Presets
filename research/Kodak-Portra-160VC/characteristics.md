@@ -1,4 +1,4 @@
-# Kodak Portra 160VC — Film Characteristics
+# Kodak Portra 160VC — Film Characteristics for Lightroom Presets
 
 > Pre-2010 "Vivid Color" Portra variant. Higher saturation and contrast than standard Portra, less pastel. The bridal/fashion photographers' choice before the current unified Portra line.
 
@@ -6,7 +6,7 @@
 
 ## Core Aesthetic Identity
 
-| Attribute | Portra 160VC Characteristic |
+| Attribute | Portra 160VC Characteristic | This document serves as a reference for creating a Lightroom preset that emulates Portra 160VC.
 |-----------|---------------------------|
 | Contrast | Medium (higher than standard Portra 160) |
 | Saturation | Elevated — "Vivid Color" designation |
@@ -51,3 +51,21 @@ Portra 160VC's look bridges the gap between Portra's gentle pastel character and
 ---
 
 *Compiled June 2026 from Kodak datasheets, community forums, and t3mujinpack reference data.*
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Portra 160NC](../Kodak-Portra-160NC/characteristics.md)
+- [Kodak Portra 400VC](../Kodak-Portra-400VC/characteristics.md)
+- [Kodak Portra 400](../Kodak-Portra-400/characteristics.md)
+- [Kodak Portra 400NC](../Kodak-Portra-400NC/characteristics.md)
+- [Kodak Portra 400UC](../Kodak-Portra-400UC/characteristics.md)
+- [Kodak Portra 160](../Kodak-Portra-160/characteristics.md)
+- [Kodak Portra 800](../Kodak-Portra-800/characteristics.md)
+- [Kodak Gold 200](../Kodak-Gold-200/characteristics.md)
+- [Kodak Ektar 100](../Kodak-Ektar-100/characteristics.md)
+- [Kodak Ultramax 400](../Kodak-Ultramax-400/characteristics.md)
+- [Fujifilm Pro 400H](../Fujifilm-Pro-400H/characteristics.md)

@@ -1,7 +1,7 @@
-# Kodak Panatomic-X 32 — Film Characteristics
+# Kodak Panatomic-X 32 — Film Characteristics for Lightroom Presets
 
 ## Overview
-Kodak Panatomic-X was an ultra-fine-grain, slow-speed black-and-white negative film (ISO 32). Introduced in 1933 and discontinued in 1987, it achieved legendary status among fine-art photographers for its virtually invisible grain, exceptional sharpness, and long tonal scale. Ansel Adams used it for many of his most famous works.
+Kodak Panatomic-X was an ultra-fine-grain, slow-speed black-and-white negative film (ISO 32). Introduced in 1933 and discontinued in 1987, it achieved legendary status among fine-art photographers for its virtually invisible grain, exceptional sharpness, and long tonal scale. Ansel Adams used it for many of his most famous works. This document serves as a reference for creating a Lightroom preset that emulates Panatomic X 32.
 
 ## Key Characteristics
 - **ISO**: 32 (nominal), often shot at 25-50
@@ -33,3 +33,12 @@ Kodak Panatomic-X was an ultra-fine-grain, slow-speed black-and-white negative f
 - Ansel Adams, *The Negative* (1981)
 - Photrio/APUG community archives
 - t3mujinpack Darktable reference data
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Plus X 125](../Kodak-Plus-X-125/characteristics.md)
+- [Kodak T Max 100](../Kodak-T-Max-100/characteristics.md)

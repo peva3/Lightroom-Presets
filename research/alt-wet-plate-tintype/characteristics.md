@@ -1,8 +1,8 @@
-# Wet Plate Tintype — Complete Aesthetic Breakdown
+# Wet Plate Tintype Lightroom Preset — Complete Aesthetic Breakdown
 
 ## Core Aesthetic Signature
 
-The tintype (ferrotype), patented by Hamilton Smith in 1856, is a direct positive on a thin iron plate lacquered black. Hugely popular from the 1860s–1880s for its durability and low cost. The black lacquer reverses the negative's tonal range: underexposed areas appear dark (the black plate shows through), while exposed/developed areas appear as whitish silver. The result is a warm-toned, laterally reversed positive with soft edges.
+The wet plate tintype Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The tintype (ferrotype), patented by Hamilton Smith in 1856, is a direct positive on a thin iron plate lacquered black. Hugely popular from the 1860s–1880s for its durability and low cost. The black lacquer reverses the negative's tonal range: underexposed areas appear dark (the black plate shows through), while exposed/developed areas appear as whitish silver. The result is a warm-toned, laterally reversed positive with soft edges.
 
 ## Historical Context
 
@@ -35,3 +35,11 @@ This preset is designed to capture the essential visual character of the wet pla
 - Alternative Photography (alternativephotography.com)
 - Christopher James: *The Book of Alternative Photographic Processes*
 - Community knowledge from r/analog, r/Darkroom, and photography forums
+
+## See Also
+
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Black White Presets](../../docs/black-white.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

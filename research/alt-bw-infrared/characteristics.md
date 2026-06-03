@@ -1,8 +1,8 @@
-# B&W Infrared — Complete Aesthetic Breakdown
+# B&W Infrared Lightroom Preset — Complete Aesthetic Breakdown
 
 ## Core Aesthetic Signature
 
-Black-and-white infrared photography captures near-infrared light (700–900nm) instead of visible light. Since vegetation strongly reflects IR (the Wood Effect), foliage appears glowing white, while blue skies (which scatter very little IR) appear nearly black. Water absorbs IR and appears dark. The combination creates surreal, high-contrast landscapes where trees seem to glow against dramatic dark skies.
+The bw infrared Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Black-and-white infrared photography captures near-infrared light (700–900nm) instead of visible light. Since vegetation strongly reflects IR (the Wood Effect), foliage appears glowing white, while blue skies (which scatter very little IR) appear nearly black. Water absorbs IR and appears dark. The combination creates surreal, high-contrast landscapes where trees seem to glow against dramatic dark skies.
 
 ## Historical Context
 
@@ -35,3 +35,11 @@ This preset is designed to capture the essential visual character of the b&w inf
 - Alternative Photography (alternativephotography.com)
 - Christopher James: *The Book of Alternative Photographic Processes*
 - Community knowledge from r/analog, r/Darkroom, and photography forums
+
+## See Also
+
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Black White Presets](../../docs/black-white.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

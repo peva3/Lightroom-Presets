@@ -1,6 +1,6 @@
-# Kodak Portra 800 - Aesthetic Characteristics
+# Kodak Portra 800 - Aesthetic Characteristics — Full Aesthetic Characteristics for Lightroom Presets
 
-A comprehensive breakdown of Portra 800's aesthetic fingerprint, including comparison to Portra 400 and pushed behavior.
+A comprehensive breakdown of Portra 800's aesthetic fingerprint, including comparison to Portra 400 and pushed behavior. This document serves as a reference for creating a Lightroom preset that emulates Portra 800.
 
 ---
 
@@ -284,3 +284,21 @@ This is actually a selling point in today's film photography market where "chara
 ## 10. Summary: The Portra 800 "Look" in One Sentence
 
 *A warm, naturally saturated film with visible-but-pleasing grain, exceptional shadow detail, rich skin tones that are warm without being orange, and enough latitude to handle almost any lighting situation while maintaining a distinctly organic, character-rich aesthetic that separates it from its cleaner Portra siblings.*
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Portra 160NC](../Kodak-Portra-160NC/characteristics.md)
+- [Kodak Portra 400VC](../Kodak-Portra-400VC/characteristics.md)
+- [Kodak Portra 400](../Kodak-Portra-400/characteristics.md)
+- [Kodak Portra 400NC](../Kodak-Portra-400NC/characteristics.md)
+- [Kodak Portra 400UC](../Kodak-Portra-400UC/characteristics.md)
+- [Kodak Portra 160VC](../Kodak-Portra-160VC/characteristics.md)
+- [Kodak Portra 160](../Kodak-Portra-160/characteristics.md)
+- [Kodak Gold 200](../Kodak-Gold-200/characteristics.md)
+- [Kodak Ektar 100](../Kodak-Ektar-100/characteristics.md)
+- [Kodak Ultramax 400](../Kodak-Ultramax-400/characteristics.md)
+- [Fujifilm Pro 400H](../Fujifilm-Pro-400H/characteristics.md)

@@ -1,8 +1,8 @@
-# Kodak Vision3 500T (5219) — Aesthetic Characteristics
+# Kodak Vision3 500T (5219) — Aesthetic Characteristics for Lightroom Presets
 
 ## Overview
 
-Kodak Vision3 500T (5219) is THE iconic tungsten-balanced motion picture color negative film. Introduced as part of the Vision3 line in 2007, it is the most widely used cinema film in history — the stock behind countless Hollywood films, from blockbusters to indie features. Balanced for 3200K tungsten light, it delivers extraordinary latitude, rich color saturation, and controlled grain at high speed. It is the base stock for CineStill 800T (which removes the rem-jet backing for C-41 still processing).
+Kodak Vision3 500T (5219) is THE iconic tungsten-balanced motion picture color negative film. Introduced as part of the Vision3 line in 2007, it is the most widely used cinema film in history — the stock behind countless Hollywood films, from blockbusters to indie features. Balanced for 3200K tungsten light, it delivers extraordinary latitude, rich color saturation, and controlled grain at high speed. It is the base stock for CineStill 800T (which removes the rem-jet backing for C-41 still processing). This document serves as a reference for creating a Lightroom preset that emulates Vision3 500T.
 
 ## Core Aesthetic Signature
 
@@ -60,3 +60,12 @@ Legendary latitude and push capability
 - Dehancer and FilmBox reference profiles
 - YouTube: "How to Create KODAK VISION 3 250D - 500T Look in Lightroom"
 - CineStill 800T community as reference for stills emulation
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Vision3 50D](../Kodak-Vision3-50D/characteristics.md)
+- [Kodak Vision3 250D](../Kodak-Vision3-250D/characteristics.md)

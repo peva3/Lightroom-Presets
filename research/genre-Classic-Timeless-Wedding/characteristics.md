@@ -1,7 +1,7 @@
-# Classic Timeless Wedding — Characteristics
+# Classic Timeless Wedding Lightroom Preset — Characteristics
 
 ## Use Case
-Timeless, true-to-life wedding coverage. Safe for all skin tones, lighting conditions, and venues. The go-to for clients who want natural but polished.
+The Classic Timeless Wedding Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Timeless, true-to-life wedding coverage. Safe for all skin tones, lighting conditions, and venues. The go-to for clients who want natural but polished.
 
 ## Key Techniques
 Mild positive Exposure (+0.15) for subtle brightness without blowing. Gentle Contrast (+10) preserves detail. Warm shadow split (H50 S8) adds cozy depth without obvious color cast. Orange luminance (+10) brightens skin — the single most important portrait slider. Green desaturation (-15) naturalizes foliage. Just 15 attributes — clean, simple, no grain.
@@ -18,3 +18,11 @@ Mild positive Exposure (+0.15) for subtle brightness without blowing. Gentle Con
 - HSL Sat max: Within ±60
 - Blacks floor: ≥ -30
 - Grain protection: N/A (no grain)
+
+## See Also
+
+- [Genre Presets](../../docs/genre.md)
+- [Mobile Presets](../../docs/mobile.md)
+- [Seasonal Presets](../../docs/seasonal.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

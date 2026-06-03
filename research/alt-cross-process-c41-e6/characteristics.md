@@ -1,8 +1,8 @@
-# Cross Process C41→E6 — Complete Aesthetic Breakdown
+# Cross Process C41→E6 Lightroom Preset — Complete Aesthetic Breakdown
 
 ## Core Aesthetic Signature
 
-Cross-processing C-41 color negative film in E-6 slide chemistry is the inverse of the more common E6→C41 cross-process. The result is a blue-biased, contrasty image with characteristic cool shadow casts and warm, slightly compressed highlights. This is less common than E6→C41 (negative film is cheaper to process in C-41) but produces a distinctive cool-retro palette popular in fashion and music photography.
+The cross process c41 e6 Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Cross-processing C-41 color negative film in E-6 slide chemistry is the inverse of the more common E6→C41 cross-process. The result is a blue-biased, contrasty image with characteristic cool shadow casts and warm, slightly compressed highlights. This is less common than E6→C41 (negative film is cheaper to process in C-41) but produces a distinctive cool-retro palette popular in fashion and music photography.
 
 ## Historical Context
 
@@ -35,3 +35,11 @@ This preset is designed to capture the essential visual character of the cross p
 - Alternative Photography (alternativephotography.com)
 - Christopher James: *The Book of Alternative Photographic Processes*
 - Community knowledge from r/analog, r/Darkroom, and photography forums
+
+## See Also
+
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Black White Presets](../../docs/black-white.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

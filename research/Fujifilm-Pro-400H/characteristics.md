@@ -1,4 +1,4 @@
-# Fujifilm Pro 400H — Full Aesthetic Characteristics
+# Fujifilm Pro 400H — Full Aesthetic Characteristics for Lightroom Presets
 
 > The definitive breakdown of the "400H look" — why wedding photographers and editorial shooters are still grieving.
 
@@ -6,7 +6,7 @@
 
 ## Executive Summary
 
-Fujifilm Pro 400H produces a **cool-toned, pastel-forward palette** that is unmistakably different from Kodak's warm Portra line. It is defined by **mint-green shadows, pastel blues, neutral-to-cool whites, and delicate skin tones with subtle magenta-cyan crossover**. When overexposed by 1–2 stops (shot at ISO 200 or 100), the film blooms into a signature ethereal, high-key editorial look that became the _de facto_ aesthetic for fine art wedding and lifestyle photography in the 2010s.
+Fujifilm Pro 400H produces a **cool-toned, pastel-forward palette** that is unmistakably different from Kodak's warm Portra line. It is defined by **mint-green shadows, pastel blues, neutral-to-cool whites, and delicate skin tones with subtle magenta-cyan crossover**. When overexposed by 1–2 stops (shot at ISO 200 or 100), the film blooms into a signature ethereal, high-key editorial look that became the _de facto_ aesthetic for fine art wedding and lifestyle photography in the 2010s. This document serves as a reference for creating a Lightroom preset that emulates Pro 400H.
 
 ---
 
@@ -203,3 +203,15 @@ From r/AnalogCommunity posts:
 - Fujifilm USA official product page (archived)
 - Reddit post "Thoughts on Pro 400H" — r/AnalogCommunity (2025)
 - Reddit discussion "Is anyone else not super upset that Pro 400H is being discontinued?" — r/AnalogCommunity (2021)
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fuji Pro 160NS](../Fuji-Pro-160NS/characteristics.md)
+- [Fuji Pro 160C](../Fuji-Pro-160C/characteristics.md)
+- [Fuji Pro 800Z](../Fuji-Pro-800Z/characteristics.md)
+- [Kodak Portra 400](../Kodak-Portra-400/characteristics.md)
+- [Fujifilm Classic Negative](../Fujifilm-Classic-Negative/characteristics.md)

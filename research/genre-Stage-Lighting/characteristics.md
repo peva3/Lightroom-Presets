@@ -1,7 +1,7 @@
-# Stage Lighting — Characteristics
+# Stage Lighting Lightroom Preset — Characteristics
 
 ## Use Case
-Concert and live performance photography. Stage LED lighting, spotlights, haze. Dramatic, colorful, high-energy.
+The Stage Lighting Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Concert and live performance photography. Stage LED lighting, spotlights, haze. Dramatic, colorful, high-energy.
 
 ## Key Techniques
 High Contrast (+30) + strong Clarity (+25) for stage drama and musician detail. Dehaze +15 cuts through stage haze for sharp spotlight beams. Blue Sat +10 and Magenta Sat +10 enhance common concert lighting colors. Green Sat -20 removes ugly green cast from fluorescent stage backlights. Teal/orange split (H225 S15 shadows, H42 S12 highlights) enhances the natural concert color contrast. |Vibrance−Saturation|=3. 20 attributes.
@@ -18,3 +18,11 @@ High Contrast (+30) + strong Clarity (+25) for stage drama and musician detail. 
 - HSL Sat max: Within ±60
 - Blacks floor: ≥ -30
 - Grain protection: N/A (no grain)
+
+## See Also
+
+- [Genre Presets](../../docs/genre.md)
+- [Mobile Presets](../../docs/mobile.md)
+- [Seasonal Presets](../../docs/seasonal.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

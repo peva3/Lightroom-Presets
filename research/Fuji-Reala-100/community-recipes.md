@@ -232,3 +232,12 @@ Values align with Reala 100's known characteristics:
 
 ### Documentation Fix (2026-06-01)
 - Fixed false claim: STYLEGUIDE section said "12 meaningful attributes" but XMP has 22. The "Default-value attributes removed" list was aspirational — those defaults were never actually stripped from the XMP. Documentation corrected to reflect actual XMP state.
+
+---
+
+## See Also
+
+- [Fuji Reala 100 — Film Characteristics](../Fuji-Reala-100/characteristics.md)
+- [Fuji Pro 160NS Lightroom Preset](../Fuji-Pro-160NS/community-recipes.md)
+- [Kodak Ektar 100 Lightroom Preset](../Kodak-Ektar-100/community-recipes.md)
+- [XMP Preset: Fuji Reala 100](../../Presets/Color-Negative/Fuji Reala 100.xmp)

@@ -1,6 +1,6 @@
-# Aesthetic Characteristics — Pastel Anime Aethereal
+# Aesthetic Characteristics Lightroom Preset — Pastel Anime Aethereal
 
-A full breakdown of the Pastel Anime Aethereal look: teal-shifted skies, mint greens, pink-purple shadows, bright-yet-soft tonality, and the dreamy quality that bridges anime key visuals and aethereal portrait photography.
+The Pastel Anime Aethereal Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. A full breakdown of the Pastel Anime Aethereal look: teal-shifted skies, mint greens, pink-purple shadows, bright-yet-soft tonality, and the dreamy quality that bridges anime key visuals and aethereal portrait photography.
 
 ---
 
@@ -213,3 +213,11 @@ This is a **newer trending look** (~2023–2026), accelerated by:
 ---
 
 *Sources: mlecznymlecz.com Ghibli aesthetic analysis, community Lightroom tutorials (PresetsStore, SparkleStock, YouTube, Instagram), Reddit r/AskPhotography, Lemon8 creator posts, AI art prompt databases (Midjourney "anime key visual" prompt templates).*
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

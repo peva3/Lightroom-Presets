@@ -1,7 +1,7 @@
-# Agfa APX 400 — Film Characteristics
+# Agfa APX 400 — Film Characteristics for Lightroom Presets
 
 ## Overview
-Agfa APX 400 was the high-speed member of Agfa's classic APX black-and-white film family. Sitting above APX 25 and APX 100, it offered a versatile combination of speed, moderate grain, and good contrast for general-purpose photography. Originally produced by Agfa-Gevaert (Leverkusen, Germany), it was later revived under AgfaPhoto branding by Lupus Imaging with a different emulsion.
+Agfa APX 400 was the high-speed member of Agfa's classic APX black-and-white film family. Sitting above APX 25 and APX 100, it offered a versatile combination of speed, moderate grain, and good contrast for general-purpose photography. Originally produced by Agfa-Gevaert (Leverkusen, Germany), it was later revived under AgfaPhoto branding by Lupus Imaging with a different emulsion. This document serves as a reference for creating a Lightroom preset that emulates APX 400.
 
 ## Key Characteristics
 - **ISO**: 400 (nominal)
@@ -33,3 +33,13 @@ Agfa APX 400 was the high-speed member of Agfa's classic APX black-and-white fil
 - Fuji X Weekly (Ritchie Roesch, April 2019 recipe)
 - Photrio/APUG community archives
 - t3mujinpack Darktable reference data
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Agfa APX 25](../Agfa-APX-25/characteristics.md)
+- [Agfa APX 100](../Agfa-APX-100/characteristics.md)
+- [Kodak Tri X 400](../Kodak-Tri-X-400/characteristics.md)

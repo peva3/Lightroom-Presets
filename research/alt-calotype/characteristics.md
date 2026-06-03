@@ -1,8 +1,8 @@
-# Calotype — Complete Aesthetic Breakdown
+# Calotype Lightroom Preset — Complete Aesthetic Breakdown
 
 ## Core Aesthetic Signature
 
-The calotype (Talbotype), invented by William Henry Fox Talbot and patented in 1841, was the first negative-positive photographic process. A paper negative was made by coating writing paper with silver nitrate and potassium iodide, then sensitizing with gallic acid and silver nitrate ('gallo-nitrate of silver'). The paper negative was then contact-printed onto salted paper to produce the positive. The paper fibers create a characteristic soft, fibrous texture.
+The calotype Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The calotype (Talbotype), invented by William Henry Fox Talbot and patented in 1841, was the first negative-positive photographic process. A paper negative was made by coating writing paper with silver nitrate and potassium iodide, then sensitizing with gallic acid and silver nitrate ('gallo-nitrate of silver'). The paper negative was then contact-printed onto salted paper to produce the positive. The paper fibers create a characteristic soft, fibrous texture.
 
 ## Historical Context
 
@@ -35,3 +35,11 @@ This preset is designed to capture the essential visual character of the calotyp
 - Alternative Photography (alternativephotography.com)
 - Christopher James: *The Book of Alternative Photographic Processes*
 - Community knowledge from r/analog, r/Darkroom, and photography forums
+
+## See Also
+
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Black White Presets](../../docs/black-white.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

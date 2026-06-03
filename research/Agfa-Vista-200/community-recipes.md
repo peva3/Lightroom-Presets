@@ -5,7 +5,7 @@
 ## Core Film Behaviors (→ Lightroom Recipe Logic)
 
 ### 1. Red Channel — Deep, Vibrant, "Poppy"
-*Community consensus:* Agfa Vista 200 is legendary for its red rendition. Reds are described as deep, vibrant, and "poppy" — perhaps the defining characteristic of the stock.
+The Agfa Vista 200 Lightroom preset community recipes compile settings from photographers worldwide. *Community consensus:* Agfa Vista 200 is legendary for its red rendition. Reds are described as deep, vibrant, and "poppy" — perhaps the defining characteristic of the stock.
 - **LR translation:** Boost red saturation (+15 to +25). Use HSL panel to shift red hue slightly toward deep crimson (maybe -5 to -10 on red hue). Increase red luminance moderately to create that punchy pop.
 
 ### 2. Primary Color Over-Saturation
@@ -297,3 +297,13 @@ All values align with Agfa Vista 200's known characteristics:
 
 ### Documentation Fix (2026-06-01)
 - Fixed false claim: STYLEGUIDE section said "23→11 meaningful attributes after cleanup" but XMP has 29. The "Default-value attributes removed" list was aspirational — those defaults were never actually stripped from the XMP. Documentation corrected to reflect actual XMP state.
+
+---
+
+## See Also
+
+- [Agfa Vista 200 — Film Characteristics](../Agfa-Vista-200/characteristics.md)
+- [Agfa Vista 100 Lightroom Preset](../Agfa-Vista-100/community-recipes.md)
+- [Agfa Vista 400 Lightroom Preset](../Agfa-Vista-400/community-recipes.md)
+- [Kodak Gold 200 Lightroom Preset](../Kodak-Gold-200/community-recipes.md)
+- [XMP Preset: Agfa Vista 200](../../Presets/Color-Negative/Agfa Vista 200.xmp)

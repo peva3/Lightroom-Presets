@@ -1,4 +1,4 @@
-# Fuji Velvia 50 — Full Aesthetic Breakdown
+# Fuji Velvia 50 — Full Aesthetic Breakdown for Lightroom Presets
 
 > The landscape photographer's holy grail. Extreme saturation, deep greens, punchy blues, crushed contrast, grain-free slide film perfection.
 
@@ -6,7 +6,7 @@
 
 ## Why Velvia 50 Is Legendary
 
-Velvia 50 (RVP50) is *the* iconic landscape slide film, introduced as "Velvia" in 1990. It replaced Kodachrome 25 as the world standard for nature photography. The 2007 reformulation (RVP50) preserved the look using a modern film base with identical color characteristics.
+Velvia 50 (RVP50) is *the* iconic landscape slide film, introduced as "Velvia" in 1990. It replaced Kodachrome 25 as the world standard for nature photography. The 2007 reformulation (RVP50) preserved the look using a modern film base with identical color characteristics. This document serves as a reference for creating a Lightroom preset that emulates Velvia 50.
 
 ### Core Aesthetic Identity
 
@@ -228,3 +228,18 @@ Best approximations use custom camera profiles (DCP) or LUTs derived from spectr
 - Galen Rowell, "Galen Rowell's Vision: The Art of Adventure Photography" (1993) — field techniques for Velvia
 - Fujifilm Technical Data Sheets — spectral sensitivity and characteristic curves
 - r/analog community — thousands of Velvia 50 images and discussions
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fuji Velvia 100](../Fuji-Velvia-100/characteristics.md)
+- [Fuji Astia 100F](../Fuji-Astia-100F/characteristics.md)
+- [Fuji Provia 100F](../Fuji-Provia-100F/characteristics.md)
+- [Fuji Provia 400F](../Fuji-Provia-400F/characteristics.md)
+- [Fuji Provia 400X](../Fuji-Provia-400X/characteristics.md)
+- [Fuji Sensia 100](../Fuji-Sensia-100/characteristics.md)
+- [Fuji Fortia SP 50](../Fuji-Fortia-SP-50/characteristics.md)
+- [Kodak Ektachrome E100](../Kodak-Ektachrome-E100/characteristics.md)

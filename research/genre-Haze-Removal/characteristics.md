@@ -1,7 +1,7 @@
-# Haze Removal — Characteristics
+# Haze Removal Lightroom Preset — Characteristics
 
 ## Use Case
-Drone and aerial photography in hazy conditions. Distance shots, urban skylines, horizon landscapes. Atmospheric haze removal.
+The Haze Removal Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Drone and aerial photography in hazy conditions. Distance shots, urban skylines, horizon landscapes. Atmospheric haze removal.
 
 ## Key Techniques
 Dehaze +25 is the defining slider — maximum safe value for haze removal. Clarity +20 + Contrast +30 support long-distance detail recovery. Blue Sat +10 restores sky color lost in haze. Green Sat -15 calms vegetation that Dehaze over-saturates as a side effect. |Vibrance−Saturation|=0. 17 attributes — clean and surgical.
@@ -18,3 +18,11 @@ Dehaze +25 is the defining slider — maximum safe value for haze removal. Clari
 - HSL Sat max: Within ±60
 - Blacks floor: ≥ -30
 - Grain protection: N/A (no grain)
+
+## See Also
+
+- [Genre Presets](../../docs/genre.md)
+- [Mobile Presets](../../docs/mobile.md)
+- [Seasonal Presets](../../docs/seasonal.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

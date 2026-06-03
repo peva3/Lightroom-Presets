@@ -85,3 +85,13 @@ Note: The 9100K WB is extremely warm — this is the "Kodak warmth" dialed to ma
 ---
 
 *Last updated: June 2026*
+
+---
+
+## See Also
+
+- [Kodak Pro Image 100 — Film Characteristics](../Kodak-Pro-Image-100/characteristics.md)
+- [Kodak Gold 200 Lightroom Preset](../Kodak-Gold-200/community-recipes.md)
+- [Kodak ColorPlus 200 Lightroom Preset](../Kodak-ColorPlus-200/community-recipes.md)
+- [Kodak Ultramax 400 Lightroom Preset](../Kodak-Ultramax-400/community-recipes.md)
+- [XMP Preset: Kodak Pro Image 100](../../Presets/Color-Negative/Kodak Pro Image 100.xmp)

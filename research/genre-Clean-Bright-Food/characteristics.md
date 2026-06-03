@@ -1,7 +1,7 @@
-# Clean Bright Food — Characteristics
+# Clean Bright Food Lightroom Preset — Characteristics
 
 ## Use Case
-Clean white-background food photography. Overhead flat lays, bright salads, beverages, desserts. Fresh, clean, editorial.
+The Clean Bright Food Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Clean white-background food photography. Overhead flat lays, bright salads, beverages, desserts. Fresh, clean, editorial.
 
 ## Key Techniques
 High Exposure (+0.40) + Whites (+15) for clean white backgrounds. Low Contrast (+5) preserves subtle food detail. Clarity +5 for gentle edge definition on food surfaces. Orange Lum +10 brightens. Red Sat -5 calms overly red food. Minimal Color Grading — barely perceptible warmth. |Vibrance−Saturation|=3. 16 attributes.
@@ -18,3 +18,11 @@ High Exposure (+0.40) + Whites (+15) for clean white backgrounds. Low Contrast (
 - HSL Sat max: Within ±60
 - Blacks floor: ≥ -30
 - Grain protection: N/A (no grain)
+
+## See Also
+
+- [Genre Presets](../../docs/genre.md)
+- [Mobile Presets](../../docs/mobile.md)
+- [Seasonal Presets](../../docs/seasonal.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

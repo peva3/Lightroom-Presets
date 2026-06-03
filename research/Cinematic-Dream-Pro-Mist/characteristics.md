@@ -1,8 +1,8 @@
-# Aesthetic Characteristics — The Cinematic Dream / Pro-Mist Look
+# Aesthetic Characteristics Lightroom Preset — The Cinematic Dream / Pro-Mist Look
 
 ## Full Aesthetic Breakdown
 
-The "Cinematic Dream" or "Pro-Mist Look" is not a single slider — it's a constellation of
+The Cinematic Dream Pro Mist Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The "Cinematic Dream" or "Pro-Mist Look" is not a single slider — it's a constellation of
 interlocking visual properties that together produce the signature diffuse, filmic atmosphere.
 Understanding how they interact is essential for both shooting with the filter and simulating
 it in post.
@@ -202,3 +202,11 @@ restraint (1/8 or 1/4 strength), it remains a widely respected tool.
 - Reddit r/cinematography: "Why do so many DPs use Pro-Mist?" (2020–2024 discussions)
 - YouTube: "The Pro-Mist Look: Why Everyone Uses It" — video essay analysis
 - Various DP interviews (Roger Deakins, Bradford Young, Janusz Kamiński) on diffusion philosophy
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

@@ -1,8 +1,8 @@
-# Wet Plate Ambrotype — Complete Aesthetic Breakdown
+# Wet Plate Ambrotype Lightroom Preset — Complete Aesthetic Breakdown
 
 ## Core Aesthetic Signature
 
-The ambrotype, patented by James Ambrose Cutting in 1854, is a collodion negative on glass backed with black velvet, varnish, or paint. Like the tintype, it reads as a positive against the dark backing. Ambrotypes were more delicate and expensive than tintypes but produced richer tonal range and were considered superior for portraits.
+The wet plate ambrotype Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The ambrotype, patented by James Ambrose Cutting in 1854, is a collodion negative on glass backed with black velvet, varnish, or paint. Like the tintype, it reads as a positive against the dark backing. Ambrotypes were more delicate and expensive than tintypes but produced richer tonal range and were considered superior for portraits.
 
 ## Historical Context
 
@@ -35,3 +35,11 @@ This preset is designed to capture the essential visual character of the wet pla
 - Alternative Photography (alternativephotography.com)
 - Christopher James: *The Book of Alternative Photographic Processes*
 - Community knowledge from r/analog, r/Darkroom, and photography forums
+
+## See Also
+
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Black White Presets](../../docs/black-white.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

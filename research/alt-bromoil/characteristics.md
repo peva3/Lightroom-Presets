@@ -1,8 +1,8 @@
-# Bromoil — Complete Aesthetic Breakdown
+# Bromoil Lightroom Preset — Complete Aesthetic Breakdown
 
 ## Core Aesthetic Signature
 
-The bromoil process, introduced by E.J. Wall in 1907 and refined by C. Welborne Piper, was the dominant pictorialist printing process of the 1910s–1930s. A conventional silver gelatin print is bleached to remove the silver image while hardening the gelatin in proportion to the original density. The print is then inked with a brush using lithographic ink, which adheres only to the hardened (originally dark) areas. The result is a print that looks like an etching, lithograph, or ink drawing.
+The bromoil Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The bromoil process, introduced by E.J. Wall in 1907 and refined by C. Welborne Piper, was the dominant pictorialist printing process of the 1910s–1930s. A conventional silver gelatin print is bleached to remove the silver image while hardening the gelatin in proportion to the original density. The print is then inked with a brush using lithographic ink, which adheres only to the hardened (originally dark) areas. The result is a print that looks like an etching, lithograph, or ink drawing.
 
 ## Historical Context
 
@@ -35,3 +35,11 @@ This preset is designed to capture the essential visual character of the bromoil
 - Alternative Photography (alternativephotography.com)
 - Christopher James: *The Book of Alternative Photographic Processes*
 - Community knowledge from r/analog, r/Darkroom, and photography forums
+
+## See Also
+
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Black White Presets](../../docs/black-white.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

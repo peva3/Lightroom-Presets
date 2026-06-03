@@ -1,8 +1,8 @@
-# Characteristics — Full Aesthetic Breakdown of the "Faded Summer / Expired Film" Look
+# Characteristics Lightroom Preset — Full Aesthetic Breakdown of the "Faded Summer / Expired Film" Look
 
 ## Overview
 
-The "Faded Summer / Expired Film" aesthetic is a creative look inspired by cheap consumer color negative film that has been improperly stored—specifically, film that has sat in a hot attic, garage, or glovebox for 10–15 years—then deliberately overexposed by approximately +2 stops when shot.
+The Faded Summer Expired Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The "Faded Summer / Expired Film" aesthetic is a creative look inspired by cheap consumer color negative film that has been improperly stored—specifically, film that has sat in a hot attic, garage, or glovebox for 10–15 years—then deliberately overexposed by approximately +2 stops when shot.
 
 It is **not** a specific film stock. It is a degradation pattern. Understanding the chemistry of what actually happens to heat-damaged film is essential for replicating the look digitally.
 
@@ -346,3 +346,11 @@ Lightroom's default grain (Size 25, Roughness 50, Amount 25) looks like digital 
 3. **Global warmth + selective desaturation** — temperature and color exhaustion
 4. **Reduced contrast with bloom** — overexposure over degraded medium
 5. **Coarse irregular grain** — the texture of time
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

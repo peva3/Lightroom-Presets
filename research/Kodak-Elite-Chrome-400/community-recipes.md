@@ -49,3 +49,12 @@ The t3mujinpack treats Elite Chrome 400 as a warm, moderate-contrast, consumer-g
 - Kodak Elite Chrome 400 datasheet
 - Sensia 100 recipe (consumer slide baseline)
 - Provia 400X recipe (400-speed slide baseline)
+
+---
+
+## See Also
+
+- [Kodak Elite Chrome 400 — Film Characteristics](../Kodak-Elite-Chrome-400/characteristics.md)
+- [Kodak Ektachrome 400X Lightroom Preset](../Kodak-Ektachrome-400X/community-recipes.md)
+- [Kodak Ektachrome E100 Lightroom Preset](../Kodak-Ektachrome-E100/community-recipes.md)
+- [XMP Preset: Kodak Elite Chrome 400](../../Presets/Slide/Kodak Elite Chrome 400.xmp)

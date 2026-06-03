@@ -1,8 +1,8 @@
-# Cyanotype Tea-Toned — Complete Aesthetic Breakdown
+# Cyanotype Tea-Toned Lightroom Preset — Complete Aesthetic Breakdown
 
 ## Core Aesthetic Signature
 
-Tea-toned cyanotypes are classic cyanotypes that have been bleached and re-toned in tannic acid (tea). The process converts Prussian blue to a warm brown-black iron-tannate complex while retaining the characteristic cyanotype tonal scale. This was discovered in the 1840s and became popular among pictorialist photographers seeking warmer alternatives to the stark blue original.
+The cyanotype tea toned Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Tea-toned cyanotypes are classic cyanotypes that have been bleached and re-toned in tannic acid (tea). The process converts Prussian blue to a warm brown-black iron-tannate complex while retaining the characteristic cyanotype tonal scale. This was discovered in the 1840s and became popular among pictorialist photographers seeking warmer alternatives to the stark blue original.
 
 ## Historical Context
 
@@ -35,3 +35,11 @@ This preset is designed to capture the essential visual character of the cyanoty
 - Alternative Photography (alternativephotography.com)
 - Christopher James: *The Book of Alternative Photographic Processes*
 - Community knowledge from r/analog, r/Darkroom, and photography forums
+
+## See Also
+
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Black White Presets](../../docs/black-white.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

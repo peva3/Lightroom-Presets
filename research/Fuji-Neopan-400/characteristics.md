@@ -1,7 +1,7 @@
-# Fuji Neopan 400 — Film Characteristics
+# Fuji Neopan 400 — Film Characteristics for Lightroom Presets
 
 ## Overview
-Fuji Neopan 400 was a traditional-cubic-grain black-and-white negative film from Fujifilm. It was part of Fuji's Neopan B&W line alongside Neopan 100 Acros and Neopan 1600. Unlike Acros (which used Fuji's Super Fine-Σ grain technology), Neopan 400 used conventional grain structure for a more classic B&W look.
+Fuji Neopan 400 was a traditional-cubic-grain black-and-white negative film from Fujifilm. It was part of Fuji's Neopan B&W line alongside Neopan 100 Acros and Neopan 1600. Unlike Acros (which used Fuji's Super Fine-Σ grain technology), Neopan 400 used conventional grain structure for a more classic B&W look. This document serves as a reference for creating a Lightroom preset that emulates Neopan 400.
 
 ## Key Characteristics
 - **ISO**: 400 (nominal)
@@ -30,3 +30,12 @@ Fuji Neopan 400 was a traditional-cubic-grain black-and-white negative film from
 - Fujifilm Professional Data Guide (archived)
 - t3mujinpack dtstyle data (Neopan/Acros family reference)
 - Community forum discussions (Photrio, rangefinderforum.com)
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fuji Neopan 1600](../Fuji-Neopan-1600/characteristics.md)
+- [Kodak Tri X 400](../Kodak-Tri-X-400/characteristics.md)

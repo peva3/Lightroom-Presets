@@ -1,4 +1,4 @@
-# Kodak T-Max 100 — Community Recipes
+# Kodak T-Max 100 — Lightroom Preset Settings & Recipes
 
 ## Primary Source: Fuji X Weekly (Dan Allen, October 2024)
 
@@ -49,3 +49,12 @@ Split the difference for cameras without half-steps: Highlight 0, Shadow +2.
 - Sharpness reduced to -1 in Fuji recipe to avoid digital edge enhancement on grain
 - Our XMP uses Sharpness=10 per STYLEGUIDE grain+sharpening rule
 - Our XMP zeros Clarity/Texture/Dehaze and caps grain gently for the 100-speed character
+
+---
+
+## See Also
+
+- [Kodak T Max 100 — Film Characteristics](../Kodak-T-Max-100/characteristics.md)
+- [Kodak T Max 400 Lightroom Preset](../Kodak-T-Max-400/community-recipes.md)
+- [Kodak T Max 3200 Lightroom Preset](../Kodak-T-Max-3200/community-recipes.md)
+- [Kodak Tri X 400 Lightroom Preset](../Kodak-Tri-X-400/community-recipes.md)

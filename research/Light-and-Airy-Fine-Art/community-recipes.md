@@ -1,4 +1,4 @@
-# Light and Airy Fine Art — Community Recipes & Settings
+# Light and Airy Fine Art Lightroom Preset — Community Recipes & Settings
 
 Settings gathered from Reddit (r/WeddingPhotography, r/Lightroom, r/postprocessing, r/photography), YouTube tutorials, photography blogs, and educator content.
 
@@ -420,3 +420,11 @@ No value changes — all community attributes already matched.
 - **Vibrance**: Removed per STYLEGUIDE rule #5 (|Vibrance - Saturation| = 15 > 5 with Saturation -5). Community wants +10 but removal avoids the selective-color bug.
 - **Green Sat -30 vs Denny's -50**: Intentional moderation — Katelyn James philosophy keeps greens more natural; 20pt lighter touch.
 - **Grain removed**: Correct for light and airy aesthetic (clean, smooth rendering).
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

@@ -1,8 +1,8 @@
-# Kodak ColorPlus 200 — Aesthetic Characteristics
+# Kodak ColorPlus 200 — Aesthetic Characteristics for Lightroom Presets
 
 ## Overview
 
-Kodak ColorPlus 200 is Kodak's **entry-level consumer color negative film** — a budget-oriented ISO 200 stock that delivers warm, golden-toned images with moderate contrast and visible grain. Often compared to Gold 200 (its premium consumer sibling), ColorPlus is the more affordable option with slightly muddier shadows, warmer overall tone, and a nostalgic 1990s drugstore aesthetic. It remains in production today as Kodak's cheapest color film.
+Kodak ColorPlus 200 is Kodak's **entry-level consumer color negative film** — a budget-oriented ISO 200 stock that delivers warm, golden-toned images with moderate contrast and visible grain. Often compared to Gold 200 (its premium consumer sibling), ColorPlus is the more affordable option with slightly muddier shadows, warmer overall tone, and a nostalgic 1990s drugstore aesthetic. It remains in production today as Kodak's cheapest color film. This document serves as a reference for creating a Lightroom preset that emulates ColorPlus 200.
 
 ## Core Aesthetic Signature
 
@@ -122,3 +122,16 @@ Its consumer DNA means it has built-in "pop" for straight-from-lab prints, but l
 - Fuji X Weekly: Kodak Emulsion recipe (Classic Chrome base)
 - Emulsive.org: ColorPlus 200 review
 - 35mmc.com: Budget film roundups
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Gold 200](../Kodak-Gold-200/characteristics.md)
+- [Kodak Ultramax 400](../Kodak-Ultramax-400/characteristics.md)
+- [Kodak Pro Image 100](../Kodak-Pro-Image-100/characteristics.md)
+- [Kodak Royal Gold 400](../Kodak-Royal-Gold-400/characteristics.md)
+- [Kodak Max 800](../Kodak-Max-800/characteristics.md)
+- [Kodak High Definition Plus 200](../Kodak-High-Definition-Plus-200/characteristics.md)

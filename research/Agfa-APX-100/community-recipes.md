@@ -1,4 +1,4 @@
-# Agfa APX 100 — Community Recipes
+# Agfa APX 100 — Lightroom Preset Settings & Recipes
 
 ## Primary Source: t3mujinpack (Darktable Styles)
 
@@ -24,3 +24,13 @@ Source: https://github.com/t3mujinpack/t3mujinpack
 - GrayMixer favors slightly brighter oranges (skin tones) and neutral-cool background separation
 - All STYLEGUIDE rules: Sharpness=10 with grain, Clarity/Texture/Dehaze=0, no Calibration, no WB
 - Channels represent Agfa's ortho-panchromatic sensitivity — slightly reduced red response
+
+---
+
+## See Also
+
+- [Agfa APX 100 — Film Characteristics](../Agfa-APX-100/characteristics.md)
+- [Agfa APX 25 Lightroom Preset](../Agfa-APX-25/community-recipes.md)
+- [Agfa APX 400 Lightroom Preset](../Agfa-APX-400/community-recipes.md)
+- [Kodak Tri X 400 Lightroom Preset](../Kodak-Tri-X-400/community-recipes.md)
+- [XMP Preset: Agfa APX 100](../../Presets/Black-White/Agfa APX 100.xmp)

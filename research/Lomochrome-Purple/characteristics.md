@@ -1,8 +1,8 @@
-# Lomochrome Purple — Full Aesthetic Characteristics
+# Lomochrome Purple Lightroom Preset — Full Aesthetic Characteristics
 
 ## The Core Look
 
-Lomochrome Purple is Lomography's accessible answer to Kodak Aerochrome — an "Aerochrome-lite" that swaps natural colors for a surreal, psychedelic palette. It renders the familiar world as alien: green foliage becomes purple/magenta forests, blue skies become teal-green seas above, warm tones shift pink, and only reds hold their ground.
+The Lomochrome Purple Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Lomochrome Purple is Lomography's accessible answer to Kodak Aerochrome — an "Aerochrome-lite" that swaps natural colors for a surreal, psychedelic palette. It renders the familiar world as alien: green foliage becomes purple/magenta forests, blue skies become teal-green seas above, warm tones shift pink, and only reds hold their ground.
 
 ### The Classic Transformation Palette
 
@@ -153,3 +153,11 @@ What makes Lomochrome Purple resonate:
 - Reddit r/postprocessing: "A little rant about color spaces" — G/B channel swap analysis (June 2025)
 - Shoot It With Film: Ashley Vaughn review (February 2018)
 - Reddit r/analog, r/AnalogCommunity, r/lomography community discussions
+
+## See Also
+
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Slide Presets](../../docs/slide.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

@@ -1,4 +1,4 @@
-# Agfa APX 400 — Community Recipes
+# Agfa APX 400 — Lightroom Preset Settings & Recipes
 
 ## Primary Source: Fuji X Weekly (Ritchie Roesch, April 2019)
 Ritchie Roesch created a Fujifilm Acros-based recipe that approximates the Agfa APX 400 look. Not a direct emulation, but inspired by the film's character.
@@ -34,3 +34,13 @@ Source: https://fujixweekly.com/2019/04/18/
 - Deeper blacks than APX 100 (-25 vs -20) — the faster Agfa had richer blacks
 - All STYLEGUIDE rules: Sharpness=10 with grain, Clarity/Texture/Dehaze=0, no Calibration, no WB
 - The film family consistency with APX 25/100 is important — same panchromatic GrayMixer ratios
+
+---
+
+## See Also
+
+- [Agfa APX 400 — Film Characteristics](../Agfa-APX-400/characteristics.md)
+- [Agfa APX 25 Lightroom Preset](../Agfa-APX-25/community-recipes.md)
+- [Agfa APX 100 Lightroom Preset](../Agfa-APX-100/community-recipes.md)
+- [Kodak Tri X 400 Lightroom Preset](../Kodak-Tri-X-400/community-recipes.md)
+- [XMP Preset: Agfa APX 400](../../Presets/Black-White/Agfa APX 400.xmp)

@@ -1,8 +1,8 @@
-# Kodak Royal Gold 400 — Aesthetic Characteristics
+# Kodak Royal Gold 400 — Aesthetic Characteristics for Lightroom Presets
 
 ## Overview
 
-Kodak Royal Gold 400 was Kodak's premium consumer ISO 400 color negative film of the 1990s, positioned above the standard Gold 400. Part of the "Royal" line (alongside Royal Gold 100 and 200), it featured Kodak's T-Grain emulsion technology for finer grain at high speed. Discontinued in the early 2000s, it has attained cult status among film photographers seeking the "premium 90s" look.
+Kodak Royal Gold 400 was Kodak's premium consumer ISO 400 color negative film of the 1990s, positioned above the standard Gold 400. Part of the "Royal" line (alongside Royal Gold 100 and 200), it featured Kodak's T-Grain emulsion technology for finer grain at high speed. Discontinued in the early 2000s, it has attained cult status among film photographers seeking the "premium 90s" look. This document serves as a reference for creating a Lightroom preset that emulates Royal Gold 400.
 
 ## Core Aesthetic Signature
 
@@ -49,3 +49,16 @@ Premium midtone separation — the "Royal" difference
 - Fuji X Weekly community recipes
 - Kodak Royal Gold technical documentation (archived)
 - Film photography forums and Flickr groups
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Gold 200](../Kodak-Gold-200/characteristics.md)
+- [Kodak ColorPlus 200](../Kodak-ColorPlus-200/characteristics.md)
+- [Kodak Ultramax 400](../Kodak-Ultramax-400/characteristics.md)
+- [Kodak Pro Image 100](../Kodak-Pro-Image-100/characteristics.md)
+- [Kodak Max 800](../Kodak-Max-800/characteristics.md)
+- [Kodak High Definition Plus 200](../Kodak-High-Definition-Plus-200/characteristics.md)

@@ -403,3 +403,13 @@ Current XMP values (Contrast +22, Highlights -50, Shadows -22, Saturation -7.5, 
 **Flagged for correction**: Calibration (removed per Commandment #3), WB (removed per Commandment #4), Clarity/Texture/Dehaze→0 (Commandment #7), Vibrance constrained to -2.5 (Commandment #5 — gap reduced from 21.5 to 5). All corrections already applied in current XMP. **Classic Chrome had the worst Vibrance-Saturation gap (21.5) and the most severe triple-boost (Clarity+Texture+Dehaze) in this validation batch. The community recipe is real but would produce catastrophically broken results if applied directly.**
 
 **Batch 1 Review (June 2026):** Confirmed. XMP verified: no Calibration, no WB, Sharpness=10, Clarity=0, Texture=0, Dehaze=0, GrainAmount=22.5 with full grain protection, Vibrance=−2.5, Saturation=−7.5, |Vibrance−Saturation|=5 (at boundary, down from community 21.5 — worst gap in batch). Triple-boost (Clarity+Texture+Dehaze) eliminated per §V+§VII. All STYLEGUIDE rules pass. Status: RESOLVED.
+
+---
+
+## See Also
+
+- [Fujifilm Classic Chrome — Film Characteristics](../Fujifilm-Classic-Chrome/characteristics.md)
+- [Fujifilm Classic Negative Lightroom Preset](../Fujifilm-Classic-Negative/community-recipes.md)
+- [Fujifilm Pro 400H Lightroom Preset](../Fujifilm-Pro-400H/community-recipes.md)
+- [Kodak Ektar 100 Lightroom Preset](../Kodak-Ektar-100/community-recipes.md)
+- [XMP Preset: Fujifilm Classic Chrome](../../Presets/Color-Negative/Fujifilm Classic Chrome.xmp)

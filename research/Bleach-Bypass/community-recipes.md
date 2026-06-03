@@ -1,8 +1,8 @@
-# Bleach Bypass — Community Recipes & Digital Emulation
+# Bleach Bypass Lightroom Preset — Community Recipes & Digital Emulation
 
 ## How to Digitally Simulate Bleach Bypass
 
-The core principle: **overlay a luminance-derived contrast boost while pulling saturation.** The silver retention of real bleach bypass acts as a neutral-density overlay proportional to exposure — darker in highlights, adding density everywhere, and "graying out" color information.
+The Bleach Bypass Lightroom preset community recipes compile settings from photographers worldwide. The core principle: **overlay a luminance-derived contrast boost while pulling saturation.** The silver retention of real bleach bypass acts as a neutral-density overlay proportional to exposure — darker in highlights, adding density everywhere, and "graying out" color information.
 
 In digital tools, this translates to:
 1. Crush blacks
@@ -484,3 +484,11 @@ No value changes — all attributes already matched community consensus midpoint
 5. **🟢 Calibration values from Recipes 2-4 correctly removed.** Recipe 2 "Seven" and Recipe 3 "Minority Report" contain calibration panel values; Recipe 4 "Fight Club" does too. The XMP correctly excludes these per STYLEGUIDE rule #3.
 
 **Validation Status:** ✅ **VALID** — All basic panel, HSL, split-tone, and grain values match Recipe 1 "Saving Private Ryan" midpoints. Sharpness conflict is a known tradeoff (STYLEGUIDE grain rule vs community sharpening requirement). Tone curve style is a minor mismatch. No XMP changes needed.
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

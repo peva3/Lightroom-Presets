@@ -1,8 +1,8 @@
-# Light and Airy Fine Art — Aesthetic Characteristics
+# Light and Airy Fine Art Lightroom Preset — Aesthetic Characteristics
 
 ## Overview
 
-**"Light and Airy Fine Art"** is a dominant editing aesthetic in wedding, portrait, newborn, and lifestyle photography. It aims to produce bright, ethereal, high-key images with a romantic, dreamlike quality — as if shot on film in perfect natural light. The look is heavily associated with fine-art film stocks (Fuji 400H, Portra 400) and Instagram-famous fine-art photographers.
+The Light and Airy Fine Art Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. **"Light and Airy Fine Art"** is a dominant editing aesthetic in wedding, portrait, newborn, and lifestyle photography. It aims to produce bright, ethereal, high-key images with a romantic, dreamlike quality — as if shot on film in perfect natural light. The look is heavily associated with fine-art film stocks (Fuji 400H, Portra 400) and Instagram-famous fine-art photographers.
 
 > "Light and airy photos are bright, but not overexposed. They often feature pastels and light-colored clothing, and if you look at the histogram, much of the information in the scene will be toward the right side." — Mastin Labs
 
@@ -152,3 +152,11 @@ The edit starts in-camera. The look requires:
 - **Porcelain Skin** — bright, smooth, luminous skin without being washed out
 
 *Compiled from Mastin Labs, Preset Curator, Jordan Brittley, Denny's Tips, Lou & Marks, Tailwind, Visual Flow, REFINED Co, KT Merry Education, and community forums.*
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

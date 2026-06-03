@@ -1,8 +1,8 @@
-# Lith Print — Complete Aesthetic Breakdown
+# Lith Print Lightroom Preset — Complete Aesthetic Breakdown
 
 ## Core Aesthetic Signature
 
-Lith printing is a specialized darkroom technique using conventional black-and-white photographic paper developed in highly dilute lithographic film developer (usually Kodak Lith A+B or Moersch EasyLith). The dilute developer creates 'infectious development' — once a silver grain starts developing, it catalyzes development of adjacent grains at an accelerated rate. This produces uniquely gritty shadow texture, warm highlight tones, and color shifts in the print depending on paper type, developer dilution, and development time.
+The lith print Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Lith printing is a specialized darkroom technique using conventional black-and-white photographic paper developed in highly dilute lithographic film developer (usually Kodak Lith A+B or Moersch EasyLith). The dilute developer creates 'infectious development' — once a silver grain starts developing, it catalyzes development of adjacent grains at an accelerated rate. This produces uniquely gritty shadow texture, warm highlight tones, and color shifts in the print depending on paper type, developer dilution, and development time.
 
 ## Historical Context
 
@@ -35,3 +35,11 @@ This preset is designed to capture the essential visual character of the lith pr
 - Alternative Photography (alternativephotography.com)
 - Christopher James: *The Book of Alternative Photographic Processes*
 - Community knowledge from r/analog, r/Darkroom, and photography forums
+
+## See Also
+
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Black White Presets](../../docs/black-white.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

@@ -1,4 +1,4 @@
-# Kodak High Definition Plus 200 — Community Recipes
+# Kodak High Definition Plus 200 — Lightroom Preset Settings & Recipes
 
 ## Source: Fuji X Weekly (FxW)
 
@@ -62,3 +62,13 @@ HD 200 is noted by expired film shooters and nostalgia photographers for:
 - Fuji X Weekly: "Kodak High Definition Plus 200" recipe
 - Kodak HD 200 technical documentation (archived)
 - Expired film community and Flickr groups
+
+---
+
+## See Also
+
+- [Kodak High Definition Plus 200 — Film Characteristics](../Kodak-High-Definition-Plus-200/characteristics.md)
+- [Kodak Gold 200 Lightroom Preset](../Kodak-Gold-200/community-recipes.md)
+- [Kodak ColorPlus 200 Lightroom Preset](../Kodak-ColorPlus-200/community-recipes.md)
+- [Kodak Ultramax 400 Lightroom Preset](../Kodak-Ultramax-400/community-recipes.md)
+- [XMP Preset: Kodak High Definition Plus 200](../../Presets/Color-Negative/Kodak High Definition Plus 200.xmp)

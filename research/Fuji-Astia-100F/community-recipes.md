@@ -1,4 +1,4 @@
-# Community Recipes — Lightroom Settings for Fuji Astia 100F Emulation
+# Fuji Astia 100F — Lightroom Preset Settings & Recipes
 
 ## Overview
 Direct Lightroom recipes for Astia 100F are scarce on Reddit and forums. The film was discontinued around 2011–2012, before the peak of the "film emulation preset" trend. Most community discussion centers on:
@@ -242,3 +242,13 @@ This is the **best-documented preset in this batch** despite having the sparsest
 **Documentation fix (2026-06-01):** Added note to Community Validated Values table clarifying values reflect pre-STYLEGUIDE consensus, not final XMP state. Actual XMP: Clarity=0, Texture=0, Saturation=-5, no Vibrance, no calibration.
 
 **Note**: The contrast with the Kodachrome and Velvia research documents is instructive. Those presets have extensive community recipe data but much of it promotes broken slider combinations (calibration, Vibrance-Saturation gaps). Astia's documentation, despite fewer data points, is higher quality because it relies on a manufacturer reference rather than unaudited forum aggregation.
+
+---
+
+## See Also
+
+- [Fuji Astia 100F — Film Characteristics](../Fuji-Astia-100F/characteristics.md)
+- [Fuji Velvia 50 Lightroom Preset](../Fuji-Velvia-50/community-recipes.md)
+- [Fuji Velvia 100 Lightroom Preset](../Fuji-Velvia-100/community-recipes.md)
+- [Fuji Provia 100F Lightroom Preset](../Fuji-Provia-100F/community-recipes.md)
+- [XMP Preset: Fuji Astia 100F](../../Presets/Slide/Fuji Astia 100F.xmp)

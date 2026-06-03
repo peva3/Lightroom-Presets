@@ -1,7 +1,7 @@
-# Bright & Airy Wedding — Characteristics
+# Bright & Airy Wedding Lightroom Preset — Characteristics
 
 ## Use Case
-High-key wedding photography — getting-ready, ceremony, detail shots. Designed for soft natural light and white-dominant scenes.
+The Bright & Airy Wedding Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. High-key wedding photography — getting-ready, ceremony, detail shots. Designed for soft natural light and white-dominant scenes.
 
 ## Key Techniques
 Lifted blacks (+15) + negative Contrast (-15) compress tonal range for pastel airiness. Negative Clarity (-10) and Texture (-5) create soft bloom. Green hue shift (+20) pushes foliage toward mint; blue desaturation (-20) softens sky. Aqua luminance boost (+35) adds ethereal glow. Minimal Color Grading for subtle warmth in highlights, cool in shadows (blending 75 for clean separation).
@@ -18,3 +18,11 @@ Lifted blacks (+15) + negative Contrast (-15) compress tonal range for pastel ai
 - HSL Sat max: Within ±60
 - Blacks floor: ≥ -30
 - Grain protection: N/A (no grain)
+
+## See Also
+
+- [Genre Presets](../../docs/genre.md)
+- [Mobile Presets](../../docs/mobile.md)
+- [Seasonal Presets](../../docs/seasonal.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

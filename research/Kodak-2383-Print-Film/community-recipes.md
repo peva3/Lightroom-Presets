@@ -1,4 +1,4 @@
-# Kodak 2383 Print Film — Community Recipes
+# Kodak 2383 Print Film — Lightroom Preset Settings & Recipes
 
 ## Source
 ACES 2383 PFE Reference Data: https://github.com/ampas/aces-dev
@@ -27,3 +27,12 @@ The ACES 2383 look is translated to LR sliders:
 4. Warm highlight Color Grading (H42/S12)
 5. Subtractive saturation (Saturation -5, selective HSL)
 6. Dense blacks with smooth toe
+
+---
+
+## See Also
+
+- [Kodak 2383 Print Film — Film Characteristics](../Kodak-2383-Print-Film/characteristics.md)
+- [Kodak Vision3 250D Lightroom Preset](../Kodak-Vision3-250D/community-recipes.md)
+- [Kodak Vision3 500T Lightroom Preset](../Kodak-Vision3-500T/community-recipes.md)
+- [CineStill 400D Lightroom Preset](../CineStill-400D/community-recipes.md)

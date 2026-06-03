@@ -1,7 +1,7 @@
-# Agfa Scala 200 — Film Characteristics
+# Agfa Scala 200 — Film Characteristics for Lightroom Presets
 
 ## Overview
-Agfa Scala 200 was a unique black-and-white reversal (slide) film produced by Agfa-Gevaert. Unlike most B&W films (which are negatives), Scala produced positive transparencies directly, similar to color slide film. It required a specialized reversal development process that was offered by a limited number of labs.
+Agfa Scala 200 was a unique black-and-white reversal (slide) film produced by Agfa-Gevaert. Unlike most B&W films (which are negatives), Scala produced positive transparencies directly, similar to color slide film. It required a specialized reversal development process that was offered by a limited number of labs. This document serves as a reference for creating a Lightroom preset that emulates Scala 200.
 
 ## Key Characteristics
 - **ISO**: 200 (nominal)
@@ -31,3 +31,11 @@ Agfa Scala 200 was a unique black-and-white reversal (slide) film produced by Ag
 - Agfa-Gevaert Scala Technical Data (archived)
 - Fuji X Weekly (Ritchie Roesch recipe, August 2018)
 - Photrio/APUG community archives on Scala processing
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Agfa APX 100](../Agfa-APX-100/characteristics.md)

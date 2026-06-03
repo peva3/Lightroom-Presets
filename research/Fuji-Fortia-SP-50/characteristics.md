@@ -1,8 +1,8 @@
-# Fuji Fortia SP 50 — Aesthetic Characteristics
+# Fuji Fortia SP 50 — Aesthetic Characteristics for Lightroom Presets
 
 ## Overview
 
-Fuji Fortia SP 50 was a limited-edition, ultra-high-saturation color slide film released in very small quantities. It represented the absolute maximum saturation Fujifilm could engineer into a transparency film. If Velvia 50 is "vivid," Fortia SP is "unrestrained." Produced in extremely limited runs, it developed a cult following among landscape photographers seeking the most intense color rendering possible.
+Fuji Fortia SP 50 was a limited-edition, ultra-high-saturation color slide film released in very small quantities. It represented the absolute maximum saturation Fujifilm could engineer into a transparency film. If Velvia 50 is "vivid," Fortia SP is "unrestrained." Produced in extremely limited runs, it developed a cult following among landscape photographers seeking the most intense color rendering possible. This document serves as a reference for creating a Lightroom preset that emulates Fortia SP 50.
 
 ## Core Aesthetic Traits
 
@@ -46,3 +46,18 @@ Fortia SP was never a regular production film. It appeared in small batches, oft
 - t3mujinpack — Fortia SP 50 profile reference
 - r/analog community — rare Fortia SP image posts
 - Japan Camera Hunter — Fortia SP retrospective
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fuji Velvia 50](../Fuji-Velvia-50/characteristics.md)
+- [Fuji Velvia 100](../Fuji-Velvia-100/characteristics.md)
+- [Fuji Astia 100F](../Fuji-Astia-100F/characteristics.md)
+- [Fuji Provia 100F](../Fuji-Provia-100F/characteristics.md)
+- [Fuji Provia 400F](../Fuji-Provia-400F/characteristics.md)
+- [Fuji Provia 400X](../Fuji-Provia-400X/characteristics.md)
+- [Fuji Sensia 100](../Fuji-Sensia-100/characteristics.md)
+- [Kodak Ektachrome E100](../Kodak-Ektachrome-E100/characteristics.md)

@@ -1,4 +1,4 @@
-# Community Recipes: Moody PNW / Dark Forest Editing
+# Community Recipes Lightroom Preset: Moody PNW / Dark Forest Editing
 
 > Lightroom settings sourced from Reddit r/postprocessing, r/Lightroom, and YouTube tutorials.
 
@@ -6,7 +6,7 @@
 
 ## Recipe 1: RunNGunPhoto "Dark & Moody Forest" (Lightroom Mobile)
 
-**Source**: Reddit r/postprocessing, Feb 2020 — 45 upvotes, verified settings.
+The Moody PNW Lightroom preset community recipes compile settings from photographers worldwide. **Source**: Reddit r/postprocessing, Feb 2020 — 45 upvotes, verified settings.
 **YouTube walkthrough**: `youtu.be/E6Ffh9BIWLE`
 **Also**: Later variant (2023) for portrait-style forest look at `youtu.be/UixXPnsCsPk`
 
@@ -339,3 +339,11 @@ Dehaze: +5 to +15
 - **Temperature/Tint removed**: Intentional per STYLEGUIDE rule #4. Recipe 1 specifies Temp -10/Tint -5. Users should apply manually.
 - **Green Sat capped at -60**: STYLEGUIDE rule #6 cap. Community says -80 (eliminate greens). 20pt gap is noticeable in forest scenes but cannot exceed cap.
 - **Stripped HSL**: Only 4 values retained (Green H+50, Green S-60, Yellow S-30, Orange L+80). Missing from Recipe 1: Aqua H+40/S-30/L+30, Blue H-20/S-30/L+10, Green L+40, Red H+20/S-30.
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

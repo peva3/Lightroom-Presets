@@ -1,4 +1,4 @@
-# Kodak Vision3 50D (5203) — Community Recipes
+# Kodak Vision3 50D (5203) — Lightroom Preset Settings & Recipes
 
 ## Source: YouTube Tutorial & Dehancer Reference
 
@@ -68,3 +68,12 @@ Reference: Dehancer Vision3 50D profile
 - Dehancer: Vision3 50D reference profile
 - Cinematography.com: 50D discussion threads
 - Kodak Vision3 5203 technical data sheet
+
+---
+
+## See Also
+
+- [Kodak Vision3 50D — Film Characteristics](../Kodak-Vision3-50D/characteristics.md)
+- [Kodak Vision3 250D Lightroom Preset](../Kodak-Vision3-250D/community-recipes.md)
+- [Kodak Vision3 500T Lightroom Preset](../Kodak-Vision3-500T/community-recipes.md)
+- [XMP Preset: Kodak Vision3 50D](../../Presets/Color-Negative/Kodak Vision3 50D.xmp)

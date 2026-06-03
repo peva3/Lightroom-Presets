@@ -1,4 +1,4 @@
-# Fuji Neopan 400 — Community Recipes
+# Fuji Neopan 400 — Lightroom Preset Settings & Recipes
 
 ## Primary Source: t3mujinpack (Darktable Styles — Family Reference)
 
@@ -26,3 +26,12 @@ Source: https://github.com/t3mujinpack/t3mujinpack
 - GrayMixer emphasizes strong red/orange lift (skin tones) with aggressive blue suppression (skies)
 - All STYLEGUIDE rules: Sharpness=10, Clarity/Texture/Dehaze=0, no Calibration, no WB
 - Positioned between Tri-X and HP5+ in character — Fuji's unique spectral sensitivity gives slightly different gray rendering
+
+---
+
+## See Also
+
+- [Fuji Neopan 400 — Film Characteristics](../Fuji-Neopan-400/characteristics.md)
+- [Fuji Neopan 1600 Lightroom Preset](../Fuji-Neopan-1600/community-recipes.md)
+- [Kodak Tri X 400 Lightroom Preset](../Kodak-Tri-X-400/community-recipes.md)
+- [XMP Preset: Fuji Neopan 400](../../Presets/Black-White/Fuji Neopan 400.xmp)

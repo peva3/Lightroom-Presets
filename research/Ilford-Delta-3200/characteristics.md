@@ -1,4 +1,4 @@
-# Delta 3200 — Full Aesthetic Breakdown
+# Delta 3200 Lightroom Preset — Full Aesthetic Breakdown
 
 > A comprehensive analysis of the Ilford Delta 3200 visual signature — the "golf-ball grain, lifted blacks, low contrast, soft texture" look that defines ultra-high-speed concert and night-street photography.
 
@@ -8,7 +8,7 @@
 
 ### Scale and Texture
 
-Delta 3200 has the **largest, most visible grain of any currently manufactured B&W film**. This is not a defect — it is the film's signature and primary reason photographers choose it.
+The Ilford Delta 3200 Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Delta 3200 has the **largest, most visible grain of any currently manufactured B&W film**. This is not a defect — it is the film's signature and primary reason photographers choose it.
 
 - **RMS Granularity:** ~20–22 (measured at native ISO ~1000)
 - **Effective grain at EI 3200:** Significantly larger — visual grain approximates ISO 6400+ films
@@ -349,3 +349,11 @@ T-Max 400          |   10      | Very fine
 T-Max P3200 @ 3200 |   18      | Very prominent
 Delta 3200 @ 3200  |  ~20–22   | Massive — the largest in production
 ```
+
+## See Also
+
+- [Black White Presets](../../docs/black-white.md)
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Genre Presets](../../docs/genre.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

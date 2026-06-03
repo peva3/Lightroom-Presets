@@ -1,8 +1,8 @@
-# Cinestill 800T — Full Aesthetic Characteristics
+# Cinestill 800T — Full Aesthetic Characteristics for Lightroom Presets
 
 ## Overview
 
-Cinestill 800T is arguably the most recognizable and most-posted film stock on r/analog. Its combination of tungsten coolness, red halation, cinematic heritage, and night photography dominance has made it a cultural phenomenon in film photography. This document breaks down every aspect of its aesthetic.
+Cinestill 800T is arguably the most recognizable and most-posted film stock on r/analog. Its combination of tungsten coolness, red halation, cinematic heritage, and night photography dominance has made it a cultural phenomenon in film photography. This document breaks down every aspect of its aesthetic. This document serves as a reference for creating a Lightroom preset that emulates 800T.
 
 ---
 
@@ -188,3 +188,13 @@ Key visual markers:
 - 35mmc: Multiple Cinestill 800T reviews and shooting experiences
 - Kodak Vision3 500T technical documentation
 - Community observations from Reddit, YouTube, and photography forums
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [CineStill 400D](../CineStill-400D/characteristics.md)
+- [CineStill 50D](../CineStill-50D/characteristics.md)
+- [Kodak Vision3 500T](../Kodak-Vision3-500T/characteristics.md)

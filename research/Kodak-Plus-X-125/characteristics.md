@@ -1,8 +1,8 @@
-# Kodak Plus-X 125 — Aesthetic Characteristics
+# Kodak Plus-X 125 — Aesthetic Characteristics for Lightroom Presets
 
 ## Overview
 
-Kodak Plus-X 125 was an iconic mid-speed black-and-white negative film, introduced in 1954 and manufactured continuously until its discontinuation in 2011. ISO 125 (later Plus-X Pan, ISO 125), it occupied the sweet spot between slow fine-grain films (Panatomic-X) and fast photojournalism films (Tri-X). Plus-X was the workhorse of mid-century editorial, portrait, and fine art photography — the "medium format of 35mm" in terms of tonal refinement.
+Kodak Plus-X 125 was an iconic mid-speed black-and-white negative film, introduced in 1954 and manufactured continuously until its discontinuation in 2011. ISO 125 (later Plus-X Pan, ISO 125), it occupied the sweet spot between slow fine-grain films (Panatomic-X) and fast photojournalism films (Tri-X). Plus-X was the workhorse of mid-century editorial, portrait, and fine art photography — the "medium format of 35mm" in terms of tonal refinement. This document serves as a reference for creating a Lightroom preset that emulates Plus X 125.
 
 ## Core Aesthetic Signature
 
@@ -49,3 +49,13 @@ The portrait photographer's B&W film
 - Fuji X Weekly September 2025 recipe
 - Kodak Plus-X 125 technical data sheet (archived)
 - Film photography forums and historical references
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak T Max 100](../Kodak-T-Max-100/characteristics.md)
+- [Kodak Tri X 400](../Kodak-Tri-X-400/characteristics.md)
+- [Kodak Panatomic X 32](../Kodak-Panatomic-X-32/characteristics.md)

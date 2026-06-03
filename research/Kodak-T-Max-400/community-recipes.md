@@ -1,4 +1,4 @@
-# Kodak T-Max 400 — Community Recipes
+# Kodak T-Max 400 — Lightroom Preset Settings & Recipes
 
 ## Primary Source: Fuji X Weekly (August 2020)
 
@@ -35,3 +35,12 @@ Source: https://fujixweekly.com/2020/08/31/
 - Toning WC+2 adds slight warmth reminiscent of darkroom sepia toning
 - Our XMP uses neutral ColorGrade wheels (no toning) — Adobe Monochrome profile provides clean baseline
 - Grain is Strong/Small in Fuji terms → moderate GrainAmount=45, GrainSize=30
+
+---
+
+## See Also
+
+- [Kodak T Max 400 — Film Characteristics](../Kodak-T-Max-400/characteristics.md)
+- [Kodak T Max 100 Lightroom Preset](../Kodak-T-Max-100/community-recipes.md)
+- [Kodak T Max 3200 Lightroom Preset](../Kodak-T-Max-3200/community-recipes.md)
+- [Kodak Tri X 400 Lightroom Preset](../Kodak-Tri-X-400/community-recipes.md)

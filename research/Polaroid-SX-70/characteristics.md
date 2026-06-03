@@ -1,8 +1,8 @@
-# Polaroid SX-70 — Full Aesthetic Breakdown
+# Polaroid SX-70 Lightroom Preset — Full Aesthetic Breakdown
 
 ## The "Vintage Memory" Feel
 
-The Polaroid SX-70 image is universally described as possessing a **vintage memory** quality — as if the photograph is a physical artifact of a recollected moment rather than a clinical recording of reality. This psychological effect arises from the convergence of multiple optical and chemical imperfections that the human brain associates with age, nostalgia, and analog warmth.
+The Polaroid SX 70 Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The Polaroid SX-70 image is universally described as possessing a **vintage memory** quality — as if the photograph is a physical artifact of a recollected moment rather than a clinical recording of reality. This psychological effect arises from the convergence of multiple optical and chemical imperfections that the human brain associates with age, nostalgia, and analog warmth.
 
 Edwin Land deliberately engineered the SX-70 to produce images that felt emotionally resonant. The integral film process was designed not for technical perfection but for an **immediate, tangible, intimate viewing experience** — the photograph develops in your hand, still warm from the camera.
 
@@ -253,3 +253,11 @@ These five elements work synergistically to produce a photograph that feels less
 - Polaroid SX-70 user manual (archival) — original Polaroid Corporation
 - Smithsonian Magazine: "Seven Famous Photographers Who Used Polaroids"
 - Trends: Instagram #polaroid (40M+ posts), TikTok instant film content
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

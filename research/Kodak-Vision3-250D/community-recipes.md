@@ -1,4 +1,4 @@
-# Kodak Vision3 250D (5207) — Community Recipes
+# Kodak Vision3 250D (5207) — Lightroom Preset Settings & Recipes
 
 ## Lightroom / Camera Raw Emulation Recipes
 
@@ -293,3 +293,12 @@ All values align with Vision3 250D's known characteristics:
 
 ### Documentation Fix (2026-06-01)
 - Fixed false claim: STYLEGUIDE section said "23→11 meaningful attributes after cleanup" but XMP has 40. The "Default-value attributes removed" list was aspirational — those defaults were never actually stripped from the XMP. Documentation corrected to reflect actual XMP state.
+
+---
+
+## See Also
+
+- [Kodak Vision3 250D — Film Characteristics](../Kodak-Vision3-250D/characteristics.md)
+- [Kodak Vision3 50D Lightroom Preset](../Kodak-Vision3-50D/community-recipes.md)
+- [Kodak Vision3 500T Lightroom Preset](../Kodak-Vision3-500T/community-recipes.md)
+- [XMP Preset: Kodak Vision3 250D](../../Presets/Color-Negative/Kodak Vision3 250D.xmp)

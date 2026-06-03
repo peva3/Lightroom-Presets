@@ -1,8 +1,8 @@
-# Characteristics — Cinematic Teal & Orange
+# Characteristics Lightroom Preset — Cinematic Teal & Orange
 
 ## Aesthetic Breakdown
 
-The Teal & Orange look is the defining color palette of the 21st-century blockbuster. It's a high-contrast, complementary-color grade where shadows are pushed into cool teal/cyan territory and highlights into warm amber/orange. The result is a hyper-saturated, visually "sticky" image that maximizes color contrast — and by extension, perceived depth and dimensionality — on screen.
+The Cinematic Teal and Orange Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The Teal & Orange look is the defining color palette of the 21st-century blockbuster. It's a high-contrast, complementary-color grade where shadows are pushed into cool teal/cyan territory and highlights into warm amber/orange. The result is a hyper-saturated, visually "sticky" image that maximizes color contrast — and by extension, perceived depth and dimensionality — on screen.
 
 ## Split-Tone Mechanics
 
@@ -117,3 +117,11 @@ Teal/Orange is essentially the *inverse* of bleach bypass — maximum color cont
 - **Skin tone stereotyping**: The orange push can flatten skin tone diversity — all skin mapped to the same warm hue range.
 - **Todd Miro's viral 2011 blog post**: "Abusing the Teal & Orange Look" became one of the most-shared posts in color grading history, comparing frame after frame of identically-graded blockbusters.
 - **r/colorists**: The subreddit regularly sees "teal and orange is overdone" threads, but also acknowledges it as the entry point that got most colorists into grading.
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

@@ -1,4 +1,4 @@
-# Community Recipes — Lightroom B&W Presets for Tri-X 400 Emulation
+# Kodak Tri-X 400 — Lightroom Preset Settings & Recipes
 
 > Compiled from Reddit (r/Lightroom, r/analog, r/postprocessing, r/photography), YouTube tutorials, photography forums, and community blogs. These are community-developed settings — not official Kodak data.
 
@@ -426,3 +426,11 @@ The community recipe collection is excellent as a historical reference for Tri-X
 **Documentation fix (2026-06-01):** Added note to Community Validated Values table clarifying values reflect pre-STYLEGUIDE consensus, not final XMP state. Actual XMP: Blacks=-30, Clarity=0, Dehaze=0, Texture=0, GrainAmount=55, GrainSize=35, GrainFrequency=65, Sharpness=10.
 
 **Note**: The STYLEGUIDE grain table (Tri-X: Amount 40-55, Size 25-35, Roughness 50-65) is slightly more conservative than the community consensus (Amount 55-70, Size 35-45, Roughness 65-80). The XMP follows STYLEGUIDE caps at the upper boundary. Community values are not "bogus" — they reflect user preference for more prominent grain — but STYLEGUIDE's display-survivability concerns (§XIII) justify the conservative caps.
+
+---
+
+## See Also
+
+- [Kodak Tri X 400 — Film Characteristics](../Kodak-Tri-X-400/characteristics.md)
+- [Kodak T Max 3200 Lightroom Preset](../Kodak-T-Max-3200/community-recipes.md)
+- [Kodak T Max 400 Lightroom Preset](../Kodak-T-Max-400/community-recipes.md)

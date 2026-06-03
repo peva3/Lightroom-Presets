@@ -49,3 +49,13 @@ Sensia's defining differences from Provia are warmer color balance and slightly 
 - Derived from Provia 100F recipe with consumer film adjustments
 - r/analog community — Sensia 100 characteristic descriptions
 - Fuji X Weekly — Provia + warm shift methodology
+
+---
+
+## See Also
+
+- [Fuji Sensia 100 — Film Characteristics](../Fuji-Sensia-100/characteristics.md)
+- [Fuji Velvia 50 Lightroom Preset](../Fuji-Velvia-50/community-recipes.md)
+- [Fuji Velvia 100 Lightroom Preset](../Fuji-Velvia-100/community-recipes.md)
+- [Fuji Astia 100F Lightroom Preset](../Fuji-Astia-100F/community-recipes.md)
+- [XMP Preset: Fuji Sensia 100](../../Presets/Slide/Fuji Sensia 100.xmp)

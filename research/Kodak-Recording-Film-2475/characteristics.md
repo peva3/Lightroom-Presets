@@ -1,7 +1,7 @@
-# Kodak Recording Film 2475 — Film Characteristics
+# Kodak Recording Film 2475 — Film Characteristics for Lightroom Presets
 
 ## Overview
-Kodak Recording Film 2475 was an ultra-high-speed black-and-white negative film designed for surveillance and law enforcement applications. With an effective EI of 1000-4000 depending on development, it was one of the fastest films ever produced for general use. It was also used by some artistic photographers (notably for its extreme grain) before being discontinued.
+Kodak Recording Film 2475 was an ultra-high-speed black-and-white negative film designed for surveillance and law enforcement applications. With an effective EI of 1000-4000 depending on development, it was one of the fastest films ever produced for general use. It was also used by some artistic photographers (notably for its extreme grain) before being discontinued. This document serves as a reference for creating a Lightroom preset that emulates Recording Film 2475.
 
 ## Key Characteristics
 - **ISO**: 1000 (nominal), pushable to EI 4000+
@@ -35,3 +35,12 @@ Kodak Recording Film 2475 was an ultra-high-speed black-and-white negative film 
 - Law enforcement photography archives
 - Community discussions on Photrio and Reddit r/analog
 - Surveillance photography historical resources
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak T Max 3200](../Kodak-T-Max-3200/characteristics.md)
+- [Kodak Tri X 400](../Kodak-Tri-X-400/characteristics.md)

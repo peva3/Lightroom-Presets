@@ -2,7 +2,7 @@
 
 ## Core Concept
 
-Digital emulation of Aerochrome requires **three distinct operations** applied in sequence:
+The Kodak Aerochrome Lightroom preset community recipes compile settings from photographers worldwide. Digital emulation of Aerochrome requires **three distinct operations** applied in sequence:
 
 1. **Channel manipulation** (swap or remap RGB channels)
 2. **HSL hue shifting** (green → magenta, blue → cyan)
@@ -334,3 +334,10 @@ Previous claim "all attributes within 5%" was false for Blacks (100% deviation).
 - The method hierarchy is well-documented and the limitations of each approach are clearly stated. ✓
 - Jamie Windsor's Aerochrome tutorial (YouTube, widely cited) is the standard reference for this approach. ✓
 - No Wayback Machine snapshots with numeric slider values. Live Reddit found process descriptions ("remove remaining green foliage", "4-5 color masks") but no slider numbers. Source quality: GOOD for methodology, MODERATE for exact midpoints.
+
+---
+
+## See Also
+
+- [Kodak Aerochrome — Film Characteristics](../Kodak-Aerochrome/characteristics.md)
+- [XMP Preset: Kodak Aerochrome](../../Presets/Creative/Kodak Aerochrome.xmp)

@@ -500,3 +500,11 @@ The calibration conflict is recorded as **CRITICAL** because 4/6 recipes and the
 6. **Light leaks and halation require Photoshop or overlays** — Lightroom alone cannot do the edge-bleeding color artifacts
 7. **Presets should be starting points**, not one-click solutions — lighting conditions change everything
 8. **The "aged" look matters more than the "fresh film" look** — faded, slightly color-shifted, imperfect
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

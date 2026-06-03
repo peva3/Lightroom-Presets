@@ -1,9 +1,9 @@
-# Per-Film-Stock Cross-Processing Characteristics
+# Per-Film-Stock Cross-Processing Characteristics — Lightroom Preset Characteristics
 
 ## Velvia 50 Xpro — "The Wild One"
 
 ### Signature Look
-- **Dominant color cast**: Green with some blue shift
+The Cross Processed E6 C41 Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. - **Dominant color cast**: Green with some blue shift
 - **Shadows**: Deep green-emerald cast, nearly teal in underexposed areas
 - **Midtones**: Green-to-cyan shift depending on exposure
 - **Highlights**: Magenta-purple tendency when pushed; can go warm/peach at correct exposure
@@ -177,3 +177,11 @@ Cross-processing content regularly hits **200–3,000+ points** on r/analog, con
 - r/analog community posts and scoring data
 - Wikipedia: Cross Processing
 - Film community knowledge and lab experience
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

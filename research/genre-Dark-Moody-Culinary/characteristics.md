@@ -1,7 +1,7 @@
-# Dark Moody Culinary — Characteristics
+# Dark Moody Culinary Lightroom Preset — Characteristics
 
 ## Use Case
-Dark, dramatic culinary photography. Wooden tables, dramatic side lighting, rustic dishes. Moody restaurant and chef portrait style.
+The Dark Moody Culinary Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Dark, dramatic culinary photography. Wooden tables, dramatic side lighting, rustic dishes. Moody restaurant and chef portrait style.
 
 ## Key Techniques
 Underexposure (-0.40) + strong Contrast (+25) create dramatic tonality. Blacks at -20 anchor shadows (within -30 safety floor). Red/Orange Sat +10 keep food colors present in the dark; everything else desaturated. Teal shadows (H220 S15) add moody cool depth. Light grain (Amount 15) for filmic texture without overwhelming food detail. Sharpness=10 protects grain. |Vibrance−Saturation|=3. 22 attributes — richest of the food presets.
@@ -18,3 +18,11 @@ Underexposure (-0.40) + strong Contrast (+25) create dramatic tonality. Blacks a
 - HSL Sat max: Within ±60
 - Blacks floor: ≥ -30
 - Grain protection: Sharpness=10, Clarity=0, Texture=0, Dehaze=0
+
+## See Also
+
+- [Genre Presets](../../docs/genre.md)
+- [Mobile Presets](../../docs/mobile.md)
+- [Seasonal Presets](../../docs/seasonal.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

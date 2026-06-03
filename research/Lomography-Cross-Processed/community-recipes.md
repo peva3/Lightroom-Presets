@@ -549,3 +549,11 @@ Community members have named their shared preset recipes over the years:
 - **Blacks2012**: 0 → -30 (matches community -30 crushed-black xpro aesthetic)
 - **Calibration removal**: Intentional tradeoff per STYLEGUIDE rule #3. All 8 community recipes include calibration; removal means users must apply manually or accept less complete primary shift.
 - Remaining gap: Clarity still at 0 vs community +15 (intentional, keeps grain protection intact).
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

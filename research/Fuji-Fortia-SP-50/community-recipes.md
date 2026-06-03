@@ -80,3 +80,13 @@ The t3mujinpack treats Fortia SP as Velvia 50 with the saturation, contrast, and
 - t3mujinpack — Fortia SP 50 profile
 - Velvia 50 community recipe (baseline)
 - r/analog — rare Fortia SP images
+
+---
+
+## See Also
+
+- [Fuji Fortia SP 50 — Film Characteristics](../Fuji-Fortia-SP-50/characteristics.md)
+- [Fuji Velvia 50 Lightroom Preset](../Fuji-Velvia-50/community-recipes.md)
+- [Fuji Velvia 100 Lightroom Preset](../Fuji-Velvia-100/community-recipes.md)
+- [Fuji Astia 100F Lightroom Preset](../Fuji-Astia-100F/community-recipes.md)
+- [XMP Preset: Fuji Fortia SP 50](../../Presets/Slide/Fuji Fortia SP 50.xmp)

@@ -1,8 +1,8 @@
-# Salt Print — Complete Aesthetic Breakdown
+# Salt Print Lightroom Preset — Complete Aesthetic Breakdown
 
 ## Core Aesthetic Signature
 
-The salt print (salted paper print) was the first negative-to-positive paper process, invented by William Henry Fox Talbot in the 1830s and refined through the 1840s. It remained popular alongside the albumen print through the 1850s. Unlike albumen prints, salt prints have no binder layer — the silver image forms directly in the paper fibers, creating a completely matte surface with a characteristic reddish-brown tone.
+The salt print Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The salt print (salted paper print) was the first negative-to-positive paper process, invented by William Henry Fox Talbot in the 1830s and refined through the 1840s. It remained popular alongside the albumen print through the 1850s. Unlike albumen prints, salt prints have no binder layer — the silver image forms directly in the paper fibers, creating a completely matte surface with a characteristic reddish-brown tone.
 
 ## Historical Context
 
@@ -35,3 +35,11 @@ This preset is designed to capture the essential visual character of the salt pr
 - Alternative Photography (alternativephotography.com)
 - Christopher James: *The Book of Alternative Photographic Processes*
 - Community knowledge from r/analog, r/Darkroom, and photography forums
+
+## See Also
+
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Black White Presets](../../docs/black-white.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

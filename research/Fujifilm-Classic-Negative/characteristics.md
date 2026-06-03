@@ -1,8 +1,8 @@
-# Classic Negative — Full Aesthetic Breakdown
+# Classic Negative — Full Aesthetic Breakdown for Lightroom Presets
 
 ## Executive Summary
 
-Classic Negative is Fujifilm's digital emulation of **consumer-grade Fujicolor Superia negative film**, designed to reproduce the look of developed prints from the 1990s and early 2000s. It is characterized by a **very muted palette**, **cyan-green shifted shadows**, **magenta-biased highlights**, and **hard contrast**. The aesthetic is deliberately "unbalanced" — warm midtones with a cool overall cast — creating a nostalgic, lo-fi character that evokes family photo albums and one-hour photo lab prints.
+Classic Negative is Fujifilm's digital emulation of **consumer-grade Fujicolor Superia negative film**, designed to reproduce the look of developed prints from the 1990s and early 2000s. It is characterized by a **very muted palette**, **cyan-green shifted shadows**, **magenta-biased highlights**, and **hard contrast**. The aesthetic is deliberately "unbalanced" — warm midtones with a cool overall cast — creating a nostalgic, lo-fi character that evokes family photo albums and one-hour photo lab prints. This document serves as a reference for creating a Lightroom preset that emulates Classic Negative.
 
 ---
 
@@ -269,3 +269,14 @@ When you look at a Classic Negative image, you should see:
 7. **Reddit r/Lumix - Lightroom Recreation:** https://old.reddit.com/r/Lumix/comments/1d0p8f8/
 8. **Fuji X Weekly - Reggie's Superia:** https://fujixweekly.com/2026/03/12/reggies-superia-a-fujifilm-recipe-for-x-trans-iv-v-cameras/
 9. **Fuji X Weekly - Classic Amber:** https://fujixweekly.com/2025/11/01/classic-amber-fujifilm-x-t5-x-trans-v-film-simulation-recipe/
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fujifilm Classic Chrome](../Fujifilm-Classic-Chrome/characteristics.md)
+- [Fujifilm Pro 400H](../Fujifilm-Pro-400H/characteristics.md)
+- [Fujifilm Nostalgic Negative](../Fujifilm-Nostalgic-Negative/characteristics.md)
+- [Fuji Superia XTRA 400](../Fuji-Superia-XTRA-400/characteristics.md)

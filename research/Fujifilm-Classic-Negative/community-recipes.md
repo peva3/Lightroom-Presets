@@ -1,4 +1,4 @@
-# Community Recipes & Settings for Recreating Classic Negative
+# Fujifilm Classic Negative — Lightroom Preset Settings & Recipes
 
 ## Source: Reddit, Fuji X Weekly, YouTube, Forums
 
@@ -459,3 +459,13 @@ Current XMP values (Contrast +24, Highlights -38, Shadows +15, Saturation reduce
 **Flagged for correction**: Clarity/Texture→0 (Commandment #7), Saturation reduced to +5 (Commandment #9), WB removed (Commandment #4), Vibrance removed (Commandment #5 — gap was 17.5). All corrections already applied in current XMP. **Note**: Classic Negative's LR inference involves converting Fuji in-camera values — this carries inherent uncertainty that shouldn't be confused with bogus data.
 
 **Batch 1 Review (June 2026):** Confirmed. XMP verified: no Calibration, no WB, Sharpness=10, Clarity=0, Texture=0, Dehaze=0, GrainAmount=39 with full grain protection, Saturation=+5 (down from community +20 per §VIII.4 S-curve double-boost prevention), no Vibrance attribute (was +2.5 with Saturation=+20 → gap 17.5; now removed). All STYLEGUIDE rules pass. Status: RESOLVED.
+
+---
+
+## See Also
+
+- [Fujifilm Classic Negative — Film Characteristics](../Fujifilm-Classic-Negative/characteristics.md)
+- [Fujifilm Classic Chrome Lightroom Preset](../Fujifilm-Classic-Chrome/community-recipes.md)
+- [Fujifilm Pro 400H Lightroom Preset](../Fujifilm-Pro-400H/community-recipes.md)
+- [Fujifilm Nostalgic Negative Lightroom Preset](../Fujifilm-Nostalgic-Negative/community-recipes.md)
+- [XMP Preset: Fujifilm Classic Negative](../../Presets/Color-Negative/Fujifilm Classic Negative.xmp)

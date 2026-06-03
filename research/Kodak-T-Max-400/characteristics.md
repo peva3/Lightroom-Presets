@@ -1,7 +1,7 @@
-# Kodak T-Max 400 — Film Characteristics
+# Kodak T-Max 400 — Film Characteristics for Lightroom Presets
 
 ## Overview
-Kodak T-Max 400 is a medium-speed T-grain (tabular grain) black-and-white negative film introduced in 1986 alongside T-Max 100. Updated in 2007 for improved sharpness and finer grain. It uses flat, plate-like silver halide crystals for higher efficiency than traditional cubic-grain films.
+Kodak T-Max 400 is a medium-speed T-grain (tabular grain) black-and-white negative film introduced in 1986 alongside T-Max 100. Updated in 2007 for improved sharpness and finer grain. It uses flat, plate-like silver halide crystals for higher efficiency than traditional cubic-grain films. This document serves as a reference for creating a Lightroom preset that emulates T Max 400.
 
 ## Key Characteristics
 - **ISO**: 400 (nominal)
@@ -35,3 +35,14 @@ Kodak T-Max 400 is a medium-speed T-grain (tabular grain) black-and-white negati
 ## Sources
 - Kodak Alaris Technical Data Sheet (F-4043)
 - Fuji X Weekly (Thomas Schwab, Anders Lindborg, Ritchie Roesch recipe, August 2020)
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak T Max 100](../Kodak-T-Max-100/characteristics.md)
+- [Kodak T Max 3200](../Kodak-T-Max-3200/characteristics.md)
+- [Kodak Tri X 400](../Kodak-Tri-X-400/characteristics.md)
+- [Kodak Plus X 125](../Kodak-Plus-X-125/characteristics.md)

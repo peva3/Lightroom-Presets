@@ -118,3 +118,13 @@ Superia 800 pushes the Fuji consumer formula to higher speed:
 - t3mujinpack: Fuji film simulation data
 - Photrio: Superia 800 grain comparisons
 - 35mmc.com: Fuji Superia line overview
+
+---
+
+## See Also
+
+- [Fuji Superia 800 — Film Characteristics](../Fuji-Superia-800/characteristics.md)
+- [Fuji Superia 100 Lightroom Preset](../Fuji-Superia-100/community-recipes.md)
+- [Fuji Superia 200 Lightroom Preset](../Fuji-Superia-200/community-recipes.md)
+- [Fuji Superia 1600 Lightroom Preset](../Fuji-Superia-1600/community-recipes.md)
+- [XMP Preset: Fuji Superia 800](../../Presets/Color-Negative/Fuji Superia 800.xmp)

@@ -1,8 +1,8 @@
-# Pinhole — Complete Aesthetic Breakdown
+# Pinhole Lightroom Preset — Complete Aesthetic Breakdown
 
 ## Core Aesthetic Signature
 
-Pinhole photography is the most fundamental form of image-making — a light-tight box with a tiny pinhole aperture (no lens). Light passes through the pinhole and projects an inverted image directly onto film or paper. The pinhole creates infinite depth of field (everything from 1mm to infinity is equally sharp — or equally soft) at the cost of extremely long exposure times and a characteristic soft, ethereal image quality.
+The pinhole Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Pinhole photography is the most fundamental form of image-making — a light-tight box with a tiny pinhole aperture (no lens). Light passes through the pinhole and projects an inverted image directly onto film or paper. The pinhole creates infinite depth of field (everything from 1mm to infinity is equally sharp — or equally soft) at the cost of extremely long exposure times and a characteristic soft, ethereal image quality.
 
 ## Historical Context
 
@@ -35,3 +35,11 @@ This preset is designed to capture the essential visual character of the pinhole
 - Alternative Photography (alternativephotography.com)
 - Christopher James: *The Book of Alternative Photographic Processes*
 - Community knowledge from r/analog, r/Darkroom, and photography forums
+
+## See Also
+
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Black White Presets](../../docs/black-white.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

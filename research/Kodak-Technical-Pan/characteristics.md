@@ -1,7 +1,7 @@
-# Kodak Technical Pan — Film Characteristics
+# Kodak Technical Pan — Film Characteristics for Lightroom Presets
 
 ## Overview
-Kodak Technical Pan (SO-115) was the highest-resolution black-and-white film ever commercially produced. Originally developed for scientific and technical applications (hence the name), it was adopted by photographers seeking maximum detail. NASA used it for lunar mapping and satellite reconnaissance. Discontinued in 2004.
+Kodak Technical Pan (SO-115) was the highest-resolution black-and-white film ever commercially produced. Originally developed for scientific and technical applications (hence the name), it was adopted by photographers seeking maximum detail. NASA used it for lunar mapping and satellite reconnaissance. Discontinued in 2004. This document serves as a reference for creating a Lightroom preset that emulates Technical Pan.
 
 ## Key Characteristics
 - **ISO**: 25 (with Technidol developer); can range from 16-64 depending on developer
@@ -33,3 +33,12 @@ Kodak Technical Pan (SO-115) was the highest-resolution black-and-white film eve
 - NASA Technical Reports (Apollo/Skylab documentation)
 - Photrio community archives on Technidol/POTA development
 - Rollei/Maco ATP documentation (modern successor)
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Panatomic X 32](../Kodak-Panatomic-X-32/characteristics.md)
+- [Kodak T Max 100](../Kodak-T-Max-100/characteristics.md)

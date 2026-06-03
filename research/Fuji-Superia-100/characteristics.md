@@ -1,8 +1,8 @@
-# Fuji Superia 100 — Aesthetic Characteristics
+# Fuji Superia 100 — Aesthetic Characteristics for Lightroom Presets
 
 ## Overview
 
-Fuji Superia 100 was the **fine-grain consumer color negative film** in Fujifilm's Superia lineup — the slower, sharper sibling to Superia 200, 400, 800, and 1600. It offered the characteristic Fuji consumer palette (cool bias, green shadows, magenta-reds) with significantly finer grain and higher resolving power thanks to its slower ISO. Discontinued around 2009, it's one of the earliest casualties of the digital transition and remains one of the less-documented Superia variants.
+Fuji Superia 100 was the **fine-grain consumer color negative film** in Fujifilm's Superia lineup — the slower, sharper sibling to Superia 200, 400, 800, and 1600. It offered the characteristic Fuji consumer palette (cool bias, green shadows, magenta-reds) with significantly finer grain and higher resolving power thanks to its slower ISO. Discontinued around 2009, it's one of the earliest casualties of the digital transition and remains one of the less-documented Superia variants. This document serves as a reference for creating a Lightroom preset that emulates Superia 100.
 
 ## Core Aesthetic Signature
 
@@ -117,3 +117,15 @@ The Fuji X Weekly community provides an in-camera recipe for Superia 100:
 - r/AnalogCommunity: Superia discussion threads
 - t3mujinpack: Fuji film simulation pack references
 - 35mmc.com: Superia line overview
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fuji Superia 200](../Fuji-Superia-200/characteristics.md)
+- [Fuji Superia 800](../Fuji-Superia-800/characteristics.md)
+- [Fuji Superia 1600](../Fuji-Superia-1600/characteristics.md)
+- [Fuji Superia XTRA 400](../Fuji-Superia-XTRA-400/characteristics.md)
+- [Fuji Superia HG 1600](../Fuji-Superia-HG-1600/characteristics.md)

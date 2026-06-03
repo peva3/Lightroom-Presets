@@ -1,7 +1,7 @@
-# Color Recovery — Characteristics
+# Color Recovery Lightroom Preset — Characteristics
 
 ## Use Case
-Underwater photography color restoration. Water absorbs red light — this preset restores the lost warm spectrum. Snorkeling, diving, pool photography.
+The Color Recovery Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Underwater photography color restoration. Water absorbs red light — this preset restores the lost warm spectrum. Snorkeling, diving, pool photography.
 
 ## Key Techniques
 This is THE one preset where aggressive red/orange saturation is the defining purpose. Red Sat +30 and Orange Sat +25 restore colors at 5-15m depth (red gone by 5m, orange by 15m). Blue/Aqua desaturation removes overwhelming cyan cast. Dehaze +20 + Clarity +15 cut through water turbidity. Saturation +15 global for overall color restoration. Warm Color Grading (shadows H40 S10) reinforces red restoration. 19 attributes.
@@ -18,3 +18,11 @@ This is THE one preset where aggressive red/orange saturation is the defining pu
 - HSL Sat max: Within ±60
 - Blacks floor: ≥ -30
 - Grain protection: N/A (no grain)
+
+## See Also
+
+- [Genre Presets](../../docs/genre.md)
+- [Mobile Presets](../../docs/mobile.md)
+- [Seasonal Presets](../../docs/seasonal.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

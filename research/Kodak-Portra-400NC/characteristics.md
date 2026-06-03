@@ -1,4 +1,4 @@
-# Kodak Portra 400NC — Full Aesthetic Characteristics
+# Kodak Portra 400NC — Full Aesthetic Characteristics for Lightroom Presets
 
 > "Natural Color" at 400 speed — the most accurate, neutral 400-speed color negative film ever made. Discontinued in 2010.
 
@@ -6,7 +6,7 @@
 
 ## Executive Summary
 
-Kodak Portra 400NC was the "Natural Color" variant of Portra 400, paired with 400VC ("Vivid Color"). Where standard Portra 400 is known for warmth, 400NC prioritized **colorimetric accuracy and neutral rendering**. It was the choice for commercial catalog work, art reproduction, and photographers who wanted Portra's latitude and grain structure without Portra's characteristic warm-amber bias. Both NC and VC were retired when Kodak unified Portra in 2010.
+Kodak Portra 400NC was the "Natural Color" variant of Portra 400, paired with 400VC ("Vivid Color"). Where standard Portra 400 is known for warmth, 400NC prioritized **colorimetric accuracy and neutral rendering**. It was the choice for commercial catalog work, art reproduction, and photographers who wanted Portra's latitude and grain structure without Portra's characteristic warm-amber bias. Both NC and VC were retired when Kodak unified Portra in 2010. This document serves as a reference for creating a Lightroom preset that emulates Portra 400NC.
 
 ---
 
@@ -68,3 +68,21 @@ Kodak Portra 400NC was the "Natural Color" variant of Portra 400, paired with 40
 - t3mujinpack GitHub — Kodak Portra 400 NC Darktable preset
 - Kodak Professional product literature (archived)
 - r/AnalogCommunity — Portra NC discussion threads
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Portra 160NC](../Kodak-Portra-160NC/characteristics.md)
+- [Kodak Portra 400VC](../Kodak-Portra-400VC/characteristics.md)
+- [Kodak Portra 400](../Kodak-Portra-400/characteristics.md)
+- [Kodak Portra 400UC](../Kodak-Portra-400UC/characteristics.md)
+- [Kodak Portra 160VC](../Kodak-Portra-160VC/characteristics.md)
+- [Kodak Portra 160](../Kodak-Portra-160/characteristics.md)
+- [Kodak Portra 800](../Kodak-Portra-800/characteristics.md)
+- [Kodak Gold 200](../Kodak-Gold-200/characteristics.md)
+- [Kodak Ektar 100](../Kodak-Ektar-100/characteristics.md)
+- [Kodak Ultramax 400](../Kodak-Ultramax-400/characteristics.md)
+- [Fujifilm Pro 400H](../Fujifilm-Pro-400H/characteristics.md)

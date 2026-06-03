@@ -1,4 +1,4 @@
-# Kodak Recording Film 2475 — Community Recipes
+# Kodak Recording Film 2475 — Lightroom Preset Settings & Recipes
 
 ## Community Notes (from forums)
 - No dedicated Fuji X Weekly or t3mujinpack recipe exists for 2475 Recording Film
@@ -24,3 +24,12 @@
 - Moderate shadow lift (+20) to pull detail from dark areas
 - All STYLEGUIDE rules: Sharpness=10, Clarity/Texture/Dehaze=0, no Calibration, no WB
 - The massive grain + extended red sensitivity creates a distinctive surveillance aesthetic
+
+---
+
+## See Also
+
+- [Kodak Recording Film 2475 — Film Characteristics](../Kodak-Recording-Film-2475/characteristics.md)
+- [Kodak T Max 3200 Lightroom Preset](../Kodak-T-Max-3200/community-recipes.md)
+- [Kodak Tri X 400 Lightroom Preset](../Kodak-Tri-X-400/community-recipes.md)
+- [XMP Preset: Kodak Recording Film 2475](../../Presets/Black-White/Kodak Recording Film 2475.xmp)

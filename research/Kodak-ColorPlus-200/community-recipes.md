@@ -118,3 +118,13 @@ Final XMP values, cross-referenced from Fuji X Weekly Kodak Emulsion recipe and 
 - Photrio: Consumer film side-by-side tests
 - Kodak Alaris: ColorPlus 200 technical specifications
 - 35mmc.com: Budget film roundups
+
+---
+
+## See Also
+
+- [Kodak ColorPlus 200 — Film Characteristics](../Kodak-ColorPlus-200/characteristics.md)
+- [Kodak Gold 200 Lightroom Preset](../Kodak-Gold-200/community-recipes.md)
+- [Kodak Ultramax 400 Lightroom Preset](../Kodak-Ultramax-400/community-recipes.md)
+- [Kodak Pro Image 100 Lightroom Preset](../Kodak-Pro-Image-100/community-recipes.md)
+- [XMP Preset: Kodak ColorPlus 200](../../Presets/Color-Negative/Kodak ColorPlus 200.xmp)

@@ -1,8 +1,8 @@
-# Aesthetic Breakdown: The Matte Fade
+# Aesthetic Breakdown Lightroom Preset: The Matte Fade
 
 ## Quick Summary
 
-The matte fade is a post-processing aesthetic defined by lifted blacks (no true black point), reduced global contrast, and warm-toned shadows. It produces a soft, editorial look that mimics film printed on matte paper. It was the dominant Instagram and wedding-photography aesthetic of 2014–2018 and remains widely used in lifestyle, editorial, and portrait work.
+The Matte Fade Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The matte fade is a post-processing aesthetic defined by lifted blacks (no true black point), reduced global contrast, and warm-toned shadows. It produces a soft, editorial look that mimics film printed on matte paper. It was the dominant Instagram and wedding-photography aesthetic of 2014–2018 and remains widely used in lifestyle, editorial, and portrait work.
 
 ---
 
@@ -286,3 +286,11 @@ The look's enduring appeal comes from its ability to:
 - Signal stylistic intentionality and curation
 
 While its peak popularity as an overt "Instagram filter" look has passed, the matte fade continues to serve as a fundamental building block in professional post-processing — often applied subtly, beneath more complex color grading, as the structural foundation that gives images their soft, warm, editorial quality.
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

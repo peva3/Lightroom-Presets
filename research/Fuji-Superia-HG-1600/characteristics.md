@@ -1,4 +1,4 @@
-# Fuji Superia HG 1600 — Film Characteristics
+# Fuji Superia HG 1600 — Film Characteristics for Lightroom Presets
 
 > "High Grade" Superia variant — premium high-speed consumer film. Finer grain than standard Superia 1600, better skin tones, less green shadow cast. Fuji's answer to demanding low-light color negative photography.
 
@@ -6,7 +6,7 @@
 
 ## Core Aesthetic Identity
 
-| Attribute | Superia HG 1600 Characteristic |
+| Attribute | Superia HG 1600 Characteristic | This document serves as a reference for creating a Lightroom preset that emulates Superia HG 1600.
 |-----------|-------------------------------|
 | Contrast | Medium — consumer-grade, moderate punch |
 | Saturation | Moderate — balanced, not as muted as pro films |
@@ -58,3 +58,15 @@ The Superia family shares a recognizable color signature:
 ---
 
 *Compiled June 2026 from Fujifilm datasheets, t3mujinpack reference data, and community forums.*
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fuji Superia 100](../Fuji-Superia-100/characteristics.md)
+- [Fuji Superia 200](../Fuji-Superia-200/characteristics.md)
+- [Fuji Superia 800](../Fuji-Superia-800/characteristics.md)
+- [Fuji Superia 1600](../Fuji-Superia-1600/characteristics.md)
+- [Fuji Superia XTRA 400](../Fuji-Superia-XTRA-400/characteristics.md)

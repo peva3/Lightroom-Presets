@@ -1,8 +1,8 @@
-# Wong Kar-Wai / 1980s Hong Kong Cinema Aesthetic — Full Breakdown
+# Wong Kar-Wai / 1980s Hong Kong Cinema Aesthetic Lightroom Preset — Full Breakdown
 
 ## Core Aesthetic Philosophy
 
-Wong Kar-wai's visual style, developed primarily with cinematographer Christopher Doyle (and later Mark Lee Ping-bin), represents one of the most distinctive and influential looks in cinema history. The aesthetic is characterized by saturated, emotionally-driven color, available-light shooting in Hong Kong's neon-drenched streets, and a deliberately "imperfect" textural quality that embraces film grain, motion blur, and color shifts.
+The Wong Kar Wai Hong Kong Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Wong Kar-wai's visual style, developed primarily with cinematographer Christopher Doyle (and later Mark Lee Ping-bin), represents one of the most distinctive and influential looks in cinema history. The aesthetic is characterized by saturated, emotionally-driven color, available-light shooting in Hong Kong's neon-drenched streets, and a deliberately "imperfect" textural quality that embraces film grain, motion blur, and color shifts.
 
 Wong himself described *Chungking Express* and *Fallen Angels* as "the bright and dark of Hong Kong" — two films that together represent the day and night of the city.
 
@@ -192,3 +192,11 @@ When this light hits tungsten-balanced film (which expects 3200K incandescent li
 - **Buenos Aires, Argentina**: *Happy Together* — tango bars, cramped apartments, Iguazu Falls
 - **1960s Hong Kong apartments**: *In the Mood for Love* — narrow hallways, shared kitchens
 - **Angkor Wat, Cambodia**: Final scene of *In the Mood for Love*
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

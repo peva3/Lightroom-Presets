@@ -1,8 +1,8 @@
-# Fuji Natura 1600 — Aesthetic Profile & Characteristics
+# Fuji Natura 1600 — Aesthetic Profile & Characteristics for Lightroom Presets
 
 ## Overview
 
-Fuji Natura 1600 is widely regarded as the **ultimate low-light color negative film**. Its aesthetic sits somewhere between documentary grit and cinematic poetry. It was the film of choice for Japanese street and night-life photographers — most notably Yoshiyuki Okuyama, who built a distinct "gonzo journalist" aesthetic on it.
+Fuji Natura 1600 is widely regarded as the **ultimate low-light color negative film**. Its aesthetic sits somewhere between documentary grit and cinematic poetry. It was the film of choice for Japanese street and night-life photographers — most notably Yoshiyuki Okuyama, who built a distinct "gonzo journalist" aesthetic on it. This document serves as a reference for creating a Lightroom preset that emulates Natura 1600.
 
 > *"I got shots in places actual paid photographers wouldn't go with their brand new digital stuff. Right in the middle of things."* — u/DartzIRL, r/AnalogCommunity
 
@@ -80,3 +80,13 @@ Fuji Natura 1600 is widely regarded as the **ultimate low-light color negative f
 | **Shadow retention** | ★★★★★ | ★★★★ | ★★★ | ★★★ |
 | **Versatility** | ★★★★★ | ★★★★ | ★★ | ★★★ |
 | **Night character** | Cinematic, moody | Clean, commercial | Neon-halation, stylized | Pushed, gritty |
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fuji Superia 1600](../Fuji-Superia-1600/characteristics.md)
+- [Fuji Neopan 1600](../Fuji-Neopan-1600/characteristics.md)
+- [Fuji Superia 800](../Fuji-Superia-800/characteristics.md)

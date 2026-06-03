@@ -73,3 +73,11 @@ They are less effective on:
 - Digital grain simulation cannot perfectly replicate paper fiber texture, chemical staining patterns, or collodion pour marks
 - The 8-bit display pipeline limits subtleties visible in real alternative process prints
 - Actual alternative process tones shift under different lighting conditions — presets are optimized for D65 sRGB displays
+
+## See Also
+
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Black White Presets](../../docs/black-white.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

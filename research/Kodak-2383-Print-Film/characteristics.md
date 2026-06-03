@@ -1,7 +1,7 @@
-# Kodak 2383 Print Film — Characteristics
+# Kodak 2383 Print Film — Characteristics for Lightroom Presets
 
 ## Film Background
-Kodak Vision Color Print Film 2383 is the industry-standard print film for cinema. When you watch a movie in a theater, you're seeing light projected through this film. It replaced 2393 and has been the dominant print stock for decades.
+Kodak Vision Color Print Film 2383 is the industry-standard print film for cinema. When you watch a movie in a theater, you're seeing light projected through this film. It replaced 2393 and has been the dominant print stock for decades. This document serves as a reference for creating a Lightroom preset that emulates 2383 Print Film.
 
 ### Physical Properties
 - Polyester base (ESTAR) — incredibly durable
@@ -32,3 +32,13 @@ The 2383 print film creates a specific "look" that's become synonymous with cine
 - Subtle grain (print film is fine-grain) → Sharpness=10, LuminanceSmoothing=0 ✓
 - Aggressive cinematic Tone Curve ✓
 - ColorGradeBlending: 80 (cleaner color separation for print film) ✓
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Vision3 250D](../Kodak-Vision3-250D/characteristics.md)
+- [Kodak Vision3 500T](../Kodak-Vision3-500T/characteristics.md)
+- [CineStill 400D](../CineStill-400D/characteristics.md)

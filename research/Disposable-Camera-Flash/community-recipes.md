@@ -6,7 +6,7 @@
 
 ## Recipe 1: Lightroom Mobile "Quick Dispo" (from u/javascriptusman)
 
-**Source**: r/postprocessing — "After/before, disposable camera look" (Feb 2026, 615 upvotes)
+The Disposable Camera Flash Lightroom preset community recipes compile settings from photographers worldwide. **Source**: r/postprocessing — "After/before, disposable camera look" (Feb 2026, 615 upvotes)
 **Camera**: Sony A7C II with Viltrox 50mm f/2.0
 **Context**: Shot on modern mirrorless, edited on LR Mobile to emulate disposable camera look.
 
@@ -345,3 +345,11 @@ XMP tonals, HSL, color grading, and effects mostly match consensus. Blacks slide
 ---
 
 *Note: These are commercial products mentioned by users as starting points, not free recipes.*
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

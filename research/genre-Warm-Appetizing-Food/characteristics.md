@@ -1,7 +1,7 @@
-# Warm Appetizing Food — Characteristics
+# Warm Appetizing Food Lightroom Preset — Characteristics
 
 ## Use Case
-Restaurant, recipe, and food blog photography. Warm, inviting, makes food look hot and fresh. Works with breads, meats, golden-brown dishes.
+The Warm Appetizing Food Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Restaurant, recipe, and food blog photography. Warm, inviting, makes food look hot and fresh. Works with breads, meats, golden-brown dishes.
 
 ## Key Techniques
 Warm-dominant Color Grading: shadows H35 S12 + highlights H45 S10 envelop food in golden warmth. Red/Orange Sat +15 boost tomato, meat, and spice tones. Yellow Sat +10 enhances butter, cheese, bread crust. Texture +10 makes food surfaces tactile (bread crumb, sear marks). Green Sat -15 prevents garnish from stealing focus. |Vibrance−Saturation|=0. 18 attributes.
@@ -18,3 +18,11 @@ Warm-dominant Color Grading: shadows H35 S12 + highlights H45 S10 envelop food i
 - HSL Sat max: Within ±60
 - Blacks floor: ≥ -30
 - Grain protection: N/A (no grain)
+
+## See Also
+
+- [Genre Presets](../../docs/genre.md)
+- [Mobile Presets](../../docs/mobile.md)
+- [Seasonal Presets](../../docs/seasonal.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

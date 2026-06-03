@@ -1,7 +1,7 @@
-# Kodak T-Max 100 — Film Characteristics
+# Kodak T-Max 100 — Film Characteristics for Lightroom Presets
 
 ## Overview
-Kodak introduced T-Max 100 in 1986 alongside T-Max 400. It is a T-grain (tabular grain) black-and-white negative film known for exceptionally fine grain, high sharpness, and rich detail. T-Max films use flat, plate-like silver halide crystals that capture more light per surface area than traditional cubic-grain films.
+Kodak introduced T-Max 100 in 1986 alongside T-Max 400. It is a T-grain (tabular grain) black-and-white negative film known for exceptionally fine grain, high sharpness, and rich detail. T-Max films use flat, plate-like silver halide crystals that capture more light per surface area than traditional cubic-grain films. This document serves as a reference for creating a Lightroom preset that emulates T Max 100.
 
 ## Key Characteristics
 - **ISO**: 100 (nominal)
@@ -34,3 +34,14 @@ Kodak introduced T-Max 100 in 1986 alongside T-Max 400. It is a T-grain (tabular
 - Kodak Alaris Technical Data Sheet (F-4016)
 - Fuji X Weekly (Dan Allen's side-by-side matching, October 2024)
 - Kodak publication "Kodak Professional T-Max Films" (F-32)
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak T Max 400](../Kodak-T-Max-400/characteristics.md)
+- [Kodak T Max 3200](../Kodak-T-Max-3200/characteristics.md)
+- [Kodak Tri X 400](../Kodak-Tri-X-400/characteristics.md)
+- [Kodak Plus X 125](../Kodak-Plus-X-125/characteristics.md)

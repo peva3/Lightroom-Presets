@@ -1,8 +1,8 @@
-# Kodak Vision3 50D (5203) — Aesthetic Characteristics
+# Kodak Vision3 50D (5203) — Aesthetic Characteristics for Lightroom Presets
 
 ## Overview
 
-Kodak Vision3 50D (5203) is the slowest and finest-grained member of the Vision3 motion picture film family. Bal-anced for 5500K daylight, ISO 50 delivers virtually grainless images with extraordinary color accuracy, dynamic range, and sharpness. It is the cinematographer's choice for bright daylight exteriors, commercial work, and any scenario demanding the absolute highest image quality. In stills photography, 50D represents the zenith of film resolution and color purity.
+Kodak Vision3 50D (5203) is the slowest and finest-grained member of the Vision3 motion picture film family. Bal-anced for 5500K daylight, ISO 50 delivers virtually grainless images with extraordinary color accuracy, dynamic range, and sharpness. It is the cinematographer's choice for bright daylight exteriors, commercial work, and any scenario demanding the absolute highest image quality. In stills photography, 50D represents the zenith of film resolution and color purity. This document serves as a reference for creating a Lightroom preset that emulates Vision3 50D.
 
 ## Core Aesthetic Signature
 
@@ -51,3 +51,12 @@ The cinematographer's ultimate quality baseline
 - Cinematography.com forums
 - Dehancer and FilmBox reference profiles
 - YouTube Vision3 emulation tutorials
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Vision3 250D](../Kodak-Vision3-250D/characteristics.md)
+- [Kodak Vision3 500T](../Kodak-Vision3-500T/characteristics.md)

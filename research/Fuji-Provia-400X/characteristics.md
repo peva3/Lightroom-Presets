@@ -1,8 +1,8 @@
-# Fujichrome Provia 400X — Aesthetic Characteristics
+# Fujichrome Provia 400X — Aesthetic Characteristics for Lightroom Presets
 
 ## Overview
 
-Fuji Provia 400X (RXP) was a rare and remarkable film — a 400-speed color slide film. Most slide films max out at ISO 100-200, making a 400-speed transparency film a genuine technical achievement. Discontinued around 2013, it remains one of the most sought-after discontinued slide films.
+Fuji Provia 400X (RXP) was a rare and remarkable film — a 400-speed color slide film. Most slide films max out at ISO 100-200, making a 400-speed transparency film a genuine technical achievement. Discontinued around 2013, it remains one of the most sought-after discontinued slide films. This document serves as a reference for creating a Lightroom preset that emulates Provia 400X.
 
 ## Core Aesthetic Traits
 
@@ -44,3 +44,18 @@ Contrast is slightly higher than Provia 100F — a consequence of the faster emu
 - Fujifilm Provia 400X technical datasheet
 - t3mujinpack — Fuji film emulation reference pack
 - r/analog community — Provia 400X image posts and discussion
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fuji Velvia 50](../Fuji-Velvia-50/characteristics.md)
+- [Fuji Velvia 100](../Fuji-Velvia-100/characteristics.md)
+- [Fuji Astia 100F](../Fuji-Astia-100F/characteristics.md)
+- [Fuji Provia 100F](../Fuji-Provia-100F/characteristics.md)
+- [Fuji Provia 400F](../Fuji-Provia-400F/characteristics.md)
+- [Fuji Sensia 100](../Fuji-Sensia-100/characteristics.md)
+- [Fuji Fortia SP 50](../Fuji-Fortia-SP-50/characteristics.md)
+- [Kodak Ektachrome E100](../Kodak-Ektachrome-E100/characteristics.md)

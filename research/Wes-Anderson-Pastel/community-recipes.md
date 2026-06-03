@@ -377,3 +377,11 @@ All other attributes (HSL, split toning, basic panel, grain) already within 5% o
 - Recipe 1 is the most-referenced community base across Reddit, YouTube, and preset marketplaces. Values verified against 3 independent source types. ✓
 - Live Reddit confirmation from u/Strix-Livens (649 points, 79 comments) independently describes the same slider directions (lowered contrast, lowered highlights, increased shadows, yellow saturation boosted, green lowered, lowered clarity). ✓
 - No Wayback Machine snapshots with numeric values — all values come from modern live Reddit + YouTube aggregation. Source quality: GOOD for directions, MODERATE for exact midpoints (averaged across multiple range sources).
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

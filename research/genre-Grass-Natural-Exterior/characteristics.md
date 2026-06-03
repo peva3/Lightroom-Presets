@@ -1,7 +1,7 @@
-# Grass Natural Exterior — Characteristics
+# Grass Natural Exterior Lightroom Preset — Characteristics
 
 ## Use Case
-Exterior real estate and landscape architecture. Naturalizing grass and foliage while keeping structure crisp.
+The Grass Natural Exterior Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Exterior real estate and landscape architecture. Naturalizing grass and foliage while keeping structure crisp.
 
 ## Key Techniques
 Green Hue +15 shifts neon-green grass toward natural olive. Green Sat -20 calms digital oversaturation of lawns. Yellow Hue -10 shifts yellows toward orange for golden-hour warmth on exteriors. Yellow Sat +10 boosts golden tones in dry grass and fall landscaping. Gentle shadow cool (H210 S5) adds depth. 18 attributes — clean and natural.
@@ -18,3 +18,11 @@ Green Hue +15 shifts neon-green grass toward natural olive. Green Sat -20 calms 
 - HSL Sat max: Within ±60
 - Blacks floor: ≥ -30
 - Grain protection: N/A (no grain)
+
+## See Also
+
+- [Genre Presets](../../docs/genre.md)
+- [Mobile Presets](../../docs/mobile.md)
+- [Seasonal Presets](../../docs/seasonal.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

@@ -1,27 +1,51 @@
-# Lightroom Presets — 419 Free XMP Presets
+# Lightroom Presets — 444 Free XMP Presets
 
-The most comprehensive open-source film emulation and creative preset library on GitHub. All presets are free, modern (ProcessVersion 15.4), and STYLEGUIDE-compliant.
+The most comprehensive open-source film emulation and creative preset library on GitHub. Free and open-source alternative to VSCO, Mastin Labs, and RNI Films. All presets are modern (ProcessVersion 15.4), STYLEGUIDE-compliant, and ready for Lightroom Classic & CC.
+
+**[Download all 444 presets](lr-presets-all.xmp.zip)** (one-click ZIP) · [Changelog](CHANGELOG.md) · [Release v3.0.0](https://github.com/peva3/Lightroom-Presets/releases/tag/v3.0.0)
+
+## Featured Film Stocks
+
+**Kodak:** Portra 160 · 400 · 800, Gold 200, Ektar 100, Ultramax 400, Tri-X 400, T-Max 100 · 400 · 3200, Ektachrome E100, Kodachrome 64 · 25 · 200, Vision3 250D · 500T · 50D, ColorPlus 200, Plus-X 125, Panatomic-X 32, Technical Pan
+
+**Fuji:** Superia X-TRA 400 · 800 · 1600, Pro 400H · 160NS · 160C · 800Z, Velvia 50 · 100, Provia 100F · 400F · 400X, Astia 100F, Acros, Classic Chrome, Classic Negative, Neopan 400 · 1600, Natura 1600, Reala 100, Fortia SP 50
+
+**Ilford:** HP5 Plus, Delta 3200 · 400 · 100, Pan F Plus 50, FP4 Plus 125, XP2 Super, Ortho Plus 80, SFX 200
+
+**Cinestill:** 800T · 50D · 400D · Pushed 800T · BWXX
+
+**Creative Styles:** VHS Synthwave · Cyberpunk Neon · Bleach Bypass · Cross-Process · Teal & Orange · Wes Anderson Pastel · Wong Kar-Wai 80s HK · Polaroid SX-70 · Super 8 Home Movie · Matte Fade · Cinematic Dream · Disposable Camera · Aerochrome · Lomography Purple/Metropolis · Film Soup · Classic Cuban Negative · Moody Cinematic Film · High-Key Coastal Pastel
+
+**Alternative Processes:** Cyanotype · Wet Plate Tintype/Ambrotype · Daguerreotype · Platinum/Palladium · Autochrome ·Salt Print · Van Dyke Brown · Gum Bichromate · Solarization · Holga/Diana/Pinhole · Redscale
+
+**Genre:** Wedding · Newborn · Real Estate · Food · Product · Fashion · Sports · Concert · Astro · Underwater · Aerial · Wildlife · Street
+
+**+250 more** — 444 presets total across 14 categories. [Browse all categories →](docs/index.md)
 
 ## Categories
 
 | # | Category | Presets | Page |
 |---|---|---|---|
-| 1 | Color Negative Film | 78 | [docs/color-negative.md](docs/color-negative.md) |
-| 2 | Black & White Film | 46 | [docs/black-white.md](docs/black-white.md) |
-| 3 | Slide / E-6 Film | 16 | [docs/slide.md](docs/slide.md) |
-| 4 | Creative / Cinematic | 42 | [docs/creative.md](docs/creative.md) |
-| 5 | Alternative Processes | 25 | [docs/alternative-process.md](docs/alternative-process.md) |
-| 6 | Utility & Tools | 40 | [docs/utility.md](docs/utility.md) |
-| 7 | Genre-Specific | 32 | [docs/genre.md](docs/genre.md) |
-| 8 | Seasonal & Holiday | 20 | [docs/seasonal.md](docs/seasonal.md) |
-| 9 | Historical Decade | 25 | [docs/decade.md](docs/decade.md) |
-| 10 | Geographic & Cultural | 32 | [docs/geographic.md](docs/geographic.md) |
-| 11 | Mobile & Social Media | 23 | [docs/mobile.md](docs/mobile.md) |
-| 12 | Photographer Styles | 20 | [docs/photographer.md](docs/photographer.md) |
-| 13 | Video LUT Reference | 20 | [docs/video.md](docs/video.md) |
-| **Total** | | **419** | [docs/index.md](docs/index.md) |
+| 1 | Color Negative Film | 78 | [color-negative.md](docs/color-negative.md) |
+| 2 | Black & White Film | 46 | [black-white.md](docs/black-white.md) |
+| 3 | Slide / E-6 Film | 16 | [slide.md](docs/slide.md) |
+| 4 | Creative / Cinematic | 42 | [creative.md](docs/creative.md) |
+| 5 | Alternative Processes | 25 | [alternative-process.md](docs/alternative-process.md) |
+| 6 | Utility & Tools | 40 | [utility.md](docs/utility.md) |
+| 7 | Genre-Specific | 32 | [genre.md](docs/genre.md) |
+| 8 | Seasonal & Holiday | 20 | [seasonal.md](docs/seasonal.md) |
+| 9 | Historical Decade | 25 | [decade.md](docs/decade.md) |
+| 10 | Geographic & Cultural | 32 | [geographic.md](docs/geographic.md) |
+| 11 | Mobile & Social Media | 23 | [mobile.md](docs/mobile.md) |
+| 12 | Photographer Styles | 20 | [photographer.md](docs/photographer.md) |
+| 13 | Video LUT Reference | 20 | [video.md](docs/video.md) |
+| **Total** | | **444** | [All categories →](docs/index.md) |
 
-## Installation
+## Why Free and Open Source?
+
+VSCO, Mastin Labs, and RNI Films sell preset packs for $50–$150+. This project provides a larger, free, open-source alternative — 444 XMP presets with modern ProcessVersion 15.4, researched from community recipes (Reddit, YouTube, forums, Fuji X Weekly), and validated against real film characteristics. No proprietary formats, no paywalls, just `.xmp` files you can inspect, modify, and share.
+
+## How to Install (Lightroom Classic & CC)
 
 1. Download the `.xmp` files from the `Presets/` folder in this repo — organized into subfolders by category.
 2. Copy the `.xmp` files into your Lightroom Develop Presets folder:
@@ -29,15 +53,14 @@ The most comprehensive open-source film emulation and creative preset library on
    - **Windows:** `%APPDATA%\Adobe\Lightroom\Develop Presets\`
 3. Restart Lightroom. Presets will appear grouped by folder name.
 
-## Usage Tips
+## Tips for Best Results
 
 - **White Balance is key.** Many film presets assume a specific temperature. If colors feel off, adjust WB first — Portra presets expect warmth, Cinestill expects cool/tungsten.
 - **Exposure varies.** Apply the preset, then tweak the Exposure slider. These are starting points calibrated for well-exposed RAW files.
 - **Grain scales with resolution.** Grain settings were tuned for 24MP images. Reduce Grain Amount for lower-res shots.
 - **Stack 'em.** Try applying a film preset for color, then adding a creative preset (like Matte Fade or Cinematic Dream) as a second pass.
-- **Process Version.** All presets use Process Version 15.4 (Camera Raw 6). Older versions may render differently.
 
-## Architecture
+## Technical Architecture
 
 All presets follow the [STYLEGUIDE.md](STYLEGUIDE.md). Key rules:
 - ProcessVersion 15.4, proper Camera Profile Look blocks, neutral ToneCurvePV2012

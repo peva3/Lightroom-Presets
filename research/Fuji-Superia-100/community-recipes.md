@@ -118,3 +118,13 @@ Final XMP values, cross-referenced from Fuji X Weekly Superia 100 recipe:
 - r/AnalogCommunity: Superia 100 discussion
 - r/FujifilmSimulations: Superia recipe community
 - Fujifilm Superia product line documentation
+
+---
+
+## See Also
+
+- [Fuji Superia 100 — Film Characteristics](../Fuji-Superia-100/characteristics.md)
+- [Fuji Superia 200 Lightroom Preset](../Fuji-Superia-200/community-recipes.md)
+- [Fuji Superia 800 Lightroom Preset](../Fuji-Superia-800/community-recipes.md)
+- [Fuji Superia 1600 Lightroom Preset](../Fuji-Superia-1600/community-recipes.md)
+- [XMP Preset: Fuji Superia 100](../../Presets/Color-Negative/Fuji Superia 100.xmp)

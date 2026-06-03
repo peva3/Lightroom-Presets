@@ -1,4 +1,4 @@
-# Kodak Vision3 500T (5219) — Community Recipes
+# Kodak Vision3 500T (5219) — Lightroom Preset Settings & Recipes
 
 ## YouTube Tutorial Source
 
@@ -66,3 +66,12 @@ Users emulating Vision3 500T for stills:
 - Cinematography.com: Vision3 comparison threads
 - Kodak Vision3 5219 technical data sheet
 - Dehancer / FilmBox professional reference profiles
+
+---
+
+## See Also
+
+- [Kodak Vision3 500T — Film Characteristics](../Kodak-Vision3-500T/characteristics.md)
+- [Kodak Vision3 50D Lightroom Preset](../Kodak-Vision3-50D/community-recipes.md)
+- [Kodak Vision3 250D Lightroom Preset](../Kodak-Vision3-250D/community-recipes.md)
+- [XMP Preset: Kodak Vision3 500T](../../Presets/Color-Negative/Kodak Vision3 500T.xmp)

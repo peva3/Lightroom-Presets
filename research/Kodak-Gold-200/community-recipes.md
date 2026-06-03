@@ -597,3 +597,13 @@ Current XMP values are aligned with community consensus after STYLEGUIDE correct
 **Flagged for correction**: Calibration (removed per Commandment #3), WB (removed per Commandment #4), Sharpening reduced to 10 (Commandment #7), Clarity→0 (Commandment #7). All corrections already applied in current XMP.
 
 **Batch 1 Review (June 2026):** Confirmed. XMP verified: no Calibration, no WB, Sharpness=10, Clarity=0, Dehaze=0, GrainAmount=35 with grain protection active, |Vibrance(0)−Saturation(0)|=0 ≤ 5. All STYLEGUIDE rules pass. Status: RESOLVED.
+
+---
+
+## See Also
+
+- [Kodak Gold 200 — Film Characteristics](../Kodak-Gold-200/characteristics.md)
+- [Kodak ColorPlus 200 Lightroom Preset](../Kodak-ColorPlus-200/community-recipes.md)
+- [Kodak Ultramax 400 Lightroom Preset](../Kodak-Ultramax-400/community-recipes.md)
+- [Kodak Pro Image 100 Lightroom Preset](../Kodak-Pro-Image-100/community-recipes.md)
+- [XMP Preset: Kodak Gold 200](../../Presets/Color-Negative/Kodak Gold 200.xmp)

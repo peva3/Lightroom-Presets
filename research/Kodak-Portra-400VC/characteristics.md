@@ -1,4 +1,4 @@
-# Kodak Portra 400VC — Film Characteristics
+# Kodak Portra 400VC — Film Characteristics for Lightroom Presets
 
 > Pre-2010 "Vivid Color" 400-speed Portra variant. Punchier than standard Portra 400, more contrast, warmer and more saturated skin tones. The higher-speed sibling of Portra 160VC.
 
@@ -6,7 +6,7 @@
 
 ## Core Aesthetic Identity
 
-| Attribute | Portra 400VC Characteristic |
+| Attribute | Portra 400VC Characteristic | This document serves as a reference for creating a Lightroom preset that emulates Portra 400VC.
 |-----------|---------------------------|
 | Contrast | Medium-High (higher than Portra 400) |
 | Saturation | Elevated — "Vivid Color" at 400 speed |
@@ -51,3 +51,21 @@ Portra 400VC is the "missing link" between Portra 400's gentle character and the
 ---
 
 *Compiled June 2026 from Kodak datasheets, community forums, and t3mujinpack reference data.*
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Portra 160NC](../Kodak-Portra-160NC/characteristics.md)
+- [Kodak Portra 400](../Kodak-Portra-400/characteristics.md)
+- [Kodak Portra 400NC](../Kodak-Portra-400NC/characteristics.md)
+- [Kodak Portra 400UC](../Kodak-Portra-400UC/characteristics.md)
+- [Kodak Portra 160VC](../Kodak-Portra-160VC/characteristics.md)
+- [Kodak Portra 160](../Kodak-Portra-160/characteristics.md)
+- [Kodak Portra 800](../Kodak-Portra-800/characteristics.md)
+- [Kodak Gold 200](../Kodak-Gold-200/characteristics.md)
+- [Kodak Ektar 100](../Kodak-Ektar-100/characteristics.md)
+- [Kodak Ultramax 400](../Kodak-Ultramax-400/characteristics.md)
+- [Fujifilm Pro 400H](../Fujifilm-Pro-400H/characteristics.md)

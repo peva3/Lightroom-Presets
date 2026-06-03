@@ -1,7 +1,7 @@
-# White BG E-Commerce — Characteristics
+# White BG E-Commerce Lightroom Preset — Characteristics
 
 ## Use Case
-E-commerce product photography on white backgrounds. Amazon, Shopify, eBay. Clean, accurate color, sharp detail.
+The White BG E Commerce Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. E-commerce product photography on white backgrounds. Amazon, Shopify, eBay. Clean, accurate color, sharp detail.
 
 ## Key Techniques
 High Exposure (+0.50) + Whites (+25) blow out backgrounds to pure white. Highlights -50 protects product surface highlights from clipping. Clarity +10 + Texture +5 for crisp product detail and texture. Saturation neutral to preserve color accuracy. Minimal Color Grading for neutrality. 15 attributes — simple and consistent.
@@ -18,3 +18,11 @@ High Exposure (+0.50) + Whites (+25) blow out backgrounds to pure white. Highlig
 - HSL Sat max: Within ±60
 - Blacks floor: ≥ -30
 - Grain protection: N/A (no grain)
+
+## See Also
+
+- [Genre Presets](../../docs/genre.md)
+- [Mobile Presets](../../docs/mobile.md)
+- [Seasonal Presets](../../docs/seasonal.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

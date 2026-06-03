@@ -1,4 +1,4 @@
-# Fujifilm Eterna — Community Recipes
+# Fujifilm Eterna — Lightroom Preset Settings & Recipes
 
 ## Source: Fuji X Weekly (Eterna Summer recipe)
 
@@ -48,3 +48,13 @@ Exposure Compensation: +1/3 to +2/3 (typically)
 | Shadows | Open (0) | Crushed (-20) |
 | Color cast | Warm golden | Metallic cool-warm |
 | Category | Color-Negative | Creative |
+
+---
+
+## See Also
+
+- [Fujifilm Eterna — Film Characteristics](../Fujifilm-Eterna/characteristics.md)
+- [Fujifilm Eterna Bleach Bypass Lightroom Preset](../Fujifilm-Eterna-Bleach-Bypass/community-recipes.md)
+- [Fujifilm Classic Negative Lightroom Preset](../Fujifilm-Classic-Negative/community-recipes.md)
+- [Fujifilm Pro 400H Lightroom Preset](../Fujifilm-Pro-400H/community-recipes.md)
+- [XMP Preset: Fujifilm Eterna](../../Presets/Creative/Fujifilm-Eterna-Bleach-Bypass.xmp)

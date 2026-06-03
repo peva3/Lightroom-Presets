@@ -1,10 +1,18 @@
-# Stage Lighting — Community Recipes
+# Stage Lighting Lightroom Preset — Community Recipes
 
 ## Sources
-r/concertphotography: stage lighting is your friend — enhance it, don't fight it. Mango Street concert editing: contrast + clarity + color grade. cinemorapresets.com: Stage Performance formula uses high contrast, dehaze, color grade enhancement.
+The Stage Lighting Lightroom preset community recipes compile settings from photographers worldwide. r/concertphotography: stage lighting is your friend — enhance it, don't fight it. Mango Street concert editing: contrast + clarity + color grade. cinemorapresets.com: Stage Performance formula uses high contrast, dehaze, color grade enhancement.
 
 ## STYLEGUIDE v2.1 Alignment
 - Fixed: Follows Genre defaults (cinematic curve, Blacks=0, Blending=75)
 - Hard bans clean: No Calibration, no Temperature/Tint, HSL Sat all within ±60
 - Boilerplate verified: ProcessVersion=15.4, Treatment=Color, Adobe Color Look, 75 Blending
 - Grain rule: No grain — standard detail settings apply
+
+## See Also
+
+- [Genre Presets](../../docs/genre.md)
+- [Mobile Presets](../../docs/mobile.md)
+- [Seasonal Presets](../../docs/seasonal.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

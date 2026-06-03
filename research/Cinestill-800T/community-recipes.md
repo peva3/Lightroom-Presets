@@ -294,3 +294,13 @@ No value changes — all major attributes already matched community consensus mi
 - **Dehaze**: 0 → -7.5 (matches Joe -5 to -10, restored from false removal)
 - **Saturation/Vibrance**: Removed entirely (no community source; fuzzy-merge artifact)
 - Remaining gap: HSL color work absent, RGB curves missing. These would enhance but are not in the current validated table.
+
+---
+
+## See Also
+
+- [Cinestill 800T — Film Characteristics](../Cinestill-800T/characteristics.md)
+- [CineStill 400D Lightroom Preset](../CineStill-400D/community-recipes.md)
+- [CineStill 50D Lightroom Preset](../CineStill-50D/community-recipes.md)
+- [Kodak Vision3 500T Lightroom Preset](../Kodak-Vision3-500T/community-recipes.md)
+- [XMP Preset: Cinestill 800T](../../Presets/Creative/Cinestill 800T.xmp)

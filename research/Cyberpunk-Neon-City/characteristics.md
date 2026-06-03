@@ -1,4 +1,4 @@
-# Characteristics — Cyberpunk Neon City Aesthetic Breakdown
+# Characteristics Lightroom Preset — Cyberpunk Neon City Aesthetic Breakdown
 
 > A comprehensive analysis of the visual language, color theory, and technical qualities that define the Cyberpunk Neon City aesthetic in photography and film.
 
@@ -6,7 +6,7 @@
 
 ## 1. The Core Palette: Magenta/Cyan Neon
 
-The cyberpunk neon city look is fundamentally a **complementary color scheme** built on:
+The Cyberpunk Neon City Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The cyberpunk neon city look is fundamentally a **complementary color scheme** built on:
 
 ### Primary Axis
 - **Magenta / Hot Pink / Purple** — The dominant neon color. Represents synthetic life, holographic advertisement, the feminine-coded artificial (Joi in BR2049), and digital consciousness.
@@ -197,3 +197,11 @@ The cyberpunk neon city aesthetic is not purely visual — it carries specific e
 - Even more extreme clarity/dehaze
 - Teal/orange split toning hybridized with magenta accents
 - Often combined with "glow" / "bloom" / "diffusion" filters
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

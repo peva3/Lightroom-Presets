@@ -1,8 +1,8 @@
-# Kodak Farbwelt 200 Expired — Full Aesthetic Breakdown
+# Kodak Farbwelt 200 Expired — Full Aesthetic Breakdown for Lightroom Presets
 
 ## Overview
 
-Kodak Farbwelt 200 ("Farbwelt" = "Color World" in German) was Kodak consumer color negative film sold in the German market from 2000 until approximately 2012–2013. It was likely a rebranded or slightly retooled version of Kodak Gold 200 specifically for German/European distribution. There were also ISO 100, 400, and 800 versions.
+Kodak Farbwelt 200 ("Farbwelt" = "Color World" in German) was Kodak consumer color negative film sold in the German market from 2000 until approximately 2012–2013. It was likely a rebranded or slightly retooled version of Kodak Gold 200 specifically for German/European distribution. There were also ISO 100, 400, and 800 versions. This document serves as a reference for creating a Lightroom preset that emulates Farbwelt 200 Expired.
 
 This preset specifically targets the **expired** version of Farbwelt 200 — film that has aged past its development-by date. Expired color negative film takes on warm amber/brown tones, loses saturation, develops heavy base fog (lifting blacks), and shows more pronounced/irregular grain.
 
@@ -83,3 +83,12 @@ Described as "soft warm tones — like a memory of summertime." Resembles the 19
 - Fuji X Weekly: Kodak Farbwelt 200 Expired (Thomas Schwab) — December 2025
 - Kodak product history (Farbwelt branding)
 - Community knowledge on expired color negative behavior
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Gold 200](../Kodak-Gold-200/characteristics.md)
+- [Kodak ColorPlus 200](../Kodak-ColorPlus-200/characteristics.md)

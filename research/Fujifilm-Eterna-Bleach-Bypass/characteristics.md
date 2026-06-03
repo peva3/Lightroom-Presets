@@ -1,7 +1,7 @@
-# Fujifilm Eterna Bleach Bypass — Characteristics
+# Fujifilm Eterna Bleach Bypass — Characteristics for Lightroom Presets
 
 ## Process Profile
-- **Type:** Silver retention cinema process (bleach bypass on Eterna stock)
+- **Type:** Silver retention cinema process (bleach bypass on Eterna stock) This document serves as a reference for creating a Lightroom preset that emulates Eterna Bleach Bypass.
 - **Base stock:** Fujifilm Eterna color negative cinema film
 - **Process:** C-41 development with bleach step skipped → silver retained in emulsion
 - **Status:** Specialty lab process (not standard)
@@ -37,3 +37,12 @@
 - **Base:** Fujifilm Eterna stock characteristics + bleach bypass processing effects
 - **Key moves:** Extreme contrast, heavy HSL desaturation, metallic color grading, coarse grain
 - **Translation date:** 2026-06-01
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fujifilm Eterna](../Fujifilm-Eterna/characteristics.md)
+- [Fujifilm Classic Negative](../Fujifilm-Classic-Negative/characteristics.md)

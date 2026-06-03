@@ -1,8 +1,8 @@
-# Lomochrome Purple — Community Recipes for Digital Emulation
+# Lomochrome Purple Lightroom Preset — Community Recipes for Digital Emulation
 
 ## The Core Secret: Green/Blue Channel Swap
 
-The essential mechanism behind Lomochrome Purple is functionally a **Green/Blue channel swap** in the color layers. This insight comes from:
+The Lomochrome Purple Lightroom preset community recipes compile settings from photographers worldwide. The essential mechanism behind Lomochrome Purple is functionally a **Green/Blue channel swap** in the color layers. This insight comes from:
 - Reddit user **u/Gratos_in_Panflavul** (r/postprocessing, June 2025):
   > "If you know the analog film Lomochrome Purple, you may know that secret to the strange colors of this film is a **Green/Blue channel swap**."
 
@@ -341,3 +341,11 @@ These compromises are documented and acknowledged. The preset remains true to th
 
 ### Documentation Fix (2026-06-01)
 - Fixed false claim: STYLEGUIDE section said "29→18 meaningful attributes after cleanup" but XMP has 39. The "Default-value attributes removed" list was aspirational — those defaults were never actually stripped from the XMP. Documentation corrected to reflect actual XMP state.
+
+## See Also
+
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Slide Presets](../../docs/slide.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

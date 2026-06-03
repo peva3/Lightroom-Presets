@@ -1,4 +1,4 @@
-# Fujicolor Pro 160NS — Full Aesthetic Characteristics
+# Fujicolor Pro 160NS — Full Aesthetic Characteristics for Lightroom Presets
 
 > The definitive breakdown of Fujifilm's pastel portrait film — cool-cyan shadows, low contrast, and the "pro wedding photographer" palette.
 
@@ -6,7 +6,7 @@
 
 ## Executive Summary
 
-Fujicolor PRO 160NS (2010–2021) was Fujifilm's professional-grade 160-speed color negative film. Preceded by PRO 160S (2005–2010) and NPS 160 (1990s). It is a **pastel, low-contrast portrait film** with a distinctive **cool cyan-green shadow bias** and **neutral-cool skin tones**. Unlike Kodak Portra's warm-amber skin rendering, 160NS delivers clean, faithful color with a subtle cool undertone that wedding and editorial photographers prized for its timeless, airy look.
+Fujicolor PRO 160NS (2010–2021) was Fujifilm's professional-grade 160-speed color negative film. Preceded by PRO 160S (2005–2010) and NPS 160 (1990s). It is a **pastel, low-contrast portrait film** with a distinctive **cool cyan-green shadow bias** and **neutral-cool skin tones**. Unlike Kodak Portra's warm-amber skin rendering, 160NS delivers clean, faithful color with a subtle cool undertone that wedding and editorial photographers prized for its timeless, airy look. This document serves as a reference for creating a Lightroom preset that emulates Pro 160NS.
 
 ---
 
@@ -124,3 +124,15 @@ Base: PRO Neg. Hi, DR400, Grain Weak, WB Daylight 0/0, NR -4, Sharpness -3
 - Fujifilm USA official product page (archived)
 - r/AnalogCommunity — PRO 160NS discussion threads
 - t3mujinpack GitHub — Darktable film emulation reference
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fujifilm Pro 400H](../Fujifilm-Pro-400H/characteristics.md)
+- [Fuji Pro 160C](../Fuji-Pro-160C/characteristics.md)
+- [Fuji Pro 800Z](../Fuji-Pro-800Z/characteristics.md)
+- [Kodak Portra 400](../Kodak-Portra-400/characteristics.md)
+- [Fujifilm Classic Negative](../Fujifilm-Classic-Negative/characteristics.md)

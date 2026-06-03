@@ -1,4 +1,4 @@
-# Kodak Portra 400 — Full Aesthetic Characteristics
+# Kodak Portra 400 — Full Aesthetic Characteristics for Lightroom Presets
 
 > Everything that makes Portra 400 the most sought-after film stock for digital emulation. Warmer than 160, Noritsu vs Frontier, overexposure behavior, and the "scan vs negative" debate.
 
@@ -7,7 +7,7 @@
 ## Core Aesthetic Identity
 
 ### The "Portra Look" in Six Words
-**Warm, flattering, pastel, creamy, open, forgiving.**
+**Warm, flattering, pastel, creamy, open, forgiving.** This document serves as a reference for creating a Lightroom preset that emulates Portra 400.
 
 | Attribute | Portra 400 Characteristic |
 |-----------|--------------------------|
@@ -263,3 +263,21 @@ When comparing your digital emulation to real Portra 400, check:
 ---
 
 *Compiled May 2026 from Reddit (r/analog, r/Lightroom, r/postprocessing), photography forums, YouTube tutorials, and technical documentation. The "community wisdom" sections represent consensus from hundreds of forum posts, not objective fact — film aesthetics are inherently subjective.*
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Portra 160NC](../Kodak-Portra-160NC/characteristics.md)
+- [Kodak Portra 400VC](../Kodak-Portra-400VC/characteristics.md)
+- [Kodak Portra 400NC](../Kodak-Portra-400NC/characteristics.md)
+- [Kodak Portra 400UC](../Kodak-Portra-400UC/characteristics.md)
+- [Kodak Portra 160VC](../Kodak-Portra-160VC/characteristics.md)
+- [Kodak Portra 160](../Kodak-Portra-160/characteristics.md)
+- [Kodak Portra 800](../Kodak-Portra-800/characteristics.md)
+- [Kodak Gold 200](../Kodak-Gold-200/characteristics.md)
+- [Kodak Ektar 100](../Kodak-Ektar-100/characteristics.md)
+- [Kodak Ultramax 400](../Kodak-Ultramax-400/characteristics.md)
+- [Fujifilm Pro 400H](../Fujifilm-Pro-400H/characteristics.md)

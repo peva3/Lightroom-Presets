@@ -1,4 +1,4 @@
-# Kodak Vericolor III 160 — Community Recipes
+# Kodak Vericolor III 160 — Lightroom Preset Settings & Recipes
 
 > Compiled from Fuji X Weekly (Ritchie Roesch, Feb 2026), Reddit (r/analog, r/Lightroom), and photography forums. The wedding/school portrait standard for 20+ years.
 
@@ -74,3 +74,13 @@ Community members note: Vericolor III looks "wrong" on modern digital images if 
 ---
 
 *Compiled June 2026 from Fuji X Weekly, Reddit, Photrio, and Flickr community data.*
+
+---
+
+## See Also
+
+- [Kodak Vericolor III 160 — Film Characteristics](../Kodak-Vericolor-III-160/characteristics.md)
+- [Kodak Vericolor VPS Lightroom Preset](../Kodak-Vericolor-VPS/community-recipes.md)
+- [Kodak Portra 160 Lightroom Preset](../Kodak-Portra-160/community-recipes.md)
+- [Fujifilm Pro 400H Lightroom Preset](../Fujifilm-Pro-400H/community-recipes.md)
+- [XMP Preset: Kodak Vericolor III 160](../../Presets/Color-Negative/Kodak Vericolor III 160.xmp)

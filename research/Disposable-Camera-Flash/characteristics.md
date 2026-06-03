@@ -1,8 +1,8 @@
-# Disposable Camera Flash Aesthetic — Characteristics
+# Disposable Camera Flash Aesthetic Lightroom Preset — Characteristics
 
 ## Overview
 
-The **Disposable Camera Flash** aesthetic is the look produced by single-use film cameras such as the Fuji QuickSnap and Kodak FunSaver. It is distinct from the Y2K digicam look — this is **analog film**, not early digital CCD sensors. The aesthetic is defined by cheap plastic optics, harsh on-axis flash, warm consumer-grade film tones, and a soft, slightly degraded image quality that has become iconic for 1990s-2000s snapshot culture.
+The Disposable Camera Flash Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The **Disposable Camera Flash** aesthetic is the look produced by single-use film cameras such as the Fuji QuickSnap and Kodak FunSaver. It is distinct from the Y2K digicam look — this is **analog film**, not early digital CCD sensors. The aesthetic is defined by cheap plastic optics, harsh on-axis flash, warm consumer-grade film tones, and a soft, slightly degraded image quality that has become iconic for 1990s-2000s snapshot culture.
 
 ## Key Optical Characteristics
 
@@ -81,3 +81,11 @@ The **Disposable Camera Flash** aesthetic is the look produced by single-use fil
 | Resolution | Limited by film/scan (~6-12MP equiv) | Low-res sensor (1-5MP native) |
 | White balance | Fixed to film stock color balance | Auto WB often confused by flash |
 | Date imprint | No (unless lab added) | Often has orange date stamp |
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

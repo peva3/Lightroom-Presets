@@ -1,8 +1,8 @@
-# Platinum Print — Complete Aesthetic Breakdown
+# Platinum Print Lightroom Preset — Complete Aesthetic Breakdown
 
 ## Core Aesthetic Signature
 
-The platinum print (platinotype), patented by William Willis in 1873, uses platinum metal instead of silver to form the image. Platinum lies directly in the paper fibers rather than in an emulsion layer, creating images with incredible archival permanence, luminous midtones, and a subtle warm-grey tonal range. It was the preferred process of Alfred Stieglitz, Edward Steichen, and other Photo-Secessionists.
+The platinum print Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The platinum print (platinotype), patented by William Willis in 1873, uses platinum metal instead of silver to form the image. Platinum lies directly in the paper fibers rather than in an emulsion layer, creating images with incredible archival permanence, luminous midtones, and a subtle warm-grey tonal range. It was the preferred process of Alfred Stieglitz, Edward Steichen, and other Photo-Secessionists.
 
 ## Historical Context
 
@@ -35,3 +35,11 @@ This preset is designed to capture the essential visual character of the platinu
 - Alternative Photography (alternativephotography.com)
 - Christopher James: *The Book of Alternative Photographic Processes*
 - Community knowledge from r/analog, r/Darkroom, and photography forums
+
+## See Also
+
+- [Alternative Process Presets](../../docs/alternative-process.md)
+- [Black White Presets](../../docs/black-white.md)
+- [Creative Presets](../../docs/creative.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

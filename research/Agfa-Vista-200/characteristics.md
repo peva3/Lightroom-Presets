@@ -1,8 +1,8 @@
-# Agfa Vista 200 — Full Aesthetic Breakdown
+# Agfa Vista 200 — Full Aesthetic Breakdown for Lightroom Presets
 
 ## Overview
 
-Agfa Vista 200 was the quintessential **cheap-film-with-soul** color negative stock of the 2010s analog revival. Manufactured by Fujifilm but sold under the historic Agfa brand at drugstore prices, it became a cult favorite — particularly in the UK where it was stocked at Poundland for £1 per 24-exposure roll. It was discontinued in early 2018, turning remaining stocks into collectibles overnight.
+Agfa Vista 200 was the quintessential **cheap-film-with-soul** color negative stock of the 2010s analog revival. Manufactured by Fujifilm but sold under the historic Agfa brand at drugstore prices, it became a cult favorite — particularly in the UK where it was stocked at Poundland for £1 per 24-exposure roll. It was discontinued in early 2018, turning remaining stocks into collectibles overnight. This document serves as a reference for creating a Lightroom preset that emulates Vista 200.
 
 Its aesthetic was defined by one thing: **over-the-top saturation that absolutely blasted primary colors, especially reds**, while costing less than a cup of coffee.
 
@@ -185,3 +185,13 @@ Agfa Vista 200 was Fuji-made, very closely related to C200, but **not identical*
 - Wikipedia: AgfaPhoto
 - Flickr: Agfa Vista 200 search (73,286 images)
 - Casual Photophile, Emulsive, 35mmc (various articles — URLs no longer accessible)
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Agfa Vista 100](../Agfa-Vista-100/characteristics.md)
+- [Agfa Vista 400](../Agfa-Vista-400/characteristics.md)
+- [Kodak Gold 200](../Kodak-Gold-200/characteristics.md)

@@ -82,3 +82,13 @@ The most-cited community recipe comes from Fuji X Weekly's CineStill 400D v2, cr
 ---
 
 *Last updated: June 2026*
+
+---
+
+## See Also
+
+- [CineStill 400D — Film Characteristics](../CineStill-400D/characteristics.md)
+- [Cinestill 800T Lightroom Preset](../Cinestill-800T/community-recipes.md)
+- [CineStill 50D Lightroom Preset](../CineStill-50D/community-recipes.md)
+- [Kodak Vision3 250D Lightroom Preset](../Kodak-Vision3-250D/community-recipes.md)
+- [XMP Preset: CineStill 400D](../../Presets/Color-Negative/CineStill 400D.xmp)

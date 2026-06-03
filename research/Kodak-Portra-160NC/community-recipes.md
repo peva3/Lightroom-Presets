@@ -1,4 +1,4 @@
-# Kodak Portra 160NC — Community Recipes
+# Kodak Portra 160NC — Lightroom Preset Settings & Recipes
 
 > "Natural Color" variant — lower contrast, more neutral than standard Portra 160. Sourced from t3mujinpack and film characteristics.
 
@@ -72,3 +72,13 @@ The project's existing Portra 160 preset provides the baseline. Portra 160NC dif
 - t3mujinpack GitHub — Kodak Portra 160 NC Darktable preset
 - Kodak Professional — E-4046 PORTRA Films technical data
 - Project's existing Kodak Portra 160 preset (baseline reference)
+
+---
+
+## See Also
+
+- [Kodak Portra 160NC — Film Characteristics](../Kodak-Portra-160NC/characteristics.md)
+- [Kodak Portra 400VC Lightroom Preset](../Kodak-Portra-400VC/community-recipes.md)
+- [Kodak Portra 400 Lightroom Preset](../Kodak-Portra-400/community-recipes.md)
+- [Kodak Portra 400NC Lightroom Preset](../Kodak-Portra-400NC/community-recipes.md)
+- [XMP Preset: Kodak Portra 160NC](../../Presets/Color-Negative/Kodak Portra 160NC.xmp)

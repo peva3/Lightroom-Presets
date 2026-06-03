@@ -1,4 +1,4 @@
-# Community Recipes — Neopan 1600 Emulation in Lightroom
+# Fuji Neopan 1600 — Lightroom Preset Settings & Recipes
 
 > Compiled from t3mujinpack, r/analog, r/Lightroom, and film photography forums.
 
@@ -69,3 +69,13 @@ Neopan 1600 is a discontinued film, so community recipes are based on memory, sc
 | Fujifilm datasheet | Medium (discontinued, archive) | High — original specifications |
 | r/analog | Medium | Medium — discussed in context of discontinuation |
 | Photrio | High (archive) | Medium — developer and push discussion |
+
+---
+
+## See Also
+
+- [Fuji Neopan 1600 — Film Characteristics](../Fuji-Neopan-1600/characteristics.md)
+- [Fuji Neopan 400 Lightroom Preset](../Fuji-Neopan-400/community-recipes.md)
+- [Kodak T Max 3200 Lightroom Preset](../Kodak-T-Max-3200/community-recipes.md)
+- [Fuji Natura 1600 Lightroom Preset](../Fuji-Natura-1600/community-recipes.md)
+- [XMP Preset: Fuji Neopan 1600](../../Presets/Black-White/Fuji Neopan 1600.xmp)

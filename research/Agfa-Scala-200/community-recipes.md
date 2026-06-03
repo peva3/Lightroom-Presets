@@ -1,4 +1,4 @@
-# Agfa Scala 200 — Community Recipes
+# Agfa Scala 200 — Lightroom Preset Settings & Recipes
 
 ## Primary Source: Fuji X Weekly (Ritchie Roesch, August 2018)
 
@@ -34,3 +34,11 @@ Source: https://fujixweekly.com/2018/08/12/
 - Acros-based tonal signature informs the GrayMixer channels
 - All STYLEGUIDE rules applied: Sharpness=10, Clarity/Texture/Dehaze=0, no Calibration, no WB
 - The +4 Highlight in Fuji terms translates to slightly pushed Highlights in our XMP for the bright slide-film character
+
+---
+
+## See Also
+
+- [Agfa Scala 200 — Film Characteristics](../Agfa-Scala-200/characteristics.md)
+- [Agfa APX 100 Lightroom Preset](../Agfa-APX-100/community-recipes.md)
+- [XMP Preset: Agfa Scala 200](../../Presets/Black-White/Agfa Scala 200.xmp)

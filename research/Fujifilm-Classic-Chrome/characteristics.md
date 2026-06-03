@@ -1,4 +1,4 @@
-# Classic Chrome — Full Aesthetic Breakdown
+# Classic Chrome — Full Aesthetic Breakdown for Lightroom Presets
 
 > A complete analysis of the Classic Chrome look: color palette, contrast behavior, tonal response, and how it differs from other Fujifilm simulations.
 
@@ -6,7 +6,7 @@
 
 ## The Classic Chrome Look at a Glance
 
-| Dimension | Character |
+| Dimension | Character | This document serves as a reference for creating a Lightroom preset that emulates Classic Chrome.
 |---|---|
 | **Overall feel** | Documentary, editorial, "photojournalist" |
 | **Saturation** | Low-mid, deliberately subdued |
@@ -221,3 +221,13 @@ Classic Chrome Look =
   + Gentle highlight warmth
   + Heavy tonal density in saturated colors (with Color Chrome)
 ```
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fujifilm Classic Negative](../Fujifilm-Classic-Negative/characteristics.md)
+- [Fujifilm Pro 400H](../Fujifilm-Pro-400H/characteristics.md)
+- [Kodak Ektar 100](../Kodak-Ektar-100/characteristics.md)

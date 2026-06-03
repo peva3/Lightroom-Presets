@@ -1,4 +1,4 @@
-# Moody PNW Aesthetic — Full Breakdown
+# Moody PNW Aesthetic Lightroom Preset — Full Breakdown
 
 > Dark, brooding evergreen vibes with crushed greens and atmospheric haze. The dominant aesthetic of Pacific Northwest Instagram photography.
 
@@ -6,7 +6,7 @@
 
 ## What Is "Moody PNW"?
 
-The "Moody PNW" aesthetic is a photographic style rooted in the visual language of the Pacific Northwest: fog-draped evergreens, misty coastlines, overcast skies, and deep temperate rainforests. It emerged organically from the region's actual climate and geography — where overcast days outnumber sunny ones — and became codified through Instagram's PNW photography scene in the mid-to-late 2010s.
+The Moody PNW Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. The "Moody PNW" aesthetic is a photographic style rooted in the visual language of the Pacific Northwest: fog-draped evergreens, misty coastlines, overcast skies, and deep temperate rainforests. It emerged organically from the region's actual climate and geography — where overcast days outnumber sunny ones — and became codified through Instagram's PNW photography scene in the mid-to-late 2010s.
 
 The aesthetic is NOT a film stock emulation. It's a **creative color grade** developed by a community of landscape and adventure photographers who collectively refined the "dark and moody" look specifically for forest and coastal scenes.
 
@@ -99,3 +99,11 @@ The moody editing style gained traction in the mid-2010s, parallel to:
 - PNW photographers who found the sunny, high-key look incompatible with their actual shooting conditions
 
 The aesthetic has proven remarkably durable — unlike many Instagram trends, it's rooted in real regional light conditions and thus maintains authenticity.
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

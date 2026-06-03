@@ -1,8 +1,8 @@
-# Fuji Superia X-TRA 400 — Full Aesthetic Characteristics Breakdown
+# Fuji Superia X-TRA 400 — Full Aesthetic Characteristics Breakdown for Lightroom Presets
 
 ## Overview
 
-Fuji Superia X-TRA 400 is a consumer-grade ISO 400 color negative film introduced in 1998 (replacing Super G Plus 400), updated in 2003 and 2006, and discontinued globally in April 2024. It was sold as the cheap 4-pack drugstore film — available at Walmart, CVS, Walgreens — and became a beloved staple of street photography, everyday snapshots, and budget-conscious film shooters. Its discontinuation marks the end of Fujifilm's in-house consumer color negative film production.
+Fuji Superia X-TRA 400 is a consumer-grade ISO 400 color negative film introduced in 1998 (replacing Super G Plus 400), updated in 2003 and 2006, and discontinued globally in April 2024. It was sold as the cheap 4-pack drugstore film — available at Walmart, CVS, Walgreens — and became a beloved staple of street photography, everyday snapshots, and budget-conscious film shooters. Its discontinuation marks the end of Fujifilm's in-house consumer color negative film production. This document serves as a reference for creating a Lightroom preset that emulates Superia XTRA 400.
 
 **Community nicknames**: "The cheap 4-pack drugstore film," "The cool Fuji look," "Xtra," "Gritty street staple"
 
@@ -349,3 +349,15 @@ This creates the characteristic **cool, punchy, green-shadowed consumer film loo
 - Fuji X Weekly articles and recipe pages
 - Scott Tucker Photography film simulation analysis
 - 35mmc film review
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fuji Superia 100](../Fuji-Superia-100/characteristics.md)
+- [Fuji Superia 200](../Fuji-Superia-200/characteristics.md)
+- [Fuji Superia 800](../Fuji-Superia-800/characteristics.md)
+- [Fuji Superia 1600](../Fuji-Superia-1600/characteristics.md)
+- [Fuji Superia HG 1600](../Fuji-Superia-HG-1600/characteristics.md)

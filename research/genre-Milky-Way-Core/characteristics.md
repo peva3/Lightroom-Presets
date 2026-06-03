@@ -1,7 +1,7 @@
-# Milky Way Core — Characteristics
+# Milky Way Core Lightroom Preset — Characteristics
 
 ## Use Case
-Milky Way core astrophotography. Enhancing dust lanes, star color, and galactic structure. Dark sky locations.
+The Milky Way Core Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Milky Way core astrophotography. Enhancing dust lanes, star color, and galactic structure. Dark sky locations.
 
 ## Key Techniques
 High Contrast (+30) + Dehaze (+15) for MW dust lane definition. Clarity +20 sharpens cloud structure without star-trailing. Purple Sat +20 + Magenta Sat +15 enhance the natural purple/magenta in the galactic core. Blue Lum -10 deepens night sky. Green Sat -20 removes airglow green cast. Shadow lift (+40) recovers foreground. |Vibrance−Saturation|=5 (at limit, needed for MW color pop). 20 attributes.
@@ -18,3 +18,11 @@ High Contrast (+30) + Dehaze (+15) for MW dust lane definition. Clarity +20 shar
 - HSL Sat max: Within ±60
 - Blacks floor: ≥ -30
 - Grain protection: N/A (no grain)
+
+## See Also
+
+- [Genre Presets](../../docs/genre.md)
+- [Mobile Presets](../../docs/mobile.md)
+- [Seasonal Presets](../../docs/seasonal.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

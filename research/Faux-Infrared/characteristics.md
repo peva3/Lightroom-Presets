@@ -1,8 +1,8 @@
-# Faux Infrared — Complete Aesthetic Breakdown
+# Faux Infrared Lightroom Preset — Complete Aesthetic Breakdown
 
 ## The Core Look
 
-Faux infrared photography reproduces the surreal, otherworldly appearance of infrared film using digital post-processing. The aesthetic is defined by **three signature visual elements**: glowing white foliage, dramatically dark skies, and an uncanny separation between organic and inorganic subjects.
+The Faux Infrared Lightroom preset recreates this look digitally using Lightroom's color grading tools for authentic film emulation. Faux infrared photography reproduces the surreal, otherworldly appearance of infrared film using digital post-processing. The aesthetic is defined by **three signature visual elements**: glowing white foliage, dramatically dark skies, and an uncanny separation between organic and inorganic subjects.
 
 ---
 
@@ -175,3 +175,11 @@ The combination of white foliage + dark sky creates **extreme subject-background
 - Richard Mosse: *Infra*, *The Enclave*
 - 1960s IR album covers: Jimi Hendrix *Are You Experienced*, Donovan, Frank Zappa, Grateful Dead
 - General infrared photography aesthetic analysis
+
+## See Also
+
+- [Creative Presets](../../docs/creative.md)
+- [Color Negative Presets](../../docs/color-negative.md)
+- [Video Presets](../../docs/video.md)
+- [All Lightroom Preset Categories](../../docs/index.md)
+

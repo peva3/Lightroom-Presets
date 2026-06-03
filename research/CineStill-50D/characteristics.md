@@ -1,7 +1,7 @@
-# CineStill 50D — Characteristics
+# CineStill 50D — Characteristics for Lightroom Presets
 
 ## Film Stock Profile
-- **Type:** Daylight-balanced color negative cinema film (remjet removed)
+- **Type:** Daylight-balanced color negative cinema film (remjet removed) This document serves as a reference for creating a Lightroom preset that emulates 50D.
 - **Base stock:** Kodak Vision3 50D (5203)
 - **Manufacturer:** CineStill (converted from Kodak cinema stock)
 - **ISO:** 50 (daylight)
@@ -44,3 +44,13 @@
 - **Base:** Fuji X Weekly Astia-based recipe + CineStill 800T extrapolation
 - **Key moves:** High contrast, subtle warmth, warm highlight halation via color grading, extremely fine grain
 - **Translation date:** 2026-06-01
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [CineStill 400D](../CineStill-400D/characteristics.md)
+- [Cinestill 800T](../Cinestill-800T/characteristics.md)
+- [Kodak Vision3 50D](../Kodak-Vision3-50D/characteristics.md)

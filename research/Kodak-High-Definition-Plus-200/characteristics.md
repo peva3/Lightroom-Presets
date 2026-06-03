@@ -1,8 +1,8 @@
-# Kodak High Definition Plus 200 — Aesthetic Characteristics
+# Kodak High Definition Plus 200 — Aesthetic Characteristics for Lightroom Presets
 
 ## Overview
 
-Kodak High Definition Plus 200 (HD 200) was Kodak's fine-grain consumer ISO 200 color negative film, marketed for sharpness and clarity above all else. The "High Definition" branding signified T-Grain emulsion technology optimized for resolving power rather than speed. It was positioned between Kodak Gold 100/200 and the professional Ektar line as a sharper alternative to standard consumer films. Discontinued in the mid-2000s.
+Kodak High Definition Plus 200 (HD 200) was Kodak's fine-grain consumer ISO 200 color negative film, marketed for sharpness and clarity above all else. The "High Definition" branding signified T-Grain emulsion technology optimized for resolving power rather than speed. It was positioned between Kodak Gold 100/200 and the professional Ektar line as a sharper alternative to standard consumer films. Discontinued in the mid-2000s. This document serves as a reference for creating a Lightroom preset that emulates High Definition Plus 200.
 
 ## Core Aesthetic Signature
 
@@ -49,3 +49,16 @@ The sharpest consumer color negative film Kodak made
 - Fuji X Weekly community recipes
 - Kodak HD 200 technical documentation (archived)
 - Film photography forums and Flickr groups
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak Gold 200](../Kodak-Gold-200/characteristics.md)
+- [Kodak ColorPlus 200](../Kodak-ColorPlus-200/characteristics.md)
+- [Kodak Ultramax 400](../Kodak-Ultramax-400/characteristics.md)
+- [Kodak Pro Image 100](../Kodak-Pro-Image-100/characteristics.md)
+- [Kodak Royal Gold 400](../Kodak-Royal-Gold-400/characteristics.md)
+- [Kodak Max 800](../Kodak-Max-800/characteristics.md)

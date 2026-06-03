@@ -6,7 +6,7 @@
 
 ## Meta: The Challenge of Velvia Emulation
 
-Before diving into specific settings, the community broadly agrees on several points:
+The Fuji Velvia 50 Lightroom preset community recipes compile settings from photographers worldwide. Before diving into specific settings, the community broadly agrees on several points:
 
 1. **No simple slider preset truly captures Velvia.** The film's spectral dye interactions, dMax, and MTF curve can't be perfectly replicated with HSL/Tone Curve alone.
 2. **Camera profiles matter enormously.** A proper Velvia emulation starts with a custom DCP camera profile — this is what VSCO, RNI, and Mastin provide.
@@ -450,3 +450,13 @@ The **Approach 2 baseline recipe is fundamentally broken** due to the Vibrance-S
 - Ken Rockwell, "Fuji Velvia 50 Review" (kenrockwell.com)
 - Darktable documentation (velvia module)
 - VSCO Film 01 discontinued documentation
+
+---
+
+## See Also
+
+- [Fuji Velvia 50 — Film Characteristics](../Fuji-Velvia-50/characteristics.md)
+- [Fuji Velvia 100 Lightroom Preset](../Fuji-Velvia-100/community-recipes.md)
+- [Fuji Astia 100F Lightroom Preset](../Fuji-Astia-100F/community-recipes.md)
+- [Fuji Provia 100F Lightroom Preset](../Fuji-Provia-100F/community-recipes.md)
+- [XMP Preset: Fuji Velvia 50](../../Presets/Slide/Fuji Velvia 50.xmp)

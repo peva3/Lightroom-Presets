@@ -1,4 +1,4 @@
-# Kodak Tri-X 400 — Full Aesthetic Breakdown
+# Kodak Tri-X 400 — Full Aesthetic Breakdown for Lightroom Presets
 
 > The undisputed king of photojournalism B&W film. Distinctive grain pattern, crisp whites, aggressive mid-tones, legendary push behavior.
 
@@ -6,7 +6,7 @@
 
 ## Overview & Historical Context
 
-Kodak Tri-X 400 is the most iconic black-and-white film ever made. Introduced in 35mm format in 1954 (and as sheet film in the 1940s), it has been the primary tool of photojournalists, documentary photographers, and street photographers for over 70 years. No other film stock has documented more history.
+Kodak Tri-X 400 is the most iconic black-and-white film ever made. Introduced in 35mm format in 1954 (and as sheet film in the 1940s), it has been the primary tool of photojournalists, documentary photographers, and street photographers for over 70 years. No other film stock has documented more history. This document serves as a reference for creating a Lightroom preset that emulates Tri X 400.
 
 ### Famous Photographers Who Used Tri-X
 
@@ -345,3 +345,12 @@ Some photographers love Tri-X for portraits; others avoid it.
 ## Summary: The Tri-X "Look" in One Paragraph
 
 Kodak Tri-X 400 produces images with **deep, open blacks**, **crisp, slightly warm whites**, and an **aggressive mid-tone contrast** that makes subjects "pop" from the frame. The grain is **random, sharp-edged, and character-rich** — not fine or smooth, but structured and identifiable — appearing as the classic **"salt and pepper" pattern** in mid-tones. When pushed to 1600 or beyond, the grain becomes **dominant, gritty, and dramatic** while surprisingly retaining highlight separation. The spectral sensitivity renders **skin slightly brighter than the eye perceives** (due to extended red sensitivity) and **dramatically darkens blue skies** — making even unfiltered Tri-X skies look dramatic. The film's **long straight-line curve with gentle toe and shoulder** means it handles extreme lighting conditions gracefully — underexposure yields gritty noir, overexposure yields smooth and creamy, and box speed delivers the definitive documentary B&W aesthetic that has defined photojournalism for seven decades. No other film combines this specific set of characteristics so completely: **sharpness with grain, contrast with latitude, honesty with beauty.**
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Kodak T Max 3200](../Kodak-T-Max-3200/characteristics.md)
+- [Kodak T Max 400](../Kodak-T-Max-400/characteristics.md)

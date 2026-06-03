@@ -1,8 +1,8 @@
-# Fuji Superia 200 — Aesthetic Characteristics
+# Fuji Superia 200 — Aesthetic Characteristics for Lightroom Presets
 
 ## Overview
 
-Fuji Superia 200 was the **mid-speed consumer color negative film** in Fujifilm's Superia lineup — positioned between the fine-grain Superia 100 and the versatile Superia 400. It offered a balanced combination of the Fuji consumer palette (cool bias, green shadows, magenta-reds) with good speed for everyday use and moderate grain. It occupied a sweet spot in the lineup that neither 100 nor 400 quite matched.
+Fuji Superia 200 was the **mid-speed consumer color negative film** in Fujifilm's Superia lineup — positioned between the fine-grain Superia 100 and the versatile Superia 400. It offered a balanced combination of the Fuji consumer palette (cool bias, green shadows, magenta-reds) with good speed for everyday use and moderate grain. It occupied a sweet spot in the lineup that neither 100 nor 400 quite matched. This document serves as a reference for creating a Lightroom preset that emulates Superia 200.
 
 ## Core Aesthetic Signature
 
@@ -114,3 +114,15 @@ Based on Superia 100 recipe with adjustments for the 200 speed:
 - r/AnalogCommunity: Superia 200 discussion
 - Fujifilm Superia product line documentation
 - Photrio: Superia 200 image samples and comparisons
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fuji Superia 100](../Fuji-Superia-100/characteristics.md)
+- [Fuji Superia 800](../Fuji-Superia-800/characteristics.md)
+- [Fuji Superia 1600](../Fuji-Superia-1600/characteristics.md)
+- [Fuji Superia XTRA 400](../Fuji-Superia-XTRA-400/characteristics.md)
+- [Fuji Superia HG 1600](../Fuji-Superia-HG-1600/characteristics.md)

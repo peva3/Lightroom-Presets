@@ -1,7 +1,7 @@
-# Fujifilm Eterna — Characteristics
+# Fujifilm Eterna — Characteristics for Lightroom Presets
 
 ## Film Stock Profile
-- **Type:** Color negative cinema film
+- **Type:** Color negative cinema film This document serves as a reference for creating a Lightroom preset that emulates Eterna.
 - **Manufacturer:** Fujifilm (Eterna line, now Eterna-Cinema)
 - **Status:** Professional cinema stock
 - **Format:** 35mm cinema, 16mm
@@ -34,3 +34,13 @@
 - **Base:** Fuji X Weekly "Eterna Summer" recipe
 - **Key moves:** Low contrast, moderate saturation, warm color grade, prominent fine grain
 - **Translation date:** 2026-06-01
+
+---
+
+## See Also
+
+For related Lightroom presets and film stock references:
+
+- [Fujifilm Eterna Bleach Bypass](../Fujifilm-Eterna-Bleach-Bypass/characteristics.md)
+- [Fujifilm Classic Negative](../Fujifilm-Classic-Negative/characteristics.md)
+- [Fujifilm Pro 400H](../Fujifilm-Pro-400H/characteristics.md)
