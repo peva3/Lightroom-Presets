@@ -1,0 +1,113 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+    crs:PresetType="Normal"
+    crs:Cluster=""
+    crs:UUID="E1F2A3B4C5D6E7F8A9B0C1D2E3F4A5B6"
+    crs:SupportsAmount="True"
+    crs:SupportsColor="True"
+    crs:SupportsMonochrome="True"
+    crs:SupportsHighDynamicRange="True"
+    crs:SupportsNormalDynamicRange="True"
+    crs:SupportsSceneReferred="True"
+    crs:SupportsOutputReferred="True"
+    crs:RequiresRenditionBehavior="True"
+    crs:Name="Golden Grid Architecture"
+    crs:Treatment="Color"
+    crs:ProcessVersion="15.4"
+    crs:HasSettings="True"
+    crs:Temperature="6500"
+    crs:Tint="+15"
+    crs:Exposure2012="+0.45"
+    crs:Contrast2012="+30"
+    crs:Highlights2012="-20"
+    crs:Shadows2012="+15"
+    crs:Whites2012="+20"
+    crs:Blacks2012="-15"
+    crs:Clarity2012="+10"
+    crs:Dehaze="+15"
+    crs:Texture="+5"
+    crs:Vibrance="+20"
+    crs:Saturation="+5"
+    crs:HueAdjustmentYellow="-10"
+    crs:SaturationAdjustmentOrange="+25"
+    crs:SaturationAdjustmentYellow="+15"
+    crs:SaturationAdjustmentGreen="-20"
+    crs:LuminanceAdjustmentOrange="+10"
+    crs:LuminanceAdjustmentYellow="+5"
+    crs:PostCropVignetteAmount="-35"
+    crs:PostCropVignetteMidpoint="40"
+    crs:PostCropVignetteFeather="60"
+    crs:PostCropVignetteRoundness="0"
+    crs:PostCropVignetteStyle="1"
+    crs:PostCropVignetteHighlightContrast="0"
+    crs:ColorGradeMidtoneHue="0"
+    crs:ColorGradeMidtoneSat="0"
+    crs:ColorGradeMidtoneLum="0"
+    crs:ColorGradeHighlightHue="45"
+    crs:ColorGradeHighlightSat="5"
+    crs:ColorGradeHighlightLum="0"
+    crs:ColorGradeShadowHue="0"
+    crs:ColorGradeShadowSat="0"
+    crs:ColorGradeShadowLum="0"
+    crs:ColorGradeGlobalHue="0"
+    crs:ColorGradeGlobalSat="0"
+    crs:ColorGradeGlobalLum="0"
+    crs:ColorGradeBlending="75"
+    crs:ColorGradeBalance="0">
+   <crs:Name>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Golden Grid Architecture</rdf:li>
+    </rdf:Alt>
+   </crs:Name>
+   <crs:Group>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Architecture</rdf:li>
+    </rdf:Alt>
+   </crs:Group>
+   <crs:ToneCurvePV2012>
+    <rdf:Seq>
+     <rdf:li>0, 5</rdf:li>
+     <rdf:li>45, 35</rdf:li>
+     <rdf:li>128, 128</rdf:li>
+     <rdf:li>192, 200</rdf:li>
+     <rdf:li>255, 255</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012>
+   <crs:ToneCurvePV2012Red>
+    <rdf:Seq>
+     <rdf:li>0, 0</rdf:li>
+     <rdf:li>255, 255</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012Red>
+   <crs:ToneCurvePV2012Green>
+    <rdf:Seq>
+     <rdf:li>0, 0</rdf:li>
+     <rdf:li>255, 255</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012Green>
+   <crs:ToneCurvePV2012Blue>
+    <rdf:Seq>
+     <rdf:li>0, 0</rdf:li>
+     <rdf:li>255, 255</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012Blue>
+   <crs:Look>
+    <rdf:Description
+     crs:Name="Adobe Color"
+     crs:Amount="1.000000"
+     crs:UUID="B952C21111114111B1115456789ABCDE"
+     crs:SupportsAmount="True"
+     crs:SupportsMonochrome="False"
+     crs:SupportsOutputReferred="True">
+     <crs:Group>
+      <rdf:Alt>
+       <rdf:li xml:lang="x-default">Profiles</rdf:li>
+      </rdf:Alt>
+     </crs:Group>
+    </rdf:Description>
+   </crs:Look>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>
