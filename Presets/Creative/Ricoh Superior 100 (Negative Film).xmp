@@ -1,0 +1,127 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+   xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+   crs:PresetType="Normal"
+   crs:Cluster=""
+   crs:UUID="D4E5F6A7B8C9D0E1F2A3B4C5D6E7F8A9"
+   crs:SupportsAmount="True"
+   crs:SupportsColor="True"
+   crs:SupportsMonochrome="True"
+   crs:SupportsHighDynamicRange="True"
+   crs:SupportsNormalDynamicRange="True"
+   crs:SupportsSceneReferred="True"
+   crs:SupportsOutputReferred="True"
+   crs:RequiresRenditionBehavior="True"
+   crs:Name="Ricoh Superior 100 (Negative Film)"
+   crs:Treatment="Color"
+   crs:ProcessVersion="15.4"
+   crs:HasSettings="True"
+   crs:Exposure2012="+0.10"
+   crs:Contrast2012="+15"
+   crs:Highlights2012="-50"
+   crs:Shadows2012="+40"
+   crs:Whites2012="-10"
+   crs:Blacks2012="-5"
+   crs:Clarity2012="-5"
+   crs:Dehaze="+5"
+   crs:Texture="0"
+   crs:Vibrance="+15"
+   crs:Saturation="+10"
+   crs:Temperature="6000"
+   crs:Tint="-10"
+   crs:HueAdjustmentRed="0"
+   crs:HueAdjustmentOrange="-5"
+   crs:HueAdjustmentYellow="-10"
+   crs:HueAdjustmentGreen="+15"
+   crs:HueAdjustmentAqua="-15"
+   crs:HueAdjustmentBlue="-10"
+   crs:HueAdjustmentPurple="0"
+   crs:HueAdjustmentMagenta="0"
+   crs:SaturationAdjustmentRed="+15"
+   crs:SaturationAdjustmentOrange="+5"
+   crs:SaturationAdjustmentYellow="+5"
+   crs:SaturationAdjustmentGreen="-15"
+   crs:SaturationAdjustmentAqua="0"
+   crs:SaturationAdjustmentBlue="0"
+   crs:SaturationAdjustmentPurple="0"
+   crs:SaturationAdjustmentMagenta="0"
+   crs:LuminanceAdjustmentRed="0"
+   crs:LuminanceAdjustmentOrange="+5"
+   crs:LuminanceAdjustmentYellow="+5"
+   crs:LuminanceAdjustmentGreen="-10"
+   crs:LuminanceAdjustmentAqua="0"
+   crs:LuminanceAdjustmentBlue="-10"
+   crs:LuminanceAdjustmentPurple="0"
+   crs:LuminanceAdjustmentMagenta="0"
+   crs:ColorGradeMidtoneHue="45"
+   crs:ColorGradeMidtoneSat="15"
+   crs:ColorGradeMidtoneLum="0"
+   crs:ColorGradeHighlightHue="45"
+   crs:ColorGradeHighlightSat="20"
+   crs:ColorGradeHighlightLum="0"
+   crs:ColorGradeShadowHue="130"
+   crs:ColorGradeShadowSat="5"
+   crs:ColorGradeShadowLum="0"
+   crs:ColorGradeGlobalHue="0"
+   crs:ColorGradeGlobalSat="0"
+   crs:ColorGradeGlobalLum="0"
+   crs:ColorGradeBlending="75"
+   crs:ColorGradeBalance="0"
+   crs:GrainAmount="0"
+   crs:Sharpness="40">
+   <crs:Name>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Ricoh Superior 100</rdf:li>
+    </rdf:Alt>
+   </crs:Name>
+   <crs:Group>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Film Emulations</rdf:li>
+    </rdf:Alt>
+   </crs:Group>
+   <crs:ToneCurvePV2012>
+    <rdf:Seq>
+     <rdf:li>0, 10</rdf:li>
+     <rdf:li>45, 35</rdf:li>
+     <rdf:li>128, 128</rdf:li>
+     <rdf:li>192, 196</rdf:li>
+     <rdf:li>255, 245</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012>
+   <crs:ToneCurvePV2012Red>
+    <rdf:Seq>
+     <rdf:li>0, 0</rdf:li>
+     <rdf:li>255, 255</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012Red>
+   <crs:ToneCurvePV2012Green>
+    <rdf:Seq>
+     <rdf:li>0, 0</rdf:li>
+     <rdf:li>255, 255</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012Green>
+   <crs:ToneCurvePV2012Blue>
+    <rdf:Seq>
+     <rdf:li>0, 0</rdf:li>
+     <rdf:li>255, 255</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012Blue>
+   <crs:Look>
+    <rdf:Description
+     crs:Name="Adobe Color"
+     crs:Amount="1.000000"
+     crs:UUID="B952C21111114111B1115456789ABCDE"
+     crs:SupportsAmount="True"
+     crs:SupportsMonochrome="False"
+     crs:SupportsOutputReferred="True">
+     <crs:Group>
+      <rdf:Alt>
+       <rdf:li xml:lang="x-default">Profiles</rdf:li>
+      </rdf:Alt>
+     </crs:Group>
+    </rdf:Description>
+   </crs:Look>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>
