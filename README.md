@@ -1,8 +1,8 @@
-# Lightroom Presets — 445 Free XMP Presets
+# Lightroom Presets — 451 Free XMP Presets
 
 The most comprehensive open-source film emulation and creative preset library on GitHub. Free and open-source alternative to VSCO, Mastin Labs, and RNI Films. All presets are modern (ProcessVersion 15.4), STYLEGUIDE-compliant, and ready for Lightroom Classic & CC.
 
-**[Download all 445 presets](https://github.com/peva3/Lightroom-Presets/releases)** (flat ZIP) · [Changelog](CHANGELOG.md) · [Release v3.1.0](https://github.com/peva3/Lightroom-Presets/releases/tag/v3.1.0)
+**[Download all 451 presets](https://github.com/peva3/Lightroom-Presets/releases)** (flat ZIP) · [Changelog](CHANGELOG.md) · [Release v3.1.0](https://github.com/peva3/Lightroom-Presets/releases/tag/v3.1.0)
 
 ## Featured Film Stocks
 
@@ -20,7 +20,7 @@ The most comprehensive open-source film emulation and creative preset library on
 
 **Genre:** Wedding · Newborn · Real Estate · Food · Product · Fashion · Sports · Concert · Astro · Underwater · Aerial · Wildlife · Street
 
-**+250 more** — 445 presets total across 13 categories. [Browse all categories →](docs/index.md)
+**+250 more** — 451 presets total across 13 categories. [Browse all categories →](docs/index.md)
 
 ## Categories
 
@@ -39,11 +39,11 @@ The most comprehensive open-source film emulation and creative preset library on
 | 11 | Mobile & Social Media | 23 | [mobile.md](docs/mobile.md) |
 | 12 | Photographer Styles | 20 | [photographer.md](docs/photographer.md) |
 | 13 | Video LUT Reference | 20 | [video.md](docs/video.md) |
-| **Total** | | **445** | [All categories →](docs/index.md) |
+| **Total** | | **451** | [All categories →](docs/index.md) |
 
 ## Why Free and Open Source?
 
-VSCO, Mastin Labs, and RNI Films sell preset packs for $50–$150+. This project provides a larger, free, open-source alternative — 445 XMP presets with modern ProcessVersion 15.4, researched from community recipes (Reddit, YouTube, forums, Fuji X Weekly), and validated against real film characteristics. No proprietary formats, no paywalls, just `.xmp` files you can inspect, modify, and share.
+VSCO, Mastin Labs, and RNI Films sell preset packs for $50–$150+. This project provides a larger, free, open-source alternative — 451 XMP presets with modern ProcessVersion 15.4, researched from community recipes (Reddit, YouTube, forums, Fuji X Weekly), and validated against real film characteristics. No proprietary formats, no paywalls, just `.xmp` files you can inspect, modify, and share.
 
 ## How to Install (Lightroom Classic & CC)
 
