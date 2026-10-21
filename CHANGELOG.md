@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.1.3] — 2026-10-21
+
+### Fixed
+- **Reset presets now actually reset.** `Full Reset` was leaving three whole panels untouched: the parametric curve (`ParametricShadows`/`Darks`/`Lights`/`Highlights` and their split points), the Black & White mixer (all eight `GrayMixer*` channels), and Lens Corrections/Transform (`LensProfileEnable`, `LensManualDistortionAmount`, `VignetteAmount`, `AutoLateralCA`, defringe, `PerspectiveUpright`). A previous edit survived a "full" reset as a result. `Reset HSL` had the same GrayMixer gap — Lightroom's Color Mixer panel stores HSL and the B&W mix separately. `Reset Effects + Detail` gained the Lens Corrections defaults its description already claimed.
+- **Stale grain settings removed from 18 presets.** `GrainSize` and `GrainRoughness` were present alongside `GrainAmount="0"`, so the values were dormant but would apply the moment a user raised Amount. The two reset presets keep them intentionally — there they are Lightroom's defaults (25 / 50).
+
+### Verified
+- `crs:SupportsAmount="True"` retained on all 451 presets. Earlier notes suggested this was meaningless for presets, but six genuine Lightroom exports supplied by users all carry `True`, so the existing value matches real Lightroom output and was left unchanged.
+- All 451 presets parse clean; attribute count on `Full Reset` is now 108 by design — a reset must name every value it clears.
+
 ## [3.1.2] — 2026-10-21
 
 ### Fixed
