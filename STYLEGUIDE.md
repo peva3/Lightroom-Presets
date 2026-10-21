@@ -1,5 +1,5 @@
 # XMP Profile & Color Grading Styleguide
-Version: 2.1
+Version: 2.2
 Purpose: An authoritative architectural and artistic framework for constructing and refining Lightroom XMP presets. Synthesizes film physics, color science, pipeline architecture, whitepaper research, and YouTube pro creator techniques. Treat this as the single source of truth before editing any XMP.
 
 ## I. Structural Integrity & System Safeguards
@@ -679,6 +679,63 @@ For B&W portraits: Texture +10–15 is safer than global Sharpening. For landsca
 5. Texture + Clarity + Dehaze simultaneously maxed — all frequency bands amplified = over-processed
 6. Presets at 100% strength — Furoore: "Apply your preset, dial back to 70–85%"
 7. Saturation slider for B&W conversion — produces flat, low-contrast B&W; always use B&W button + B&W Mix tab instead
+
+## XII. The Attribute Whitelist & Confirmed Render Rules
+
+### A. Only These Names Exist (The Silent-Failure Layer)
+
+Adobe Camera Raw parses a fixed `crs:` schema. **Any attribute outside that schema is silently ignored** — no error, no warning, no visible failure, and the XML still validates. This is the most dangerous class of preset bug: the file looks healthy and does nothing.
+
+Aliases confirmed present in this repo and now corrected:
+
+| Wrong name | Correct name | Consequence when wrong |
+|---|---|---|
+| `crs:GrainFrequency` | `crs:GrainRoughness` | Roughness silently defaulted on 333 presets |
+| `crs:SharpnessRadius` | `crs:SharpenRadius` | Radius ignored |
+| `crs:SharpnessDetail` | `crs:SharpenDetail` | Detail ignored |
+| `crs:SharpnessEdgeMasking` | `crs:SharpenEdgeMasking` | Masking ignored |
+| `crs:SharpnessMasking` | `crs:SharpenEdgeMasking` | Masking ignored |
+
+Mnemonic: the Detail panel uses the verb **Sharpen** (`SharpenRadius`, `SharpenDetail`, `SharpenEdgeMasking`); only the Amount slider is `Sharpness`. Grain is **Amount / Size / Roughness** — never "Frequency" (that is a Photoshop noise-filter term).
+
+The valid families:
+
+- **Metadata**: PresetType, Cluster, UUID, Name, Amount, Supports*, RequiresRenditionBehavior, ProcessVersion, HasSettings, Treatment, ConvertToGrayscale
+- **Basic**: Exposure2012, Contrast2012, Highlights2012, Shadows2012, Whites2012, Blacks2012, Clarity2012, Texture, Dehaze, Vibrance, Saturation, Temperature, Tint
+- **Tone Curve**: ToneCurvePV2012 and its Red/Green/Blue children
+- **HSL**: HueAdjustment* / SaturationAdjustment* / LuminanceAdjustment* across Red, Orange, Yellow, Green, Aqua, Blue, Purple, Magenta
+- **Color Grading**: ColorGrade{Shadow,Midtone,Highlight,Global}{Hue,Sat,Lum}, ColorGradeBlending, ColorGradeBalance
+- **Detail**: Sharpness, SharpenRadius, SharpenDetail, SharpenEdgeMasking, LuminanceSmoothing, LuminanceNoiseReductionDetail, LuminanceNoiseReductionContrast, ColorNoiseReduction, ColorNoiseReductionDetail, ColorNoiseReductionSmoothness
+- **Effects**: GrainAmount, GrainSize, GrainRoughness, PostCropVignette{Amount,Midpoint,Feather,Roundness,Style,HighlightContrast}
+- **Lens**: LensProfileEnable, LensProfileSetup, AutoLateralCA, Defringe{Purple,Green}{HueLo,HueHi,Amount}
+- **Calibration**: RedHue, RedSaturation, GreenHue, GreenSaturation, BlueHue, BlueSaturation, ShadowTint
+- **B&W**: GrayMixer{Red,Orange,Yellow,Green,Aqua,Blue,Purple,Magenta}
+
+### B. Verify Structurally After Every Edit
+
+Run a strict parse over every preset and expect zero errors:
+
+```
+python3 -c "import glob,xml.etree.ElementTree as E;[E.parse(f) for f in glob.glob('Presets/**/*.xmp',recursive=True)]"
+```
+
+Then grep for an ampersand that is not part of an entity (`&amp;`, `&lt;`, `&gt;`, `&quot;`, `&apos;`, numeric). A single unescaped `&` destroys the entire file on import — Lightroom reports "the XMP metadata contained no settings" and applies nothing.
+
+### C. Grain Budget
+
+Roughness below ~40 reads as digital noise rather than film; **45-65 is the organic band**; above 70 belongs to pushed or expired stocks. Large Size (>30) combined with high Amount visibly blurs detail. Keep a single grain character per preset — never stack Clarity-driven micro-contrast on top of visible grain.
+
+### D. Desaturation Must Use `Saturation`, Not `SaturationAdjustment*`
+
+Global fading is `crs:Saturation`. The `SaturationAdjustment*` attributes are **per-hue HSL** and cannot mute the image as a whole: eight per-hue cuts of -20 leave neutrals and mixed tones untouched, producing a "still vivid but somehow flat" result. If the intent is faded, expired, muted or matte, it needs a **global Saturation cut plus targeted HSL** — never HSL alone.
+
+### E. Tonal Register Check (the "washed out on warm images" failure)
+
+A preset tuned on a cool or overcast reference image collapses on warm, high-key or skin-heavy images. Record the intended tonal register in the preset's `research/{preset}/characteristics.md` — **cool-overcast, neutral, warm-golden, or high-key** — and then validate on an image from that register. A preset that only survives one register is a *look*, not an emulation; label it accordingly rather than claiming film accuracy.
+
+### F. Over-Engineering Test
+
+Above roughly 45 non-default attributes, audit whether each one earns its place. Correlated pairs cancel or compound unpredictably: Contrast plus an S-curve, Saturation plus an S-curve, and Clarity + Texture + Dehaze all positive. Film emulations should land in **8-25 attributes**; creator-tuned creative looks may exceed that, but only deliberately.
 
 ## XIII. Preset Portability & Survivability
 

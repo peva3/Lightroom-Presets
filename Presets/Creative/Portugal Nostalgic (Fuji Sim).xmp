@@ -81,7 +81,7 @@
 
    crs:GrainAmount="20"
    crs:GrainSize="45"
-   crs:GrainFrequency="40"
+   crs:GrainRoughness="40"
    crs:Sharpness="15"
    crs:LuminanceSmoothing="0"
    crs:ColorNoiseReduction="10">

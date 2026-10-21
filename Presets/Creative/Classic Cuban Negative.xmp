@@ -74,7 +74,7 @@
    crs:BlueSaturation="+10"
    crs:GrainAmount="45"
    crs:GrainSize="50"
-   crs:GrainFrequency="40"
+   crs:GrainRoughness="40"
    crs:Sharpness="15"
    crs:LuminanceSmoothing="25"
    crs:ColorNoiseReduction="15">

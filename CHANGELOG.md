@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.1.1] — 2026-06-03
+
+### Fixed
+- **Silent-failure attribute names corrected across 333 presets.** `crs:GrainFrequency` renamed to the real Lightroom attribute `crs:GrainRoughness`; `crs:SharpnessRadius`, `crs:SharpnessDetail`, `crs:SharpnessEdgeMasking`, and `crs:SharpnessMasking` renamed to `crs:SharpenRadius`, `crs:SharpenDetail`, `crs:SharpenEdgeMasking`. The invalid names were being ignored by Camera Raw, so grain roughness and sharpening detail/radius/masking had no effect.
+- **Creative Group scattering** — all 52 Creative presets normalized to `crs:Group="Creative"` (previously spread over 6 groups on import).
+- **Grain/detail conflicts** — 23 bulk-generated presets had `GrainAmount > 0` alongside positive Clarity/Texture/Dehaze; those attributes removed and `Sharpness="10"` / `LuminanceSmoothing="0"` enforced.
+- **Utility/WB Daylight** tint corrected from `+10` to `0` with Temperature `5500`.
+
+### Documentation
+- `STYLEGUIDE.md` upgraded to v2.2 with new **Section XII: The Attribute Whitelist & Confirmed Render Rules** (silent-failure aliases, structural verification commands, grain budget, global-vs-per-hue desaturation, tonal register check, over-engineering test).
+- `AGENTS.md` gained rules 13 (real attribute names) and 14 (global fading / tonal register).
+- Verification: all 451 presets parse clean, zero raw ampersands, zero grain presets missing `GrainRoughness`.
+
 ## [3.0.0] — 2026-06-02
 
 ### Added
