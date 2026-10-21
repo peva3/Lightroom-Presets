@@ -2,7 +2,7 @@
 
 The most comprehensive open-source film emulation and creative preset library on GitHub. Free and open-source alternative to VSCO, Mastin Labs, and RNI Films. All presets are modern (ProcessVersion 15.4), STYLEGUIDE-compliant, and ready for Lightroom Classic & CC.
 
-**[Download all 451 presets](https://github.com/peva3/Lightroom-Presets/releases)** (flat ZIP) · [Changelog](CHANGELOG.md) · [Release v3.1.0](https://github.com/peva3/Lightroom-Presets/releases/tag/v3.1.0)
+**[Download all 451 presets](https://github.com/peva3/Lightroom-Presets/releases)** (flat ZIP) · [Changelog](CHANGELOG.md) · [Release v3.1.3](https://github.com/peva3/Lightroom-Presets/releases/tag/v3.1.3)
 
 ## Featured Film Stocks
 
