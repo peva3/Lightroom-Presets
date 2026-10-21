@@ -43,3 +43,9 @@ This preset is designed to capture the essential visual character of the salt pr
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** Lowest contrast of the silver family (Contrast +5, Shadows +35); tone curve lifts the black point to 20/255 and pulls the white to 250/255 (matte, no true black or white); grain 28.
+- **Sources:** AlternativePhotography.com, 'A Non-Silver Manual: Vandyke brown'; Photrio thread 'Salt Prints vs. Albumen'; Koraks, 'Comparing salted paper, Van Dyke and DAS carbon'
+- **Preset adjustments:** none - drift noted: shadows/midtones sit at hue 28-32deg (golden-orange) where salted paper is documented as redder than albumen; would need ~20-25deg to read reddish-brown. Not a defining contradiction.

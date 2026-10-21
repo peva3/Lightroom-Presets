@@ -43,3 +43,9 @@ This preset is designed to capture the essential visual character of the solariz
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Real tonal reversal is present in ToneCurvePV2012, not just contrast: shadow lift (128->142) followed by a genuine dip (160->118) and a recovering highlight band (192->168, 224->226). Monochrome, grain 30, Grayscale mixer biased to reds.
+- **Sources:** Wikipedia, 'Sabattier effect'; Getty Museum, Man Ray 'Profile and Hands' (solarisation); grayscaleimage.org, 'Solarization Effect: History, Science'
+- **Preset adjustments:** none

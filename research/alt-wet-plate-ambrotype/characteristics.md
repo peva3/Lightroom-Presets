@@ -43,3 +43,9 @@ This preset is designed to capture the essential visual character of the wet pla
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Deep black-glass tonality (Contrast +40, Shadows -20, Blacks -30); shadows and midtones left neutral (sat 0) with only a hint of warm in the highlights (40deg/8); fine grain; Grayscale mixer used instead of split-toning the shadows.
+- **Sources:** PSA Library, 'Daguerreotypes, Ambrotypes, and Tintypes' (direct-image collection ID guide); Daguerreian Society FAQ; B. Wylie, 'Tintype vs Daguerreotype vs Ambrotype'
+- **Preset adjustments:** none

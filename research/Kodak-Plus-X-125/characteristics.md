@@ -59,3 +59,11 @@ For related Lightroom presets and film stock references:
 - [Kodak T Max 100](../Kodak-T-Max-100/characteristics.md)
 - [Kodak Tri X 400](../Kodak-Tri-X-400/characteristics.md)
 - [Kodak Panatomic X 32](../Kodak-Panatomic-X-32/characteristics.md)
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate
+- **Defining traits checked:** classic cubic-grain mid-speed; fine grain (RMS ~7 vs Tri-X ~11); medium contrast with open luminous midtones; deep but un-crushed blacks; smooth toe
+- **Checked against XMP:** GrainAmount 25 / GrainSize 22, Contrast +20 (medium, well below Tri-X's +35), Blacks -15 (deep not crushed), Highlights -20 / Shadows +15 (upper-zone separation preserved), GrayMixerRed +10 / Blue -15
+- **Sources:** research/Kodak-Plus-X-125 characteristics (RMS 7 figure); Kodak Plus-X datasheet; Photrio Plus-X threads
+- **Preset adjustments:** none

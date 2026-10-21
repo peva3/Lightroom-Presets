@@ -302,3 +302,12 @@ For related Lightroom presets and film stock references:
 - [Kodak Ektar 100](../Kodak-Ektar-100/characteristics.md)
 - [Kodak Ultramax 400](../Kodak-Ultramax-400/characteristics.md)
 - [Fujifilm Pro 400H](../Fujifilm-Pro-400H/characteristics.md)
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** minor drift
+- **Defining traits checked:** warm creamy skin; violet-magenta shadow shift; clearly heavier grain than Portra 400; contrast at or slightly above Portra 400 at box speed.
+- **Verified in XMP:** shadow grade 240 deg / 10 (violet — the documented Portra 800 shadow shift), warm highlight 50 deg / 7, grain 38 / 40 / 53 (well above Portra 400's 28 / 25), green -33 / yellow -23 giving the "more muted, browner foliage" the reference calls for.
+- **Drift:** Contrast -15 is one notch softer than the Portra 400 preset (-7.5); the whole 800 family sits about 7.5 points flatter than the matching 400 variant (+1 = 0, base = -15, -1 = -30). Reviews split ("contrast similar to Portra 400" vs "a bit more contrasty"), and the softer tuning is a legitimate overexposed-Portra-800 look rather than box speed. Recorded, not re-graded: a contrast change would restyle three presets and break the internal push/pull monotonicity.
+- **Sources:** Kodak Portra 800 data sheet; Analog.Cafe and Shoot It With Film Portra 800 reviews; r/AnalogCommunity box-speed threads.
+- **Preset adjustments:** none

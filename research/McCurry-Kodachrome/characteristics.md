@@ -27,3 +27,8 @@ Kodachrome 64 (introduced 1974, third era) was actually a B&W film with color dy
 - Grain → Sharpness=10, LuminanceSmoothing=0 ✓
 - Tone Curve: Cinematic Creative ✓
 - ColorGradeBlending: 75 ✓
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** warm saturated reds/skin; subtle cool shadow bias; narrow dynamic range; fine grain; Kodak-like warm neutrality
+- **Sources:** Richard Jackson Kodachrome scan notes + Classic Chrome recipe (characteristics.md)
+- **Preset adjustments:** none. Red +8 / Orange luminance +12 / Shadow 210 sat 5 reproduces the warm-red, cool-shadow scan signature; Contrast only +10 keeps the narrow-range look.

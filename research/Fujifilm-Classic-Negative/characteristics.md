@@ -280,3 +280,13 @@ For related Lightroom presets and film stock references:
 - [Fujifilm Pro 400H](../Fujifilm-Pro-400H/characteristics.md)
 - [Fujifilm Nostalgic Negative](../Fujifilm-Nostalgic-Negative/characteristics.md)
 - [Fuji Superia XTRA 400](../Fuji-Superia-XTRA-400/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** very muted palette; defining cyan-green shadows; magenta-biased highlights; hard contrast.
+- **Sources:** research dossier and vs-classic-chrome.md; Fuji X Weekly Classic Negative analyses (Superia-derived), Fujifilm simulation description.
+- **Preset adjustments:** none. Shadow grade 160 deg sat 19 (cyan-green) and highlight 330 deg (magenta) nail the signature, and every HSL band is cut (-14 to -34). The odd note is a global Saturation +5 on a "very muted" simulation, which conflicts with the dossier's "lower saturation than Classic Chrome" (-7.5). Because eight per-hue cuts dominate the render, this was logged rather than retuned.
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

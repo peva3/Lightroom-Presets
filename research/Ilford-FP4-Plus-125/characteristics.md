@@ -52,3 +52,11 @@ Ilford FP4 Plus 125 is the classic medium-speed traditional-grain B&W film. It c
 - Portraiture (especially 120 format)
 - Architecture and fine detail
 - Any situation wanting the "classic film" look without dominant grain
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** ISO 125 traditional cubic grain, RMS ~10, 11×14" texture in 35mm — preset GrainAmount 20 / GrainSize 25 is correctly between Pan F+ (15/20) and HP5+ (36.3/27.5). Moderate native contrast (gamma 0.60–0.65) with a long, smooth scale that holds detail into Zone VIII–IX: Contrast +20, Highlights −20, Shadows +12, Blacks −20 — gently punchy without crushing, which is exactly FP4+'s "golden mean". Neutral spectral response ("the most neutral Ilford B&W"): Red +15 / Blue −20 is the mildest split among the Ilford presets, a good match.
+- **Sources:** Ilford FP4 Plus technical information (RMS ~10, ISO 125, EI 50–200); this folder's grain/contrast/spectral tables and developer matrix (ID-11, Perceptol, Rodinal, HC-110).
+- **Preset adjustments:** none

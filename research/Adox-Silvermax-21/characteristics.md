@@ -37,3 +37,11 @@ Adox Silvermax 21 is an ultra-slow, ultra-fine-grain black-and-white negative fi
 - Adox Scala/Silvermax product documentation
 - Community reviews (35mmc, Photrio, Emulsive)
 - Adox Fotowerke product history
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** ISO 21 ultra-slow, highest silver content in a current B&W film → deepest blacks and high inherent contrast (preset: Contrast +40, Blacks −30, Whites +20); grain effectively invisible (GrainAmount 8, GrainSize 12 — lowest grain of all 48+ B&W presets, correct for an ISO 21 emulsion); near-orthopanchromatic / slightly reduced red sensitivity (GrayMixer Red +10 is the *smallest* red boost in the entire B&W set, Blue −30 — directionally right for a film whose curve falls away earlier in the red than a full-pan emulsion).
+- **Sources:** Adox Silvermax 21 technical data sheet and Adox Scala/Silvermax documentation cited in this folder; Agfa/Adox-era orthopanchromatic spectral curves; 35mmc / Photrio / Emulsive reviews of Silvermax tonality.
+- **Preset adjustments:** none

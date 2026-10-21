@@ -81,3 +81,11 @@ Roesch notes: "This film has a reddish-orange color cast, which can be subtle or
 - Kodak Aerocolor IV technical documentation
 - Santa Rae (SantaColor) product information
 - r/analog — SantaColor shooting experiences
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate
+- **Defining traits checked:** very fine grain / exceptional sharpness (aerial emulsion); moderate contrast with open shadows; clean cool whites (no orange mask); reddish-orange cast with clean blues.
+- **Verified in XMP:** Contrast +5 with Shadows +40 and Blacks -5 (open shadow detail), grain 20 / 20 / 40 with a small 20 size (fine, sharp), SaturationAdjustmentRed +15 / Orange +10 / Blue +10, warm highlight 35 deg / 8 for the reddish cast, green -5 / magenta -10 keeping foliage quiet. No global saturation bias, so no warm cast is forced on the whites.
+- **Sources:** Fuji X Weekly SantaColor recipe (2022); Kodak Aerocolor IV technical notes; r/analog; repo characteristics.md.
+- **Preset adjustments:** none

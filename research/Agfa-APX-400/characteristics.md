@@ -43,3 +43,11 @@ For related Lightroom presets and film stock references:
 - [Agfa APX 25](../Agfa-APX-25/characteristics.md)
 - [Agfa APX 100](../Agfa-APX-100/characteristics.md)
 - [Kodak Tri X 400](../Kodak-Tri-X-400/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** ISO 400, RMS granularity 14 and 110 lp/mm → clearly coarser than APX 100/25 (preset GrainAmount 40 / GrainSize 35 vs 25/25 and 15/20 — monotonic and correctly spaced); "moderate contrast, more punch than APX 100" (Contrast +25 equals APX 100's +25 rather than exceeding it — a half-step of drift, but the deeper Blacks −25 and Highlights −15 still read punchier); traditional cubic grain, balanced panchromatic response (Red +20 / Blue −25, milder than APX 100's warm bias — sensible).
+- **Sources:** Agfa Professional B&W technical data (APX 400 RMS 14.0, 110 lp/mm, Refinal); Agfa APX 400 data-sheet reproductions; t3mujinpack APX 400 reference data cited in this folder.
+- **Preset adjustments:** none

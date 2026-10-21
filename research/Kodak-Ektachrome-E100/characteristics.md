@@ -208,3 +208,12 @@ For related Lightroom presets and film stock references:
 - [Kodak Ektachrome 400X](../Kodak-Ektachrome-400X/characteristics.md)
 - [Kodak Ektachrome 200](../Kodak-Ektachrome-200/characteristics.md)
 - [Kodak Ektachrome 100VS](../Kodak-Ektachrome-100VS/characteristics.md)
+
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Modern E100: clean, neutral, fine-grained. Preset Contrast +42.5, Saturation +5, blue +7.5 with Luminance -11.3, grain 10/25, small desaturation of red/green/magenta. Reads as a crisp modern reversal film with hard clipping (no highlight lift beyond -40).
+- **Sources:** Kodak publication E-55 'Kodachrome 25, 64 and 200 Professional' (diffuse RMS 9 / 10 / 16; 25 and 64 described as 'extremely fine grain'; 200 'fine grain'); Kodak Ektachrome RMS table (Ektachrome 100 RMS 11, Ektachrome 400 HC RMS 17).
+- **Preset adjustments:** none
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

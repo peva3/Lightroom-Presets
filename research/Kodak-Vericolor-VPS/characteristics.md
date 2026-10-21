@@ -68,3 +68,11 @@ For related Lightroom presets and film stock references:
 - [Kodak Vericolor III 160](../Kodak-Vericolor-III-160/characteristics.md)
 - [Kodak Portra 160](../Kodak-Portra-160/characteristics.md)
 - [Fuji NPS 160 Pulled](../Fuji-NPS-160-Pulled/characteristics.md)
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate
+- **Defining traits checked:** ultra-low contrast (flatter than Vericolor III); warm brown shadow cast; very pastel colour; heavier, larger grain than Vericolor III.
+- **Verified in XMP:** Contrast -40 and Blacks +25 (the flattest preset in the category), shadow grade 30 deg / 8 (warm brown, not magenta), muted blue/green saturation, grain 35 / 35 / 55 — stronger and larger than Vericolor III's 22 / 22 / 40, matching the "Strong, Large" description.
+- **Sources:** Fuji X Weekly Vericolor recipe (2025) cited in this folder; Kodak historical literature (archived); r/analog.
+- **Preset adjustments:** none

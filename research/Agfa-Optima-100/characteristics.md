@@ -64,3 +64,13 @@ For related Lightroom presets and film stock references:
 - [Agfa Optima 200](../Agfa-Optima-200/characteristics.md)
 - [Agfa Vista 100](../Agfa-Vista-100/characteristics.md)
 - [Kodak Portra 160](../Kodak-Portra-160/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** golden midtone warmth (not Kodak yellow-red); restrained saturation; soft contrast; warm-muted blues.
+- **Sources:** research dossier; legendarypresets Agfa Optima 100 review, japancamerahunter Optima Prestige 200 (soft warm tones), Fuji X Weekly Optima recipe.
+- **Preset adjustments:** none. Warmth is carried by ColorGrade 35-45 deg at sat 5-8 rather than White Balance, which keeps the preset portable across light; reviewers read Optima as more saturated than the dossier, so Saturation -10 is at the soft end but not contradictory.
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

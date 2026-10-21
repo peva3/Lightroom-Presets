@@ -43,3 +43,9 @@ This preset is designed to capture the essential visual character of the cyanoty
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Residual Prussian blue held in the shadows (210deg/22) while tannin brown takes midtones and highlights (35deg/12 and 18, ColorGradeBalance -15); contrast relaxed to +25 versus the classic; grain 25.
+- **Sources:** AlternativePhotography.com, 'Cyanotypes - how blue can you get?' and 'Toning Cyanotypes'; Graphics Atlas process 319 (cyanotype); Photrio thread 'Paper white in cyanotypes'; alternativeprocesses.org, 'Toning Cyanotypes'
+- **Preset adjustments:** none

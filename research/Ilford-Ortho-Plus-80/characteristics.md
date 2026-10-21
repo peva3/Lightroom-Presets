@@ -58,3 +58,12 @@ Safelight-safe — unique darkroom workflow
 - Ilford Ortho Plus 80 technical data sheet
 - Orthochromatic film photography community
 - Alternative process and darkroom forums
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate
+- **Defining traits checked:** orthochromatic spectral response (no red registration, blue+green peak, red-safelight safe); ISO 80 fine grain; medium contrast; vintage tonal register
+- **Checked against XMP:** GrayMixerRed -40 / Magenta -15 (reds and red-adjacent hues go near-black), Blue +30 / Aqua +20 / Green +25 (blue skies wash out to white, foliage turns luminous); GrainAmount 20 / GrainSize 20 (fine for ISO 80); Contrast +18 with Highlights -15 (medium, not crushing)
+- **Sources:** Ilford Ortho Plus datasheet ("blue and green sensitivity ... handled in deep red safelight"); Analog.Cafe review ("will not register red colours in any of its exposures"); Blue Moon Camera Codex (blue sensitivity overexposes skies)
+- **Preset adjustments:** none
+- **Note:** Research GAP: the overview line "dark skies, light foliage" contradicts the file's own Spectral Sensitivity section and the datasheet - ortho skies are bright, not dark. XMP follows the datasheet.

@@ -29,3 +29,11 @@ Dramatic Monochrome is a creative B&W look inspired by the high-contrast photogr
 ## Sources
 - Fuji X Weekly (Ritchie Roesch recipe, February 2020)
 - Study of mid-century B&W master photographers
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** not a film emulation — a 1930s–50s high-contrast darkroom look. Defining traits per this folder: very high contrast, deliberate black crush, luminous highlights, strong grain. Preset: Contrast +40, Blacks −30, Whites +25, Highlights −10, GrainAmount 55 / GrainSize 40 / GrainRoughness 70 — all consistent. Note the folder's "Clarity: high" bullet is intentionally *not* implemented (Clarity/Texture/Dehaze all 0): repo rule 9 forbids local-contrast sliders on grain-heavy presets (`GrainAmount > 0` needs Sharpness ≤ 10 and LuminanceSmoothing 0, both satisfied), so the grain and curve carry the drama.
+- **Sources:** This folder's characteristics and community-recipes notes (Fuji X Weekly Feb 2020 recipe, mid-century masters); repo STYLEGUIDE.md grain/sharpness safeguards.
+- **Preset adjustments:** none

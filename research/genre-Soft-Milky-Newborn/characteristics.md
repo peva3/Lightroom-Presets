@@ -26,3 +26,9 @@ High Exposure (+0.65) floods sensor for clean whites. Negative Contrast (-20) + 
 - [Seasonal Presets](../../docs/seasonal.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Ex +0.65, Contrast -20, Highlights -50, Shadows +35, Whites +10, Blacks +15, Clarity -12, Texture -5, Dehaze -5, Vibrance -8, Saturation -10; GreenHue +15, RedSat -5, OrangeSat -10, GreenSat -25, BlueSat -20, OrangeLum +15; shadow H50/S5, highlight H43/S5, blending 75; calibration none; PV 15.4, Color, Adobe Color Look; 4 neutral curves. Newborn-safe: +0.65Ex, -20C, Clarity -12/Texture -5/Dehaze -5 for cream, Blacks +15 matte, OrangeSat -10 calms ruddy skin, OrangeLum +15 brightens, Saturation -10/Vibrance -8 (gap 2). No harsh clarity anywhere.
+- **Sources:** whitepaper `research/whitepapers/lightroom-xmp-attribute-reference.md`; STYLEGUIDE.md sec. V/VI; newborn workflow practice.
+- **Preset adjustments:** none

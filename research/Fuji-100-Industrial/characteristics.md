@@ -75,3 +75,11 @@ For related Lightroom presets and film stock references:
 
 - [Kodak ColorPlus 200](../Kodak-ColorPlus-200/characteristics.md)
 - [Fuji Superia 200](../Fuji-Superia-200/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** cool-neutral balance with mild saturation; ultra-fine ("effectively invisible") grain; low-to-medium contrast; slightly yellow-green muted foliage.
+- **Sources:** research dossier; Fuji X Weekly 2019 PRO Neg. Std recipe (WB 3200K +8R -8B), Fujicolor 100 Japan datasheet notes.
+- **Preset adjustments:** none. Contrast -10 with Highlights +15/Shadows +25, green -15, grain 12/15 and cool shadow grade at 200 deg match. GrainRoughness 30 is under the 40 "organic" floor but at Amount 12 it is not visible as noise.

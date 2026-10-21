@@ -40,3 +40,9 @@
 - Green shifted toward aqua/mint (pastel green)
 - Shadows brightened and warmed slightly
 - Blending at 75 for stylistic pastel separation
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** High-key Exposure +0.75 with Blacks +15 (lifted black point) and Contrast -20; Clarity -15 / Texture -8 / Dehaze -12; Saturation -10 / Vibrance -10 with green hue +20 and green -30 (green -> mint); shadow 195/8; Blending 75.
+- **Sources:** Repo characteristics.md cross-check (pastel high-key recipe).
+- **Preset adjustments:** none

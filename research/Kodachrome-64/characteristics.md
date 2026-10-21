@@ -168,3 +168,19 @@ In digital terms, Kodachrome is a film that *does less* than Velvia but achieves
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** K64 is documented as 'extremely fine grain' (RMS 10) and its identity is dye purity plus the cyan-leaning 'Kodachrome blue' — preset gets the palette right (blue hue -10, blue sat +17.5, luminance -15; red +20; cool shadow grade H220) but carried GrainAmount 30 / GrainSize 25, the heaviest grain of the three Kodachromes and twice Kodachrome 200's structural class. That directly contradicts a defining trait.
+- **Sources:** Kodak publication E-55 'Kodachrome 25, 64 and 200 Professional' (diffuse RMS 9 / 10 / 16; 25 and 64 described as 'extremely fine grain'; 200 'fine grain'); Kodak Ektachrome RMS table (Ektachrome 100 RMS 11, Ektachrome 400 HC RMS 17).
+- **Preset adjustments:** GrainAmount 30 -> 8, GrainSize 25 -> 15 (RMS 10 film; now below K200 and level with the other ISO 50-100 slides).
+
+
+## Validation Sweep 2026-10-21 (Video)
+- **Verdict:** minor drift
+- **Defining traits checked:** Parent Slide/Kodachrome 64 exists and the palette recipe is identical (blue -10 hue / +17.5 sat / -15 lum, red +20, shadow grade H220/S11.3). Grain 22 was above the parent's (now corrected) value, which broke the repo convention that video variants sit below their still parent's grain.
+- **Sources:** Kodak publication E-55 'Kodachrome 25, 64 and 200 Professional' (diffuse RMS 9 / 10 / 16; 25 and 64 described as 'extremely fine grain'; 200 'fine grain'); Kodak Ektachrome RMS table (Ektachrome 100 RMS 11, Ektachrome 400 HC RMS 17).
+- **Preset adjustments:** GrainAmount 22 -> 10, GrainSize 20 -> 15 (follows parent Kodachrome 64 grain correction).
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

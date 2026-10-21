@@ -46,3 +46,10 @@ For related Lightroom presets and film stock references:
 
 - [Fujifilm Eterna](../Fujifilm-Eterna/characteristics.md)
 - [Fujifilm Classic Negative](../Fujifilm-Classic-Negative/characteristics.md)
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** (1) silver-retention contrast — Contrast +55, Highlights -60, Shadows -20, Whites +10, Exposure -0.50; (2) heavy desaturation with blue least affected — Saturation -20 / Vibrance -15 plus per-channel Red -25, Orange -20, Yellow -30, Green -35, Aqua -40, Blue -15, Purple -30, Magenta -35; (3) Eterna's warmer base — Highlight H50/S5, Shadow H220/S12, Grain 40/35/60.
+- **Minor drift:** the research promises "inky, blacker-than-black" density, but Blacks is 0 and the house curve lifts the floor to output 20, so the shadows read filmic rather than blocked. Left alone — the Eterna variant is explicitly the softer, lower-contrast member of the bleach-bypass family.
+- **Sources:** Kodak processing-tech note (silver retention: higher contrast, lower saturation, denser shadows); finalcolor.com bleach-bypass primer; Fujifilm Eterna stock notes (low native contrast, warm base); research/community-recipes.
+- **Preset adjustments:** none.

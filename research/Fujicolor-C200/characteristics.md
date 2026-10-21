@@ -49,3 +49,11 @@ Cheap, cheerful, and unmistakably Fuji
 - Fuji X Weekly recipe + v2
 - C200 community reviews and Flickr groups
 - Film photography forums and Reddit r/analog
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** slightly cool with a green undertone; cyan-leaning skies; moderate/flatter-than-Gold midtone contrast; moderate consumer grain.
+- **Sources:** research dossier; carlosgrphoto Fujicolor C200 review, shawneeunion C200 review, Fujifilm C200 datasheet.
+- **Preset adjustments:** none. Cool shadow grade 160 deg, green +10, aqua +10 and grain 30 are correct; Contrast +15 is punchier than the dossier's "less punchy than Gold 200, slightly flatter midtones". Within "medium contrast", so not rewritten.

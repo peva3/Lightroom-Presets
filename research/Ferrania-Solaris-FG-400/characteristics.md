@@ -87,3 +87,11 @@ The "Plus" version (Ferrania Solaris FG 400 Plus) had a significantly different 
 - Fuji X Weekly: Ferrania Solaris FG 400 (Ritchie Roesch) — November 2021
 - r/analog — Ferrania film discussions
 - Photrio — Ferrania/3M film history
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** unusually warm Mediterranean cast; notably low saturation; muted blues; orange-biased (not crimson) reds; moderate-high contrast; moderate grain.
+- **Sources:** research dossier; Lomography Ferrania Solaris user review ("incredible warmth"), Fuji X Weekly Solaris recipe notes.
+- **Preset adjustments:** none. Saturation -10 / Vibrance -10, blue -15, magenta -15, warm highlight/shadow grades and Shadows -10 (fast shadow drop) all match.

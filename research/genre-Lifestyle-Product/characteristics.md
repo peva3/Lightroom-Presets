@@ -26,3 +26,9 @@ Warm Color Grading (shadows H45 S8, highlights H43 S5) creates aspirational gold
 - [Seasonal Presets](../../docs/seasonal.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Ex +0.2, Contrast +10, Highlights -30, Shadows +20, Whites +5, Clarity +5, Vibrance +5, Saturation +5; RedSat +5, OrangeSat +5, GreenSat -10, OrangeLum +10; shadow H45/S8, highlight H43/S5, blending 75; calibration none; PV 15.4, Color, Adobe Color Look; 4 neutral curves. Lifestyle (not on-white): warm H45/H43 grade at 5-8%, Red/OrangeSat +5, OrangeLum +10 for hand-model skin, GreenSat -10 for props, Clarity +5 for edges; Vibrance/Saturation 5/5 neutral overall.
+- **Sources:** whitepaper `research/whitepapers/lightroom-xmp-attribute-reference.md`; STYLEGUIDE.md sec. VI.
+- **Preset adjustments:** none

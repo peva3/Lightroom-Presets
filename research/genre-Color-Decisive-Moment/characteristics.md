@@ -26,3 +26,9 @@ Mild Exposure (+0.10) + moderate Contrast (+15) for quick tonal correction witho
 - [Seasonal Presets](../../docs/seasonal.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Ex +0.1, Contrast +15, Highlights -35, Shadows +20, Whites +10, Blacks -10, Clarity +8, Vibrance +5, Saturation +5; GreenHue +10, GreenSat -20, BlueSat -10, OrangeLum +5; shadow H220/S5, highlight H43/S5, blending 75; calibration none; PV 15.4, Color, Adobe Color Look; 4 neutral curves. Street: +15C, Clarity +8 for concrete/brick, GreenSat -20 and BlueSat -10 keep attention on subject; Vibrance/Saturation both +5 (gap 0) so no selective-colour risk; OrangeLum +5 for faces.
+- **Sources:** whitepaper `research/whitepapers/lightroom-xmp-attribute-reference.md`; STYLEGUIDE.md sec. V/VI; research street recipes.
+- **Preset adjustments:** none

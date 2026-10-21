@@ -26,3 +26,9 @@ Warm-dominant Color Grading: shadows H35 S12 + highlights H45 S10 envelop food i
 - [Seasonal Presets](../../docs/seasonal.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Ex +0.2, Contrast +15, Highlights -25, Shadows +15, Whites +10, Blacks -10, Texture +10, Vibrance +10, Saturation +10; RedSat +15, OrangeSat +15, YellowSat +10, GreenSat -15, OrangeLum +10; shadow H35/S12, highlight H45/S10, blending 75; calibration none; PV 15.4, Color, Adobe Color Look; 4 neutral curves. The food brief done properly: H35/S12 shadow + H45/S10 highlight warmth, RedSat +15/OrangeSat +15 (protected, not clipped), YellowSat +10 for crust, Texture +10 for sear, GreenSat -15 so garnish does not steal focus.
+- **Sources:** whitepaper `research/whitepapers/lightroom-xmp-attribute-reference.md`; STYLEGUIDE.md sec. VI warm recipe (H45, Sat 5-10); food community recipes.
+- **Preset adjustments:** none

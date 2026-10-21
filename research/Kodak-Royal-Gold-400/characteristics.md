@@ -62,3 +62,12 @@ For related Lightroom presets and film stock references:
 - [Kodak Pro Image 100](../Kodak-Pro-Image-100/characteristics.md)
 - [Kodak Max 800](../Kodak-Max-800/characteristics.md)
 - [Kodak High Definition Plus 200](../Kodak-High-Definition-Plus-200/characteristics.md)
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** minor drift
+- **Defining traits checked:** warm golden (warmer/richer than Gold 200); medium-high contrast, punchier than Portra but less aggressive than Ultramax; T-Grain, the finest-grained 400 consumer film of its era.
+- **Verified in XMP:** warm highlight grade 45 deg / 20, SaturationAdjustmentOrange +20 / Red +15 / Yellow +18, Contrast +22, Vibrance +5 / Saturation 0.
+- **Drift:** grain 35 / 30 / 55 is fractionally coarser than Ultramax 400 (32 / 31 / 56) and contrast is identical (+22) even though Royal Gold's T-Grain should be the finer and slightly less aggressive of the two. The differences are ~3 points, below perceptual threshold on a real image, so no value was changed.
+- **Sources:** Kodak Royal Gold 400 product literature (archived); r/analog Royal Gold threads; the Film Photography Project notes on T-Grain consumer emulsions.
+- **Preset adjustments:** none

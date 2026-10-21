@@ -215,3 +215,13 @@ For related Lightroom presets and film stock references:
 - [Fuji Pro 800Z](../Fuji-Pro-800Z/characteristics.md)
 - [Kodak Portra 400](../Kodak-Portra-400/characteristics.md)
 - [Fujifilm Classic Negative](../Fujifilm-Classic-Negative/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** low contrast; pastel palette; defining mint-green shadow cast; pastel blues; neutral-cool skin; overexposure-friendly.
+- **Sources:** research dossier; shootitwithfilm 400H review, casualphotophile 400H profile, Fujifilm PRO 400H datasheet ("faithful reproduction of neutral grays").
+- **Preset adjustments:** none. Contrast -19, Exposure +0.48, Highlights -50 / Shadows +33, green hue +20 / sat -24, blue -18 and shadow grade 190 deg at sat 8 all match.
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

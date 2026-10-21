@@ -26,3 +26,9 @@ Milder overall treatment than Detail Pop — the eyes should be the most detaile
 - [Seasonal Presets](../../docs/seasonal.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Ex +0.2, Contrast +10, Highlights -25, Shadows +15, Whites +5, Blacks -5, Clarity +10, Texture +10, Vibrance +8, Saturation +5; RedSat +5, GreenSat -10, BlueSat +5, OrangeLum +5; shadow H215/S3, highlight H43/S5, blending 75; calibration none; PV 15.4, Color, Adobe Color Look; 4 neutral curves. Wildlife portrait: milder than Detail Pop (Texture +10/Clarity +10), RedSat +5 for iris colour, BlueSat +5 for catchlights, Contrast +10 preserves eye shadow detail, OrangeLum +5 only.
+- **Sources:** whitepaper `research/whitepapers/lightroom-xmp-attribute-reference.md`; STYLEGUIDE.md sec. V.
+- **Preset adjustments:** none

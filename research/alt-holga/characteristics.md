@@ -43,3 +43,9 @@ This preset is designed to capture the essential visual character of the holga p
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Heavy vignette (PostCropVignette -65, midpoint 25), edge softness (Texture -15, Clarity -20, Dehaze -5), low overall contrast (-5), warm leak cast (40-50deg, shadow 260deg/18), GrainAmount 0 so softness is optical rather than noise.
+- **Sources:** Lomography Holga camera documentation; Holga/Diana lo-fi aesthetic references
+- **Preset adjustments:** none

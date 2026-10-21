@@ -111,3 +111,14 @@ For related Lightroom presets and film stock references:
 
 - [Kodak Vision3 50D](../Kodak-Vision3-50D/characteristics.md)
 - [Kodak Vision3 500T](../Kodak-Vision3-500T/characteristics.md)
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate (Kodak Vision3 250D, Kodak Vision3 250D ECN-2)
+- **Defining traits checked:** the highest-contrast Vision3 stock; natural warm daylight colour with olive-leaning greens; fine structured grain; smooth cinematic shoulder.
+- **Verified in XMP:** Contrast +31 (the most contrasty Vision3 preset here) with Blacks -21 and Highlights -51, which is a graded-print rendering rather than a flat log scan; grain 21 / 30 / 50; highlight grade 45 deg / 10 warm; green -19 saturation. The ECN-2 variant is nearly identical (Contrast +28, grain 24) as expected, since ECN-2 and C-41 differ mainly in scan contrast.
+- **Caution:** HueAdjustmentGreen +15 leans greens toward aqua, whereas Vision3 greens are documented as yellow-olive. At +15 the hue rotation is only a few degrees and the -19 green saturation dominates, so no edit was made.
+- **Sources:** Kodak Vision3 5207 data sheet; Dehancer/Vision3 emulation references; repo datasheet.md.
+- **Preset adjustments:** none
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

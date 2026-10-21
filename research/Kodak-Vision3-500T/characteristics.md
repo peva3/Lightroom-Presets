@@ -69,3 +69,14 @@ For related Lightroom presets and film stock references:
 
 - [Kodak Vision3 50D](../Kodak-Vision3-50D/characteristics.md)
 - [Kodak Vision3 250D](../Kodak-Vision3-250D/characteristics.md)
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate (Kodak Vision3 500T, Kodak Vision3 500T ECN-2)
+- **Defining traits checked:** tungsten balance (3200K); medium-high contrast with a cinematic shoulder; olive "movie green"; fine structured grain for ISO 500.
+- **Verified in XMP:** Contrast +28 / +36 (ECN-2), grain 25 and 31 (above 250D's 21, correct for the faster stock), Highlights -45/-51, warm highlight grade 42 deg / 8, shadow grade 210 deg / 10. The ECN-2 variant adds SaturationAdjustmentBlue +8, which is the right lever for the uncorrected-daylight blue cast.
+- **Deliberate omission:** no Temperature/Tint, so the tungsten balance is left to the shot — correct per repo policy (WB is not baked into presets that must not override the photographer's setting). Anyone wanting the daylight-blue 500T look should set WB themselves.
+- **Sources:** Kodak Vision3 5219 data sheet; cinematography.com threads; repo characteristics.md.
+- **Preset adjustments:** none
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

@@ -43,3 +43,11 @@ For related Lightroom presets and film stock references:
 - [Kodak Plus X 125](../Kodak-Plus-X-125/characteristics.md)
 - [Kodak Tri X 400](../Kodak-Tri-X-400/characteristics.md)
 - [Kodak Panatomic X 32](../Kodak-Panatomic-X-32/characteristics.md)
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate
+- **Defining traits checked:** 1950s consumer near-orthopanchromatic film - deliberately reduced red so skin reads right on box-camera optics; blue skies lighter than modern pan films; low-to-moderate contrast; moderate grain
+- **Checked against XMP:** the spectral signature is the standout - GrayMixerRed -5 / Green +8 / Blue +5: the only preset in the batch that *lightens* blue, exactly what reduced-red sensitivity produces; Contrast +18, Blacks -10, GrainAmount 20 / GrainSize 20
+- **Sources:** research/Kodak-Verichrome-Pan characteristics; box-camera-era spectral sensitivity discussion; ortho vs pan explainers (Film Photography Project)
+- **Preset adjustments:** none

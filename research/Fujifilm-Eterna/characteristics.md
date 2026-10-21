@@ -44,3 +44,11 @@ For related Lightroom presets and film stock references:
 - [Fujifilm Eterna Bleach Bypass](../Fujifilm-Eterna-Bleach-Bypass/characteristics.md)
 - [Fujifilm Classic Negative](../Fujifilm-Classic-Negative/characteristics.md)
 - [Fujifilm Pro 400H](../Fujifilm-Pro-400H/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** major miss (corrected)
+- **Defining traits checked:** flat, very low-contrast gradation; muted/desaturated colour; warm golden skin; olive-leaning muted greens; open shadows.
+- **Sources:** research dossier; fujifilm-x.com Eterna page ("flat gradation and muted colour"), imaging-resource simulation guide ("desaturated, very low-contrast"), Fuji X Weekly Eterna v2.
+- **Preset adjustments:** `Saturation +15 -> -5`, `Vibrance +12 -> 0`. A stock whose entire identity is "muted" was carrying a net +27 of global saturation boost (Vibrance-Saturation gap 3, so no selective-colour bug, but the register was inverted). Contrast -10 and Blacks +5 were already correct.

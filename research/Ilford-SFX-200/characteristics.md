@@ -55,3 +55,12 @@ Also usable as subtle extended-red panchromatic film
 - Ilford SFX 200 technical data sheet
 - Infrared photography community and forums
 - Flickr SFX 200 groups
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** minor drift
+- **Defining traits checked:** near-infrared extended-red sensitivity (peak ~720nm, cutoff ~740nm); defining effect is reds going luminous and blues going near-black; medium grain for ISO 200
+- **Checked against XMP:** direction is correct - Red +35 / Orange +30 / Blue -35 / Magenta -5; GrainAmount 30 / GrainSize 28 (medium); Contrast +25; Green +40 (foliage-leaning, Wood effect)
+- **Sources:** Ilford SFX 200 datasheet spectral curve; research/Ilford-SFX-200/characteristics.md; infrared community discussion (R72 behaviour)
+- **Preset adjustments:** none (magnitude only - direction correct)
+- **Note:** Drift: a 720nm-peak emulsion should lighten reds harder than a conventional pan film, yet plain Tri-X 400 sits at Red +30, only 5 points below SFX. The XMP encodes the research's *unfiltered* characterisation ("slightly lighter skin, slightly darker skies"), which is defensible, so the gap is understatement rather than an inversion.

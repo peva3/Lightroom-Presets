@@ -88,3 +88,11 @@ For related Lightroom presets and film stock references:
 - [Kodak Ektar 100](../Kodak-Ektar-100/characteristics.md)
 - [Kodak Ultramax 400](../Kodak-Ultramax-400/characteristics.md)
 - [Fujifilm Pro 400H](../Fujifilm-Pro-400H/characteristics.md)
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate
+- **Defining traits checked:** lowest contrast in the Portra line; neutral, no warm cream cast; most desaturated of the 160 variants.
+- **Verified in XMP:** Contrast -20 (lowest of the 160 family here), Saturation -15 / Vibrance -12 (gap 3, inside the 5-point rule), Shadows +35, Blacks +25, grain 18 / 20 / 40; highlight grade 50 deg / 3 and shadow 210 deg / 5 are effectively neutral, so no warm cast is introduced.
+- **Sources:** Kodak E-4046; t3mujinpack Portra 160 NC; r/AnalogCommunity NC vs VC threads.
+- **Preset adjustments:** none in colour; display-name prefix "20 " removed so the name matches the filename stem.

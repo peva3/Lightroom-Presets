@@ -30,3 +30,11 @@ Kentmere Pan 400 is a budget black-and-white negative film produced by Harman Te
 - Harman Technology product information
 - Fuji X Weekly (Dan Allen recipe, March 2024)
 - Community discussions on Photrio and Reddit r/analog
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate
+- **Defining traits checked:** budget Harman emulsion (HP5+ relative, lower silver content); pronounced coarse grain as the signature; moderate contrast; slightly more open shadows than HP5+
+- **Checked against XMP:** GrainAmount 50 / GrainSize 40 / Roughness 65 (deliberately above the HP5-style values - grain is the product), Contrast +20 (moderate), Shadows +10 (open shadows per research), Highlights +5 (lighter rendering), GrayMixerRed +25 / Blue -30 (standard pan)
+- **Sources:** Harman/Kentmere product information; research/Kentmere-Pan-400/characteristics.md; Fuji X Weekly Dan Allen recipe (Mar 2024); Photrio / r/analog provenance threads
+- **Preset adjustments:** none

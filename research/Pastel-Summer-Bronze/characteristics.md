@@ -19,3 +19,8 @@
 - **Grain**: 15/35/50 — subtle, not aggressive
 - **Sharpness**: 15, LuminanceSmoothing: 15
 - **Group**: Creative Cinematic
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** bronzed warm skin; pastel sky; lifted blue luminance; soft contrast; warm highlights
+- **Sources:** Creator-supplied tuning; STYLEGUIDE Archetype C
+- **Preset adjustments:** none (creator preset). At-risk deviation: Vibrance +35 with Saturation -10 (gap 45) is exactly the selective-colour pattern AGENTS warns about; calibration (RedHue +10, BlueHue -20) and LuminanceSmoothing 15 with Grain 15 also deviate. Flagged only.

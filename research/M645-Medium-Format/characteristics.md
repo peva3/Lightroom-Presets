@@ -31,3 +31,12 @@ The M645 Medium Format look is inspired by the tonal character of Mamiya 645 med
 - Archive-663/lightroomPresets GitHub repo (original M645.xmp reference)
 - Mamiya camera system documentation
 - Medium format photography community resources
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate
+- **Defining traits checked:** generic 6x4.5 look (not a film stock) - smooth tonal transitions, gentle contrast, grain far less apparent than 35mm
+- **Checked against XMP:** Contrast +15 (gentlest of the film presets), Highlights -20 / Shadows +20 (creamy transition), Blacks -20, GrainAmount 25 / GrainSize 25
+- **Sources:** research/M645-Medium-Format characteristics; medium-format tonality consensus
+- **Preset adjustments:** none
+- **Note:** Judged against the format's tonal signature, not a datasheet. Grain 25 is above what a real 645 negative shows in print - it is a deliberate texture floor, not an error.

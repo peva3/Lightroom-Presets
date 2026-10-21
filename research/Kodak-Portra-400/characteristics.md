@@ -281,3 +281,22 @@ For related Lightroom presets and film stock references:
 - [Kodak Ektar 100](../Kodak-Ektar-100/characteristics.md)
 - [Kodak Ultramax 400](../Kodak-Ultramax-400/characteristics.md)
 - [Fujifilm Pro 400H](../Fujifilm-Pro-400H/characteristics.md)
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate (Portra 400, +1, +2, -1, 120, 4x5, Expired, Noritsu)
+- **Defining traits checked:** warm golden skin; low-to-medium contrast with a long shoulder; open, lifted shadows (blacks around 5-15, not 0); yellow-olive greens, never teal; fine grain that scales with negative size; muted cerulean skies.
+- **Verified in XMP (base):** Contrast -7.5, Highlights -55, Shadows +32, Blacks +12, warm highlight grade 45 deg / 12, shadow grade 210 deg / 8, green saturation -22.5 and blue -15 (greens muted; the +15 green hue leans aqua rather than olive, but the saturation cut keeps them quiet), grain 28 / 25 / 50.
+- **Variant check:** +1 (Contrast +7.5, grain 43) and +2 (+20.5, grain 56) behave as pushes; -1 (-22.5, grain 16, Shadows +47) behaves as a pull/overexposed rendering; 120 (grain 18) and 4x5 (grain 10) correctly scale grain down with negative size; Expired drops contrast (-19.5) and adds a green-cyan shadow cast (180 deg / 16) with grain 50. All consistent with documented push/pull and format behaviour.
+- **Doc conflict:** the Noritsu variant is tuned warmer and punchier (highlight 50 deg / 17, Contrast +0.5) than the base, whereas this repo's Portra 400 notes describe Noritsu as cooler and more magenta. Lab comparisons actually place Noritsu as the warmer, more natural scanner (Frontier = punchier, cooler, greener foliage), so the preset follows the labs and the notes are the weaker source.
+- **Sources:** Kodak Portra 400 data sheet; Carmencita Film Lab and FIND Lab scanner comparisons; JB Flanc scanner essay (2025); r/AnalogCommunity "Noritsu vs Frontier".
+- **Preset adjustments:** none in colour; display-name prefix "02 " removed from the base preset so the name matches the filename stem.
+
+
+## Validation Sweep 2026-10-21 (Video)
+- **Verdict:** accurate
+- **Defining traits checked:** Parent Kodak Portra 400 exists: HSL identical (orange luminance +15, green -22.5, aqua -10, blue -15), Contrast -12.5 vs -7.5, Highlights -63 vs -55, Shadows +32, Blacks +12, grain 20 vs 28. Skin-friendly low-saturation pastel register preserved.
+- **Sources:** still-look parent XMP values in repo; repo research/ characteristics + color-palette notes.
+- **Preset adjustments:** none
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

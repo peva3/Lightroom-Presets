@@ -65,3 +65,11 @@ For related Lightroom presets and film stock references:
 - [Fuji Neopan 400](../Fuji-Neopan-400/characteristics.md)
 - [Kodak T Max 3200](../Kodak-T-Max-3200/characteristics.md)
 - [Fuji Natura 1600](../Fuji-Natura-1600/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** ISO 1600 traditional cubic grain, RMS ~16 — larger and more visible than Tri-X/HP5+, smaller than Delta 3200 (preset GrainAmount 50 / GrainSize 45; the repo's Tri-X is 55/35, so equal amount with much larger size is the right way to express "crisper but bigger"). High native contrast (gamma ~0.65–0.75): Contrast +35, Whites +15 with compressed shadows — though the preset keeps Blacks −30 and Highlights −30 rather than crushing, which preserves the "deep but not muddy" journalistic look. Ortho-panchromatic with slightly extended red, darkened skies: Red +20 / Orange +15 / Blue −25 matches.
+- **Sources:** Fujifilm Neopan 1600 data sheet (AF3-608E, cited via 125px.com techdocs) and California Creeks film table (Neopan 1600 RMS 16); this folder's grain/contrast/push tables (Acutol, EI 1600/3200/6400 behaviour).
+- **Preset adjustments:** none

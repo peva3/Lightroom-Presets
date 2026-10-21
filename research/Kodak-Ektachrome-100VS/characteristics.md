@@ -67,3 +67,12 @@ For related Lightroom presets and film stock references:
 - [Kodak Ektachrome 64](../Kodak-Ektachrome-64/characteristics.md)
 - [Kodak Ektachrome 400X](../Kodak-Ektachrome-400X/characteristics.md)
 - [Kodak Ektachrome 200](../Kodak-Ektachrome-200/characteristics.md)
+
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** 100VS = 'Vivid Saturation': preset Contrast +45, red/green/blue saturation boosts (+7.5 to +15), blue Luminance -12.5, grain 10/25, no WB or calibration. Punchy primaries without global saturation inflation — matches the stock.
+- **Sources:** Kodak publication E-55 'Kodachrome 25, 64 and 200 Professional' (diffuse RMS 9 / 10 / 16; 25 and 64 described as 'extremely fine grain'; 200 'fine grain'); Kodak Ektachrome RMS table (Ektachrome 100 RMS 11, Ektachrome 400 HC RMS 17).
+- **Preset adjustments:** none
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

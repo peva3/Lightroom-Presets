@@ -40,3 +40,9 @@
 - Moderate grain for 35mm C-41 nostalgia
 - Grain protection rules applied (Sharpness 10, Clarity 0, Texture 0, Dehaze 0)
 - Documentary Blending at 50
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Direct-flash warmth: Temperature 5750, highlight grade 35/15, warm shadow 40/10 at Balance +10; Exposure -0.25 underexposure; red/orange saturation +15/+12 with orange luminance +12; Grain 28/28/50 with Sharpness 10, Clarity/Texture/Dehaze 0 per the grain rule.
+- **Sources:** Repo characteristics.md cross-check; cluster colour search (C-41 snapshot palette).
+- **Preset adjustments:** none

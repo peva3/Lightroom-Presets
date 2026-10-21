@@ -39,3 +39,9 @@
 - Negative dehaze for atmospheric mist/fog
 - Muted greens and blues — expired film palette
 - Blending at 75 for stylistic color separation (cinematic/creative classification)
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Muted palette (Saturation -10 / Vibrance -10) with Clarity -12 and Dehaze -8 for the through-glass softness; cool shadow 200/10 at Balance -5; greens -30, aqua -15, blue -20; warm highlight only 40/5; Sharpness 40 (no grain) for the crisp-but-painterly balance.
+- **Sources:** Repo characteristics.md cross-check; cluster colour search.
+- **Preset adjustments:** none

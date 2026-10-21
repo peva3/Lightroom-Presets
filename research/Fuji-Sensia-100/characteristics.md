@@ -59,3 +59,10 @@ For related Lightroom presets and film stock references:
 - [Fuji Provia 400X](../Fuji-Provia-400X/characteristics.md)
 - [Fuji Fortia SP 50](../Fuji-Fortia-SP-50/characteristics.md)
 - [Kodak Ektachrome E100](../Kodak-Ektachrome-E100/characteristics.md)
+
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Consumer Provia variant: Contrast +15 — the gentlest contrast of the Fuji line in this set — with a slightly warm grade (H45/H50), natural colour and only -5 HSL on yellow/green; grain 10/15. Matches 'consumer-grade, slightly warmer, softer than Provia'.
+- **Sources:** Fujifilm Velvia 100 datasheet (world's highest saturation, RMS 8); Velvia 50 / Provia 100F datasheets (RMS 8, medium saturation + contrast); Fujifilm Sensia 100 product page; Fortia SP entry (Wikipedia) + Fuji X Weekly 'Fortia 50' (highest-saturation Fuji emulsion, above Velvia 50); Astia 100F reviews (Alex Luyckx) and Fujifilm film-simulation chart (soft/muted).
+- **Preset adjustments:** none

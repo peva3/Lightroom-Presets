@@ -54,3 +54,10 @@ This preset was created before STYLEGUIDE conventions. Key deviations (all appea
 - Backlit scenes with rim lighting
 - Flat-light images that need warmth and atmosphere
 - Not suited for: neutral/accurate color work, product photography, cool-tone scenes
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate (creator-tuned — left untouched by instruction)
+- **Defining traits checked:** (1) compressed high-key tonality — Highlights -100, Whites -43, Blacks +40, curve 0,15 → 255,235; (2) golden-amber glow — Midtone H74/S10, Highlight H65/S22, Yellow Lum +39, Orange Hue -46; (3) cool lifted shadows via the blue channel curve (0,10 / 64,60) against the warm grade.
+- **Intentional STYLEGUIDE deviations (documented, not changed):** |Vibrance +64 − Saturation −9| = 73, the largest gap in the folder — this is the preset's defining "selective midtone pop"; WB baked (5900K/+13); no grain, so no grain-protection constraints.
+- **Sources:** research/characteristics (creator pack origin, 2017–18 era); pro-mist/bloom references in research/Cinematic-Dream-Pro-Mist; STYLEGUIDE §XI-F negative Dehaze/bloom.
+- **Preset adjustments:** none.

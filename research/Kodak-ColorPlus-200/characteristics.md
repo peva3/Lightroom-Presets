@@ -135,3 +135,11 @@ For related Lightroom presets and film stock references:
 - [Kodak Royal Gold 400](../Kodak-Royal-Gold-400/characteristics.md)
 - [Kodak Max 800](../Kodak-Max-800/characteristics.md)
 - [Kodak High Definition Plus 200](../Kodak-High-Definition-Plus-200/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** warm golden consumer cast; warm brown shadows (the key difference from Gold's teal); muted saturation vs Gold; visible consumer grain; lower contrast than Gold.
+- **Sources:** research dossier; Kodak ColorPlus 200 datasheet, Fuji X Weekly ColorPlus-adjacent recipes, thedarkroom consumer film comparisons.
+- **Preset adjustments:** none. Shadow grade 40 deg sat 8 (warm) instead of Gold's 207 deg teal is the correct discriminator; blue -8, grain 35 and Contrast +10 all agree.

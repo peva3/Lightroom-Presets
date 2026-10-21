@@ -53,3 +53,10 @@ For related Lightroom presets and film stock references:
 
 - [Kodak Ektachrome 400X](../Kodak-Ektachrome-400X/characteristics.md)
 - [Kodak Ektachrome E100](../Kodak-Ektachrome-E100/characteristics.md)
+
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Fast consumer E-6: 'punchy but grainy'. Preset GrainAmount 20 / Size 25, Contrast +25, Saturation +5 with yellow +5 / green -5, no calibration or WB. Grain magnitude is right for an ISO 400 slide (cf. Ektachrome 400 HC RMS 17).
+- **Sources:** Kodak publication E-55 'Kodachrome 25, 64 and 200 Professional' (diffuse RMS 9 / 10 / 16; 25 and 64 described as 'extremely fine grain'; 200 'fine grain'); Kodak Ektachrome RMS table (Ektachrome 100 RMS 11, Ektachrome 400 HC RMS 17).
+- **Preset adjustments:** none

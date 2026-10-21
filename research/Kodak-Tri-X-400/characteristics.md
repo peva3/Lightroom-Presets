@@ -354,3 +354,70 @@ For related Lightroom presets and film stock references:
 
 - [Kodak T Max 3200](../Kodak-T-Max-3200/characteristics.md)
 - [Kodak T Max 400](../Kodak-T-Max-400/characteristics.md)
+
+## Validation Sweep 2026-10-21
+
+### Kodak Tri-X 400 +1
+- **Verdict:** accurate
+- **Defining traits checked:** +1 push (EI 800): moderate grain increase, moderate contrast boost, slight shadow closure, highlights still fully separated on the gentle shoulder
+- **Checked against XMP:** monotonic vs base - Contrast 35->50, GrainAmount 55->70, GrainSize 35->43, Roughness 65->75; Highlights -13.8 held constant (shoulder preserved); Shadows +25 held constant
+- **Sources:** research/Kodak-Tri-X-400/characteristics.md EI-800 section; 35mmc Tri-X push tests (Nov 2025)
+- **Preset adjustments:** none
+
+### Kodak Tri-X 400 +2
+- **Verdict:** accurate
+- **Defining traits checked:** +2 push (EI 1600) - the canonical photojournalism look: grain dominates, contrast high, shadows collapse, highlights still hold separation
+- **Checked against XMP:** Contrast 63, GrainAmount 83 / GrainSize 50 / Roughness 80, Shadows 5 (vs base +25 - heavy collapse), Highlights -33.8 (shoulder protected), Whites 25
+- **Sources:** research EI-1600 section ("blacks go deep, mid-tones aggressive"); 35mmc Bangkok Chinatown push test; r/analog push reports
+- **Preset adjustments:** none
+
+### Kodak Tri-X 400 -1
+- **Verdict:** minor drift
+- **Defining traits checked:** -1 pull (EI 200): softer contrast, finer grain, open shadows, denser/flatter highlights
+- **Checked against XMP:** all four primary traits correct - Contrast 20 (vs base 35), GrainAmount 43 / GrainSize 27 (finer), Shadows +40 (open), Blacks -20 (vs -30, less crushing)
+- **Sources:** research EI-200 / pull sections; XTOL pull recipe in community-recipes.md
+- **Preset adjustments:** none
+- **Note:** Drift: Highlights2012 = +1.20. A pulled negative has *compressed* highlight separation, so this should sit slightly negative. At +1.2 it is functionally neutral - it does not fight the pull, but it does not render the flatter shoulder either. Too small to warrant a look change.
+
+### Kodak Tri-X 400 120
+- **Verdict:** accurate
+- **Defining traits checked:** 120 format, same emulsion: grain present but refined, smoother tonal scale, gentler contrast than 35mm
+- **Checked against XMP:** GrainAmount 45 vs 35mm 55, GrainSize 27 vs 35, Roughness 60 vs 65, Contrast 32 vs 35, Shadows +30 (smoother toe), Blacks -30
+- **Sources:** research "Format-Specific Characteristics" 120 section ("visible but refined"); community consensus on 120 Tri-X tonality
+- **Preset adjustments:** none
+
+### Kodak Tri-X 400 Expired
+- **Verdict:** accurate
+- **Defining traits checked:** expired stock: base fog lifts the shadows, contrast sags, grain roughens, and age adds a colour crossover that survives as a shadow tint even in B&W
+- **Checked against XMP:** Blacks -18 vs base -30 (lifted / fogged), Contrast 23 vs 35 (sagged), Shadows +35 (open), GrainAmount 77 / GrainSize 47 / Roughness 80 (roughened), ColorGradeShadowHue 330 / Sat 8 / Balance +15 (magenta-red shadow crossover)
+- **Sources:** research expired-film notes; community reports of base fog and crossover on outdated stock; darkroom threads on age-fogged film
+- **Preset adjustments:** none
+
+### Kodak Tri-X 400 HC-110
+- **Verdict:** minor drift -> corrected
+- **Defining traits checked:** HC-110 Dil B: sharper-edged grain with more "bite", *slightly higher* contrast and better midtone separation than the D-76 reference, not lower
+- **Checked against XMP:** GrainAmount 60 / GrainSize 38 / Roughness 70 (above base 55/35/65 - matches "sharper-edged, a little more grain"); Highlights -8.8; Shadows +30
+- **Sources:** research/Kodak-Tri-X-400 characteristics ("Produces pronounced mid-tone contrast"); Photo.net ("I switched from D76 to HC110 for Tri-X primarily because I get better contrast without losing tonality"); r/AnalogCommunity ("they have slightly different response curves, that will tend to produce more contrast for the HC-110"); Photrio "Rodinal vs HC110"
+- **Preset adjustments:** Contrast2012 30 -> +38 (preserves the ordering base 35 < HC-110 38 < Rodinal 45)
+- **Note:** The one thing this variant exists to change was inverted: contrast sat *below* the D-76-based base preset. Grain was already directionally right.
+
+### Kodak Tri-X 400 Rodinal
+- **Verdict:** accurate
+- **Defining traits checked:** Rodinal: maximum edge effect, visibly enlarged grain, very high acutance, contrast up and effective speed down
+- **Checked against XMP:** Contrast 45 (highest developer variant, above HC-110 and base), GrainAmount 70 / GrainSize 43 / Roughness 80 (coarsest Rodinal-appropriate stack), Sharpness 10 (research explicitly warns the community recipe's Sharpness 60-80 would turn grain into jagged noise)
+- **Sources:** Photrio "Rodinal vs HC110" ("Rodinal usually shows sharper grain than HC-110"); r/analog "Tri-X in Rodinal (for the love of grain)"; research community-recipes Recipe C
+- **Preset adjustments:** none
+
+### Kodak Tri-X 400
+- **Verdict:** accurate
+- **Defining traits checked:** long toe + straight line + gentle shoulder; aggressive midtone contrast; salt-and-pepper sharp-edged grain; extended red brightens skin and darkens skies
+- **Checked against XMP:** Contrast +35, Blacks -30, Highlights -13.8 / Shadows +25 (open shadows on the long toe), GrainAmount 55 / GrainSize 35 / Roughness 65 (medium-coarse, high roughness = salt-and-pepper), GrayMixerRed +30 / Blue -40
+- **Sources:** research/Kodak-Tri-X-400 characteristics + datasheet.md; 35mmc 2025 Tri-X vs HP5+ comparison; r/analog reticulation thread (grain is random, not woven)
+- **Preset adjustments:** none
+
+
+## Validation Sweep 2026-10-21 (Video)
+- **Verdict:** accurate
+- **Defining traits checked:** Parent Kodak Tri-X 400 exists: Treatment Monochrome with ConvertToGrayscale True, Adobe Monochrome Look, and a GrayMixer identical to the parent (Red +30, Orange +20, Yellow -5, Green -25, Blue -40). Contrast 30 vs 35, Highlights -18.8 vs -13.8, grain 43/30/65 vs 55 — a 16mm-grained but recognisably Tri-X tonality.
+- **Sources:** still-look parent XMP values in repo; repo research/ characteristics + color-palette notes.
+- **Preset adjustments:** none

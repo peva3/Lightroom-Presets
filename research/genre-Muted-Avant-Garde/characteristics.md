@@ -26,3 +26,9 @@ Heavy global desaturation (-30) + heavy channel desaturation (Green -50, Blue -3
 - [Seasonal Presets](../../docs/seasonal.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Ex -0.25, Contrast +20, Highlights -40, Shadows +15, Whites +5, Blacks -10, Clarity +10, Vibrance -25, Saturation -30; RedSat -20, OrangeSat -25, YellowSat -30, GreenSat -50, BlueSat -30; shadow H250/S10, highlight H35/S5, blending 75; calibration none; PV 15.4, Color, Adobe Color Look; 4 neutral curves. Near-monochrome: Saturation -30 with GreenSat -50/BlueSat -30/YellowSat -30, single blue-violet shadow signature H250/S10, +20C to keep structure. Vibrance -25/Saturation -30 (gap 5) - the desaturation is the brief, not the selective-colour bug.
+- **Sources:** whitepaper `research/whitepapers/lightroom-xmp-attribute-reference.md`; STYLEGUIDE.md sec. VIII.5 (Vibrance-Saturation gap).
+- **Preset adjustments:** none

@@ -39,3 +39,9 @@
 - No clarity, dehaze, or texture (vintage look avoids digital sharpness)
 - Low contrast — film stills don't have dramatic contrast
 - Documentary Blending at 50 for natural transitions
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Saturation -5 with warm shadow grade (50/8) and grain 20/25/45; green -20 pulled back; no Clarity/Texture/Dehaze; Exposure -0.10. Contrast +5 keeps the film-still register flat rather than dramatic.
+- **Sources:** Repo characteristics.md cross-check; cluster colour/grade search.
+- **Preset adjustments:** none

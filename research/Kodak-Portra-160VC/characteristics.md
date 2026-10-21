@@ -69,3 +69,13 @@ For related Lightroom presets and film stock references:
 - [Kodak Ektar 100](../Kodak-Ektar-100/characteristics.md)
 - [Kodak Ultramax 400](../Kodak-Ultramax-400/characteristics.md)
 - [Fujifilm Pro 400H](../Fujifilm-Pro-400H/characteristics.md)
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate
+- **Defining traits checked:** positive contrast relative to 160/160NC; elevated saturation; warm skin; denser shadows.
+- **Verified in XMP:** Contrast +5 (vs -15 / -20 for 160 and 160NC), Saturation +5 / Vibrance 0, Blacks +5 (denser than NC's +25), warm highlight grade 45 deg / 10, grain 20 / 22 / 40.
+- **Sources:** Kodak Portra VC product literature (archived); t3mujinpack; r/analog VC threads.
+- **Preset adjustments:** none
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

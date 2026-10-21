@@ -107,3 +107,15 @@ The aesthetic has proven remarkably durable — unlike many Instagram trends, it
 - [Video Presets](../../docs/video.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+## Validation Sweep 2026-10-21
+- **Verdict:** major miss
+- **Defining traits checked:** greens hue-shifted to yellow/olive and heavily desaturated (the defining move); lifted/faded shadows; cool ambient; orange luminance lift for earth tones
+- **Sources:** Repo characteristics.md ("Green hue shifted +40 to +60 toward yellow/orange"); STYLEGUIDE Archetype B; Capture Landscapes HSL guide (Green Hue negative = yellow)
+- **Preset adjustments:** HueAdjustmentGreen +50 -> -50. Positive Green Hue moves foliage toward aqua/blue, i.e. away from the olive/brown the look requires; negative is the correct direction for yellow-olive. Green Sat -60, Yellow Sat -30, Orange Lum +80, Shadows +75 retained. STYLEGUIDE Archetype B labels +40/+55 as "yellow-brown" — that line is wrong and should be read as -40/-55.
+
+
+## Validation Sweep 2026-10-21 (Video)
+- **Verdict:** minor drift
+- **Defining traits checked:** Parent Moody PNW exists: tonal and grade parity is exact (Contrast 32.5 vs 37.5, Highlights -83 vs -75, Shadows +75, Saturation -45, grade H160/S10 + H260/S10, orange luminance +80, green saturation -60). Divergence found: HueAdjustmentGreen was +50 against the parent's -50 — a 100-point swing that moved the conifer greens from olive/yellow toward aqua and broke the parent's colour signature.
+- **Sources:** still-look parent XMP values in repo; repo research/ characteristics + color-palette notes.
+- **Preset adjustments:** HueAdjustmentGreen +50 -> -50 (restores parent's olive/yellow green direction).

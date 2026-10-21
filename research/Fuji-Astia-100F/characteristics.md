@@ -120,3 +120,10 @@ For related Lightroom presets and film stock references:
 - [Fuji Sensia 100](../Fuji-Sensia-100/characteristics.md)
 - [Fuji Fortia SP 50](../Fuji-Fortia-SP-50/characteristics.md)
 - [Kodak Ektachrome E100](../Kodak-Ektachrome-E100/characteristics.md)
+
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Defining trait is unusually low saturation and the softest contrast in the Fuji slide line: preset Saturation -5 plus HSL cuts (yellow -5, green -7.5, blue -7.5) and Contrast -17.5 against Provia's +20; soft highlight/shadow transitions (-35 Highlights / +16 Shadows) match Astia's portrait role; grain 10/25 — negligible. One source (Alex Luyckx) argues Astia out-contrasts Provia, but Fuji's own chart and the majority of references put Astia below Provia, so the low-contrast reading is retained.
+- **Sources:** Fujifilm Velvia 100 datasheet (world's highest saturation, RMS 8); Velvia 50 / Provia 100F datasheets (RMS 8, medium saturation + contrast); Fujifilm Sensia 100 product page; Fortia SP entry (Wikipedia) + Fuji X Weekly 'Fortia 50' (highest-saturation Fuji emulsion, above Velvia 50); Astia 100F reviews (Alex Luyckx) and Fujifilm film-simulation chart (soft/muted).
+- **Preset adjustments:** none

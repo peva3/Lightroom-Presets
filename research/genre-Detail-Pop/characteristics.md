@@ -26,3 +26,9 @@ Texture +15 + Clarity +15 is the detail duo — fur and feather structure pops. 
 - [Seasonal Presets](../../docs/seasonal.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Ex +0.15, Contrast +15, Highlights -30, Shadows +20, Whites +10, Blacks -10, Clarity +15, Texture +15, Dehaze +5, Vibrance +12, Saturation +10; GreenHue +10, OrangeSat +10, YellowSat +10, GreenSat -15, BlueSat +10; shadow H220/S5, highlight H43/S8, blending 75; calibration none; PV 15.4, Color, Adobe Color Look; 4 neutral curves. Wildlife: Texture +15/Clarity +15 is the detail duo, GreenSat -15 naturalises habitat, Orange/YellowSat +10 lift coat and rim light, Dehaze +5 only. Vibrance +12 vs Saturation +10 (gap 2) safe.
+- **Sources:** whitepaper `research/whitepapers/lightroom-xmp-attribute-reference.md`; STYLEGUIDE.md sec. V safety caps; research wildlife recipes.
+- **Preset adjustments:** none

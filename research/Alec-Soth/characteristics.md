@@ -38,3 +38,9 @@
 - No contrast boost — large format renders naturally
 - Documentary Blending at 50 — invisible transitions
 - No clarity, no dehaze, no grain (large format is virtually grainless)
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Saturation -5 with no Clarity/Texture/Dehaze and no grain; greens -12 / blues -8 pulled back; warm shadow grade at 4 sat; Exposure +0.05. Contrast +5 is the mildest positive in the colour set, consistent with the 'no drama' brief.
+- **Sources:** Repo characteristics.md cross-check; no dedicated web source for this preset (cluster-level B&W/colour searches only).
+- **Preset adjustments:** none

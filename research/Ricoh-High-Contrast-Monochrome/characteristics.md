@@ -230,3 +230,10 @@ The HC B&W profile has a cult following precisely because it is difficult to rep
 - [Genre Presets](../../docs/genre.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate
+- **Defining traits checked:** Ricoh GR in-camera HC B&W JPEG engine: shadows crushed to charcoal below ~15-20% luminance, abrupt highlight clipping (+1 to +2 stops), harsh documentary midtones, visible grain
+- **Checked against XMP:** Contrast +80, Blacks -30 / Shadows -46.3 (crush), Highlights -60 with Whites +25 (clip rather than roll off), GrainAmount 58.8, GrayMixerBlue -60 (at the +/-60 cap) / Green -30 / Aqua -40
+- **Sources:** research/Ricoh-High-Contrast-Monochrome characteristics + datasheet; Ricoh GR HC B&W profile documentation
+- **Preset adjustments:** none

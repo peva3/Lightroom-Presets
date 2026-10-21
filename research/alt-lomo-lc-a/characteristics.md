@@ -43,3 +43,9 @@ This preset is designed to capture the essential visual character of the lomo lc
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Punchy and contrasty (Contrast +30, Blacks -20, Whites +15) with saturation +20 / vibrance +20 (within the 5-point rule); vignette -45; grain 38; cyan shadow cast 250deg/15; per-hue saturation boost across the warm bands.
+- **Sources:** Lomography LC-A documentation; cross-referenced with research/Lomography-Color-100 and research/Lomochrome-Purple
+- **Preset adjustments:** none

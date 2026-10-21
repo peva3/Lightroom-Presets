@@ -344,3 +344,16 @@ The ideal VHS/synthwave preset should blend elements from all three:
 - [Video Presets](../../docs/video.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** (1) chroma bleed / analog softness — Clarity2012 -23, Texture -25, Dehaze -15 give the smear and bloom that VHS colour-under bandwidth loss produces; (2) magenta highlights against cyan shadows — ColorGrade Highlight H310/S32, Shadow H200/S22, Balance +30 (matches the documented VHS phase-error tint); (3) neon palette with green killed — Green Hue -45 / Sat -60, Magenta Sat +33, Purple +30, Aqua +28, plus Grain 45/42/70 for chunky tape noise.
+- **Sources:** doom9 "removing chroma noise" (VHS chroma ≈0.6 MHz vs luma 3.0 MHz → sideways bleed on saturated reds); kott.io "VHS glitch effect" (bleed is a horizontal multi-tap smear, not a channel shift); the 90s VHS look explainer (muted colour, colour bleeds outside edges); repo research/characteristics + color-palette.
+- **Preset adjustments:** none.
+
+
+## Validation Sweep 2026-10-21 (Video)
+- **Verdict:** accurate
+- **Defining traits checked:** Parent 1980s VHS Synthwave exists and the chroma signature is identical: HSL 8-band shift with green hue -45 / sat -60, magenta +33, purple +30, aqua +28, red +20, plus the VHS phase-error grade (Highlight H310/S32 magenta, Shadow H200/S22 cyan, Balance +30). Highlights -98 / Shadows +50 give the washed tape latitude; grain 30/37/70. The parent's Clarity -23 / Texture -25 / Dehaze -15 (analog smear) are replaced by 0 for grain safety — chroma bleed is still carried by the hue/saturation shifts.
+- **Sources:** still-look parent XMP values in repo; repo research/ characteristics + color-palette notes. VHS bandwidth references (chroma ~0.6 MHz vs luma 3 MHz → horizontal colour bleed; magenta/cyan phase error).
+- **Preset adjustments:** none

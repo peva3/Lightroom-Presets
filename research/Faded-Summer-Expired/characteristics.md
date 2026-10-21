@@ -354,3 +354,12 @@ Lightroom's default grain (Size 25, Roughness 50, Amount 25) looks like digital 
 - [Video Presets](../../docs/video.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** (1) heat-damaged, overexposed negative — Exposure +1.00, Contrast -38.75, Highlights -70, Shadows +40, Whites +20 with the lifted black floor of the house curve; (2) warm yellow-brown cast — Shadow H46/S20, Highlight H45/S7.5, Yellow Hue -15, Orange Lum +10; (3) colour thinning — all eight HSL channels desaturated (-10 to -38.75), heavy grain 48.75/42.5/70, vignette -14.
+- **Drift:** (a) no global Saturation cut — AGENTS rule 14 asks for one on faded looks; this file explicitly chose "Vibrance/Saturation: Neither set", and the all-channel HSL pull does the muting, so it was left; (b) HueAdjustmentGreen +37.5 pushes greens toward cyan/blue, while cyan-coupler loss should push them yellow-brown — masked by Green Sat -38.75, so cosmetic only.
+- **Sources:** filmpreservation.org "Color Dye Fading"; Kodak/ SMPTE optical-restoration paper (uneven layer fade → warm cast, low contrast); expired-film guides (cyan layer degrades first → yellow-orange cast, fog, flat shadows); research/film-references.
+- **Preset adjustments:** none.
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

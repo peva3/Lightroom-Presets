@@ -80,3 +80,11 @@ For related Lightroom presets and film stock references:
 - [Fuji Pro 800Z](../Fuji-Pro-800Z/characteristics.md)
 - [Kodak Portra 400](../Kodak-Portra-400/characteristics.md)
 - [Fujifilm Classic Negative](../Fujifilm-Classic-Negative/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** higher saturation than 160NS; moderate-high contrast; warmer skin; deeper cooler shadows; moderate grain.
+- **Sources:** research dossier; Fuji X Weekly 160C recipes (PRO Neg. Hi and Reala Ace "160C Warm"), Fujifilm PRO 160C datasheet.
+- **Preset adjustments:** none. Saturation +20 / Vibrance +17 and grain 15 deliver the "vivid sibling"; Contrast +10 is milder than the documented "moderate-high", so the contrast separation from 160NS (-8) is narrower than the real films. Not rewritten: values are in the right direction and this is a magnitude quibble.

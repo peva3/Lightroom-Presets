@@ -27,7 +27,7 @@
    crs:SharpenDetail="25"
    crs:SharpenEdgeMasking="0"
    crs:SharpenRadius="+1.0"
-   crs:Sharpness="0"
+   crs:Sharpness="40"
    crs:SupportsAmount="True"
    crs:SupportsColor="True"
    crs:SupportsHighDynamicRange="True"

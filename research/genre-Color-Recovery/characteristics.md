@@ -26,3 +26,9 @@ This is THE one preset where aggressive red/orange saturation is the defining pu
 - [Seasonal Presets](../../docs/seasonal.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Kelvin 7500, Tint +15, Ex +0.5, Contrast +25, Highlights -30, Shadows +25, Whites +10, Blacks -10, Clarity +15, Dehaze +20, Vibrance +15, Saturation +15; RedSat +30, OrangeSat +25, YellowSat +15, GreenSat -15, AquaSat -10, BlueSat -20; shadow H40/S10, highlight H38/S5, blending 75; calibration none; PV 15.4, Color, Adobe Color Look; 4 neutral curves. Underwater cast correction is correct in direction: Kelvin 7500 + Tint +15 magenta counter blue-green, RedSat +30/OrangeSat +25 restore the absorbed warm spectrum, BlueSat -20/AquaSat -10 remove cyan dominance, Dehaze +20 for turbidity. Structural note: Temperature/Tint are written without crs:WhiteBalance="Custom"; if a given Lightroom build ignores Kelvin in that form, add the enum. Verified as repo-wide convention (78 temperature-bearing presets, only 6 write the enum).
+- **Sources:** whitepaper `research/whitepapers/lightroom-xmp-attribute-reference.md`; Underwater colour-restoration practice (red-channel loss vs depth); whitepaper sec. 2 (Temperature is absolute Kelvin).
+- **Preset adjustments:** none

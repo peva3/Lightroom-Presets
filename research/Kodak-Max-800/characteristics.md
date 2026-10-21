@@ -62,3 +62,11 @@ For related Lightroom presets and film stock references:
 - [Kodak Pro Image 100](../Kodak-Pro-Image-100/characteristics.md)
 - [Kodak Royal Gold 400](../Kodak-Royal-Gold-400/characteristics.md)
 - [Kodak High Definition Plus 200](../Kodak-High-Definition-Plus-200/characteristics.md)
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate
+- **Defining traits checked:** aggressive warm amber cast; high contrast with limited highlight latitude; heavy gritty grain; flash-friendly consumer rendering.
+- **Verified in XMP:** Contrast +30 with Blacks -25 and Highlights -25; amber highlight grade 42 deg / 15; SaturationAdjustmentOrange +25 / Red +20; grain 50 / 40 / 65 — the coarsest C-41 grain in the set, matching the "grainiest consumer colour film" reference; global Saturation -2 so the punch comes from contrast and orange rather than blanket saturation.
+- **Sources:** archived Kodak MAX line data; r/analog expired-Max threads; filmphotographystore product notes.
+- **Preset adjustments:** none

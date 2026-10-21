@@ -69,3 +69,10 @@ For related Lightroom presets and film stock references:
 - [Fuji Sensia 100](../Fuji-Sensia-100/characteristics.md)
 - [Fuji Fortia SP 50](../Fuji-Fortia-SP-50/characteristics.md)
 - [Kodak Ektachrome E100](../Kodak-Ektachrome-E100/characteristics.md)
+
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Neutral reference slide: Contrast +20, Saturation +5 balanced by Vibrance +5 (within the 5-point rule, no selective-colour risk), blue +5 with Luminance -10 for the clean deep reversal sky, grain 10/15 — effectively invisible. Rendering sits exactly between Astia (muted, soft) and Velvia (hyper) as the datasheet describes.
+- **Sources:** Fujifilm Velvia 100 datasheet (world's highest saturation, RMS 8); Velvia 50 / Provia 100F datasheets (RMS 8, medium saturation + contrast); Fujifilm Sensia 100 product page; Fortia SP entry (Wikipedia) + Fuji X Weekly 'Fortia 50' (highest-saturation Fuji emulsion, above Velvia 50); Astia 100F reviews (Alex Luyckx) and Fujifilm film-simulation chart (soft/muted).
+- **Preset adjustments:** none

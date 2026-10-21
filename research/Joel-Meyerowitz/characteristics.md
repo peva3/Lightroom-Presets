@@ -39,3 +39,9 @@
 - Minimal HSL intervention — let the light carry the color
 - No grain (large format), no clarity
 - Documentary Blending at 50 for natural look
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Exposure +0.40 high-key with Contrast -10 and Blacks +5 (lifted black point); warm highlight 45/12 and warm shadow 42/6 at Balance +8; only minimal HSL (green/blue/aqua -10/-8/-5); no grain, no clarity.
+- **Sources:** Repo characteristics.md cross-check; cluster colour-grade search.
+- **Preset adjustments:** none

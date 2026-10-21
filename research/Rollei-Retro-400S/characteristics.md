@@ -40,3 +40,11 @@ Rollei Retro 400S is a super-panchromatic 400-speed black-and-white film, the fa
 - Fuji X Weekly (Ritchie Roesch, "Agfa 400S" IR recipe for X-T4 ES)
 - JCH StreetPan 400 documentation
 - Community reviews (Photrio, 35mmc, Reddit r/analog)
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate
+- **Defining traits checked:** Agfa Aviphot aerial surveillance emulsion - super-panchromatic to ~750nm, natural sky darkening with no filter, coarse-ish grain for 400
+- **Checked against XMP:** GrayMixerRed +40 / Orange +28 / Blue -35 (extended red, dramatic skies), Contrast +22, GrainAmount 45 / GrainSize 35, Highlights -25
+- **Sources:** research/Rollei-Retro-400S characteristics (Aviphot / JCH StreetPan 400 / Rollei IR 400 lineage); Rollei-Maco datasheet
+- **Preset adjustments:** none

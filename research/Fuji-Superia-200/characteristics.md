@@ -126,3 +126,11 @@ For related Lightroom presets and film stock references:
 - [Fuji Superia 1600](../Fuji-Superia-1600/characteristics.md)
 - [Fuji Superia XTRA 400](../Fuji-Superia-XTRA-400/characteristics.md)
 - [Fuji Superia HG 1600](../Fuji-Superia-HG-1600/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** moderate green shadow cast between 100 and 400; finer grain than 400; magenta-crimson reds; strong blues; cool-neutral balance.
+- **Sources:** research dossier; Fujifilm Superia 200 datasheet, carlosgrphoto family review.
+- **Preset adjustments:** none. Shadow grade 135 deg sat 12 sits correctly between Superia 100 (8) and 800 (14); grain 23 and red hue -7 match.

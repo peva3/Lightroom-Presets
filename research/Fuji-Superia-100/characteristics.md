@@ -129,3 +129,11 @@ For related Lightroom presets and film stock references:
 - [Fuji Superia 1600](../Fuji-Superia-1600/characteristics.md)
 - [Fuji Superia XTRA 400](../Fuji-Superia-XTRA-400/characteristics.md)
 - [Fuji Superia HG 1600](../Fuji-Superia-HG-1600/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** fine grain for consumer film; cool-to-neutral balance; magenta-leaning reds; subtle green shadows; crisp blues.
+- **Sources:** research dossier; Fujifilm Superia datasheets, carlosgrphoto Superia X-TRA review (family traits), uniquephoto Superia profile.
+- **Preset adjustments:** none. Red hue -5 (toward magenta), shadow grade 140 deg at sat 8, grain 15 and Contrast +8 all match.

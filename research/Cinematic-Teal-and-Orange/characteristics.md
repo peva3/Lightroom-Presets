@@ -125,3 +125,17 @@ Teal/Orange is essentially the *inverse* of bleach bypass — maximum color cont
 - [Video Presets](../../docs/video.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** (1) teal shadows / orange highlights — Shadow H208.75/S20 at Balance -30, Highlight H35.75/S15, Midtone H35/S7.5, Blending 75; (2) foliage pushed off green and muted — Green Hue -60, Green Sat -40, Blue Sat -20; (3) creamy skin — Orange Lum +10, with Contrast +23.75, Highlights -40, Shadows +30, Whites +15, Blacks -10, vignette -10, grain 15.
+- **Minor drift:** Whites +15 sits opposite the STYLEGUIDE archetype (Whites -10 to -15) and this folder's own recipe note claims -10 was applied; the split-tone geometry, which is the defining trait, is correct so no change was made.
+- **Sources:** Adobe "why use orange and teal"; PetaPixel (skin sits in orange, teal shadows separate subject); The Guardian (Hollywood teal/orange); STYLEGUIDE §X Archetype A.
+- **Preset adjustments:** none.
+
+
+## Validation Sweep 2026-10-21 (Video)
+- **Verdict:** accurate
+- **Defining traits checked:** Parent Cinematic Teal and Orange exists and the grade is identical (Midtone H35/S7.5, Highlight H35.75/S15, Shadow H208.75/S20, Balance -30) with green hue -60 / green -40 / blue -20 saturation and orange luminance +10. Contrast 18.75 vs 23.75, grain 12 vs 15.
+- **Sources:** still-look parent XMP values in repo; repo research/ characteristics + color-palette notes.
+- **Preset adjustments:** none

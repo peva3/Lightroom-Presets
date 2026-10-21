@@ -71,3 +71,9 @@ Custom 5-point S-curve with lifted blacks:
 | Orange Sat | +25 | +25 | +25 |
 | Green Sat | -20 | +10 | -25 |
 | Clarity/Dehaze | +10/+15 | +10/+10 | +20/+15 |
+
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** Kelvin 6500, Tint +15, Ex +0.45, Contrast +30, Highlights -20, Shadows +15, Whites +20, Blacks -15, Clarity +10, Texture +5, Dehaze +15, Vibrance +10, Saturation +5; YellowHue -10, OrangeSat +25, YellowSat +15, GreenSat -20, OrangeLum +10, YellowLum +5; highlight H45/S5, blending 75; calibration none; PV 15.4, Color, Adobe Color Look; custom contrast curve. Aerial golden-hour city identity is present (Kelvin 6500, Tint +15, OrangeSat +25, vignette -35, custom contrast curve 0,5 / 45,35 / 128,128 / 192,200 / 255,255). Tint +15 is a visible magenta bias on concrete and glass; on pure architecture deliverables it will read as a cast. Advisory: Tint +15 -> +6 keeps the gold without the magenta. Left unchanged: the preset is a stylised aerial look, not a documentation preset.
+- **Sources:** whitepaper `research/whitepapers/lightroom-xmp-attribute-reference.md`; STYLEGUIDE.md sec. VI (pitfall: tint vs. warm temperature); architecture/aerial community recipes.
+- **Preset adjustments:** none

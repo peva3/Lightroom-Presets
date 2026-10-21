@@ -193,3 +193,19 @@ For related Lightroom presets and film stock references:
 - [Kodak T Max 400](../Kodak-T-Max-400/characteristics.md)
 - [Kodak Tri X 400](../Kodak-Tri-X-400/characteristics.md)
 - [Kodak Plus X 125](../Kodak-Plus-X-125/characteristics.md)
+
+## Validation Sweep 2026-10-21
+
+### Kodak T-Max 3200 +2
+- **Verdict:** accurate
+- **Defining traits checked:** +2 stops over the 3200 rating. TMZ is nominally EI 800 and Kodak designs it to be pushed, so "3200" already means +2 and this variant is ~+4 from nominal: dominant structured grain, high contrast, collapsing shadows
+- **Checked against XMP:** monotonic against the base preset on every axis - Contrast 32->60, GrainAmount 55->83, GrainSize 42->57, Roughness 70->90, Shadows -28->-48 (crushed), Exposure +0.10->-0.25, Whites +15->25
+- **Sources:** Kodak T-Max P3200 datasheet; r/AnalogCommunity ("P3200 is actually a nominal 800 speed film and ... designed to be pushed two stops"); Photrio P3200 push threads ("less shadow detail, more grain, poor gradation")
+- **Preset adjustments:** none
+
+### Kodak T-Max 3200
+- **Verdict:** accurate
+- **Defining traits checked:** tabular high-speed emulsion; structured, sharp-edged geometric grain rather than Delta-style woolly clumps; moderate contrast at nominal EI; high acutance
+- **Checked against XMP:** GrainAmount 55 / GrainSize 42 / Roughness 70 (heavy but structured), Contrast +32, Highlights -15 / Shadows -28 (thin shadows at speed), Sharpness 10 with LuminanceSmoothing 0 (grain-protection rule respected)
+- **Sources:** same as the +2 variant below; research/Kodak-T-Max-3200/characteristics.md + datasheet.md
+- **Preset adjustments:** none

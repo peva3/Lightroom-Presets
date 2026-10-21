@@ -97,3 +97,15 @@ The false-color is a consequence of the 3-layer IR emulsion structure:
 For related Lightroom presets and film stock references:
 
 
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** magenta/red foliage; cyan-turquoise sky; pale cream non-vegetation; extreme colour separation
+- **Sources:** Kodak AIS-77 Aerochrome III datasheet (125px archive); EMULSIVE Aerochrome field guide; Rob Walwyn filter guide
+- **Preset adjustments:** none. Green -100/Yellow -90 + red-magenta HSL push foliage red-orange rather than hot pink; Blue -45/Aqua +30 gives cyan sky; Green/Blue luminance -30 keeps water/moss dark. Acceptable variant of the false-colour palette.
+
+
+## Validation Sweep 2026-10-21 (Video)
+- **Verdict:** accurate
+- **Defining traits checked:** Parent Kodak Aerochrome exists and the false-colour infrared recipe is identical: green hue -100 / saturation -60, yellow -90/-45, red +50/+30, blue -45 hue but +45 sat, purple +45/+30, with grade H320/S12 over H210/S10 and Balance -10. Contrast 13 vs 18, grain 22 vs 30. Signature intact.
+- **Sources:** still-look parent XMP values in repo; repo research/ characteristics + color-palette notes. Aerochrome false-colour IR references (pink/magenta foliage, cyan-blue skies).
+- **Preset adjustments:** none

@@ -43,3 +43,9 @@ This preset is designed to capture the essential visual character of the b&w inf
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** Wood-effect mixer is the defining trait and is strong: GrayMixer Green +80, Yellow +80, Red +60, Blue -80, Aqua -60 (white foliage, near-black skies); Exposure +0.30 and Whites +25 for the halation glow; Monochrome, grain 35.
+- **Sources:** Infrared film (HIE) Wood-effect references; research/Faux-Infrared cross-check
+- **Preset adjustments:** none - drift noted: the +/-80 gray-mixer values exceed the repo's +/-60 HSL cap, but a smaller swing cannot produce white foliage + black sky. Kept deliberately.

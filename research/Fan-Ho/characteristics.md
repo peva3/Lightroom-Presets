@@ -37,3 +37,9 @@
 - Minimal shadow lift — shadows should GO black
 - Strong whites push for light beam luminosity
 - Grain adds texture to large dark areas where sensor noise would be ugly
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Highest contrast in the set (Contrast +50) with Blacks -30, Whites +25, Highlights -60 and only Shadows +10 -- shadows are meant to go black; GrayMixerBlue -55 for sky/light separation; Grain 25 at size 23 to texture the large dark fields.
+- **Sources:** brentmailphotography.com 'Through the Lens of Masters' (Fan Ho chiaroscuro); repo characteristics.md.
+- **Preset adjustments:** none

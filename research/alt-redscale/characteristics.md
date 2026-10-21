@@ -43,3 +43,9 @@ This preset is designed to capture the essential visual character of the redscal
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Strong orange-red cast: 20-30deg grading at sat 28/20/15, orange +45 and red +40 saturation, and blue/aqua/green saturation gutted (-55/-50/-40) with hue pulled toward yellow (-50 green). High contrast (+25), grain 42, light desaturation overall (-10) as the red layer dominates.
+- **Sources:** Lomography, 'Shooting with Redscale Films'; Blue Moon Camera, Redscale film review (underexposure = deeper red, overexposure = yellow/orange); 35mmc, Redscale XR
+- **Preset adjustments:** none

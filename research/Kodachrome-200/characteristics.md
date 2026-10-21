@@ -95,3 +95,12 @@ Some photojournalists preferred K200 for outdoor assignments — fast enough for
 - Sports Illustrated archive — 1980s-90s Kodachrome-era photography
 - National Geographic wildlife photography (K200 era)
 - Kodachrome-64 research folder — family characteristics
+
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** K200 is the grainiest Kodachrome (RMS 16): preset GrainAmount 20 / Size 25 — the highest grain among the three Kodachromes, correct ordering; Contrast +25, blue +12.5 with Luminance -10 and red +15 for the Kodachrome palette. No calibration, no WB.
+- **Sources:** Kodak publication E-55 'Kodachrome 25, 64 and 200 Professional' (diffuse RMS 9 / 10 / 16; 25 and 64 described as 'extremely fine grain'; 200 'fine grain'); Kodak Ektachrome RMS table (Ektachrome 100 RMS 11, Ektachrome 400 HC RMS 17). Kodachrome technical literature (E-55).
+- **Preset adjustments:** none
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

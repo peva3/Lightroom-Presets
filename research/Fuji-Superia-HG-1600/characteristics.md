@@ -70,3 +70,11 @@ For related Lightroom presets and film stock references:
 - [Fuji Superia 800](../Fuji-Superia-800/characteristics.md)
 - [Fuji Superia 1600](../Fuji-Superia-1600/characteristics.md)
 - [Fuji Superia XTRA 400](../Fuji-Superia-XTRA-400/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** finer grain than standard Superia 1600; neutralised (less green) shadows; warmer skin; milder teal greens; cool-neutral balance.
+- **Sources:** research dossier; Fujifilm HG 1600 datasheet notes, Fuji X Weekly high-speed Superia discussion.
+- **Preset adjustments:** none. Differentiated from standard 1600 correctly: Shadow 195 deg vs 208, GrainSize 32 / Roughness 48 vs 40 / 60, green -15 vs +21. Grain Amount is equal (40) but size/roughness carry the "High Grade" fineness.

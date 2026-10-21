@@ -36,3 +36,9 @@
 - Shadows deep but with a sense of detail at the edge
 - Grain present and structured — the pushed-Tri-X look
 - Highlights bright but not clipped; Whites slider used carefully
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Contrast +40 with Blacks -30 and Whites +22 while Highlights -45 / Shadows +30 protect glowing Zone VIII-IX; GrayMixerBlue -40 (mild red filter) with Red +25; Grain 30/30/55 for pushed Tri-X; Adobe Monochrome profile.
+- **Sources:** Repo characteristics.md; cluster B&W search (high contrast + luminous highlights).
+- **Preset adjustments:** none

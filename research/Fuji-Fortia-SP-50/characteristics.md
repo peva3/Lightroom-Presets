@@ -61,3 +61,12 @@ For related Lightroom presets and film stock references:
 - [Fuji Provia 400X](../Fuji-Provia-400X/characteristics.md)
 - [Fuji Sensia 100](../Fuji-Sensia-100/characteristics.md)
 - [Kodak Ektachrome E100](../Kodak-Ektachrome-E100/characteristics.md)
+
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Fortia SP is Fuji's highest-saturation emulsion, above Velvia 50: preset carries the strongest HSL saturation in the Slide category (green +42, blue +32, red +30, magenta +25) on a small +5 global; extreme contrast (+45, Blacks -30, Whites +17.5) matches the cherry-blossom 'on steroids' reputation; grain 5 — correct for ISO 50. Highlights -70 is the most generous recovery in the category (slides clip hard) but is partly offset by the hard S tone curve (42->28, 213->230); left as house style.
+- **Sources:** Fujifilm Velvia 100 datasheet (world's highest saturation, RMS 8); Velvia 50 / Provia 100F datasheets (RMS 8, medium saturation + contrast); Fujifilm Sensia 100 product page; Fortia SP entry (Wikipedia) + Fuji X Weekly 'Fortia 50' (highest-saturation Fuji emulsion, above Velvia 50); Astia 100F reviews (Alex Luyckx) and Fujifilm film-simulation chart (soft/muted).
+- **Preset adjustments:** none
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

@@ -148,3 +148,17 @@ Anderson remains one of the few directors mandated by studios to shoot on film. 
 - [Video Presets](../../docs/video.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** pastel/muted saturation; mustard-to-warm yellow; teal-and-cream balance; flat low-contrast light; slight vignette-free evenness
+- **Sources:** StudioBinder Wes Anderson style guide; IERJ study of Anderson palettes (Grand Budapest pastel pink/red, mustard yellow, teal)
+- **Preset adjustments:** none. Saturation -12 / Vibrance -12 with blue and green at -20 mutes the modern palette; Yellow Sat +10 / Yellow Hue -5 gives mustard; warm highlight 45/8 and cool 200/12 keep the storybook split; Clarity -25 / Dehaze -15 produce the flat pastel light.
+
+
+## Validation Sweep 2026-10-21 (Video)
+- **Verdict:** accurate
+- **Defining traits checked:** Parent Wes Anderson Pastel exists: HSL and grade identical (Highlight H45/S8, Shadow H200/S12, blue/green saturation -20, yellow +10), same pastel desaturation (Saturation -12, Contrast -35 vs -30, Shadows +45). Grain 17 vs 25; parent's Clarity -25/Dehaze -15 dropped for grain safety.
+- **Sources:** still-look parent XMP values in repo; repo research/ characteristics + color-palette notes.
+- **Preset adjustments:** none
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

@@ -45,3 +45,12 @@ For related Lightroom presets and film stock references:
 - [Kodak T Max 3200](../Kodak-T-Max-3200/characteristics.md)
 - [Kodak Tri X 400](../Kodak-Tri-X-400/characteristics.md)
 - [Kodak Plus X 125](../Kodak-Plus-X-125/characteristics.md)
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate
+- **Defining traits checked:** T-grain (tabular); among the finest grain ever made; clean linear tonality; moderate-to-moderately-high contrast
+- **Checked against XMP:** GrainAmount 15 / GrainSize 18, Contrast +20, Blacks -25, Highlights -5 / Shadows +15, GrayMixerRed +30 / Blue -30
+- **Sources:** Kodak T-Max 100 datasheet (T-grain, RMS ~8); research/Kodak-T-Max-100 characteristics; Photo.net TMX vs Delta 100 comparisons
+- **Preset adjustments:** none
+- **Note:** Red +30 is generous for a stock praised for neutrality, but it matches the repo-wide "open the skin, darken the sky" convention and stays far inside the +/-60 rule.

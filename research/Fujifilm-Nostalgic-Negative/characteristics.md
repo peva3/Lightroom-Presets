@@ -48,3 +48,11 @@ For related Lightroom presets and film stock references:
 - [Fujifilm Classic Negative](../Fujifilm-Classic-Negative/characteristics.md)
 - [Fujifilm Pro 400H](../Fujifilm-Pro-400H/characteristics.md)
 - [Fuji Astia 100F](../Fuji-Astia-100F/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** major miss (corrected)
+- **Defining traits checked:** warm amber cast; greens shifted toward yellow/olive (not cyan); gentle open shadows; moderate warm-toned saturation.
+- **Sources:** research dossier; fujifilm-x.com Nostalgic Neg. page ("warm amber tones, rich skin in shadow"), jmpeltier Classic Neg vs Nostalgic Neg ("shifts greens toward yellow and adds overall warmth"), veresdenialex ("greens are olive-tinted").
+- **Preset adjustments:** `HueAdjustmentGreen +10 -> -10`. In Lightroom's mixer, positive Green Hue moves greens toward Aqua/cyan; the preset was pushing foliage the opposite way from Fuji's documented amber-olive rendering. Warm grades (45/40 deg) and Saturation +15 were already correct for an amber-era simulation.

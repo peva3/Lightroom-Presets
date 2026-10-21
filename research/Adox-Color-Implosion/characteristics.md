@@ -66,3 +66,11 @@ Images shot on Adox Color Implosion look like:
 - The "expired film" aesthetic as reference for degradation patterns
 
 *Note: No known community recipes. This is perhaps the most niche film in the collection. Values derived from the documented "intentionally broken" characteristics, scan analysis, and the anti-perfect philosophy that defines the film.*
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** global desaturation with only magenta/purple surviving; greens pushed olive-grey; blues muted; low contrast; heavy clustered grain.
+- **Sources:** research dossier; Lomography Lomopedia (grainy grey-brown, desaturated), Parallax Photographic review, adox.de product page. Note: Parallax calls the film "fairly contrasty" with pronounced green/blue — reviewers disagree; preset follows the low-contrast/desaturated reading and is defensible either way.
+- **Preset adjustments:** none

@@ -88,3 +88,14 @@ For related Lightroom presets and film stock references:
 - [Kodak Ektar 100](../Kodak-Ektar-100/characteristics.md)
 - [Kodak Ultramax 400](../Kodak-Ultramax-400/characteristics.md)
 - [Fujifilm Pro 400H](../Fujifilm-Pro-400H/characteristics.md)
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** minor drift
+- **Defining traits checked:** elevated saturation vs standard 400 with Portra skin handling; moderate contrast; rich greens and deeper blues; warm bias.
+- **Verified in XMP:** Saturation +10 / Vibrance +8 (gap 2), Contrast -5, Highlights -55 retained, grain 25 / 25 / 45. Directionally correct: every channel is less cut than on the standard 400 preset.
+- **Drift:** green (-15) and blue (-8) are still *cut* in HSL, whereas the reference calls for "rich, full greens" and "deep, rich blues" on this variant. Relative to the base preset the greens are 7.5 points more open and the blues 7 points more open, so the ranking is preserved; flagged rather than edited because the family is deliberately built on the Portra green-muting baseline.
+- **Sources:** t3mujinpack Portra 400 UC/VC; Kodak literature (archived); r/AnalogCommunity UC/VC threads.
+- **Preset adjustments:** none in colour; display-name prefix "22 " removed so the name matches the filename stem.
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

@@ -102,3 +102,12 @@
 ---
 
 *Sources: r/SonyAlpha, r/postprocessing, r/canon, Cobalt Image product descriptions, Color Fidelity product pages*
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** (1) warm orange-leaning skin — Orange Sat +15, Orange Lum +15, Red Sat +10, Red Hue -3; (2) magenta-leaning reds — Calibration RedHue -8 (allowed here as this preset's defining mechanism); (3) softer, filmic contrast with warm shadows — Contrast -8, Highlights -12, Shadow grade H35/S7, and calm greens (Green Hue -10, Green Sat -22) to kill the Sony-style green cast.
+- **Note:** calibration use is the documented exception in AGENTS.md; Vibrance 0 / Saturation 0 keeps the selective-colour bug away.
+- **Sources:** research/characteristics + community-recipes (Reddit r/SonyAlpha consensus: orange skin, magenta-biased reds, warmer AWB, smoother highlight roll-off); STYLEGUIDE §XII (Calibration exception).
+- **Preset adjustments:** none.
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

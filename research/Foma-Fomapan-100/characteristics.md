@@ -35,3 +35,11 @@ Fomapan 100 is a classic cubic-grain black-and-white negative film produced by F
 - Massive Dev Chart entries for Fomapan 100
 - Community reviews (Photrio, 35mmc, Reddit r/analog)
 - Foma product documentation
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** ISO 100 traditional cubic grain, "more visible than modern T-grain 100s" (preset GrainAmount 30 / GrainSize 25 — above Delta 100's 15/20 and T-Max 100's 15/18, correct); slightly higher contrast than Western 100s with a tendency to deep blacks (Contrast +20 vs Delta 100 +15, Blacks −25 — correct). Two drifts: (1) this folder says "slightly reduced red compared to modern films", yet GrayMixer Red +25 is a *stronger* red boost than Delta 100's +10 — the opposite of the documented sensitivity; (2) GrainAmount 30 for an RMS ~13–14 emulsion is generous. Neither crosses the defining-trait threshold.
+- **Sources:** Foma Bohemia Fomapan 100 data sheet and Massive Dev Chart entries cited here; Foma 200/400 datasheets for family grain ordering (Fomapan 400 RMS 17.5, Fomapan 200 RMS 14); beyondtheaperture three-film comparison (Fomapan 100/200/400 close in grain, 400 coarsest).
+- **Preset adjustments:** none

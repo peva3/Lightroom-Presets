@@ -210,3 +210,18 @@ restraint (1/8 or 1/4 strength), it remains a widely respected tool.
 - [Video Presets](../../docs/video.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+> Applies to `Presets/Creative/Cinematic Dream Look.xmp` (no dedicated research folder exists; this is the closest look reference).
+- **Verdict:** accurate
+- **Defining traits checked:** (1) pro-mist bloom — Clarity -32, Texture -15, Dehaze -22, SharpenRadius +1.3 with SharpenDetail 20/EdgeMasking 30 so the softening stays organic; (2) halation-friendly highlights — Highlights -50, Whites +15, grain 22/28/58; (3) warm/cool filmic split — Highlight H45/S15, Shadow H210/S10, vignette -15 at Midpoint 35.
+- **Note:** Saturation -3 / Vibrance -1 keeps the neutral base the bloom needs; Contrast -25 stops the negative clarity from going milky-flat.
+- **Sources:** research (highlight bloom, Gaussian falloff, warm halo); STYLEGUIDE §XI-F (negative Dehaze for dream/bloom looks); Tiffen Pro-Mist behaviour (bloom + halation, contrast drop).
+- **Preset adjustments:** none.
+
+
+## Validation Sweep 2026-10-21 (Video)
+- **Verdict:** minor drift
+- **Defining traits checked:** Parent Creative/Cinematic Dream Look.xmp exists: tonal and grade parity is exact (Contrast -30 vs -25, Highlights -58 vs -50, Shadows +40, Whites +15, grade H45/S15 + H210/S10). Drift: the parent's diffusion (Clarity -32, Texture -15, Dehaze -22) is the defining 'Pro-Mist' softness and is set to 0 here, so the Video variant reads cleaner — a deliberate grain-safety trade-off (rule 9), not a colour error.
+- **Sources:** still-look parent XMP values in repo; repo research/ characteristics + color-palette notes.
+- **Preset adjustments:** none

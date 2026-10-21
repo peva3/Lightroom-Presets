@@ -43,3 +43,9 @@ This preset is designed to capture the essential visual character of the platinu
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** Warm-neutral, not brown (sat 8/5/5 at 35-40deg); long scale (Shadows +25, Highlights -15); restrained grain 15; Monochrome. Checked deep blacks (Blacks -15) and highlight glow (no Whites push).
+- **Sources:** Wikipedia, 'Platinum print'; AIC Conservation Wiki, 'Platinum, Palladium'; M. Strickland, 'Platinum Palladium Prints' (Pt cooler/contrastier than Pd)
+- **Preset adjustments:** none - drift noted: pure platinum should read slightly cooler AND a touch more contrasty than palladium, but Contrast +20 vs +22 is effectively identical. Cosmetic only.

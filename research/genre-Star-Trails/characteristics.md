@@ -26,3 +26,9 @@ Higher Contrast (+35) and Clarity (+25) than MW — star trails need maximum lin
 - [Seasonal Presets](../../docs/seasonal.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Ex +0.3, Contrast +35, Highlights -50, Shadows +25, Whites +20, Blacks -15, Clarity +25, Dehaze +10, Vibrance +5; AquaSat +10, BlueSat +15, PurpleSat +15, BlueLum -15; shadow H250/S15, highlight H220/S5, blending 75; calibration none; PV 15.4, Color, Adobe Color Look; 4 neutral curves. +35C and Clarity +25 for line definition, BlueSat +15/BlueLum -15 for a deep sky, Aqua +10/Purple +15 for star variety, cool-on-cool H250/H220 grade, Shadows +25/Blacks -15 balanced. No grain, NR at camera default.
+- **Sources:** whitepaper `research/whitepapers/lightroom-xmp-attribute-reference.md`; STYLEGUIDE.md sec. VI; long-exposure night practice.
+- **Preset adjustments:** none

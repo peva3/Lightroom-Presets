@@ -282,3 +282,8 @@ When comparing your digital recreation to real digicam flash photos, check:
 - [Video Presets](../../docs/video.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** blown direct-flash highlights; crushed noisy shadows; cold flash WB against warm ambient; CCD red/magenta bias; chroma noise + vignette
+- **Sources:** Y2K digicam characteristics.md (5500K flash vs 2800K ambient, CCD reds, chroma noise)
+- **Preset adjustments:** none. Temperature 4900 cools the frame, Highlights/Whites +25 blow the flash, Shadows -25 crushes, red +18 / magenta +12 supply CCD skin, Grain 15 with Roughness 70 reads as chroma noise, vignette -12. Calibration block (RedHue +15, etc.) is a deliberate departure from AGENTS rule 1 because the CCD primary shift is the look; Texture +12 with grain is likewise kept for in-camera sharpening halos.

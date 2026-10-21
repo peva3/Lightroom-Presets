@@ -95,3 +95,10 @@ Elite Chrome 200 became a cult favorite among cross-processing (E-6 → C-41) en
 - r/analog: Elite Chrome cross-processing discussions
 - Community rumor: Elite Chrome = rebadged Ektachrome E200 QA rejects
 - Kodak-Elite-Chrome-400 research folder (family characteristics)
+
+
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** Consumer ISO 200 E-6: warmer and more contrasty than pro E100 (preset Contrast +25, warm grade H45 on both zones) — correct; toe behaviour: Shadows +15 lifts the black point, slightly unfilm-like for reversal but consistent with the consumer 'easy' rendering; grain: 35/30 is the heaviest in the Slide category — high but defensible for an ISO 200 consumer slide (Ektachrome 400 HC is RMS 17).
+- **Sources:** Kodak publication E-55 'Kodachrome 25, 64 and 200 Professional' (diffuse RMS 9 / 10 / 16; 25 and 64 described as 'extremely fine grain'; 200 'fine grain'); Kodak Ektachrome RMS table (Ektachrome 100 RMS 11, Ektachrome 400 HC RMS 17). Kodak consumer Ektachrome/Elite Chrome literature.
+- **Preset adjustments:** none (grain left at 35: ISO 200, not covered by the ISO 50-100 near-zero rule)

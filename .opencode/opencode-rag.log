@@ -1,0 +1,258 @@
+[2026-10-21T16:22:11.732Z] [plugin] OpenCode plugin enabled for /app/lr-presets
+
+[2026-10-21T16:22:11.770Z] [plugin] Dimension probe failed, falling back to 384
+Error: connect ECONNREFUSED 127.0.0.1:11434
+    at afterConnect (node:net:1838:39)
+    at connectError (node:net:721:19)
+
+[2026-10-21T16:22:11.784Z] [plugin] Keyword index loaded (0 chunks)
+
+[2026-10-21T16:22:11.784Z] [plugin] OpenCode plugin initialized
+
+[2026-10-21T16:22:11.785Z] [plugin] Read override enabled — RAG-backed read tool registered
+
+[2026-10-21T16:22:11.785Z] [plugin] Registered tools: search_semantic, get_file_skeleton, find_usages, describe_image, recall_quirks, add_quirk, update_quirk, delete_quirk, read
+
+[2026-10-21T16:22:13.315Z] [plugin] OpenCode plugin enabled for /app/lr-presets
+
+[2026-10-21T16:22:13.358Z] [plugin] Dimension probe failed, falling back to 384
+Error: connect ECONNREFUSED 127.0.0.1:11434
+    at afterConnect (node:net:1838:39)
+    at connectError (node:net:721:19)
+
+[2026-10-21T16:22:14.091Z] [plugin] Keyword index loaded (0 chunks)
+
+[2026-10-21T16:22:14.091Z] [plugin] OpenCode plugin initialized
+
+[2026-10-21T16:22:14.092Z] [plugin] Read override enabled — RAG-backed read tool registered
+
+[2026-10-21T16:22:14.092Z] [plugin] Registered tools: search_semantic, get_file_skeleton, find_usages, describe_image, recall_quirks, add_quirk, update_quirk, delete_quirk, read
+
+[2026-10-21T16:22:17.799Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:17.799Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:19.577Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:24.044Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:24.045Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:22:24.527Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:24.572Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:24.715Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:24.921Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:27.313Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:27.313Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:22:27.372Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:27.455Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:27.695Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:30.887Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:30.887Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:22:31.525Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:38.111Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:39.400Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:40.818Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:40.889Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:42.508Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:43.000Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:43.580Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:43.581Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:22:45.507Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:45.507Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:22:45.603Z] [quirk.tool-error] quirk not created for tool "edit": connect ECONNREFUSED 127.0.0.1:11434
+
+[2026-10-21T16:22:45.603Z] [quirk.tool-error] tool error "edit": source=host candidates=0 injected=0 created=no
+
+[2026-10-21T16:22:45.672Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:45.789Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:47.580Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:48.675Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:49.628Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:50.286Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:50.642Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:53.604Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:55.469Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:56.381Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:56.381Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:22:57.371Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:58.819Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:22:58.819Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:23:01.254Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:23:01.254Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:23:03.530Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:23:03.530Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:23:08.020Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:23:08.020Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:23:11.134Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:23:14.296Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:23:20.832Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:23:31.169Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:23:35.521Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:23:38.366Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:23:38.946Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:23:38.946Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:23:41.332Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:23:41.332Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:23:42.879Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:23:43.247Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:23:43.248Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:23:46.282Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:23:46.761Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:23:46.761Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:23:48.872Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:23:48.963Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:23:48.963Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:23:52.234Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:23:54.246Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:23:54.247Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:23:56.299Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:23:56.739Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:24:00.115Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:24:01.987Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:24:03.756Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:24:06.763Z] [quirk.tool-error] tool "shell" status=completed but its output reports a failure (exit-code)
+
+[2026-10-21T16:24:06.770Z] [quirk.tool-error] quirk not created for tool "shell": connect ECONNREFUSED 127.0.0.1:11434
+
+[2026-10-21T16:24:06.770Z] [quirk.tool-error] tool error "shell": source=output candidates=0 injected=0 created=no
+
+[2026-10-21T16:24:06.822Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:24:18.634Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:24:27.000Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:24:27.000Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:24:34.570Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:24:34.571Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:24:38.396Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:24:38.397Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:24:41.998Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:24:41.998Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:24:45.410Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:24:45.410Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:24:55.974Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:24:55.975Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:25:01.526Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:25:01.527Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:25:13.038Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:25:13.038Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:25:21.763Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:25:21.763Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:25:26.601Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:25:26.601Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:25:29.798Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:25:29.799Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:25:34.352Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:25:34.352Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:25:40.767Z] [quirk.tool-error] tool "shell" status=completed but its output reports a failure (exit-code)
+
+[2026-10-21T16:25:40.769Z] [quirk.tool-error] quirk not created for tool "shell": connect ECONNREFUSED 127.0.0.1:11434
+
+[2026-10-21T16:25:40.769Z] [quirk.tool-error] tool error "shell": source=output candidates=0 injected=0 created=no
+
+[2026-10-21T16:25:41.142Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:25:41.142Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:25:45.318Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:25:45.318Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+
+[2026-10-21T16:25:49.735Z] [experimental.chat.system.transform] system guidance injected
+
+[2026-10-21T16:25:49.735Z] [quirk.auto-inject] system: injected=0 reason=no-user-text found=0 req=""
+

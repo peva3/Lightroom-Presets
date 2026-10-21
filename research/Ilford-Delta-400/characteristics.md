@@ -37,3 +37,11 @@ Ilford Delta 400 is a medium-speed T-grain (tabular grain) black-and-white negat
 - Ilford Photo/Harman Technology Technical Data Sheet
 - t3mujinpack dtstyle data for Darktable emulation
 - Ilford "Delta Professional" product literature
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** ISO 400 core-shell T-grain, datasheet Gbar 0.62 "fine grain, outstanding sharpness" — the film should render *finer* than HP5+ at the same speed and noticeably finer than Fomapan 400. Preset GrainAmount 35 / GrainSize 30 equals T-Max 400 (35/28) and undercuts Foma 400 (45/35), but sits at the same grain amount as HP5+ (36.3) — a small inversion of Delta's core selling point. Contrast +25 is higher than the "moderate, neutral" brief and higher than Delta 100's +15, which overstates the T-grain neutrality. Spectral drift: Red +30 / Blue −35 is the widest warm-cool split in the Delta family (Delta 100 is +10/−15) for a film described here as neutral and clinical. Tonal register and black point are sound, so no edit.
+- **Sources:** Ilford Delta 400 Professional technical information (ISO 400, EI 200–3200, Gbar 0.62, fine grain); German Ilford Delta 100/400 data sheet; this folder's Delta-vs-HP5 comparison.
+- **Preset adjustments:** none

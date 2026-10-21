@@ -119,3 +119,12 @@ For related Lightroom presets and film stock references:
 - [Kodak Royal Gold 400](../Kodak-Royal-Gold-400/characteristics.md)
 - [Kodak Max 800](../Kodak-Max-800/characteristics.md)
 - [Kodak High Definition Plus 200](../Kodak-High-Definition-Plus-200/characteristics.md)
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate
+- **Defining traits checked:** warm golden-leaning skin; medium contrast ("less flat than Portra, more refined than Ultramax"); fine grain for ISO 100; tropical-light robustness.
+- **Verified in XMP:** Contrast -5 (a touch more contrast than the Portra 400 preset at -7.5, consistent with "less flat than Portra"), grain 25 / 25 / 45 — moderate rather than micro-fine, acceptable for this consumer/pro hybrid emulsion, restrained orange +5 / red +5 saturation, warm highlight 40 deg / 8, no global saturation bias.
+- **Note:** grain amount 25 is arguably a step high for ISO 100 film; it is within the band used for Gold 200 (35) and Ultramax (32), so it reads as "consumer texture", not a defect.
+- **Sources:** Kodak Alaris Pro Image 100 product information; Fuji X Weekly "Pro Neg" recipe (2025); r/analog Pro Image threads.
+- **Preset adjustments:** none

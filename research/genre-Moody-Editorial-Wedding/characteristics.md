@@ -26,3 +26,9 @@ Underexposure (-0.30) + strong Contrast (+30) create dramatic tonality. Highligh
 - [Seasonal Presets](../../docs/seasonal.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Ex -0.3, Contrast +30, Highlights -50, Shadows +25, Whites +10, Blacks -15, Vibrance -8, Saturation -10, Sharpness +10, Grain +20; GreenHue +30, YellowSat -15, GreenSat -40, OrangeLum +10; shadow H225/S15, midtone H35/S5, highlight H40/S10, blending 75; calibration none; PV 15.4, Color, Adobe Color Look; 4 neutral curves. -0.30Ex, +30C, Highlights -50 shoulder, teal H225/S15 vs warm H40/S10 split, Greens pushed brown (+30 hue, -40 sat), OrangeLum +10 with no orange sat push, Grain 20 with Sharpness 10/Clarity 0.
+- **Sources:** whitepaper `research/whitepapers/lightroom-xmp-attribute-reference.md`; STYLEGUIDE.md sec. VI/VII; wedding editorial recipes.
+- **Preset adjustments:** none

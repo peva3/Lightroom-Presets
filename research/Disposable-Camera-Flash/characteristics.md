@@ -89,3 +89,9 @@ The Disposable Camera Flash Lightroom preset recreates this look digitally using
 - [Video Presets](../../docs/video.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** (1) cheap plastic optics — Clarity -40, Texture -20, Dehaze -15, SharpenRadius +2.0 with SharpenDetail 0 / EdgeMasking 0; (2) harsh on-axis flash falloff — Vignette -20 at Midpoint 32 / Feather 65, Whites +15, Highlights -50, Shadows +40; (3) warm consumer-film colour — Highlight H45/S18, Shadow H35/S12, Red +12 / Orange +15 / Yellow +10 sat, grain 50/30/60.
+- **Sources:** research/characteristics (FunSaver = Gold 800 warm, QuickSnap = Superia 800 cooler; single-element lens f/10–11, GN ~10–12, 1–2 stop corner falloff); Y2K flash references.
+- **Preset adjustments:** none.

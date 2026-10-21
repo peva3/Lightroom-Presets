@@ -89,3 +89,11 @@ For related Lightroom presets and film stock references:
 - [Cinestill 800T](../Cinestill-800T/characteristics.md)
 - [CineStill 50D](../CineStill-50D/characteristics.md)
 - [Kodak Vision3 250D](../Kodak-Vision3-250D/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** flat cinema scan contrast; warm Vision3 palette with muted greens; fine grain; slightly cool/teal shadows.
+- **Sources:** research dossier; bluemooncameracodex 400D review ("soft contrast, softer-but-not-flat saturation, very fine grain"), thedarkroom 400D notes, Fuji X Weekly 400D v2 recipe.
+- **Preset adjustments:** none. Contrast -5, green -10, shadow grade 200 deg and highlight grade 40 deg reproduce the flat, warm-cinema reading. Halation itself is a lens/optics effect and cannot live in a preset.

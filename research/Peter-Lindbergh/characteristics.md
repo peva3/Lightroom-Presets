@@ -37,3 +37,9 @@
 - Shadows lifted significantly (Shadows +35, Blacks only -12)
 - No heavy sky darkening — the soft, atmospheric look avoids dramatic sky treatments
 - Sharpness kept low to let grain carry texture
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Lowest contrast in the B&W set (Contrast +10) with Shadows +35 / Blacks -12 / Highlights -35 -- midtones lifted, blacks never crushed; Grain 40 at size 32 with Roughness 55 (soft but present); Sharpness 10 lets grain carry texture; no sky darkening (Blue only -15).
+- **Sources:** Repo characteristics.md cross-check; cluster B&W search.
+- **Preset adjustments:** none

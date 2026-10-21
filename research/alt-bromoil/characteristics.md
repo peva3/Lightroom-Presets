@@ -43,3 +43,9 @@ This preset is designed to capture the essential visual character of the bromoil
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** Warm brown-black ink (30-40deg, sat 20/12/8); deliberately unsharp (Texture -10, Clarity -15, Dehaze -5, GrainAmount 0); painterly vignette inherited from the soft-process curve.
+- **Sources:** AlternativePhotography.com, bromoil process; Christopher James, 'The Book of Alternative Photographic Processes'
+- **Preset adjustments:** none - drift noted: the shared soft-process curve lifts the black point to 20/255, which caps the 'rich deep inked blacks' the process is prized for. Left as-is for family consistency.

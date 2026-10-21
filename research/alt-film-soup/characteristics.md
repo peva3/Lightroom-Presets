@@ -43,3 +43,9 @@ This preset is designed to capture the essential visual character of the film so
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Chemical-damage signature: exaggerated grain 48/45/75; purple/green hue twists (+30 green, +20 purple), magenta and yellow saturation pushed; cool shadow (180deg/18) against magenta highlight (340deg/15); lifted-black curve; vignette -25.
+- **Sources:** Lomography film-soup technique write-ups; community r/analog film soup references
+- **Preset adjustments:** none

@@ -43,3 +43,9 @@ This preset is designed to capture the essential visual character of the cross p
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** major miss
+- **Defining traits checked:** The reverse direction is documented as flat, foggy, low-contrast and low-saturation with a strong golden-orange cast from the retained C-41 orange mask. The preset encoded the OPPOSITE: Contrast +42, Blacks -25, Saturation +8/Vibrance +10, blue saturation +20 and 200-230deg (blue) grading on all three zones - i.e. the E6->C41 signature.
+- **Sources:** Kubus Photo, 'Cross Processing Film: E-6 in C-41' (E-6-in-C-41 = +30-50% contrast, Fuji->green/cyan, Kodak->yellow/golden; C-41-in-E-6 = flat, low-contrast positives with strong casts from the orange mask); Photo.net, 'Processing C-41 color negatives in E-6' (low contrast, yellowish dMin); Flickr Cross Processed group ('foggy, low contrast, low saturation, golden cast')
+- **Preset adjustments:** FIXED: Contrast2012 +42 -> +8; Highlights -30 -> -15; Shadows +20 -> +30; Whites +15 -> -5; Blacks -25 -> +15 (fogged blacks); Saturation +8 -> -5; Vibrance +10 -> -5; ColorGrade shadow 230/22 -> 45/16, mid 210/10 -> 40/18, highlight 200/12 -> 35/20; SaturationAdjBlue +20 -> -10, Orange -15 -> +10, Green -20 -> -10. Structure, name, Look block and curves untouched.

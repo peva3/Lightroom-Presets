@@ -43,3 +43,9 @@ This preset is designed to capture the essential visual character of the cyanoty
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** Prussian-blue-only rendering (Monochrome + Adobe Monochrome look; shadow 220deg/sat35, mid 218/20, highlight 215/5); contrasty, tonal compression (Contrast +30, Highlights -25) so midtones stay few; no calibration or WB values; grain 20.
+- **Sources:** AlternativePhotography.com, 'Cyanotypes - how blue can you get?' and 'Toning Cyanotypes'; Graphics Atlas process 319 (cyanotype); Photrio thread 'Paper white in cyanotypes'
+- **Preset adjustments:** none - drift noted: highlight saturation 5 leaves near-paper-white highlights, whereas the process keeps a faint cyan in the paper base. Not a defining contradiction (the image still reads Prussian blue end to end).

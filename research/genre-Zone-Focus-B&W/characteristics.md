@@ -26,3 +26,9 @@ B&W mixer is the hero: Red +25 lightens skin/faces, Orange +15 brightens skin, G
 - [Seasonal Presets](../../docs/seasonal.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Ex +0.1, Contrast +35, Highlights -30, Shadows +20, Whites +10, Blacks -25, Sharpness +10, Grain +45; HSL all zero; blending 50; calibration none; PV 15.4, Monochrome, Adobe Monochrome Look; 4 neutral curves. Pushed-Tri-X: ConvertToGrayscale=True, Adobe Monochrome Look, GrayMixer Red +25/Orange +15 (skin), Green -20/Blue -25 (foliage/sky), +35C, Blacks -25, Grain 45/30/60 with Sharpness 10 and Clarity/Texture 0.
+- **Sources:** whitepaper `research/whitepapers/lightroom-xmp-attribute-reference.md`; STYLEGUIDE.md sec. VII/IX; B&W mixer practice.
+- **Preset adjustments:** none

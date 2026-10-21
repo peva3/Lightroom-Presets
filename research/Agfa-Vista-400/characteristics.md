@@ -109,3 +109,11 @@ For related Lightroom presets and film stock references:
 - [Agfa Vista 100](../Agfa-Vista-100/characteristics.md)
 - [Agfa Vista 200](../Agfa-Vista-200/characteristics.md)
 - [Kodak Gold 200](../Kodak-Gold-200/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** warmest Vista (golden-cream whites, warm brown shadows); explosive warm-leaning reds; moderate consumer contrast; coarser grain.
+- **Sources:** research dossier; analog.cafe V400 notes, casualphotophile Agfa consumer line profile.
+- **Preset adjustments:** none. Warm grading across midtone/highlight/shadow (42/50/35 deg), red +30, grain 33 all match.

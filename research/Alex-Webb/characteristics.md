@@ -39,3 +39,9 @@
 - Blue pulled back (tropical sky can be too dominant in color)
 - Slight underexposure with shadow lift — the paradox of harsh tropical light: bright highlights AND deep shadows
 - Blending at 75 for clean color separation
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Blacks -25 for graphic shadow geometry, Shadows +30 lift, Exposure -0.10; tropical warm midtone/highlight grade (40/10, 38/15); green -35 desaturated, blue -20 pulled back; red/orange up (+15/+10); Blending 75.
+- **Sources:** Repo characteristics.md cross-check; cluster colour-signature search (Kodachrome/dye-transfer saturation).
+- **Preset adjustments:** none

@@ -58,3 +58,11 @@ For related Lightroom presets and film stock references:
 - [Kodak Vericolor VPS](../Kodak-Vericolor-VPS/characteristics.md)
 - [Kodak Portra 160](../Kodak-Portra-160/characteristics.md)
 - [Fujifilm Pro 400H](../Fujifilm-Pro-400H/characteristics.md)
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate
+- **Defining traits checked:** extremely low contrast (the #1 trait); cool-magenta shadow cast; pastel, subdued colour; effectively invisible grain; lifted blacks.
+- **Verified in XMP:** Contrast -30 — the lowest in the collection after Vericolor VPS — with Shadows +25 and Blacks +20; shadow grade 320 deg / 8 (magenta, exactly the documented hue); Saturation -5 / Vibrance -2 with muted blues and greens; grain 22 / 22 / 40.
+- **Sources:** Kodak Vericolor III data (archived); Fuji X Weekly Nostalgic Neg recipe (2026) cited in this folder; r/analog portrait-film threads.
+- **Preset adjustments:** none

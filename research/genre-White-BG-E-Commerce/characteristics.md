@@ -26,3 +26,9 @@ High Exposure (+0.50) + Whites (+25) blow out backgrounds to pure white. Highlig
 - [Seasonal Presets](../../docs/seasonal.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Ex +0.5, Contrast +15, Highlights -50, Shadows +15, Whites +25, Clarity +10, Texture +5; RedSat -5, OrangeSat -5; blending 75; calibration none; PV 15.4, Color, Adobe Color Look; 4 neutral curves. Neutral by construction: no Temperature/Tint, no Vibrance/Saturation, CG sats 0; +0.50Ex with Whites +25 sets the white point and Highlights -50 is the shoulder compression STYLEGUIDE prescribes (negative Highlights + positive Whites), so the sweep still clips to white while product speculars survive. Clarity +10/Texture +5 for edge crispness. No cast, no colour shift.
+- **Sources:** whitepaper `research/whitepapers/lightroom-xmp-attribute-reference.md`; backyardsilver.com pure-white-background-in-Lightroom; r/productphotography white-on-white thread; STYLEGUIDE.md sec. IV (Highlights = shoulder, Whites = clip point).
+- **Preset adjustments:** none

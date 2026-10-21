@@ -60,3 +60,11 @@ Crossbird is intentionally unpredictable:
 - STYLEGUIDE §VI: Cross-Processed color grade formula (Shadows H160° green-cyan, Midtones H70°, Highlights H320° magenta)
 
 *Note: No known dedicated Lightroom recipes. This is a niche experimental film. Values derived from known cross-process characteristics, STYLEGUIDE cross-process formulas, and community scan analysis.*
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate (cross-processed interpretation)
+- **Defining traits checked:** extreme xpro contrast; green/cyan shadow crossover; yellow-green midtones; magenta highlights; crushed blacks; strong grain.
+- **Verified in XMP:** Contrast +65 with Highlights -70 and Blacks -30 (the most extreme contrast regime in the collection), shadow grade 160 deg / 25 (green-cyan), midtone 70 deg / 18, highlight 320 deg / 20, SaturationAdjustmentGreen +50 / Blue +15, grain 40 / 35 / 60. Matches the xpro crossover signature.
+- **Sources:** Rollei Crossbird 200 / Maco product notes; lomography cross-processing guides; repo characteristics.md.
+- **Preset adjustments:** none

@@ -49,3 +49,11 @@ The bridge between consumer Superia and professional Pro 400H
 - Fuji X Weekly recipe
 - Fujifilm Superia Premium technical documentation (Japanese domestic market)
 - Japanese film photography community and Flickr groups
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** neutral-cool premium rendering; finer grain than X-TRA 400; cleaner skin; medium contrast; cyan depth in skies.
+- **Sources:** research dossier; Fujifilm Superia Premium 400 (Japan) datasheet, carlosgrphoto Superia family review.
+- **Preset adjustments:** none. Grain 25 vs X-TRA's 31 and Shadow 150 deg sat 10 vs 130/16 correctly position it as the refined sibling.

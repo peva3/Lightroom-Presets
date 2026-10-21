@@ -40,3 +40,9 @@
 - Negative Clarity for the through-glass softness
 - Slight magenta saturation boost (the streetlight magenta)
 - Blending at 75 for cinematic color separation
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Night palette: Exposure -0.40 with Shadows +40 (dark but visible), blue-magenta shadow 230/20 and midtone 250/10 at Balance +20; Dehaze -10 and Clarity -8 for through-windshield haze; green -35 desaturated; magenta +10; warm window highlights 38/12; Blending 75.
+- **Sources:** Repo characteristics.md cross-check; cluster colour-grade search.
+- **Preset adjustments:** none

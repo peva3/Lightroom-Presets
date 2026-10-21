@@ -274,3 +274,22 @@ The "British Tri-X" nickname is both apt and misleading. HP5 is the British work
 - [Genre Presets](../../docs/genre.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+---
+
+## Validation Sweep 2026-10-21 — HP5 Plus family (7 presets)
+- **Verdict:** accurate for the box-speed preset; minor drift on Stand Dev
+- **Defining traits checked:** HP5+'s defining traits per this folder are *softer contrast than Tri-X* (gamma ~0.55–0.58), an extended midtone grey range, and classic cubic grain. Box-speed preset: Contrast +7.5 vs Tri-X's +35 in this repo, Blacks −11.3 vs −30, Shadows +16.3 — the softer toe and open shadows are modelled correctly. Grain 36.3/27.5 sits below Tri-X's 55/35 and above Delta 400's 35/30, the right slot for traditional-grain ISO 400. GrayMixer Red +15 / Blue −18.8 is a full stop milder than Tri-X's +30/−40, consistent with HP5's more even spectral response.
+  Per-variant ordering is monotonic and physically sensible:
+  | Preset | Contrast | Blacks | Grain | GrainSize | Comment |
+  |---|---|---|---|---|---|
+  | −1 (pull) | −7.5 | −1.3 | 24.3 | 19.5 | flatter, finer, lifted — correct pull |
+  | DD-X | +2.5 | −11.3 | 26.3 | 19.5 | fine-grain developer, slightly flatter — correct |
+  | Stand Dev | −7.5 | −11.3 | 31.3 | 27.5 | compensating highlights, open shadows — **grain should exceed box speed** (Rodinal stand is coarse, clumpy), yet 31.3 < 36.3 |
+  | box | +7.5 | −11.3 | 36.3 | 27.5 | reference |
+  | Expired | −4.5 | +0.7 | 58.3 | 39.5 | fog lift (Shadows +26.3, Whites −10) plus coarser grain — correct |
+  | +1 | +22.5 | −19.3 | 51.3 | 35.5 | correct push |
+  | +2 | +35.5 | −26.3 | 64.3 | 42.5 | correct push, near Tri-X contrast |
+  One other observation: all seven variants carry an identical ColorGrade split (Highlight hue 50 / sat 5, Shadow hue 230 / sat 8) — a cool-shadow/warm-highlight tint on an untoned film. It is subtle (sat ≤ 8) and consistent with the repo's house look, so it is recorded rather than changed.
+- **Sources:** Ilford HP5 Plus technical information and this folder's gamma/shoulder/toe and RMS comparison tables; Ilford product brochure (PLUS vs DELTA grain-to-speed positioning); Harman developer data for DD-X / Microphen / ID-11; Ilford statement that HP5+ grain and resolving power are not published (thegrainarchive.com Delta 3200 digest table).
+- **Preset adjustments:** none

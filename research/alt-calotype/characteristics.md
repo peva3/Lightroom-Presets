@@ -43,3 +43,9 @@ This preset is designed to capture the essential visual character of the calotyp
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Paper-negative softness: no true black or white (curve 0->20, 255->235, Contrast 0), warm brown-black (35-42deg), heavy fibrous grain 40, vignette -30 with hard midpoint 35.
+- **Sources:** Wikipedia, 'Calotype'; AlternativePhotography.com, paper-negative process notes
+- **Preset adjustments:** none

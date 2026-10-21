@@ -90,3 +90,11 @@ For related Lightroom presets and film stock references:
 - [Fuji Superia 1600](../Fuji-Superia-1600/characteristics.md)
 - [Fuji Neopan 1600](../Fuji-Neopan-1600/characteristics.md)
 - [Fuji Superia 800](../Fuji-Superia-800/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** medium-low contrast; cool-neutral (not cold) balance; fine grain for ISO 1600 (RMS 4); slightly teal greens; smooth highlight compression.
+- **Sources:** research dossier; analog.cafe Natura 1600 review (RMS 4), Richard Haw review, thephoblographer profile.
+- **Preset adjustments:** none. Contrast -14 with Shadows +41 / Highlights -43, green -20, shadow grade 215 deg and grain 31 (Size 30) read as "fine for 1600".

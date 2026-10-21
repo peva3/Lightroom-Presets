@@ -43,3 +43,9 @@ This preset is designed to capture the essential visual character of the wet pla
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Warm brown-black monochrome (35/30/40deg at sat 30/20/10); blacks driven down (Blacks -25) so the lacquered plate reads; PostCropVignette -25 at midpoint 40 for the poured-edge falloff; grain 30/35/55; no clarity crunch.
+- **Sources:** PSA Library, 'Daguerreotypes, Ambrotypes, and Tintypes' (direct-image collection ID guide); Daguerreian Society FAQ; B. Wylie, 'Tintype vs Daguerreotype vs Ambrotype'
+- **Preset adjustments:** none

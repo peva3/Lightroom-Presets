@@ -43,3 +43,9 @@ This preset is designed to capture the essential visual character of the diana f
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Heavy vignette (-55, midpoint 30), softness (Texture -15, Clarity -20), low contrast (-10), cool shadow drift (240deg/12) with warm highlights (45-50deg), blue cut (-15) matching the Diana's cyan-sapped plastic lens.
+- **Sources:** Lomography Diana F+ documentation; toy-camera optical references
+- **Preset adjustments:** none

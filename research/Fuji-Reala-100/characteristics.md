@@ -93,3 +93,13 @@ For related Lightroom presets and film stock references:
 
 - [Fuji Pro 160NS](../Fuji-Pro-160NS/characteristics.md)
 - [Kodak Ektar 100](../Kodak-Ektar-100/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** colour-accuracy-first neutrality (no warm cast); moderate contrast between Portra and Ektar; very fine grain (RMS 4); accurate greens/cyans.
+- **Sources:** research dossier; Fujifilm Reala 100 datasheet, Fuji X Weekly Reala-inspired recipes.
+- **Preset adjustments:** none. Cool 210/216 deg grading, green +8 hue / +5 sat, blue -8 and grain 15 keep the neutral-cool reading. Flag for future: GrainRoughness 15 sits below the STYLEGUIDE 40 floor for organic grain — harmless at Amount 15 on an ultra-fine stock, but not a texture to copy elsewhere.
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

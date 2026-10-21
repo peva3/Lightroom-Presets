@@ -43,3 +43,9 @@ This preset is designed to capture the essential visual character of the pinhole
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Soft and low-contrast (Clarity -25, Texture -15, Dehaze -10, Contrast -15, Shadows +40); strong falloff (vignette -55, midpoint 30); desaturated -30; warm-neutral 45-55deg; GrainAmount 0.
+- **Sources:** Pinhole/worldwide pinhole photography day reference material; zero-optics softness characteristics
+- **Preset adjustments:** none

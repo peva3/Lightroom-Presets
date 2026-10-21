@@ -27,3 +27,8 @@ Kodachrome (1935-2009) was the first commercially successful color film and used
 - Grain → Sharpness=10, LuminanceSmoothing=0 ✓
 - Tone Curve: Cinematic Creative ✓
 - ColorGradeBlending: 75 ✓
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** deep cyan-blue sky signature + suppressed warms; cool overall cast; NatGeo mid-century palette; grain-protected detail
+- **Sources:** Fuji X Weekly "Kodachrome Blue" recipe (community-recipes.md); Adobe Color Mixer HSL doc; Capture Landscapes HSL guide (hue-shift direction)
+- **Preset adjustments:** Tint +20 -> -6 (magenta tint cancelled the documented cyan/blue cast; Fuji recipe shift is -6R/+9B = cyan-blue). Kept Temperature 6500, Highlights +30, blue shadow/highlight grade 215/220.

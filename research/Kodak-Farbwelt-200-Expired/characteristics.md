@@ -92,3 +92,11 @@ For related Lightroom presets and film stock references:
 
 - [Kodak Gold 200](../Kodak-Gold-200/characteristics.md)
 - [Kodak ColorPlus 200](../Kodak-ColorPlus-200/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** very low contrast from base fog; lifted milky blacks; amber-brown cast; heavy desaturation with blues almost gone; heavy expired grain.
+- **Sources:** research dossier; Fuji X Weekly Kodak Farbwelt expired recipe, expired-film behaviour literature.
+- **Preset adjustments:** none. Contrast -20, Blacks +20, Shadows +35, Whites -25, Saturation/Vibrance -10, grain 55/40/70, blue -25 and warm 30 deg shadow grade are a textbook base-fog emulation.

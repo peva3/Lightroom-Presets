@@ -43,3 +43,11 @@ This preset is designed to capture the essential visual character of the cross p
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** E-6-in-C-41 signature: contrast +38 with crushed shadow colour (Blacks -20); green/cyan shadows (160deg/25), yellow-green midtones (70deg/15), magenta-leaning highlights (320deg/20); hue twists (+40 green, +30 magenta, -30 yellow); grain 25.
+- **Sources:** Kubus Photo, 'Cross Processing Film: E-6 in C-41' (E-6-in-C-41 = +30-50% contrast, Fuji->green/cyan, Kodak->yellow/golden; C-41-in-E-6 = flat, low-contrast positives with strong casts from the orange mask); Photo.net, 'Processing C-41 color negatives in E-6' (low contrast, yellowish dMin); Flickr Cross Processed group ('foggy, low contrast, low saturation, golden cast')
+- **Preset adjustments:** none
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

@@ -26,3 +26,9 @@ Blue Sat +20 + Blue Lum -10 deepen sky without cyan cast. Aqua Sat +15 gives gra
 - [Seasonal Presets](../../docs/seasonal.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Ex +0.15, Contrast +15, Highlights -40, Shadows +15, Whites +10, Blacks -10, Dehaze +10, Vibrance +5, Saturation +5; GreenSat -10, AquaSat +15, BlueSat +20, BlueLum -10; shadow H230/S8, highlight H43/S5, blending 75; calibration none; PV 15.4, Color, Adobe Color Look; 4 neutral curves. Exterior real estate: BlueSat +20 and BlueLum -10 deepen sky without cyan, AquaSat +15 for gradient, Dehaze +10 for rooflines, GreenSat -10 saves lawns, Highlights -40 holds cloud detail.
+- **Sources:** whitepaper `research/whitepapers/lightroom-xmp-attribute-reference.md`; Imagen AI real-estate guide; STYLEGUIDE.md sec. VI.
+- **Preset adjustments:** none

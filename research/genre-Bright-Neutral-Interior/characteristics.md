@@ -26,3 +26,9 @@ Bright exposure (+0.40) to fill shadow corners. Shadow lift (+30) reveals detail
 - [Seasonal Presets](../../docs/seasonal.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Ex +0.4, Contrast +10, Highlights -35, Shadows +30, Whites +10, Clarity +5; OrangeSat -5, BlueSat -10, AquaLum +15; shadow H220/S3, highlight H43/S3, blending 75; calibration none; PV 15.4, Color, Adobe Color Look; 4 neutral curves. Real-estate core: +0.40Ex, Highlights -35 protects window detail, Shadows +30 opens corners, Whites +10 without clipping; OrangeSat -5 keeps oak floors honest; toning at 3% sat only, so no cast. No WB override (correct: mixed lighting must be solved per frame).
+- **Sources:** whitepaper `research/whitepapers/lightroom-xmp-attribute-reference.md`; Imagen AI real-estate preset guide; Imagtor exposure-balancing guide.
+- **Preset adjustments:** none

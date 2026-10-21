@@ -243,3 +243,19 @@ For related Lightroom presets and film stock references:
 - [Fuji Sensia 100](../Fuji-Sensia-100/characteristics.md)
 - [Fuji Fortia SP 50](../Fuji-Fortia-SP-50/characteristics.md)
 - [Kodak Ektachrome E100](../Kodak-Ektachrome-E100/characteristics.md)
+
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Velvia 50: world-class saturation and vibrancy with 'excellent deep shadows'. Preset: Contrast +40, S-curve 42->28 / 213->230, Blacks -30, Shadows -30, green +35 / blue +26.3 saturation with blue Luminance -22.5, grain 5/25. Saturation is carried per-hue with a -5 global, so no Vibrance/Saturation gap. Highlights -65 is generous recovery for a hard-clipping slide, but the curve keeps the overall register contrasty; left as house style.
+- **Sources:** Fujifilm Velvia 100 datasheet (world's highest saturation, RMS 8); Velvia 50 / Provia 100F datasheets (RMS 8, medium saturation + contrast); Fujifilm Sensia 100 product page; Fortia SP entry (Wikipedia) + Fuji X Weekly 'Fortia 50' (highest-saturation Fuji emulsion, above Velvia 50); Astia 100F reviews (Alex Luyckx) and Fujifilm film-simulation chart (soft/muted).
+- **Preset adjustments:** none
+
+
+## Validation Sweep 2026-10-21 (Video)
+- **Verdict:** accurate
+- **Defining traits checked:** Parent Slide/Fuji Velvia 50 exists: the per-hue saturation recipe is identical (green +35, blue +26.3, red +22.5) as is the grade (H50/S7.5 over H230/S10, Balance -5). Contrast 35 vs 40, Highlights -73 vs -65, grain 5 in both — the video variant only trims contrast slightly.
+- **Sources:** Fujifilm Velvia 100 datasheet (world's highest saturation, RMS 8); Velvia 50 / Provia 100F datasheets (RMS 8, medium saturation + contrast); Fujifilm Sensia 100 product page; Fortia SP entry (Wikipedia) + Fuji X Weekly 'Fortia 50' (highest-saturation Fuji emulsion, above Velvia 50); Astia 100F reviews (Alex Luyckx) and Fujifilm film-simulation chart (soft/muted). Still-look parent XMP values in repo; repo research/ characteristics + color-palette notes.
+- **Preset adjustments:** none
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

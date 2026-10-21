@@ -65,3 +65,14 @@ NC 500 is known for pronounced halation (red/orange glow around bright light sou
 - YouTube: NC 500 reviews (grainydays, Kyle McDougall, etc.)
 
 *Note: No known Lightroom/Fuji X Weekly recipes. This is a very new film (2022+). Values derived from community reviews, ORWO datasheets, scan analysis, and known color characteristics.*
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate
+- **Defining traits checked:** muted, vintage East-German palette; warm/teal-leaning balance; warm (not cool) blacks; visible coarse grain (RMS 12-14); moderate contrast, less punchy than Kodak.
+- **Verified in XMP:** Contrast +10 (well below Ultramax's +22 and Royal Gold's +22), Saturation -10 / Vibrance -5 (gap 5), grain 35 / 32 / 58, warm shadow grade 30 deg / 10 and warm midtone 35 deg / 5, muted blue (-10 sat, -15 hue toward aqua), creamy warm highlights 25 deg / 12.
+- **Caution:** HueAdjustmentGreen +15 pushes greens toward aqua while the reference calls for muted olive/brown-green; the -15 green saturation means the effect is small. Recorded, not changed.
+- **Sources:** ORWO official technical data; 35mmc NC 500 articles (2024-2025); r/analog; repo characteristics.md.
+- **Preset adjustments:** none
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

@@ -65,3 +65,13 @@ For related Lightroom presets and film stock references:
 - [Agfa Optima 100](../Agfa-Optima-100/characteristics.md)
 - [Agfa Vista 200](../Agfa-Vista-200/characteristics.md)
 - [Kodak Portra 400](../Kodak-Portra-400/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** slightly warmer and marginally more contrast/saturation than Optima 100; same golden family palette; fine grain.
+- **Sources:** research dossier; japancamerahunter Optima Prestige 200 (soft warm tones, good saturation), Fuji X Weekly Optima 200 recipe.
+- **Preset adjustments:** none. Correctly one step warmer than Optima 100 (midtone sat 8 vs 5, highlight sat 10 vs 8, grain 25 vs 20).
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

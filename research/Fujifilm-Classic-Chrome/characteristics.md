@@ -231,3 +231,13 @@ For related Lightroom presets and film stock references:
 - [Fujifilm Classic Negative](../Fujifilm-Classic-Negative/characteristics.md)
 - [Fujifilm Pro 400H](../Fujifilm-Pro-400H/characteristics.md)
 - [Kodak Ektar 100](../Kodak-Ektar-100/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** steely, magenta-free blues; subdued mid-low saturation; strong midtone contrast with weighty shadows; warm but not ruddy skin.
+- **Sources:** research dossier; Fujifilm Classic Chrome description (magenta removed from blues), Fuji X Weekly Classic Chrome analyses.
+- **Preset adjustments:** none. Blue sat -26 with hue -7.5 (toward cyan) plus purple/magenta -22.5/-25 reproduces the magenta suppression; Shadows -22 and Contrast +22 give the "full-bodied shadow" character.
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

@@ -120,3 +120,11 @@ For related Lightroom presets and film stock references:
 - [Fuji Superia 1600](../Fuji-Superia-1600/characteristics.md)
 - [Fuji Superia XTRA 400](../Fuji-Superia-XTRA-400/characteristics.md)
 - [Fuji Superia HG 1600](../Fuji-Superia-HG-1600/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** retained cool bias at speed; pronounced green shadows; moderate-to-prominent grain; slightly desaturated reds vs 400.
+- **Sources:** research dossier; Fujifilm Superia 800/Venus 800 datasheet, legendarypresets Superia X-TRA 800 review.
+- **Preset adjustments:** none. Shadow grade 140 deg sat 14 (strongest of the slow Superias), grain 38/33 and Contrast +20 match the "green shadows amplified by speed" description.

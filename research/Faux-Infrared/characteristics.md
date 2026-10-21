@@ -183,3 +183,11 @@ The combination of white foliage + dark sky creates **extreme subject-background
 - [Video Presets](../../docs/video.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** (1) Wood effect — GrayMixer Green +100, Yellow +100, Red +80, Orange +65 make foliage the brightest element; (2) near-black sky/water — GrayMixer Blue -100, Aqua -80, Purple -45, Magenta -30; (3) IR clarity and grain — Contrast +40, Clarity +40, Dehaze +30 (haze removal is a real IR property), Grain 40/30/60, Exposure +0.50, Whites +30.
+- **Structure:** Treatment Monochrome + ConvertToGrayscale True + Adobe Monochrome Look — correct B&W branch.
+- **Note:** Clarity +40 / Dehaze +30 with GrainAmount 40 is a documented exception to rule 9; a monochrome IR conversion needs the acutance, and this one is a landscape look rather than a grain-forward film sim.
+- **Sources:** Wikipedia "Wood effect"; Adobe IR guide; Kolari Vision B&W IR processing; research/characteristics + film-references.
+- **Preset adjustments:** none.

@@ -64,3 +64,11 @@ For related Lightroom presets and film stock references:
 - [Fuji Pro 160NS](../Fuji-Pro-160NS/characteristics.md)
 - [Kodak Portra 160](../Kodak-Portra-160/characteristics.md)
 - [Fuji Reala 100](../Fuji-Reala-100/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** very low contrast from pull processing; very low saturation/pastel; lifted open blacks; green-cyan shadow cast; extremely fine grain.
+- **Sources:** research dossier; Fuji X Weekly NPS 160 pulled recipe (Classic Negative base), Fujifilm NPS 160 datasheet.
+- **Preset adjustments:** none. Contrast -25, Blacks +15, Shadows +40, Saturation -15, green -25, shadow grade 160 deg and grain 18 are a coherent pull-process emulation.

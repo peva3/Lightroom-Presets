@@ -17,3 +17,9 @@ Best for: Coffee shop photography, cozy indoor scenes, food photography, lifesty
 - No grain ✓
 - Tone Curve: Cinematic Creative ✓
 - ColorGradeBlending: 75 ✓
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** (1) coffee-brown warmth in every zone — Midtone H38/S6, Highlight H42/S10, Shadow H35/S12, Balance +10, Temperature 5900; (2) muted, grounded colour — Saturation -8 / Vibrance -5 (gap 3); (3) intimate falloff — Vignette -12, Contrast +15, Highlights -20.
+- **Sources:** research/characteristics; warm-interior/coffee-toned grade conventions (brown-amber shadows, desaturated palette, heavy vignette).
+- **Preset adjustments:** none.

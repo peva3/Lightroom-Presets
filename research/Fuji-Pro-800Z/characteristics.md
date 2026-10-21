@@ -83,3 +83,11 @@ For related Lightroom presets and film stock references:
 - [Fuji Pro 160C](../Fuji-Pro-160C/characteristics.md)
 - [Kodak Portra 400](../Kodak-Portra-400/characteristics.md)
 - [Fujifilm Classic Negative](../Fujifilm-Classic-Negative/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** warm flattering skin; moderate contrast slightly above 160NS/400H; moderate, visible but structured grain; warm-neutral balance.
+- **Sources:** research dossier; Fujifilm PRO 800Z datasheet, Fuji X Weekly 800Z-adjacent recipes.
+- **Preset adjustments:** none. Grain 35/30, Contrast -5, orange luminance +15 and warm 40 deg grades carry the portrait warmth; Saturation/Vibrance -5 keeps it inside "not aggressive".

@@ -40,3 +40,9 @@
 - Slight clarity boost for definition
 - Positive exposure and contrast for the punchy, bright look
 - Blending at 75 for clean color separation
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Highest saturation in the collection (Saturation +20 / Vibrance +22, gap 2 -> no selective-colour risk); red +25, magenta +20, yellow +12; Clarity +10 and Contrast +30 for the pop punch; warm highlights 38/15 against cool shadows 215/12 at Blending 75.
+- **Sources:** Repo characteristics.md cross-check; cluster colour-signature search (saturation/look recipes).
+- **Preset adjustments:** none

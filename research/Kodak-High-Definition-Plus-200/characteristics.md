@@ -62,3 +62,12 @@ For related Lightroom presets and film stock references:
 - [Kodak Pro Image 100](../Kodak-Pro-Image-100/characteristics.md)
 - [Kodak Royal Gold 400](../Kodak-Royal-Gold-400/characteristics.md)
 - [Kodak Max 800](../Kodak-Max-800/characteristics.md)
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** minor drift
+- **Defining traits checked:** ultra-fine T-Grain for a consumer 200; neutral-warm rather than golden; medium contrast; clean, accurate skin.
+- **Verified in XMP:** grain 18 / 22 / 45 — the lightest consumer-200 grain in the collection and consistent with "sharpest consumer emulsion"; no global Saturation or Vibrance bias; restrained orange +10 / red +8 boosts; near-neutral grading (shadow 210 deg / 5, highlight 45 deg / 8).
+- **Drift:** Contrast +15 makes this punchier than the Gold 200 preset (-5), while the reference describes HD 200 as medium and *less* punchy than Gold. +15 is still a medium regime in absolute terms, so it is recorded rather than re-graded — a 20-point swing would be a restyle, not a correction.
+- **Sources:** archived Kodak HD 200 technical data; Fuji X Weekly recipes; r/analog HD 200 threads.
+- **Preset adjustments:** none

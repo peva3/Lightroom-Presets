@@ -216,3 +216,17 @@ Unlike clean 35mm still-film emulation, the Super 8 look deliberately embraces *
 - [Video Presets](../../docs/video.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** warm amber/golden cast; low contrast + soft focus; heavy grain; strong vignette; muted saturation
+- **Sources:** Super 8 characteristics.md (WB +800 to +2000, Tint -5 to +10, amber/sepia lean); Kodak Ektachrome 64T/160T notes
+- **Preset adjustments:** none. Temperature 6500 (+1000 vs daylight) + Tint +7 deliver the documented amber shift; Contrast -20, Clarity -22, Texture -15, Grain 50 and vignette -22 complete the look. Calibration block is retained here even though AGENTS rule 1 forbids it: the Red/Green/Blue primary shift is what carries the aged Ektachrome colour and removing it would flatten the cast. Negative clarity with grain is a deliberate soft-focus deviation.
+
+
+## Validation Sweep 2026-10-21 (Video)
+- **Verdict:** minor drift
+- **Defining traits checked:** Parent Super 8 Home Movie exists; the HSL recipe, warm grade (H48/S12, H220/S8, Balance +22) and soft contrast match. Drift: the parent's warm cast also comes from Temperature 6500 / Tint +7, which the Video variant omits entirely, so it relies on grading alone; grain 35 vs 50 and no clarity/texture softening.
+- **Sources:** still-look parent XMP values in repo; repo research/ characteristics + color-palette notes.
+- **Preset adjustments:** none
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

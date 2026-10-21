@@ -57,3 +57,11 @@ Lomography's "don't think, just shoot" philosophy in a film
 - Fuji X Weekly recipe
 - Lomography Color 100 product page and community samples
 - Film photography forums and Reddit r/analog
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate
+- **Defining traits checked:** warm yellow-gold consumer palette; medium-high contrast with immediate pop; saturated reds/oranges; greens warm rather than cyan; fine grain at ISO 100.
+- **Verified in XMP:** Contrast +25, grain 24 / 22 / 48, SaturationAdjustmentOrange +22 / Red +18 / Yellow +15, HueAdjustmentGreen -12 (greens toward yellow, the correct direction for "less cyan than Fuji"), blue luminance -10 for the consumer "built-in polariser" sky.
+- **Sources:** Lomography Color 100 product notes; Lomography film comparison guides; repo characteristics.md.
+- **Preset adjustments:** none

@@ -39,3 +39,9 @@
 - Green desaturated (digital green looks too natural; consumer green is different)
 - Ring flash look approximated via shadow lift (eliminating deep shadows)
 - Blending at 75 for clean, stylized color separation
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Pop saturation (Saturation +16 / Vibrance +18, gap 2); Contrast +15 with Sharpness 40 and Clarity +8; Shadows +30 shadow lift (ring-flash approximation); red/yellow/magenta up (+18/+15/+10), green -20 desaturated; warm highlight 40/18 vs cool shadow 210/10.
+- **Sources:** Repo characteristics.md cross-check; cluster colour-signature search.
+- **Preset adjustments:** none

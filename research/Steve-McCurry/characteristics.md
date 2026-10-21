@@ -38,3 +38,9 @@
 - Slight exposure lift for luminous skin
 - Orange luminance boost for creamy skin tones
 - Documentary Blending at 50 — subtle, natural
+
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** Kodachrome warm-red signature is present but understated: Red saturation +18, orange +10, orange luminance +10, green -15, warm highlight 40/12 and warm shadow 45/8 at Balance +10, HueYellow -8. Global colour is only Saturation +5 / Vibrance +8, well short of 'strong colour'; held as-is deliberately per the repo's subtlety policy rather than a numeric error.
+- **Sources:** fujixweekly.com Kodachrome II recipe ('rich, saturated, warm'); reelfoto 'William Eggleston: Father of Color Photography' (McCurry Kodachrome comparison).
+- **Preset adjustments:** none (documented as a restraint decision, not a defect)

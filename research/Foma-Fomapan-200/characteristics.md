@@ -33,3 +33,11 @@ Fomapan 200 (also sold as Fomapan 200 Creative) is a unique medium-speed black-a
 - Massive Dev Chart entries for Fomapan 200
 - Community reviews (Photrio, 35mmc)
 - Foma product documentation
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** ISO 200 hybrid T-grain/cubic emulsion — datasheet RMS 14, i.e. essentially Fomapan 100's granularity (Fomapan 100 ≈ 13–14) and clearly finer than Fomapan 400 (17.5). Preset orders grain 30 (100) < 35 (200) < 45 (400) and GrainSize 25 < 28 < 35, which slightly overstates the 200's grain but keeps the family monotonic. Moderate contrast with better highlight control than Fomapan 100 (Contrast +22, Highlights −18 vs 100's +20/−15 — correct direction). Drift: this folder documents "slightly extended blue sensitivity" producing a cooler tonality, but the preset uses Blue −25 like every other Foma; the moderately positive Green +5 is the only nod to the cooler rendering.
+- **Sources:** FOMA Fomapan 200 official data (ISO 200, RMS 14, 110 lines/mm, Microphen 20 °C); FOMA Fomapan 400 Action data sheet (RMS 17.5, 90 lp/mm) for family comparison; beyondtheaperture Fomapan 100/200/400 review.
+- **Preset adjustments:** none

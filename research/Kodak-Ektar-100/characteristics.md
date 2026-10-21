@@ -278,3 +278,20 @@ For related Lightroom presets and film stock references:
 - [Kodak Gold 200](../Kodak-Gold-200/characteristics.md)
 - [Kodak Ultramax 400](../Kodak-Ultramax-400/characteristics.md)
 - [Kodak Ektachrome E100](../Kodak-Ektachrome-E100/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate (covers both `Kodak Ektar 100.xmp` and `Kodak Ektar 100 +1.xmp`)
+- **Defining traits checked:** highest saturation in C-41; essentially grainless (Print Grain Index < 25); high/slide-like contrast; warm earth tones with electric blues.
+- **Sources:** research dossier; analog.cafe Ektar review ("most contrast and saturation near the shadows"), jonmullin review ("sharper and less grainy... almost as punchy as reversal film"), Kodak Ektar datasheet.
+- **Preset adjustments:** none. Box-speed preset: Contrast +32, GrainAmount 5, and all eight HSL saturation bands positive (+7.5 to +25). `+1` push: Contrast 47, GrainAmount 20, Blacks -27 — consistent one-stop push over the base.
+
+
+## Validation Sweep 2026-10-21 (Video)
+- **Verdict:** accurate
+- **Defining traits checked:** Parent Kodak Ektar 100 exists: full HSL recipe identical (red +21, orange +17.5, green +25, blue +17.5 with the same luminance moves), Saturation +5 both, Contrast 27 vs 32, Highlights -38 vs -30, Blacks -9 vs -19, grain 5/5. Only small tonal compression differences for motion.
+- **Sources:** still-look parent XMP values in repo; repo research/ characteristics + color-palette notes.
+- **Preset adjustments:** none
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

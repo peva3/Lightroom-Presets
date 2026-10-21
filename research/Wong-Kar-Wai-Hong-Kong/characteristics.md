@@ -200,3 +200,15 @@ When this light hits tungsten-balanced film (which expects 3200K incandescent li
 - [Video Presets](../../docs/video.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** saturated green/teal neon wash; warm skin against green ambient; deep crushed blacks; heavy grain; soft halation
+- **Sources:** Repo characteristics.md + cinematography notes (Chungking Express / In the Mood for Love palettes)
+- **Preset adjustments:** none. Shadow grade 170/20 and highlight 190/12 supply the green-cyan cast; Green Sat +32 / Aqua +28 / Magenta +32 deliver the neon saturation; Blacks -30, Grain 40 and Clarity -10 complete the step-printed look.
+
+
+## Validation Sweep 2026-10-21 (Video)
+- **Verdict:** accurate
+- **Defining traits checked:** Parent Wong Kar-Wai 80s Hong Kong exists: HSL identical (aqua +28, green +32, magenta +32, blue +22 saturations; green hue -50; red/orange luminance lifts) and the grade is identical (Highlight H190/S12, Shadow H170/S20, Balance -15). Contrast 20 vs 25, grain 25 vs 40, Whites -15 in both.
+- **Sources:** still-look parent XMP values in repo; repo research/ characteristics + color-palette notes.
+- **Preset adjustments:** none

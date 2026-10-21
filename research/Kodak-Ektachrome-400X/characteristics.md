@@ -70,3 +70,12 @@ For related Lightroom presets and film stock references:
 - [Kodak Ektachrome 64](../Kodak-Ektachrome-64/characteristics.md)
 - [Kodak Ektachrome 200](../Kodak-Ektachrome-200/characteristics.md)
 - [Kodak Ektachrome 100VS](../Kodak-Ektachrome-100VS/characteristics.md)
+
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** E400X: fast, pushable, visibly grainy — preset GrainAmount 20 / Size 30 / Roughness 45 (the roughest grain in the category, appropriate), Contrast +45, saturation +8 with blue +10; blue Luminance -15 keeps skies deep. No calibration/WB.
+- **Sources:** Kodak publication E-55 'Kodachrome 25, 64 and 200 Professional' (diffuse RMS 9 / 10 / 16; 25 and 64 described as 'extremely fine grain'; 200 'fine grain'); Kodak Ektachrome RMS table (Ektachrome 100 RMS 11, Ektachrome 400 HC RMS 17).
+- **Preset adjustments:** none
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

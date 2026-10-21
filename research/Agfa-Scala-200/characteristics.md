@@ -39,3 +39,11 @@ Agfa Scala 200 was a unique black-and-white reversal (slide) film produced by Ag
 For related Lightroom presets and film stock references:
 
 - [Agfa APX 100](../Agfa-APX-100/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** B&W *reversal* film → slide-film contrast and D-max, clean D-min, and finer grain than a negative at the same speed (datasheet RMS 11 vs APX 400's 14 at double the speed); preset Contrast +35, Highlights +10, Whites +20, Blacks −30 all point the right way, and GrainAmount 20 / GrainSize 25 correctly sits between APX 100 and APX 400. Spectral note: Scala is a *superpanchromatic* emulsion with unusually high red sensitivity (iconpublications 1995: a yellow filter alone gives a strong sky), so the strong Red +30 / Blue −30 split is a defining-trait match, not an error.
+- **Sources:** Agfa Scala 200x technical data (RMS 11, 120 lp/mm, gradation matched to Agfachrome RSX II 100); Agfa Professional B&W comparison table; iconpublications.com Photon June 1995 Scala field test (high red sensitivity, fine grain, high D-max).
+- **Preset adjustments:** none

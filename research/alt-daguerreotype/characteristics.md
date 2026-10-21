@@ -43,3 +43,9 @@ This preset is designed to capture the essential visual character of the daguerr
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** GrainAmount 0 (plates are grain-free at any magnification); mirror-scale contrast (+45, Whites +15, Blacks -30); warm silver / chocolate toning (35-45deg, sat 6-10); Clarity +10 + Texture +5 for the micro-detail; vignette -20.
+- **Sources:** PSA Library, 'Daguerreotypes, Ambrotypes, and Tintypes' (direct-image collection ID guide); Daguerreian Society FAQ; B. Wylie, 'Tintype vs Daguerreotype vs Ambrotype'
+- **Preset adjustments:** none

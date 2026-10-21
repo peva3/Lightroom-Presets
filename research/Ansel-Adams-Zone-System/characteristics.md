@@ -36,3 +36,9 @@
 - Deep blacks but not crushed (Zone 0–I preserved)
 - Strong contrast with broad midrange to show all 11 zones
 - Subtle grain (large format had very fine grain)
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Red-filter simulation present and correctly signed: GrayMixerRed +40, GrayMixerBlue -60 (mixer cap), Orange +25; full-range tone placement via Blacks -30 / Whites +20 / Highlights -30 / Shadows +25 with Contrast +35 (no crushed blacks); neutral Adobe Monochrome profile; Grain 25 at size 25 for large-format fineness.
+- **Sources:** anseladams.com 'Story Behind the Image: Monolith, The Face of Half Dome' (red #25 filter darkens blue sky); photo.net / photrio red-filter threads; fstoppers Zone System for digital.
+- **Preset adjustments:** none

@@ -17,3 +17,8 @@ Best for: Low-light city streets, neon signs, rain reflections, subway stations,
 - No grain → Clarity/Dehaze kept as defining ✓
 - Tone Curve: Cinematic Creative ✓
 - ColorGradeBlending: 75 ✓
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** underexposed night scene; aggressive clarity/dehaze for neon definition; warm highlights against cool blue shadows; vignette
+- **Sources:** Repo characteristics.md; STYLEGUIDE Archetype A cool-shadow convention
+- **Preset adjustments:** none. -0.10 EV, Clarity +20, Dehaze +12, shadow hue 230 sat 15 and highlight 35 sat 8 all match the brief; no grain, so clarity is the defining texture tool.

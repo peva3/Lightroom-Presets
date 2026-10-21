@@ -221,3 +221,17 @@ This is a **newer trending look** (~2023–2026), accelerated by:
 - [Video Presets](../../docs/video.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+## Validation Sweep 2026-10-21
+- **Verdict:** major miss
+- **Defining traits checked:** teal-shifted skies; mint (blue-green) foliage; pink-purple shadow toning; bright, low-contrast pastel tonality
+- **Sources:** Repo characteristics.md (teal skies, mint greens, pink-purple shadows); Capture Landscapes HSL guide (Green Hue positive = aqua)
+- **Preset adjustments:** HueAdjustmentGreen -35 -> +25 (mint greens require a positive shift; -35 was pushing foliage yellow). Grade zones restored to the documented palette: Shadow 195 -> hue 320 (pink-purple) sat 15, Highlight 330 -> hue 195 (teal sky) sat 10. Bright/low-contrast scaffolding (Contrast -35, Highlights -90, Shadows +90, Clarity -15) retained.
+
+
+## Validation Sweep 2026-10-21 (Video)
+- **Verdict:** minor drift
+- **Defining traits checked:** Parent Pastel Anime Aethereal exists; the pastel register matches (Contrast -40 vs -35, Highlights -98 vs -90, Shadows +90, Saturation +10 / Vibrance +15, HSL blue/green hue pulls). Divergence found: the colour grade was swapped relative to the parent — magenta highlights (H330/S18) over cyan shadows (H195/S18) instead of the parent's cyan highlights (H195/S10) over pink-magenta shadows (H320/S15), which inverted the look's defining anime tint.
+- **Sources:** still-look parent XMP values in repo; repo research/ characteristics + color-palette notes.
+- **Preset adjustments:** ColorGradeHighlightHue 330 -> 195, HighlightSat 18 -> 10, ShadowHue 195 -> 320, ShadowSat 18 -> 15 (matches parent).
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

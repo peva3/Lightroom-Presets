@@ -104,3 +104,5 @@ E100G dominated commercial photography because:
 - Kodak Ektachrome E100 (2018) technical datasheet (comparison)
 - Commercial photography industry — E100G era (2001-2012)
 - Community discussions: E100G vs. current E100 comparison
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

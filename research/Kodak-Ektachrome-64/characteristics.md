@@ -70,3 +70,10 @@ For related Lightroom presets and film stock references:
 - [Kodak Ektachrome 400X](../Kodak-Ektachrome-400X/characteristics.md)
 - [Kodak Ektachrome 200](../Kodak-Ektachrome-200/characteristics.md)
 - [Kodak Ektachrome 100VS](../Kodak-Ektachrome-100VS/characteristics.md)
+
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Ektachrome 64: neutral, slightly cool rendering — preset Saturation -5 / Vibrance -2.5 (within the 5-point rule), Contrast +35, blue hue -20 (toward cyan) with Luminance -15, grain 12/20. Neutral rather than vivid, as the stock is.
+- **Sources:** Kodak publication E-55 'Kodachrome 25, 64 and 200 Professional' (diffuse RMS 9 / 10 / 16; 25 and 64 described as 'extremely fine grain'; 200 'fine grain'); Kodak Ektachrome RMS table (Ektachrome 100 RMS 11, Ektachrome 400 HC RMS 17).
+- **Preset adjustments:** none

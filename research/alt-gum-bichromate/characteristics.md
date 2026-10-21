@@ -43,3 +43,9 @@ This preset is designed to capture the essential visual character of the gum bic
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Soft and muted: Saturation -25, Texture -10, Clarity -15, Dehaze -5, black-lifting curve (0->20, 255->235), GrainAmount 0; kept on Color treatment so the multi-pigment earth/soft-blue register is reachable; warm 45-50deg grading.
+- **Sources:** AlternativePhotography.com, gum bichromate process pages; Christopher James, 'The Book of Alternative Photographic Processes'
+- **Preset adjustments:** none

@@ -42,3 +42,8 @@ For related Lightroom presets and film stock references:
 - [Kodak Vision3 250D](../Kodak-Vision3-250D/characteristics.md)
 - [Kodak Vision3 500T](../Kodak-Vision3-500T/characteristics.md)
 - [CineStill 400D](../CineStill-400D/characteristics.md)
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** warm golden highlights; cool cyan-green shadows; dense but uncrushed blacks; smooth shoulder; fine grain
+- **Sources:** Kodak Vision 2383/ECP-2D print-film characteristics (repo research); STYLEGUIDE Archetype A (teal/orange offsets)
+- **Preset adjustments:** none. Colour grade 42/180/35 matches the warm-highlight/cool-shadow brief; grain 10 is right for print stock. Doc claims ColorGradeBlending 80 but file is 75 (documented, not changed).

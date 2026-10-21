@@ -160,3 +160,8 @@ The edit starts in-camera. The look requires:
 - [Video Presets](../../docs/video.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** high-key histogram skewed right; lifted/blown-soft black point; cottony low contrast; minty desaturated greens; warm highlight / cool shadow; negative clarity + dehaze
+- **Sources:** Mastin Labs / Jordan Brittley values compiled in characteristics.md; STYLEGUIDE Archetype C
+- **Preset adjustments:** none. Exposure +0.50 (archetype C +0.75 to +1.05) and Whites +10 (+15 to +25) are conservative; the shared Creative cinematic curve (0,20 / 64,55 / 255,235) slightly darkens midtones and pulls whites down. Net effect still reads high-key, so left intact.

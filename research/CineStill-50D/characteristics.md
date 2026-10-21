@@ -54,3 +54,11 @@ For related Lightroom presets and film stock references:
 - [CineStill 400D](../CineStill-400D/characteristics.md)
 - [Cinestill 800T](../Cinestill-800T/characteristics.md)
 - [Kodak Vision3 50D](../Kodak-Vision3-50D/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** near-invisible grain; moderate-to-high contrast; warm daylight cinema colour; red halation; natural (only slightly muted) saturation.
+- **Sources:** research dossier; bluemooncameracodex 50D notes, daseinfilmlab CineStill comparison, community reports ("almost digital-level grain").
+- **Preset adjustments:** none. Grain 15 and warm highlight grade are right, but Saturation -20 / Vibrance -17 is a heavier desaturation than the dossier's "moderate, natural — slightly muted". Direction is defensible for a cinema scan; magnitude is stronger than documented, left as-is rather than retuned.

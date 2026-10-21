@@ -35,3 +35,11 @@ Fomapan 400 is the high-speed member of Foma Bohemia's classic black-and-white f
 - Massive Dev Chart entries for Fomapan 400
 - Community reviews (Photrio, 35mmc, Reddit r/analog)
 - Foma product documentation
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** ISO 400 traditional cubic grain, datasheet RMS 17.5 — the coarsest grain in the set alongside pushed stocks; preset GrainAmount 45 / GrainSize 35 / GrainRoughness 60 is the highest of the three Fomas and coarser than APX 400 (40/35) and Delta 400 (35/30), correct. "Moderate-high contrast, punchier than most 400s, deep blacks" (Contrast +25, Blacks −28, Highlights −20) matches Foma's own "medium-contrast" claim tempered by the well-known glowing-highlight, blocked-shadow character. Slightly reduced red / darker skies (Red +15, Blue −30) is consistent with this folder and with community reports.
+- **Sources:** FOMAPAN 400 Action data sheet (Freestyle PDF: RMS 17.5, 90 lp/mm, Microphen, γ = 0.6); filmprocessing.co.uk Fomapan 400 vs Kentmere 400 (high contrast, blocking shadows, glowing highlights); Blue Moon Camera Codex review (grit, softer contrast, distinctive spectral sensitivity).
+- **Preset adjustments:** none

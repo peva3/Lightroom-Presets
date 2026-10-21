@@ -26,3 +26,9 @@ High Contrast (+40) is the defining move — fashion editorial wants punch. Clar
 - [Seasonal Presets](../../docs/seasonal.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Ex -0.15, Contrast +40, Highlights -45, Shadows +10, Whites +10, Blacks -20, Vibrance -8, Saturation -10, Sharpness +10, Grain +15; OrangeSat -10, YellowSat -10, GreenSat -25, BlueSat -10; shadow H230/S18, highlight H38/S10, blending 75; calibration none; PV 15.4, Color, Adobe Color Look; 4 neutral curves. Fashion: +40C, Blacks -20, cool H230/S18 shadows, OrangeSat -10 so garments lead, Grain 15 with Sharpness 10 and Clarity/Texture/Dehaze 0. Docs drift: characteristics.md claims Clarity +15, which the file (correctly) does not carry - grain and clarity must not coexist.
+- **Sources:** whitepaper `research/whitepapers/lightroom-xmp-attribute-reference.md`; STYLEGUIDE.md sec. VII/IX (grain vs sharpening, audit note).
+- **Preset adjustments:** none

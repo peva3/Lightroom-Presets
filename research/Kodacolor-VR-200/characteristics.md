@@ -82,3 +82,11 @@ Gold 200 is the polished, appealing "golden nostalgia." Kodacolor VR 200 is the 
 - Fuji X Weekly: Kodacolor VR 200 (Thomas Schwab/Ritchie Roesch) — April 2025
 - Kodak product history archives
 - r/analog discussions on vintage Kodak consumer films
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** very warm golden-amber cast; soft low contrast with milky lifted blacks; prominent 1980s grain; muted yellow-biased greens, desaturated blues, suppressed magentas; cyan in shaded areas.
+- **Sources:** research dossier; Fuji X Weekly Kodacolor VR 200 recipe (Thomas Schwab), 1980s Kodak consumer datasheet literature.
+- **Preset adjustments:** none. Contrast -10 with Blacks +10/Shadows +20 (milky blacks), grain 45/35/60, green -15, blue -20, magenta -25 and the warm-highlight / cyan-shadow grade pair match the dossier line for line.

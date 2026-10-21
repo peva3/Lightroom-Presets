@@ -86,3 +86,11 @@ For related Lightroom presets and film stock references:
 - [Kodak Ektar 100](../Kodak-Ektar-100/characteristics.md)
 - [Kodak Ultramax 400](../Kodak-Ultramax-400/characteristics.md)
 - [Fujifilm Pro 400H](../Fujifilm-Pro-400H/characteristics.md)
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate
+- **Defining traits checked:** lower contrast and lower saturation than standard 400; neutral (cooler, less amber); open neutral shadows; overexposure latitude retained.
+- **Verified in XMP:** Contrast -12 and Saturation -15 / Vibrance -12 (gap 3) — both below the standard 400 preset's -7.5 and neutral global saturation; Highlights -55 retained; grain 22 / 25 / 45; highlight grade 48 deg / 5 and shadow 210 deg / 5 are near-neutral.
+- **Sources:** t3mujinpack Portra 400 NC; Kodak professional literature (archived); r/AnalogCommunity.
+- **Preset adjustments:** none in colour; display-name prefix "21 " removed so the name matches the filename stem.

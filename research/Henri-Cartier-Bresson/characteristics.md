@@ -35,3 +35,9 @@
 - Moderate contrast with natural falloff
 - No grain exaggeration; let existing image texture carry
 - No sharpening beyond what the lens delivered
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Natural contrast (Contrast +15, Blacks only -15, Whites +10) with conservative GrayMixer (Red +15, Blue -15) -- no red-filter skies; GrainAmount 0 so existing texture carries; no colour grade at all (all ColorGrade values 0); neutral Adobe Monochrome profile.
+- **Sources:** Repo characteristics.md; cluster B&W search (moderate/filterless rendering).
+- **Preset adjustments:** none

@@ -26,3 +26,9 @@ Subtle Exposure (+0.25) for clean brightness. Low Contrast (+5) preserves skin d
 - [Seasonal Presets](../../docs/seasonal.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Ex +0.25, Contrast +5, Highlights -25, Shadows +20, Whites +5, Texture +5; RedSat -5, OrangeSat -5, GreenSat -10, OrangeLum +10; shadow H210/S3, highlight H40/S3, blending 75; calibration none; PV 15.4, Color, Adobe Color Look; 4 neutral curves. Newborn-safe: no negative clarity needed at +0.25Ex/+5C; Red/OrangeSat -5 calms ruddiness, OrangeLum +10 brightens; Texture +5 is gentle and does not read harsh on infant skin.
+- **Sources:** whitepaper `research/whitepapers/lightroom-xmp-attribute-reference.md`; STYLEGUIDE.md sec. V (texture safety caps); research portrait recipes.
+- **Preset adjustments:** none

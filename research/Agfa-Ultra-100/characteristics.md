@@ -90,3 +90,11 @@ For related Lightroom presets and film stock references:
 - [Agfa Vista 100](../Agfa-Vista-100/characteristics.md)
 - [Agfa Optima 100](../Agfa-Optima-100/characteristics.md)
 - [Kodak Ultramax 400](../Kodak-Ultramax-400/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** "saturation king" primaries; high contrast; warm bias; greens and magentas suppressed.
+- **Sources:** research dossier; Fuji X Weekly Agfa Ultra 100 v1/v2 recipes, r/AnalogCommunity threads.
+- **Preset adjustments:** none. Contrast +20, red +28, blue +16, green -10, magenta -15 all match the dossier, but there is no global Saturation lift — the defining "most saturated C-41" claim rests entirely on per-hue boosts. Directionally correct, magnitude slightly understated; not rewritten because the hue-by-hue distribution is what actually defines Agfa's palette.

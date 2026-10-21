@@ -294,3 +294,8 @@ While its peak popularity as an overt "Instagram filter" look has passed, the ma
 - [Video Presets](../../docs/video.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** lifted black point (no true black); reduced global contrast; warm amber shadow grade; compressed whites; low grain
+- **Sources:** Matte-fade breakdown in characteristics.md (VSCO A6/M5 lineage); STYLEGUIDE Section X vintage-fade recipe
+- **Preset adjustments:** Whites2012 +10 -> -10 (the look requires the white point compressed, not expanded). Curve 0,20 already lifts blacks; shadow grade 40/20 supplies the amber; Saturation -8 handles the global fade per STYLEGUIDE rule 14.

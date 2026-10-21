@@ -26,3 +26,9 @@ Cool shadow split (H225 S5) + cool highlight (H210 S3) create crisp, contemporar
 - [Seasonal Presets](../../docs/seasonal.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Ex +0.3, Contrast +15, Highlights -30, Shadows +20, Whites +15, Clarity +8, Vibrance -3, Saturation -5; OrangeSat -5, GreenSat -15, BlueSat -5, AquaLum +15; shadow H225/S5, highlight H210/S3, blending 75; calibration none; PV 15.4, Color, Adobe Color Look; 4 neutral curves. Deliberate cool identity: shadow H225/S5 + highlight H210/S3 is a 3-5% cast, the stated look, not a WB error; Highlights -30/Whites +15 keep glazing and white walls clean; Clarity +8 for steel/glass edges.
+- **Sources:** whitepaper `research/whitepapers/lightroom-xmp-attribute-reference.md`; Imagen AI real-estate guide (neutral base, stylised grade is acceptable on modern architecture).
+- **Preset adjustments:** none

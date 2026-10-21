@@ -198,3 +198,17 @@ For related Lightroom presets and film stock references:
 - [CineStill 400D](../CineStill-400D/characteristics.md)
 - [CineStill 50D](../CineStill-50D/characteristics.md)
 - [Kodak Vision3 500T](../Kodak-Vision3-500T/characteristics.md)
+
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** (1) tungsten-balance consequence — cool/teal shadows (Shadow H210/S25) and warm tungsten highlights (Highlight H50/S12.5) are present, but there is no WB bake (Temperature As Shot) so the daylight blue-teal cast is not reproducible by the preset alone; (2) red halation around point sources — approximated only by negative Clarity -7.5 / Dehaze -7.5 and Highlights -70, with no red/orange saturation lift and no true halo (Lightroom cannot offset/bloom channels); (3) night-film tonality — Exposure +0.75, Shadows +50, Whites -30, Blacks -15, medium contrast +15, Grain 40/22.5/50.
+- **Doc/file divergence:** research/Cinestill 800T/community-recipes.md states Clarity/Dehaze were set to 0 for grain protection; the XMP carries -7.5 for both. Left as is — negative values add halation-style bloom rather than the jagged-noise failure the grain rule targets.
+- **Sources:** The Grain Archive / Vintizer / Analog Café (rem-jet removal → red halation; 3200K balance → blue-teal in daylight; slight red oversaturation); 35mmc night-photography piece; Joe D'Agostino recipe in research/Cinestill-800T ("Reds: saturation boosted moderately").
+- **Preset adjustments:** none (intentional As-Shot WB; halation is out of Lightroom's reach).
+
+
+## Validation Sweep 2026-10-21 (Video)
+- **Verdict:** accurate
+- **Defining traits checked:** Parent Cinestill 800T exists and the grade is byte-identical (Highlight H50/S12.5 for the warm halation bloom, Shadow H210/S25 for teal shadow cast). Tungsten-cool register is preserved (Highlights -78, Whites -30); grain 25 vs parent 40. XMP cannot synthesise a real halation bloom, so the signature is carried by the low highlight saturation + teal shadows + highlight recovery, which matches the documented look.
+- **Sources:** CineStill film documentation and reviews (800T = Vision3 500T with remjet removed, 3200K tungsten balance, red-orange halation around point sources). Still-look parent XMP values in repo; repo research/ characteristics + color-palette notes.
+- **Preset adjustments:** none

@@ -55,3 +55,11 @@ Ilford Delta 100 is a modern T-grain (tabular/epitaxial) fine-grain B&W film at 
 - Portraiture where clean skin rendering is desired
 - Any situation where a "modern film" aesthetic is preferred over classic grain
 - Scanning-heavy workflows (T-grain films scan excellently)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** ISO 100 core-shell T-grain, RMS ~7–8 and Gbar 0.62 (datasheet: "extremely fine grain, outstanding sharpness") — preset GrainAmount 15 / GrainSize 20 matches T-Max 100 exactly and is the finest 100-speed setting in the repo. Moderate native contrast with a long linear section (Contrast +15, Highlights −30, Shadows +20 — deliberately gentler than the traditional-grain 100s, correct for Delta's linear curve). Balanced panchromatic response with clean skies (Red +10 / Blue −15, the mildest mix of the Delta family — consistent with Delta 100 being the most neutral Ilford emulsion).
+- **Sources:** Ilford Delta 100/400 Professional technical information (Gbar 0.62, core-shell crystals, EI 50–200); German Ilford Delta data sheet (fotofachversand PDF); this folder's grain/contrast tables.
+- **Preset adjustments:** none

@@ -195,3 +195,13 @@ For related Lightroom presets and film stock references:
 - [Agfa Vista 100](../Agfa-Vista-100/characteristics.md)
 - [Agfa Vista 400](../Agfa-Vista-400/characteristics.md)
 - [Kodak Gold 200](../Kodak-Gold-200/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** explosive reds and strong blues; visible consumer grain; snappy contrast; Fuji-derived green shadow tendency.
+- **Sources:** research dossier; analog.cafe Vista 200 review (warm tones, slightly subdued greens in shadows), casualphotophile ("packs in a lot of contrast and saturation"), r/AnalogCommunity (shadows too green/magenta/brown).
+- **Preset adjustments:** none. Reds/blues/grain/contrast all match, but the dossier's green shadow trait is only half-honoured: shadow grade is warm (hue 35, sat 5) instead of green. Sat 5 is near-invisible, so this is not a contradicted defining feature.
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

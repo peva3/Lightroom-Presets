@@ -43,3 +43,9 @@ This preset is designed to capture the essential visual character of the palladi
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Warmest in the shadows (35deg/28) easing to near-neutral highlights (40deg/10) - the documented Pt/Pd split where palladium carries brown-black depth; Blacks -20 for velvety D-max; long gradation (+22 contrast only).
+- **Sources:** Wikipedia, 'Platinum print'; AIC Conservation Wiki, 'Platinum, Palladium'; M. Strickland, 'Platinum Palladium Prints' (Pt cooler/contrastier than Pd)
+- **Preset adjustments:** none

@@ -26,3 +26,9 @@ High Exposure (+0.50) + Shadow lift (+30) rescue underexposed low-light frames. 
 - [Seasonal Presets](../../docs/seasonal.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Ex +0.5, Contrast +20, Highlights -40, Shadows +30, Whites +5, Blacks -10, Clarity +10, Vibrance -3, Saturation -5, LumNR +20; GreenSat -20, BlueSat -15, OrangeLum +5; shadow H235/S10, highlight H40/S8, blending 75; calibration none; PV 15.4, Color, Adobe Color Look; 4 neutral curves. +0.50Ex and Shadows +30 rescue high-ISO frames; LuminanceSmoothing +20 is the one place NR is explicitly set; Saturation -5/Vibrance -3 mute chroma noise, GreenSat -20 kills LED spill, cool/warm split for depth.
+- **Sources:** whitepaper `research/whitepapers/lightroom-xmp-attribute-reference.md`; STYLEGUIDE.md sec. VI; low-light/concert recipes.
+- **Preset adjustments:** none

@@ -19,3 +19,10 @@ Best for: Portrait photography, wedding photography, headshots, any people-focus
 - Tone Curve: Cinematic Creative ✓
 - ColorGradeBlending: 75 ✓
 - Skin tone protection: Orange Lum +8, Orange Sat -5 ✓
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** (1) skin bloom — Texture -12, Clarity -6, Vignette -8; (2) flattering warm skin — Orange Lum +8, Orange Sat -5, warm grade H35/S4 → H40/S6; (3) gentle, non-crushed tonality — Contrast +10, Highlights -20, Shadows +15, Whites +8, Blacks 0.
+- **Note:** no grain, so the low Sharpness 10 is a stylistic choice rather than a grain-protection requirement; the mild Orange Sat -5 / Orange Lum +8 pairing matches STYLEGUIDE §XI-B skin priorities.
+- **Sources:** research/characteristics; STYLEGUIDE §XI-B (negative clarity for glow, orange lum up / orange sat down for skin).
+- **Preset adjustments:** none.

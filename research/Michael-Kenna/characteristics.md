@@ -38,3 +38,9 @@
 - No grain — long exposures on medium format are virtually grainless
 - Shadows lifted enough to show form, but overall dramatic
 - This preset works best on images with strong negative space and geometry
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** High contrast +55 with Whites +28 / Blacks -25 but Shadows +35 (form retained, not crushed); GrainAmount 0 for long-exposure smoothness; muted GrayMixer (Blue -35 only); no Clarity/Texture so gradation stays silky.
+- **Sources:** dodho.com 'Michael Kenna: The Art of Capturing Serenity' (long exposure, minimal, smooth tonality); medium.com 'Learning from Michael Kenna' (tonal contrast).
+- **Preset adjustments:** none

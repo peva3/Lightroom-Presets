@@ -109,3 +109,12 @@ By 1995, Agfa exited the slide film market, unable to compete with Kodak and Fuj
 - Popular Photography magazine reviews (1980s-90s)
 - Photographic magazine sample images and field tests
 - r/analog: AgfaChrome discussion and scanned examples
+
+
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** ISO 100 E-6 with moderate contrast and a warm/golden cast (preset Contrast +20, warm highlight/shadow grade H45/H50 at S5) — correct; subdued blues (no blue sat boost beyond +5) — correct; grain — the preset carried GrainAmount 25 / GrainSize 20, which is negative-film territory and contradicts near-zero grain on an RMS-10 ISO 100 slide.
+- **Sources:** Agfachrome RSX II technical table (RSX II 100 RMS 10, 50 lp/mm at 1.6:1), zxc.wiki 'Agfa Agfachrome'; repo docs/slide.md + research/AgfaChrome-RS-100/characteristics.md (warm/golden European cast, moderate contrast).
+- **Preset adjustments:** GrainAmount 25 -> 8, GrainSize 20 -> 15 (ISO 100 slide grain restored to near-zero).
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

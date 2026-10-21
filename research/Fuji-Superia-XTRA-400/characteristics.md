@@ -361,3 +361,11 @@ For related Lightroom presets and film stock references:
 - [Fuji Superia 800](../Fuji-Superia-800/characteristics.md)
 - [Fuji Superia 1600](../Fuji-Superia-1600/characteristics.md)
 - [Fuji Superia HG 1600](../Fuji-Superia-HG-1600/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate (covers both `Fuji Superia X-TRA 400.xmp` and `Fuji Superia X-TRA 400 +1.xmp`)
+- **Defining traits checked:** the signature green-grey shadows; cool cast; magenta-leaning reds; consumer contrast; moderate grain. Pushed variant: same palette with more contrast, coarser grain, higher saturation.
+- **Sources:** research dossier; carlosgrphoto Superia X-TRA 400 review ("shadows tend to adopt a greenish tone"), uniquephoto profile, Fujifilm datasheet AF3-151E, thedarkroom X-TRA vs Ultramax comparison.
+- **Preset adjustments:** none. Shadow grade 130 deg sat 16 is the strongest green-shadow statement in the set, exactly as the dossier requires; red hue -10 keeps reds magenta-side. The `+1` file is a coherent one-stop push over box speed (Contrast 30 vs 15, grain 46/36 vs 31/28, Saturation/Vibrance 15 vs 10/15) with the green-shadow grade preserved.

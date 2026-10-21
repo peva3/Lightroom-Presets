@@ -161,3 +161,13 @@ What makes Lomochrome Purple resonate:
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** major miss (corrected)
+- **Defining traits checked:** green foliage -> purple/violet (primary signature); blue sky -> green/teal; yellow -> pink; reds preserved; rosy skin; heavy grain.
+- **Finding:** the documented palette is a green/blue channel swap, not a simple hue rotation. In the Lightroom Color Mixer the Green hue slider can only travel from yellow (-100) to aqua (+100) — it cannot reach purple — so +100 on Green lands foliage in teal territory, i.e. the opposite hemisphere from the film's primary signature. The original file also had HueAdjustmentYellow +35, which rotates yellow toward *green*; the film rotates yellow toward pink/red, so that channel was pointing the wrong way too. Blue -100 (blue -> cyan/green) was already correct, as were the purple/magenta boosts, the 305 deg / 20 highlight grade and grain 49 / 30 / 60.
+- **Correction applied:** HueAdjustmentYellow +35 -> -40 (yellow toward orange/red so the existing magenta highlight grade can carry it to pink), and ColorGradeMidtoneHue 0 -> 300 with Sat 0 -> 18, the only calibrated-safe way to pull midtone foliage toward violet and simultaneously give skin the documented rosy cast. Calibration was deliberately not used (repo rule 1).
+- **Residual:** the emulation is still an approximation — a true green->purple swap needs channel mixer or a 3D LUT. Foliage now reads muted violet-magenta with teal skies rather than vivid teal everywhere.
+- **Sources:** Lomography Magazine "How to Have Fun with the LomoChrome Purple"; Matt Loves Cameras review (2025); Richard Haw review (2022); reddit r/postprocessing channel-swap analysis; repo community-recipes.md ("Green: +100 toward purple" — that LR mapping is incorrect, which explains the original values).
+- **Preset adjustments:** crs:HueAdjustmentYellow +35 -> -40; crs:ColorGradeMidtoneHue 0 -> 300; crs:ColorGradeMidtoneSat 0 -> 18.

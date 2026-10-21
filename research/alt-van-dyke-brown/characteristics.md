@@ -43,3 +43,9 @@ This preset is designed to capture the essential visual character of the van dyk
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Chocolate/sepia brown (32deg/35 shadow, 30deg/22 mid); deep D-max (Blacks -18); smooth long-scale gradation (Contrast +20, Shadows +25); grain 18.
+- **Sources:** AlternativePhotography.com, 'A Non-Silver Manual: Vandyke brown'; Photrio thread 'Salt Prints vs. Albumen'; Koraks, 'Comparing salted paper, Van Dyke and DAS carbon'; Freestyle Photo, 'Kallitype and Vandyke Brown Print Processes'
+- **Preset adjustments:** none

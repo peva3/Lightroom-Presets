@@ -26,3 +26,9 @@ High Contrast (+30) + strong Clarity (+25) for stage drama and musician detail. 
 - [Seasonal Presets](../../docs/seasonal.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Ex +0.25, Contrast +30, Highlights -50, Shadows +15, Whites +10, Blacks -15, Clarity +25, Dehaze +15, Vibrance +5, Saturation +8; GreenSat -20, BlueSat +10, MagentaSat +10; shadow H225/S15, highlight H42/S12, blending 75; calibration none; PV 15.4, Color, Adobe Color Look; 4 neutral curves. Concert: +30C/Clarity +25 for performers, Dehaze +15 for beams, BlueSat +10/MagentaSat +10 for LED palettes, GreenSat -20 kills fluorescent backlight, H225/H42 split, Highlights -50 protects spotlights.
+- **Sources:** whitepaper `research/whitepapers/lightroom-xmp-attribute-reference.md`; STYLEGUIDE.md sec. V/VI.
+- **Preset adjustments:** none

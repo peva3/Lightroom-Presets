@@ -53,3 +53,11 @@ Ilford XP2 Super is unique in the B&W film world: it is a **chromogenic** black-
 - Lab processing convenience (any minilab can process C-41)
 - Travel and mixed shooting (one roll at multiple EI ratings)
 - Not ideal for: traditional darkroom printing (dye clouds don't print the same way on B&W paper)
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate
+- **Defining traits checked:** chromogenic C-41 B&W - dye-cloud image, near-grainless, very wide latitude, softer contrast, smooth highlight rolloff
+- **Checked against XMP:** Contrast 0 (soft), Highlights -40 (wide latitude / highlight hold), Shadows +25 (long toe), GrainAmount 10 / GrainSize 15 (near-grainless), Blacks -5 (does not crush)
+- **Sources:** Ilford XP2 Super datasheet; research/Ilford-XP2-Super/characteristics.md; C-41 B&W community comparisons
+- **Preset adjustments:** none

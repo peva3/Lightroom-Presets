@@ -26,3 +26,9 @@ Lifted blacks (+15) + negative Contrast (-15) compress tonal range for pastel ai
 - [Seasonal Presets](../../docs/seasonal.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Ex +0.5, Contrast -15, Highlights -40, Shadows +35, Whites +15, Blacks +15, Clarity -10, Texture -5, Saturation -5; GreenHue +20, YellowSat -10, GreenSat -30, BlueSat -20, OrangeLum +10, AquaLum +35; shadow H210/S4, highlight H45/S4, blending 75; calibration none; PV 15.4, Color, Adobe Color Look; 4 neutral curves. High-key wedding: +0.50Ex/-15C with Blacks +15 and Clarity/Texture negative reads airy not washed; OrangeLum +10 lifts skin with no orange sat push; cool/tan split at 4% sat.
+- **Sources:** whitepaper `research/whitepapers/lightroom-xmp-attribute-reference.md`; STYLEGUIDE.md sec. VI skin-safe rule; research WEDDING community recipes (Mastin Labs/Bright & Airy).
+- **Preset adjustments:** none

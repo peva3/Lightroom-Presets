@@ -140,3 +140,11 @@ For related Lightroom presets and film stock references:
 - [Fuji Superia 800](../Fuji-Superia-800/characteristics.md)
 - [Fuji Superia XTRA 400](../Fuji-Superia-XTRA-400/characteristics.md)
 - [Fuji Superia HG 1600](../Fuji-Superia-HG-1600/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** "punchy at high speed" saturation; pronounced but organic grain; cool cast; greens as the standout channel.
+- **Sources:** research dossier; Fujifilm Superia 1600 datasheet, Vivid Light Magazine (Jim McGee) and Kosmo Foto quotes reproduced in dossier.
+- **Preset adjustments:** none. Green +21 / blue +16 / red +11 with Contrast +28 and grain 40/40/60 reproduce the punchy, grainy high-speed character; global Saturation +5 is modest but the per-hue work carries it.

@@ -43,3 +43,9 @@ This preset is designed to capture the essential visual character of the albumen
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Warm yellow-brown midtones/highlights (40deg/18 and 12) with purple-brown shadow drift (320deg/12); contrast +18 (sharper than salt); grain 20 for the glossy coat; shadows held just above black (Blacks -10).
+- **Sources:** AlternativePhotography.com, 'A Non-Silver Manual: Vandyke brown'; Photrio thread 'Salt Prints vs. Albumen'; Koraks, 'Comparing salted paper, Van Dyke and DAS carbon'; K. Dotson, 'About Daguerreotypes and Other Antique Photographs' (albumen warm highlights, deep brown to reddish-brown image areas)
+- **Preset adjustments:** none

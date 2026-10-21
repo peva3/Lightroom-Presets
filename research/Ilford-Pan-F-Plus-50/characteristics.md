@@ -52,3 +52,11 @@ Ilford Pan F Plus 50 is the finest-grain, slowest-speed black-and-white film in 
 - Architecture and detail-critical work
 - Any situation where maximum resolution and minimal grain are desired
 - Not ideal for: low-light, action, street photography (too slow)
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate
+- **Defining traits checked:** finest-grain/slowest film in production; high native contrast (gamma ~0.70-0.75); deep dense blacks; highlights block easily
+- **Checked against XMP:** GrainAmount 15 / GrainSize 20 (perceptually absent grain), Contrast +30, Blacks -25 (D-max blacks), Highlights -25 (protects easily-blocked highlights), GrayMixerBlue -30 (Pan F's characteristic dark skies)
+- **Sources:** Ilford Pan F Plus datasheet; research research/Ilford-Pan-F-Plus-50/characteristics.md gamma figures; Photo.net / Photrio Pan F comparisons
+- **Preset adjustments:** none

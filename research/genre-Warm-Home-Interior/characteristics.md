@@ -26,3 +26,9 @@ Warm shadow split (H35 S10) + warm highlight (H45 S8) create inviting glow. Oran
 - [Seasonal Presets](../../docs/seasonal.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Ex +0.25, Contrast +5, Highlights -30, Shadows +25, Whites +5, Vibrance +5, Saturation +5; YellowHue -10, RedSat +5, OrangeSat +5, YellowSat +10, OrangeLum +10; shadow H35/S10, highlight H45/S8, blending 75; calibration none; PV 15.4, Color, Adobe Color Look; 4 neutral curves. Cosy residential: warm H35/S10 + H45/S8, YellowHue -10 for oak, Red/Orange/YellowSat +5/+5/+10, OrangeLum +10, Highlights -30/Shadows +25. Slightly saturated wood is the point of the look; not a documentation preset.
+- **Sources:** whitepaper `research/whitepapers/lightroom-xmp-attribute-reference.md`; STYLEGUIDE.md sec. VI.
+- **Preset adjustments:** none

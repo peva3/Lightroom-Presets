@@ -66,3 +66,8 @@ This preset has intentional STYLGUIDE deviations that appear to be creator decis
 - LuminanceSmoothing = 25 (creates wax base for grain — the "Melted Base" technique)
 - Clarity = -12 + Dehaze = +10 with grain (intentional paradox for bloom + density)
 - Temperature/Tint present (warm daylight base)
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** moody low-contrast cinematic frame; warm midtone grade against cool 215 shadows; grain; muted foliage
+- **Sources:** Creator-supplied tuning; STYLEGUIDE Section X cinematic recipe
+- **Preset adjustments:** none (creator preset). Documented deviation: Vibrance +30 vs Saturation +10 (gap 20) is in the range that produces the "one-colour" selective effect; also Sharpness 15 with Grain 30 and LuminanceSmoothing 25, plus calibration. Flagged for the owner, not edited.

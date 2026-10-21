@@ -36,3 +36,9 @@
 - Slight bias toward warmer grays via Orange/Red push in mixer
 - Subtle grain (medium format Tri-X is finer than 35mm)
 - Shadows preserved, not crushed
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Balanced medium-format tonality: Contrast +20, Blacks -20 but Shadows +20, Whites +12; GrayMixer biased warm (Red +20, Orange +15, Blue -25); Grain 22 at size 25 (finer than the 35mm presets); Highlights -25.
+- **Sources:** Repo characteristics.md cross-check; cluster B&W search.
+- **Preset adjustments:** none

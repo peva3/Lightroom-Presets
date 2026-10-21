@@ -43,3 +43,9 @@ This preset is designed to capture the essential visual character of the lith pr
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Harsh contrast (+55) with Highlights -50 / Blacks -30 giving the 'soft in the highlights, hard in the shadows' split; warm highlight tint (35deg/8) against neutral midtones; infectious-development grain 45/42/70; Grayscale mixer favours red/orange so shadow texture turns gritty rather than muddy.
+- **Sources:** Film Photography Project, 'What is a Lith Print?' (soft warm highlights, cool gritty shadows); AlternativePhotography.com, 'The lithprint process'; J. Senior, 'Lith Printing II: Control Through Contradiction'
+- **Preset adjustments:** none

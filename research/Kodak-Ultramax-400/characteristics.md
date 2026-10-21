@@ -160,3 +160,11 @@ For related Lightroom presets and film stock references:
 - [Kodak Royal Gold 400](../Kodak-Royal-Gold-400/characteristics.md)
 - [Kodak Max 800](../Kodak-Max-800/characteristics.md)
 - [Kodak High Definition Plus 200](../Kodak-High-Definition-Plus-200/characteristics.md)
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate (Kodak Ultramax 400, +1, +2)
+- **Defining traits checked:** warm, saturated consumer colour; cool shadows against warm highlights; heavy visible grain; punchier contrast than Portra.
+- **Verified in XMP:** base Contrast +22 / grain 32 / 31 / 56 with SaturationAdjustmentOrange +25, Red +17.5 and a 205 deg / 13 cool shadow grade against a 42 deg / 17.5 warm highlight grade; +1 (+37 contrast, grain 47) and +2 (+50, grain 60) escalate contrast and grain together, which is the correct push behaviour.
+- **Sources:** Kodak Ultramax 400 data sheet; repo datasheet.md and vs-portra-400.md; r/analog Ultramax threads.
+- **Preset adjustments:** none

@@ -162,3 +162,10 @@ For accurate Lightroom preset creation, the digital emulation should target:
 - [Video Presets](../../docs/video.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** purple/violet shadows and yellow-green highlights; high contrast with crushed blacks; heavy Holga vignette; garish saturation; coarse grain
+- **Sources:** Cross-processing references in characteristics.md (Velvia/Provia/Ektachrome xpro differences); Lomography film notes
+- **Preset adjustments:** none. Colour grade 270/45 shadow and 55/35 highlight plus -50 vignette are on target, but Shadows +30 and Whites +25 lift both ends, softening the "crushed blacks" signature. Flagged for a future contrast pass rather than a blind edit.
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

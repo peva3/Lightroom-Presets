@@ -433,7 +433,7 @@ Color Grading (Blending 75):
   Highlights: Hue 150–160° (green-teal), Sat 8–12
 
 HSL:
-  Green Hue: +40 to +55 (green → yellow-brown, the defining move)
+  Green Hue: −40 to −55 (green → yellow-brown; in Lightroom NEGATIVE moves green toward yellow)
   Green Sat: -50 to -60 (crush green — natural grass is the enemy)
   Orange Lum: +60 to +80 (earth tones glow through the gloom)
   Yellow Sat: -25 to -35
@@ -480,7 +480,7 @@ Basic Panel:
   Blacks: +10 to +15 (never crushed — Portra's black is gentle)
 
 HSL:
-  Green Hue: +10 to +15 (green → olive)
+  Green Hue: −10 to −15 (green → olive; NEGATIVE moves green toward yellow)
   Green Sat: -15 to -25 (Portra's signature green desaturation)
   Orange Lum: +10 to +15 (creamy skin — the Portra hallmark)
   Blue Sat: -5 to -15 (muted sky)
@@ -556,7 +556,7 @@ Dehaze: 0
 - Color Grading: warm highlights + shadows (H 40–50 sat 10–20 + H 30–40 sat 5–10)
 - Linear Gradient with warm gold overlay at sun direction, Dehaze -10 for atmospheric glow
 
-**Foliage naturalization:** Green Sat -10 to -20 (digital greens are too neon). Green Hue +20 to +40 for summer lush, or -10 to -20 for forest moody. Yellow adjustments massively affect foliage — Yellow Hue -10 to -20 shifts leaves toward autumn orange.
+**Foliage naturalization:** Green Sat -10 to -20 (digital greens are too neon). Green Hue -20 to -40 turns foliage yellow-green (autumn/lush); +10 to +20 pushes it toward cyan (cool forest). Yellow adjustments massively affect foliage — Yellow Hue -10 to -20 shifts leaves toward autumn orange.
 
 **Aurora/night sky:** Dehaze +5 to +15 only (higher cranks contrast and saturation aggressively). Clarity +10 to +25 for banding definition. Saturation -5 to -10 first, compensate with Vibrance +10 to +20. Use Linear Gradient with Magenta Tint +10 to +20 on foreground snow to neutralize green aurora reflection.
 
@@ -840,3 +840,19 @@ Techniques in Section XI are synthesized from the following channels and their m
 | dPS (Digital Photography School) | — | Landscape techniques, aurora editing, batch workflow |
 
 Consult these before making slider decisions that interact with sensor physics, display calibration, or print output.
+
+
+### Hue axis directions (verified against Lightroom's colour wheel)
+
+Lightroom's HSL hue axis is ordered Red → Orange → Yellow → Green → Aqua → Blue → Purple → Magenta, and each
+slider moves its band toward those neighbours. The four that get encoded backwards most often:
+
+| Slider | Negative value moves toward | Positive value moves toward |
+|---|---|---|
+| Yellow | Orange | Green |
+| Green | **Yellow (olive)** | **Aqua (cyan)** |
+| Aqua | Green | Blue |
+| Blue | Aqua (cyan) | Purple |
+
+So "Portra olive greens" is `HueAdjustmentGreen` **negative**. Writing it positive pushes foliage cyan — a
+common error in community recipes, and one that had propagated into this repo's presets and notes.

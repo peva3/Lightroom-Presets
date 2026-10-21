@@ -72,3 +72,12 @@ For related Lightroom presets and film stock references:
 - [Fuji Sensia 100](../Fuji-Sensia-100/characteristics.md)
 - [Fuji Fortia SP 50](../Fuji-Fortia-SP-50/characteristics.md)
 - [Kodak Ektachrome E100](../Kodak-Ektachrome-E100/characteristics.md)
+
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Fast pushable E-6: grain 18/28 (visible but tight for ISO 400), Contrast +40 and small saturation touches (+5 hue on red/green/blue) fit the punchier high-speed Provia; blue Luminance -10 keeps skies clean. No calibration or WB contamination.
+- **Sources:** Fujifilm Velvia 100 datasheet (world's highest saturation, RMS 8); Velvia 50 / Provia 100F datasheets (RMS 8, medium saturation + contrast); Fujifilm Sensia 100 product page; Fortia SP entry (Wikipedia) + Fuji X Weekly 'Fortia 50' (highest-saturation Fuji emulsion, above Velvia 50); Astia 100F reviews (Alex Luyckx) and Fujifilm film-simulation chart (soft/muted).
+- **Preset adjustments:** none
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

@@ -43,3 +43,9 @@ This preset is designed to capture the essential visual character of the autochr
 - [Creative Presets](../../docs/creative.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Pastel register (Vibrance -15, Saturation -20 plus HSL cuts on red/green/blue/orange); lifted blacks and pulled whites (tone curve 0->20, 255->235); starch-grain stand-in at GrainAmount 50 / Size 45 / Roughness 65; zero clarity so the mosaic scatters soft.
+- **Sources:** Science and Media Museum, 'History of the autochrome'; Wikipedia, 'Autochrome Lumiere'
+- **Preset adjustments:** none

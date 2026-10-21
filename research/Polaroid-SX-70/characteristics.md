@@ -261,3 +261,17 @@ These five elements work synergistically to produce a photograph that feels less
 - [Video Presets](../../docs/video.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** milky low contrast with no true black or white; warm/golden cast; heavy vignette; muted saturation; soft focus
+- **Sources:** SX-70 dye-diffusion characteristics + datasheet (repo); Time-Zero vs modern Polaroid notes
+- **Preset adjustments:** none. Contrast -40, Whites -20, Shadows +40, Black lift via curve, vignette -25 feather 80, warm shadow grade 50/12 and desaturated HSL match the brief. Negative Clarity/Texture retained deliberately despite grain (softness defines the format); global Saturation cut replaced by HSL cuts per the source doc.
+
+
+## Validation Sweep 2026-10-21 (Video)
+- **Verdict:** accurate
+- **Defining traits checked:** Parent Polaroid SX-70 exists: HSL and grade are identical (desaturated greens/purples, warm H35/S8 highlights, amber H50/S12 shadows, Balance +25), with the SX-70 low-contrast register (Contrast -45 vs -40, Whites -20, Shadows +40). Grain 25 vs 40. Parent's Clarity -25/Texture -10/Dehaze -15 replaced by 0 for grain safety.
+- **Sources:** still-look parent XMP values in repo; repo research/ characteristics + color-palette notes.
+- **Preset adjustments:** none
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

@@ -275,3 +275,29 @@ For related Lightroom presets and film stock references:
 - [Kodak Royal Gold 400](../Kodak-Royal-Gold-400/characteristics.md)
 - [Kodak Max 800](../Kodak-Max-800/characteristics.md)
 - [Kodak High Definition Plus 200](../Kodak-High-Definition-Plus-200/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate (covers `Kodak Gold 200 +1`, `+2`, `Expired 10yr`, `Expired 30yr`)
+- **Defining traits checked:** golden-yellow midtone/highlight cast; teal-cyan complementary shadows; medium-high saturation with amplified yellows and subdued magentas; moderate contrast; lifted-not-crushed blacks.
+- **Sources:** research dossier; Kodak Gold 200 datasheet, Fuji X Weekly Gold 200 recipes, community comparisons of Gold vs ColorPlus.
+- **Preset adjustments:** none. All four variants share highlight grade 50 deg sat 15 (golden), shadow grade 207 deg (teal), yellow +20 / orange +15 / red +10 with green and magenta cut. Expired ladder is coherent: Blacks +32 / +38, Contrast -24.5 / -30.5, grain 57 / 68. Only wrinkle: `+1` (Contrast 2.5) is flatter than `+2` (15.5), a non-monotonic push ladder — internal consistency, not a film-accuracy error, so left alone.
+
+## Validation Sweep 2026-10-21 (Color-Negative scope: Kodak Gold 200, Gold 200 Frontier, Gold 200 Noritsu)
+- **Verdict:** accurate (Kodak Gold 200); minor drift (Gold 200 Frontier, Gold 200 Noritsu)
+- **Defining traits checked:** warm golden midtones/highlights; teal-cyan complementary shadows; moderate contrast with lifted blacks; visible but pleasant grain; subdued magenta.
+- **Verified in XMP:** highlight grade 50 deg / 15 sat, shadow grade 207.5 deg / 17.5 sat (cyan-blue), SaturationAdjustmentOrange +15 / Yellow +20 / Magenta -22.5, Contrast -5 with Highlights -50 / Shadows +27.5 / Blacks +20, grain 35 / 27.5 / 50. Grain amount 35 is right for a consumer 200 (heavier than Portra 160/400, lighter than Ultramax).
+- **Variant drift:** Frontier is tuned cooler and flatter (shadow 222.5 deg / 22.5, Contrast -17.5); Noritsu is warmer and punchier (highlight 55 deg / 20, Contrast -4.5). Lab comparisons put the Frontier as the punchier, cooler, greener-foliage scanner and the Noritsu as the softer, warmer one, so the contrast ordering between these two variants is arguably inverted. Sources disagree (this repo's Portra 160 notes side with the labs, its Portra 400 notes claim the reverse), so the values were left alone; both variants keep Gold's defining warm/teal split.
+- **Caution:** HueAdjustmentGreen +22.5 rotates greens toward aqua while the reference calls for yellow-biased greens; the -15 green saturation keeps that from reading teal on a real image.
+- **Sources:** JB Flanc, "The Art of Film Scanning: Frontier vs Noritsu" (2025); Carmencita Film Lab, "Frontier vs Noritsu: Round 2"; thedrunkweddingphotographer.com scanner comparison (2026); The Darkroom Gold 200 index; repo datasheet.md.
+- **Preset adjustments:** none in colour; display-name prefix "03 " removed from Kodak Gold 200.xmp so the name matches the filename stem.
+
+
+## Validation Sweep 2026-10-21 (Video)
+- **Verdict:** minor drift
+- **Defining traits checked:** Parent Kodak Gold 200 exists: HSL and shadow grade identical (H207.5/S17.5, Balance -30) and the warm golden-yellow push is intact (orange +15, yellow +20). Drift: Contrast -17.5 vs parent -5 while both keep Blacks +20, so the Video variant is noticeably flatter/faded. Within the 'home-movie' idiom but softer than the still.
+- **Sources:** still-look parent XMP values in repo; repo research/ characteristics + color-palette notes.
+- **Preset adjustments:** none
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

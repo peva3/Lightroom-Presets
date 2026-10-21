@@ -357,3 +357,12 @@ Delta 3200 @ 3200  |  ~20–22   | Massive — the largest in production
 - [Genre Presets](../../docs/genre.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate for the stock preset; minor drift on the two variants
+- **Defining traits checked:** (a) **Lifted, charcoal blacks** — the film's signature, because base+fog is high and the toe is long; the stock preset uses `Blacks2012="+22.3"` with Shadows +28.8, matching this folder's own target table (+22.5 / +22.5) and community range (+15 to +30). No crush, correct. (b) **Low contrast** — Gbar ≈ 0.56 at EI 1600 rising to 0.63 at EI 3200 (Ilford contrast-time graph): stock preset Contrast −20 is right, while **+2** goes to +8 and **Microphen** to −12, both defensible as extended development. (c) **Grain** — huge, clumped, midtone-dominant, RMS unpublished; preset 60/55/71 (stock), 88/70/86 (+2), 70/63/81 (Microphen) are ordered sensibly by push. (d) Panchromatic with strong blue/UV response (Blue −15, Orange +20) is fine.
+  Drifts worth recording: **Microphen** is Ilford's fine-grain speed developer and this folder's own developer table calls it the *lower*-contrast, natural-look option, yet its preset is grainier (70) and more contrasty (−12) than the stock preset; and **+2** keeps a +7.3 black lift (reduced, which is right for a push) but pairs it with Highlights −70, a very heavy highlight recovery for a film that already blows highlights under push.
+- **Sources:** Ilford Delta 3200 Professional technical information (ISO 1000, EI 400–6400, DD-X 9½ min at EI 3200, Gbar 0.56/0.63/0.74 at EI 1600/3200/6400); thegrainarchive.com Delta 3200 digest (review consensus: low-to-medium contrast, blocked shadows, highlights hold); this folder's developer table (Microphen = moderate-low contrast, DD-X = slightly higher contrast/finer grain).
+- **Preset adjustments:** none

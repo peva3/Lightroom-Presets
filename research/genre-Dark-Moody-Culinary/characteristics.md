@@ -26,3 +26,9 @@ Underexposure (-0.40) + strong Contrast (+25) create dramatic tonality. Blacks a
 - [Seasonal Presets](../../docs/seasonal.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Ex -0.4, Contrast +25, Highlights -50, Shadows +10, Whites -5, Blacks -20, Vibrance -12, Saturation -15, Sharpness +10, Grain +15; RedSat +10, OrangeSat +10, YellowSat +5, GreenSat -30, BlueSat -20; shadow H220/S15, highlight H40/S8, blending 75; calibration none; PV 15.4, Color, Adobe Color Look; 4 neutral curves. Moody food: -0.40Ex, +25C, Blacks -20 anchors without crushing, Red/OrangeSat +10 keep food colour alive in shadow, Green/Blue pulled back, Grain 15 with Sharpness 10/Clarity 0/Texture 0 per grain rule.
+- **Sources:** whitepaper `research/whitepapers/lightroom-xmp-attribute-reference.md`; STYLEGUIDE.md sec. VII (grain vs sharpening); research culinary recipes.
+- **Preset adjustments:** none

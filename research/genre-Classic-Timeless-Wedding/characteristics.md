@@ -26,3 +26,9 @@ Mild positive Exposure (+0.15) for subtle brightness without blowing. Gentle Con
 - [Seasonal Presets](../../docs/seasonal.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Ex +0.15, Contrast +10, Highlights -30, Shadows +20, Whites +5; GreenHue +10, GreenSat -15, BlueSat -10, OrangeLum +10; shadow H50/S8, highlight H40/S5, blending 75; calibration none; PV 15.4, Color, Adobe Color Look; 4 neutral curves. The safe deliverable: +0.15Ex, +10C, modest lift, warm shadow split H50/S8, OrangeLum +10 and no orange sat push - skin stays natural across tones.
+- **Sources:** whitepaper `research/whitepapers/lightroom-xmp-attribute-reference.md`; STYLEGUIDE.md sec. VI; research/genre-Classic-Timeless-Wedding/community-recipes.md.
+- **Preset adjustments:** none

@@ -107,3 +107,13 @@ For related Lightroom presets and film stock references:
 - [Agfa Vista 200](../Agfa-Vista-200/characteristics.md)
 - [Agfa Vista 400](../Agfa-Vista-400/characteristics.md)
 - [Kodak Gold 200](../Kodak-Gold-200/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** cooler/more neutral than Vista 200; fine grain; moderate-high consumer contrast; strong reds and blues; cool shadow bias.
+- **Sources:** research dossier; analog.cafe and mrleica Agfa Vista reviews, casualphotophile Vista profile.
+- **Preset adjustments:** none. Contrast +18, grain 12, blue +12, red +22, shadow grade 245 deg at sat 5 reproduce the "cooler Vista".
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

@@ -42,3 +42,12 @@ For related Lightroom presets and film stock references:
 
 - [Kodak Plus X 125](../Kodak-Plus-X-125/characteristics.md)
 - [Kodak T Max 100](../Kodak-T-Max-100/characteristics.md)
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate
+- **Defining traits checked:** ultra-fine grain with very high resolving power; medium-to-high contrast; long smooth tonal scale; disputed spectral signature
+- **Checked against XMP:** GrainAmount 10 / GrainSize 15 (essentially grainless), Contrast +12 (medium), Blacks -15, Highlights -10 / Shadows +12 (gentle shoulder and toe), GrayMixerRed +15 / Blue -25
+- **Sources:** Analog.Cafe "The Atomic Film" ("panchromatic emulsion and extended red sensitivity"); Alex Luyckx Panatomic-X review; Photo.net / Photrio fine-grain comparisons
+- **Preset adjustments:** none
+- **Note:** Research CONFLICT: this file calls Panatomic-X "ortho-panchromatic (slightly reduced red)", which would imply darker reds and lighter skies - the XMP does the opposite. Three independent external sources describe it as *extended* red, which supports Red +15 / Blue -25, so the XMP was left alone and the unsourced research line is flagged instead.

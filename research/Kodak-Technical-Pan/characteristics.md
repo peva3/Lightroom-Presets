@@ -42,3 +42,12 @@ For related Lightroom presets and film stock references:
 
 - [Kodak Panatomic X 32](../Kodak-Panatomic-X-32/characteristics.md)
 - [Kodak T Max 100](../Kodak-T-Max-100/characteristics.md)
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate
+- **Defining traits checked:** resolving power beyond 400 lp/mm; essentially grainless; gamma >2 in normal developers, pictorial only in Technidol / POTA; extended red into near-IR
+- **Checked against XMP:** GrainAmount 5 / GrainSize 10 (lowest grain stack in the category), Contrast +35 with Highlights -20, Blacks -25, GrayMixerRed +20 / Blue -35 (extended red darkens skies)
+- **Sources:** research/Kodak-Technical-Pan characteristics; Photo.net "Tech Pan vs Pan F vs TMax 100"; Photrio Tech Pan emulsion threads
+- **Preset adjustments:** none
+- **Note:** The XMP encodes the Technidol/continuous-tone pictorial rendering rather than Tech Pan's lithographic default - the correct choice for a photo preset.

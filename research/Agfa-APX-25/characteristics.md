@@ -40,3 +40,11 @@ For related Lightroom presets and film stock references:
 - [Agfa APX 100](../Agfa-APX-100/characteristics.md)
 - [Agfa APX 400](../Agfa-APX-400/characteristics.md)
 - [Kodak Tri X 400](../Kodak-Tri-X-400/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift (research note itself needs correcting)
+- **Defining traits checked:** ISO 25, RMS granularity 7.0 and 200 lp/mm — the finest-grained, highest-resolving APX (preset GrainAmount 15 / GrainSize 20 is the lowest of the APX trio, ordering correct); moderate-to-contrasty midtones with an early shoulder, i.e. rich midtone contrast plus soft highlights (preset: Contrast +15, Highlights −10, Blacks −20 — plausible); 7 µm emulsion layer. Correction to this folder: APX 25 is described above as "ortho-panchromatic / slightly reduced red", but Agfa's own spectrogram runs 400–650 nm like a true panchromatic film, and Photrio/photo.net comparisons note that *Efke 25* was the orthopanchromatic film while Agfapan APX 25 was true panchromatic. The preset's Red +25 / Blue −20 is therefore consistent with the film, not a bug.
+- **Sources:** AGFAPAN APX 25 technical data sheet (tmax100.com PDF: RMS 7.0, 200 lp/mm, Refinal 6 min); Agfa Professional B&W technical data comparison table (APX 25 RMS 7, APX 100 RMS 9, APX 400 RMS 14); photo.net APX 25 vs APX 100 thread on curve shape and ortho-vs-pan sensitisation.
+- **Preset adjustments:** none

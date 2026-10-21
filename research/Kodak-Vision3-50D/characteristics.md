@@ -60,3 +60,13 @@ For related Lightroom presets and film stock references:
 
 - [Kodak Vision3 250D](../Kodak-Vision3-250D/characteristics.md)
 - [Kodak Vision3 500T](../Kodak-Vision3-500T/characteristics.md)
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate
+- **Defining traits checked:** medium-low contrast with the longest shoulder in the line; finest grain of any colour negative; pristine daylight colour; near-neutral skin.
+- **Verified in XMP:** Contrast +8 (lowest of the Vision3 presets), grain 12 / 15 / 40 (lightest grain in the collection), Highlights -35, gentle per-hue cuts only (no global Saturation), Sat -3. Reads as the clean, flat, high-latitude stock the reference describes.
+- **Sources:** Kodak Vision3 5203 data sheet; cinematography.com; repo characteristics.md.
+- **Preset adjustments:** none
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

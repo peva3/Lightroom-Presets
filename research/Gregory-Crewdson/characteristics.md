@@ -37,6 +37,12 @@
 - Green shifted hard toward yellow/olive (the "Crewdson green")
 - Saturation pulled from greens and blues to control the teal intensity
 - Slight underexposure for twilight atmosphere
-- Dehaze slightly positive for atmosphere control
+- Dehaze slightly negative (-10) to hold the atmospheric haze
 - Blending at 75 for cinematic color separation
 - Midtone warmth injection to bridge the warm/cool split
+
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** Cool shadow split at hue 210 / sat 18 with Balance -15 (cool shadows), warm highlight 40/10, midtone warm bridge 38/6; green hue -55 (green -> olive) and green -45 desaturated; Blues -20/Aqua -15; Exposure -0.20 for twilight. Dehaze -10 is negative, which matches the atmospheric-haze signature; the design-note line claiming positive Dehaze was wrong and has been corrected in the body text.
+- **Sources:** Repo characteristics.md cross-check (corrected); cluster colour-grade search.
+- **Preset adjustments:** none (research text corrected, not the preset)

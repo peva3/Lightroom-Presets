@@ -35,3 +35,11 @@ Rollei Retro 80S is a super-panchromatic (extended red sensitivity) fine-grain b
 - Agfa Aviphot Pan 80 technical documentation
 - Community reviews and comparisons (35mmc, Photrio)
 - Rollei Retro film family documentation
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate
+- **Defining traits checked:** same Aviphot family at ISO 80 - fine grain, high acutance, super-panchromatic, skies darken unaided
+- **Checked against XMP:** GrayMixerRed +35 / Blue -30, GrainAmount 25 / GrainSize 20 (finer than 400S's 45/35 - correct relative ordering), Contrast +20
+- **Sources:** same as Rollei Retro 400S; research/Rollei-Retro-80S characteristics
+- **Preset adjustments:** none

@@ -137,3 +137,11 @@ For related Lightroom presets and film stock references:
 
 - [Fujifilm Classic Negative](../Fujifilm-Classic-Negative/characteristics.md)
 - [Fuji Neopan 400](../Fuji-Neopan-400/characteristics.md)
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** major miss — corrected
+- **Defining traits checked:** ISO 100, RMS granularity 7 (finest of any ISO 100 B&W film, datasheet), 200 lp/mm at 1000:1, and — the point that was wrong — a *crisp* tonal signature: Fuji's own literature sells "Dense Blacks / Rich Grays / Delicate Whites", the in-camera simulation is documented above as "moderate-to-strong default contrast", and side-by-side tests (EMULSIVE Acros vs Delta 100 vs T-Max 100) find Acros the *darkest* of the three in the mid-lights with the sharpest edges. The preset shipped with `Contrast2012="0"` — the only film preset among the 29 in this sweep with no contrast at all — plus Shadows +40, which lifted the shadows into a flat, HDR-ish render and cancelled Acros's dense-black/crisp character. Spectral: panchromatic with a long but red-limited curve and strong green response (GrayMixer Green +10, the only positive green in the set) was already correct, as was the fine grain (20/25/50, between T-Max 100 and Delta 100 in size).
+- **Sources:** Fujifilm Neopan 100 ACROS data sheet (PB-102E: RMS 7, 200 lp/mm, "Dense Blacks, Rich Grays, Delicate Whites"); fujifilm datasheet reproduction via cameraworks/125px; EMULSIVE Acros 100 vs Delta 100 vs T-Max 100 comparison (Acros darkest mid-lights, sharpest); largeformatphotography.info thread on Acros orthopan sensitisation and long straight curve; this folder's in-camera simulation notes ("moderate-to-strong default contrast", "inky blacks").
+- **Preset adjustments:** Contrast2012 0 → +18; Highlights2012 −40 → −30; Shadows2012 +40 → +20 (Blacks −30, Whites +15 and the GrayMixer left alone, so the smooth highlight roll-off and dense black point survive while the mid-tones regain Acros's crisp separation). The preset's grain (20/25/50) and GrayMixer were left untouched.

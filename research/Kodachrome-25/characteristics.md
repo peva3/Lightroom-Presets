@@ -104,3 +104,12 @@ The film was discontinued in 2001, years before the final K64 discontinuation in
 - Ansel Adams color work on Kodachrome (various publications)
 - National Geographic archive — K25-era photography
 - Kodachrome-64 research folder — family characteristics
+
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** K25: RMS 9, 'extremely fine grain', slightly cooler than K64. Preset: GrainAmount 5/15, Contrast +25, blue hue -15 with saturation +20 / luminance -15 for the deep cyan-leaning sky, reds +10. Grain and blue rendition both match the datasheet.
+- **Sources:** Kodak publication E-55 'Kodachrome 25, 64 and 200 Professional' (diffuse RMS 9 / 10 / 16; 25 and 64 described as 'extremely fine grain'; 200 'fine grain'); Kodak Ektachrome RMS table (Ektachrome 100 RMS 11, Ektachrome 400 HC RMS 17).
+- **Preset adjustments:** none
+
+> **Validation Sweep 2026-10-21 — hue direction correction.** Lightroom's HSL hue axis runs Red → Orange → Yellow → Green → Aqua → Blue, so a *negative* Green Hue moves foliage toward yellow/olive and a *positive* value moves it toward cyan. The preset originally encoded this with the opposite sign; it now matches the olive/yellow-green shift described above.

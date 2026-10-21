@@ -59,3 +59,10 @@ For related Lightroom presets and film stock references:
 - [Fuji Sensia 100](../Fuji-Sensia-100/characteristics.md)
 - [Fuji Fortia SP 50](../Fuji-Fortia-SP-50/characteristics.md)
 - [Kodak Ektachrome E100](../Kodak-Ektachrome-E100/characteristics.md)
+
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Provia 400X: punchy saturation for its speed, grain 20/20, Contrast +22.5 with Shadows -25 to hold reversal blacks; blue hue -5 / luminance -10 for deep clean blue; global saturation +5 only, so no selective-colour effect.
+- **Sources:** Fujifilm Velvia 100 datasheet (world's highest saturation, RMS 8); Velvia 50 / Provia 100F datasheets (RMS 8, medium saturation + contrast); Fujifilm Sensia 100 product page; Fortia SP entry (Wikipedia) + Fuji X Weekly 'Fortia 50' (highest-saturation Fuji emulsion, above Velvia 50); Astia 100F reviews (Alex Luyckx) and Fujifilm film-simulation chart (soft/muted).
+- **Preset adjustments:** none

@@ -52,3 +52,12 @@ For related Lightroom presets and film stock references:
 - [Kodak Ektachrome 400X](../Kodak-Ektachrome-400X/characteristics.md)
 - [Kodak Ektachrome 200](../Kodak-Ektachrome-200/characteristics.md)
 - [Kodak Ektachrome 100VS](../Kodak-Ektachrome-100VS/characteristics.md)
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** accurate (as a cross-processed E-6 -> C-41 interpretation)
+- **Defining traits checked:** high slide contrast; tungsten-balance blue/cyan shadows; C-41 crossover (yellow-green midtones, magenta highlights); pronounced grain; muted overall saturation.
+- **Verified in XMP:** Contrast +30, Highlights -45, grain 35 / 30 / 55; shadow grade 220 deg / 18 (blue-cyan), midtone 75 deg / 12 (yellow-green), highlight 330 deg / 15 (magenta); Saturation -5 with Blue +15 / Green -15 / Red -10. This maps one-for-one onto the crossover description recorded in this folder.
+- **Scope note:** the file lives in Color-Negative but the stock is a reversal film; the preset intentionally emulates the xpro look, so it was judged against that reference rather than against an E-6 rendering.
+- **Sources:** Kodak Ektachrome 320T (EPJ) data; Lomography/xpro crossover guides; repo characteristics.md.
+- **Preset adjustments:** none in colour; display name aligned with the filename stem ("Kodak Ektachrome 320T" -> "Kodak-Ektachrome-320T").

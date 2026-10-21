@@ -44,3 +44,12 @@ For related Lightroom presets and film stock references:
 
 - [Kodak T Max 3200](../Kodak-T-Max-3200/characteristics.md)
 - [Kodak Tri X 400](../Kodak-Tri-X-400/characteristics.md)
+
+## Validation Sweep 2026-10-21
+
+- **Verdict:** minor drift
+- **Defining traits checked:** EI 1000-4000 surveillance emulsion; the coarsest grain of any Kodak B&W ("golf-ball"); extended red / super-panchromatic; compressed tonal range where shadows block and highlights clip
+- **Checked against XMP:** the defining trait is correct - GrainAmount 60 / GrainSize 55 / Roughness 75, coarser than T-Max 3200 (55/42/70); Contrast +25 (moderate-high); GrayMixerRed +25 / Blue -20 (extended red)
+- **Sources:** research/Kodak-Recording-Film-2475 characteristics; published 2475 dev data (D-19 / DK-50 / HC-110); Photrio surveillance-film threads
+- **Preset adjustments:** none
+- **Note:** Drift: research describes a *compressed* range ("shadows block up quickly, highlights clip") but the tone panel expands it - Highlights -40, Shadows +20. Grain is the dominant defining trait and is right, so this is tonal drift, not a miss. Grain could plausibly sit a touch coarser still relative to TMZ.

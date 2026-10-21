@@ -26,3 +26,9 @@ Exposure +0.35 compensates for typical indoor dimness. Contrast +25 + Clarity +2
 - [Seasonal Presets](../../docs/seasonal.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** Ex +0.35, Contrast +25, Highlights -35, Shadows +25, Whites +10, Blacks -10, Clarity +20, Texture +10, Vibrance +5, Saturation +5; RedSat -5, OrangeSat -5, GreenSat -5; shadow H225/S8, highlight H43/S5, blending 75; calibration none; PV 15.4, Color, Adobe Color Look; 4 neutral curves. Indoor sport: +0.35Ex, +25C, Clarity +20/Texture +10 for action detail, Shadows +25 opens the shaded side of athletes, Red/OrangeSat -5 calms sodium-vapour spill; no WB override (arena lighting is per-venue).
+- **Sources:** whitepaper `research/whitepapers/lightroom-xmp-attribute-reference.md`; Sports/venue editing practice; STYLEGUIDE.md sec. V.
+- **Preset adjustments:** none

@@ -18,3 +18,9 @@ Best for: Forest photography, nature landscapes, woodland scenes, any image wher
 - No grain → Clarity kept as defining ✓
 - Tone Curve: Cinematic Creative ✓
 - ColorGradeBlending: 75 ✓
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** (1) green → olive — HueAdjustmentGreen -15 (negative moves green toward yellow, not aqua); (2) density without neon — Green Sat -25, Green Lum -10, Exposure -0.05, Contrast +18; (3) green-tinted shadow atmosphere — Shadow H140/S10, Balance -10, Vignette -10, Highlight H45/S5.
+- **Sources:** research/characteristics; STYLEGUIDE §XI-C (Green Hue negative → yellow/olive; Green Sat -10 to -20 for naturalization); r/postprocessing forest-grade consensus.
+- **Preset adjustments:** none.

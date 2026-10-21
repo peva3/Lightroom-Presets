@@ -185,3 +185,16 @@ Cross-processing content regularly hits **200–3,000+ points** on r/analog, con
 - [Video Presets](../../docs/video.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** (1) extreme contrast for an already-contrasty slide film — Contrast +50, Clarity +18, Dehaze +15, Exposure -0.30, Highlights -60; (2) green-emerald shadows with magenta highlights (the Velvia 50 Xpro signature) — Shadow H160/S22 at Balance -40, Highlight H305/S18, Green Sat +30 / Aqua Sat +22 vs Magenta grade; (3) reds muted and pushed magenta — Red Sat -30, Red Hue +15, Yellow Sat -40, Magenta Hue +40.
+- **Sources:** research/Cross-Processed-E6-C41 + alt-cross-process-e6-c41 (green shadows, magenta highlight tendency, near-posterization contrast, muted reds); E-6-in-C-41 chemistry references.
+- **Preset adjustments:** none.
+
+
+## Validation Sweep 2026-10-21 (Video)
+- **Verdict:** accurate
+- **Defining traits checked:** Parent Creative/Cross-Processed Velvia.xmp exists: the 8-band HSL recipe is identical (green/yellow/magenta hue swings, red -30 / yellow -40 saturation) as is the cross-process grade (Highlight H305/S18, Shadow H160/S22, Balance -40). Contrast 45 vs parent 50, Saturation +10 in both, grain 17 vs 25. Signature intact.
+- **Sources:** still-look parent XMP values in repo; repo research/ characteristics + color-palette notes. Cross-process (E-6 in C-41) reference: cyan shadows / yellow-green highlights with crushed contrast.
+- **Preset adjustments:** none

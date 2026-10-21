@@ -53,3 +53,11 @@ The direct predecessor to Fuji Pro 400H
 - Fuji X Weekly recipe
 - Fujifilm NPH 400 technical data sheet (archived)
 - Wedding photography community and professional forums
+
+---
+
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** ultra-low contrast for printing latitude; desaturated reds/yellows/greens to protect skin; neutral with very slight warmth; very fine grain; long highlight shoulder.
+- **Sources:** research dossier; photo.net Fuji 400H/NPH thread, Fujifilm NPH 400 datasheet, shootitwithfilm 400H context.
+- **Preset adjustments:** none. The eight negative HSL saturation moves and Highlights -40 / Shadows +25 shoulder do the portrait work; Contrast -10 is shallower than "ultra-low" but directionally right.

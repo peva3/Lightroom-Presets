@@ -205,3 +205,16 @@ The cyberpunk neon city aesthetic is not purely visual — it carries specific e
 - [Video Presets](../../docs/video.md)
 - [All Lightroom Preset Categories](../../docs/index.md)
 
+
+## Validation Sweep 2026-10-21
+- **Verdict:** accurate
+- **Defining traits checked:** (1) green and yellow killed — HueAdjustmentGreen -90, Green Sat -60, Yellow Sat -60 (both at the ±60 cap); (2) magenta/cyan separation — Magenta Sat +55, Highlight H315/S22.5, Shadow H230/S22.5 at Balance +30; (3) hard neon-city rendering — Exposure -0.50, Contrast +45, Highlights -65, Whites +30, Blacks -30, Clarity +55, Dehaze +45, Vignette -22.5, Grain 45/40/65.
+- **Sources:** research/characteristics + color-palette ("green is the colour of nature and must be eliminated"; sodium orange suppressed, magenta heightened); STYLEGUIDE §XI-D Cyberpunk recipe (values match almost exactly); Blade Runner 2049 palette analysis.
+- **Preset adjustments:** none.
+
+
+## Validation Sweep 2026-10-21 (Video)
+- **Verdict:** accurate
+- **Defining traits checked:** Parent Cyberpunk Neon City exists and the neon recipe is identical: green hue -90 with green/yellow saturation -60, magenta +55, grade H315/S22.5 highlights over H230/S22.5 shadows with Balance +30, Saturation -15, Whites +30. Parent's Clarity +55 / Dehaze +45 are dropped to 0 for grain safety; the chroma signature is untouched.
+- **Sources:** still-look parent XMP values in repo; repo research/ characteristics + color-palette notes.
+- **Preset adjustments:** none

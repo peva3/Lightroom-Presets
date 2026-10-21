@@ -38,3 +38,9 @@
 - Green and blue pulled back for overall warmth
 - Low contrast — overcast light aesthetic, no dramatic shadows
 - Blending at 50 for documentary subtlety
+
+## Validation Sweep 2026-10-21
+- **Verdict:** minor drift
+- **Defining traits checked:** Dye-transfer reds honoured (Red saturation +14, Saturation +8 / Vibrance +10, orange luminance +8) with warm highlight 42/8 and warm shadow 48/5. However the body text claims 'low contrast / no dramatic shadows' while the preset carries Contrast +10 and Blacks -10; that is a mild positive push, not flat overcast rendering.
+- **Sources:** reelfoto 'William Eggleston: Father of Color Photography' (dye-transfer saturated colour); f22/state-media Eggleston PDF.
+- **Preset adjustments:** none (contrast +10 is within the dye-transfer brief; text noted)
