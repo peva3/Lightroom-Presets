@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.1.2] — 2026-10-21
+
+### Fixed
+- **Absolute Kelvin white balance across 54 presets.** `crs:Temperature` had been written as relative offsets (`+300`, `-200`); Camera Raw expects absolute Kelvin (`5800`, `5200`). Affected presets were rendering with the wrong white balance or falling back to As Shot.
+
+### Changed
+- **Canonical attribute ordering** across all 451 presets — calibration block, then Basic panel, then HSL, then ColorGrade — matching the order Lightroom writes itself.
+- **Redundant default attributes stripped** so presets carry only the values that actually change (Utility WB and exposure-variant presets are now minimal deltas).
+- Release asset rebuilt: `lr-presets-all.xmp.zip` now contains all **451** presets (was 445).
+
+### Verification
+- All 451 presets parse clean with a strict XML parser — zero errors, zero raw `&`.
+
 ## [3.1.1] — 2026-06-03
 
 ### Fixed
