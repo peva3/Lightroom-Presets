@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.4] — 2026-10-21
+
+### Fixed
+- **White balance mode now declared on all 78 temperature presets.** `crs:WhiteBalance="Custom"` added to 72 presets that set `Temperature` (22 of them also `Tint`) without declaring the mode. `WhiteBalance` is the enum that activates the Kelvin value — in XMP a bare `Temperature` is at best an as-shot display value and at worst ignored entirely. Six presets (the `Utility/WB *` family) already declared it. Adding the enum is a no-op if Lightroom was already inferring `Custom`, and a fix if it wasn't; either way the intent is now explicit.
+  - Distribution: Geographic 26, Creative 19, Mobile 14, Decade 9, Genre 2, Photographer 1, Seasonal 1. No film-stock preset (Color-Negative / Black-White / Slide) sets WB at all, consistent with house rule 4.
+- `AGENTS.md` rule 4 now requires `WhiteBalance="Custom"` whenever `Temperature`/`Tint` is present.
+
 ## [3.1.3] — 2026-10-21
 
 ### Fixed

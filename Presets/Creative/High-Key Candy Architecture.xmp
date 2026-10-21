@@ -18,7 +18,7 @@
    crs:ProcessVersion="15.4"
    crs:HasSettings="True"
 
-   crs:Temperature="6000"
+   crs:WhiteBalance="Custom" crs:Temperature="6000"
    crs:Tint="+10"
    crs:Exposure2012="+1.60"
    crs:Contrast2012="-20"

@@ -85,7 +85,7 @@ See `test/rebuild_xmps.py` for the exact template.
 ## Key Rules for Agents
 1. NEVER add Calibration panel values (RedHue/Sat, GreenHue/Sat, BlueHue/Sat, ShadowTint) — they create color channel imbalance. **Exception**: `Canon Color Science` uses calibration as its defining characteristic (emulates Canon's in-camera color science via calibration shifts), so calibration values are allowed there.
 2. Keep Vibrance within 5 points of Saturation, or remove Vibrance
-3. Avoid Temperature/Tint unless it's a defining characteristic of the film stock
+3. Avoid Temperature/Tint unless it's a defining characteristic of the film stock. When a preset *does* set `Temperature` or `Tint`, it MUST also declare `crs:WhiteBalance="Custom"` — `WhiteBalance` is the mode that activates the Kelvin value, so a preset with a bare `Temperature` is at best ambiguous and at worst inert
 4. Cap all HSL adjustments at ±60
 5. Keep presets SIMPLE — the working originals had 8-15 attributes, not 60+
 6. Research first: check `research/{preset}/` before modifying XMPs

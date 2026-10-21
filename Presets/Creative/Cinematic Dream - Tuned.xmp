@@ -28,7 +28,7 @@
    crs:Texture="0"
    crs:Vibrance="+64"
    crs:Saturation="-9"
-   crs:Temperature="5900"
+   crs:WhiteBalance="Custom" crs:Temperature="5900"
    crs:Tint="+13"
    
    crs:HueAdjustmentRed="-9"
