@@ -23,15 +23,15 @@ Era-specific color grading presets spanning 170 years of photographic history â€
 | 13 | **Kodachrome Mid-Century** | 1950s Kodachrome slide look, rich saturated reds, iconic deep blue skies |
 | 14 | **McBling Heyday** | Mid-2000s Y2K maximalist, hot pink, metallic chrome pop, celebrity tabloid aesthetic |
 | 15 | **Miami Vice** | 1980s pastel suit Miami, cyan-magenta neon, tropical noir color palette |
-| 16 | **Mod London** | 1960s London mod scene, high-contrast B&W, Carnaby Street sharpness |
+| 16 | **Mod London** | 1960s London mod scene, cool-shadow/warm-highlight colour, fine 35mm grain, Carnaby Street sharpness |
 | 17 | **Neon Synthwave** | 1980s outrun neon, purple-cyan grid, retro-futuristic synth aesthetic |
-| 18 | **New Wave** | 1980s new wave music, stark B&W with cold blue tint, angular fashion photography |
+| 18 | **New Wave** | 1980s new wave music, cyan-shadow/magenta-highlight colour clash, angular fashion photography |
 | 19 | **Post-War Optimism** | 1950s suburban warmth, Kodachrome saturation, sunny post-war Americana |
 | 20 | **Prohibition Sepia** | 1920s speakeasy sepia, warm brown tonal range, smoke-haze nostalgia |
-| 21 | **Punk Rock** | 1977 punk aesthetic, high-contrast B&W, fanzine xerox grit, DIY attitude |
+| 21 | **Punk Rock** | 1977 punk aesthetic, high-contrast desaturated colour, pushed-Tri-X grain, fanzine xerox grit, DIY attitude |
 | 22 | **Summer of Love** | 1967 psychedelic California, warm film saturation, sun-flare golden glow |
 | 23 | **Victorian Daguerreotype** | 1840s silver-plate portrait, high contrast, mirrored metallic surface aesthetic |
-| 24 | **WWII Newsreel** | 1940s 16mm newsreel film, B&W high contrast, documentary urgency |
+| 24 | **WWII Newsreel** | 1940s 35mm theatrical newsreel, near-monochrome cool silver tone, heavy grain, documentary urgency |
 | 25 | **Y2K Digicam** | 2000s consumer digicam, blown highlights, early CCD sensor color cast |
 
 ## See Also
