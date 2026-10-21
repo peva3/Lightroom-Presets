@@ -94,7 +94,7 @@
 
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Film Emulations</rdf:li>
+     <rdf:li xml:lang="x-default">Creative</rdf:li>
     </rdf:Alt>
    </crs:Group>
 
@@ -139,7 +139,7 @@
      crs:SupportsOutputReferred="True">
      <crs:Group>
       <rdf:Alt>
-       <rdf:li xml:lang="x-default">Profiles</rdf:li>
+       <rdf:li xml:lang="x-default">Creative</rdf:li>
       </rdf:Alt>
      </crs:Group>
     </rdf:Description>

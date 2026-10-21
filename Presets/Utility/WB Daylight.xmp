@@ -77,7 +77,7 @@
    crs:SupportsSceneReferred="True"
    crs:Temperature="5500"
    crs:Texture="0"
-   crs:Tint="+10"
+   crs:Tint="0"
    crs:Treatment="Color"
    crs:UUID="3C070A5960FF50E9D60C5861A494DA4C"
    crs:Vibrance="0"

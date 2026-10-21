@@ -21,7 +21,7 @@
  <rdf:Description crs:Name="Adobe Monochrome" crs:Amount="1.000000" crs:UUID="0C09521111114111B1115456789ABCDE" crs:SupportsAmount="True" crs:SupportsMonochrome="False" crs:SupportsOutputReferred="True">
  <crs:Group>
  <rdf:Alt>
- <rdf:li xml:lang="x-default">Profiles</rdf:li>
+ <rdf:li xml:lang="x-default">Creative</rdf:li>
  </rdf:Alt>
  </crs:Group>
  </rdf:Description>
