@@ -13,7 +13,7 @@
    crs:SupportsSceneReferred="True"
    crs:SupportsOutputReferred="True"
    crs:RequiresRenditionBehavior="True"
-   crs:Name="Classic Cuban Negative (Fuji Sim)"
+   crs:Name="Classic Cuban Negative"
    crs:Treatment="Color"
    crs:ProcessVersion="15.4"
    crs:HasSettings="True"
