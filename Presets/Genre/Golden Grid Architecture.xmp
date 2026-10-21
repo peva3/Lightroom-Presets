@@ -28,7 +28,7 @@
     crs:Clarity2012="+10"
     crs:Dehaze="+15"
     crs:Texture="+5"
-    crs:Vibrance="+20"
+    crs:Vibrance="+10"
     crs:Saturation="+5"
     crs:HueAdjustmentYellow="-10"
     crs:SaturationAdjustmentOrange="+25"
@@ -63,7 +63,7 @@
    </crs:Name>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Architecture</rdf:li>
+     <rdf:li xml:lang="x-default">Genre</rdf:li>
     </rdf:Alt>
    </crs:Group>
    <crs:ToneCurvePV2012>

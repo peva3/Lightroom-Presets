@@ -20,6 +20,8 @@
    crs:ColorGradeShadowLum="0"
    crs:ColorGradeShadowSat="0"
    crs:ColorNoiseReduction="25"
+   crs:ColorNoiseReductionDetail="50"
+   crs:ColorNoiseReductionSmoothness="50"
    crs:Contrast2012="0"
    crs:Dehaze="0"
    crs:Exposure2012="0.00"
@@ -44,6 +46,8 @@
    crs:LuminanceAdjustmentPurple="0"
    crs:LuminanceAdjustmentRed="0"
    crs:LuminanceAdjustmentYellow="0"
+   crs:LuminanceNoiseReductionContrast="0"
+   crs:LuminanceNoiseReductionDetail="50"
    crs:LuminanceSmoothing="0"
    crs:Name="Full Reset"
    crs:PostCropVignetteAmount="0"
@@ -64,10 +68,10 @@
    crs:SaturationAdjustmentRed="0"
    crs:SaturationAdjustmentYellow="0"
    crs:Shadows2012="0"
-   crs:Sharpness="0"
    crs:SharpenDetail="25"
    crs:SharpenEdgeMasking="0"
    crs:SharpenRadius="+1.0"
+   crs:Sharpness="40"
    crs:SupportsAmount="True"
    crs:SupportsColor="True"
    crs:SupportsHighDynamicRange="True"
@@ -79,6 +83,7 @@
    crs:Treatment="Color"
    crs:UUID="7AFF7CD3CE1AD3032337D6351F52355D"
    crs:Vibrance="0"
+   crs:WhiteBalance="As Shot"
    crs:Whites2012="0">
   <crs:Name>
    <rdf:Alt>
