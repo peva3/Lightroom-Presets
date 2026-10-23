@@ -1,3 +1,8 @@
+---
+title: Video LUT Reference Presets — 20 Free Lightroom XMP Presets
+description: "Video-matched LUT reference presets — free Lightroom XMP presets designed as color grading references for cross-format video workflows. 20 presets bridging"
+---
+
 # Video LUT Reference Presets — 20 Free Lightroom XMP Presets
 
 Video-matched LUT reference presets — free Lightroom XMP presets designed as color grading references for cross-format video workflows. 20 presets bridging still photography color grading with cinematic video LUT aesthetics, from film emulation to creative video looks.
@@ -28,12 +33,3 @@ Video-matched LUT reference presets — free Lightroom XMP presets designed as c
 | 18 | **Velvia 50 Video** | Velvia landscape slide for video, extreme saturation, deep green rendering |
 | 19 | **WKW Hong Kong Video** | Wong Kar-Wai video grade, green/red drench, step-print dream aesthetic |
 | 20 | **Wes Anderson Pastel Video** | Wes Anderson symmetrical pastel for video, whimsical desaturated primary palette |
-
-## See Also
-
-- [Creative / Cinematic](creative.md)
-- [Color Negative Film](color-negative.md)
-- [Slide / E-6 Film](slide.md)
-- [Mobile & Social Media](mobile.md)
-
-> All presets comply with STYLEGUIDE: ProcessVersion 15.4, neutral curves, proper Look block, grain protection.

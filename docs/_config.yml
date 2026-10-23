@@ -1,0 +1,24 @@
+title: Emulsion Presets
+description: 451 open-source film emulation and creative presets for Adobe Lightroom — MIT licensed, no paywall.
+url: "https://peva3.github.io"
+baseurl: "/EmulsionPresets"
+
+theme: jekyll-theme-primer
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-relative-links
+  - jekyll-seo-tag
+
+relative_links:
+  enabled: true
+  collections: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - README.md

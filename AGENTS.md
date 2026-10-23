@@ -1,4 +1,4 @@
-# Project: Lightroom Presets (peva3/Lightroom-Presets)
+# Project: Lightroom Presets (peva3/EmulsionPresets)
 
 ## Overview
 48 XMP Lightroom presets across 4 categories:
@@ -99,3 +99,6 @@ See `test/rebuild_xmps.py` for the exact template.
 14. **Global fading needs `Saturation`, not HSL**: `SaturationAdjustment*` is per-hue and cannot mute an image. Faded/expired/matte looks require a global `Saturation` cut plus targeted HSL. Record the preset's intended tonal register (cool-overcast, neutral, warm-golden, high-key) in its `research/{preset}/characteristics.md` and validate against that register.
 
 15. **Lightroom hue sliders move toward neighbouring bands, not "warmer/cooler"**: the axis runs Red → Orange → Yellow → Green → Aqua → Blue → Purple → Magenta. A *negative* `HueAdjustmentGreen` moves foliage toward yellow/olive; a *positive* value moves it toward cyan. "Portra olive greens" is therefore negative. The same logic applies to Yellow (negative → orange), Aqua (negative → green) and Blue (negative → cyan). Full table in `research/whitepapers/lightroom-xmp-attribute-reference.md` §4.1.
+16. **Keep the machine-readable catalog in sync**: `presets.json`, `llms.txt`, `llms-full.txt` and the `docs/` category tables are all generated from `Presets/` — run `python3 test/build_catalog.py` after adding, renaming or removing any preset, and commit the regenerated files together with the preset change. GitHub Pages serves the site from `docs/`, so `docs/llms.txt`, `docs/llms-full.txt` and `docs/presets.json` are mirrors written by the same script.
+17. **New presets must be discoverable by name**: the `crs:Name` attribute, the `<crs:Name>` element and the filename stem must match, and the description in `presets.json` comes from `docs/` or the research dossier. A preset with no dossier and no one-line description will be rejected by the catalog build.
+

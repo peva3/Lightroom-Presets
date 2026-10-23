@@ -1,0 +1,42 @@
+# Emulsion Presets
+
+> 451 open-source film emulation and creative presets for Adobe Lightroom and Camera Raw.
+> Raw `.xmp` files, MIT licensed, no paywall. Kodak, Fujifilm, Ilford, Cinestill, Agfa
+> emulations plus cinematic, historic-process, genre, decade and geographic looks.
+> Every preset uses ProcessVersion 15.4 and a proper camera-profile Look block, and is
+> documented with a sourced research dossier.
+
+Key facts: 451 presets · 13 categories · MIT license · free · Lightroom Classic, Lightroom CC,
+Camera Raw · Presets are `.xmp` files, no plugin required · Actively maintained.
+
+## Catalog
+
+- [presets.json](https://github.com/peva3/EmulsionPresets/blob/main/presets.json): machine-readable catalog — name, category, treatment, file path, one-line description for all 451 presets
+- [docs/index.md](https://github.com/peva3/EmulsionPresets/blob/main/docs/index.md): human index of every category
+
+## Categories
+
+- [Color Negative Film](https://github.com/peva3/EmulsionPresets/blob/main/docs/color-negative.md) (83) — C-41 negative film emulations: Kodak Portra, Gold, Ektar, Ultramax, Fuji Superia, Pro, Reala, cinema stocks
+- [Black & White Film](https://github.com/peva3/EmulsionPresets/blob/main/docs/black-white.md) (58) — Monochrome emulations: Tri-X, T-Max, HP5, Delta, Pan F, Acros, Neopan, Fomapan, Rollei, Adox
+- [Slide / E-6 Film](https://github.com/peva3/EmulsionPresets/blob/main/docs/slide.md) (20) — Reversal film emulations: Kodachrome, Velvia, Provia, Astia, Ektachrome, Fortia, Sensia
+- [Creative / Cinematic](https://github.com/peva3/EmulsionPresets/blob/main/docs/creative.md) (52) — Cinematic and experimental looks: VHS, cyberpunk, bleach bypass, cross-process, teal and orange
+- [Alternative Processes](https://github.com/peva3/EmulsionPresets/blob/main/docs/alternative-process.md) (25) — Historic photographic processes: cyanotype, wet plate, daguerreotype, platinum, autochrome
+- [Utility & Tools](https://github.com/peva3/EmulsionPresets/blob/main/docs/utility.md) (40) — Workflow tools: exposure brackets, white balance, noise reduction, sharpening, vignette, grain
+- [Genre-Specific](https://github.com/peva3/EmulsionPresets/blob/main/docs/genre.md) (33) — Genre-targeted looks: wedding, newborn, real estate, food, product, fashion, sports, astro, underwater
+- [Seasonal & Holiday](https://github.com/peva3/EmulsionPresets/blob/main/docs/seasonal.md) (20) — Seasonal and holiday looks: autumn, winter, spring, summer, Christmas, Halloween
+- [Historical Decade](https://github.com/peva3/EmulsionPresets/blob/main/docs/decade.md) (25) — Era emulations from the 1840s to the 2000s, decade by decade
+- [Geographic & Cultural](https://github.com/peva3/EmulsionPresets/blob/main/docs/geographic.md) (32) — Regional colour palettes: Japanese, Korean, Mediterranean, Indian, Moroccan, Parisian, Scandinavian
+- [Mobile & Social Media](https://github.com/peva3/EmulsionPresets/blob/main/docs/mobile.md) (23) — Social-media looks: Instagram filter recreations, TikTok, selfie, flat lay
+- [Photographer Styles](https://github.com/peva3/EmulsionPresets/blob/main/docs/photographer.md) (20) — Signature styles of master photographers: Ansel Adams, Cartier-Bresson, McCurry, Eggleston
+- [Video LUT Reference](https://github.com/peva3/EmulsionPresets/blob/main/docs/video.md) (20) — XMP matches of the still presets for video-first colour workflows
+
+## Guides
+
+- [README](https://github.com/peva3/EmulsionPresets/blob/main/README.md): what this is, how to install, comparison to paid preset packs
+- [STYLEGUIDE.md](https://github.com/peva3/EmulsionPresets/blob/main/STYLEGUIDE.md): the technical rules every preset follows, with sources
+- [research/](https://github.com/peva3/EmulsionPresets/tree/main/research): per-preset dossiers (characteristics, community recipes, datasheets, verification notes)
+- [CHANGELOG.md](https://github.com/peva3/EmulsionPresets/blob/main/CHANGELOG.md): version history
+
+## Optional
+
+- [llms-full.txt](https://github.com/peva3/EmulsionPresets/blob/main/llms-full.txt): the entire catalog as plain prose, one line per preset

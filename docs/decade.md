@@ -1,6 +1,11 @@
+---
+title: Historical Decade Presets — 25 Free Lightroom XMP Presets
+description: "Era-specific color grading presets spanning 170 years of photographic history — from 1840s Daguerreotype to 2000s Y2K digicam. 25 XMP presets for authentic"
+---
+
 # Historical Decade Presets — 25 Free Lightroom XMP Presets
 
-Era-specific color grading presets spanning 170 years of photographic history — from 1840s Daguerreotype to 2000s Y2K digicam. 25 free Lightroom XMP presets for authentic period-correct film emulation, historical aesthetics, and decade-specific color grading.
+Era-specific color grading presets spanning 170 years of photographic history — from 1840s Daguerreotype to 2000s Y2K digicam. 25 XMP presets for authentic period-correct film emulation, historical aesthetics, and decade-specific color grading.
 
 ← [All Categories](index.md)
 
@@ -9,7 +14,7 @@ Era-specific color grading presets spanning 170 years of photographic history �
 | # | Preset | Character / Source |
 |---|---|---|
 | 1 | **Civil War Era** | 1860s wet plate collodion, sepia-brown tones, stark documentary contrast |
-| 2 | **Cross-Processed** | Slide film in C-41 chemistry, green-yellow shift, 1990s editorial/fashion aesthetic |
+| 2 | **Cross Processed** | Slide film in C-41 chemistry, green-yellow shift, 1990s editorial/fashion aesthetic |
 | 3 | **Diner Americana** | 1950s chrome diner nostalgia, neon red glow, glossy countertop warmth |
 | 4 | **Disco Warm** | 1970s disco orange-teal, warm analog haze, mirrored dance-floor glow |
 | 5 | **Dust Bowl Documentary** | 1930s FSA photography, dry sepia tones, harsh sun, wide-angle documentary grit |
@@ -33,13 +38,3 @@ Era-specific color grading presets spanning 170 years of photographic history �
 | 23 | **Victorian Daguerreotype** | 1840s silver-plate portrait, high contrast, mirrored metallic surface aesthetic |
 | 24 | **WWII Newsreel** | 1940s 35mm theatrical newsreel, near-monochrome cool silver tone, heavy grain, documentary urgency |
 | 25 | **Y2K Digicam** | 2000s consumer digicam, blown highlights, early CCD sensor color cast |
-
-## See Also
-
-- [Color Negative Film](color-negative.md)
-- [Black & White Film](black-white.md)
-- [Creative / Cinematic](creative.md)
-- [Photographer Styles](photographer.md)
-- [Alternative Processes](alternative-process.md)
-
-> All presets comply with STYLEGUIDE: ProcessVersion 15.4, neutral curves, proper Look block, grain protection.

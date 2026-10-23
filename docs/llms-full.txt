@@ -1,0 +1,509 @@
+Emulsion Presets — full catalog
+
+451 open-source film emulation and creative presets for Adobe Lightroom and Camera Raw.
+MIT licensed. Free. No paywall. Each preset is a standalone .xmp file.
+Repository: https://github.com/peva3/EmulsionPresets
+
+Color Negative Film (83 presets)
+C-41 negative film emulations: Kodak Portra, Gold, Ektar, Ultramax, Fuji Superia, Pro, Reala, cinema stocks.
+
+- Adox Color Implosion (Color): Adox Color Implosion was a deliberately flawed experimental color negative film produced by Adox (Fotoimpex, Germany).
+- Agfa Optima 100 (Color): Agfa Optima 100 was a German consumer-grade color negative film produced from the mid-1990s through the mid-2000s.
+- Agfa Optima 200 (Color): Agfa Optima 200 was the faster variant of the Agfa Optima consumer color negative family. Produced from the mid-1990s through the mid-2000s.
+- Agfa Ultra 100 (Color): High saturation consumer film, vibrant reds, warm yellow cast, discontinued 2005
+- Agfa Vista 100 (Color): Budget color negative, neutral palette, fine grain for price point
+- Agfa Vista 200 (Color): Everyday 200-speed consumer film, natural skin tones, balanced rendering
+- Agfa Vista 400 (Color): High-speed budget film, moderate grain, warm rendering, all-rounder
+- C Print (Color): RA-4 chromogenic color paper character, soft contrast, pastel shadow tones
+- CineStill 400D (Color): Daylight-balanced cinema film, remjet removed, halation glow in highlights
+- CineStill 50D (Color): Daylight-balanced color negative cinema film (remjet removed)
+- Ferrania Solaris FG 400 (Color): Italian 400-speed, grain-heavy rendering, warm Mediterranean color palette
+- Fuji 100 Industrial (Color): Japanese-market-only consumer film, ultra-fine grain, cool-neutral balance. Known as the "Japanese Superia." Sold in bulk in Japan as "Fujicolor 100 Industrial".
+- Fuji NPS 160 Pulled (Color): Fujicolor NPS 160 pulled 1 stop (overexposed + reduced development). Low contrast, low saturation, cooler color balance, finer grain, soft contrast portrait film.
+- Fuji Natura 1600 (Color): Japanese-market high-speed color negative, designed for Fuji Natura Classica, NP mode
+- Fuji Pro 160C (Color): Higher-contrast, higher-saturation professional color negative. The "vivid" sibling in Fujifilm's PRO 160 line.
+- Fuji Pro 160NS (Color): The definitive breakdown of Fujifilm's pastel portrait film — cool-cyan shadows, low contrast, and the "pro wedding photographer" palette.
+- Fuji Pro 800Z (Color): High-speed professional portrait film. Fujifilm's answer to Portra 800 — warm tones, moderate grain, low-light mastery.
+- Fuji Reala 100 (Color): Fourth color layer for accurate greens, neutral skin tones, archival-grade, discontinued
+- Fuji Superia 100 (Color): Fine-grain consumer film, cool-neutral color, sharp acutance, entry-level quality
+- Fuji Superia 1600 (Color): High-speed consumer negative, prominent grain, cool shadow cast, low-light option
+- Fuji Superia 200 (Color): General purpose 200-speed, slightly cool bias, good skin, reliable all-rounder
+- Fuji Superia 800 (Color): Fast consumer film, punchy saturation, green-leaning shadow tones
+- Fuji Superia HG 1600 (Color): "High Grade" Superia variant — premium high-speed consumer film. Finer grain than standard Superia 1600, better skin tones, less green shadow cast.
+- Fuji Superia X-TRA 400 +1 (Color): Overexposed 1 stop, pastel rendering, reduced grain, softer contrast
+- Fuji Superia X-TRA 400 (Color): Versatile consumer 400-speed, punchy greens, cool-leaning shadow tones
+- Fujicolor C200 (Color): Entry-level 200-speed, warm-golden bias, decent exposure latitude
+- Fujicolor NPH (Color): Professional portrait/wedding film, low contrast, neutral skin tones, Pro 400H precursor
+- Fujicolor Superia Premium 400 (Color): Japanese-market premium 400-speed, finer grain than standard Superia X-TRA
+- Fujifilm Classic Chrome (Color): A complete analysis of the Classic Chrome look: color palette, contrast behavior, tonal response, and how it differs from other Fujifilm simulations.
+- Fujifilm Classic Negative (Color): Soft magenta-yellow palette, muted saturation, raised blacks, nostalgic digital simulation
+- Fujifilm Pro 400H (Color): The definitive breakdown of the "400H look" — why wedding photographers and editorial shooters are still grieving.
+- Fujifilm Eterna (Color): Primary: Soft, muted, low-contrast cinematic look with warm cast
+- Fujifilm Nostalgic Negative (Color): Digital film simulation (Fujifilm X-T5 / X-Trans V)
+- Kodacolor VR 200 (Color): 1980s consumer negative, warm-yellow cast, moderate grain, vintage snapshots
+- Kodak ColorPlus 200 (Color): Budget consumer film, warm yellow-red bias, high latitude, very forgiving
+- Kodak Ektar 100 +1 (Color): Overexposed Ektar, slightly softer saturation, creamier skin tones than box speed
+- Kodak Ektar 100 (Color): Tagline: "Slide film in C-41 clothing" — Ultra-saturated color negative with minimal grain, high contrast, and warm earth tones. A polarizing film stock that either delights or overwhelms.
+- Kodak Farbwelt 200 Expired (Color): European-market Kodak variant, 10+ year expired, magenta-shifted color, faded contrast
+- Kodak Gold 200 +1 (Color): Overexposed Gold 200, pastel-soft contrast, dreamy highlight blooming
+- Kodak Gold 200 +2 (Color): Overexposed 2 stops, very pastel, washed-out sun-bleached snapshot aesthetic
+- Kodak Gold 200 Expired 10yr (Color): 10-year expired Gold, slight magenta color shift, reduced contrast from age
+- Kodak Gold 200 Expired 30yr (Color): 30-year expired, heavy magenta-green shift, pronounced grain, extreme color cast
+- Kodak Gold 200 Frontier (Color): Frontier SP3000 lab scan, high contrast, vibrant Kodak yellow rendering
+- Kodak Gold 200 Noritsu (Color): Noritsu HS-1800 lab scan, softer contrast, greener shadow balance
+- Kodak Gold 200 (Color): Warm golden consumer classic, punchy yellows, approachable contrast, every-shooter film
+- Kodak High Definition Plus 200 (Color): Fine-grain 200-speed consumer emulsion, clean rendering, HD marketing era
+- Kodak Max 800 (Color): High-speed consumer zoom-film, heavy grain, warm rendering, late-1990s era
+- Kodak Portra 160 (Color): Ultra-soft contrast, wide dynamic range, pastel-flawless skin.
+- Kodak Portra 160NC (Color): "Natural Color" — the lower-contrast, more neutral variant of Portra 160. The choice for accuracy-first commercial and fine art photographers.
+- Kodak Portra 160VC (Color): Pre-2010 "Vivid Color" Portra variant. Higher saturation and contrast than standard Portra, less pastel. The bridal/fashion photographers' choice before the current unified Portra line.
+- Kodak Portra 400 +1 (Color): Overexposed 1 stop, softer pastel palette, extended highlight detail on skin
+- Kodak Portra 400 +2 (Color): Overexposed 2 stops, ethereal pastel rendering, airy skin tones, editorial look
+- Kodak Portra 400 -1 (Color): Underexposed 1 stop, punchier contrast, slightly deeper saturation, grittier
+- Kodak Portra 400 120 (Color): Medium format look, finer apparent grain, smoother tonality at 6x6/6x7
+- Kodak Portra 400 4x5 (Color): Large format look, virtually grainless, maximum detail and dynamic range
+- Kodak Portra 400 Expired (Color): Aged Portra stock, muted contrast, subtle color shift from emulsion aging
+- Kodak Portra 400 Noritsu (Color): Noritsu lab scan profile, greener shadow balance, softer contrast rendering
+- Kodak Portra 400 (Color): Everything that makes Portra 400 the most sought-after film stock for digital emulation. Warmer than 160, Noritsu vs Frontier, overexposure behavior, and the "scan vs negative" debate.
+- Kodak Portra 400NC (Color): "Natural Color" at 400 speed — the most accurate, neutral 400-speed color negative film ever made. Discontinued in 2010.
+- Kodak Portra 400UC (Color): "Ultra Color" / "Vivid Color" — Portra 400 with the saturation turned up. The choice for fashion, editorial, and vibrant commercial work.
+- Kodak Portra 400VC (Color): Pre-2010 "Vivid Color" 400-speed Portra variant. Punchier than standard Portra 400, more contrast, warmer and more saturated skin tones. The higher-speed sibling of Portra 160VC.
+- Kodak Portra 800 +1 (Color): Overexposed 800, cleaner shadows, reduced grain, softer contrast rendering
+- Kodak Portra 800 -1 (Color): Underexposed 800, grittier grain structure, boosted contrast, low-light aesthetic
+- Kodak Portra 800 (Color): High-speed professional portrait film, warm tones, moderate grain, low-light king
+- Kodak Pro Image 100 (Color): Tropical-market prosumer film, warm skin, humidity-resistant, affordable professional
+- Kodak Royal Gold 400 (Color): Discontinued premium consumer 400, rich saturation, finer grain than standard Gold
+- Kodak Ultramax 400 +1 (Color): Overexposed Ultramax, softer yellow-blue rendering, reduced grain appearance
+- Kodak Ultramax 400 +2 (Color): Heavily overexposed, flat pastel palette, sun-faded consumer film aesthetic
+- Kodak Ultramax 400 (Color): Punchy all-rounder consumer film, warm yellow cast, high contrast, affordable 400
+- Kodak Vericolor III 160 (Color): Professional portrait film (pre-1998). Extremely low contrast, very pastel, magenta-leaning shadows. The wedding and school portrait standard for 20+ years.
+- Kodak Vericolor VPS (Color): ISO 160 color negative film, introduced 1979. Part of the Vericolor family. Even lower contrast than Vericolor III. "VPS" = Vericolor Print Slide.
+- Kodak Vision3 250D ECN-2 (Color): Daylight cinema film stock, full ECN-2 process look, wide dynamic range
+- Kodak Vision3 250D (Color): Cross-processed in C-41, remjet removed, classic cinematic halation glow
+- Kodak Vision3 500T ECN-2 (Color): Tungsten cinema film stock, full ECN-2, incredible low-light cine latitude
+- Kodak Vision3 500T (Color): Cross-processed in C-41, tungsten-to-daylight color shift, cinematic grain
+- Kodak Vision3 50D (Color): Slow daylight cinema film, ultra-fine grain, saturated cinematic color
+- Kodak Ektachrome 320T (Color): Tungsten-balanced color reversal (slide) film
+- Lomochrome Purple (Color): Color-shift creative film, greens render as purple, surreal Lomo palette
+- Lomography Color 100 (Color): Lomo's 100-speed negative, boosted saturation, vignette-heavy character
+- ORWO NC 500 (Color): ORWO Wolfen NC 500 is a modern color negative film produced by ORWO (Original Wolfen) in Bitterfeld-Wolfen, Germany — the historic East German film factory.
+- RA-4 Color Print (Color): RA-4 wet print emulation, paper base warmth, darkroom color print aesthetic
+- Rollei Crossbird 200 (Color): Rollei Crossbird 200 is a specialty film intended for cross-processing — shooting slide (E-6) film and developing it in C-41 (color negative) chemistry.
+- SantaColor Aerocolor (Color): Aerial survey film repurposed, fine grain, high sharpness, cool-neutral balance
+
+Black & White Film (58 presets)
+Monochrome emulations: Tri-X, T-Max, HP5, Delta, Pan F, Acros, Neopan, Fomapan, Rollei, Adox.
+
+- Adox Silvermax 21 (Monochrome): Adox Silvermax 21 is an ultra-slow, ultra-fine-grain black-and-white negative film produced by Adox (Germany).
+- Agfa APX 100 (Monochrome): Fine grain, wide exposure latitude, cool-neutral tonality, classic European B&W
+- Agfa APX 25 (Monochrome): Ultra-fine grain, very high resolution, smooth gradation, discontinued gem
+- Agfa APX 400 (Monochrome): Agfa APX 400 was the high-speed member of Agfa's classic APX black-and-white film family. Sitting above APX 25 and APX 100, it offered a versatile combination of speed, moderate grain.
+- Agfa Scala 200 (Monochrome): B&W reversal (slide) film, deep blacks, high contrast, unique direct-positive
+- Bergger Pancro 400 (Monochrome): Bergger Pancro 400 is a French-made black-and-white negative film produced by Bergger Products. Its defining innovation is a dual-emulsion coating: two separate emulsion layers.
+- Copper Tone (Monochrome): Warm copper split-tone on monochrome base, metallic highlight sheen
+- Dramatic Monochrome (Monochrome): High contrast, crushed blacks, intense dramatic mood, fine-art B&W punch
+- Foma Fomapan 100 (Monochrome): Fomapan 100 is a classic cubic-grain black-and-white negative film produced by Foma Bohemia (Hradec Kralove, Czech Republic).
+- Foma Fomapan 200 (Monochrome): Fomapan 200 (also sold as Fomapan 200 Creative) is a unique medium-speed black-and-white film from Foma Bohemia.
+- Foma Fomapan 400 (Monochrome): Fomapan 400 is the high-speed member of Foma Bohemia's classic black-and-white film family. Using a traditional cubic-grain emulsion.
+- Fuji Neopan 1600 (Monochrome): High-speed photojournalism film, punchy contrast, fine grain for its speed
+- Fuji Neopan 400 (Monochrome): Versatile 400-speed, neutral gray balance, fine grain, workhorse film
+- Fujifilm Acros (Monochrome): Virtually no reciprocity failure, ultra-fine grain, smooth highlight roll-off
+- Gold Tone (Monochrome): Warm gold split-tone on grayscale, metallic midtone warmth, darkroom toning
+- Ilford Delta 100 (Monochrome): Core-shell crystal technology, ultra-fine grain, smooth modern tonality
+- Ilford Delta 3200 +2 (Monochrome): Pushed 2 stops (EI 12800), chunky golf-ball grain, extreme contrast
+- Ilford Delta 3200 Microphen (Monochrome): Microphen developer variant, tighter grain for speed, boosted shadow detail
+- Ilford Delta 3200 (Monochrome): A comprehensive analysis of the Ilford Delta 3200 visual signature — the "golf-ball grain, lifted blacks, low contrast.
+- Ilford Delta 400 (Monochrome): Fine-grain 400-speed, modern T-grain emulsion, neutral tonal palette
+- Ilford FP4 Plus 125 (Monochrome): Classic fine grain, rich creamy midtones, smooth highlight roll-off, 1935 heritage
+- Ilford HP5 Plus +1 (Monochrome): Pushed 1 stop (EI 800), increased grain structure, punchier midtone contrast
+- Ilford HP5 Plus +2 (Monochrome): Pushed 2 stops (EI 1600), pronounced grain, aggressive contrast, gritty texture
+- Ilford HP5 Plus -1 (Monochrome): Pulled 1 stop (EI 200), reduced grain, compressed shadows, softer rendering
+- Ilford HP5 Plus DD-X (Monochrome): Ilford DD-X developer, finer grain, more open shadow detail than ID-11 standard
+- Ilford HP5 Plus Expired (Monochrome): Aged film stock, fogged emulsion base, reduced contrast, increased base grain
+- Ilford HP5 Plus Stand Dev (Monochrome): 1-hour stand development with Rodinal, edge effects, compensating developer look
+- Ilford HP5 Plus (Monochrome): A comprehensive breakdown of HP5's visual signature, with extended HP5 vs Tri-X analysis.
+- Ilford MG Warmtone (Monochrome): Warm chlorobromide paper base, rich darkroom warmth, fiber-paper aesthetic
+- Ilford Ortho Plus 80 (Monochrome): Blue/green sensitivity only, dark reds render black, high contrast, scientific film
+- Ilford Pan F Plus 50 (Monochrome): Ultra-fine grain, high contrast, rich deep blacks, slowest Ilford emulsion
+- Ilford SFX 200 (Monochrome): Extended red sensitivity, near-infrared effect with deep red/R72 filter
+- Ilford XP2 Super (Monochrome): C-41 chromogenic film, dye-based grain, smooth highlights, flexible ISO
+- Kentmere Pan 400 (Monochrome): Budget 400-speed, moderate grain, good midtone separation, entry-level classic
+- Kodak Panatomic-X 32 (Monochrome): Kodak Panatomic-X was an ultra-fine-grain, slow-speed black-and-white negative film (ISO 32). Introduced in 1933 and discontinued in 1987.
+- Kodak Plus-X 125 (Monochrome): Medium speed classic, fine grain, smooth creamy tonality, discontinued legend
+- Kodak Recording Film 2475 (Monochrome): Kodak Recording Film 2475 was an ultra-high-speed black-and-white negative film designed for surveillance and law enforcement applications.
+- Kodak T-Max 100 (Monochrome): T-grain micro-film, extremely fine grain, sharp acutance, modern rendering
+- Kodak T-Max 3200 +2 (Monochrome): Pushed to EI 12800, heavy golf-ball grain, extreme contrast, concert staple
+- Kodak T-Max 3200 (Monochrome): Ultra-high-speed multi-purpose, pronounced T-grain structure, dramatic tonality
+- Kodak T-Max 400 (Monochrome): T-grain 400-speed, fine grain with enhanced sharpness, modern B&W alternative
+- Kodak Technical Pan (Monochrome): Kodak Technical Pan (SO-115) was the highest-resolution black-and-white film ever commercially produced.
+- Kodak Tri-X 400 +1 (Monochrome): Push +1 (EI 800), classic grain structure with bite, street photography grit
+- Kodak Tri-X 400 +2 (Monochrome): Push +2 (EI 1600), aggressive grain, concert/low-light photojournalism staple
+- Kodak Tri-X 400 -1 (Monochrome): Pulled 1 stop (EI 200), finer grain, compressed contrast, creamy rendering
+- Kodak Tri-X 400 120 (Monochrome): Medium format version, finer apparent grain, smoother tonality at 6x6/6x7
+- Kodak Tri-X 400 Expired (Monochrome): Aged emulsion, fogged base, reduced contrast, gritty vintage grain character
+- Kodak Tri-X 400 HC-110 (Monochrome): HC-110 developer, tighter grain than D-76, more midtone bite and sharpness
+- Kodak Tri-X 400 Rodinal (Monochrome): Rodinal developer, pronounced acutance, sharp grain edges, classic combo
+- Kodak Tri-X 400 (Monochrome): The undisputed king of photojournalism B&W film. Distinctive grain pattern, crisp whites, aggressive mid-tones, legendary push behavior.
+- Kodak Verichrome Pan (Monochrome): Kodak Verichrome Pan was a medium-speed black-and-white negative film designed for simple box cameras and consumer use.
+- M645 Medium Format (Monochrome): Mamiya 645 aesthetic, finer apparent grain, creamy medium-format tonal scale
+- Ricoh High-Contrast Monochrome (Monochrome): Heavy push-processing style, deep blacks, stark whites, aggressive street contrast
+- Rollei Retro 400S (Monochrome): Rollei Retro 400S is a super-panchromatic 400-speed black-and-white film, the faster sibling of Retro 80S.
+- Rollei Retro 80S (Monochrome): Rollei Retro 80S is a super-panchromatic (extended red sensitivity) fine-grain black-and-white film produced by Agfa-Gevaert (Belgium) and sold under the Rollei/Maco brand.
+- Selenium Tone (Monochrome): Cool-purple black split-tone, archival darkroom selenium toning technique
+- Sepia Tone (Monochrome): Warm brown classic darkroom toning, vintage print aesthetic, sulfide process
+- Split Warm-Cool (Monochrome): Warm sepia highlights with cool selenium shadows, two-tone monochrome split
+
+Slide / E-6 Film (20 presets)
+Reversal film emulations: Kodachrome, Velvia, Provia, Astia, Ektachrome, Fortia, Sensia.
+
+- AgfaChrome RS 100 (Color): German slide film, slightly warm/golden cast, moderate contrast. Agfa's professional reversal film with European color sensibility.
+- Ektachrome 100G (Color): Predecessor to current E100, slightly warmer blue, finer grain. Professional standard for commercial work 2001-2012.
+- Elite Chrome 200 (Color): Consumer-grade Ektachrome, warmer/more contrasty than pro E100, grainier. Kodak's affordable slide film for the mass market.
+- Fuji Astia 100F (Color): Soft contrast portrait slide film, neutral skin tones, Fuji's wedding-workhorse reversal
+- Fuji Fortia SP 50 (Color): Ultra-saturated limited edition slide, designed for cherry blossoms, Japan-only release
+- Fuji Provia 100F (Color): Standard professional E-6 slide, neutral color balance, fine grain all-purpose workhorse
+- Fuji Provia 400F (Color): Fuji Provia 400F (E-6, daylight balanced at 5500K) was Fujifilm's professional ISO 400 color transparency film, introduced as the second generation of the Provia 400 line.
+- Fuji Provia 400X (Color): Fast 400-speed slide film, punchy saturation, surprisingly fine grain for speed
+- Fuji Sensia 100 (Color): Consumer-grade Provia variant, slightly warmer rendering, good value E-6 film
+- Fuji Velvia 100 (Color): Less extreme than Velvia 50, warmer, better skin tones. The most-used slide film by nature photographers in the 2000s.
+- Fuji Velvia 50 (Color): The landscape photographer's holy grail. Extreme saturation, deep greens, punchy blues, crushed contrast, grain-free slide film perfection.
+- Kodachrome 200 (Color): Higher-speed Kodachrome, warmer and grainier than K25/K64, good for sports/wildlife in the 1980s-90s.
+- Kodachrome 25 (Color): Finest-grain slide film ever made (RMS 8), extremely sharp, slightly cooler than K64. Legendary among landscape photographers.
+- Kodachrome 64 (Color): "Kodachrome had more poetry in it, a softness, an elegance. With digital photography, you gain many benefits [but] you have to put in post-production.
+- Kodak Ektachrome 100VS (Color): Vivid Saturation variant, punchy reds and blues, pre-2009 landscape favorite
+- Kodak Ektachrome 200 (Color): Kodak Ektachrome 200 (E-6, daylight balanced at 5500K) was Kodak's mid-speed professional slide film.
+- Kodak Ektachrome 400X (Color): Kodak Ektachrome 400X (E-6, daylight balanced at 5500K) was Kodak's high-speed professional slide film.
+- Kodak Ektachrome 64 (Color): Kodak Ektachrome 64 (E-6, daylight balanced at 5500K) was the mid-speed vintage Ektachrome slide film that predates the modern E100.
+- Kodak Ektachrome E100 (Color): Modern E100 reissue, clean neutral slide rendering, fine grain everyday E-6 film
+- Kodak Elite Chrome 400 (Color): Fast consumer-grade slide, punchy but grainy, Kodak's high-speed E-6 offering
+
+Creative / Cinematic (52 presets)
+Cinematic and experimental looks: VHS, cyberpunk, bleach bypass, cross-process, teal and orange.
+
+- 1980s VHS Synthwave (Color): 1980s analog video aesthetic, neon magenta/cyan chroma bleed, VHS tracking artifacts
+- Arctic Cinematic (Color): Suppressed warm colors with cool blue highlights and shadows
+- Autumn Gold (Color): Strong green desaturation removes summer tones
+- Beige Cream (Color): Golden-warm highlights with cool shadow depth
+- Bleach Bypass (Color): Silver retention process emulation — desaturated with metallic contrast lift, Saving Private Ryan look
+- Canon Color Science (Color): Canon's "warm skin tones" are the most frequently cited target for camera profile crossovers. This document catalogs the community consensus on what distinguishes Canon color rendering from…
+- Cinematic Beach Teal & Orange (Color): A warm golden-hour beach aesthetic with strong teal/orange cinematic split toning. Combines the classic teal/orange Hollywood look with beach-specific color moves: warm 6500K WB.
+- Cinematic Dream - Tuned (Color): User-provided creator-tuned variant of the "Cinematic Dream" aesthetic. Likely sourced from a 2017-2018 YouTube/content creator preset pack era. No specific author identified.
+- Cinematic Dream Look (Color): Soft bloom diffusion, lifted blacks, anamorphic cinematic haze, dream-sequence glow
+- Cinematic Teal and Orange (Color): Hollywood blockbuster color contrast — teal shadows, warm orange skin tones
+- Cinestill 800T (Color): Tungsten-balanced cinema film, red halation rings, cyan-cold night photography
+- Classic Cuban Negative (Color): Verdict: accurate (creator-tuned — left untouched by instruction) - Defining traits checked: (1) Classic Negative palette.
+- Classic Portrait Glow (Color): Soft, glowing portrait rendering with gentle contrast and warm skin tones
+- Cozy Espresso (Color): Desaturated colors with rich brown-amber tones
+- Cross-Processed Velvia (Color): Velvia slide film developed in C-41, extreme green-yellow shift, heavy contrast
+- Cyberpunk Neon City (Color): A comprehensive analysis of the visual language, color theory, and technical qualities that define the Cyberpunk Neon City aesthetic in photography and film.
+- Deep Forest Green (Color): Green hue toward yellow-olive for natural woodland
+- Deep Moody Shadow (Color): Low-key cinematic grade with deep blue shadows and desaturated midtones
+- Disposable Camera Flash (Color): Direct-flash aesthetic, blown highlights, plastic disposable lens contrast, party snapshot
+- Eterna Summer (Color): Lower contrast than Classic Chrome or PRO Neg.
+- Faded Summer Expired (Color): Expired film pastel color, warm sun-faded look, 1970s summer snapshot nostalgia
+- Faux Infrared (Monochrome): Digital IR simulation, white glowing foliage, pink/red color channel swap
+- Fuji Soft Ember (Classic Neg) (Color): A warm, soft "ember" take on Fujifilm Classic Negative — designed for golden-hour and warm-light portraits. Emphasizes creamy skin, warm amber midtones, and muted cool shadows.
+- Fujifilm Eterna Bleach Bypass (Color): Silver retention cinema process (bleach bypass on Eterna stock)
+- Golden Glow (Color): Strong warm temperature + tint for rich golden light
+- High-Key Candy Architecture (Color): Creator-tuned preset (first 26 of Presets/Creative/). No prior research folder existed; this file was created during the 2026-10-21 validation sweep.
+- Kodachrome Blue (Color): Cool-tuned Kodachrome variant, deep blue sky rendering, crisp yellow separation
+- Kodak Aerochrome (Color): False-color infrared film, magenta-red foliage, surreal color palette shifts
+- Kodak 2383 Print Film (Color): Kodak Vision 2383 print stock emulation, cinematic teal/orange film-out look
+- Light and Airy Fine Art (Color): High-key fine art photography, soft pastel tones, bright ethereal highlight rendering
+- Lomography Cross-Processed (Color): Unpredictable Lomo cross-processed slide look, heavy vignette, wild color shifts
+- Lomography Metropolis (Color): Primary: Muted, desaturated urban color palette with a warm cast
+- Matte Fade (Color): Faded lifted matte blacks, desaturated midtones, modern cinematic editorial look
+- McCurry Kodachrome (Color): Steve McCurry's signature Kodachrome toning, warm golden earth-tone portrait palette
+- Medina Teal and Orange - Tuned (Color): Teal shadows / orange skin separation; aqua-blue push in shadows; lifted skin luminance; clean highlight separation.
+- Midnight City (Color): Aggressive clarity + dehaze for crisp neon definition
+- Moody Cinematic Film - Creator Tuned (Color): This preset was provided as an exact XMP file by the user. The name "Creator Tuned" suggests it was produced by a YouTube content creator or photographer who sells or distributes preset pack…
+- Moody PNW (Color): Dark, brooding evergreen vibes with crushed greens and atmospheric haze. The dominant aesthetic of Pacific Northwest Instagram photography.
+- Pastel Anime Aethereal (Color): Soft pastel cyan-magenta palette, dreamy anime sky tones, aethereal atmosphere
+- Pastel Summer Bronze (Color): Creator-tuned preset — warm, pastel bronze summer aesthetic with airy blue skies, golden skin tones, and a cinematic tone curve.
+- Polaroid SX-70 (Color): Integral instant film aesthetic, soft focus, cream-white tones, vintage Polaroid warmth
+- Portugal Nostalgic (Fuji Sim) (Color): Warm nostalgic Fuji-style recipe: amber highlights, teal shadows, matte curve
+- Pushed CineStill 800T (Color): Warm orange highlights from pushed color crossover
+- Ricoh Superior 100 (Negative Film) (Color): Ricoh's warm cinematic negative profile: amber grade, olive highlights, no grain
+- Soft Dreamy Pastel (Color): Strong negative clarity for soft romantic bloom
+- Stage Lights (Color): Maximum clarity + dehaze for sharp stage shots
+- Super 8 Home Movie (Color): Super 8 Kodachrome aesthetic, gate weave texture, warm projection glow, home movie nostalgia
+- Urban Street (Color): High clarity for concrete/brick/urban material texture
+- Vibrant Color Pop (Color): Maximum saturation and clarity for social-first images that need to stop a scroll
+- Wes Anderson Pastel (Color): Symmetrical pastel palette, desaturated primaries, whimsical cinematic color blocking
+- Wong Kar-Wai 80s Hong Kong (Color): Drenched red/green color, motion blur, step-print dream aesthetic, neon-soaked nights
+- Y2K Flash Digicam (Color): The definitive breakdown of early-2000s digicam aesthetics: blown-out direct flash, CCD sensor color shifts, outdated auto white balance.
+
+Alternative Processes (25 presets)
+Historic photographic processes: cyanotype, wet plate, daguerreotype, platinum, autochrome.
+
+- Albumen Print (Monochrome): Glossy egg-white coated paper, warm brown-purple tones, 1850s Blanquart-Evrard
+- Autochrome (Color): Pointillist potato-starch color grain, muted pastel palette, 1903 Lumière
+- BW Infrared (Monochrome): White glowing foliage, black skies, near-IR spectral response, 720nm+ filter
+- Bromoil (Monochrome): Bromide print inked with oil pigment, soft charcoal-like texture and brushwork
+- Calotype (Monochrome): Paper negative aesthetic, soft detail, warm brown tones, 1841 Talbot patent
+- Cross Process C41→E6 (Color): C-41 negative film in E-6 chemistry, high contrast with warm-orange shift
+- Cross Process E6→C41 (Color): E-6 slide film developed in C-41 chemistry, strong green-blue color shift
+- Cyanotype Classic (Monochrome): Prussian blue monochrome, high contrast, 1842 Sir John Herschel process
+- Cyanotype Tea-Toned (Monochrome): Warm brown-toned cyanotype, split-toned blue/brown shadows via tannic acid
+- Daguerreotype (Monochrome): Mirror-like polished silver plate, extremely fine detail, 1839 Daguerre
+- Diana F+ (Color): Lo-fi 120 plastic camera, dreamy blur, vignetted square format, toy camera aesthetic
+- Film Soup (Color): Boiled, dyed, or soaked negative — unpredictable color stains, warped texture
+- Gum Bichromate (Color): Soft painterly texture, watercolor-like tonal gradations, pigment process
+- Holga (Color): Plastic meniscus lens, heavy vignette, soft focus, light leaks, 120 medium format
+- Lith Print (Monochrome): Infectious development, gritty grain, warm olive-yellow shadow tones
+- Lomo LC-A (Color): High saturation, vignette-heavy, Minitar 32mm f/2.8 character, Lomography cult
+- Palladium Print (Monochrome): Warmer than platinum, sepia-brown midtones, velvety deep shadows
+- Pinhole (Color): Infinite depth of field, soft diffraction, long-exposure stillness, lensless photography
+- Platinum Print (Monochrome): Matte finish, warm black-to-neutral tones, luminous highlight separation
+- Redscale (Color): Red-orange-yellow color cast, reversed film layer shooting technique
+- Salt Print (Monochrome): Matte paper, reddish-brown tones, 1830s Talbot calotype positive process
+- Solarization (Monochrome): Partial tone reversal, dark Mackie-line halos around highlights, Man Ray style
+- Van Dyke Brown (Monochrome): Deep chocolate brown, matte finish, iron-silver kallitype process
+- Wet Plate Ambrotype (Monochrome): Positive image on glass backed with black, milky highlights, soft contrast
+- Wet Plate Tintype (Monochrome): Positive image on blackened metal, brown-black tones, 1850s collodion
+
+Utility & Tools (40 presets)
+Workflow tools: exposure brackets, white balance, noise reduction, sharpening, vignette, grain.
+
+- Astro NR (Color): Astrophotography noise reduction, star sharpness preservation, dark-sky optimized
+- Dehaze Correct (Color): Atmospheric haze removal correction, clarity and dehaze combined recovery
+- Exposure +0.30 (Color): One-third stop exposure boost, subtle brightness increase
+- Exposure +0.70 (Color): Two-thirds stop exposure boost, moderate brightness lift
+- Exposure +1.00 (Color): One stop exposure boost, significant brightness increase
+- Exposure +1.50 (Color): One and a half stops exposure boost, strong brightening
+- Exposure +2.00 (Color): Two stops exposure boost, heavy brightening for underexposed images
+- Exposure -0.30 (Color): One-third stop exposure reduction, subtle darkening
+- Exposure -0.70 (Color): Two-thirds stop exposure reduction, moderate darkening
+- Exposure -1.00 (Color): One stop exposure reduction, significant darkening
+- Full Reset (Color): Complete reset to zero — all Develop panel sliders returned to default
+- Grain - Fine (Color): Subtle fine film grain overlay, organic texture without obtrusion
+- Grain - Heavy (Color): Strong film grain overlay, pronounced analog texture character
+- Grain - Medium (Color): Balanced film grain overlay, moderate analog character
+- Grain - Pushed (Color): Push-process film grain, gritty elevated texture, high-ISO film grain
+- Heavy NR (Color): Aggressive noise reduction, heavy smoothing for very high ISO images
+- High ISO NR (Color): High ISO optimized noise reduction with detail preservation
+- Lens Correction - Disable (Color): Disable all lens profile corrections (vignette, distortion, CA)
+- Lens Correction - Enable (Color): Enable lens profile correction for the currently mounted lens
+- Light NR (Color): Subtle luminance noise reduction, light grain smoothing
+- Medium NR (Color): Balanced noise reduction, moderate detail and texture retention
+- Reset Basic (Color): Reset only Basic panel sliders (exposure, contrast, highlights, shadows, whites, blacks)
+- Reset Effects + Detail (Color): Reset Effects panel (grain, vignette) + Detail panel (sharpening, NR)
+- Reset HSL (Color): Reset all HSL / Color Mixer panel adjustments to zero
+- Reset Tone Curve (Color): Reset parametric and point tone curves to linear across all channels
+- Sharpening - Creative (Color): High-radius creative sharpening, artistic texture enhancement
+- Sharpening - Landscape (Color): Edge-sharpness optimized for landscape detail and distant textures
+- Sharpening - Portrait (Color): Low-radius portrait sharpening, skin-safe detail enhancement
+- Sharpening - Print Output (Color): Print-optimized sharpening, higher radius for ink spread compensation
+- Sharpening - Screen Output (Color): Screen-optimized sharpening, fine radius for pixel-level display
+- Vignette - Creative White (Color): White creative vignette, bright edge-burn for high-key images
+- Vignette - Medium (Color): Medium-strength dark vignette, moderate edge darkening
+- Vignette - Strong (Color): Strong dark vignette, heavy edge darkening for dramatic focus
+- Vignette - Subtle (Color): Subtle dark vignette, gentle edge darkening for subtle framing
+- WB Cloudy (Color): Cloudy white balance preset, warmer tone for overcast conditions
+- WB Daylight (Color): Daylight white balance preset, neutral mid-day color temperature
+- WB Flash (Color): Flash white balance preset, neutral electronic flash color rendering
+- WB Fluorescent (Color): Fluorescent white balance preset, green correction for tube lighting
+- WB Shade (Color): Shade white balance preset, warmest tone for deep shade conditions
+- WB Tungsten (Color): Tungsten white balance preset, blue correction for incandescent lighting
+
+Genre-Specific (33 presets)
+Genre-targeted looks: wedding, newborn, real estate, food, product, fashion, sports, astro, underwater.
+
+- Bright & Airy Wedding (Color): High-key wedding processing, soft pastel tones, bright clean whites, romantic airy feel
+- Bright Neutral Interior (Color): Real estate photography, clean whites, lifted shadows, architecturally neutral balance
+- Classic Timeless Wedding (Color): Warm timeless wedding rendering, true-to-life color, elegant soft contrast
+- Clean Baby Portrait (Color): Soft newborn processing, smooth skin tones, gentle warm pastel baby palette
+- Clean Bright Food (Color): Overhead restaurant lighting, true white balance, appetizing natural color pop
+- Color Decisive Moment (Color): Documentary street photography, vivid true-to-life color, sharp decisive contrast
+- Color Recovery (Color): Restore faded JPEGs or flat RAW files, boost saturation, recover clipped channels
+- Cool Modern Interior (Color): Architecture/interior design, cool white balance, clean modern minimal aesthetic
+- Court Action Indoor (Color): Indoor sports photography, fast shutter styling, boosted midtone clarity
+- Dark Moody Culinary (Color): Dark food styling, rich deep shadows, dramatic side-lit culinary presentation
+- Detail Pop (Color): Macro and product photography, maximum micro-contrast, sharp detailed rendering
+- Dreamy Maternity (Color): Soft maternity glow, warm backlit aura, gentle highlight bloom for expecting mothers
+- Epic Landscape (Color): Golden hour landscape, deep rich sky, punchy foreground detail and texture
+- Eye Enhance (Color): Portrait eye pop, iris clarity boost, sharp catchlight enhancement
+- Golden Grid Architecture (Color): Golden Grid Architecture is a warm, contrasty architectural photography Lightroom preset designed for golden-hour building and cityscape shots.
+- Grass Natural Exterior (Color): Outdoor natural green rendering, realistic grass tones, balanced sky exposure
+- Haze Removal (Color): Atmospheric haze penetration, dehaze plus contrast, clarity recovery
+- High Contrast Editorial (Color): Fashion editorial B&W, high contrast grayscale, bold graphic punch
+- Lifestyle Product (Color): Flat lay and product shots, clean background separation, natural lifestyle tones
+- Low Light Performance (Color): High ISO noise optimization, low light detail recovery, grain-balanced rendering
+- Milky Way Core (Color): Deep-sky astrophotography, Milky Way core pop, night sky color recovery
+- Moody Editorial Wedding (Color): Dark wedding editorial, deep rich shadows, moody romantic fine-art tones
+- Muted Avant-Garde (Color): Fine art muted palette, desaturated editorial, avant-garde subtlety and restraint
+- Night Sky Landscape (Color): Wide-field astro landscape, cool night sky rendering, foreground detail balance
+- Sky Pop Exterior (Color): Polarizer simulation, deep blue sky, enhanced green foliage contrast
+- Soft Milky Newborn (Color): Newborn skin smoothing, creamy whites, soft pastel baby photography tones
+- Stage Lighting (Color): Concert and venue photography, colored stage lights, high ISO optimization
+- Star Trails (Color): Long exposure star trails, night sky stacking, sharp celestial rendering
+- Vibrant Field Action (Color): Outdoor sports photography, bright grass fields, vivid jersey/skin separation
+- Warm Appetizing Food (Color): Warm food styling, golden highlight tones, rich appetizing brown rendering
+- Warm Home Interior (Color): Cozy residential interior, warm tungsten balance, inviting lived-in mood
+- White BG E-Commerce (Color): Product on white background, true 255 white, clean e-commerce ready output
+- Zone Focus B&W (Monochrome): Street photography B&W, zone focus hyperfocal style, high contrast grayscale
+
+Seasonal & Holiday (20 presets)
+Seasonal and holiday looks: autumn, winter, spring, summer, Christmas, Halloween.
+
+- Beach Bright (Color): Summer beach sunshine, bright white sand, turquoise ocean water, sunscreen glow
+- Ceremony (Color): Wedding ceremony softness, romantic natural light, emotional warm tonal range
+- Cherry Blossom (Color): Sakura pink pastel tones, spring bloom softness, fresh new-growth green
+- Chinese New Year (Color): Festive red and gold tones, lantern warmth, celebratory Lunar New Year palette
+- Christmas Snowy Bright (Color): Snowy winter whites, bright holiday cheer, clean festive brightness
+- Christmas Warm Fireside (Color): Cozy fireplace warmth, amber glow tones, pine green holiday accents
+- Diwali Festive (Color): Festival of lights golden tones, diya lamp warmth, vibrant Indian celebration
+- Fresh Pastel (Color): Spring fresh pastel, soft bloom colors, airy new-season morning light
+- Getting Ready (Color): Bridal prep soft tones, warm getting-ready morning light, anticipation mood
+- Golden Foliage (Color): Peak autumn foliage, rich orange-red maple, golden leaf glow backlight
+- Golden Hour Endless (Color): Extended golden hour warmth, perpetual warm sun, flattering portrait light
+- Graduation (Color): Cap and gown celebration, bright achievement joy, proud warm tonal palette
+- Halloween Orange-Purple (Color): Pumpkin orange + spooky purple, jack-o-lantern glow, festive autumn palette
+- Halloween Spooky Dark (Color): Dark haunted aesthetic, deep shadows, eerie cold blue moonlight cast
+- Harvest Warm (Color): Autumn harvest warmth, cornucopia gold, Thanksgiving earthy tonal range
+- Moody Fall (Color): Dark autumn mood, misty fog atmosphere, damp leaf brown, gothic seasonal
+- Reception (Color): Wedding reception, warm candlelit dinner ambience, festive celebration glow
+- Spring Garden (Color): Blooming garden pastel, tulip/daffodil color, fresh morning dew rendering
+- Summer Vibes (Color): Summer energy burst, saturated bright tones, poolside/beach carefree warmth
+- Valentine's Romantic Pink (Color): Valentine's Day romance, soft pink glow, candlelight warmth, romantic elegance
+
+Historical Decade (25 presets)
+Era emulations from the 1840s to the 2000s, decade by decade.
+
+- Civil War Era (Color): 1860s wet plate collodion, sepia-brown tones, stark documentary contrast
+- Cross Processed (Color): Slide film in C-41 chemistry, green-yellow shift, 1990s editorial/fashion aesthetic
+- Diner Americana (Color): 1950s chrome diner nostalgia, neon red glow, glossy countertop warmth
+- Disco Warm (Color): 1970s disco orange-teal, warm analog haze, mirrored dance-floor glow
+- Dust Bowl Documentary (Color): 1930s FSA photography, dry sepia tones, harsh sun, wide-angle documentary grit
+- Earth Tones (Color): 1970s earthy brown/orange palette, muted olive greens, natural organic feel
+- Edwardian Pictorialist (Color): 1900s soft focus pictorialism, platinum-toned warmth, dreamy fog atmosphere
+- Gatsby Art Deco (Color): 1920s gold/bronze Art Deco palette, champagne warmth, jazz-age glamour
+- Grunge (Color): 1990s Seattle grunge aesthetic, desaturated olive, dirty distressed contrasts
+- Hip Hop Golden Era (Color): 1990s East Coast hip hop, saturated warm tones, urban grain, boombap aesthetic
+- Hollywood Glamour (Color): 1930s-40s studio portrait, soft key light, silver gelatin elegance
+- Indie Sleaze (Color): 2000s indie rock aesthetic, blown direct flash, low-fi consumer camera vibe
+- Kodachrome Mid-Century (Color): 1950s Kodachrome slide look, rich saturated reds, iconic deep blue skies
+- McBling Heyday (Color): Mid-2000s Y2K maximalist, hot pink, metallic chrome pop, celebrity tabloid aesthetic
+- Miami Vice (Color): 1980s pastel suit Miami, cyan-magenta neon, tropical noir color palette
+- Mod London (Color): 1960s London mod scene, cool-shadow/warm-highlight colour, fine 35mm grain, Carnaby Street sharpness
+- Neon Synthwave (Color): 1980s outrun neon, purple-cyan grid, retro-futuristic synth aesthetic
+- New Wave (Color): 1980s new wave music, cyan-shadow/magenta-highlight colour clash, angular fashion photography
+- Post-War Optimism (Color): 1950s suburban warmth, Kodachrome saturation, sunny post-war Americana
+- Prohibition Sepia (Color): 1920s speakeasy sepia, warm brown tonal range, smoke-haze nostalgia
+- Punk Rock (Color): 1977 punk aesthetic, high-contrast desaturated colour, pushed-Tri-X grain, fanzine xerox grit, DIY attitude
+- Summer of Love (Color): 1967 psychedelic California, warm film saturation, sun-flare golden glow
+- Victorian Daguerreotype (Color): 1840s silver-plate portrait, high contrast, mirrored metallic surface aesthetic
+- WWII Newsreel (Color): 1940s 35mm theatrical newsreel, near-monochrome cool silver tone, heavy grain, documentary urgency
+- Y2K Digicam (Color): 2000s consumer digicam, blown highlights, early CCD sensor color cast
+
+Geographic & Cultural (32 presets)
+Regional colour palettes: Japanese, Korean, Mediterranean, Indian, Moroccan, Parisian, Scandinavian.
+
+- Bali Tropical (Color): Lush tropical green foliage, warm Bali sunlight, temple stone warmth
+- Bangkok Street (Color): Neon street food market glow, humid night haze, vibrant colorful Thai palette
+- Brazilian Amazon (Color): Deep rainforest green, humid atmospheric haze, vibrant biodiversity colors
+- Byron Bay Surf (Color): Australian coastal gold light, ocean teal-blue, sun-bleached sand tones
+- CCCP Nostalgia (Color): Soviet-era analog aesthetic, faded socialist realist palette, cold concrete grey
+- Cape Town Coast (Color): Table Mountain golden hour, Atlantic deep blue, fynbos green vegetation
+- Desert Luxury (Color): Dune gold warm tones, luxury Arabian desert glow, polished resort palette
+- Dubai Modern (Color): Futuristic skyline cool blue, glass reflection tones, polished luxury aesthetic
+- English Garden (Color): Cottage garden pastel, soft green foliage, overcast romantic atmosphere
+- Fjord Moody (Color): Norwegian fjord blue-gray tones, dramatic cliff faces, cold mist atmosphere
+- Greek Islands White+Blue (Color): Santorini whitewash blue dome, Aegean sea teal, bright Mediterranean light
+- Holi Vibrant (Color): Holi festival color explosion, saturated powder pigments, vivid joyful palette
+- Italian Riviera (Color): Cinque Terre pastel facades, Ligurian sea teal, warm Mediterranean stone
+- K-Drama Cinematic (Color): Korean drama soft bloom, clean flawless skin, romantic cool-warm balance
+- K-Pop Vibrant (Color): K-Pop music video pop, saturated primary colors, glossy high-energy aesthetic
+- Kyoto Temple (Color): Temple wood warmth, moss garden green, zen quiet contemplative palette
+- LOTR Epic (Color): Middle-earth epic scale, misty mountain blue tones, golden Shire warmth
+- London Grey Overcast (Color): London grey sky tones, muted brick red, cool subdued urban palette
+- Marrakech Souk (Color): Moroccan spice market warmth, terracotta clay tones, vibrant textile colors
+- Mexican Pueblo (Color): Mexican pueblo architecture, warm adobe earth, vibrant folk art palette
+- Nordic Minimal (Color): Scandinavian clean whites, cool grey tones, minimalist wood warmth
+- Outback Red Earth (Color): Australian outback rust-red soil, harsh sunlight, eucalyptus green
+- Parisian Morning (Color): Paris morning light, Haussmann limestone cream, café terrace warmth
+- Rajasthan Golden (Color): Golden Thar Desert tones, sandstone fort warmth, vibrant Rajasthani color
+- Sahara Desert (Color): Sahara sand dune gold, harsh midday contrast, desert minimal tones
+- Sakura Season (Color): Cherry blossom pink pastel, soft spring light, Japanese hanami aesthetic
+- Savanna Golden (Color): African savanna golden hour, acacia silhouette, warm dust-haze glow
+- South Island Fjords (Color): New Zealand fjord blue waters, misty waterfall green, dramatic terrain
+- Spanish Costa (Color): Mediterranean coast warmth, terracotta roof orange, deep sea blue
+- Tokyo Neon Night (Color): Shibuya night neon, wet pavement reflections, cyberpunk Tokyo energy
+- Vietnam Rice Terraces (Color): Sapa rice terrace green, misty mountain layers, rural Southeast Asian palette
+- Wabi-Sabi Zen (Color): Japanese wabi-sabi aesthetic, muted earth tones, imperfect serene beauty
+
+Mobile & Social Media (23 presets)
+Social-media looks: Instagram filter recreations, TikTok, selfie, flat lay.
+
+- Bright Selfie (Color): Flattering front camera selfie processing, smooth skin tones, bright soft lighting
+- Clarendon (Color): Instagram Clarendon filter recreation, boosted highlight contrast, cool-blue midtones
+- Coffee Shop Warm (Color): Cozy café warmth, latte brown tones, indoor tungsten golden ambient light
+- Cozy Reading (Color): Soft warm lamp light glow, book nook comfort, hygge aesthetic rendering
+- Filmic Casual (Color): Everyday filmic look, subtle organic grain, casual analog warmth
+- Flash + Neon (Color): Nightclub direct flash + neon bleed, party snapshot vibe, club photography
+- Food Flatlay (Color): Overhead food flatlay optimization, clean whites, vibrant ingredient color pop
+- Gingham (Color): Instagram Gingham filter recreation, vintage wash fade, soft desaturated pastel
+- Golden Hour Selfie (Color): Golden hour front camera, warm skin glow, backlit hair halo light
+- High Energy Contrast (Color): TikTok high-energy style, boosted punchy contrast, social media pop
+- Juno (Color): Instagram Juno filter recreation, vibrant warm tones, boosted greens and reds
+- Lark (Color): Instagram Lark filter recreation, desaturated cool tones, minimalist blue-green
+- Lo Fi (Color): Instagram Lo-Fi filter recreation, rich deep saturation, strong shadow contrast
+- Nashville (Color): Instagram Nashville filter recreation, pink-warm pastel, retro romantic wash
+- Natural Skin (Color): True-to-life skin tones, minimal processing, natural beauty preservation
+- Northern Lights Pop (Color): Aurora borealis enhancement, green-purple night sky color pop
+- Overhead Clean (Color): Top-down product/flatlay, bright even lighting, clean pure white background
+- Showroom Reflection (Color): Automotive showroom glossy, polished reflection tones, clean metallic pop
+- Streetwear Contrast (Color): Streetwear fashion photography, punchy contrast, urban editorial cool
+- Thumbnail Max Pop (Color): YouTube thumbnail optimization, maximum color/contrast click-through pop
+- Valencia (Color): Instagram Valencia filter recreation, faded warm tones, soft golden highlights
+- Vintage Instant (Color): Polaroid/instant film fade, warm creamy whites, nostalgic snapshot aesthetic
+- X-Pro II (Color): Instagram X-Pro II filter recreation, heavy vignette, golden high-contrast pop
+
+Photographer Styles (20 presets)
+Signature styles of master photographers: Ansel Adams, Cartier-Bresson, McCurry, Eggleston.
+
+- Alec Soth (Color): Honest, muted color: No color grading tricks. The color is what was there, rendered faithfully and quietly.
+- Alex Webb (Color): Complex layered compositions: 3+ distinct planes of action in a single frame — each could be its own photograph
+- Ansel Adams Zone System (Monochrome): Red filter skies: Dramatically darkened blue skies that separate clouds and mountain peaks. Blue channel pulled to near-black in the gray conversion.
+- Cindy Sherman (Color): Film still aesthetic (Untitled Film Stills, 1977–1980): Black-and-white, but her color work carries the same DNA — as if they're production stills from movies that don't exist
+- David LaChapelle (Color): Hyper-real saturation: Colors pushed beyond natural into a pop art dimension. Red is RED. Blue is BLUE.
+- Fan Ho (Monochrome): Extreme geometric contrast: Backlit silhouettes against bright geometric light shafts
+- Gregory Crewdson (Color): Cinematic teal/cool shadows: The defining color move. Shadows go blue/teal.
+- Henri Cartier-Bresson (Monochrome): Moderate contrast: Not Ansel Adams dramatic, not flat. Natural tonal transitions.
+- Joel Meyerowitz (Color): Cape Cod golden light: The defining characteristic of his later masterwork. Warm, hazy, almost tangible — light you can feel.
+- Martin Parr (Color): Ring flash pop: Shadowless, flat lighting that saturates colors and eliminates depth. Like a specimen under a microscope.
+- Michael Kenna (Monochrome): Long exposure smoothness: Water becomes mist, clouds become streaks, people vanish
+- Nan Goldin (Color): Direct flash aesthetic: Hard shadows behind subjects, red-eye, blown highlights on faces — the snapshot turned art
+- Peter Lindbergh (Monochrome): Lifted midtones: Blacks are never truly black. Shadows breathe. The entire image floats in Zone IV–VII.
+- Saul Leiter (Color): Through-glass softness: Reflections on top of subjects, double exposures from window glass
+- Sebastiao Salgado (Monochrome): Biblical luminance: Highlights that seem to glow from within. Zones VIII–IX placed deliberately.
+- Steve McCurry (Color): Afghan Girl palette: Warm skin tones against cool/neutral backgrounds. The red-green contrast.
+- Tim Walker (Color): Pastel palette: Lavender, mint, blush pink, butter yellow, powder blue — never saturated, always soft
+- Todd Hido (Color): Cool blue/magenta night cast: The streetlight spectrum — sodium vapor (warm) mixed with fluorescent/LED (cool) creates distinctive magenta-blue shadows
+- Vivian Maier (Monochrome): Square format aesthetic: Central compositions, balanced geometries
+- William Eggleston (Color): Ordinary subjects, extraordinary color: A red ceiling, a blue tricycle, a green freezer — the color IS the subject
+
+Video LUT Reference (20 presets)
+XMP matches of the still presets for video-first colour workflows.
+
+- Bleach Bypass Video (Color): Silver retention film emulation for video, metallic low-saturation contrast
+- Cinematic Dream Look Video (Color): Anamorphic bloom and haze, lifted blacks, cinematic dream-sequence video grade
+- Cinestill 800T Video (Color): Tungsten cinema stock for video, red halation glow, cyan-cold night grading
+- Cross-Processed Velvia Video (Color): Velvia cross-processed green shift for video, heavy contrast slide-in-C41 look
+- Cyberpunk Neon Video (Color): Neon sci-fi palette for video, purple-cyan Blade Runner cyberpunk grade
+- Ektar 100 Video (Color): Ultra-saturated color negative for video, warm earth cine-tones from Ektar
+- Gold 200 Video (Color): Kodak Gold warmth for video, golden consumer film grading, sunlit nostalgia
+- Kodachrome 64 Video (Color): Iconic Kodachrome slide for video, rich saturated reds and deep blues
+- Kodak Aerochrome Video (Color): False-color infrared for video, magenta foliage, surreal Aerochrome cine grade
+- Moody PNW Video (Color): Pacific Northwest video mood, crushed dark greens, misty atmospheric tone
+- Pastel Anime Aethereal Video (Color): Anime-inspired pastel palette for video, soft cyan-magenta dream-sky tones
+- Polaroid SX-70 Video (Color): Instant film aesthetic for video, soft focus, cream-white nostalgia tones
+- Portra 400 Video (Color): Portra 400 film emulation for video, warm skin cine tones, editorial grade
+- Super 8 Home Movie Video (Color): Super 8 Kodachrome for video, gate weave texture, projection warmth nostalgia
+- Teal & Orange Cinematic Video (Color): Hollywood teal/orange for video, blockbuster color contrast video grade
+- Tri-X 400 Video (Monochrome): Tri-X B&W for video, classic grain structure, photojournalism monochrome contrast
+- VHS Synthwave Video (Color): VHS degradation for video, chroma bleed, tracking glitch, 1980s synthwave
+- Velvia 50 Video (Color): Velvia landscape slide for video, extreme saturation, deep green rendering
+- WKW Hong Kong Video (Color): Wong Kar-Wai video grade, green/red drench, step-print dream aesthetic
+- Wes Anderson Pastel Video (Color): Wes Anderson symmetrical pastel for video, whimsical desaturated primary palette
+

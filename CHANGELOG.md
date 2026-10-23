@@ -1,5 +1,23 @@
 # Changelog
 
+## [3.2.0] — 2026-10-23
+
+### Changed
+- **Repository renamed `Lightroom-Presets` → `EmulsionPresets`.** The old name was the most generic string in the category, which made the project impossible for search engines and language models to treat as a distinct entity. GitHub redirects the old URLs.
+- README rewritten so the first 200 words answer the query directly, with question-shaped section headings and a comparison table against VSCO, Mastin Labs and RNI.
+
+### Added
+- **`presets.json`** — machine-readable catalog of all 451 presets (name, category, treatment, file path, raw download URL, one-line description), generated from `Presets/` by `test/build_catalog.py`.
+- **`llms.txt`** and **`llms-full.txt`** — short index and full prose catalog for LLM crawlers.
+- **`CITATION.cff`** — citable metadata for teaching and research use.
+- **GitHub Pages site** served from `docs/` with Jekyll: `_config.yml`, front matter, `robots.txt` explicitly allowing AI crawlers, auto-generated `sitemap.xml`, and JSON-LD (`SoftwareApplication`, `ItemList`, `FAQPage`) on the index page.
+- `docs/` category tables regenerated from `Presets/` — all 13 counts now match the filesystem (previously several pages under-reported by 4–12 presets).
+- `AGENTS.md` rules 16–17: the catalog is generated, so it must be rebuilt on every preset change, and new presets must have a display name matching the filename stem plus a real description.
+
+### Fixed
+- Stale per-category counts in `docs/color-negative.md`, `black-white.md`, `slide.md`, `creative.md` and `genre.md`.
+- Repo-root relative links in `docs/` now point at GitHub, so they resolve on the Pages site too.
+
 ## [3.1.4] — 2026-10-21
 
 ### Fixed

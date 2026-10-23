@@ -1,3 +1,8 @@
+---
+title: Utility & Tool Presets — 40 Free Lightroom XMP Presets
+description: "Everyday photographer's toolkit — exposure brackets, white balance, noise reduction, sharpening, vignette, lens correction, and grain overlays as free Ligh"
+---
+
 # Utility & Tool Presets — 40 Free Lightroom XMP Presets
 
 Everyday photographer's toolkit — exposure brackets, white balance, noise reduction, sharpening, vignette, lens correction, and grain overlays as free Lightroom XMP presets. 40 free presets for efficient Lightroom workflow optimization and batch processing.
@@ -48,12 +53,3 @@ Everyday photographer's toolkit — exposure brackets, white balance, noise redu
 | 38 | **WB Fluorescent** | Fluorescent white balance preset, green correction for tube lighting |
 | 39 | **WB Shade** | Shade white balance preset, warmest tone for deep shade conditions |
 | 40 | **WB Tungsten** | Tungsten white balance preset, blue correction for incandescent lighting |
-
-## See Also
-
-- [Genre-Specific](genre.md)
-- [Black & White Film](black-white.md)
-- [Color Negative Film](color-negative.md)
-- [Mobile & Social Media](mobile.md)
-
-> All presets comply with STYLEGUIDE: ProcessVersion 15.4, neutral curves, proper Look block, grain protection.

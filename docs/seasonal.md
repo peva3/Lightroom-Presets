@@ -1,3 +1,8 @@
+---
+title: Seasonal & Holiday Presets — 20 Free Lightroom XMP Presets
+description: "Seasonal moods and holiday styles recreated as free Lightroom XMP presets — autumn, winter, spring, summer, Christmas, Halloween, Diwali, weddings, graduat"
+---
+
 # Seasonal & Holiday Presets — 20 Free Lightroom XMP Presets
 
 Seasonal moods and holiday styles recreated as free Lightroom XMP presets — autumn, winter, spring, summer, Christmas, Halloween, Diwali, weddings, graduations, and more. 20 free presets for seasonal color grading and holiday-themed photo editing.
@@ -28,12 +33,3 @@ Seasonal moods and holiday styles recreated as free Lightroom XMP presets — au
 | 18 | **Spring Garden** | Blooming garden pastel, tulip/daffodil color, fresh morning dew rendering |
 | 19 | **Summer Vibes** | Summer energy burst, saturated bright tones, poolside/beach carefree warmth |
 | 20 | **Valentine's Romantic Pink** | Valentine's Day romance, soft pink glow, candlelight warmth, romantic elegance |
-
-## See Also
-
-- [Geographic & Cultural](geographic.md)
-- [Mobile & Social Media](mobile.md)
-- [Color Negative Film](color-negative.md)
-- [Creative / Cinematic](creative.md)
-
-> All presets comply with STYLEGUIDE: ProcessVersion 15.4, neutral curves, proper Look block, grain protection.

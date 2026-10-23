@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: "Emulsion Presets: 451 open-source Lightroom film presets"
+message: >-
+  If you use these presets in teaching, research, or writing, please cite this
+  repository. Each preset ships with a research dossier recording its sources.
+type: software
+authors:
+  - family-names: Woodward
+    given-names: Patrick
+    alias: peva3
+repository-code: "https://github.com/peva3/EmulsionPresets"
+url: "https://peva3.github.io/EmulsionPresets/"
+license: MIT
+version: 3.1.4
+date-released: 2026-10-21
+abstract: >-
+  A collection of 451 Adobe Lightroom .xmp presets covering film stock emulation
+  (Kodak, Fujifilm, Ilford, Agfa, CineStill), cinematic colour grading, historic
+  photographic processes, genre-specific looks, decade emulations and regional
+  colour palettes. Every preset declares ProcessVersion 15.4, a camera-profile
+  Look block and neutral tone curve baselines, and is documented with a sourced
+  research dossier describing the film behaviour it targets.
+keywords:
+  - lightroom
+  - presets
+  - xmp
+  - film emulation
+  - color grading
+  - photography
+  - kodak
+  - fujifilm
+  - ilford
+  - open source

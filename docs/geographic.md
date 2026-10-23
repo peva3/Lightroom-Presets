@@ -1,3 +1,8 @@
+---
+title: Geographic & Cultural Presets — 32 Free Lightroom XMP Presets
+description: "Region-specific color palettes and cultural aesthetics recreated as free Lightroom XMP presets. From Japanese sakura and Korean drama to Mediterranean coas"
+---
+
 # Geographic & Cultural Presets — 32 Free Lightroom XMP Presets
 
 Region-specific color palettes and cultural aesthetics recreated as free Lightroom XMP presets. From Japanese sakura and Korean drama to Mediterranean coastlines, Indian festivals, and Scandinavian minimalism — 32 free presets for location-specific color grading and travel photography.
@@ -40,12 +45,3 @@ Region-specific color palettes and cultural aesthetics recreated as free Lightro
 | 30 | **Tokyo Neon Night** | Shibuya night neon, wet pavement reflections, cyberpunk Tokyo energy |
 | 31 | **Vietnam Rice Terraces** | Sapa rice terrace green, misty mountain layers, rural Southeast Asian palette |
 | 32 | **Wabi-Sabi Zen** | Japanese wabi-sabi aesthetic, muted earth tones, imperfect serene beauty |
-
-## See Also
-
-- [Seasonal & Holiday](seasonal.md)
-- [Mobile & Social Media](mobile.md)
-- [Creative / Cinematic](creative.md)
-- [Color Negative Film](color-negative.md)
-
-> All presets comply with STYLEGUIDE: ProcessVersion 15.4, neutral curves, proper Look block, grain protection.
