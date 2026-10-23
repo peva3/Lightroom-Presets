@@ -1,5 +1,5 @@
 ---
-title: Emulsion Presets — 451 Free Lightroom Film Presets
+title: 451 Free Lightroom Film Presets
 description: "451 open-source film emulation and creative presets for Adobe Lightroom. Kodak, Fujifilm, Ilford and Cinestill stocks plus cinematic, historic-process and genre looks. MIT licensed, free, no paywall."
 ---
 
